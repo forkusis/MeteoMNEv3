@@ -1,0 +1,386 @@
+{
+  "updated_at": "2026-08-18T23:53:43.617138+00:00",
+  "count": 38,
+  "stations": [
+    {
+      "sifra": "02BAR010",
+      "wmo": 13461,
+      "lat": 42.10563,
+      "lng": 19.08956,
+      "elevacija": 5.7,
+      "naziv": "Bar",
+      "tip": "glavna",
+      "aktivna": true
+    },
+    {
+      "sifra": "02BERA20",
+      "wmo": 13467,
+      "lat": 42.84595,
+      "lng": 19.88068,
+      "elevacija": 691.0,
+      "naziv": "Berane",
+      "tip": "glavna",
+      "aktivna": true
+    },
+    {
+      "sifra": "02BPLJ20",
+      "wmo": 13708,
+      "lat": 43.03469,
+      "lng": 19.7421,
+      "elevacija": 606.0,
+      "naziv": "Bijelo Polje",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02BIST20",
+      "wmo": null,
+      "lat": 42.9975,
+      "lng": 19.43747,
+      "elevacija": 810.0,
+      "naziv": "Bistrica",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02BOAN30",
+      "wmo": null,
+      "lat": 42.94199,
+      "lng": 19.21188,
+      "elevacija": 1000.0,
+      "naziv": "Boan",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02BUDV20",
+      "wmo": null,
+      "lat": 42.29074,
+      "lng": 18.83844,
+      "elevacija": 2.0,
+      "naziv": "Budva",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02CTNJ10",
+      "wmo": 13460,
+      "lat": 42.38416,
+      "lng": 18.92517,
+      "elevacija": 640.0,
+      "naziv": "Cetinje",
+      "tip": "glavna",
+      "aktivna": true
+    },
+    {
+      "sifra": "02CRKV30",
+      "wmo": null,
+      "lat": 42.57185,
+      "lng": 18.63461,
+      "elevacija": null,
+      "naziv": "Crkvice",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02DANL20",
+      "wmo": null,
+      "lat": 42.55046,
+      "lng": 19.10792,
+      "elevacija": 53.0,
+      "naziv": "Danilovgrad",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02DDOB30",
+      "wmo": null,
+      "lat": 43.02478,
+      "lng": 19.39594,
+      "elevacija": 760.0,
+      "naziv": "Donja Dobrilovina",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02DPLJ20",
+      "wmo": null,
+      "lat": 42.86634,
+      "lng": 19.31355,
+      "elevacija": 650.0,
+      "naziv": "Dragovica polje",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02GOBU30",
+      "wmo": null,
+      "lat": 43.0387,
+      "lng": 19.13738,
+      "elevacija": 1380.0,
+      "naziv": "Gornja Bukovica",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02GRAD30",
+      "wmo": null,
+      "lat": 43.39585,
+      "lng": 19.15309,
+      "elevacija": 700.0,
+      "naziv": "Gradac",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02HNOV10",
+      "wmo": null,
+      "lat": 42.45971,
+      "lng": 18.50927,
+      "elevacija": 60.0,
+      "naziv": "Herceg Novi",
+      "tip": "glavna",
+      "aktivna": true
+    },
+    {
+      "sifra": "02IVKO30",
+      "wmo": null,
+      "lat": 42.38019,
+      "lng": 18.83582,
+      "elevacija": null,
+      "naziv": "Ivanova korita",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02KOLS10",
+      "wmo": 13465,
+      "lat": 42.82617,
+      "lng": 19.5159,
+      "elevacija": 944.0,
+      "naziv": "Kolašin",
+      "tip": "glavna",
+      "aktivna": true
+    },
+    {
+      "sifra": "02KOSA30",
+      "wmo": null,
+      "lat": 43.19688,
+      "lng": 19.32025,
+      "elevacija": 1320.0,
+      "naziv": "Kosanica",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02KOVR30",
+      "wmo": null,
+      "lat": 43.18931,
+      "lng": 19.57089,
+      "elevacija": 1050.0,
+      "naziv": "Kovren",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02KUKO30",
+      "wmo": null,
+      "lat": 42.48223,
+      "lng": 19.51328,
+      "elevacija": null,
+      "naziv": "Kučka korita",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02LKOT20",
+      "wmo": null,
+      "lat": 42.42623,
+      "lng": 18.76643,
+      "elevacija": null,
+      "naziv": "Luka Kotor",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02MAMO30",
+      "wmo": null,
+      "lat": 42.76685,
+      "lng": 19.39146,
+      "elevacija": null,
+      "naziv": "Manastir Morača",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02MATE30",
+      "wmo": null,
+      "lat": 42.76062,
+      "lng": 19.55587,
+      "elevacija": 990.0,
+      "naziv": "Matesevo",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02MOKR30",
+      "wmo": null,
+      "lat": 42.93804,
+      "lng": 19.07239,
+      "elevacija": 1050.0,
+      "naziv": "Mokro",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02NIKS10",
+      "wmo": 13459,
+      "lat": 42.76681,
+      "lng": 18.95288,
+      "elevacija": 647.0,
+      "naziv": "Nikšić",
+      "tip": "glavna",
+      "aktivna": true
+    },
+    {
+      "sifra": "02NJGV30",
+      "wmo": null,
+      "lat": 43.12206,
+      "lng": 19.22277,
+      "elevacija": 1315.0,
+      "naziv": "Njegovuđa",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02PLJV10",
+      "wmo": 13363,
+      "lat": 43.35028,
+      "lng": 19.3575,
+      "elevacija": 784.0,
+      "naziv": "Pljevlja",
+      "tip": "glavna",
+      "aktivna": true
+    },
+    {
+      "sifra": "02PLZN20",
+      "wmo": 13707,
+      "lat": 43.15748,
+      "lng": 18.84515,
+      "elevacija": 780.0,
+      "naziv": "Pluzine",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02PDGR10",
+      "wmo": 13463,
+      "lat": 42.43648,
+      "lng": 19.27199,
+      "elevacija": 49.0,
+      "naziv": "Podgorica",
+      "tip": "glavna",
+      "aktivna": true
+    },
+    {
+      "sifra": "02POSC30",
+      "wmo": null,
+      "lat": 42.97496,
+      "lng": 19.07436,
+      "elevacija": 1020.0,
+      "naziv": "Pošćenje",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02STAB30",
+      "wmo": null,
+      "lat": 43.16354,
+      "lng": 18.7545,
+      "elevacija": 780.0,
+      "naziv": "Stabna",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02UBLI20",
+      "wmo": null,
+      "lat": 42.4948,
+      "lng": 19.38612,
+      "elevacija": null,
+      "naziv": "Ubli",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02ULCN10",
+      "wmo": 13562,
+      "lat": 41.9166,
+      "lng": 19.25293,
+      "elevacija": 29.0,
+      "naziv": "Ulcinj",
+      "tip": "glavna",
+      "aktivna": true
+    },
+    {
+      "sifra": "02VELK30",
+      "wmo": null,
+      "lat": 42.66445,
+      "lng": 19.95465,
+      "elevacija": 1200.0,
+      "naziv": "Velika",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02VELM20",
+      "wmo": null,
+      "lat": 42.82194,
+      "lng": 18.63389,
+      "elevacija": 812.0,
+      "naziv": "Velimlje",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02VIRP20",
+      "wmo": null,
+      "lat": 42.23941,
+      "lng": 19.08301,
+      "elevacija": 14.0,
+      "naziv": "Virpazar",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02STIT30",
+      "wmo": null,
+      "lat": 42.91682,
+      "lng": 19.52225,
+      "elevacija": 1050.0,
+      "naziv": "Štitarica",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02SCPO30",
+      "wmo": null,
+      "lat": 43.34763,
+      "lng": 18.84454,
+      "elevacija": 466.0,
+      "naziv": "Šćepan Polje",
+      "tip": "klimatološka",
+      "aktivna": true
+    },
+    {
+      "sifra": "02ZBLJ10",
+      "wmo": 13361,
+      "lat": 43.15576,
+      "lng": 19.12174,
+      "elevacija": 1450.0,
+      "naziv": "Žabljak",
+      "tip": "glavna",
+      "aktivna": true
+    }
+  ]
+}
