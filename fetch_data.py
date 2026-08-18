@@ -21,7 +21,6 @@ MAX_POINTS_PER_STATION = 96
 
 FIELDNAMES = ["sifra", "tip", "stanica", "datum_vrijeme", "T", "vlaga", "RR", "vjetar", "smjer_kod", "udar", "insolacija", "pritisak"]
 
-# Realističan "Browser" potpis da ne izgledamo kao robot
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
@@ -55,7 +54,7 @@ def flatten(data):
                 "stanica": naziv,
                 "datum_vrijeme": dt_str,
                 "T": T,
-                "vlaga": "",  # Popuniće se iz grafika
+                "vlaga": "",
                 "RR": RR,
                 "vjetar": wind,
                 "smjer_kod": wind_dir,
@@ -64,6 +63,31 @@ def flatten(data):
                 "pritisak": "",
             })
     return rows
+
+def migrate_history_csv():
+    """Jednokratna migracija: ako history.csv ima stari raspored (11 kolona bez 'vlaga'),
+    prepisuje ga u novi raspored i ispravlja redove od 12 vrijednosti koji su
+    upisani po starom zaglavlju (pomjerene kolone)."""
+    if not os.path.exists(HISTORY_CSV):
+        return
+    with open(HISTORY_CSV, newline="", encoding="utf-8") as f:
+        all_rows = [r for r in csv.reader(f) if r]
+    if not all_rows:
+        return
+    header = all_rows[0]
+    if header == FIELDNAMES:
+        return  # vec migrirano, nema sta da se radi
+    fixed = []
+    for r in all_rows[1:]:
+        if len(r) == 11:
+            fixed.append(r[:5] + [""] + r[5:])   # stari red: dodaj praznu vlagu
+        else:
+            fixed.append(r)                      # red od 12 vrijednosti: vec je u novom rasporedu
+    with open(HISTORY_CSV, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(FIELDNAMES)
+        writer.writerows(fixed)
+    print(f"Migracija history.csv zavrsena: {len(fixed)} redova prebaceno u novi raspored.")
 
 def extract_balanced_object(html, var_name):
     marker = re.search(r"var\s+" + re.escape(var_name) + r"\s*=", html)
@@ -91,42 +115,29 @@ def js_object_to_json(js_str):
     return s
 
 def fetch_graph_extra(session, sifra, tip, naziv):
-    """Vraca (insolacija, pritisak, vlaga) uz nasumicnu pauzu radi bezbjednosti."""
     try:
-        # NASUMICNA PAUZA (1.5 do 3.5 sekundi) - KLJUCNO ZA IZBJEGAVANJE BANA
         time.sleep(random.uniform(1.5, 3.5))
-        
         url = f"{GRAPH_URL}?v={tip}&s={sifra}&name={quote(naziv)}&p=&d="
         r = session.get(url, timeout=30, headers=HEADERS, verify=False)
         r.raise_for_status()
-        
         obj_str = extract_balanced_object(r.text, "DataAll")
         if not obj_str:
             return "", "", ""
-            
         data = json.loads(js_object_to_json(obj_str))
-        
-        # Insolacija (G3 -> GR)
         g3 = data.get("G3", {})
         gr = g3.get("GR", [])
         insolacija = gr[-1][1] if gr else ""
-        
-        # Pritisak (G3 -> P)
         p = g3.get("P", [])
         pritisak = p[-1][1] if p else ""
-        
-        # VLAGA / RH (G1 -> H) - NOVO!
         g1 = data.get("G1", {})
         h = g1.get("H", [])
         vlaga = h[-1][1] if h else ""
-        
         return insolacija, pritisak, vlaga
     except Exception as e:
         print(f"  ! Greška pri dohvatanju grafika za {naziv} ({sifra}): {e}")
         return "", "", ""
 
 def enrich_with_graph_data(session, rows):
-    """Sada prolazi kroz SVE stanice da bi nasao vlagu, pritisak i insolaciju."""
     for row in rows:
         print(f"  Dohvatam grafikone za: {row['stanica']} ({row['tip']})...")
         insolacija, pritisak, vlaga = fetch_graph_extra(session, row["sifra"], row["tip"], row["stanica"])
@@ -192,14 +203,16 @@ def export_station_history():
             json.dump(points, out, ensure_ascii=False)
 
 def main():
-    # Koristimo Session da drzimo konekciju otvorenom (brze i prirodnije za server)
     session = requests.Session()
-    
+
+    print("Provjeravam da li history.csv treba migraciju...")
+    migrate_history_csv()
+
     print("Povlačim glavnu listu stanica...")
     html = fetch_raw(session)
     data = extract_posljednje(html)
     rows = flatten(data)
-    
+
     print(f"Pronađeno {len(rows)} stanica. Krećem u dohvatanje detalja (vlažnost, pritisak)...")
     print("Ovo će trajati oko 2 minuta zbog bezbjednosnih pauza.")
     rows = enrich_with_graph_data(session, rows)
