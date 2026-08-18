@@ -3,6 +3,7 @@ import json
 import csv
 import os
 import time
+import random
 from datetime import datetime, timezone
 from urllib.parse import quote
 
@@ -16,28 +17,31 @@ DATA_DIR = "data"
 HISTORY_CSV = os.path.join(DATA_DIR, "history.csv")
 LATEST_JSON = os.path.join(DATA_DIR, "latest.json")
 STATION_HISTORY_DIR = os.path.join(DATA_DIR, "history")
-MAX_POINTS_PER_STATION = 96  # otprilike poslednjih ~16-24h, zavisno od učestalosti izvještavanja stanice
+MAX_POINTS_PER_STATION = 96
 
-FIELDNAMES = ["sifra", "tip", "stanica", "datum_vrijeme", "T", "RR", "vjetar", "smjer_kod", "udar", "insolacija", "pritisak"]
+FIELDNAMES = ["sifra", "tip", "stanica", "datum_vrijeme", "T", "vlaga", "RR", "vjetar", "smjer_kod", "udar", "insolacija", "pritisak"]
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+# Realističan "Browser" potpis da ne izgledamo kao robot
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "sr-Latn-ME,sr;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Connection": "keep-alive"
+}
 
-
-def fetch_raw():
-    r = requests.get(BASE_URL, timeout=20, headers=HEADERS, verify=False)
+def fetch_raw(session):
+    r = session.get(BASE_URL, timeout=30, headers=HEADERS, verify=False)
     r.raise_for_status()
     return r.text
-
 
 def extract_posljednje(html):
     m = re.search(r"var\s+posljednje\s*=\s*(\{.*?\});", html, re.S)
     if not m:
-        raise ValueError("Nisam pronašao 'posljednje' varijablu na stranici — struktura sajta se možda promijenila.")
+        raise ValueError("Nisam pronašao 'posljednje' varijablu na stranici.")
     raw = m.group(1)
     raw = re.sub(r",\s*\]", "]", raw)
     raw = re.sub(r",\s*\}", "}", raw)
     return json.loads(raw)
-
 
 def flatten(data):
     rows = []
@@ -51,6 +55,7 @@ def flatten(data):
                 "stanica": naziv,
                 "datum_vrijeme": dt_str,
                 "T": T,
+                "vlaga": "",  # Popuniće se iz grafika
                 "RR": RR,
                 "vjetar": wind,
                 "smjer_kod": wind_dir,
@@ -60,10 +65,7 @@ def flatten(data):
             })
     return rows
 
-
 def extract_balanced_object(html, var_name):
-    """Pronalazi 'var <var_name>= {...};' i vraća string sadržaja vitičastih zagrada,
-    brojeći otvorene/zatvorene zagrade da se ne zaustavi prerano na ugniježđenim objektima."""
     marker = re.search(r"var\s+" + re.escape(var_name) + r"\s*=", html)
     if not marker:
         return None
@@ -82,48 +84,56 @@ def extract_balanced_object(html, var_name):
         i += 1
     return None
 
-
 def js_object_to_json(js_str):
-    """Kljucevi u DataAll nisu pod navodnicima (npr. G1:{...}) — dodajemo navodnike da bi json.loads mogao da parsira.
-    Takodje uklanjamo zalutale zareze prije ] ili } koje JS dozvoljava a JSON ne (npr. '[1,2,3,]')."""
     s = re.sub(r'([{,]\s*)(\w+)(\s*:)', r'\1"\2"\3', js_str)
     s = re.sub(r",\s*\]", "]", s)
     s = re.sub(r",\s*\}", "}", s)
     return s
 
-
-def fetch_graph_extra(sifra, tip, naziv):
-    """Vraca (insolacija, pritisak) najnovije vrijednosti za jednu stanicu, ili ('','') ako nema podataka."""
+def fetch_graph_extra(session, sifra, tip, naziv):
+    """Vraca (insolacija, pritisak, vlaga) uz nasumicnu pauzu radi bezbjednosti."""
     try:
+        # NASUMICNA PAUZA (1.5 do 3.5 sekundi) - KLJUCNO ZA IZBJEGAVANJE BANA
+        time.sleep(random.uniform(1.5, 3.5))
+        
         url = f"{GRAPH_URL}?v={tip}&s={sifra}&name={quote(naziv)}&p=&d="
-        r = requests.get(url, timeout=20, headers=HEADERS, verify=False)
+        r = session.get(url, timeout=30, headers=HEADERS, verify=False)
         r.raise_for_status()
+        
         obj_str = extract_balanced_object(r.text, "DataAll")
         if not obj_str:
-            return "", ""
+            return "", "", ""
+            
         data = json.loads(js_object_to_json(obj_str))
+        
+        # Insolacija (G3 -> GR)
         g3 = data.get("G3", {})
         gr = g3.get("GR", [])
-        p = g3.get("P", [])
         insolacija = gr[-1][1] if gr else ""
+        
+        # Pritisak (G3 -> P)
+        p = g3.get("P", [])
         pritisak = p[-1][1] if p else ""
-        return insolacija, pritisak
+        
+        # VLAGA / RH (G1 -> H) - NOVO!
+        g1 = data.get("G1", {})
+        h = g1.get("H", [])
+        vlaga = h[-1][1] if h else ""
+        
+        return insolacija, pritisak, vlaga
     except Exception as e:
         print(f"  ! Greška pri dohvatanju grafika za {naziv} ({sifra}): {e}")
-        return "", ""
+        return "", "", ""
 
-
-def enrich_with_graph_data(rows):
-    """Dodaje insolaciju i pritisak samo za 'glavne' stanice (pretpostavka: samo one imaju taj senzor)."""
+def enrich_with_graph_data(session, rows):
+    """Sada prolazi kroz SVE stanice da bi nasao vlagu, pritisak i insolaciju."""
     for row in rows:
-        if row["tip"] == "glavna":
-            print(f"  Dohvatam insolaciju/pritisak za: {row['stanica']}")
-            insolacija, pritisak = fetch_graph_extra(row["sifra"], row["tip"], row["stanica"])
-            row["insolacija"] = insolacija
-            row["pritisak"] = pritisak
-            time.sleep(1)  # da ne bombardujemo njihov server zahtjevima
+        print(f"  Dohvatam grafikone za: {row['stanica']} ({row['tip']})...")
+        insolacija, pritisak, vlaga = fetch_graph_extra(session, row["sifra"], row["tip"], row["stanica"])
+        row["insolacija"] = insolacija
+        row["pritisak"] = pritisak
+        row["vlaga"] = vlaga
     return rows
-
 
 def load_existing_keys():
     keys = set()
@@ -133,7 +143,6 @@ def load_existing_keys():
             for row in reader:
                 keys.add((row["sifra"], row["datum_vrijeme"]))
     return keys
-
 
 def append_new(rows, existing_keys):
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -147,7 +156,6 @@ def append_new(rows, existing_keys):
             writer.writerows(new_rows)
     return new_rows
 
-
 def _to_float(value):
     try:
         if value in (None, ""):
@@ -156,9 +164,7 @@ def _to_float(value):
     except (ValueError, TypeError):
         return None
 
-
 def export_station_history():
-    """Pravi mali JSON fajl po stanici sa poslednjih N tačaka (T, RR, vjetar, insolacija, pritisak), za grafikone."""
     if not os.path.exists(HISTORY_CSV):
         return
     by_station = {}
@@ -175,6 +181,7 @@ def export_station_history():
             points.append({
                 "dt": r["datum_vrijeme"],
                 "T": _to_float(r.get("T")),
+                "vlaga": _to_float(r.get("vlaga")),
                 "RR": _to_float(r.get("RR")),
                 "vjetar": _to_float(r.get("vjetar")),
                 "insolacija": _to_float(r.get("insolacija")),
@@ -184,12 +191,18 @@ def export_station_history():
         with open(os.path.join(STATION_HISTORY_DIR, f"{safe_name}.json"), "w", encoding="utf-8") as out:
             json.dump(points, out, ensure_ascii=False)
 
-
 def main():
-    html = fetch_raw()
+    # Koristimo Session da drzimo konekciju otvorenom (brze i prirodnije za server)
+    session = requests.Session()
+    
+    print("Povlačim glavnu listu stanica...")
+    html = fetch_raw(session)
     data = extract_posljednje(html)
     rows = flatten(data)
-    rows = enrich_with_graph_data(rows)
+    
+    print(f"Pronađeno {len(rows)} stanica. Krećem u dohvatanje detalja (vlažnost, pritisak)...")
+    print("Ovo će trajati oko 2 minuta zbog bezbjednosnih pauza.")
+    rows = enrich_with_graph_data(session, rows)
 
     existing = load_existing_keys()
     new_rows = append_new(rows, existing)
@@ -202,8 +215,7 @@ def main():
             "stations": rows,
         }, f, ensure_ascii=False, indent=2)
 
-    print(f"Ukupno stanica: {len(rows)}, novih zapisa dodato u istoriju: {len(new_rows)}")
-
+    print(f"Uspješno završeno! Ukupno stanica: {len(rows)}, novih zapisa: {len(new_rows)}")
 
 if __name__ == "__main__":
     main()
