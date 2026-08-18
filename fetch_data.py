@@ -16,6 +16,7 @@ GRAPH_URL = "https://www.meteo.co.me/Meteorologija/aws-graph.php"
 DATA_DIR = "data"
 HISTORY_CSV = os.path.join(DATA_DIR, "history.csv")
 LATEST_JSON = os.path.join(DATA_DIR, "latest.json")
+STATIONS_JSON = os.path.join(DATA_DIR, "stations.json")
 STATION_HISTORY_DIR = os.path.join(DATA_DIR, "history")
 MAX_POINTS_PER_STATION = 96
 
@@ -41,6 +42,53 @@ def extract_posljednje(html):
     raw = re.sub(r",\s*\]", "]", raw)
     raw = re.sub(r",\s*\}", "}", raw)
     return json.loads(raw)
+
+def extract_stanice(html):
+    """Izvlaci zvanicnu listu stanica (var stanice = [...]) sa iste stranice."""
+    marker = re.search(r"var\s+stanice\s*=", html)
+    if not marker:
+        return []
+    bracket_start = html.find("[", marker.end())
+    if bracket_start == -1:
+        return []
+    depth = 0
+    raw = None
+    i = bracket_start
+    while i < len(html):
+        if html[i] == "[":
+            depth += 1
+        elif html[i] == "]":
+            depth -= 1
+            if depth == 0:
+                raw = html[bracket_start:i + 1]
+                break
+        i += 1
+    if raw is None:
+        return []
+    raw = re.sub(r",\s*\]", "]", raw)
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        return []
+
+def build_station_registry(stanice_raw):
+    """Normalizuje sirovu ZHMS listu u kanonski registar stanica."""
+    registry = []
+    for item in stanice_raw:
+        padded = (list(item) + [""] * 8)[:8]
+        sifra, wmo, lat, lng, elev, naziv, tip, status = padded
+        registry.append({
+            "sifra": sifra,
+            "wmo": wmo if str(wmo) not in ("", "-") else None,
+            "lat": _to_float(lat),
+            "lng": _to_float(lng),
+            "elevacija": _to_float(elev),
+            "naziv": naziv,
+            "tip": tip,
+            "aktivna": str(status) != "0",
+        })
+    registry.sort(key=lambda s: (s["naziv"] or "").lower())
+    return registry
 
 def flatten(data):
     rows = []
@@ -212,6 +260,21 @@ def main():
     html = fetch_raw(session)
     data = extract_posljednje(html)
     rows = flatten(data)
+
+    # NOVO: kanonski registar stanica iz zvanične ZHMS liste
+    # (ista stranica koju već skidamo — bez dodatnih zahtjeva ka serveru)
+    stanice_raw = extract_stanice(html)
+    if stanice_raw:
+        registry = build_station_registry(stanice_raw)
+        with open(STATIONS_JSON, "w", encoding="utf-8") as f:
+            json.dump({
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "count": len(registry),
+                "stations": registry,
+            }, f, ensure_ascii=False, indent=2)
+        print(f"Registar stanica sačuvan: {len(registry)} stanica.")
+    else:
+        print("Upozorenje: lista stanica (var stanice) nije pronađena na stranici.")
 
     print(f"Pronađeno {len(rows)} stanica. Krećem u dohvatanje detalja (vlažnost, pritisak)...")
     print("Ovo će trajati oko 2 minuta zbog bezbjednosnih pauza.")
