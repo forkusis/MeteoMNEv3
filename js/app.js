@@ -24,6 +24,30 @@ const MODE_INFO = {
 const KEY1 = { tvaga: "T", rr: "RR", vjetar: "V", pritisak: "P", insolacija: "S" };
 const AXIS_UNIT = { tvaga: "°C", rr: " mm", vjetar: " m/s", pritisak: " hPa", insolacija: " W/m²" };
 
+function niceStep(raw) {
+  const pow = Math.pow(10, Math.floor(Math.log10(raw)));
+  const frac = raw / pow;
+  let nice;
+  if (frac <= 1) nice = 1;
+  else if (frac <= 2) nice = 2;
+  else if (frac <= 2.5) nice = 2.5;
+  else if (frac <= 5) nice = 5;
+  else nice = 10;
+  return nice * pow;
+}
+function niceTicks(lo, hi) {
+  const range = Math.max(hi - lo, 1e-9);
+  const divs = [3, 4, 5];
+  for (let d = 0; d < divs.length; d++) {
+    const step = niceStep(range / divs[d]);
+    const first = Math.ceil((lo - 1e-9) / step) * step;
+    const ticks = [];
+    for (let v = first; v <= hi + 1e-9; v += step) ticks.push(v);
+    if (ticks.length >= 3 && ticks.length <= 5) return ticks;
+  }
+  return [lo, (lo + hi) / 2, hi];
+}
+
 /* ---------- format ---------- */
 function fmtBroj(v, dec) {
   const n = (typeof v === "number") ? v : parseFloat(v);
@@ -171,16 +195,19 @@ function crtajGraf(pts, mode) {
   const YH = (v) => mT + (1 - v / 100) * ih;
   const fmtL = (v) => ((yMax - yMin) < 5 ? v.toFixed(1).replace(".", ",") : String(Math.round(v)));
 
+  const ticks = niceTicks(yMin, yMax);
+  const korak = (ticks.length > 1) ? (ticks[1] - ticks[0]) : 1;
+  const fmtTick = (v) => (korak >= 1 ? String(Math.round(v)) : v.toFixed(1).replace(".", ","));
   let grid = "", labL = "";
-  [0, 0.5, 1].forEach((f) => {
-    const y = mT + f * ih;
-    grid += '<line x1="' + mL + '" y1="' + y + '" x2="' + (W - mR) + '" y2="' + y + '" class="g-mreza"/>';
-    labL += '<text x="' + (mL - 5) + '" y="' + (y + 3) + '" class="g-lab g-lab-l" text-anchor="end">' + fmtL(yMax - f * (yMax - yMin)) + (f === 0 ? AXIS_UNIT[mode] : "") + '</text>';
+  ticks.forEach((tv) => {
+    const y = Y(tv);
+    grid += '<line x1="' + mL + '" y1="' + y.toFixed(1) + '" x2="' + (W - mR) + '" y2="' + y.toFixed(1) + '" class="g-mreza"/>';
+    labL += '<text x="' + (mL - 5) + '" y="' + (y + 3).toFixed(1) + '" class="g-lab g-lab-l" text-anchor="end">' + fmtTick(tv) + '</text>';
   });
   let labR = "";
   if (mode === "tvaga") {
     [100, 50, 0].forEach((v, i) => {
-      labR += '<text x="' + (W - mR + 5) + '" y="' + (mT + i * 0.5 * ih + 3) + '" class="g-lab g-lab-r">' + v + (i === 0 ? "%" : "") + '</text>';
+      labR += '<text x="' + (W - mR + 5) + '" y="' + (mT + i * 0.5 * ih + 3) + '" class="g-lab g-lab-r">' + v + '</text>';
     });
   }
 
