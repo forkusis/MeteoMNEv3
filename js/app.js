@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v2 (Korak 2: promjena mjesta) */
+/* MeteoMNE — app.js v3 (Korak 3: grafikon temperature i vlažnosti) */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -43,6 +43,11 @@ function red(labela, vrijednost) {
 function bezDijakritika(s) {
   return String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
+function parseDT(dt) {
+  const m = /^(\d{2})\.(\d{2})\.(\d{4}) (\d{2}):(\d{2})/.exec(dt || "");
+  if (!m) return null;
+  return new Date(+m[3], +m[2] - 1, +m[1], +m[4], +m[5]);
+}
 
 /* ---------- Moje mjesto ---------- */
 function prikaziMjesto() {
@@ -57,10 +62,11 @@ function prikaziMjesto() {
     $("temp").textContent = "—";
     $("mjerenje").textContent = "Stanica trenutno ne šalje mjerenja.";
     $("parametri").innerHTML = "";
+    ucitajGraf(mojaSifra);
     return;
   }
 
-  $("temp").textContent = fmtBroj(obs.T, 1) + "°";
+  $("temp").innerHTML = '<span class="temp-broj">' + fmtBroj(obs.T, 1) + '</span><span class="temp-jedinica">°C</span>';
   $("mjerenje").textContent = fmtVrijeme(obs.datum_vrijeme);
 
   let vjetar = "—";
@@ -77,6 +83,127 @@ function prikaziMjesto() {
     red("Padavine",    (obs.RR !== "" && obs.RR != null) ? fmtBroj(obs.RR, 1) + " mm" : "—") +
     red("Udar vjetra", (obs.udar !== "" && obs.udar != null) ? fmtBroj(obs.udar, 1) + " m/s" : "—") +
     red("Insolacija",  (obs.insolacija !== "" && obs.insolacija != null) ? fmtBroj(obs.insolacija, 1) + " W/m²" : "—");
+
+  ucitajGraf(mojaSifra);
+}
+
+/* ---------- grafikon (ručni SVG, bez biblioteka) ---------- */
+async function ucitajGraf(sifra) {
+  const wrap = $("graf-wrap");
+  try {
+    const r = await fetch("data/history/" + sifra + ".json?_=" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const pts = await r.json();
+    crtajGraf(pts);
+  } catch (e) {
+    wrap.innerHTML = '<p class="graf-prazno">Istorija za ovu stanicu trenutno nije dostupna.</p>';
+    $("graf-raspon").textContent = "—";
+  }
+}
+
+function crtajGraf(pts) {
+  const wrap = $("graf-wrap");
+  const data = (pts || [])
+    .map((p) => ({ t: parseDT(p.dt), T: (p.T == null ? null : p.T), H: (p.vlaga == null ? null : p.vlaga) }))
+    .filter((p) => p.t);
+
+  const Ts = data.filter((p) => p.T != null).map((p) => p.T);
+  if (data.length < 2 || Ts.length < 2) {
+    wrap.innerHTML = '<p class="graf-prazno">Nedovoljno podataka za grafikon.</p>';
+    $("graf-raspon").textContent = "—";
+    return;
+  }
+
+  const W = 340, H = 170, mL = 30, mR = 32, mT = 8, mB = 22;
+  const iw = W - mL - mR, ih = H - mT - mB;
+  const t0 = data[0].t, t1 = data[data.length - 1].t;
+  const span = Math.max(+t1 - +t0, 1);
+  const X = (d) => mL + ((+d - +t0) / span) * iw;
+
+  let tMin = Math.min.apply(null, Ts), tMax = Math.max.apply(null, Ts);
+  if (tMax - tMin < 2) { tMax += 1; tMin -= 1; }
+  const pad = (tMax - tMin) * 0.15;
+  tMin -= pad; tMax += pad;
+  const YT = (v) => mT + (1 - (v - tMin) / (tMax - tMin)) * ih;
+  const YH = (v) => mT + (1 - v / 100) * ih;
+
+  const fmtX = (d) => d.getDate() + "." + (d.getMonth() + 1) + ". " + String(d.getHours()).padStart(2, "0") + "h";
+  const fmtDT = (d) => d.getDate() + "." + (d.getMonth() + 1) + ". · " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+
+  let grid = "", labL = "", labR = "";
+  [0, 0.5, 1].forEach((f) => {
+    const y = mT + f * ih;
+    grid += '<line x1="' + mL + '" y1="' + y + '" x2="' + (W - mR) + '" y2="' + y + '" class="g-mreza"/>';
+    labL += '<text x="' + (mL - 5) + '" y="' + (y + 3) + '" class="g-lab g-lab-l" text-anchor="end">' + Math.round(tMax - f * (tMax - tMin)) + '°</text>';
+  });
+  [100, 50, 0].forEach((v, i) => {
+    labR += '<text x="' + (W - mR + 5) + '" y="' + (mT + i * 0.5 * ih + 3) + '" class="g-lab g-lab-r">' + v + '</text>';
+  });
+  const xMid = new Date((+t0 + +t1) / 2);
+  const labX =
+    '<text x="' + mL + '" y="' + (H - 6) + '" class="g-lab">' + fmtX(t0) + '</text>' +
+    '<text x="' + (mL + iw / 2) + '" y="' + (H - 6) + '" class="g-lab" text-anchor="middle">' + fmtX(xMid) + '</text>' +
+    '<text x="' + (W - mR) + '" y="' + (H - 6) + '" class="g-lab" text-anchor="end">' + fmtX(t1) + '</text>';
+
+  let pT = "";
+  data.forEach((p) => {
+    if (p.T != null) pT += (pT ? "L" : "M") + X(p.t).toFixed(1) + " " + YT(p.T).toFixed(1);
+  });
+  let pH = "", prevH = false;
+  data.forEach((p) => {
+    if (p.H != null) {
+      pH += (prevH ? "L" : "M") + X(p.t).toFixed(1) + " " + YH(p.H).toFixed(1);
+      prevH = true;
+    } else {
+      prevH = false;
+    }
+  });
+
+  $("graf-raspon").textContent = fmtX(t0) + " – " + fmtX(t1) + " · " + data.length + " mjerenja";
+
+  wrap.innerHTML =
+    '<svg viewBox="0 0 ' + W + ' ' + H + '" class="g-svg">' +
+    grid + labL + labR + labX +
+    (pH ? '<path d="' + pH + '" class="g-linija-h" fill="none"/>' : '') +
+    '<path d="' + pT + '" class="g-linija-t" fill="none"/>' +
+    '<line class="g-vodilica" id="g-vodilica" x1="-10" x2="-10" y1="' + mT + '" y2="' + (mT + ih) + '"/>' +
+    '<circle class="g-tacka-t" id="g-tacka-t" cx="-10" cy="-10" r="3"/>' +
+    '<rect x="0" y="0" width="' + W + '" height="' + H + '" fill="transparent" id="g-dodir"/>' +
+    '</svg>' +
+    '<div class="g-tooltip" id="g-tooltip" hidden></div>';
+
+  const svgEl = wrap.querySelector(".g-svg");
+  const dodir = wrap.querySelector("#g-dodir");
+  const tooltip = wrap.querySelector("#g-tooltip");
+  const vod = wrap.querySelector("#g-vodilica");
+  const tacka = wrap.querySelector("#g-tacka-t");
+
+  function naDodir(ev) {
+    const rect = svgEl.getBoundingClientRect();
+    const px = ((ev.clientX - rect.left) / rect.width) * W;
+    let best = null, bd = Infinity;
+    data.forEach((p) => {
+      const d = Math.abs(X(p.t) - px);
+      if (d < bd) { bd = d; best = p; }
+    });
+    if (!best) return;
+    const x = X(best.t);
+    vod.setAttribute("x1", x); vod.setAttribute("x2", x);
+    if (best.T != null) { tacka.setAttribute("cx", x); tacka.setAttribute("cy", YT(best.T)); }
+    tooltip.hidden = false;
+    tooltip.innerHTML =
+      '<span class="tt-vrijeme">' + fmtDT(best.t) + '</span>' +
+      '<span>T <b>' + (best.T != null ? fmtBroj(best.T, 1) + "°C" : "—") + '</b></span>' +
+      '<span class="tt-h">Vlažnost <b>' + (best.H != null ? fmtBroj(best.H, 0) + "%" : "—") + '</b></span>';
+    tooltip.style.left = Math.min(82, Math.max(18, (x / W) * 100)) + "%";
+  }
+  dodir.addEventListener("pointerdown", naDodir);
+  dodir.addEventListener("pointermove", naDodir);
+  dodir.addEventListener("pointerleave", () => {
+    tooltip.hidden = true;
+    vod.setAttribute("x1", -10); vod.setAttribute("x2", -10);
+    tacka.setAttribute("cx", -10); tacka.setAttribute("cy", -10);
+  });
 }
 
 /* ---------- birač mjesta ---------- */
@@ -147,6 +274,8 @@ async function ucitaj() {
     $("temp").textContent = "—";
     $("mjerenje").textContent = "Zvanični podaci trenutno nijesu dostupni. Aplikacija ne izmišlja vrijednosti.";
     $("parametri").innerHTML = "";
+    $("graf-wrap").innerHTML = "";
+    $("graf-raspon").textContent = "—";
   }
 }
 
