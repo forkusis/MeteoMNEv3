@@ -57,7 +57,7 @@ function fmtBroj(v, dec) {
 function fmtVrijeme(dt) {
   const m = /^(\d{2})\.(\d{2})\.(\d{4}) (\d{2}:\d{2})/.exec(dt || "");
   if (!m) return "—";
-  return "Izmjereno " + m[4] + " · " + parseInt(m[1], 10) + ". " + MESECI[parseInt(m[2], 10) - 1];
+  return "Izmjereno u: " + m[4] + " · " + parseInt(m[1], 10) + ". " + MESECI[parseInt(m[2], 10) - 1];
 }
 function fmtSati(dt) {
   const m = /(\d{2}:\d{2})/.exec(dt || "");
