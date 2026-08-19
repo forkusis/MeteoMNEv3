@@ -261,3 +261,28 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .st-naziv{font-size:15px;font-weight:600}
 .st-meta{font-size:12px;color:var(--mutno);font-variant-numeric:tabular-nums}
 .st-temp{font-family:var(--displej);font-size:20px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+
+/* ---------- Korak 6: ekstremi mreže kao padajući blok ---------- */
+.ekstremi-glava{
+  appearance:none;background:none;border:0;cursor:pointer;
+  width:100%;display:flex;align-items:center;gap:10px;
+  margin:26px 0 0;padding:0 0 12px;
+  font-family:var(--tekst);color:var(--ink);text-align:left;
+  border-bottom:1px solid var(--linija);
+}
+.ekstremi-glava .sekcija-naslov{margin:0}
+.ekstremi-tizer{
+  margin-left:auto;font-size:13px;font-weight:700;
+  font-variant-numeric:tabular-nums;color:var(--akcenat);
+  white-space:nowrap;
+}
+.ekstremi-strelica{
+  width:9px;height:9px;flex:none;
+  border-right:2px solid var(--mutno);
+  border-bottom:2px solid var(--mutno);
+  transform:rotate(45deg);
+  transition:transform .2s ease;
+}
+.ekstremi-glava[aria-expanded="true"] .ekstremi-strelica{transform:rotate(-135deg)}
+.ekstremi-tijelo[hidden]{display:none}
+.ekstremi-tijelo .mreza{border-top:0;margin-top:0}
