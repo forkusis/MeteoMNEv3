@@ -45,9 +45,18 @@
       
     </section>
 <section class="ekran" id="ekran-stanice">
-      <p class="sekcija-naslov">Stanje mreže</p>
-      <ul class="mreza" id="mreza"></ul>
-      <p class="mreza-napomena">Posljednje objavljeno mjerenje svake stanice — mjerenja mreže nisu istovremena.</p>
+
+<button class="ekstremi-glava" id="ekstremi-glava" aria-expanded="false">
+        <span class="sekcija-naslov">Ekstremi mreže</span>
+        <span class="ekstremi-tizer" id="ekstremi-tizer">—</span>
+        <span class="ekstremi-strelica" aria-hidden="true"></span>
+      </button>
+      <div class="ekstremi-tijelo" id="ekstremi-tijelo" hidden>
+        <ul class="mreza" id="mreza"></ul>
+        <p class="mreza-napomena">Posljednje objavljeno mjerenje svake stanice — mjerenja mreže nisu istovremena.</p>
+      </div>
+
+  
       <input class="pretraga" id="pretraga-stanice" type="search" placeholder="Pretraži stanicu…" autocomplete="off">
       <ul class="lista-stanica" id="lista-stanica"></ul>
     </section>
