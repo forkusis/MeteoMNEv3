@@ -83,3 +83,55 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 
 /* izvor */
 .izvor{margin:34px 0 0;font-size:11px;color:var(--mutno);line-height:1.5}
+/* ---------- Korak 2: promjena mjesta ---------- */
+.mjesto-ime{
+  appearance:none;background:none;border:0;padding:0;
+  font:inherit;color:inherit;cursor:pointer;
+  display:flex;align-items:baseline;gap:8px;
+}
+.mjesto-ime::after{
+  content:"▾";
+  color:var(--akcenat);
+  font-size:12px;
+  letter-spacing:0;
+}
+.mjesto-ime .elev{text-transform:none}
+
+.overlay{
+  position:fixed;inset:0;z-index:50;
+  background:var(--pozadina);
+  display:flex;flex-direction:column;
+  padding:calc(14px + env(safe-area-inset-top)) 20px env(safe-area-inset-bottom);
+}
+.overlay[hidden]{display:none}
+.overlay-glava{display:flex;justify-content:space-between;align-items:center}
+.overlay-naslov{margin:0;font-family:var(--displej);font-weight:700;font-size:17px}
+.overlay-zatvori{
+  appearance:none;background:none;border:0;
+  color:var(--mutno);font-size:18px;line-height:1;
+  padding:10px;cursor:pointer;
+}
+.pretraga{
+  margin:14px 0 6px;
+  appearance:none;background:transparent;border:0;
+  border-bottom:1px solid var(--linija);
+  border-radius:0;
+  font-family:var(--tekst);font-size:16px;
+  color:var(--ink);
+  padding:10px 2px;
+}
+.pretraga:focus{outline:none;border-bottom-color:var(--akcenat)}
+.lista-mjesta{list-style:none;margin:0;padding:0;flex:1;overflow-y:auto}
+.lista-mjesta li{border-bottom:1px solid var(--linija)}
+.lista-prazno{padding:20px 2px;color:var(--mutno);font-size:14px}
+.red-mjesta{
+  appearance:none;background:none;border:0;width:100%;
+  display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+  padding:14px 2px;cursor:pointer;
+  font-family:var(--tekst);color:var(--ink);text-align:left;
+}
+.rm-naziv{font-size:15px;font-weight:600}
+.rm-desno{font-size:13px;color:var(--mutno);font-variant-numeric:tabular-nums;white-space:nowrap}
+.rm-temp{font-weight:700;color:var(--ink);margin-right:8px}
+.red-mjesta.izabrano .rm-naziv{color:var(--akcenat)}
+.red-mjesta.izabrano .rm-naziv::before{content:"● ";font-size:8px;vertical-align:2px}
