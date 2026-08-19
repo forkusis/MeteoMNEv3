@@ -217,3 +217,19 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 
 /* ispravka: tooltip mora biti nevidljiv kad ima [hidden] */
 .g-tooltip[hidden]{display:none}
+
+/* ---------- Korak 4: chipovi za izbor grafa ---------- */
+.graf-chips{
+  display:flex;gap:8px;overflow-x:auto;
+  margin:12px 0 4px;padding-bottom:2px;
+  -webkit-overflow-scrolling:touch;
+}
+.chip{
+  appearance:none;flex:none;cursor:pointer;
+  font-family:var(--tekst);font-size:12px;font-weight:600;
+  color:var(--mutno);background:transparent;
+  border:1px solid var(--linija);border-radius:8px;
+  padding:7px 12px;
+}
+.chip.aktivan{background:var(--ink);border-color:var(--ink);color:#fff}
+.g-stub{fill:var(--ink)}
