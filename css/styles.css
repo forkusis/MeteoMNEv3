@@ -233,3 +233,7 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 }
 .chip.aktivan{background:var(--ink);border-color:var(--ink);color:#fff}
 .g-stub{fill:var(--ink)}
+
+/* sakrij sivu scrollbar traku ispod chipova (prevlačenje i dalje radi) */
+.graf-chips{scrollbar-width:none;-ms-overflow-style:none}
+.graf-chips::-webkit-scrollbar{display:none}
