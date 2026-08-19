@@ -284,9 +284,10 @@ function mrezaRed(labela, stanica, vrijednost) {
 function renderMreza() {
   const saT = staniceTrenutne.filter((s) => s.T !== "" && s.T != null);
   const saV = staniceTrenutne.filter((s) => s.vjetar !== "" && s.vjetar != null);
-  if (!saT.length) { $("mreza").innerHTML = ""; return; }
+  if (!saT.length) { $("mreza").innerHTML = ""; $("ekstremi-tizer").textContent = "—"; return; }
   const top = saT.reduce((a, b) => (parseFloat(b.T) > parseFloat(a.T) ? b : a));
   const min = saT.reduce((a, b) => (parseFloat(b.T) < parseFloat(a.T) ? b : a));
+  $("ekstremi-tizer").textContent = top.stanica + " " + fmtBroj(top.T, 1) + "°";
   let redovi = mrezaRed("Najtoplije", top.stanica, fmtBroj(top.T, 1) + "°") +
                mrezaRed("Najhladnije", min.stanica, fmtBroj(min.T, 1) + "°");
   if (saV.length) {
@@ -323,6 +324,12 @@ function renderListaStanica() {
 
 $("pretraga-stanice").addEventListener("input", renderListaStanica);
 
+$("ekstremi-glava").addEventListener("click", () => {
+  const tijelo = $("ekstremi-tijelo");
+  const otvori = tijelo.hidden;
+  tijelo.hidden = !otvori;
+  $("ekstremi-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
+});
 /* ---------- birač mjesta ---------- */
 function renderLista() {
   const q = bezDijakritika($("pretraga").value.trim());
