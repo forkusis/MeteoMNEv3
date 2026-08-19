@@ -24,13 +24,13 @@
       <p class="temp" id="temp">—</p>
       <p class="mjerenje" id="mjerenje">—</p>
       <ul class="parametri" id="parametri"></ul>
-<section class="graf-blok">
+
+      <section class="graf-blok">
         <div class="graf-glava">
           <p class="graf-naslov" id="graf-naslov">Temperatura i vlažnost</p>
           <p class="graf-raspon" id="graf-raspon">—</p>
         </div>
-
-  <div class="graf-chips" id="graf-chips">
+        <div class="graf-chips" id="graf-chips">
           <button class="chip aktivan" data-graf="tvaga">T i vlaga</button>
           <button class="chip" data-graf="rr">Padavine</button>
           <button class="chip" data-graf="vjetar">Vjetar</button>
@@ -38,25 +38,19 @@
           <button class="chip" data-graf="insolacija">Insolacija</button>
         </div>
         <div class="graf-wrap" id="graf-wrap"></div>
-
-  
         <p class="graf-legenda" id="graf-legenda"><span class="leg-t">— temperatura (°C)</span><span class="leg-h">– – vlažnost (%)</span></p>
       </section>
-      
     </section>
-<section class="ekran" id="ekran-stanice">
 
-<button class="ekstremi-glava" id="ekstremi-glava" aria-expanded="false">
+    <section class="ekran" id="ekran-stanice">
+      <button class="ekstremi-glava" id="ekstremi-glava" aria-expanded="false">
         <span class="sekcija-naslov">Aktuelni min/max</span>
         <span class="ekstremi-strelica" aria-hidden="true"></span>
       </button>
-  
       <div class="ekstremi-tijelo" id="ekstremi-tijelo" hidden>
         <ul class="mreza" id="mreza"></ul>
         <p class="mreza-napomena">Posljednje objavljeno mjerenje svake stanice — mjerenja mreže nisu istovremena.</p>
       </div>
-
-  
       <input class="pretraga" id="pretraga-stanice" type="search" placeholder="Pretraži stanicu…" autocomplete="off">
       <ul class="lista-stanica" id="lista-stanica"></ul>
     </section>
@@ -64,8 +58,6 @@
     <section class="ekran" id="ekran-prognoza">
       <p class="gradnja">Prognoza — u izgradnji.<br>Slijede: zvanična i računarska prognoza.</p>
     </section>
-
-    
 
     <footer class="izvor">Izvor: ZHMS — Zavod za hidrometeorologiju i seizmologiju Crne Gore</footer>
   </main>
