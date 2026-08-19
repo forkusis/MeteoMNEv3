@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v5 (Korak 5: tab Stanice — stanje mreže + lista) */
+/* MeteoMNE — app.js v6 (Aktuelni min/max + °C standard) */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -22,6 +22,7 @@ const MODE_INFO = {
   insolacija: { naslov: "Insolacija",legenda: '<span class="leg-t">— insolacija (W/m²)</span>' }
 };
 const KEY1 = { tvaga: "T", rr: "RR", vjetar: "V", pritisak: "P", insolacija: "S" };
+const AXIS_UNIT = { tvaga: "°C", rr: " mm", vjetar: " m/s", pritisak: " hPa", insolacija: " W/m²" };
 
 /* ---------- format ---------- */
 function fmtBroj(v, dec) {
@@ -174,12 +175,12 @@ function crtajGraf(pts, mode) {
   [0, 0.5, 1].forEach((f) => {
     const y = mT + f * ih;
     grid += '<line x1="' + mL + '" y1="' + y + '" x2="' + (W - mR) + '" y2="' + y + '" class="g-mreza"/>';
-    labL += '<text x="' + (mL - 5) + '" y="' + (y + 3) + '" class="g-lab g-lab-l" text-anchor="end">' + fmtL(yMax - f * (yMax - yMin)) + '</text>';
+    labL += '<text x="' + (mL - 5) + '" y="' + (y + 3) + '" class="g-lab g-lab-l" text-anchor="end">' + fmtL(yMax - f * (yMax - yMin)) + (f === 0 ? AXIS_UNIT[mode] : "") + '</text>';
   });
   let labR = "";
   if (mode === "tvaga") {
     [100, 50, 0].forEach((v, i) => {
-      labR += '<text x="' + (W - mR + 5) + '" y="' + (mT + i * 0.5 * ih + 3) + '" class="g-lab g-lab-r">' + v + '</text>';
+      labR += '<text x="' + (W - mR + 5) + '" y="' + (mT + i * 0.5 * ih + 3) + '" class="g-lab g-lab-r">' + v + (i === 0 ? "%" : "") + '</text>';
     });
   }
 
@@ -284,12 +285,11 @@ function mrezaRed(labela, stanica, vrijednost) {
 function renderMreza() {
   const saT = staniceTrenutne.filter((s) => s.T !== "" && s.T != null);
   const saV = staniceTrenutne.filter((s) => s.vjetar !== "" && s.vjetar != null);
-  if (!saT.length) { $("mreza").innerHTML = ""; $("ekstremi-tizer").textContent = "—"; return; }
+  if (!saT.length) { $("mreza").innerHTML = ""; return; }
   const top = saT.reduce((a, b) => (parseFloat(b.T) > parseFloat(a.T) ? b : a));
   const min = saT.reduce((a, b) => (parseFloat(b.T) < parseFloat(a.T) ? b : a));
-  $("ekstremi-tizer").textContent = top.stanica + " " + fmtBroj(top.T, 1) + "°";
-  let redovi = mrezaRed("Najtoplije", top.stanica, fmtBroj(top.T, 1) + "°") +
-               mrezaRed("Najhladnije", min.stanica, fmtBroj(min.T, 1) + "°");
+  let redovi = mrezaRed("Najtoplije", top.stanica, fmtBroj(top.T, 1) + "°C") +
+               mrezaRed("Najhladnije", min.stanica, fmtBroj(min.T, 1) + "°C");
   if (saV.length) {
     const vjet = saV.reduce((a, b) => (parseFloat(b.vjetar) > parseFloat(a.vjetar) ? b : a));
     redovi += mrezaRed("Najjači vjetar", vjet.stanica, fmtBroj(vjet.vjetar, 1) + " m/s");
@@ -318,18 +318,12 @@ function renderListaStanica() {
     return '<li class="st-red">' +
       '<span class="st-lijevo"><span class="st-naziv">' + esc(obs.stanica || s.naziv) + '</span>' +
       '<span class="st-meta">' + meta.join(" · ") + '</span></span>' +
-      '<span class="st-temp">' + fmtBroj(obs.T, 1) + '°</span></li>';
+      '<span class="st-temp">' + fmtBroj(obs.T, 1) + '°C</span></li>';
   }).join("");
 }
 
 $("pretraga-stanice").addEventListener("input", renderListaStanica);
 
-$("ekstremi-glava").addEventListener("click", () => {
-  const tijelo = $("ekstremi-tijelo");
-  const otvori = tijelo.hidden;
-  tijelo.hidden = !otvori;
-  $("ekstremi-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
-});
 /* ---------- birač mjesta ---------- */
 function renderLista() {
   const q = bezDijakritika($("pretraga").value.trim());
@@ -344,7 +338,7 @@ function renderLista() {
   $("lista-mjesta").innerHTML = filtrirani.map((s) => {
     const obs = staniceTrenutne.find((o) => o.sifra === s.sifra);
     const desno = obs
-      ? '<span class="rm-temp">' + fmtBroj(obs.T, 1) + '°</span>' + fmtSati(obs.datum_vrijeme)
+      ? '<span class="rm-temp">' + fmtBroj(obs.T, 1) + '°C</span>' + fmtSati(obs.datum_vrijeme)
       : 'nema mjerenja';
     return '<li><button class="red-mjesta' + (s.sifra === mojaSifra ? ' izabrano' : '') + '" data-sifra="' + esc(s.sifra) + '">' +
       '<span class="rm-naziv">' + esc(s.naziv) + '</span>' +
