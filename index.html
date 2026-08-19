@@ -20,7 +20,7 @@
 
   <main>
     <section class="ekran aktivan" id="ekran-mjesto">
-      <button class="mjesto-ime" id="mjesto-ime" type="button" aria-haspopup="dialog">—</button>
+      <button class="mjesto-ime" id="mjesto-ime" aria-haspopup="true">—</button>
       <p class="temp" id="temp">—</p>
       <p class="mjerenje" id="mjerenje">—</p>
       <ul class="parametri" id="parametri"></ul>
@@ -43,10 +43,10 @@
     <button class="tab" data-ekran="prognoza">Prognoza</button>
   </nav>
 
-  <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="Izbor mjesta" hidden>
+  <div class="overlay" id="overlay" hidden>
     <div class="overlay-glava">
       <p class="overlay-naslov">Izaberi mjesto</p>
-      <button class="overlay-zatvori" id="overlay-zatvori" type="button" aria-label="Zatvori">×</button>
+      <button class="overlay-zatvori" id="overlay-zatvori" aria-label="Zatvori">✕</button>
     </div>
     <input class="pretraga" id="pretraga" type="search" placeholder="Pretraži grad ili stanicu…" autocomplete="off">
     <ul class="lista-mjesta" id="lista-mjesta"></ul>
