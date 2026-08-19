@@ -286,3 +286,34 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .ekstremi-glava[aria-expanded="true"] .ekstremi-strelica{transform:rotate(-135deg)}
 .ekstremi-tijelo[hidden]{display:none}
 .ekstremi-tijelo .mreza{border-top:0;margin-top:0}
+
+/* ---------- hijerarhija površina: sivo = sadržaj, bijelo = okvir i kontrole ---------- */
+.vrh{
+  background:#ffffff;
+  border-bottom:1px solid var(--linija);
+  padding:calc(14px + env(safe-area-inset-top)) 20px 12px;
+}
+.tabovi{
+  background:#ffffff;
+  box-shadow:0 -6px 16px rgba(11,28,44,.08);
+}
+.ekstremi-glava{
+  background:#ffffff;
+  border:1px solid var(--linija);
+  border-radius:12px;
+  padding:14px;
+  margin:26px 0 0;
+}
+.ekstremi-glava[aria-expanded="true"]{
+  border-bottom:0;
+  border-radius:12px 12px 0 0;
+}
+.ekstremi-tijelo{
+  background:#ffffff;
+  border:1px solid var(--linija);
+  border-top:0;
+  border-radius:0 0 12px 12px;
+  padding:0 14px 8px;
+}
+.ekstremi-tijelo[hidden]{display:none}
+#ekran-stanice .pretraga{margin-top:18px}
