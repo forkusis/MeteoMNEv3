@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'fetch_data.py'
+      - '.github/workflows/update.yml'
 
 permissions:
   contents: write
