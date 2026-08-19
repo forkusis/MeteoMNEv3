@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v6 (Aktuelni min/max + °C standard) */
+/* MeteoMNE — app.js v7 (Korak 7: detalj stanice) */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -11,8 +11,7 @@ const DEFAULT_SIFRA = "02PLJV10"; // Pljevlja
 let registry = {};
 let staniceTrenutne = [];
 let mojaSifra = localStorage.getItem("moje_mjesto") || DEFAULT_SIFRA;
-let grafPts = null;
-let grafMode = "tvaga";
+let detaljSifra = null;
 
 const MODE_INFO = {
   tvaga:      { naslov: "Temperatura i vlažnost", legenda: '<span class="leg-t">— temperatura (°C)</span><span class="leg-h">– – vlažnost (%)</span>' },
@@ -22,7 +21,6 @@ const MODE_INFO = {
   insolacija: { naslov: "Insolacija",legenda: '<span class="leg-t">— insolacija (W/m²)</span>' }
 };
 const KEY1 = { tvaga: "T", rr: "RR", vjetar: "V", pritisak: "P", insolacija: "S" };
-const AXIS_UNIT = { tvaga: "°C", rr: " mm", vjetar: " m/s", pritisak: " hPa", insolacija: " W/m²" };
 
 function niceStep(raw) {
   const pow = Math.pow(10, Math.floor(Math.log10(raw)));
@@ -57,7 +55,7 @@ function fmtBroj(v, dec) {
 function fmtVrijeme(dt) {
   const m = /^(\d{2})\.(\d{2})\.(\d{4}) (\d{2}:\d{2})/.exec(dt || "");
   if (!m) return "—";
-  return "Izmjereno u: " + m[4] + " · " + parseInt(m[1], 10) + ". " + MESECI[parseInt(m[2], 10) - 1];
+  return "Izmjereno " + m[4] + " · " + parseInt(m[1], 10) + ". " + MESECI[parseInt(m[2], 10) - 1];
 }
 function fmtSati(dt) {
   const m = /(\d{2}:\d{2})/.exec(dt || "");
@@ -92,64 +90,25 @@ function parseDT(dt) {
   return new Date(+m[3], +m[2] - 1, +m[1], +m[4], +m[5]);
 }
 
-/* ---------- Moje mjesto ---------- */
-function prikaziMjesto() {
-  const meta = registry[mojaSifra] || {};
-  const obs = staniceTrenutne.find((s) => s.sifra === mojaSifra);
-  const naziv = (obs && obs.stanica) || meta.naziv || "—";
-
-  $("mjesto-ime").innerHTML = esc(String(naziv).toUpperCase()) +
-    (meta.elevacija != null ? '<span class="elev">· ' + Math.round(meta.elevacija) + ' m</span>' : "");
-
-  if (!obs) {
-    $("temp").textContent = "—";
-    $("mjerenje").textContent = "Stanica trenutno ne šalje mjerenja.";
-    $("parametri").innerHTML = "";
-    ucitajGraf(mojaSifra);
-    return;
-  }
-
-  $("temp").innerHTML = '<span class="temp-broj">' + fmtBroj(obs.T, 1) + '</span><span class="temp-jedinica">°C</span>';
-  $("mjerenje").textContent = fmtVrijeme(obs.datum_vrijeme);
-
+function parametriHTML(obs) {
   let vjetar = "—";
   if (obs.vjetar !== "" && obs.vjetar != null) {
     vjetar = fmtBroj(obs.vjetar, 1) + " m/s";
     const sm = smjerTekst(obs.smjer_kod);
     if (sm) vjetar += " " + strelica(sm.deg);
   }
-
-  $("parametri").innerHTML =
-    red("Vlažnost",    (obs.vlaga !== "" && obs.vlaga != null) ? fmtBroj(obs.vlaga, 0) + "%" : "—") +
-    red("Vjetar",      vjetar) +
-    red("Pritisak",    (obs.pritisak !== "" && obs.pritisak != null) ? fmtBroj(obs.pritisak, 1) + " hPa" : "—") +
-    red("Padavine",    (obs.RR !== "" && obs.RR != null) ? fmtBroj(obs.RR, 1) + " mm" : "—") +
-    red("Udar vjetra", (obs.udar !== "" && obs.udar != null) ? fmtBroj(obs.udar, 1) + " m/s" : "—") +
-    red("Insolacija",  (obs.insolacija !== "" && obs.insolacija != null) ? fmtBroj(obs.insolacija, 1) + " W/m²" : "—");
-
-  ucitajGraf(mojaSifra);
+  return red("Vlažnost",    (obs.vlaga !== "" && obs.vlaga != null) ? fmtBroj(obs.vlaga, 0) + "%" : "—") +
+         red("Vjetar",      vjetar) +
+         red("Pritisak",    (obs.pritisak !== "" && obs.pritisak != null) ? fmtBroj(obs.pritisak, 1) + " hPa" : "—") +
+         red("Padavine",    (obs.RR !== "" && obs.RR != null) ? fmtBroj(obs.RR, 1) + " mm" : "—") +
+         red("Udar vjetra", (obs.udar !== "" && obs.udar != null) ? fmtBroj(obs.udar, 1) + " m/s" : "—") +
+         red("Insolacija",  (obs.insolacija !== "" && obs.insolacija != null) ? fmtBroj(obs.insolacija, 1) + " W/m²" : "—");
 }
 
-/* ---------- grafovi istorije ---------- */
-async function ucitajGraf(sifra) {
-  const wrap = $("graf-wrap");
-  try {
-    const r = await fetch("data/history/" + sifra + ".json?_=" + Date.now());
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    grafPts = await r.json();
-    crtajGraf(grafPts, grafMode);
-  } catch (e) {
-    grafPts = null;
-    wrap.innerHTML = '<p class="graf-prazno">Istorija za ovu stanicu trenutno nije dostupna.</p>';
-    $("graf-raspon").textContent = "—";
-  }
-}
-
-function crtajGraf(pts, mode) {
-  const wrap = $("graf-wrap");
-  const info = MODE_INFO[mode];
-  $("graf-naslov").textContent = info.naslov;
-  $("graf-legenda").innerHTML = info.legenda;
+/* ---------- grafovi ---------- */
+function crtajGraf(pts, mode, els) {
+  els.naslov.textContent = MODE_INFO[mode].naslov;
+  els.legenda.innerHTML = MODE_INFO[mode].legenda;
 
   const data = (pts || [])
     .map((p) => ({ t: parseDT(p.dt), T: p.T, H: p.vlaga, RR: p.RR, V: p.vjetar, P: p.pritisak, S: p.insolacija }))
@@ -169,8 +128,8 @@ function crtajGraf(pts, mode) {
   else s1 = ser("S");
 
   if (data.length < 2 || s1.length < 1) {
-    wrap.innerHTML = '<p class="graf-prazno">' + (data.length < 2 ? "Nedovoljno podataka za grafikon." : "Za ovaj parametar nema izmjerenih podataka.") + '</p>';
-    $("graf-raspon").textContent = "—";
+    els.wrap.innerHTML = '<p class="graf-prazno">' + (data.length < 2 ? "Nedovoljno podataka za grafikon." : "Za ovaj parametar nema izmjerenih podataka.") + '</p>';
+    els.raspon.textContent = "—";
     return;
   }
 
@@ -193,7 +152,6 @@ function crtajGraf(pts, mode) {
   }
   const Y = (v) => mT + (1 - (v - yMin) / (yMax - yMin)) * ih;
   const YH = (v) => mT + (1 - v / 100) * ih;
-  const fmtL = (v) => ((yMax - yMin) < 5 ? v.toFixed(1).replace(".", ",") : String(Math.round(v)));
 
   const ticks = niceTicks(yMin, yMax);
   const korak = (ticks.length > 1) ? (ticks[1] - ticks[0]) : 1;
@@ -243,9 +201,9 @@ function crtajGraf(pts, mode) {
   else if (mode === "rr") serSvg = stubovi(s1);
   else serSvg = linija(s1, "g-linija-t", Y);
 
-  $("graf-raspon").textContent = fmtX(t0) + " – " + fmtX(t1) + " · " + data.length + " mjerenja";
+  els.raspon.textContent = fmtX(t0) + " – " + fmtX(t1) + " · " + data.length + " mjerenja";
 
-  wrap.innerHTML =
+  els.wrap.innerHTML =
     '<svg viewBox="0 0 ' + W + ' ' + H + '" class="g-svg">' +
     grid + labL + labR + labX + serSvg +
     '<line class="g-vodilica" id="g-vodilica" x1="-10" x2="-10" y1="' + mT + '" y2="' + (mT + ih) + '"/>' +
@@ -254,11 +212,11 @@ function crtajGraf(pts, mode) {
     '</svg>' +
     '<div class="g-tooltip" id="g-tooltip" hidden></div>';
 
-  const svgEl = wrap.querySelector(".g-svg");
-  const dodir = wrap.querySelector("#g-dodir");
-  const tooltip = wrap.querySelector("#g-tooltip");
-  const vod = wrap.querySelector("#g-vodilica");
-  const tacka = wrap.querySelector("#g-tacka-t");
+  const svgEl = els.wrap.querySelector(".g-svg");
+  const dodir = els.wrap.querySelector("#g-dodir");
+  const tooltip = els.wrap.querySelector("#g-tooltip");
+  const vod = els.wrap.querySelector("#g-vodilica");
+  const tacka = els.wrap.querySelector("#g-tacka-t");
 
   function ttSadrzaj(p) {
     const f = (v, u, d) => (v == null ? "—" : fmtBroj(v, d) + u);
@@ -296,13 +254,94 @@ function crtajGraf(pts, mode) {
   });
 }
 
-document.querySelectorAll(".chip").forEach((c) => {
-  c.addEventListener("click", () => {
-    grafMode = c.dataset.graf;
-    document.querySelectorAll(".chip").forEach((x) => x.classList.toggle("aktivan", x === c));
-    if (grafPts) crtajGraf(grafPts, grafMode);
+async function ucitajGraf(sifra, ctx) {
+  try {
+    const r = await fetch("data/history/" + sifra + ".json?_=" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    ctx.pts = await r.json();
+    crtajGraf(ctx.pts, ctx.mode, ctx.els);
+  } catch (e) {
+    ctx.pts = null;
+    ctx.els.wrap.innerHTML = '<p class="graf-prazno">Istorija za ovu stanicu trenutno nije dostupna.</p>';
+    ctx.els.raspon.textContent = "—";
+  }
+}
+
+const grafMoje = { mode: "tvaga", pts: null, els: { naslov: $("graf-naslov"), legenda: $("graf-legenda"), raspon: $("graf-raspon"), wrap: $("graf-wrap") } };
+const grafDetalj = { mode: "tvaga", pts: null, els: { naslov: $("detalj-graf-naslov"), legenda: $("detalj-graf-legenda"), raspon: $("detalj-graf-raspon"), wrap: $("detalj-graf-wrap") } };
+
+function veziChipove(selector, ctx) {
+  document.querySelectorAll(selector).forEach((c) => {
+    c.addEventListener("click", () => {
+      ctx.mode = c.dataset.graf;
+      document.querySelectorAll(selector).forEach((x) => x.classList.toggle("aktivan", x === c));
+      if (ctx.pts) crtajGraf(ctx.pts, ctx.mode, ctx.els);
+    });
+  });
+}
+veziChipove("#graf-chips .chip", grafMoje);
+veziChipove("#detalj-chips .chip", grafDetalj);
+
+/* ---------- Moje mjesto ---------- */
+function prikaziMjesto() {
+  const meta = registry[mojaSifra] || {};
+  const obs = staniceTrenutne.find((s) => s.sifra === mojaSifra);
+  const naziv = (obs && obs.stanica) || meta.naziv || "—";
+
+  $("mjesto-ime").innerHTML = esc(String(naziv).toUpperCase()) +
+    (meta.elevacija != null ? '<span class="elev">· ' + Math.round(meta.elevacija) + ' m</span>' : "");
+
+  if (!obs) {
+    $("temp").textContent = "—";
+    $("mjerenje").textContent = "Stanica trenutno ne šalje mjerenja.";
+    $("parametri").innerHTML = "";
+  } else {
+    $("temp").innerHTML = '<span class="temp-broj">' + fmtBroj(obs.T, 1) + '</span><span class="temp-jedinica">°C</span>';
+    $("mjerenje").textContent = fmtVrijeme(obs.datum_vrijeme);
+    $("parametri").innerHTML = parametriHTML(obs);
+  }
+  ucitajGraf(mojaSifra, grafMoje);
+}
+
+/* ---------- detalj stanice ---------- */
+function renderDetalj() {
+  const meta = registry[detaljSifra] || {};
+  const obs = staniceTrenutne.find((s) => s.sifra === detaljSifra);
+
+  $("detalj-ime").innerHTML = esc(String(meta.naziv || (obs && obs.stanica) || "—").toUpperCase()) +
+    (meta.elevacija != null ? '<span class="elev">· ' + Math.round(meta.elevacija) + ' m</span>' : "");
+
+  if (!obs) {
+    $("detalj-temp").textContent = "—";
+    $("detalj-mjerenje").textContent = "Stanica trenutno ne šalje mjerenja.";
+    $("detalj-parametri").innerHTML = "";
+  } else {
+    $("detalj-temp").innerHTML = '<span class="temp-broj">' + fmtBroj(obs.T, 1) + '</span><span class="temp-jedinica">°C</span>';
+    $("detalj-mjerenje").textContent = fmtVrijeme(obs.datum_vrijeme);
+    $("detalj-parametri").innerHTML = parametriHTML(obs);
+  }
+  ucitajGraf(detaljSifra, grafDetalj);
+}
+
+function otvoriDetalj(sifra) {
+  detaljSifra = sifra;
+  prikaziEkran("ekran-detalj");
+  renderDetalj();
+}
+
+/* ---------- ekrani / tabovi ---------- */
+function prikaziEkran(id) {
+  document.querySelectorAll(".ekran").forEach((s) => s.classList.toggle("aktivan", s.id === id));
+}
+
+document.querySelectorAll(".tab").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("aktivan", b === btn));
+    prikaziEkran("ekran-" + btn.dataset.ekran);
   });
 });
+
+$("detalj-nazad").addEventListener("click", () => prikaziEkran("ekran-stanice"));
 
 /* ---------- tab Stanice ---------- */
 function mrezaRed(labela, stanica, vrijednost) {
@@ -337,25 +376,24 @@ function renderListaStanica() {
   $("lista-stanica").innerHTML = filtrirane.map((s) => {
     const obs = staniceTrenutne.find((o) => o.sifra === s.sifra);
     if (!obs) {
-      return '<li class="st-red"><span class="st-lijevo"><span class="st-naziv">' + esc(s.naziv) + '</span><span class="st-meta">nema mjerenja</span></span><span class="st-temp">—</span></li>';
+      return '<li><button class="st-red" data-sifra="' + esc(s.sifra) + '"><span class="st-lijevo"><span class="st-naziv">' + esc(s.naziv) + '</span><span class="st-meta">nema mjerenja</span></span><span class="st-temp">—</span></button></li>';
     }
     const meta = [fmtKratko(obs.datum_vrijeme)];
     if (obs.vlaga !== "" && obs.vlaga != null) meta.push(fmtBroj(obs.vlaga, 0) + "%");
     if (obs.vjetar !== "" && obs.vjetar != null) meta.push(fmtBroj(obs.vjetar, 1) + " m/s");
-    return '<li class="st-red">' +
+    return '<li><button class="st-red" data-sifra="' + esc(s.sifra) + '">' +
       '<span class="st-lijevo"><span class="st-naziv">' + esc(obs.stanica || s.naziv) + '</span>' +
       '<span class="st-meta">' + meta.join(" · ") + '</span></span>' +
-      '<span class="st-temp">' + fmtBroj(obs.T, 1) + '°C</span></li>';
+      '<span class="st-temp">' + fmtBroj(obs.T, 1) + '°C</span></button></li>';
   }).join("");
 }
 
 $("pretraga-stanice").addEventListener("input", renderListaStanica);
 
-$("ekstremi-glava").addEventListener("click", () => {
-  const tijelo = $("ekstremi-tijelo");
-  const otvori = tijelo.hidden;
-  tijelo.hidden = !otvori;
-  $("ekstremi-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
+$("lista-stanica").addEventListener("click", (e) => {
+  const btn = e.target.closest(".st-red");
+  if (!btn) return;
+  otvoriDetalj(btn.dataset.sifra);
 });
 
 /* ---------- birač mjesta ---------- */
@@ -423,6 +461,7 @@ async function ucitaj() {
     prikaziMjesto();
     renderMreza();
     renderListaStanica();
+    if (detaljSifra && $("ekran-detalj").classList.contains("aktivan")) renderDetalj();
   } catch (e) {
     $("mjesto-ime").textContent = "—";
     $("temp").textContent = "—";
@@ -432,14 +471,6 @@ async function ucitaj() {
     $("graf-raspon").textContent = "—";
   }
 }
-
-/* ---------- tabovi ---------- */
-document.querySelectorAll(".tab").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("aktivan", b === btn));
-    document.querySelectorAll(".ekran").forEach((s) => s.classList.toggle("aktivan", s.id === "ekran-" + btn.dataset.ekran));
-  });
-});
 
 ucitaj();
 setInterval(ucitaj, 5 * 60 * 1000);
