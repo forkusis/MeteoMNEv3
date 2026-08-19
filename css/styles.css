@@ -317,3 +317,21 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 }
 .ekstremi-tijelo[hidden]{display:none}
 #ekran-stanice .pretraga{margin-top:18px}
+
+/* ---------- Korak 7: detalj stanice + tapabilna lista ---------- */
+.nazad{
+  appearance:none;background:none;border:0;cursor:pointer;
+  margin:26px 0 0;padding:6px 0;
+  font-family:var(--tekst);font-size:13px;font-weight:600;color:var(--mutno);
+}
+.detalj-ime{margin:10px 0 0;font-size:13px;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+.detalj-ime .elev{color:var(--mutno);font-weight:600;letter-spacing:.08em;margin-left:6px;text-transform:none}
+.lista-stanica li{border-bottom:1px solid var(--linija)}
+.st-red{
+  appearance:none;background:none;border:0;width:100%;cursor:pointer;
+  font-family:var(--tekst);color:var(--ink);text-align:left;
+}
+.st-red:active{background:#e6ecf0}
+.st-red::after{content:"›";color:var(--mutno);font-size:18px;font-weight:600}
+
+
