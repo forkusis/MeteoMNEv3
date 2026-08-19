@@ -324,6 +324,13 @@ function renderListaStanica() {
 
 $("pretraga-stanice").addEventListener("input", renderListaStanica);
 
+$("ekstremi-glava").addEventListener("click", () => {
+  const tijelo = $("ekstremi-tijelo");
+  const otvori = tijelo.hidden;
+  tijelo.hidden = !otvori;
+  $("ekstremi-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
+});
+
 /* ---------- birač mjesta ---------- */
 function renderLista() {
   const q = bezDijakritika($("pretraga").value.trim());
