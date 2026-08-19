@@ -214,3 +214,6 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 }
 .tt-vrijeme{color:#bcd0e0}
 .tt-h{color:#8fc1e8}
+
+/* ispravka: tooltip mora biti nevidljiv kad ima [hidden] */
+.g-tooltip[hidden]{display:none}
