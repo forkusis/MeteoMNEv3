@@ -246,3 +246,18 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
   margin-left:6px;
 }
 .graf-chips{padding-bottom:10px}
+
+
+/* ---------- tab Stanice ---------- */
+.sekcija-naslov{margin:26px 0 0;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.mreza{list-style:none;margin:10px 0 0;padding:0;border-top:1px solid var(--linija)}
+.mreza li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:12px 2px;border-bottom:1px solid var(--linija)}
+.m-vrijednost{display:flex;align-items:baseline;gap:10px;font-size:15px;font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.m-stanica{color:var(--mutno);font-weight:500;font-size:13px}
+.mreza-napomena{margin:8px 0 0;font-size:11px;color:var(--mutno);line-height:1.5}
+.lista-stanica{list-style:none;margin:6px 0 0;padding:0}
+.st-red{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 2px;border-bottom:1px solid var(--linija)}
+.st-lijevo{display:flex;flex-direction:column;gap:3px;min-width:0}
+.st-naziv{font-size:15px;font-weight:600}
+.st-meta{font-size:12px;color:var(--mutno);font-variant-numeric:tabular-nums}
+.st-temp{font-family:var(--displej);font-size:20px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
