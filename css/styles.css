@@ -176,3 +176,41 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
   margin-left:2px;
 }
 .mjesto-ime .elev{letter-spacing:.06em}
+
+/* ---------- Korak 3: manja temperatura + °C + grafikon ---------- */
+.temp{font-size:clamp(70px,22vw,110px)}
+.temp-jedinica{
+  font-size:.3em;
+  font-weight:600;
+  color:var(--mutno);
+  margin-left:6px;
+  letter-spacing:0;
+}
+
+.graf-blok{margin-top:34px}
+.graf-glava{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.graf-naslov{margin:0;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.graf-raspon{margin:0;font-size:11px;color:var(--mutno);white-space:nowrap}
+.graf-wrap{position:relative;margin-top:10px}
+.g-svg{width:100%;height:auto;display:block}
+.g-mreza{stroke:var(--linija);stroke-width:1}
+.g-lab{fill:var(--mutno);font-size:9px}
+.g-lab-l{fill:var(--ink)}
+.g-lab-r{fill:var(--akcenat)}
+.g-linija-t{stroke:var(--ink);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.g-linija-h{stroke:var(--akcenat);stroke-width:1.5;stroke-dasharray:4 3;stroke-linejoin:round;stroke-linecap:round}
+.g-vodilica{stroke:var(--mutno);stroke-width:1;stroke-dasharray:2 3}
+.g-tacka-t{fill:var(--ink)}
+.graf-prazno{color:var(--mutno);font-size:13px;padding:12px 0}
+.graf-legenda{display:flex;gap:18px;margin:8px 0 0;font-size:11px;color:var(--mutno)}
+.leg-t{color:var(--ink)}
+.leg-h{color:var(--akcenat)}
+.g-tooltip{
+  position:absolute;top:0;transform:translateX(-50%);
+  background:var(--ink);color:#fff;border-radius:6px;
+  padding:6px 9px;font-size:11px;line-height:1.5;
+  display:flex;flex-direction:column;gap:2px;
+  pointer-events:none;white-space:nowrap;z-index:5;
+}
+.tt-vrijeme{color:#bcd0e0}
+.tt-h{color:#8fc1e8}
