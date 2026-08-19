@@ -1,221 +1,46 @@
-<!doctype html>
-<html lang="sr">
+<!DOCTYPE html>
+<html lang="sr-Latn-ME">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0b1117">
-<title>MeteoMne</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
-<style>
-:root{
-  --bg:#0b1117;--panel:#111a22;--panel2:#16212b;--line:#26333e;
-  --text:#eef3f6;--muted:#8d9aa5;--faint:#5f6d78;
-  --accent:#9ed7e3;--warm:#eab56e;--nav:70px;--header:58px;--r:18px;
-}
-*{box-sizing:border-box}
-html,body{margin:0;background:var(--bg);color:var(--text)}
-body{font-family:"DM Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:calc(var(--nav) + env(safe-area-inset-bottom));}
-button,input{font:inherit}button{color:inherit}
-.app-header{position:fixed;z-index:1000;inset:0 0 auto;height:var(--header);display:flex;align-items:center;justify-content:space-between;padding:0 16px;background:rgba(11,17,23,.95);border-bottom:1px solid var(--line);backdrop-filter:blur(15px)}
-.brand{display:flex;align-items:center;gap:10px}.dot{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px rgba(158,215,227,.08)}
-.brand b{font-size:14px;letter-spacing:.04em}.header-time{font-size:10px;color:var(--muted)}
-main{max-width:720px;margin:auto;padding:calc(var(--header) + 18px) 16px 30px}
-.screen{display:none}.screen.active{display:block}
-.eyebrow{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);margin-bottom:7px}
-.place-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:18px}
-.place{font-size:31px;line-height:1;letter-spacing:-.045em;font-weight:700}.time{font-size:11px;color:var(--muted);margin-top:8px}
-.btn{border:1px solid var(--line);background:var(--panel);border-radius:11px;padding:9px 11px;font-size:11px;cursor:pointer}
-.btn:active{background:var(--panel2)}
-.observation{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0 20px}
-.temp-row{display:flex;align-items:flex-start;gap:7px}.temp{font:500 64px/.9 "IBM Plex Mono",monospace;letter-spacing:-.075em}.unit{font-size:17px;color:var(--muted);padding-top:3px}
-.note{font-size:11px;color:var(--muted);margin-top:12px;line-height:1.45}
-.measure-grid{display:grid;grid-template-columns:repeat(2,1fr);margin-top:21px;border-left:1px solid var(--line);border-top:1px solid var(--line)}
-.measure{min-height:82px;padding:12px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
-.measure label{display:block;font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--faint);margin-bottom:8px}
-.measure .v{font:500 16px "IBM Plex Mono",monospace}.measure .v.missing{color:var(--faint)}.sub{font-size:10px;color:var(--muted);margin-top:5px}
-.section{margin-top:29px}.section-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}.section-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}.caption{font-size:10px;color:var(--faint)}
-.rows{border-top:1px solid var(--line)}.row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}.row-name{font-size:13px;font-weight:600}.row-sub{font-size:10px;color:var(--muted);margin-top:4px}.row-val{font:500 14px "IBM Plex Mono",monospace;text-align:right}
-.chart-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:13px 12px}.chart-title{font-size:12px;font-weight:600}.chart-sub{font-size:10px;color:var(--faint);margin-top:4px}.chart-wrap{height:190px;margin-top:9px;position:relative}.empty-chart{height:100%;display:grid;place-items:center;text-align:center;color:var(--faint);font-size:11px;padding:20px}
-.info-strip{margin-top:28px;padding:14px 0;border-top:1px solid var(--line);font-size:11px;line-height:1.55;color:var(--muted)}.link{border:0;background:none;padding:0;color:var(--accent);font-weight:600;cursor:pointer}
-.search{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:13px;color:var(--text);outline:none}.search:focus{border-color:#48606a}
-.station-list{margin-top:13px;border-top:1px solid var(--line)}.station{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid var(--line);cursor:pointer}.station-name{font-size:13px;font-weight:600}.station-meta{font-size:10px;color:var(--faint);margin-top:4px}.station-right{text-align:right}.station-t{font:500 15px "IBM Plex Mono",monospace}.station-sub{font-size:10px;color:var(--muted);margin-top:4px}.empty{padding:28px 0;text-align:center;color:var(--faint);font-size:11px}
-#map-screen{position:fixed;inset:var(--header) 0 var(--nav) 0;background:#d9dddf;z-index:10}.map{height:100%;width:100%}.map-note{position:absolute;z-index:500;left:12px;bottom:12px;background:rgba(11,17,23,.9);border:1px solid rgba(255,255,255,.1);border-radius:11px;padding:9px 11px;color:var(--muted);font-size:10px}
-.marker{width:17px;height:17px;border-radius:50%;border:2px solid #0b1117;box-shadow:0 0 0 1px rgba(255,255,255,.35)}.marker.main{background:#9ed7e3}.marker.clim{background:#7d8c96}
-.bottom-nav{position:fixed;z-index:1000;inset:auto 0 0;height:var(--nav);display:grid;grid-template-columns:repeat(3,1fr);padding-bottom:env(safe-area-inset-bottom);background:rgba(11,17,23,.97);border-top:1px solid var(--line);backdrop-filter:blur(15px)}
-.nav{border:0;background:none;color:var(--faint);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-size:10px;font-weight:600}.nav.active{color:var(--accent)}.nav i{font-style:normal;font-size:18px}
-.detail{position:fixed;z-index:2000;inset:0;background:var(--bg);transform:translateX(100%);transition:transform .22s ease;overflow:auto}.detail.open{transform:translateX(0)}.detail-head{position:sticky;top:0;z-index:2;height:58px;display:flex;align-items:center;gap:8px;padding:0 8px;background:rgba(11,17,23,.95);border-bottom:1px solid var(--line);backdrop-filter:blur(15px)}.back{border:0;background:none;width:40px;height:40px;font-size:27px;color:var(--muted)}.detail-body{max-width:720px;margin:auto;padding:20px 16px 40px}.detail-type{font-size:10px;color:var(--accent);font-weight:700;letter-spacing:.14em;text-transform:uppercase}.detail-name{font-size:30px;font-weight:700;letter-spacing:-.04em;margin-top:6px}.detail-time{font-size:11px;color:var(--muted);margin-top:8px}
-.tabs{display:flex;gap:6px;overflow:auto;padding-bottom:3px}.tab{flex:none;border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:9px 10px;border-radius:10px;font-size:10px}.tab.active{color:var(--accent);background:#203139;border-color:#38545d}
-.sheet-bg{display:none;position:fixed;z-index:3000;inset:0;background:rgba(0,0,0,.55)}.sheet-bg.open{display:block}.sheet{position:fixed;z-index:3001;display:none;left:0;right:0;bottom:0;max-height:78vh;overflow:auto;background:var(--panel2);border-top:1px solid var(--line);border-radius:20px 20px 0 0;padding:12px 18px calc(20px + env(safe-area-inset-bottom))}.sheet.open{display:block}.handle{width:34px;height:4px;border-radius:4px;background:#43515b;margin:0 auto 18px}.sheet h2{font-size:18px;margin:0 0 12px}.sheet p{font-size:12px;line-height:1.6;color:var(--muted)}.sheet strong{color:var(--text)}
-@media(min-width:760px){.measure-grid{grid-template-columns:repeat(4,1fr)}.chart-wrap{height:215px}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eef2f4">
+  <meta name="description" content="MeteoMNE — zvanični meteo podaci za Crnu Goru, jasno i brzo. Izvor: ZHMS.">
+  <title>MeteoMNE — vrijeme u Crnoj Gori</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/app.js"></script>
 </head>
 <body>
-<header class="app-header"><div class="brand"><span class="dot"></span><b>METEO MNE</b></div><div class="header-time" id="header-time">učitavanje…</div><button class="btn" id="info-open">ⓘ</button></header>
+  <header class="vrh">
+    <span class="wordmark">Meteo<em>MNE</em></span>
+    <span class="izvor-mini">Izvor: ZHMS</span>
+  </header>
 
-<main>
-<section id="home" class="screen active"><div id="home-content">Učitavam zvanična mjerenja…</div></section>
-<section id="stations-screen" class="screen">
-  <div class="eyebrow">Mreža mjerenja</div><div class="place" style="font-size:28px;margin-bottom:16px">Stanice</div>
-  <input class="search" id="search" placeholder="Pretraži mjesto ili stanicu…" autocomplete="off">
-  <div id="station-list" class="station-list"></div>
-</section>
-</main>
+  <main>
+    <section class="ekran aktivan" id="ekran-mjesto">
+      <p class="mjesto-ime" id="mjesto-ime">—</p>
+      <p class="temp" id="temp">—</p>
+      <p class="mjerenje" id="mjerenje">—</p>
+      <ul class="parametri" id="parametri"></ul>
+    </section>
 
-<section id="map-screen" class="screen"><div id="map" class="map"></div><div class="map-note">Dodirni stanicu za stvarna posljednja mjerenja.</div></section>
+    <section class="ekran" id="ekran-stanice">
+      <p class="gradnja">Stanice — u izgradnji.<br>Slijede: stanje mreže, lista i mapa stanica.</p>
+    </section>
 
-<nav class="bottom-nav">
-<button class="nav active" data-screen="home"><i>◉</i>Moje mjesto</button>
-<button class="nav" data-screen="map-screen"><i>⌖</i>Mapa</button>
-<button class="nav" data-screen="stations-screen"><i>≡</i>Stanice</button>
-</nav>
+    <section class="ekran" id="ekran-prognoza">
+      <p class="gradnja">Prognoza — u izgradnji.<br>Slijede: zvanična i računarska prognoza.</p>
+    </section>
 
-<section id="detail" class="detail">
-<div class="detail-head"><button class="back" id="detail-close">‹</button><b id="detail-head-name">—</b></div>
-<div class="detail-body">
-<div class="detail-type" id="detail-type">—</div><div class="detail-name" id="detail-name">—</div><div class="detail-time" id="detail-time">—</div>
-<div id="detail-measures" class="measure-grid" style="margin-top:20px"></div>
-<div class="section"><div class="section-head"><div class="section-title">Istorija</div><div class="caption">bez popunjavanja rupa</div></div>
-<div class="tabs">
-<button class="tab active" data-metric="T">Temperatura</button><button class="tab" data-metric="RR">Padavine</button><button class="tab" data-metric="vjetar">Vjetar</button><button class="tab" data-metric="insolacija">Insolacija</button><button class="tab" data-metric="pritisak">Pritisak</button>
-</div>
-<div class="chart-card" style="margin-top:9px"><div class="chart-wrap"><canvas id="detail-chart"></canvas><div id="detail-empty" class="empty-chart" hidden></div></div></div></div>
-<div class="info-strip">Grafik prikazuje samo stvarno dostupna mjerenja. Ako HMZCG ne objavi vrijednost za određeni termin, taj termin ostaje bez vrijednosti i linija se prekida.</div>
-</div></section>
+    <footer class="izvor">Izvor: ZHMS — Zavod za hidrometeorologiju i seizmologiju Crne Gore</footer>
+  </main>
 
-<div id="sheet-bg" class="sheet-bg"></div><section id="sheet" class="sheet"><div class="handle"></div><h2>O podacima</h2>
-<p>MeteoMne prikazuje automatska mjerenja iz javno dostupnih podataka <strong>Zavoda za hidrometeorologiju i seizmologiju Crne Gore (ZHMS/HMZCG)</strong>.</p>
-<p>Kada zvanični izvor ne objavi vrijednost, aplikacija je ne procjenjuje, ne interpolira i ne zamjenjuje drugim podatkom.</p>
-<p><strong>—</strong> znači da podatak nije dostupan. <strong>0</strong> je stvarno izmjerena nulta vrijednost i nije isto što i nedostatak podatka.</p>
-<p>Rupe na grafikonima mogu nastati zbog senzora, stanice ili prenosa podataka. To je namjerno vidljivo, kako bi grafikon ostao vjeran izvoru.</p>
-<button class="btn" id="info-close" style="width:100%">Zatvori</button></section>
-
-<script>
-const META={
-"02BAR010":[42.10563,19.08956,"glavna"],"02BERA20":[42.84595,19.88068,"glavna"],"02BIST20":[42.99750,19.43747,"klimatološka"],
-"02BOAN30":[42.94199,19.21188,"klimatološka"],"02BPLJ20":[43.03469,19.74210,"klimatološka"],"02BUDV20":[42.29074,18.83844,"klimatološka"],
-"02CRKV30":[42.57185,18.63461,"klimatološka"],"02CTNJ10":[42.38416,18.92517,"glavna"],"02DANL20":[42.55046,19.10792,"klimatološka"],
-"02DDOB30":[43.02478,19.39594,"klimatološka"],"02DPLJ20":[42.86634,19.31355,"klimatološka"],"02GOBU30":[43.03870,19.13738,"klimatološka"],
-"02GRAD30":[43.39585,19.15309,"klimatološka"],"02HNOV10":[42.45971,18.50927,"glavna"],"02IVKO30":[42.38019,18.83582,"klimatološka"],
-"02KOLS10":[42.82617,19.51590,"glavna"],"02KOSA30":[43.19688,19.32025,"klimatološka"],"02KOVR30":[43.18931,19.57089,"klimatološka"],
-"02KUKO30":[42.48223,19.51328,"klimatološka"],"02LKOT20":[42.42623,18.76643,"klimatološka"],"02MAMO30":[42.76685,19.39146,"klimatološka"],
-"02MATE30":[42.76062,19.55587,"klimatološka"],"02MOKR30":[42.93804,19.07239,"klimatološka"],"02NIKS10":[42.76681,18.95288,"glavna"],
-"02NJGV30":[43.12206,19.22277,"klimatološka"],"02PDGR10":[42.43648,19.27199,"glavna"],"02PLJV10":[43.35028,19.35750,"glavna"],
-"02PLZN20":[43.15748,18.84515,"klimatološka"],"02POSC30":[42.97496,19.07436,"klimatološka"],"02SCPO30":[43.34763,18.84454,"klimatološka"],
-"02STAB30":[43.16354,18.75450,"klimatološka"],"02STIT30":[42.91682,19.52225,"klimatološka"],"02UBLI20":[42.49480,19.38612,"klimatološka"],
-"02ULCN10":[41.91660,19.25293,"glavna"],"02VELK30":[42.66445,19.95465,"klimatološka"],"02VELM20":[42.82194,18.63389,"klimatološka"],
-"02VIRP20":[42.23941,19.08301,"klimatološka"],"02ZBLJ10":[43.15576,19.12174,"glavna"]
-};
-const METRICS={
-T:["Temperatura","°C"],RR:["Padavine","mm"],vjetar:["Vjetar","m/s"],insolacija:["Insolacija","W/m²"],pritisak:["Pritisak","hPa"]
-};
-let stations=[],selected=localStorage.getItem("meteoMneSelected")||"Pljevlja",detailStation=null,historyPoints=[],metric="T",chart=null,map=null,markers={};
-
-const $=id=>document.getElementById(id);
-const missing=v=>v===null||v===undefined||v==="";
-const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-function fmt(v,u=""){return missing(v)?"-":`${v}${u}`;}
-function stationByName(n){return stations.find(s=>s.stanica===n)}
-function stationByCode(c){return stations.find(s=>s.sifra===c)}
-function timeOf(s){return s?.datum_vrijeme||"nema vremena mjerenja"}
-function dir(code){
- const n=Number(code);if(!Number.isFinite(n))return "";
- const d=["S","SSI","SI","ISI","I","IJI","JI","JJI","J","JJZ","JZ","ZJZ","Z","ZSZ","SZ","SSZ"];
- return d[Math.round((n*11.25)/22.5)%16];
-}
-function m(label,value,sub=""){
- const miss=value==="-";return `<div class="measure"><label>${label}</label><div class="v ${miss?"missing":""}">${esc(value)}</div>${sub?`<div class="sub">${esc(sub)}</div>`:""}</div>`;
-}
-function renderHome(){
- const s=stationByName(selected)||stations[0];if(!s){$("home-content").innerHTML="<div class='empty'>Nema dostupnih podataka.</div>";return}
- selected=s.stanica;localStorage.setItem("meteoMneSelected",selected);
- const t=missing(s.T)?"-":Number(s.T).toFixed(1);
- $("home-content").innerHTML=`
- <div class="place-head"><div><div class="eyebrow">Odabrano mjesto</div><div class="place">${esc(s.stanica)}</div><div class="time">Posljednje mjerenje: ${esc(timeOf(s))}</div></div><button class="btn" id="change">Promijeni</button></div>
- <div class="observation"><div class="eyebrow">Trenutno mjerenje</div><div class="temp-row"><div class="temp">${t}</div><div class="unit">°C</div></div>
- <div class="note">${missing(s.T)&&missing(s.RR)&&missing(s.vjetar)&&missing(s.udar)?"Za ovu stanicu trenutno nema dostupnih mjerenja kod izvora.":"Vrijednosti su prikazane samo ako ih je zvanični izvor objavio."}</div>
- <div class="measure-grid">
- ${m("Padavine",fmt(s.RR," mm"))}${m("Vjetar",fmt(s.vjetar," m/s"),dir(s.smjer_kod))}${m("Udar",fmt(s.udar," m/s"))}${m("Pritisak",fmt(s.pritisak," hPa"))}
- ${m("Insolacija",fmt(s.insolacija," W/m²"))}${m("Smjer vjetra",dir(s.smjer_kod)||"-")}${m("Tip stanice",s.tip||"-")}${m("Šifra",s.sifra||"-")}
- </div></div>
- <div class="section"><div class="section-head"><div class="section-title">Stanje mreže</div><div class="caption">posljednja objavljena mjerenja</div></div><div class="rows">
- ${extreme("Najviša temperatura",true)}${extreme("Najniža temperatura",false)}${windExtreme()}
- </div></div>
- <div class="section"><div class="section-head"><div class="section-title">Istorija · ${esc(s.stanica)}</div><div class="caption">temperatura</div></div>
- <div class="chart-card"><div class="chart-title">Posljednja dostupna mjerenja</div><div class="chart-sub">Prekid linije = nema objavljenog mjerenja.</div><div class="chart-wrap"><canvas id="home-chart"></canvas><div id="home-empty" class="empty-chart" hidden></div></div></div></div>
- <div class="info-strip">MeteoMne ne procjenjuje nedostajuće podatke. <button class="link" id="inline-info">Zašto nekad nedostaju?</button></div>`;
- $("change").onclick=()=>show("stations-screen");$("inline-info").onclick=openInfo;
- loadHistory(s.sifra).then(p=>drawChart($("home-chart"),$("home-empty"),p,"T"));
-}
-function extreme(label,high){
- const a=stations.map(s=>({s,v:missing(s.T)?null:Number(s.T)})).filter(x=>x.v!==null).sort((a,b)=>high?b.v-a.v:a.v-b.v)[0];
- return `<div class="row"><div><div class="row-name">${label}</div><div class="row-sub">${a?esc(a.s.stanica):"nema dostupnog podatka"}</div></div><div class="row-val">${a?a.v.toFixed(1)+" °C":"-"}</div></div>`;
-}
-function windExtreme(){
- const a=stations.map(s=>({s,v:missing(s.vjetar)?null:Number(s.vjetar)})).filter(x=>x.v!==null).sort((a,b)=>b.v-a.v)[0];
- return `<div class="row"><div><div class="row-name">Najveći vjetar</div><div class="row-sub">${a?esc(a.s.stanica):"nema dostupnog podatka"}</div></div><div class="row-val">${a?a.v.toFixed(1)+" m/s":"-"}</div></div>`;
-}
-async function loadHistory(code){
- try{const r=await fetch(`data/history/${encodeURIComponent(code)}.json?_=${Date.now()}`);return r.ok?await r.json():[]}catch{return[]}
-}
-function drawChart(canvas,empty,points,key){
- if(!canvas)return;if(chart&&canvas.id==="home-chart"){chart.destroy();chart=null}
- const vals=points.map(p=>missing(p?.[key])?null:Number(p[key])),count=vals.filter(v=>v!==null).length;
- if(count<2){canvas.hidden=true;empty.hidden=false;empty.textContent=points.length?"Nema dovoljno dostupnih mjerenja.":"Istorija još nema podatke.";return}
- canvas.hidden=false;empty.hidden=true;
- const unit=METRICS[key][1];
- const c=canvas.getContext("2d");
- const instance=new Chart(c,{type:key==="RR"?"bar":"line",data:{labels:points.map(p=>(p.dt||"").split(" ")[1]||""),datasets:[{data:vals,borderColor:"#9ed7e3",backgroundColor:key==="RR"?"#9ed7e3":"transparent",borderWidth:2,pointRadius:0,tension:.2,fill:false,spanGaps:false}]},
- options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>x.raw===null?"nema podatka":`${x.raw} ${unit}`}}},scales:{x:{ticks:{color:"#5f6d78",maxTicksLimit:6,font:{size:9}},grid:{display:false}},y:{ticks:{color:"#5f6d78",font:{size:9},callback:v=>`${v} ${unit}`},grid:{color:"#26333e"}}}}});
- return instance;
-}
-function renderStations(q=""){
- q=q.trim().toLocaleLowerCase("sr");
- const a=stations.filter(s=>s.stanica.toLocaleLowerCase("sr").includes(q)).sort((x,y)=>x.stanica.localeCompare(y.stanica,"sr"));
- $("station-list").innerHTML=a.length?a.map(s=>`<div class="station" data-code="${esc(s.sifra)}"><div><div class="station-name">${esc(s.stanica)}</div><div class="station-meta">${esc(s.tip||"")} · ${esc(timeOf(s))}</div></div><div class="station-right"><div class="station-t">${missing(s.T)?"-":Number(s.T).toFixed(1)+"°"}</div><div class="station-sub">${!missing(s.vjetar)?s.vjetar+" m/s":"bez vjetra"}${!missing(s.RR)?" · "+s.RR+" mm":""}</div></div></div>`).join(""):"<div class='empty'>Nema stanica za ovu pretragu.</div>";
- document.querySelectorAll(".station").forEach(x=>x.onclick=()=>openDetail(x.dataset.code));
-}
-async function openDetail(code){
- const s=stationByCode(code);if(!s)return;detailStation=s;metric="T";
- $("detail-head-name").textContent=s.stanica;$("detail-name").textContent=s.stanica;$("detail-type").textContent=s.tip||"stanica";$("detail-time").textContent="Posljednje mjerenje: "+timeOf(s);
- $("detail-measures").innerHTML=m("Temperatura",fmt(s.T," °C"))+m("Padavine",fmt(s.RR," mm"))+m("Vjetar",fmt(s.vjetar," m/s"),dir(s.smjer_kod))+m("Udar",fmt(s.udar," m/s"))+m("Insolacija",fmt(s.insolacija," W/m²"))+m("Pritisak",fmt(s.pritisak," hPa"));
- document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active",t.dataset.metric==="T"));
- $("detail").classList.add("open");history.pushState({detail:code},"","#"+code);historyPoints=await loadHistory(code);drawDetail();
-}
-function drawDetail(){
- if(chart){chart.destroy();chart=null}
- chart=drawChart($("detail-chart"),$("detail-empty"),historyPoints,metric);
-}
-$("detail-close").onclick=()=>{if(history.state?.detail)history.back();else $("detail").classList.remove("open")};
-addEventListener("popstate",()=>$("detail").classList.remove("open"));
-document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));t.classList.add("active");metric=t.dataset.metric;drawDetail()});
-function initMap(){
- map=L.map("map").setView([42.75,19.28],8);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap contributors"}).addTo(map);
- Object.entries(META).forEach(([code,v])=>{const icon=L.divIcon({className:"",html:`<div class="marker ${v[2]==="glavna"?"main":"clim"}"></div>`,iconSize:[17,17],iconAnchor:[8.5,8.5]});const mk=L.marker([v[0],v[1]],{icon}).addTo(map);mk.on("click",()=>openDetail(code));markers[code]=mk});
-}
-function show(id){
- document.querySelectorAll(".screen").forEach(x=>x.classList.remove("active"));$(id).classList.add("active");
- document.querySelectorAll(".nav").forEach(x=>x.classList.toggle("active",x.dataset.screen===id));
- if(id==="map-screen"){if(!map)initMap();setTimeout(()=>map.invalidateSize(),60)}
-}
-document.querySelectorAll(".nav").forEach(b=>b.onclick=()=>show(b.dataset.screen));
-$("search").oninput=e=>renderStations(e.target.value);
-function openInfo(){$("sheet-bg").classList.add("open");$("sheet").classList.add("open")}
-function closeInfo(){$("sheet-bg").classList.remove("open");$("sheet").classList.remove("open")}
-$("info-open").onclick=openInfo;$("info-close").onclick=closeInfo;$("sheet-bg").onclick=closeInfo;
-async function load(){
- try{
-  const r=await fetch("data/latest.json?_="+Date.now());if(!r.ok)throw Error("HTTP "+r.status);
-  const d=await r.json();stations=Array.isArray(d.stations)?d.stations:[];
-  $("header-time").textContent=d.updated_at?new Date(d.updated_at).toLocaleTimeString("sr-Latn-ME",{hour:"2-digit",minute:"2-digit"}):"—";
-  renderHome();renderStations($("search").value);
- }catch(e){$("home-content").innerHTML=`<div class="empty">Zvanični podaci trenutno nijesu dostupni. Aplikacija nije izmislila vrijednosti.<br><br>${esc(e.message)}</div>`}
-}
-load();setInterval(load,5*60*1000);
-</script>
+  <nav class="tabovi">
+    <button class="tab aktivan" data-ekran="mjesto">Moje mjesto</button>
+    <button class="tab" data-ekran="stanice">Stanice</button>
+    <button class="tab" data-ekran="prognoza">Prognoza</button>
+  </nav>
 </body>
 </html>
