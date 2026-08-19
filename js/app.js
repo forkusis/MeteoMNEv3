@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v4 (Korak 4: svi grafovi istorije) */
+/* MeteoMNE — app.js v5 (Korak 5: tab Stanice — stanje mreže + lista) */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -37,6 +37,13 @@ function fmtVrijeme(dt) {
 function fmtSati(dt) {
   const m = /(\d{2}:\d{2})/.exec(dt || "");
   return m ? m[1] : "";
+}
+function fmtKratko(dt) {
+  const m = /^(\d{2})\.(\d{2})\.(\d{4}) (\d{2}:\d{2})/.exec(dt || "");
+  if (!m) return "";
+  const sada = new Date();
+  const istiDan = (parseInt(m[1], 10) === sada.getDate()) && (parseInt(m[2], 10) === sada.getMonth() + 1);
+  return istiDan ? m[4] : (parseInt(m[1], 10) + "." + parseInt(m[2], 10) + ". " + m[4]);
 }
 function smjerTekst(kod) {
   if (kod === "" || kod == null) return null;
@@ -184,7 +191,6 @@ function crtajGraf(pts, mode) {
     '<text x="' + (mL + iw / 2) + '" y="' + (H - 6) + '" class="g-lab" text-anchor="middle">' + fmtX(xMid) + '</text>' +
     '<text x="' + (W - mR) + '" y="' + (H - 6) + '" class="g-lab" text-anchor="end">' + fmtX(t1) + '</text>';
 
-  /* linija sa POŠTENIM prekidima tamo gdje nema mjerenja */
   function linija(s, cls, yFn) {
     let d = "";
     for (let k = 0; k < s.length; k++) {
@@ -262,7 +268,6 @@ function crtajGraf(pts, mode) {
   });
 }
 
-/* chipovi za izbor grafa */
 document.querySelectorAll(".chip").forEach((c) => {
   c.addEventListener("click", () => {
     grafMode = c.dataset.graf;
@@ -270,6 +275,53 @@ document.querySelectorAll(".chip").forEach((c) => {
     if (grafPts) crtajGraf(grafPts, grafMode);
   });
 });
+
+/* ---------- tab Stanice ---------- */
+function mrezaRed(labela, stanica, vrijednost) {
+  return '<li><span class="p-labela">' + labela + '</span><span class="m-vrijednost"><span class="m-stanica">' + esc(stanica) + '</span><b>' + vrijednost + '</b></span></li>';
+}
+
+function renderMreza() {
+  const saT = staniceTrenutne.filter((s) => s.T !== "" && s.T != null);
+  const saV = staniceTrenutne.filter((s) => s.vjetar !== "" && s.vjetar != null);
+  if (!saT.length) { $("mreza").innerHTML = ""; return; }
+  const top = saT.reduce((a, b) => (parseFloat(b.T) > parseFloat(a.T) ? b : a));
+  const min = saT.reduce((a, b) => (parseFloat(b.T) < parseFloat(a.T) ? b : a));
+  let redovi = mrezaRed("Najtoplije", top.stanica, fmtBroj(top.T, 1) + "°") +
+               mrezaRed("Najhladnije", min.stanica, fmtBroj(min.T, 1) + "°");
+  if (saV.length) {
+    const vjet = saV.reduce((a, b) => (parseFloat(b.vjetar) > parseFloat(a.vjetar) ? b : a));
+    redovi += mrezaRed("Najjači vjetar", vjet.stanica, fmtBroj(vjet.vjetar, 1) + " m/s");
+  }
+  $("mreza").innerHTML = redovi;
+}
+
+function renderListaStanica() {
+  const q = bezDijakritika($("pretraga-stanice").value.trim());
+  const svi = Object.values(registry).sort((a, b) => (a.naziv || "").localeCompare(b.naziv || ""));
+  const filtrirane = q ? svi.filter((s) => bezDijakritika(s.naziv || "").includes(q)) : svi;
+
+  if (!filtrirane.length) {
+    $("lista-stanica").innerHTML = '<li class="lista-prazno">Nema rezultata za „' + esc($("pretraga-stanice").value.trim()) + '".</li>';
+    return;
+  }
+
+  $("lista-stanica").innerHTML = filtrirane.map((s) => {
+    const obs = staniceTrenutne.find((o) => o.sifra === s.sifra);
+    if (!obs) {
+      return '<li class="st-red"><span class="st-lijevo"><span class="st-naziv">' + esc(s.naziv) + '</span><span class="st-meta">nema mjerenja</span></span><span class="st-temp">—</span></li>';
+    }
+    const meta = [fmtKratko(obs.datum_vrijeme)];
+    if (obs.vlaga !== "" && obs.vlaga != null) meta.push(fmtBroj(obs.vlaga, 0) + "%");
+    if (obs.vjetar !== "" && obs.vjetar != null) meta.push(fmtBroj(obs.vjetar, 1) + " m/s");
+    return '<li class="st-red">' +
+      '<span class="st-lijevo"><span class="st-naziv">' + esc(obs.stanica || s.naziv) + '</span>' +
+      '<span class="st-meta">' + meta.join(" · ") + '</span></span>' +
+      '<span class="st-temp">' + fmtBroj(obs.T, 1) + '°</span></li>';
+  }).join("");
+}
+
+$("pretraga-stanice").addEventListener("input", renderListaStanica);
 
 /* ---------- birač mjesta ---------- */
 function renderLista() {
@@ -334,6 +386,8 @@ async function ucitaj() {
       mojaSifra = DEFAULT_SIFRA;
     }
     prikaziMjesto();
+    renderMreza();
+    renderListaStanica();
   } catch (e) {
     $("mjesto-ime").textContent = "—";
     $("temp").textContent = "—";
