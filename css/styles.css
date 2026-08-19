@@ -1,0 +1,85 @@
+/* MeteoMNE — dizajn sistem v1 (skelet)
+   Svijetla, tipografska, meteorološka. Bez generičkih kartica. */
+
+:root{
+  --pozadina:#eef2f4;
+  --ink:#0b1c2c;
+  --mutno:#5f6e7b;
+  --linija:#d5dde2;
+  --akcenat:#0e6ba8;
+  --displej:"Space Grotesk",system-ui,sans-serif;
+  --tekst:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+
+body{
+  background:var(--pozadina);
+  color:var(--ink);
+  font-family:var(--tekst);
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* vrh */
+.vrh{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  padding:calc(14px + env(safe-area-inset-top)) 20px 0;
+}
+.wordmark{font-family:var(--displej);font-weight:700;font-size:15px;letter-spacing:.01em}
+.wordmark em{font-style:normal;color:var(--akcenat)}
+.izvor-mini{font-size:11px;color:var(--mutno);letter-spacing:.06em;text-transform:uppercase}
+
+/* ekrani */
+main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
+.ekran{display:none}
+.ekran.aktivan{display:block}
+
+/* Moje mjesto */
+.mjesto-ime{margin:26px 0 0;font-size:13px;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+.mjesto-ime .elev{color:var(--mutno);font-weight:600;letter-spacing:.08em;margin-left:6px}
+
+.temp{
+  margin:2px 0 0;
+  font-family:var(--displej);
+  font-weight:700;
+  font-size:clamp(88px,27vw,136px);
+  line-height:.95;
+  letter-spacing:-.035em;
+  font-variant-numeric:tabular-nums;
+}
+
+.mjerenje{margin:6px 0 0;font-size:13px;color:var(--mutno)}
+
+.parametri{list-style:none;margin:30px 0 0;padding:0;border-top:1px solid var(--linija)}
+.parametri li{
+  display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+  padding:13px 2px;border-bottom:1px solid var(--linija);
+}
+.p-labela{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mutno)}
+.p-vrijednost{font-size:15px;font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.str{width:11px;height:11px;display:inline-block;vertical-align:1px;margin-left:4px;color:var(--akcenat)}
+
+/* u izgradnji */
+.gradnja{margin:70px 0;text-align:center;color:var(--mutno);font-size:14px;line-height:1.6}
+
+/* donja navigacija */
+.tabovi{
+  position:fixed;left:0;right:0;bottom:0;
+  display:flex;background:var(--pozadina);
+  border-top:1px solid var(--linija);
+  padding-bottom:env(safe-area-inset-bottom);
+}
+.tab{
+  flex:1;appearance:none;background:none;border:0;
+  font-family:var(--tekst);font-size:13px;font-weight:600;
+  color:var(--mutno);padding:15px 4px 13px;position:relative;cursor:pointer;
+}
+.tab.aktivan{color:var(--akcenat)}
+.tab.aktivan::before{content:"";position:absolute;top:0;left:22%;right:22%;height:2px;background:var(--akcenat)}
+
+/* izvor */
+.izvor{margin:34px 0 0;font-size:11px;color:var(--mutno);line-height:1.5}
