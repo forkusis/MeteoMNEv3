@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v7 (Korak 7: detalj stanice) */
+/* MeteoMNE — app.js v8 (fix: toggle, kolona, nazad, hardware back) */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -323,25 +323,53 @@ function renderDetalj() {
   ucitajGraf(detaljSifra, grafDetalj);
 }
 
-function otvoriDetalj(sifra) {
-  detaljSifra = sifra;
-  prikaziEkran("ekran-detalj");
-  renderDetalj();
-}
-
-/* ---------- ekrani / tabovi ---------- */
+/* ---------- ekrani / istorija / nazad ---------- */
 function prikaziEkran(id) {
   document.querySelectorAll(".ekran").forEach((s) => s.classList.toggle("aktivan", s.id === id));
 }
 
+function hashStanica() {
+  const m = /^#stanica\/([A-Za-z0-9_-]+)/.exec(location.hash);
+  return m ? m[1] : null;
+}
+function syncIzHasa() {
+  const s = hashStanica();
+  if (s && registry[s]) {
+    detaljSifra = s;
+    prikaziEkran("ekran-detalj");
+    renderDetalj();
+  } else if (s) {
+    history.replaceState(null, "", location.pathname + location.search);
+  } else if ($("ekran-detalj").classList.contains("aktivan")) {
+    prikaziEkran("ekran-stanice");
+  }
+}
+function otvoriDetalj(sifra) {
+  if (hashStanica() === sifra) {
+    detaljSifra = sifra;
+    prikaziEkran("ekran-detalj");
+    renderDetalj();
+    return;
+  }
+  location.hash = "stanica/" + sifra;
+}
+window.addEventListener("hashchange", syncIzHasa);
+
 document.querySelectorAll(".tab").forEach((btn) => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("aktivan", b === btn));
-    prikaziEkran("ekran-" + btn.dataset.ekran);
+    const id = "ekran-" + btn.dataset.ekran;
+    prikaziEkran(id);
+    if (id !== "ekran-detalj" && hashStanica()) {
+      history.replaceState(null, "", location.pathname + location.search);
+    }
   });
 });
 
-$("detalj-nazad").addEventListener("click", () => prikaziEkran("ekran-stanice"));
+$("detalj-nazad").addEventListener("click", () => {
+  if (hashStanica()) history.back();
+  else prikaziEkran("ekran-stanice");
+});
 
 /* ---------- tab Stanice ---------- */
 function mrezaRed(labela, stanica, vrijednost) {
@@ -389,6 +417,13 @@ function renderListaStanica() {
 }
 
 $("pretraga-stanice").addEventListener("input", renderListaStanica);
+
+$("ekstremi-glava").addEventListener("click", () => {
+  const tijelo = $("ekstremi-tijelo");
+  const otvori = tijelo.hidden;
+  tijelo.hidden = !otvori;
+  $("ekstremi-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
+});
 
 $("lista-stanica").addEventListener("click", (e) => {
   const btn = e.target.closest(".st-red");
@@ -461,6 +496,7 @@ async function ucitaj() {
     prikaziMjesto();
     renderMreza();
     renderListaStanica();
+    syncIzHasa();
     if (detaljSifra && $("ekran-detalj").classList.contains("aktivan")) renderDetalj();
   } catch (e) {
     $("mjesto-ime").textContent = "—";
