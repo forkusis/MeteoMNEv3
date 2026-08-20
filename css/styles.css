@@ -425,3 +425,11 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 }
 .opis-vremena[hidden]{display:none}
 .opis-ikona{width:20px;height:20px;color:var(--akcenat);flex:none}
+
+/* ---------- hero: temperatura lijevo, ikona+opis desno ---------- */
+.hero{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.temp{font-size:clamp(64px,21vw,108px)}
+.hero-desno{display:flex;flex-direction:column;align-items:center;gap:6px;flex:none;max-width:42%}
+.hero-desno[hidden]{display:none}
+.hero-ikona{width:68px;height:68px;display:block}
+.hero-opis{font-size:13px;font-weight:600;color:var(--mutno);text-align:center;line-height:1.25}
