@@ -392,3 +392,27 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
   border:1px solid rgba(255,255,255,.8);
 }
 
+
+/* ---------- tematske kartice: more i snijeg ---------- */
+.tematske-kartice{display:flex;gap:10px;margin-top:14px}
+.t-kartica{
+  flex:1;min-width:0;appearance:none;cursor:pointer;
+  background:#fff;border:1px solid var(--linija);border-radius:12px;
+  padding:12px 12px 10px;margin:0;
+  display:flex;flex-direction:column;gap:6px;align-items:flex-start;
+  font-family:var(--tekst);color:var(--ink);text-align:left;
+  box-shadow:0 1px 2px rgba(11,28,44,.06);
+}
+.t-kartica:active{background:#f4f8fa}
+.t-red1{display:flex;align-items:center;gap:6px;width:100%}
+.t-ikona{width:16px;height:16px;flex:none;color:var(--akcenat)}
+.t-naslov{
+  font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--mutno);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.t-chevron{margin-left:auto;flex:none;color:var(--mutno);font-size:16px;line-height:1}
+.t-vrijednost{font-family:var(--displej);font-size:24px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.t-meta{
+  font-size:11px;color:var(--mutno);max-width:100%;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
