@@ -1916,3 +1916,38 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,20.08.2026 13:50,32.30,53.0,0.00,3.40,20,,852.2,1015.0
 02ZBLJ10,glavna,Žabljak,20.08.2026 13:40,26.80,27.0,0.00,2.00,16,,888.4,859.6
 02LKOT20,klimatološka,Luka Kotor,20.08.2026 13:21,30.80,52.0,,1.90,,6.00,,1017.7
+02BAR010,glavna,Bar,20.08.2026 15:20,30.80,62.0,0.00,1.50,22,,683.0,1014.2
+02BERA20,glavna,Berane,20.08.2026 15:00,34.37,24.1,0.00,2.70,20,7.40,,937.26
+02CTNJ10,glavna,Cetinje,20.08.2026 15:20,32.50,22.0,0.00,0.30,12,,702.0,943.7
+02HNOV10,glavna,Herceg Novi,20.08.2026 15:20,30.50,65.0,0.00,3.10,8,,706.1,1010.0
+02KOLS10,glavna,Kolašin,20.08.2026 15:20,31.40,22.0,0.00,2.20,22,5.30,727.0,911.3
+02NIKS10,glavna,Nikšić,20.08.2026 15:20,32.30,24.0,0.00,6.30,16,,706.2,942.4
+02PDGR10,glavna,Podgorica,20.08.2026 15:20,36.50,24.0,0.00,4.80,18,,677.3,1007.7
+02PLJV10,glavna,Pljevlja,20.08.2026 15:20,33.90,19.0,0.00,0.20,14,,666.7,926.1
+02ULCN10,glavna,Ulcinj,20.08.2026 15:20,32.00,57.0,0.00,3.20,20,,716.9,1014.2
+02ZBLJ10,glavna,Žabljak,20.08.2026 15:20,26.90,23.0,0.00,3.50,14,,744.1,859.3
+02BIST20,klimatološka,Bistrica,20.08.2026 15:00,33.70,18.8,0.00,4.20,16,7.10,730.9,
+02BOAN30,klimatološka,Boan,20.08.2026 15:00,31.13,28.3,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,20.08.2026 15:00,34.14,23.3,,,,,819.51,946.94
+02BUDV20,klimatološka,Budva,20.08.2026 15:00,31.34,58.3,,,,,777.42,1013.85
+02CRKV30,klimatološka,Crkvice,20.08.2026 15:00,27.24,52.1,,,,,,
+02DANL20,klimatološka,Danilovgrad,20.08.2026 15:00,37.30,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,20.08.2026 15:00,32.47,25.8,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,20.08.2026 15:00,27.82,30.2,,,,,,
+02GRAD30,klimatološka,Gradac,20.08.2026 15:00,33.31,28.5,,,,,,
+02IVKO30,klimatološka,Ivanova korita,20.08.2026 15:00,26.33,41.8,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,20.08.2026 15:00,29.99,31.5,,,,,,
+02KOVR30,klimatološka,Kovren,20.08.2026 15:00,29.11,32.8,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,20.08.2026 15:00,26.17,36.6,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,20.08.2026 14:51,31.20,45.0,,0.50,,1.80,,1017.1
+02MAMO30,klimatološka,Manastir Morača,20.08.2026 15:00,35.62,22.5,,,,,,
+02MATE30,klimatološka,Matesevo,20.08.2026 15:00,29.51,32.6,0.00,,,,,
+02MOKR30,klimatološka,Mokro,20.08.2026 15:00,29.58,30.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,20.08.2026 15:00,28.13,28.0,,,,,,
+02POSC30,klimatološka,Pošćenje,20.08.2026 15:00,31.13,29.2,,,,,,
+02STAB30,klimatološka,Stabna,20.08.2026 15:00,33.05,28.8,,,,,,
+02STIT30,klimatološka,Štitarica,20.08.2026 15:00,29.23,29.1,,,,,,
+02UBLI20,klimatološka,Ubli,20.08.2026 15:00,33.07,,,,,,,
+02VELK30,klimatološka,Velika,20.08.2026 15:00,32.45,34.4,,,,,,
+02VELM20,klimatološka,Velimlje,20.08.2026 15:00,31.70,23.9,0.00,4.00,14,6.70,749.8,
+02VIRP20,klimatološka,Virpazar,20.08.2026 15:00,35.10,32.0,0.00,,,,,
