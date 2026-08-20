@@ -286,12 +286,31 @@ def parse_tabela_tekst(html, pref):
 def _ocisti(s):
     return (s or "").replace("&deg;", "°").replace("&#176;", "°").replace("*", "")
 
-def parse_redovi_jedinica(s):
-    """Robusno parsuje oba ZHMS formata:
-    'GradTemperatura mora1Herceg Novi 26 °C2Bar 27 °C'  i  'Herceg Novi 26 °CBar 27 °C'."""
+def parse_html_tabela(s):
+    """Parsuje HTML tabele tipa '<td>Herceg Novi</td><td>26 °C</td>'."""
     s = _ocisti(s)
     if not s:
         return []
+    out = []
+    for m in re.finditer(r"<td[^>]*>([^<]+)</td>\s*<td[^>]*>(-?\d+(?:[.,]\d+)?)\s*(°C|cm)", s, re.I):
+        naziv = m.group(1).strip()
+        if naziv and len(naziv) > 1:
+            out.append({"naziv": naziv, "vrijednost": float(m.group(2).replace(",", "."))})
+    return out
+
+def parse_redovi_jedinica(s):
+    """Robusno parsuje oba ZHMS formata:
+    HTML tabele i plain text kao 'GradTemperatura mora1Herceg Novi 26 °C2Bar 27 °C'."""
+    s = _ocisti(s)
+    if not s:
+        return []
+    
+    # Pokušaj HTML tabele
+    html_redovi = parse_html_tabela(s)
+    if html_redovi:
+        return html_redovi
+    
+    # Fallback na plain text
     out = []
     for m in re.finditer(r"([A-ZČĆŠŽčćšžĐđ][A-Za-zČĆŠŽčćšžĐđ ]*?)\s*(-?\d+(?:[.,]\d+)?)\s*(?:°C|°|cm)(?![A-Za-zČĆŠŽčćšžĐđ])", s):
         naziv = m.group(1).strip()
