@@ -335,3 +335,12 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .st-red::after{content:"›";color:var(--mutno);font-size:18px;font-weight:600}
 
 
+/* ---------- fix: kolona temperatura + veće dugme nazad ---------- */
+.st-lijevo{flex:1}
+.nazad{
+  margin:20px 0 0;
+  padding:12px 0;
+  font-size:15px;
+  min-height:44px;
+}
+
