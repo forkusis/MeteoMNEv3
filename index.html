@@ -23,9 +23,13 @@
   <main>
     <section class="ekran aktivan" id="ekran-mjesto">
       <button class="mjesto-ime" id="mjesto-ime" aria-haspopup="true">—</button>
-      <p class="temp" id="temp">—</p>
-      
-      <p class="opis-vremena" id="opis-vremena" hidden></p>
+            <div class="hero">
+        <p class="temp" id="temp">—</p>
+        <div class="hero-desno" id="hero-desno" hidden>
+          <img class="hero-ikona" id="opis-ikona" alt="">
+          <span class="hero-opis" id="opis-tekst"></span>
+        </div>
+      </div>
       <p class="mjerenje" id="mjerenje">—</p>
       <ul class="parametri" id="parametri"></ul>
 
@@ -90,8 +94,13 @@
     <section class="ekran" id="ekran-detalj">
       <button class="nazad" id="detalj-nazad"><svg class="nazad-ikona" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stanice</span></button>
       <p class="detalj-ime" id="detalj-ime">—</p>
-      <p class="temp" id="detalj-temp">—</p>
-      <p class="opis-vremena" id="detalj-opis-vremena" hidden></p>
+           <div class="hero">
+        <p class="temp" id="detalj-temp">—</p>
+        <div class="hero-desno" id="detalj-hero-desno" hidden>
+          <img class="hero-ikona" id="detalj-opis-ikona" alt="">
+          <span class="hero-opis" id="detalj-opis-tekst"></span>
+        </div>
+      </div>
       <p class="mjerenje" id="detalj-mjerenje">—</p>
       <ul class="parametri" id="detalj-parametri"></ul>
 
