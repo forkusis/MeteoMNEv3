@@ -290,6 +290,28 @@ function veziChipove(selector, ctx) {
 veziChipove("#graf-chips .chip", grafMoje);
 veziChipove("#detalj-chips .chip", grafDetalj);
 
+function ikonicaVremena(opis) {
+  const o = (opis || "").toLowerCase();
+  const sun = '<svg class="opis-ikona" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="12" y1="2.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="21.5"/><line x1="2.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="21.5" y2="12"/><line x1="5.2" y1="5.2" x2="7" y2="7"/><line x1="17" y1="17" x2="18.8" y2="18.8"/><line x1="5.2" y1="18.8" x2="7" y2="17"/><line x1="17" y1="7" x2="18.8" y2="5.2"/></g></svg>';
+  const cloud = '<svg class="opis-ikona" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.8 18.5a4.3 4.3 0 0 1-.4-8.6 5.8 5.8 0 0 1 11.3-1.2 4.6 4.6 0 0 1-.5 9.8z"/></svg>';
+  const suncloud = '<svg class="opis-ikona" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="3.2" fill="currentColor"/><g stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="8" y1="2.5" x2="8" y2="4"/><line x1="2.5" y1="8" x2="4" y2="8"/><line x1="4.2" y1="4.2" x2="5.3" y2="5.3"/><line x1="11.8" y1="4.2" x2="10.7" y2="5.3"/></g><path fill="currentColor" d="M9.5 19a3.8 3.8 0 0 1-.3-7.6 5 5 0 0 1 9.7-1 4 4 0 0 1-.4 8.6z"/></svg>';
+  if (o === "vedro") return sun;
+  if (o === "pretežno vedro") return suncloud;
+  if (o === "malo oblačno" || o === "umjereno oblačno") return suncloud;
+  return cloud;
+}
+function prikaziOpis(id, obs) {
+  const el = $(id);
+  if (!el) return;
+  if (obs && obs.opis) {
+    el.innerHTML = ikonicaVremena(obs.opis) + "<span>" + obs.opis + "</span>";
+    el.hidden = false;
+  } else {
+    el.hidden = true;
+    el.innerHTML = "";
+  }
+}
+
 /* ---------- Moje mjesto ---------- */
 function prikaziMjesto() {
   const meta = registry[mojaSifra] || {};
@@ -308,6 +330,7 @@ function prikaziMjesto() {
     $("mjerenje").textContent = fmtVrijeme(obs.datum_vrijeme);
     $("parametri").innerHTML = parametriHTML(obs);
   }
+  prikaziOpis("opis-vremena", obs);
   ucitajGraf(mojaSifra, grafMoje);
 }
 
@@ -328,6 +351,7 @@ function renderDetalj() {
     $("detalj-mjerenje").textContent = fmtVrijeme(obs.datum_vrijeme);
     $("detalj-parametri").innerHTML = parametriHTML(obs);
   }
+  prikaziOpis("detalj-opis-vremena", obs);
   ucitajGraf(detaljSifra, grafDetalj);
 }
 
