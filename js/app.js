@@ -552,6 +552,30 @@ $("lista-mjesta").addEventListener("click", (e) => {
   zatvoriOverlay();
   prikaziMjesto();
 });
+function mnozina(n, oblici) {
+  const d = n % 10, dd = n % 100;
+  if (d === 1 && dd !== 11) return oblici[0];
+  if (d >= 2 && d <= 4 && !(dd >= 12 && dd <= 14)) return oblici[1];
+  return oblici[2];
+}
+function renderTematskeKartice() {
+  if (morePodaci && morePodaci.stations && morePodaci.stations.length) {
+    const top = morePodaci.stations.reduce((a, b) => (b.vrijednost > a.vrijednost ? b : a));
+    $("more-vrijednost").textContent = fmtBroj(top.vrijednost, 0) + "°C";
+    $("more-meta").textContent = top.naziv + " · " + morePodaci.stations.length + " " + mnozina(morePodaci.stations.length, ["lokacija", "lokacije", "lokacija"]);
+  } else {
+    $("more-vrijednost").textContent = "—";
+    $("more-meta").textContent = "Nema objavljenih mjerenja";
+  }
+  if (snijegPodaci && snijegPodaci.stations && snijegPodaci.stations.length) {
+    const top = snijegPodaci.stations.reduce((a, b) => (b.vrijednost > a.vrijednost ? b : a));
+    $("snijeg-vrijednost").textContent = fmtBroj(top.vrijednost, 0) + " cm";
+    $("snijeg-meta").textContent = top.naziv + " · " + snijegPodaci.stations.length + " " + mnozina(snijegPodaci.stations.length, ["stanica", "stanice", "stanica"]);
+  } else {
+    $("snijeg-vrijednost").textContent = "—";
+    $("snijeg-meta").textContent = "Trenutno nema snijega";
+  }
+}
 
 /* ---------- učitavanje ---------- */
 async function ucitaj() {
@@ -574,8 +598,9 @@ async function ucitaj() {
       fetch("data/sea.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null),
       fetch("data/snow.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null)
     ]);
-    morePodaci = more;
+       morePodaci = more;
     snijegPodaci = snijeg;
+    renderTematskeKartice();
 
     prikaziMjesto();
     renderMreza();
