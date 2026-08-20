@@ -359,3 +359,36 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .nazad:active{background:#e3ebf2}
 .nazad-ikona{width:20px;height:20px;flex:none}
 
+/* ---------- red alata: pretraga + mapa ---------- */
+.stanice-alati{display:flex;align-items:center;gap:10px;margin-top:16px}
+#ekran-stanice .stanice-alati .pretraga{flex:1;margin:0}
+.mapa-dugme{
+  appearance:none;flex:none;cursor:pointer;
+  display:inline-flex;align-items:center;gap:7px;
+  min-height:44px;padding:0 14px;
+  background:#fff;border:1px solid var(--linija);border-radius:10px;
+  font-family:var(--tekst);font-size:13px;font-weight:700;color:var(--ink);
+  box-shadow:0 1px 2px rgba(11,28,44,.06);
+}
+.mapa-dugme:active{background:#f4f8fa}
+.mapa-ikona{width:18px;height:18px;color:var(--akcenat)}
+
+/* ---------- mapa ---------- */
+.mapa-okvir{
+  margin:12px 0 0;
+  height:calc(100vh - 230px);
+  height:calc(100dvh - 230px);
+  min-height:320px;
+  border:1px solid var(--linija);border-radius:12px;
+  overflow:hidden;background:#e8ecef;
+}
+.mapa-napomena{margin:8px 0 0;font-size:11px;color:var(--mutno);line-height:1.5}
+.mapa-ikon{background:none;border:0}
+.mapa-bedz{
+  display:flex;align-items:center;justify-content:center;
+  width:44px;height:26px;border-radius:8px;
+  font-family:var(--displej);font-size:12px;font-weight:700;color:#fff;
+  box-shadow:0 1px 3px rgba(11,28,44,.35);
+  border:1px solid rgba(255,255,255,.8);
+}
+
