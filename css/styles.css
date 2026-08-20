@@ -343,4 +343,19 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
   font-size:15px;
   min-height:44px;
 }
+/* ---------- nazad kao jasna kontrola, ne kao tekst ---------- */
+.nazad{
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  margin:18px 0 6px -8px;
+  padding:10px 14px 10px 8px;
+  color:var(--akcenat);
+  font-size:14px;
+  font-weight:700;
+  letter-spacing:.02em;
+  border-radius:10px;
+}
+.nazad:active{background:#e3ebf2}
+.nazad-ikona{width:20px;height:20px;flex:none}
 
