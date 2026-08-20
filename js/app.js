@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v9 (mapa stanica) */
+/* MeteoMNE — app.js v10 (more i snijeg kartice + ekrani) */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -12,6 +12,8 @@ let registry = {};
 let staniceTrenutne = [];
 let mojaSifra = localStorage.getItem("moje_mjesto") || DEFAULT_SIFRA;
 let detaljSifra = null;
+let morePodaci = null;
+let snijegPodaci = null;
 
 const MODE_INFO = {
   tvaga:      { naslov: "Temperatura i vlažnost", legenda: '<span class="leg-t">— temperatura (°C)</span><span class="leg-h">– – vlažnost (%)</span>' },
@@ -88,6 +90,12 @@ function parseDT(dt) {
   const m = /^(\d{2})\.(\d{2})\.(\d{4}) (\d{2}):(\d{2})/.exec(dt || "");
   if (!m) return null;
   return new Date(+m[3], +m[2] - 1, +m[1], +m[4], +m[5]);
+}
+function mnozina(n, oblici) {
+  const d = n % 10, dd = n % 100;
+  if (d === 1 && dd !== 11) return oblici[0];
+  if (d >= 2 && d <= 4 && !(dd >= 12 && dd <= 14)) return oblici[1];
+  return oblici[2];
 }
 
 function parametriHTML(obs) {
@@ -323,6 +331,50 @@ function renderDetalj() {
   ucitajGraf(detaljSifra, grafDetalj);
 }
 
+/* ---------- more i snijeg ---------- */
+function renderTematskeKartice() {
+  if (morePodaci && morePodaci.stations && morePodaci.stations.length) {
+    const top = morePodaci.stations.reduce((a, b) => (b.vrijednost > a.vrijednost ? b : a));
+    $("more-vrijednost").textContent = fmtBroj(top.vrijednost, 0) + "°C";
+    $("more-meta").textContent = top.naziv + " · " + morePodaci.stations.length + " " + mnozina(morePodaci.stations.length, ["lokacija", "lokacije", "lokacija"]);
+  } else {
+    $("more-vrijednost").textContent = "—";
+    $("more-meta").textContent = "Nema objavljenih mjerenja";
+  }
+  if (snijegPodaci && snijegPodaci.stations && snijegPodaci.stations.length) {
+    const top = snijegPodaci.stations.reduce((a, b) => (b.vrijednost > a.vrijednost ? b : a));
+    $("snijeg-vrijednost").textContent = fmtBroj(top.vrijednost, 0) + " cm";
+    $("snijeg-meta").textContent = top.naziv + " · " + snijegPodaci.stations.length + " " + mnozina(snijegPodaci.stations.length, ["stanica", "stanice", "stanica"]);
+  } else {
+    $("snijeg-vrijednost").textContent = "—";
+    $("snijeg-meta").textContent = "Trenutno nema snijega";
+  }
+}
+
+function renderMoreEkran() {
+  if (morePodaci && morePodaci.stations && morePodaci.stations.length) {
+    $("more-labela").textContent = "Mjereno: " + (morePodaci.mjerenje_labela || "—");
+    $("more-lista").innerHTML = morePodaci.stations
+      .slice().sort((a, b) => b.vrijednost - a.vrijednost)
+      .map((s) => red(esc(s.naziv), fmtBroj(s.vrijednost, 1) + "°C")).join("");
+  } else {
+    $("more-labela").textContent = "—";
+    $("more-lista").innerHTML = '<li class="lista-prazno">ZHMS trenutno ne objavljuje mjerenja temperature mora.</li>';
+  }
+}
+
+function renderSnijegEkran() {
+  if (snijegPodaci && snijegPodaci.stations && snijegPodaci.stations.length) {
+    $("snijeg-labela").textContent = "Mjereno: " + (snijegPodaci.mjerenje_labela || "—");
+    $("snijeg-lista").innerHTML = snijegPodaci.stations
+      .slice().sort((a, b) => b.vrijednost - a.vrijednost)
+      .map((s) => red(esc(s.naziv), fmtBroj(s.vrijednost, 0) + " cm")).join("");
+  } else {
+    $("snijeg-labela").textContent = "—";
+    $("snijeg-lista").innerHTML = '<li class="lista-prazno">Trenutno nema mjerenja snijega. Visinu snijega prikazujemo čim je ZHMS počne objavljivati.</li>';
+  }
+}
+
 /* ---------- ekrani / istorija / nazad ---------- */
 function prikaziEkran(id) {
   document.querySelectorAll(".ekran").forEach((s) => s.classList.toggle("aktivan", s.id === id));
@@ -333,11 +385,9 @@ function hashStanica() {
   return m ? m[1] : null;
 }
 function syncIzHasa() {
-  if (location.hash === "#mapa") {
-    prikaziEkran("ekran-mapa");
-    pokreniMapu();
-    return;
-  }
+  if (location.hash === "#mapa") { prikaziEkran("ekran-mapa"); pokreniMapu(); return; }
+  if (location.hash === "#more") { prikaziEkran("ekran-more"); renderMoreEkran(); return; }
+  if (location.hash === "#snijeg") { prikaziEkran("ekran-snijeg"); renderSnijegEkran(); return; }
   const s = hashStanica();
   if (s && registry[s]) {
     detaljSifra = s;
@@ -345,7 +395,7 @@ function syncIzHasa() {
     renderDetalj();
   } else if (s) {
     history.replaceState(null, "", location.pathname + location.search);
-  } else if ($("ekran-detalj").classList.contains("aktivan") || $("ekran-mapa").classList.contains("aktivan")) {
+  } else if (["ekran-detalj", "ekran-mapa", "ekran-more", "ekran-snijeg"].some((id) => $(id).classList.contains("aktivan"))) {
     prikaziEkran("ekran-stanice");
   }
 }
@@ -365,7 +415,7 @@ document.querySelectorAll(".tab").forEach((btn) => {
     document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("aktivan", b === btn));
     const id = "ekran-" + btn.dataset.ekran;
     prikaziEkran(id);
-    if (id !== "ekran-detalj" && (hashStanica() || location.hash === "#mapa")) {
+    if (id !== "ekran-detalj" && (hashStanica() || ["#mapa", "#more", "#snijeg"].includes(location.hash))) {
       history.replaceState(null, "", location.pathname + location.search);
     }
   });
@@ -426,6 +476,18 @@ $("stanice-mapa-dugme").addEventListener("click", () => {
 });
 $("mapa-nazad").addEventListener("click", () => {
   if (location.hash === "#mapa") history.back();
+  else prikaziEkran("ekran-stanice");
+});
+
+/* ---------- more/snijeg navigacija ---------- */
+$("kartica-more").addEventListener("click", () => { location.hash = "more"; });
+$("kartica-snijeg").addEventListener("click", () => { location.hash = "snijeg"; });
+$("more-nazad").addEventListener("click", () => {
+  if (location.hash === "#more") history.back();
+  else prikaziEkran("ekran-stanice");
+});
+$("snijeg-nazad").addEventListener("click", () => {
+  if (location.hash === "#snijeg") history.back();
   else prikaziEkran("ekran-stanice");
 });
 
@@ -551,11 +613,22 @@ async function ucitaj() {
     if (!registry[mojaSifra]) {
       mojaSifra = DEFAULT_SIFRA;
     }
+
+    const [more, snijeg] = await Promise.all([
+      fetch("data/sea.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      fetch("data/snow.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null)
+    ]);
+    morePodaci = more;
+    snijegPodaci = snijeg;
+    renderTematskeKartice();
+
     prikaziMjesto();
     renderMreza();
     renderListaStanica();
     syncIzHasa();
     if (detaljSifra && $("ekran-detalj").classList.contains("aktivan")) renderDetalj();
+    if ($("ekran-more").classList.contains("aktivan")) renderMoreEkran();
+    if ($("ekran-snijeg").classList.contains("aktivan")) renderSnijegEkran();
   } catch (e) {
     $("mjesto-ime").textContent = "—";
     $("temp").textContent = "—";
