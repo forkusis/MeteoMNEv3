@@ -37,11 +37,12 @@ HEADERS = {
 
 NEBO = ["Vedro", "Pretežno vedro", "Malo oblačno", "Umjereno oblačno", "Pretežno oblačno", "Oblačno"]
 
-def opis_vremena(obl):
-    if obl is None or obl == "":
+def opis_vremena(obl, vbn=None):
+    val = obl if obl not in (None, "") else vbn
+    if val in (None, ""):
         return None
     try:
-        o = int(obl)
+        o = int(val)
     except (ValueError, TypeError):
         return None
     if o < 2: return NEBO[0]
@@ -189,11 +190,13 @@ def extract_sinop(html):
     for b in blocks:
         sifra = re.search(r"sifra:\s*'([^']*)'", b)
         naziv = re.search(r"naziv:\s*'([^']*)'", b)
-        obl = re.search(r"\bobl:\s*'([^']*)'", b)
+               obl = re.search(r"\bobl:\s*'([^']*)'", b)
+        vbn = re.search(r"VBNobl:\s*'([^']*)'", b)
         out.append({
             "wmo": sifra.group(1) if sifra else None,
             "naziv": naziv.group(1) if naziv else None,
             "obl": obl.group(1) if obl else None,
+            "vbn": vbn.group(1) if vbn else None,
         })
     return out
 
@@ -406,7 +409,13 @@ def main():
     # Opis vremena iz sinop niza (oblacnost -> tekst), mapirano preko WMO sifre
     sinop_html = next((h for h in ss_htmls if h and "var sinop" in h), None)
     sinop = extract_sinop(sinop_html) if sinop_html else []
-    wmo_opis = {str(s["wmo"]): opis_vremena(s["obl"]) for s in sinop if s.get("wmo")}
+           wmo_opis = {str(s["wmo"]): opis_vremena(s.get("obl"), s.get("vbn")) for s in sinop if s.get("wmo")}
+    sa_obl = sum(1 for s in sinop if s.get("obl") not in (None, ""))
+    sa_vbn = sum(1 for s in sinop if s.get("vbn") not in (None, ""))
+    print(f"  sinop dijagnostika: {len(sinop)} stanica, sa obl: {sa_obl}, sa vbn: {sa_vbn}")
+    sa_obl = sum(1 for s in sinop if s.get("obl") not in (None, ""))
+    sa_vbn = sum(1 for s in sinop if s.get("vbn") not in (None, ""))
+    print(f"  sinop dijagnostika: {len(sinop)} stanica, sa obl: {sa_obl}, sa vbn: {sa_vbn}")
     reg_by_sifra = {r["sifra"]: r for r in registry}
     for row in rows:
         reg = reg_by_sifra.get(row["sifra"])
