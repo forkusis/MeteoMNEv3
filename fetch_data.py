@@ -13,10 +13,13 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 BASE_URL = "https://www.meteo.co.me/Meteorologija/aws_m.php"
 GRAPH_URL = "https://www.meteo.co.me/Meteorologija/aws-graph.php"
+SEA_SNOW_URL = "https://www.meteo.co.me/Meteorologija/TTRR/sneg-talasi.php"
 DATA_DIR = "data"
 HISTORY_CSV = os.path.join(DATA_DIR, "history.csv")
 LATEST_JSON = os.path.join(DATA_DIR, "latest.json")
 STATIONS_JSON = os.path.join(DATA_DIR, "stations.json")
+SEA_JSON = os.path.join(DATA_DIR, "sea.json")
+SNOW_JSON = os.path.join(DATA_DIR, "snow.json")
 STATION_HISTORY_DIR = os.path.join(DATA_DIR, "history")
 MAX_POINTS_PER_STATION = 96
 
@@ -29,10 +32,12 @@ HEADERS = {
     "Connection": "keep-alive"
 }
 
+
 def fetch_raw(session):
     r = session.get(BASE_URL, timeout=30, headers=HEADERS, verify=False)
     r.raise_for_status()
     return r.text
+
 
 def extract_posljednje(html):
     m = re.search(r"var\s+posljednje\s*=\s*(\{.*?\});", html, re.S)
@@ -42,6 +47,7 @@ def extract_posljednje(html):
     raw = re.sub(r",\s*\]", "]", raw)
     raw = re.sub(r",\s*\}", "}", raw)
     return json.loads(raw)
+
 
 def extract_stanice(html):
     """Izvlaci zvanicnu listu stanica (var stanice = [...]) sa iste stranice."""
@@ -71,6 +77,7 @@ def extract_stanice(html):
     except json.JSONDecodeError:
         return []
 
+
 def build_station_registry(stanice_raw):
     """Normalizuje sirovu ZHMS listu u kanonski registar stanica."""
     registry = []
@@ -89,6 +96,7 @@ def build_station_registry(stanice_raw):
         })
     registry.sort(key=lambda s: (s["naziv"] or "").lower())
     return registry
+
 
 def flatten(data):
     rows = []
@@ -111,6 +119,7 @@ def flatten(data):
                 "pritisak": "",
             })
     return rows
+
 
 def migrate_history_csv():
     """Jednokratna migracija: ako history.csv ima stari raspored (11 kolona bez 'vlaga'),
@@ -137,6 +146,7 @@ def migrate_history_csv():
         writer.writerows(fixed)
     print(f"Migracija history.csv zavrsena: {len(fixed)} redova prebaceno u novi raspored.")
 
+
 def extract_balanced_object(html, var_name):
     marker = re.search(r"var\s+" + re.escape(var_name) + r"\s*=", html)
     if not marker:
@@ -156,11 +166,13 @@ def extract_balanced_object(html, var_name):
         i += 1
     return None
 
+
 def js_object_to_json(js_str):
     s = re.sub(r'([{,]\s*)(\w+)(\s*:)', r'\1"\2"\3', js_str)
     s = re.sub(r",\s*\]", "]", s)
     s = re.sub(r",\s*\}", "}", s)
     return s
+
 
 def fetch_graph_extra(session, sifra, tip, naziv):
     try:
@@ -185,6 +197,7 @@ def fetch_graph_extra(session, sifra, tip, naziv):
         print(f"  ! Greška pri dohvatanju grafika za {naziv} ({sifra}): {e}")
         return "", "", ""
 
+
 def enrich_with_graph_data(session, rows):
     for row in rows:
         print(f"  Dohvatam grafikone za: {row['stanica']} ({row['tip']})...")
@@ -194,6 +207,7 @@ def enrich_with_graph_data(session, rows):
         row["vlaga"] = vlaga
     return rows
 
+
 def load_existing_keys():
     keys = set()
     if os.path.exists(HISTORY_CSV):
@@ -202,6 +216,7 @@ def load_existing_keys():
             for row in reader:
                 keys.add((row["sifra"], row["datum_vrijeme"]))
     return keys
+
 
 def append_new(rows, existing_keys):
     os.makedirs(DATA_DIR, exist_ok=True)
@@ -215,6 +230,7 @@ def append_new(rows, existing_keys):
             writer.writerows(new_rows)
     return new_rows
 
+
 def _to_float(value):
     try:
         if value in (None, ""):
@@ -222,6 +238,7 @@ def _to_float(value):
         return float(value)
     except (ValueError, TypeError):
         return None
+
 
 def export_station_history():
     if not os.path.exists(HISTORY_CSV):
@@ -250,6 +267,87 @@ def export_station_history():
         with open(os.path.join(STATION_HISTORY_DIR, f"{safe_name}.json"), "w", encoding="utf-8") as out:
             json.dump(points, out, ensure_ascii=False)
 
+
+# ---------- more i snijeg ----------
+
+def fetch_sea_snow(session):
+    try:
+        r = session.get(SEA_SNOW_URL, timeout=30, headers=HEADERS, verify=False)
+        r.raise_for_status()
+        return r.text
+    except Exception as e:
+        print(f"  ! Greška pri dohvatanju more/snijeg stranice: {e}")
+        return None
+
+
+def _najduzi(rezultati):
+    best = ""
+    for s in rezultati:
+        if len(s) > len(best):
+            best = s
+    return best
+
+
+def parse_labela(html, pref):
+    return _najduzi(re.findall(r"var\s+" + pref + r"H\d*\s*=\s*\"([^\"]*)\"", html)).strip()
+
+
+def parse_tabela_tekst(html, pref):
+    return _najduzi(re.findall(r"var\s+" + pref + r"T\d*\s*=\s*\"([^\"]*)\"", html)).strip()
+
+
+def parse_redovi_jedinica(s, jedinice):
+    """Parsuje serijalizovanu tabelu tipa 'GradTemperatura mora1Bar 26 °C2Ulcinj 25 °C'."""
+    if not s:
+        return []
+    for jed in jedinice:
+        if jed not in s:
+            continue
+        out = []
+        for part in s.split(jed):
+            m = re.search(r"(\d+)\s*([A-Za-zČĆŠŽčćšžĐđ ]+?)\s*(-?\d+(?:[.,]\d+)?)\s*$", part.strip())
+            if m:
+                naziv = m.group(2).strip()
+                if naziv:
+                    out.append({"naziv": naziv, "vrijednost": float(m.group(3).replace(",", "."))})
+        if out:
+            return out
+    return []
+
+
+def parse_redovi_broj(s):
+    """Fallback za tabele bez jedinice (npr. snijeg kao čisti brojevi)."""
+    out = []
+    if not s:
+        return out
+    for m in re.finditer(r"(\d+)\s*([A-Za-zČĆŠŽčćšžĐđ ]+?)\s*(-?\d+(?:[.,]\d+)?)\s*(?=\d+[A-Za-zČĆŠŽčćšžĐđ]|$)", s):
+        naziv = m.group(2).strip()
+        if naziv:
+            out.append({"naziv": naziv, "vrijednost": float(m.group(3).replace(",", "."))})
+    return out
+
+
+def build_more(html):
+    tekst = parse_tabela_tekst(html, "sea")
+    return {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "mjerenje_labela": parse_labela(html, "sea"),
+        "stations": parse_redovi_jedinica(tekst, ["°C", "&deg;C"]),
+    }
+
+
+def build_snijeg(html):
+    tekst = parse_tabela_tekst(html, "snow")
+    redovi = parse_redovi_jedinica(tekst, ["cm"])
+    if not redovi:
+        redovi = parse_redovi_broj(tekst)
+    return {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "mjerenje_labela": parse_labela(html, "snow"),
+        "stations": redovi,
+    }
+
+
 def main():
     session = requests.Session()
 
@@ -261,8 +359,7 @@ def main():
     data = extract_posljednje(html)
     rows = flatten(data)
 
-    # NOVO: kanonski registar stanica iz zvanične ZHMS liste
-    # (ista stranica koju već skidamo — bez dodatnih zahtjeva ka serveru)
+    # kanonski registar stanica iz zvanične ZHMS liste
     stanice_raw = extract_stanice(html)
     if stanice_raw:
         registry = build_station_registry(stanice_raw)
@@ -284,6 +381,18 @@ def main():
     new_rows = append_new(rows, existing)
     export_station_history()
 
+    # temperatura mora i snijeg
+    print("Dohvatam temperaturu mora i snijeg...")
+    ss_html = fetch_sea_snow(session)
+    if ss_html is not None:
+        more = build_more(ss_html)
+        snijeg = build_snijeg(ss_html)
+        with open(SEA_JSON, "w", encoding="utf-8") as f:
+            json.dump(more, f, ensure_ascii=False, indent=2)
+        with open(SNOW_JSON, "w", encoding="utf-8") as f:
+            json.dump(snijeg, f, ensure_ascii=False, indent=2)
+        print(f"  more: {len(more['stations'])} lokacija; snijeg: {len(snijeg['stations'])} lokacija")
+
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(LATEST_JSON, "w", encoding="utf-8") as f:
         json.dump({
@@ -292,6 +401,7 @@ def main():
         }, f, ensure_ascii=False, indent=2)
 
     print(f"Uspješno završeno! Ukupno stanica: {len(rows)}, novih zapisa: {len(new_rows)}")
+
 
 if __name__ == "__main__":
     main()
