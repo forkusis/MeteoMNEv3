@@ -416,3 +416,12 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
   font-size:11px;color:var(--mutno);max-width:100%;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
+
+/* ---------- opis vremena ---------- */
+.opis-vremena{
+  display:flex;align-items:center;gap:8px;
+  margin:2px 0 0;
+  font-size:16px;font-weight:600;color:var(--ink);
+}
+.opis-vremena[hidden]{display:none}
+.opis-ikona{width:20px;height:20px;color:var(--akcenat);flex:none}
