@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v8 (fix: toggle, kolona, nazad, hardware back) */
+/* MeteoMNE — app.js v9 (mapa stanica) */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -333,6 +333,11 @@ function hashStanica() {
   return m ? m[1] : null;
 }
 function syncIzHasa() {
+  if (location.hash === "#mapa") {
+    prikaziEkran("ekran-mapa");
+    pokreniMapu();
+    return;
+  }
   const s = hashStanica();
   if (s && registry[s]) {
     detaljSifra = s;
@@ -340,7 +345,7 @@ function syncIzHasa() {
     renderDetalj();
   } else if (s) {
     history.replaceState(null, "", location.pathname + location.search);
-  } else if ($("ekran-detalj").classList.contains("aktivan")) {
+  } else if ($("ekran-detalj").classList.contains("aktivan") || $("ekran-mapa").classList.contains("aktivan")) {
     prikaziEkran("ekran-stanice");
   }
 }
@@ -360,7 +365,7 @@ document.querySelectorAll(".tab").forEach((btn) => {
     document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("aktivan", b === btn));
     const id = "ekran-" + btn.dataset.ekran;
     prikaziEkran(id);
-    if (id !== "ekran-detalj" && hashStanica()) {
+    if (id !== "ekran-detalj" && (hashStanica() || location.hash === "#mapa")) {
       history.replaceState(null, "", location.pathname + location.search);
     }
   });
@@ -368,6 +373,59 @@ document.querySelectorAll(".tab").forEach((btn) => {
 
 $("detalj-nazad").addEventListener("click", () => {
   if (hashStanica()) history.back();
+  else prikaziEkran("ekran-stanice");
+});
+
+/* ---------- mapa stanica ---------- */
+let mapaObj = null;
+let mapaMarkeri = [];
+
+function tempBoja(t) {
+  if (t == null || t === "" || !isFinite(t)) return "#8a97a3";
+  const x = Math.max(-5, Math.min(35, t));
+  const hue = 210 - ((x + 5) / 40) * 200;
+  return "hsl(" + Math.round(hue) + ", 62%, 45%)";
+}
+
+function pokreniMapu() {
+  if (!window.L) {
+    $("mapa").innerHTML = '<p class="graf-prazno">Mapa nije dostupna bez internet konekcije.</p>';
+    return;
+  }
+  if (!mapaObj) {
+    mapaObj = L.map("mapa", { zoomControl: true });
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      attribution: '&copy; OpenStreetMap &copy; CARTO',
+      maxZoom: 16
+    }).addTo(mapaObj);
+    mapaObj.fitBounds([[41.85, 18.35], [43.55, 20.45]], { padding: [8, 8] });
+  }
+  mapaMarkeri.forEach((m) => mapaObj.removeLayer(m));
+  mapaMarkeri = [];
+  Object.values(registry).forEach((s) => {
+    if (s.lat == null || s.lng == null) return;
+    const obs = staniceTrenutne.find((o) => o.sifra === s.sifra);
+    const t = obs ? parseFloat(obs.T) : NaN;
+    const label = (obs && isFinite(t)) ? Math.round(t) + "°" : "—";
+    const icon = L.divIcon({
+      className: "mapa-ikon",
+      html: '<span class="mapa-bedz" style="background:' + tempBoja(t) + '">' + label + "</span>",
+      iconSize: [44, 26],
+      iconAnchor: [22, 13]
+    });
+    const mk = L.marker([s.lat, s.lng], { icon: icon }).addTo(mapaObj);
+    mk.on("click", () => otvoriDetalj(s.sifra));
+    mapaMarkeri.push(mk);
+  });
+  setTimeout(() => mapaObj.invalidateSize(), 80);
+}
+
+$("stanice-mapa-dugme").addEventListener("click", () => {
+  if (location.hash === "#mapa") { prikaziEkran("ekran-mapa"); pokreniMapu(); }
+  else location.hash = "mapa";
+});
+$("mapa-nazad").addEventListener("click", () => {
+  if (location.hash === "#mapa") history.back();
   else prikaziEkran("ekran-stanice");
 });
 
