@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <script defer src="js/app.js"></script>
 </head>
@@ -51,7 +53,13 @@
         <ul class="mreza" id="mreza"></ul>
         <p class="mreza-napomena">Posljednje objavljeno mjerenje svake stanice — mjerenja mreže nisu istovremena.</p>
       </div>
-      <input class="pretraga" id="pretraga-stanice" type="search" placeholder="Pretraži stanicu…" autocomplete="off">
+      <div class="stanice-alati">
+        <input class="pretraga" id="pretraga-stanice" type="search" placeholder="Pretraži stanicu…" autocomplete="off">
+        <button class="mapa-dugme" id="stanice-mapa-dugme">
+          <svg class="mapa-ikona" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 4v14M15 6v14" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          <span>Vidi mapu</span>
+        </button>
+      </div>
       <ul class="lista-stanica" id="lista-stanica"></ul>
     </section>
 
@@ -77,6 +85,12 @@
         <div class="graf-wrap" id="detalj-graf-wrap"></div>
         <p class="graf-legenda" id="detalj-graf-legenda"><span class="leg-t">— temperatura (°C)</span><span class="leg-h">– – vlažnost (%)</span></p>
       </section>
+    </section>
+
+    <section class="ekran" id="ekran-mapa">
+      <button class="nazad" id="mapa-nazad"><svg class="nazad-ikona" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stanice</span></button>
+      <div class="mapa-okvir" id="mapa"></div>
+      <p class="mapa-napomena">Dodirni stanicu na mapi za detalje. Boja bedža označava temperaturu posljednjeg mjerenja.</p>
     </section>
 
     <section class="ekran" id="ekran-prognoza">
