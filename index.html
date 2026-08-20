@@ -53,6 +53,28 @@
         <ul class="mreza" id="mreza"></ul>
         <p class="mreza-napomena">Posljednje objavljeno mjerenje svake stanice — mjerenja mreže nisu istovremena.</p>
       </div>
+
+      <div class="tematske-kartice">
+        <button class="t-kartica" id="kartica-more">
+          <span class="t-red1">
+            <svg class="t-ikona" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2M2 15c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span class="t-naslov">Morska voda</span>
+            <span class="t-chevron">›</span>
+          </span>
+          <span class="t-vrijednost" id="more-vrijednost">—</span>
+          <span class="t-meta" id="more-meta">Učitavanje…</span>
+        </button>
+        <button class="t-kartica" id="kartica-snijeg">
+          <span class="t-red1">
+            <svg class="t-ikona" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M3.5 7l17 10M20.5 7l-17 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span class="t-naslov">Sniježni pokrivač</span>
+            <span class="t-chevron">›</span>
+          </span>
+          <span class="t-vrijednost" id="snijeg-vrijednost">—</span>
+          <span class="t-meta" id="snijeg-meta">Učitavanje…</span>
+        </button>
+      </div>
+
       <div class="stanice-alati">
         <input class="pretraga" id="pretraga-stanice" type="search" placeholder="Pretraži stanicu…" autocomplete="off">
         <button class="mapa-dugme" id="stanice-mapa-dugme">
@@ -91,6 +113,20 @@
       <button class="nazad" id="mapa-nazad"><svg class="nazad-ikona" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stanice</span></button>
       <div class="mapa-okvir" id="mapa"></div>
       <p class="mapa-napomena">Dodirni stanicu na mapi za detalje. Boja bedža označava temperaturu posljednjeg mjerenja.</p>
+    </section>
+
+    <section class="ekran" id="ekran-more">
+      <button class="nazad" id="more-nazad"><svg class="nazad-ikona" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stanice</span></button>
+      <p class="detalj-ime">Morska voda</p>
+      <p class="mjerenje" id="more-labela">—</p>
+      <ul class="parametri" id="more-lista"></ul>
+    </section>
+
+    <section class="ekran" id="ekran-snijeg">
+      <button class="nazad" id="snijeg-nazad"><svg class="nazad-ikona" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stanice</span></button>
+      <p class="detalj-ime">Sniježni pokrivač</p>
+      <p class="mjerenje" id="snijeg-labela">—</p>
+      <ul class="parametri" id="snijeg-lista"></ul>
     </section>
 
     <section class="ekran" id="ekran-prognoza">
