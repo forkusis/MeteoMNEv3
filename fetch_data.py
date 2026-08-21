@@ -13,6 +13,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 BASE_URL = "https://www.meteo.co.me/Meteorologija/aws_m.php"
 GRAPH_URL = "https://www.meteo.co.me/Meteorologija/aws-graph.php"
+PROGNOZA_URL = "https://www.meteo.co.me/page.php?id=31"
 SEA_SNOW_URLS = [
     "https://www.meteo.co.me/Meteorologija/TTRR/sneg-talasi.php",
     "https://www.meteo.co.me/synopT.php",
@@ -23,6 +24,7 @@ LATEST_JSON = os.path.join(DATA_DIR, "latest.json")
 STATIONS_JSON = os.path.join(DATA_DIR, "stations.json")
 SEA_JSON = os.path.join(DATA_DIR, "sea.json")
 SNOW_JSON = os.path.join(DATA_DIR, "snow.json")
+PROGNOZA_JSON = os.path.join(DATA_DIR, "prognoza.json")
 STATION_HISTORY_DIR = os.path.join(DATA_DIR, "history")
 MAX_POINTS_PER_STATION = 96
 
@@ -118,18 +120,9 @@ def flatten(data):
             padded = (list(item) + [""] * 9)[:9]
             code, tip2, naziv, dt_str, T, RR, wind, wind_dir, gust = padded
             rows.append({
-                "sifra": code,
-                "tip": tip2,
-                "stanica": naziv,
-                "datum_vrijeme": dt_str,
-                "T": T,
-                "vlaga": "",
-                "RR": RR,
-                "vjetar": wind,
-                "smjer_kod": wind_dir,
-                "udar": gust,
-                "insolacija": "",
-                "pritisak": "",
+                "sifra": code, "tip": tip2, "stanica": naziv, "datum_vrijeme": dt_str,
+                "T": T, "vlaga": "", "RR": RR, "vjetar": wind, "smjer_kod": wind_dir,
+                "udar": gust, "insolacija": "", "pritisak": "",
             })
     return rows
 
@@ -140,8 +133,7 @@ def migrate_history_csv():
         all_rows = [r for r in csv.reader(f) if r]
     if not all_rows:
         return
-    header = all_rows[0]
-    if header == FIELDNAMES:
+    if all_rows[0] == FIELDNAMES:
         return
     fixed = []
     for r in all_rows[1:]:
@@ -153,7 +145,7 @@ def migrate_history_csv():
         writer = csv.writer(f)
         writer.writerow(FIELDNAMES)
         writer.writerows(fixed)
-    print(f"Migracija history.csv zavrsena: {len(fixed)} redova prebaceno u novi raspored.")
+    print(f"Migracija history.csv zavrsena: {len(fixed)} redova.")
 
 def extract_balanced_object(html, var_name):
     marker = re.search(r"var\s+" + re.escape(var_name) + r"\s*=", html)
@@ -254,8 +246,7 @@ def load_existing_keys():
     keys = set()
     if os.path.exists(HISTORY_CSV):
         with open(HISTORY_CSV, newline="", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
+            for row in csv.DictReader(f):
                 keys.add((row["sifra"], row["datum_vrijeme"]))
     return keys
 
@@ -284,8 +275,7 @@ def export_station_history():
         return
     by_station = {}
     with open(HISTORY_CSV, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
+        for row in csv.DictReader(f):
             by_station.setdefault(row["sifra"], []).append(row)
     os.makedirs(STATION_HISTORY_DIR, exist_ok=True)
     for sifra, rows in by_station.items():
@@ -293,13 +283,9 @@ def export_station_history():
         points = []
         for r in trimmed:
             points.append({
-                "dt": r["datum_vrijeme"],
-                "T": _to_float(r.get("T")),
-                "vlaga": _to_float(r.get("vlaga")),
-                "RR": _to_float(r.get("RR")),
-                "vjetar": _to_float(r.get("vjetar")),
-                "insolacija": _to_float(r.get("insolacija")),
-                "pritisak": _to_float(r.get("pritisak")),
+                "dt": r["datum_vrijeme"], "T": _to_float(r.get("T")), "vlaga": _to_float(r.get("vlaga")),
+                "RR": _to_float(r.get("RR")), "vjetar": _to_float(r.get("vjetar")),
+                "insolacija": _to_float(r.get("insolacija")), "pritisak": _to_float(r.get("pritisak")),
             })
         safe_name = re.sub(r"[^A-Za-z0-9_-]", "_", sifra)
         with open(os.path.join(STATION_HISTORY_DIR, f"{safe_name}.json"), "w", encoding="utf-8") as out:
@@ -367,11 +353,8 @@ def build_more(htmls):
     for html in htmls:
         redovi = parse_redovi_jedinica(parse_tabela_tekst(html, "sea"), ["°C", "&deg;C"])
         if redovi:
-            return {
-                "updated_at": datetime.now(timezone.utc).isoformat(),
-                "mjerenje_labela": parse_labela(html, "sea"),
-                "stations": redovi,
-            }
+            return {"updated_at": datetime.now(timezone.utc).isoformat(),
+                    "mjerenje_labela": parse_labela(html, "sea"), "stations": redovi}
     return {"updated_at": datetime.now(timezone.utc).isoformat(), "mjerenje_labela": "", "stations": []}
 
 def build_snijeg(htmls):
@@ -381,12 +364,62 @@ def build_snijeg(htmls):
         if not redovi:
             redovi = parse_redovi_broj(tekst)
         if redovi:
-            return {
-                "updated_at": datetime.now(timezone.utc).isoformat(),
-                "mjerenje_labela": parse_labela(html, "snow"),
-                "stations": redovi,
-            }
+            return {"updated_at": datetime.now(timezone.utc).isoformat(),
+                    "mjerenje_labela": parse_labela(html, "snow"), "stations": redovi}
     return {"updated_at": datetime.now(timezone.utc).isoformat(), "mjerenje_labela": "", "stations": []}
+
+# ---------- zvanična prognoza (page.php?id=31) ----------
+
+def fetch_prognoza(session):
+    try:
+        r = session.get(PROGNOZA_URL, timeout=30, headers=HEADERS, verify=False)
+        r.raise_for_status()
+        return r.text
+    except Exception as e:
+        print(f"  ! Greška pri dohvatanju prognoze: {e}")
+        return None
+
+def _detag(html):
+    t = re.sub(r"(?is)<(script|style).*?</\1>", " ", html)
+    t = re.sub(r"<[^>]+>", "\n", t)
+    t = t.replace("&nbsp;", " ").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
+    lines = [re.sub(r"\s+", " ", l).strip() for l in t.split("\n")]
+    return [l for l in lines if l]
+
+def build_prognoza(html):
+    lines = _detag(html)
+    blocks = []
+    cur = []
+    for l in lines:
+        m = re.match(r"prognoza ažurirana:\s*(.+)", l, re.I)
+        if m:
+            blocks.append({"stamp": m.group(1).strip(), "lines": cur})
+            cur = []
+        else:
+            cur.append(l)
+    dani = []
+    pomorci = None
+    for i, b in enumerate(blocks[:3]):
+        body = []
+        podgorica = ""
+        for x in b["lines"]:
+            if re.match(r"^(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja)\.?$", x, re.I):
+                continue
+            if re.match(r"^\d{1,2}\.\d{1,2}\.\d{4}\.?$", x):
+                continue
+            if x.lower().startswith("prognoza za pomorce"):
+                continue
+            if x.lower().startswith("podgorica:"):
+                podgorica = x
+            else:
+                body.append(x)
+        entry = {"azurirano": b["stamp"], "tekst": " ".join(body).strip(), "podgorica": podgorica.strip()}
+        if i < 2:
+            dani.append(entry)
+        else:
+            pomorci = entry
+    print(f"  prognoza dijagnostika: blokova {len(blocks)}, dana {len(dani)}, pomorci {bool(pomorci)}")
+    return {"updated_at": datetime.now(timezone.utc).isoformat(), "dani": dani, "pomorci": pomorci}
 
 def main():
     session = requests.Session()
@@ -403,11 +436,8 @@ def main():
     registry = build_station_registry(stanice_raw)
     if registry:
         with open(STATIONS_JSON, "w", encoding="utf-8") as f:
-            json.dump({
-                "updated_at": datetime.now(timezone.utc).isoformat(),
-                "count": len(registry),
-                "stations": registry,
-            }, f, ensure_ascii=False, indent=2)
+            json.dump({"updated_at": datetime.now(timezone.utc).isoformat(),
+                       "count": len(registry), "stations": registry}, f, ensure_ascii=False, indent=2)
         print(f"Registar stanica sačuvan: {len(registry)} stanica.")
     else:
         print("Upozorenje: lista stanica (var stanice) nije pronađena na stranici.")
@@ -443,12 +473,16 @@ def main():
         wmo = str(reg["wmo"]) if reg and reg.get("wmo") is not None else None
         row["opis"] = wmo_opis.get(wmo) if wmo else None
 
+    print("Dohvatam zvaničnu prognozu...")
+    prog_html = fetch_prognoza(session)
+    if prog_html is not None:
+        prognoza = build_prognoza(prog_html)
+        with open(PROGNOZA_JSON, "w", encoding="utf-8") as f:
+            json.dump(prognoza, f, ensure_ascii=False, indent=2)
+
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(LATEST_JSON, "w", encoding="utf-8") as f:
-        json.dump({
-            "updated_at": datetime.now(timezone.utc).isoformat(),
-            "stations": rows,
-        }, f, ensure_ascii=False, indent=2)
+        json.dump({"updated_at": datetime.now(timezone.utc).isoformat(), "stations": rows}, f, ensure_ascii=False, indent=2)
 
     print(f"Uspješno završeno! Ukupno stanica: {len(rows)}, novih zapisa: {len(new_rows)}")
 
