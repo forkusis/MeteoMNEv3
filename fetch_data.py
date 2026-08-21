@@ -415,7 +415,8 @@ def build_prognoza(html):
                 continue
             if week_re.match(low):
                 started = True
-                if not naslov: naslov = x
+            if not naslov or re.search(r"\d{1,2}\.\d{1,2}\.\d{4}", x):
+                    naslov = x
                 continue
             if dat_re.match(x):
                 continue
