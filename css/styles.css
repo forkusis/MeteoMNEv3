@@ -455,3 +455,8 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .prog-acc-strelica{width:9px;height:9px;flex:none;border-right:2px solid var(--mutno);border-bottom:2px solid var(--mutno);transform:rotate(45deg);transition:transform .2s}
 .prog-acc[open] .prog-acc-strelica{transform:rotate(-135deg)}
 .prog-acc-tijelo{padding:12px 14px 14px;border-top:1px solid var(--linija)}
+
+
+.prog-acc-lijevo{display:flex;flex-direction:column;gap:2px;min-width:0}
+.prog-acc-naslov{font-family:var(--displej);font-weight:700;font-size:14px}
+.prog-acc-azur{font-size:11px;color:var(--mutno);font-weight:400}
