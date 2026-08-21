@@ -469,6 +469,9 @@ $("snijeg-nazad").addEventListener("click", () => { if (location.hash === "#snij
 function ocistiDanTekst(t) {
   return (t || "").replace(/^(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja),?\s+\d{1,2}\.\d{1,2}\.\d{4}\.\s*/i, "");
 }
+
+
+const PROG_MAPE = ["https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-A.svg", "https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-B.svg"];
 function renderPrognoza() {
   const box = $("prog-sadrzaj");
   const stamp = $("prog-azurirano");
@@ -479,27 +482,41 @@ function renderPrognoza() {
     return;
   }
   const d = prognozaPodaci.dani;
-  const naslovi = ["Danas", "Sjutra"];
-  const mape = ["https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-A.svg", "https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-B.svg"];
-  let html = "";
+  let zv = "";
   d.forEach((dan, i) => {
-    html += '<div class="prog-blok">';
-    html += '<p class="prog-dan">' + (naslovi[i] || ("Dan " + (i + 1))) + '</p>';
-    if (dan.tekst) html += '<p class="prog-tekst">' + esc(ocistiDanTekst(dan.tekst)) + '</p>';
-    if (dan.podgorica && dan.podgorica.length > "Podgorica:".length) html += '<p class="prog-podgorica">' + esc(dan.podgorica) + '</p>';
-    if (mape[i]) html += '<img class="prog-mapa" src="' + mape[i] + '" alt="Prognozna mapa" onerror="this.style.display=\'none\'">';
-    if (dan.azurirano) html += '<p class="prog-stamp">prognoza ažurirana: ' + esc(dan.azurirano) + '</p>';
-    html += '</div>';
+    const naslov = dan.naslov || ("Dan " + (i + 1));
+    zv += '<details class="prog-acc"' + (i === 0 ? " open" : "") + '>';
+    zv += '<summary class="prog-acc-glava">' + esc(naslov) + '<span class="prog-acc-strelica"></span></summary>';
+    zv += '<div class="prog-acc-tijelo">';
+    if (dan.tekst) zv += '<p class="prog-tekst">' + esc(ocistiDanTekst(dan.tekst)) + '</p>';
+    if (dan.podgorica && dan.podgorica.length > 10) zv += '<p class="prog-podgorica">' + esc(dan.podgorica) + '</p>';
+    if (PROG_MAPE[i]) zv += '<img class="prog-mapa" src="' + PROG_MAPE[i] + '" alt="" onerror="this.style.display=\'none\'">';
+    if (dan.azurirano) zv += '<p class="prog-stamp">prognoza ažurirana: ' + esc(dan.azurirano) + '</p>';
+    zv += '</div></details>';
   });
-  if (prognozaPodaci.pomorci && prognozaPodaci.pomorci.tekst) {
-    html += '<div class="prog-blok">';
-    html += '<p class="prog-dan">Za pomorce</p>';
-    html += '<p class="prog-tekst">' + esc(prognozaPodaci.pomorci.tekst) + '</p>';
-    html += '<img class="prog-mapa" src="https://www.meteo.co.me/Meteorologija/Pr/jjadran.svg" alt="Mapa za pomorce" onerror="this.style.display=\'none\'">';
-    if (prognozaPodaci.pomorci.azurirano) html += '<p class="prog-stamp">prognoza ažurirana: ' + esc(prognozaPodaci.pomorci.azurirano) + '</p>';
-    html += '</div>';
+  if (prognozaPodaci.pomorci) {
+    zv += '<details class="prog-acc">';
+    zv += '<summary class="prog-acc-glava">Za pomorce<span class="prog-acc-strelica"></span></summary>';
+    zv += '<div class="prog-acc-tijelo">';
+    if (prognozaPodaci.pomorci.tekst) zv += '<p class="prog-tekst">' + esc(prognozaPodaci.pomorci.tekst) + '</p>';
+    zv += '<img class="prog-mapa" src="https://www.meteo.co.me/Meteorologija/Pr/jjadran.svg" alt="" onerror="this.style.display=\'none\'">';
+    if (prognozaPodaci.pomorci.azurirano) zv += '<p class="prog-stamp">prognoza ažurirana: ' + esc(prognozaPodaci.pomorci.azurirano) + '</p>';
+    zv += '</div></details>';
   }
-  box.innerHTML = html;
+  box.innerHTML =
+    '<div class="prog-tabovi">' +
+      '<button class="prog-tab aktivan" data-pg="zvanicna">Zvanična</button>' +
+      '<button class="prog-tab" data-pg="racunarska">Računarska</button>' +
+    '</div>' +
+    '<div id="pg-zvanicna">' + zv + '</div>' +
+    '<div id="pg-racunarska" hidden><p class="graf-prazno">Računarska prognoza je u izradi. Stiže u sljedećoj fazi.</p></div>';
+  box.querySelectorAll(".prog-tab").forEach((b) => {
+    b.addEventListener("click", () => {
+      box.querySelectorAll(".prog-tab").forEach((x) => x.classList.toggle("aktivan", x === b));
+      $("pg-zvanicna").hidden = b.dataset.pg !== "zvanicna";
+      $("pg-racunarska").hidden = b.dataset.pg !== "racunarska";
+    });
+  });
   if (stamp) stamp.textContent = "ažurirano: " + (d[0].azurirano || "—");
 }
 
