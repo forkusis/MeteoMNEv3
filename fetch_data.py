@@ -190,7 +190,7 @@ def extract_sinop(html):
     for b in blocks:
         sifra = re.search(r"sifra:\s*'([^']*)'", b)
         naziv = re.search(r"naziv:\s*'([^']*)'", b)
-               obl = re.search(r"\bobl:\s*'([^']*)'", b)
+        obl = re.search(r"\bobl:\s*'([^']*)'", b)
         vbn = re.search(r"VBNobl:\s*'([^']*)'", b)
         out.append({
             "wmo": sifra.group(1) if sifra else None,
