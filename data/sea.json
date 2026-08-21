@@ -1,18 +1,5 @@
 {
-  "updated_at": "2026-08-20T23:05:56.776406+00:00",
-  "mjerenje_labela": "Četvrtak, 20.08.2026. Temperatura mora u   14h (°C)",
-  "stations": [
-    {
-      "naziv": "Herceg Novi",
-      "vrijednost": 26.0
-    },
-    {
-      "naziv": "Bar",
-      "vrijednost": 27.0
-    },
-    {
-      "naziv": "Ulcinj",
-      "vrijednost": 25.0
-    }
-  ]
+  "updated_at": "2026-08-21T00:49:20.824587+00:00",
+  "mjerenje_labela": "",
+  "stations": []
 }
