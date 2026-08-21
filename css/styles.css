@@ -433,3 +433,60 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .hero-desno[hidden]{display:none}
 .hero-ikona{width:68px;height:68px;display:block}
 .hero-opis{font-size:13px;font-weight:600;color:var(--mutno);text-align:center;line-height:1.25}
+
+.prognoza-container {
+  padding: 16px;
+}
+
+.prognoza-block {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.prognoza-dan {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 12px 0;
+}
+
+.prognoza-tekst {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin: 0 0 16px 0;
+}
+
+.prognoza-podgorica {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin: 0 0 12px 0;
+  padding: 12px;
+  background: var(--bg-primary);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+}
+
+.prognoza-azurirano {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  margin: 12px 0 0 0;
+  font-style: italic;
+}
+
+.prognoza-pomorci {
+  border-top: 3px solid var(--accent);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+}
+
+.empty-state h3 {
+  margin-bottom: 12px;
+}
