@@ -387,6 +387,8 @@ def _detag(html):
     return [l for l in lines if l]
 
 def build_prognoza(html):
+    dan_re = re.compile(r"^(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja)\.?$", re.I)
+    dat_re = re.compile(r"^\d{1,2}\.\d{1,2}\.\d{4}\.?$")
     lines = _detag(html)
     blocks = []
     cur = []
@@ -402,18 +404,35 @@ def build_prognoza(html):
     for i, b in enumerate(blocks[:3]):
         body = []
         podgorica = ""
+        started = False
+        in_pod = False
         for x in b["lines"]:
-            if re.match(r"^(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja)\.?$", x, re.I):
+            low = x.lower()
+            if low.startswith("prognoza za pomorce"):
+                started = True
                 continue
-            if re.match(r"^\d{1,2}\.\d{1,2}\.\d{4}\.?$", x):
+            if dan_re.match(x):
+                started = True
                 continue
-            if x.lower().startswith("prognoza za pomorce"):
+            if dat_re.match(x):
                 continue
-            if x.lower().startswith("podgorica:"):
+            if low in ("za pomorce",):
+                continue
+            if not started:
+                continue
+            if low.startswith("podgorica:"):
+                in_pod = True
                 podgorica = x
-            else:
-                body.append(x)
-        entry = {"azurirano": b["stamp"], "tekst": " ".join(body).strip(), "podgorica": podgorica.strip()}
+                continue
+            if in_pod:
+                podgorica += " " + x
+                continue
+            body.append(x)
+        entry = {
+            "azurirano": b["stamp"],
+            "tekst": " ".join(body).strip(),
+            "podgorica": podgorica.strip(),
+        }
         if i < 2:
             dani.append(entry)
         else:
