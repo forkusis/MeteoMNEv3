@@ -387,7 +387,7 @@ def _detag(html):
     return [l for l in lines if l]
 
 def build_prognoza(html):
-    dan_re = re.compile(r"^(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja)\.?$", re.I)
+    week_re = re.compile(r"^(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja)\b", re.I)
     dat_re = re.compile(r"^\d{1,2}\.\d{1,2}\.\d{4}\.?$")
     lines = _detag(html)
     blocks = []
@@ -404,15 +404,18 @@ def build_prognoza(html):
     for i, b in enumerate(blocks[:3]):
         body = []
         podgorica = ""
+        naslov = ""
         started = False
         in_pod = False
         for x in b["lines"]:
             low = x.lower()
             if low.startswith("prognoza za pomorce"):
                 started = True
+                if not naslov: naslov = "Za pomorce"
                 continue
-            if dan_re.match(x):
+            if week_re.match(low):
                 started = True
+                if not naslov: naslov = x
                 continue
             if dat_re.match(x):
                 continue
@@ -429,6 +432,7 @@ def build_prognoza(html):
                 continue
             body.append(x)
         entry = {
+            "naslov": naslov,
             "azurirano": b["stamp"],
             "tekst": " ".join(body).strip(),
             "podgorica": podgorica.strip(),
