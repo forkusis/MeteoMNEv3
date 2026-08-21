@@ -443,3 +443,15 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .prog-podgorica{font-size:13px;color:var(--mutno);margin:0 0 8px;padding:10px 12px;background:#fff;border-radius:8px;border-left:3px solid var(--akcenat)}
 .prog-stamp{font-size:11px;color:var(--mutno);font-style:italic;margin:0}
 .prog-mapa{width:100%;max-width:420px;display:block;margin:10px auto 0;background:#fff;border:1px solid var(--linija);border-radius:8px;padding:8px}
+
+
+/* ---------- prognoza: segment + accordion ---------- */
+.prog-tabovi{display:flex;gap:8px;margin-top:14px}
+.prog-tab{appearance:none;flex:1;cursor:pointer;font-family:var(--tekst);font-size:13px;font-weight:700;color:var(--mutno);background:transparent;border:1px solid var(--linija);border-radius:10px;padding:10px 8px}
+.prog-tab.aktivan{background:var(--ink);border-color:var(--ink);color:#fff}
+.prog-acc{margin-top:12px;border:1px solid var(--linija);border-radius:12px;background:#fff;overflow:hidden}
+.prog-acc-glava{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:14px;cursor:pointer;font-family:var(--displej);font-weight:700;font-size:14px;list-style:none}
+.prog-acc-glava::-webkit-details-marker{display:none}
+.prog-acc-strelica{width:9px;height:9px;flex:none;border-right:2px solid var(--mutno);border-bottom:2px solid var(--mutno);transform:rotate(45deg);transition:transform .2s}
+.prog-acc[open] .prog-acc-strelica{transform:rotate(-135deg)}
+.prog-acc-tijelo{padding:12px 14px 14px;border-top:1px solid var(--linija)}
