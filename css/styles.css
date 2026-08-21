@@ -434,6 +434,7 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .hero-ikona{width:68px;height:68px;display:block}
 .hero-opis{font-size:13px;font-weight:600;color:var(--mutno);text-align:center;line-height:1.25}
 
+//ovo sam dodao poslednje
 .prognoza-container {
   padding: 16px;
 }
