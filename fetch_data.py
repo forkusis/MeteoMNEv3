@@ -118,9 +118,18 @@ def flatten(data):
             padded = (list(item) + [""] * 9)[:9]
             code, tip2, naziv, dt_str, T, RR, wind, wind_dir, gust = padded
             rows.append({
-                "sifra": code, "tip": tip2, "stanica": naziv, "datum_vrijeme": dt_str,
-                "T": T, "vlaga": "", "RR": RR, "vjetar": wind, "smjer_kod": wind_dir,
-                "udar": gust, "insolacija": "", "pritisak": "",
+                "sifra": code,
+                "tip": tip2,
+                "stanica": naziv,
+                "datum_vrijeme": dt_str,
+                "T": T,
+                "vlaga": "",
+                "RR": RR,
+                "vjetar": wind,
+                "smjer_kod": wind_dir,
+                "udar": gust,
+                "insolacija": "",
+                "pritisak": "",
             })
     return rows
 
@@ -131,7 +140,8 @@ def migrate_history_csv():
         all_rows = [r for r in csv.reader(f) if r]
     if not all_rows:
         return
-    if all_rows[0] == FIELDNAMES:
+    header = all_rows[0]
+    if header == FIELDNAMES:
         return
     fixed = []
     for r in all_rows[1:]:
@@ -143,7 +153,7 @@ def migrate_history_csv():
         writer = csv.writer(f)
         writer.writerow(FIELDNAMES)
         writer.writerows(fixed)
-    print(f"Migracija history.csv zavrsena: {len(fixed)} redova.")
+    print(f"Migracija history.csv zavrsena: {len(fixed)} redova prebaceno u novi raspored.")
 
 def extract_balanced_object(html, var_name):
     marker = re.search(r"var\s+" + re.escape(var_name) + r"\s*=", html)
@@ -169,6 +179,8 @@ def extract_balanced_array(html, var_name):
     if not marker:
         return None
     start = html.find("[", marker.start())
+    if start == -1:
+        return None
     depth = 0
     i = start
     while i < len(html):
@@ -242,7 +254,8 @@ def load_existing_keys():
     keys = set()
     if os.path.exists(HISTORY_CSV):
         with open(HISTORY_CSV, newline="", encoding="utf-8") as f:
-            for row in csv.DictReader(f):
+            reader = csv.DictReader(f)
+            for row in reader:
                 keys.add((row["sifra"], row["datum_vrijeme"]))
     return keys
 
@@ -271,16 +284,23 @@ def export_station_history():
         return
     by_station = {}
     with open(HISTORY_CSV, newline="", encoding="utf-8") as f:
-        for row in csv.DictReader(f):
+        reader = csv.DictReader(f)
+        for row in reader:
             by_station.setdefault(row["sifra"], []).append(row)
     os.makedirs(STATION_HISTORY_DIR, exist_ok=True)
     for sifra, rows in by_station.items():
         trimmed = rows[-MAX_POINTS_PER_STATION:]
-        points = [{
-            "dt": r["datum_vrijeme"], "T": _to_float(r.get("T")), "vlaga": _to_float(r.get("vlaga")),
-            "RR": _to_float(r.get("RR")), "vjetar": _to_float(r.get("vjetar")),
-            "insolacija": _to_float(r.get("insolacija")), "pritisak": _to_float(r.get("pritisak")),
-        } for r in trimmed]
+        points = []
+        for r in trimmed:
+            points.append({
+                "dt": r["datum_vrijeme"],
+                "T": _to_float(r.get("T")),
+                "vlaga": _to_float(r.get("vlaga")),
+                "RR": _to_float(r.get("RR")),
+                "vjetar": _to_float(r.get("vjetar")),
+                "insolacija": _to_float(r.get("insolacija")),
+                "pritisak": _to_float(r.get("pritisak")),
+            })
         safe_name = re.sub(r"[^A-Za-z0-9_-]", "_", sifra)
         with open(os.path.join(STATION_HISTORY_DIR, f"{safe_name}.json"), "w", encoding="utf-8") as out:
             json.dump(points, out, ensure_ascii=False)
@@ -314,32 +334,23 @@ def parse_tabela_tekst(html, pref):
 def _ocisti(s):
     return (s or "").replace("&deg;", "°").replace("&#176;", "°").replace("*", "")
 
-def parse_html_tabela(s):
-    s = _ocisti(s)
+def parse_redovi_jedinica(s, jedinice):
     if not s:
         return []
-    out = []
-    for m in re.finditer(r"<td[^>]*>([^<]+)</td>\s*<td[^>]*>(-?\d+(?:[.,]\d+)?)\s*(°C|cm)", s, re.I):
-        naziv = m.group(1).strip()
-        if naziv and len(naziv) > 1:
-            out.append({"naziv": naziv, "vrijednost": float(m.group(2).replace(",", "."))})
-    return out
-
-def parse_redovi_jedinica(s):
     s = _ocisti(s)
-    if not s:
-        return []
-    html_redovi = parse_html_tabela(s)
-    if html_redovi:
-        return html_redovi
-    out = []
-    for m in re.finditer(r"([A-ZČĆŠŽčćšžĐđ][A-Za-zČĆŠŽčćšžĐđ ]*?)\s*(-?\d+(?:[.,]\d+)?)\s*(?:°C|°|cm)(?![A-Za-zČĆŠŽčćšžĐđ])", s):
-        naziv = m.group(1).strip()
-        if naziv:
-            out.append({"naziv": naziv, "vrijednost": float(m.group(2).replace(",", "."))})
-    if out:
-        return out
-    return parse_redovi_broj(s)
+    for jed in jedinice:
+        if jed not in s:
+            continue
+        out = []
+        for part in s.split(jed):
+            m = re.search(r"(\d+)\s*([A-Za-zČĆŠŽčćšžĐđ ]+?)\s*(-?\d+(?:[.,]\d+)?)\s*$", part.strip())
+            if m:
+                naziv = m.group(2).strip()
+                if naziv:
+                    out.append({"naziv": naziv, "vrijednost": float(m.group(3).replace(",", "."))})
+        if out:
+            return out
+    return []
 
 def parse_redovi_broj(s):
     s = _ocisti(s)
@@ -354,20 +365,27 @@ def parse_redovi_broj(s):
 
 def build_more(htmls):
     for html in htmls:
-        redovi = parse_redovi_jedinica(parse_tabela_tekst(html, "sea"))
+        redovi = parse_redovi_jedinica(parse_tabela_tekst(html, "sea"), ["°C", "&deg;C"])
         if redovi:
-            return {"updated_at": datetime.now(timezone.utc).isoformat(),
-                    "mjerenje_labela": parse_labela(html, "sea"), "stations": redovi}
+            return {
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "mjerenje_labela": parse_labela(html, "sea"),
+                "stations": redovi,
+            }
     return {"updated_at": datetime.now(timezone.utc).isoformat(), "mjerenje_labela": "", "stations": []}
 
 def build_snijeg(htmls):
     for html in htmls:
-        redovi = parse_redovi_jedinica(parse_tabela_tekst(html, "snow"))
+        tekst = parse_tabela_tekst(html, "snow")
+        redovi = parse_redovi_jedinica(tekst, ["cm"])
         if not redovi:
-            redovi = parse_redovi_broj(parse_tabela_tekst(html, "snow"))
+            redovi = parse_redovi_broj(tekst)
         if redovi:
-            return {"updated_at": datetime.now(timezone.utc).isoformat(),
-                    "mjerenje_labela": parse_labela(html, "snow"), "stations": redovi}
+            return {
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "mjerenje_labela": parse_labela(html, "snow"),
+                "stations": redovi,
+            }
     return {"updated_at": datetime.now(timezone.utc).isoformat(), "mjerenje_labela": "", "stations": []}
 
 def main():
@@ -385,11 +403,17 @@ def main():
     registry = build_station_registry(stanice_raw)
     if registry:
         with open(STATIONS_JSON, "w", encoding="utf-8") as f:
-            json.dump({"updated_at": datetime.now(timezone.utc).isoformat(),
-                       "count": len(registry), "stations": registry}, f, ensure_ascii=False, indent=2)
+            json.dump({
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "count": len(registry),
+                "stations": registry,
+            }, f, ensure_ascii=False, indent=2)
         print(f"Registar stanica sačuvan: {len(registry)} stanica.")
+    else:
+        print("Upozorenje: lista stanica (var stanice) nije pronađena na stranici.")
 
-    print(f"Pronađeno {len(rows)} stanica. Krećem u dohvatanje detalja...")
+    print(f"Pronađeno {len(rows)} stanica. Krećem u dohvatanje detalja (vlažnost, pritisak)...")
+    print("Ovo će trajati oko 2 minuta zbog bezbjednosnih pauza.")
     rows = enrich_with_graph_data(session, rows)
 
     existing = load_existing_keys()
@@ -406,26 +430,25 @@ def main():
         json.dump(snijeg, f, ensure_ascii=False, indent=2)
     print(f"  more: {len(more['stations'])} lokacija; snijeg: {len(snijeg['stations'])} lokacija")
 
-    # Opis vremena iz sinop niza (oblacnost -> tekst), mapirano preko WMO sifre
     sinop_html = next((h for h in ss_htmls if h and "var sinop" in h), None)
     sinop = extract_sinop(sinop_html) if sinop_html else []
-           wmo_opis = {str(s["wmo"]): opis_vremena(s.get("obl"), s.get("vbn")) for s in sinop if s.get("wmo")}
+    wmo_opis = {str(s["wmo"]): opis_vremena(s.get("obl"), s.get("vbn")) for s in sinop if s.get("wmo")}
     sa_obl = sum(1 for s in sinop if s.get("obl") not in (None, ""))
     sa_vbn = sum(1 for s in sinop if s.get("vbn") not in (None, ""))
     print(f"  sinop dijagnostika: {len(sinop)} stanica, sa obl: {sa_obl}, sa vbn: {sa_vbn}")
-    sa_obl = sum(1 for s in sinop if s.get("obl") not in (None, ""))
-    sa_vbn = sum(1 for s in sinop if s.get("vbn") not in (None, ""))
-    print(f"  sinop dijagnostika: {len(sinop)} stanica, sa obl: {sa_obl}, sa vbn: {sa_vbn}")
+
     reg_by_sifra = {r["sifra"]: r for r in registry}
     for row in rows:
         reg = reg_by_sifra.get(row["sifra"])
         wmo = str(reg["wmo"]) if reg and reg.get("wmo") is not None else None
         row["opis"] = wmo_opis.get(wmo) if wmo else None
-    print(f"  sinop: {len(sinop)} stanica; opis dodan za {sum(1 for r in rows if r.get('opis'))} stanica")
 
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(LATEST_JSON, "w", encoding="utf-8") as f:
-        json.dump({"updated_at": datetime.now(timezone.utc).isoformat(), "stations": rows}, f, ensure_ascii=False, indent=2)
+        json.dump({
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+            "stations": rows,
+        }, f, ensure_ascii=False, indent=2)
 
     print(f"Uspješno završeno! Ukupno stanica: {len(rows)}, novih zapisa: {len(new_rows)}")
 
