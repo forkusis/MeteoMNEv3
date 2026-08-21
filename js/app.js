@@ -474,34 +474,33 @@ function ocistiDanTekst(t) {
 const PROG_MAPE = ["https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-A.svg", "https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-B.svg"];
 function renderPrognoza() {
   const box = $("prog-sadrzaj");
-  const stamp = $("prog-azurirano");
   if (!box) return;
   if (!prognozaPodaci || !prognozaPodaci.dani || !prognozaPodaci.dani.length) {
-    if (stamp) stamp.textContent = "—";
     box.innerHTML = '<p class="graf-prazno">Zvanična prognoza trenutno nije dostupna.</p>';
     return;
   }
   const d = prognozaPodaci.dani;
+  function acc(naslov, azur, bodyHtml) {
+    return '<details class="prog-acc">' +
+      '<summary class="prog-acc-glava"><span class="prog-acc-lijevo">' +
+      '<span class="prog-acc-naslov">' + esc(naslov) + '</span>' +
+      (azur ? '<span class="prog-acc-azur">ažurirano: ' + esc(azur) + '</span>' : '') +
+      '</span><span class="prog-acc-strelica"></span></summary>' +
+      '<div class="prog-acc-tijelo">' + bodyHtml + '</div></details>';
+  }
   let zv = "";
   d.forEach((dan, i) => {
-    const naslov = dan.naslov || ("Dan " + (i + 1));
-    zv += '<details class="prog-acc"' + (i === 0 ? " open" : "") + '>';
-    zv += '<summary class="prog-acc-glava">' + esc(naslov) + '<span class="prog-acc-strelica"></span></summary>';
-    zv += '<div class="prog-acc-tijelo">';
-    if (dan.tekst) zv += '<p class="prog-tekst">' + esc(ocistiDanTekst(dan.tekst)) + '</p>';
-    if (dan.podgorica && dan.podgorica.length > 10) zv += '<p class="prog-podgorica">' + esc(dan.podgorica) + '</p>';
-    if (PROG_MAPE[i]) zv += '<img class="prog-mapa" src="' + PROG_MAPE[i] + '" alt="" onerror="this.style.display=\'none\'">';
-    if (dan.azurirano) zv += '<p class="prog-stamp">prognoza ažurirana: ' + esc(dan.azurirano) + '</p>';
-    zv += '</div></details>';
+    let body = "";
+    if (dan.tekst) body += '<p class="prog-tekst">' + esc(ocistiDanTekst(dan.tekst)) + '</p>';
+    if (dan.podgorica && dan.podgorica.length > 10) body += '<p class="prog-podgorica">' + esc(dan.podgorica) + '</p>';
+    if (PROG_MAPE[i]) body += '<img class="prog-mapa" src="' + PROG_MAPE[i] + '" alt="" onerror="this.style.display=\'none\'">';
+    zv += acc(dan.naslov || ("Dan " + (i + 1)), dan.azurirano, body);
   });
   if (prognozaPodaci.pomorci) {
-    zv += '<details class="prog-acc">';
-    zv += '<summary class="prog-acc-glava">Za pomorce<span class="prog-acc-strelica"></span></summary>';
-    zv += '<div class="prog-acc-tijelo">';
-    if (prognozaPodaci.pomorci.tekst) zv += '<p class="prog-tekst">' + esc(prognozaPodaci.pomorci.tekst) + '</p>';
-    zv += '<img class="prog-mapa" src="https://www.meteo.co.me/Meteorologija/Pr/jjadran.svg" alt="" onerror="this.style.display=\'none\'">';
-    if (prognozaPodaci.pomorci.azurirano) zv += '<p class="prog-stamp">prognoza ažurirana: ' + esc(prognozaPodaci.pomorci.azurirano) + '</p>';
-    zv += '</div></details>';
+    let body = "";
+    if (prognozaPodaci.pomorci.tekst) body += '<p class="prog-tekst">' + esc(prognozaPodaci.pomorci.tekst) + '</p>';
+    body += '<img class="prog-mapa" src="https://www.meteo.co.me/Meteorologija/Pr/jjadran.svg" alt="" onerror="this.style.display=\'none\'">';
+    zv += acc("Za pomorce", prognozaPodaci.pomorci.azurirano, body);
   }
   box.innerHTML =
     '<div class="prog-tabovi">' +
@@ -517,7 +516,6 @@ function renderPrognoza() {
       $("pg-racunarska").hidden = b.dataset.pg !== "racunarska";
     });
   });
-  if (stamp) stamp.textContent = "ažurirano: " + (d[0].azurirano || "—");
 }
 
 /* ---------- tab Stanice ---------- */
