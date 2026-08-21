@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v9 (hero layout + prave ikonice) */
+/* MeteoMNE — app.js v10 (prognoza tab) */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -12,6 +12,9 @@ let registry = {};
 let staniceTrenutne = [];
 let mojaSifra = localStorage.getItem("moje_mjesto") || DEFAULT_SIFRA;
 let detaljSifra = null;
+let morePodaci = null;
+let snijegPodaci = null;
+let prognozaPodaci = null;
 
 const MODE_INFO = {
   tvaga:      { naslov: "Temperatura i vlažnost", legenda: '<span class="leg-t">— temperatura (°C)</span><span class="leg-h">– – vlažnost (%)</span>' },
@@ -22,13 +25,11 @@ const MODE_INFO = {
 };
 const KEY1 = { tvaga: "T", rr: "RR", vjetar: "V", pritisak: "P", insolacija: "S" };
 
-/* ---------- dan/noć (privremeno: UTC+2, 06–20h) ---------- */
 function danJe() {
   const h = (new Date().getUTCHours() + 2) % 24;
   return h >= 6 && h < 20;
 }
 
-/* ---------- mapiranje opis -> SVG ikonica ---------- */
 function ikonaFajl(opis, obs) {
   const rr = obs && obs.RR !== "" && obs.RR != null ? parseFloat(obs.RR) : 0;
   const t = obs && obs.T !== "" && obs.T != null ? parseFloat(obs.T) : null;
@@ -459,12 +460,48 @@ function renderSnijegEkran() {
   $("snijeg-lista").innerHTML = snijegPodaci.stations.slice().sort((a, b) => b.vrijednost - a.vrijednost)
     .map((s) => red(esc(s.naziv), fmtBroj(s.vrijednost, 0) + " cm")).join("");
 }
-let morePodaci = null;
-let snijegPodaci = null;
 $("kartica-more").addEventListener("click", () => { location.hash = "more"; });
 $("kartica-snijeg").addEventListener("click", () => { location.hash = "snijeg"; });
 $("more-nazad").addEventListener("click", () => { if (location.hash === "#more") history.back(); else prikaziEkran("ekran-stanice"); });
 $("snijeg-nazad").addEventListener("click", () => { if (location.hash === "#snijeg") history.back(); else prikaziEkran("ekran-stanice"); });
+
+/* ---------- prognoza ---------- */
+function ocistiDanTekst(t) {
+  return (t || "").replace(/^(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja),?\s+\d{1,2}\.\d{1,2}\.\d{4}\.\s*/i, "");
+}
+function renderPrognoza() {
+  const box = $("prog-sadrzaj");
+  const stamp = $("prog-azurirano");
+  if (!box) return;
+  if (!prognozaPodaci || !prognozaPodaci.dani || !prognozaPodaci.dani.length) {
+    if (stamp) stamp.textContent = "—";
+    box.innerHTML = '<p class="graf-prazno">Zvanična prognoza trenutno nije dostupna.</p>';
+    return;
+  }
+  const d = prognozaPodaci.dani;
+  const naslovi = ["Danas", "Sjutra"];
+  const mape = ["https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-A.svg", "https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-B.svg"];
+  let html = "";
+  d.forEach((dan, i) => {
+    html += '<div class="prog-blok">';
+    html += '<p class="prog-dan">' + (naslovi[i] || ("Dan " + (i + 1))) + '</p>';
+    if (dan.tekst) html += '<p class="prog-tekst">' + esc(ocistiDanTekst(dan.tekst)) + '</p>';
+    if (dan.podgorica && dan.podgorica.length > "Podgorica:".length) html += '<p class="prog-podgorica">' + esc(dan.podgorica) + '</p>';
+    if (mape[i]) html += '<img class="prog-mapa" src="' + mape[i] + '" alt="Prognozna mapa" onerror="this.style.display=\'none\'">';
+    if (dan.azurirano) html += '<p class="prog-stamp">prognoza ažurirana: ' + esc(dan.azurirano) + '</p>';
+    html += '</div>';
+  });
+  if (prognozaPodaci.pomorci && prognozaPodaci.pomorci.tekst) {
+    html += '<div class="prog-blok">';
+    html += '<p class="prog-dan">Za pomorce</p>';
+    html += '<p class="prog-tekst">' + esc(prognozaPodaci.pomorci.tekst) + '</p>';
+    html += '<img class="prog-mapa" src="https://www.meteo.co.me/Meteorologija/Pr/jjadran.svg" alt="Mapa za pomorce" onerror="this.style.display=\'none\'">';
+    if (prognozaPodaci.pomorci.azurirano) html += '<p class="prog-stamp">prognoza ažurirana: ' + esc(prognozaPodaci.pomorci.azurirano) + '</p>';
+    html += '</div>';
+  }
+  box.innerHTML = html;
+  if (stamp) stamp.textContent = "ažurirano: " + (d[0].azurirano || "—");
+}
 
 /* ---------- tab Stanice ---------- */
 function mrezaRed(labela, stanica, vrijednost) {
@@ -594,13 +631,16 @@ async function ucitaj() {
 
     if (!registry[mojaSifra]) mojaSifra = DEFAULT_SIFRA;
 
-    const [more, snijeg] = await Promise.all([
+    const [more, snijeg, prog] = await Promise.all([
       fetch("data/sea.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null),
-      fetch("data/snow.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null)
+      fetch("data/snow.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      fetch("data/prognoza.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null)
     ]);
-       morePodaci = more;
+    morePodaci = more;
     snijegPodaci = snijeg;
+    prognozaPodaci = prog;
     renderTematskeKartice();
+    renderPrognoza();
 
     prikaziMjesto();
     renderMreza();
