@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T09:04:08.866690+00:00",
+  "updated_at": "2026-08-22T09:08:07.615830+00:00",
   "stations": [
     {
       "sifra": "02BAR010",
@@ -89,7 +89,7 @@
       "udar": "",
       "insolacija": 751.1,
       "pritisak": 940.2,
-      "opis": "Vedro"
+      "opis": "Pretežno vedro"
     },
     {
       "sifra": "02PDGR10",
@@ -119,7 +119,7 @@
       "udar": "4.50",
       "insolacija": 637.8,
       "pritisak": 925.7,
-      "opis": "Vedro"
+      "opis": "Pretežno vedro"
     },
     {
       "sifra": "02ULCN10",
@@ -149,7 +149,7 @@
       "udar": "",
       "insolacija": 218.9,
       "pritisak": 857.2,
-      "opis": "Pretežno vedro"
+      "opis": "Malo oblačno"
     },
     {
       "sifra": "02BIST20",
@@ -350,11 +350,11 @@
       "sifra": "02LKOT20",
       "tip": "klimatološka",
       "stanica": "Luka Kotor",
-      "datum_vrijeme": "22.08.2026 10:21",
-      "T": "28.40",
+      "datum_vrijeme": "22.08.2026 10:26",
+      "T": "28.70",
       "vlaga": 62.0,
       "RR": "",
-      "vjetar": "2.60",
+      "vjetar": "3.10",
       "smjer_kod": "",
       "udar": "3.50",
       "insolacija": "",
