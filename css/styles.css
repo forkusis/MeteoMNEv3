@@ -495,3 +495,17 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .param-tijelo .parametri{margin:14px 0 0;border-top:1px solid var(--linija)}
 
 
+/* ---------- param kolaps: hairline okvir (distinkcija bloka) ---------- */
+.param-blok{margin:26px 0 0;background:none;border:0;border-radius:0;overflow:visible}
+.param-glava{
+  padding:13px 2px;
+  background:none;
+  border:0;
+  border-top:1px solid var(--linija);
+  border-bottom:1px solid var(--linija);
+  border-radius:0;
+}
+.param-tijelo{border-top:0;background:none}
+.param-tijelo .parametri{margin:0;border-top:0}
+
+
