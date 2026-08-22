@@ -570,14 +570,14 @@ $("param-glava").addEventListener("click", () => {
   const otvori = tijelo.hidden;
   tijelo.hidden = !otvori;
   $("param-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
-  $("param-naslov").textContent = otvori ? "Ostale info" : "Vidi ostale parametre";
+  $("param-naslov").textContent = otvori ? "Ostale info." : "Vidi ostale parametre";
 });
 $("detalj-param-glava").addEventListener("click", () => {
   const tijelo = $("detalj-param-tijelo");
   const otvori = tijelo.hidden;
   tijelo.hidden = !otvori;
   $("detalj-param-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
-  $("detalj-param-naslov").textContent = otvori ? "Zatvori ostale parametre" : "Vidi ostale parametre";
+  $("detalj-param-naslov").textContent = otvori ? "Ostale info." : "Vidi ostale parametre";
 });
 
 $("lista-stanica").addEventListener("click", (e) => {
