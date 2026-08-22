@@ -9,6 +9,10 @@ on:
       - 'fetch_data.py'
       - '.github/workflows/update.yml'
 
+concurrency:
+  group: meteo-data-update
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -25,6 +29,11 @@ jobs:
       - name: Instaliraj zavisnosti
         run: pip install requests
 
+      - name: Sinhronizuj sa origin/main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Pokreni skriptu za povlačenje podataka
         run: python fetch_data.py
 
@@ -34,5 +43,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           git diff --staged --quiet || git commit -m "Ažuriranje meteo podataka"
-          git pull --rebase --autostash origin main
-          git push
+          git push origin main || echo "!! push odbijen (neko je upravo gurnuo izmjene) - sledeci run preuzima."
