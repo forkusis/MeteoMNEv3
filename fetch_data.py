@@ -18,6 +18,17 @@ SEA_SNOW_URLS = [
     "https://www.meteo.co.me/Meteorologija/TTRR/sneg-talasi.php",
     "https://www.meteo.co.me/synopT.php",
 ]
+RACPROG_BASE = "https://www.meteo.co.me/Meteorologija/Pr/Gradovi/5danaE"
+RACPROG_GRADOVI = [
+    ("POD", "Podgorica"), ("TUZ", "Tuzi"), ("ULC", "Ulcinj"), ("BAR", "Bar"),
+    ("BUD", "Budva"), ("KOT", "Kotor"), ("TIV", "Tivat"), ("HER", "Herceg Novi"),
+    ("CET", "Cetinje"), ("DAN", "Danilovgrad"), ("NIK", "Nikšić"), ("SAV", "Šavnik"),
+    ("KOL", "Kolašin"), ("PLU", "Plužine"), ("PLA", "Plav"), ("AND", "Andrijevica"),
+    ("GUS", "Gusinje"), ("MOJ", "Mojkovac"), ("PET", "Petnjica"), ("BER", "Berane"),
+    ("ROZ", "Rožaje"), ("BIJ", "Bijelo Polje"), ("ZAB", "Žabljak"), ("PLJ", "Pljevlja"),
+    ("ADB", "Ada Bojana")
+]
+
 DATA_DIR = "data"
 HISTORY_CSV = os.path.join(DATA_DIR, "history.csv")
 LATEST_JSON = os.path.join(DATA_DIR, "latest.json")
@@ -25,6 +36,7 @@ STATIONS_JSON = os.path.join(DATA_DIR, "stations.json")
 SEA_JSON = os.path.join(DATA_DIR, "sea.json")
 SNOW_JSON = os.path.join(DATA_DIR, "snow.json")
 PROGNOZA_JSON = os.path.join(DATA_DIR, "prognoza.json")
+RACPROG_JSON = os.path.join(DATA_DIR, "racprog.json")
 STATION_HISTORY_DIR = os.path.join(DATA_DIR, "history")
 MAX_POINTS_PER_STATION = 96
 
@@ -466,6 +478,76 @@ def build_prognoza(html):
     print(f"  prognoza dijagnostika: blokova {len(blocks)}, dana {len(dani)}, pomorci {bool(pomorci)}")
     return {"updated_at": datetime.now(timezone.utc).isoformat(), "dani": dani, "pomorci": pomorci}
 
+# ---------- računarska prognoza (5danaE) ----------
+
+def fetch_racprog(session):
+    """Preuzima i parsira računarsku prognozu za svih 26 gradova (5 dana po gradu)."""
+    print(f"Dohvatam računarsku prognozu za {len(RACPROG_GRADOVI)} gradova (model2/ECMWF)...")
+    rezultat = {"updated_at": datetime.now(timezone.utc).isoformat(), "gradovi": []}
+    
+    for kod, naziv in RACPROG_GRADOVI:
+        grad_data = {"kod": kod, "naziv": naziv, "dani": []}
+        
+        for dan in range(1, 6):
+            url = f"{RACPROG_BASE}/{kod}-E{dan}.html"
+            try:
+                r = session.get(url, timeout=30, headers=HEADERS, verify=False)
+                if r.status_code == 404:
+                    continue
+                r.raise_for_status()
+                html = r.text
+                
+                # Parsiranje datuma
+                datum_match = re.search(r"(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja),\s+(\d{4}-\d{2}-\d{2})", html, re.I)
+                datum = datum_match.group(0) if datum_match else f"Dan {dan}"
+                
+                # Parsiranje Tmin/Tmax
+                tmin_match = re.search(r"Tmin\s*[:=]?\s*([-+]?\d*\.?\d+)", html)
+                tmax_match = re.search(r"Tmax\s*[:=]?\s*([-+]?\d*\.?\d+)", html)
+                tmin = float(tmin_match.group(1)) if tmin_match else None
+                tmax = float(tmax_match.group(1)) if tmax_match else None
+                
+                # Parsiranje tabele (8 redova: 00, 03, 06, 09, 12, 15, 18, 21)
+                sati = []
+                for sat in ["00", "03", "06", "09", "12", "15", "18", "21"]:
+                    # Traži red koji počinje sa satom
+                    red_match = re.search(
+                        rf"<td[^>]*>\s*{sat}\s*</td>\s*"
+                        rf"<td[^>]*>.*?</td>\s*"  # simbol (ignoriramo)
+                        rf"<td[^>]*>\s*([-+]?\d*\.?\d+|-)\s*</td>\s*"  # RR
+                        rf"<td[^>]*>\s*([-+]?\d*\.?\d+|-)\s*</td>\s*"  # RH
+                        rf"<td[^>]*>.*?</td>",  # vjetar (ignoriramo za sada)
+                        html, re.DOTALL
+                    )
+                    if red_match:
+                        rr_val = red_match.group(1)
+                        rh_val = red_match.group(2)
+                        rr = None if rr_val == "-" else float(rr_val)
+                        rh = None if rh_val == "-" else float(rh_val)
+                        sati.append({"sat": sat, "RR": rr, "RH": rh})
+                    else:
+                        sati.append({"sat": sat, "RR": None, "RH": None})
+                
+                grad_data["dani"].append({
+                    "datum": datum,
+                    "Tmin": tmin,
+                    "Tmax": tmax,
+                    "sati": sati
+                })
+                
+                time.sleep(0.3)  # kratka pauza između zahtjeva
+                
+            except Exception as e:
+                print(f"  ! Greška za {naziv} dan {dan}: {e}")
+                continue
+        
+        if grad_data["dani"]:
+            rezultat["gradovi"].append(grad_data)
+            print(f"  {naziv}: {len(grad_data['dani'])} dana")
+    
+    print(f"  Ukupno gradova sa podacima: {len(rezultat['gradovi'])}")
+    return rezultat
+
 def main():
     session = requests.Session()
 
@@ -524,6 +606,11 @@ def main():
         prognoza = build_prognoza(prog_html)
         with open(PROGNOZA_JSON, "w", encoding="utf-8") as f:
             json.dump(prognoza, f, ensure_ascii=False, indent=2)
+
+    print("Dohvatam računarsku prognozu...")
+    racprog = fetch_racprog(session)
+    with open(RACPROG_JSON, "w", encoding="utf-8") as f:
+        json.dump(racprog, f, ensure_ascii=False, indent=2)
 
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(LATEST_JSON, "w", encoding="utf-8") as f:
