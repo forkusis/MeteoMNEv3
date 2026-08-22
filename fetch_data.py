@@ -311,19 +311,39 @@ def _najduzi(rezultati):
             best = s
     return best
 
+def _js_string(html, var):
+    m = re.search(r"var\s+" + var + r"\d*\s*=\s*\"((?:[^\"\\]|\\.)*)\"", html)
+    if not m:
+        return ""
+    return m.group(1).replace('\\"', '"').replace("\\'", "'")
+
 def parse_labela(html, pref):
-    return _najduzi(re.findall(r"var\s+" + pref + r"H\d*\s*=\s*[\"']([^\"']*)[\"']", html)).strip()
+    return _najduzi([_js_string(html, pref + "H")]).strip()
 
 def parse_tabela_tekst(html, pref):
-    return _najduzi(re.findall(r"var\s+" + pref + r"T\d*\s*=\s*[\"']([^\"']*)[\"']", html)).strip()
+    return _najduzi([_js_string(html, pref + "T")]).strip()
 
 def _ocisti(s):
     return (s or "").replace("&deg;", "°").replace("&#176;", "°").replace("*", "")
+
+def parse_html_tabela(s):
+    s = _ocisti(s)
+    if not s or "<td" not in s:
+        return []
+    out = []
+    for m in re.finditer(r"<td[^>]*>\s*([^<]+?)\s*</td>\s*<td[^>]*>\s*(-?\d+(?:[.,]\d+)?)\s*(?:°C|cm)", s, re.I):
+        naziv = m.group(1).strip()
+        if naziv and len(naziv) > 1:
+            out.append({"naziv": naziv, "vrijednost": float(m.group(2).replace(",", "."))})
+    return out
 
 def parse_redovi_jedinica(s, jedinice):
     if not s:
         return []
     s = _ocisti(s)
+    html_redovi = parse_html_tabela(s)
+    if html_redovi:
+        return html_redovi
     for jed in jedinice:
         if jed not in s:
             continue
