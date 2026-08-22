@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T21:47:04.028840+00:00",
+  "updated_at": "2026-08-22T22:11:59.220288+00:00",
   "gradovi": [
     {
       "kod": "POD",
@@ -7,236 +7,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.7,
+          "Tmax": 35.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.1,
+          "Tmax": 34.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 38.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 32.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.6,
+          "Tmax": 35.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 29.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 28.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.2,
+          "Tmax": 34.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 26.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 30.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 32.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 30.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.2,
+          "Tmax": 33.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 33.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 72.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             }
           ]
         }
@@ -248,236 +248,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.8,
+          "Tmax": 34.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 82.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.5,
+          "Tmax": 34.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 29.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.3,
+          "Tmax": 34.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 30.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 30.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.4,
+          "Tmax": 34.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 40.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 26.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 30.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 35.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 34.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.4,
+          "Tmax": 33.2,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             }
           ]
         }
@@ -489,236 +489,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.3,
+          "Tmax": 31.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 71.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 97.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.6,
+          "Tmax": 32.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.0,
+          "Tmax": 31.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 78.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 21.6,
+          "Tmax": 30.3,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 71.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.3,
+          "Tmax": 29.9,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.8,
+              "RH": 60.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 2.5,
+              "RH": 80.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 92.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             }
           ]
         }
@@ -730,236 +730,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.8,
+          "Tmax": 27.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 72.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 71.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 88.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 3.4,
+              "RH": 73.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.9,
+              "RH": 69.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.4,
+          "Tmax": 26.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 73.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 1.1,
+              "RH": 74.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 62.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.4,
+          "Tmax": 26.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.4,
+          "Tmax": 29.2,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 40.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 43.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.5,
+          "Tmax": 27.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 72.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 73.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 1.8,
+              "RH": 81.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 5.0,
+              "RH": 96.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.6,
+              "RH": 90.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 2.2,
+              "RH": 87.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 1.5,
+              "RH": 76.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             }
           ]
         }
@@ -971,236 +971,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 26.7,
+          "Tmax": 28.2,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 78.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 26.6,
+          "Tmax": 27.9,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 26.3,
+          "Tmax": 27.3,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.6,
+          "Tmax": 29.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 45.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 26.9,
+          "Tmax": 28.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 72.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 78.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 70.0
             }
           ]
         }
@@ -1212,236 +1212,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.7,
+          "Tmax": 29.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.5,
+          "Tmax": 28.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.6,
+          "Tmax": 28.3,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 23.3,
+          "Tmax": 29.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 41.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 29.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.8,
+              "RH": 39.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 22.3,
+          "Tmax": 28.2,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             }
           ]
         }
@@ -1453,236 +1453,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 26.0,
+          "Tmax": 30.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 72.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.1,
+          "Tmax": 30.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.0,
+          "Tmax": 30.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.0,
+          "Tmax": 30.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.5,
+          "Tmax": 31.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 71.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             }
           ]
         }
@@ -1694,236 +1694,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.4,
+          "Tmax": 27.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 1.4,
+              "RH": 84.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 88.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 72.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 26.5,
+          "Tmax": 28.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.9,
+          "Tmax": 27.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 79.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.7,
+          "Tmax": 28.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 38.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 1.0,
+              "RH": 45.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 45.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.4,
+          "Tmax": 27.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             }
           ]
         }
@@ -1935,236 +1935,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 20.8,
+          "Tmax": 29.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 46.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.8,
+              "RH": 53.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 20.5,
+          "Tmax": 28.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 1.2,
+              "RH": 64.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 21.3,
+          "Tmax": 29.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 32.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 20.9,
+          "Tmax": 29.3,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 38.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 34.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 36.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 20.3,
+          "Tmax": 26.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 1.4,
+              "RH": 66.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 77.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 79.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 70.0
             }
           ]
         }
@@ -2176,236 +2176,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 22.2,
+          "Tmax": 34.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 22.4,
+          "Tmax": 33.9,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 22.3,
+          "Tmax": 33.9,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 34.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 27.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 22.6,
+          "Tmax": 33.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 29.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 29.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 38.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 34.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.6,
+          "Tmax": 33.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 31.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 7.3,
+              "RH": 76.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 71.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             }
           ]
         }
@@ -2417,236 +2417,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 18.6,
+          "Tmax": 30.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 18.2,
+          "Tmax": 30.2,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 38.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 18.5,
+          "Tmax": 30.3,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 72.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 35.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 19.1,
+          "Tmax": 30.9,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 36.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 18.6,
+          "Tmax": 29.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.6,
+              "RH": 67.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             }
           ]
         }
@@ -2658,236 +2658,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.2,
+          "Tmax": 27.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.5,
+              "RH": 49.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 73.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.5,
+          "Tmax": 26.2,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 91.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 82.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 50.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 87.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 90.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.4,
+          "Tmax": 26.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 36.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 69.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 71.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.7,
+          "Tmax": 26.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 40.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.5,
+          "Tmax": 25.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.8,
+              "RH": 59.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 2.8,
+              "RH": 70.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 94.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 93.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 90.0
             }
           ]
         }
@@ -2899,236 +2899,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 14.9,
+          "Tmax": 27.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 3.1,
+              "RH": 81.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 4.1,
+              "RH": 75.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 80.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 17.7,
+          "Tmax": 24.9,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 79.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 87.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 88.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.5,
+          "Tmax": 27.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 82.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 38.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 79.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 18.5,
+          "Tmax": 27.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 40.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 18.0,
+          "Tmax": 27.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 50.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 61.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 1.5,
+              "RH": 90.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 89.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 89.0
             }
           ]
         }
@@ -3140,236 +3140,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.4,
+          "Tmax": 28.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 40.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 91.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.3,
+          "Tmax": 24.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 94.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 84.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 68.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 82.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 87.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.3,
+          "Tmax": 28.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 34.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 89.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.2,
+          "Tmax": 28.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 78.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 32.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 36.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 70.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 70.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 65.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.7,
+          "Tmax": 25.9,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 62.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 80.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             }
           ]
         }
@@ -3381,236 +3381,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 13.0,
+          "Tmax": 26.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 40.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.8,
+              "RH": 77.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.5,
+              "RH": 74.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 2.6,
+              "RH": 76.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.6,
+          "Tmax": 24.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 87.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 90.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 2.0,
+              "RH": 71.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 1.0,
+              "RH": 85.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 82.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 78.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.5,
+          "Tmax": 25.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 40.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 70.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.4,
+          "Tmax": 27.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 36.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 34.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 35.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 51.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 51.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.3,
+          "Tmax": 25.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.4,
+              "RH": 87.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 4.8,
+              "RH": 92.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.8,
+              "RH": 89.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             }
           ]
         }
@@ -3622,236 +3622,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.1,
+          "Tmax": 27.2,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.9,
+              "RH": 63.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 74.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.4,
+          "Tmax": 23.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 93.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 97.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 88.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 70.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 82.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 91.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 90.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 14.7,
+          "Tmax": 27.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 92.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 34.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 96.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 93.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.5,
+          "Tmax": 28.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 34.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 26.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 32.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.1,
+          "Tmax": 26.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 58.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 1.5,
+              "RH": 90.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.7,
+              "RH": 99.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 100.0
             }
           ]
         }
@@ -3863,236 +3863,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 13.1,
+          "Tmax": 26.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 2.1,
+              "RH": 71.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.6,
+              "RH": 62.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 1.6,
+              "RH": 79.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 1.0,
+              "RH": 82.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 78.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.2,
+          "Tmax": 24.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 90.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 80.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.0,
+              "RH": 72.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.8,
+              "RH": 93.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 89.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 92.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 14.9,
+          "Tmax": 25.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 54.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.2,
+          "Tmax": 26.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 33.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 38.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.3,
+          "Tmax": 25.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 2.4,
+              "RH": 75.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 2.5,
+              "RH": 95.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 1.1,
+              "RH": 94.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 94.0
             }
           ]
         }
@@ -4104,236 +4104,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.3,
+          "Tmax": 26.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 50.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 2.4,
+              "RH": 75.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.5,
+              "RH": 77.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.4,
+          "Tmax": 22.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 95.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.9,
+              "RH": 98.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 91.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 72.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 93.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 94.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 14.0,
+          "Tmax": 27.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 95.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 87.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.1,
+              "RH": 61.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 2.8,
+              "RH": 80.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 78.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 17.6,
+          "Tmax": 28.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 78.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 40.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 54.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 59.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 17.3,
+          "Tmax": 25.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 12.8,
+              "RH": 98.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 6.7,
+              "RH": 91.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 89.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 98.0
             }
           ]
         }
@@ -4345,236 +4345,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 17.2,
+          "Tmax": 28.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 78.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 75.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 74.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 82.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.4,
+          "Tmax": 24.9,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 89.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 85.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 85.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 69.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.6,
+              "RH": 79.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 82.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.8,
+          "Tmax": 27.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 79.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 75.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 18.0,
+          "Tmax": 29.2,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 70.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 35.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 63.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 17.4,
+          "Tmax": 27.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.2,
+              "RH": 75.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 4.6,
+              "RH": 95.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 85.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             }
           ]
         }
@@ -4586,236 +4586,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.8,
+          "Tmax": 29.3,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 7.9,
+              "RH": 82.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 2.1,
+              "RH": 91.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.9,
+          "Tmax": 23.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 94.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.5,
+              "RH": 94.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.5,
+              "RH": 91.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 82.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 85.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 87.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.6,
+          "Tmax": 28.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 69.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 76.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 96.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 91.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 89.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.5,
+          "Tmax": 29.9,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 26.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 29.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 54.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.5,
+              "RH": 66.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.5,
+          "Tmax": 26.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.2,
+              "RH": 74.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 6.9,
+              "RH": 94.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 2.4,
+              "RH": 93.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 96.0
             }
           ]
         }
@@ -4827,236 +4827,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.1,
+          "Tmax": 26.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 42.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 47.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 3.0,
+              "RH": 74.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 79.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 92.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 13.9,
+          "Tmax": 22.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 100.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 92.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 80.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 70.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 82.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 92.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 89.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 13.6,
+          "Tmax": 24.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.7,
+              "RH": 59.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 2.9,
+              "RH": 62.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.9,
+          "Tmax": 27.3,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 37.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 31.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.0,
+          "Tmax": 25.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.8,
+              "RH": 69.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 12.1,
+              "RH": 92.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 95.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 97.0
             }
           ]
         }
@@ -5068,236 +5068,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 17.2,
+          "Tmax": 30.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 4.4,
+              "RH": 78.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 4.9,
+              "RH": 83.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 17.9,
+          "Tmax": 25.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 94.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.4,
+              "RH": 87.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 79.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 77.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.2,
+          "Tmax": 28.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 49.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 48.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 17.5,
+          "Tmax": 30.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 39.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 38.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 44.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 60.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 17.2,
+          "Tmax": 28.7,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 71.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 47.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 4.9,
+              "RH": 90.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 12.4,
+              "RH": 85.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 84.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             }
           ]
         }
@@ -5309,236 +5309,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 14.4,
+          "Tmax": 23.8,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 45.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 52.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 3.0,
+              "RH": 65.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 82.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 97.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 12.6,
+          "Tmax": 21.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 1.0,
+              "RH": 99.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.7,
+              "RH": 98.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.5,
+              "RH": 94.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 71.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.1,
+              "RH": 90.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 94.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 99.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 91.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 12.8,
+          "Tmax": 23.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 82.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 1.5,
+              "RH": 99.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 99.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 13.4,
+          "Tmax": 24.3,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 79.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 41.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 72.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 61.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 13.8,
+          "Tmax": 22.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 70.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 3.3,
+              "RH": 86.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 1.8,
+              "RH": 93.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.6,
+              "RH": 99.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 99.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 99.0
             }
           ]
         }
@@ -5550,236 +5550,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.7,
+          "Tmax": 28.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 72.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 46.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 43.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 54.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 76.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 1.2,
+              "RH": 92.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 96.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.4,
+          "Tmax": 24.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.2,
+              "RH": 93.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 81.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 70.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 82.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 14.5,
+          "Tmax": 26.3,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 89.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 84.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 62.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.8,
+              "RH": 61.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 3.2,
+              "RH": 73.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 79.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 16.2,
+          "Tmax": 30.5,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 78.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 52.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 30.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 35.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 59.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.3,
+              "RH": 58.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.7,
+              "RH": 74.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 15.4,
+          "Tmax": 26.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.1,
+              "RH": 58.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 2.8,
+              "RH": 77.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 2.0,
+              "RH": 80.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 87.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 90.0
             }
           ]
         }
@@ -5791,236 +5791,236 @@
       "dani": [
         {
           "datum": "Subota, 2026-08-22",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.9,
+          "Tmax": 28.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 73.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 76.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 80.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 89.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 96.0
             }
           ]
         },
         {
           "datum": "Nedjelja, 2026-08-23",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 25.2,
+          "Tmax": 31.1,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 91.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 71.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 55.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 58.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             }
           ]
         },
         {
           "datum": "Ponedjeljak, 2026-08-24",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.8,
+          "Tmax": 30.6,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 60.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 53.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 51.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 66.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 56.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 67.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 85.0
             }
           ]
         },
         {
           "datum": "Utorak, 2026-08-25",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 24.4,
+          "Tmax": 28.0,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 74.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 75.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 83.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 79.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 79.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 57.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 65.0
             }
           ]
         },
         {
           "datum": "Srijeda, 2026-08-26",
-          "Tmin": null,
-          "Tmax": null,
+          "Tmin": 26.3,
+          "Tmax": 28.4,
           "sati": [
             {
               "sat": "00",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 64.0
             },
             {
               "sat": "03",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 63.0
             },
             {
               "sat": "06",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 79.0
             },
             {
               "sat": "09",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 89.0
             },
             {
               "sat": "12",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 68.0
             },
             {
               "sat": "15",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 86.0
             },
             {
               "sat": "18",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 91.0
             },
             {
               "sat": "21",
-              "RR": null,
-              "RH": null
+              "RR": 0.0,
+              "RH": 81.0
             }
           ]
         }
