@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v10 (prognoza tab) */
+/* MeteoMNE — app.js v11 */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -469,8 +469,6 @@ $("snijeg-nazad").addEventListener("click", () => { if (location.hash === "#snij
 function ocistiDanTekst(t) {
   return (t || "").replace(/^(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja),?\s+\d{1,2}\.\d{1,2}\.\d{4}\.\s*/i, "");
 }
-
-
 const PROG_MAPE = ["https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-A.svg", "https://www.meteo.co.me/Meteorologija/Pr/cgprognoza-B.svg"];
 function renderPrognoza() {
   const box = $("prog-sadrzaj");
@@ -565,27 +563,23 @@ $("ekstremi-glava").addEventListener("click", () => {
   tijelo.hidden = !otvori;
   $("ekstremi-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
 });
+
+/* ---------- collapse: ostali parametri (Moje mjesto + detalj) ---------- */
 $("param-glava").addEventListener("click", () => {
   const tijelo = $("param-tijelo");
   const otvori = tijelo.hidden;
   tijelo.hidden = !otvori;
-  $("detalj-param-glava").addEventListener("click", () => {
-  const tijelo = $("detalj-param-tijelo");
-  const otvori = tijelo.hidden;
-  tijelo.hidden = !otvori;
-  $("detalj-param-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
-  $("detalj-param-naslov").textContent = otvori ? "Zatvori ostale parametre" : "Vidi ostale parametre";
-});
   $("param-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
-  $("detalj-param-glava").addEventListener("click", () => {
-  const tijelo = $("detalj-param-tijelo");
-  const otvori = tijelo.hidden;
-  tijelo.hidden = !otvori;
-  $("detalj-param-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
-  $("detalj-param-naslov").textContent = otvori ? "Zatvori ostale parametre" : "Vidi ostale parametre";
-});
   $("param-naslov").textContent = otvori ? "Zatvori ostale parametre" : "Vidi ostale parametre";
 });
+$("detalj-param-glava").addEventListener("click", () => {
+  const tijelo = $("detalj-param-tijelo");
+  const otvori = tijelo.hidden;
+  tijelo.hidden = !otvori;
+  $("detalj-param-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
+  $("detalj-param-naslov").textContent = otvori ? "Zatvori ostale parametre" : "Vidi ostale parametre";
+});
+
 $("lista-stanica").addEventListener("click", (e) => {
   const btn = e.target.closest(".st-red");
   if (!btn) return;
