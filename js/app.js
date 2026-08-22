@@ -565,6 +565,13 @@ $("ekstremi-glava").addEventListener("click", () => {
   tijelo.hidden = !otvori;
   $("ekstremi-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
 });
+$("param-glava").addEventListener("click", () => {
+  const tijelo = $("param-tijelo");
+  const otvori = tijelo.hidden;
+  tijelo.hidden = !otvori;
+  $("param-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
+  $("param-naslov").textContent = otvori ? "Zatvori ostale parametre" : "Vidi ostale parametre";
+});
 $("lista-stanica").addEventListener("click", (e) => {
   const btn = e.target.closest(".st-red");
   if (!btn) return;
