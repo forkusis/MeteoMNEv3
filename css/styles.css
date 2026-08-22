@@ -472,4 +472,26 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .param-tijelo[hidden]{display:none}
 .param-tijelo .parametri{margin:0;border-top:0}
 
+/* ---------- Moje mjesto: CLEAN kolaps parametara (bez bijele kartice) ---------- */
+.param-blok{margin:26px 0 0;background:none;border:0;border-radius:0;overflow:visible}
+.param-glava{
+  appearance:none;background:none;border:0;cursor:pointer;
+  width:100%;display:flex;align-items:center;gap:8px;
+  margin:0;padding:0 2px;
+  font-family:var(--tekst);color:var(--akcenat);
+  font-size:14px;font-weight:700;text-align:left;
+}
+.param-naslov{min-width:0}
+.param-strelica{
+  width:9px;height:9px;flex:none;
+  border-right:2px solid var(--akcenat);
+  border-bottom:2px solid var(--akcenat);
+  transform:rotate(45deg);
+  transition:transform .2s;
+}
+.param-glava[aria-expanded="true"] .param-strelica{transform:rotate(-135deg)}
+.param-tijelo{border-top:0;background:none}
+.param-tijelo[hidden]{display:none}
+.param-tijelo .parametri{margin:14px 0 0;border-top:1px solid var(--linija)}
+
 
