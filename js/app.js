@@ -569,6 +569,13 @@ $("param-glava").addEventListener("click", () => {
   const tijelo = $("param-tijelo");
   const otvori = tijelo.hidden;
   tijelo.hidden = !otvori;
+  $("detalj-param-glava").addEventListener("click", () => {
+  const tijelo = $("detalj-param-tijelo");
+  const otvori = tijelo.hidden;
+  tijelo.hidden = !otvori;
+  $("detalj-param-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
+  $("detalj-param-naslov").textContent = otvori ? "Zatvori ostale parametre" : "Vidi ostale parametre";
+});
   $("param-glava").setAttribute("aria-expanded", otvori ? "true" : "false");
   $("detalj-param-glava").addEventListener("click", () => {
   const tijelo = $("detalj-param-tijelo");
