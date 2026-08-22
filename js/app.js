@@ -1,4 +1,4 @@
-/* MeteoMNE — app.js v11 */
+/* MeteoMNE — app.js v11 (s računarskom prognozom) */
 "use strict";
 
 const $ = (id) => document.getElementById(id);
@@ -15,6 +15,8 @@ let detaljSifra = null;
 let morePodaci = null;
 let snijegPodaci = null;
 let prognozaPodaci = null;
+let racProgPodaci = null;
+let racProgIzabrani = null;
 
 const MODE_INFO = {
   tvaga:      { naslov: "Temperatura i vlažnost", legenda: '<span class="leg-t">— temperatura (°C)</span><span class="leg-h">– – vlažnost (%)</span>' },
@@ -506,12 +508,84 @@ function renderPrognoza() {
       '<button class="prog-tab" data-pg="racunarska">Računarska</button>' +
     '</div>' +
     '<div id="pg-zvanicna">' + zv + '</div>' +
-    '<div id="pg-racunarska" hidden><p class="graf-prazno">Računarska prognoza je u izradi. Stiže u sljedećoj fazi.</p></div>';
+    '<div id="pg-racunarska" hidden></div>';
   box.querySelectorAll(".prog-tab").forEach((b) => {
     b.addEventListener("click", () => {
       box.querySelectorAll(".prog-tab").forEach((x) => x.classList.toggle("aktivan", x === b));
       $("pg-zvanicna").hidden = b.dataset.pg !== "zvanicna";
       $("pg-racunarska").hidden = b.dataset.pg !== "racunarska";
+    });
+  });
+  renderRacProg();
+}
+
+/* ---------- računarska prognoza ---------- */
+function renderRacProg() {
+  const box = $("pg-racunarska");
+  if (!box) return;
+  
+  if (!racProgPodaci || !racProgPodaci.gradovi || !racProgPodaci.gradovi.length) {
+    box.innerHTML = '<p class="graf-prazno">Računarska prognoza trenutno nije dostupna.</p>';
+    return;
+  }
+  
+  // Odredi default grad (moje mjesto ako postoji, inače Podgorica)
+  if (!racProgIzabrani) {
+    const mojeNaziv = (registry[mojaSifra] && registry[mojaSifra].naziv) || "";
+    const mojeBazno = bezDijakritika(mojeNaziv.split(" ")[0] || "").toLowerCase();
+    racProgIzabrani = racProgPodaci.gradovi.find(g => 
+      bezDijakritika(g.naziv).toLowerCase() === mojeBazno
+    ) || racProgPodaci.gradovi.find(g => g.kod === "POD");
+  }
+  
+  // Renderuj birač grada (chipovi)
+  const chipovi = racProgPodaci.gradovi.map(g => 
+    '<button class="rac-chip' + (g.kod === racProgIzabrani.kod ? ' aktivan' : '') + '" data-kod="' + esc(g.kod) + '">' + esc(g.naziv) + '</button>'
+  ).join("");
+  
+  // Renderuj 5 dana za izabrani grad
+  const dani = racProgIzabrani.dani.map(dan => {
+    const TminTxt = dan.Tmin != null ? fmtBroj(dan.Tmin, 1) + "°C" : "—";
+    const TmaxTxt = dan.Tmax != null ? fmtBroj(dan.Tmax, 1) + "°C" : "—";
+    
+    const redovi = dan.sati.map(s => {
+      const rr = s.RR != null ? fmtBroj(s.RR, 1) + " mm" : "—";
+      const rh = s.RH != null ? fmtBroj(s.RH, 0) + "%" : "—";
+      return '<tr>' +
+        '<td class="rac-sat">' + s.sat + ':00</td>' +
+        '<td class="rac-rr">' + rr + '</td>' +
+        '<td class="rac-rh">' + rh + '</td>' +
+        '</tr>';
+    }).join("");
+    
+    return '<details class="rac-acc">' +
+      '<summary class="rac-acc-glava">' +
+      '<span class="rac-acc-lijevo">' +
+      '<span class="rac-acc-datum">' + esc(dan.datum) + '</span>' +
+      '<span class="rac-acc-tempi">' + TminTxt + ' / ' + TmaxTxt + '</span>' +
+      '</span>' +
+      '<span class="rac-acc-strelica"></span>' +
+      '</summary>' +
+      '<div class="rac-acc-tijelo">' +
+      '<table class="rac-tabela">' +
+      '<thead><tr><th>Sat</th><th>Padavine</th><th>Vlažnost</th></tr></thead>' +
+      '<tbody>' + redovi + '</tbody>' +
+      '</table>' +
+      '</div>' +
+      '</details>';
+  }).join("");
+  
+  box.innerHTML = 
+    '<p class="rac-opis">Računarska prognoza je direktni rezultat numeričkog modeliranja. Prognostičari nisu uticali na nju. Ulazni podaci iz ECMWF globalnog modela.</p>' +
+    '<div class="rac-birac">' + chipovi + '</div>' +
+    '<div class="rac-dani">' + dani + '</div>';
+  
+  // Event listeneri za chipove
+  box.querySelectorAll(".rac-chip").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const kod = btn.dataset.kod;
+      racProgIzabrani = racProgPodaci.gradovi.find(g => g.kod === kod);
+      renderRacProg();
     });
   });
 }
@@ -661,14 +735,17 @@ async function ucitaj() {
 
     if (!registry[mojaSifra]) mojaSifra = DEFAULT_SIFRA;
 
-    const [more, snijeg, prog] = await Promise.all([
+    const [more, snijeg, prog, rac] = await Promise.all([
       fetch("data/sea.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null),
       fetch("data/snow.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null),
-      fetch("data/prognoza.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null)
+      fetch("data/prognoza.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null),
+      fetch("data/racprog.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null)
     ]);
     morePodaci = more;
     snijegPodaci = snijeg;
     prognozaPodaci = prog;
+    racProgPodaci = rac;
+
     renderTematskeKartice();
     renderPrognoza();
 
