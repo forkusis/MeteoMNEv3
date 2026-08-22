@@ -460,3 +460,16 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .prog-acc-lijevo{display:flex;flex-direction:column;gap:2px;min-width:0}
 .prog-acc-naslov{font-family:var(--displej);font-weight:700;font-size:14px}
 .prog-acc-azur{font-size:11px;color:var(--mutno);font-weight:400}
+
+
+
+/* ---------- Moje mjesto: kolaps ostalih parametara ---------- */
+.param-blok{margin:26px 0 0;background:#fff;border:1px solid var(--linija);border-radius:12px;overflow:hidden}
+.param-glava{appearance:none;width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px;cursor:pointer;background:none;border:0;font-family:var(--tekst);color:var(--akcenat);font-size:14px;font-weight:700;text-align:left}
+.param-strelica{width:9px;height:9px;flex:none;border-right:2px solid var(--mutno);border-bottom:2px solid var(--mutno);transform:rotate(45deg);transition:transform .2s}
+.param-glava[aria-expanded="true"] .param-strelica{transform:rotate(-135deg)}
+.param-tijelo{border-top:1px solid var(--linija)}
+.param-tijelo[hidden]{display:none}
+.param-tijelo .parametri{margin:0;border-top:0}
+
+
