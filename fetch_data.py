@@ -490,30 +490,61 @@ def _rac_broj(s):
     except (ValueError, TypeError):
         return None
 
+# ---------- ZAMIJENJENA FUNKCIJA ----------
 def parse_racprog_dan(html):
-    """Čita dan-stranicu kao čiste linije (robusno, ne zavisi od tačne HTML strukture)."""
-    lines = _detag(html)
+    """Parsira dan-stranicu: datum, Tmin, Tmax, i 8 sati sa simbolom, RR, RH, vjetar."""
+    rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S)
     datum = None
     tmin = None
     tmax = None
     sati = []
-    for i, l in enumerate(lines):
-        if datum is None:
-            m = re.search(r"(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja),\s*\d{4}-\d{2}-\d{2}", l, re.I)
-            if m:
-                datum = m.group(0)
-                continue
-        if l == "Tmin" and i + 1 < len(lines):
-            tmin = _rac_broj(lines[i + 1])
+    
+    for row in rows:
+        raw_cells = re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)
+        if not raw_cells:
             continue
-        if l == "Tmax" and i + 1 < len(lines):
-            tmax = _rac_broj(lines[i + 1])
+        cells = [re.sub(r"<[^>]+>", "", c).strip() for c in raw_cells]
+        
+        # Tmin red
+        if len(cells) >= 2 and cells[0].lower() == "tmin":
+            tmin = _rac_broj(cells[1])
             continue
-        if l in RAC_SATI:
-            rr = _rac_broj(lines[i + 1]) if i + 1 < len(lines) else None
-            rh = _rac_broj(lines[i + 2]) if i + 2 < len(lines) else None
-            sati.append({"sat": l, "RR": rr, "RH": rh})
+        # Tmax red
+        if len(cells) >= 2 and cells[0].lower() == "tmax":
+            tmax = _rac_broj(cells[1])
+            continue
+        # Datum red
+        dm = re.search(
+            r"(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja),\s*\d{4}-\d{2}-\d{2}",
+            " ".join(cells), re.I
+        )
+        if dm and datum is None:
+            datum = dm.group(0)
+            continue
+        # Header red (UTC, simbol, RR, RH, vjetar)
+        if len(cells) >= 5 and cells[0].strip() == "UTC":
+            continue
+        # Data red
+        if len(cells) >= 5 and cells[0].strip() in RAC_SATI:
+            sat = cells[0].strip()
+            sim_m = re.search(r'Simbolcici/([^"]+\.svg)', raw_cells[1])
+            simbol = sim_m.group(1).replace(".svg", "") if sim_m else None
+            rr = _rac_broj(cells[2])
+            if rr is not None and rr == -0.0:
+                rr = 0.0
+            rh = _rac_broj(cells[3])
+            vj_m = re.search(r'Simbolcici/V/([^"]+\.svg)', raw_cells[4])
+            vjetar = vj_m.group(1).replace(".svg", "") if vj_m else None
+            sati.append({
+                "sat": sat,
+                "simbol": simbol,
+                "RR": rr,
+                "RH": rh,
+                "vjetar": vjetar
+            })
+    
     return datum, tmin, tmax, sati
+# ---------- KRAJ ZAMIJENE ----------
 
 def fetch_racprog(session):
     print(f"Dohvatam računarsku prognozu za {len(RACPROG_GRADOVI)} gradova (model2/ECMWF)...")
