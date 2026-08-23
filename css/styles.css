@@ -509,46 +509,129 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .param-tijelo .parametri{margin:0;border-top:0}
 
 /* ---------- računarska prognoza ---------- */
-.rac-opis{
-  font-size:12px;
-  color:var(--mutno);
-  line-height:1.5;
-  margin:0 0 14px;
-  padding:10px 12px;
+.rac-header{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin:18px 0 0;
+}
+.rac-header-naslov{
+  font-family:var(--displej);
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--ink);
+}
+.rac-info-btn{
+  appearance:none;
+  border:1px solid var(--linija);
   background:#fff;
-  border-radius:8px;
+  border-radius:50%;
+  width:24px;
+  height:24px;
+  font-size:13px;
+  font-weight:700;
+  color:var(--akcenat);
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex:none;
+  padding:0;
+  line-height:1;
+}
+.rac-info-btn:active{background:#f4f8fa}
+.rac-info-popover{
+  margin:8px 0 0;
+  padding:12px 14px;
+  background:#fff;
+  border:1px solid var(--linija);
+  border-radius:10px;
   border-left:3px solid var(--akcenat);
+  font-size:12px;
+  line-height:1.55;
+  color:var(--mutno);
+  box-shadow:0 2px 8px rgba(11,28,44,.08);
+}
+.rac-info-popover p{margin:0}
+.rac-info-popover[hidden]{display:none}
+
+/* birač grada */
+.rac-birac-wrap{
+  position:relative;
+  margin:14px 0 16px;
 }
 .rac-birac{
-  display:flex;
-  gap:8px;
-  overflow-x:auto;
-  margin:0 0 16px;
-  padding-bottom:8px;
-  -webkit-overflow-scrolling:touch;
-  scrollbar-width:none;
-  -ms-overflow-style:none;
-}
-.rac-birac::-webkit-scrollbar{display:none}
-.rac-chip{
   appearance:none;
-  flex:none;
-  cursor:pointer;
-  font-family:var(--tekst);
-  font-size:13px;
-  font-weight:600;
-  color:var(--mutno);
-  background:transparent;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  background:#fff;
   border:1px solid var(--linija);
+  border-radius:12px;
+  padding:14px 16px;
+  font-family:var(--tekst);
+  font-size:15px;
+  font-weight:600;
+  color:var(--ink);
+  cursor:pointer;
+  text-align:left;
+  box-shadow:0 1px 2px rgba(11,28,44,.06);
+}
+.rac-birac:active{background:#f4f8fa}
+.rac-birac-strelica{
+  width:9px;
+  height:9px;
+  flex:none;
+  border-right:2px solid var(--mutno);
+  border-bottom:2px solid var(--mutno);
+  transform:rotate(45deg);
+  transition:transform .2s;
+}
+.rac-dropdown{
+  position:absolute;
+  left:0;right:0;
+  top:calc(100% + 4px);
+  background:#fff;
+  border:1px solid var(--linija);
+  border-radius:12px;
+  padding:8px;
+  max-height:280px;
+  overflow-y:auto;
+  z-index:10;
+  box-shadow:0 4px 16px rgba(11,28,44,.12);
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:2px;
+}
+.rac-dropdown[hidden]{display:none}
+.rac-grad{
+  appearance:none;
+  background:transparent;
+  border:0;
   border-radius:8px;
-  padding:8px 14px;
+  padding:10px 12px;
+  font-family:var(--tekst);
+  font-size:14px;
+  font-weight:500;
+  color:var(--ink);
+  cursor:pointer;
+  text-align:left;
   white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
-.rac-chip.aktivan{
-  background:var(--ink);
-  border-color:var(--ink);
+.rac-grad:active{background:#f4f8fa}
+.rac-grad.aktivan{
+  background:var(--akcenat);
   color:#fff;
+  font-weight:700;
 }
+
+/* accordion kartice za dane */
 .rac-acc{
   margin-top:10px;
   border:1px solid var(--linija);
@@ -561,7 +644,7 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
   justify-content:space-between;
   align-items:center;
   gap:10px;
-  padding:14px;
+  padding:14px 16px;
   cursor:pointer;
   font-family:var(--displej);
   font-weight:700;
@@ -599,31 +682,63 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .rac-acc-tijelo{
   padding:12px 14px 14px;
   border-top:1px solid var(--linija);
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
 }
 .rac-tabela{
   width:100%;
+  min-width:420px;
   border-collapse:collapse;
   font-size:13px;
 }
 .rac-tabela th{
   text-align:left;
-  font-size:11px;
+  font-size:10px;
   font-weight:700;
   letter-spacing:.08em;
   text-transform:uppercase;
   color:var(--mutno);
-  padding:6px 8px;
+  padding:6px 6px;
   border-bottom:1px solid var(--linija);
+  white-space:nowrap;
 }
 .rac-tabela td{
-  padding:8px;
+  padding:8px 6px;
   border-bottom:1px solid var(--linija);
   font-variant-numeric:tabular-nums;
+  vertical-align:middle;
 }
 .rac-tabela tr:last-child td{border-bottom:0}
-.rac-sat{color:var(--ink);font-weight:600}
-.rac-rr{color:var(--ink)}
-.rac-rh{color:var(--mutno)}
+.rac-sat{
+  color:var(--ink);
+  font-weight:600;
+  white-space:nowrap;
+}
+.rac-simb-td{text-align:center;padding:6px 4px}
+.rac-simb{
+  width:32px;
+  height:32px;
+  display:block;
+}
+.rac-simb-prazno{color:var(--mutno)}
+.rac-rr{color:var(--ink);white-space:nowrap}
+.rac-rh{color:var(--mutno);white-space:nowrap}
+.rac-vj{white-space:nowrap}
+.rac-vj-wrap{
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+.rac-vj-svg{
+  width:18px;
+  height:18px;
+  flex:none;
+  color:var(--akcenat);
+}
+.rac-vj-txt{
+  font-size:12px;
+  color:var(--mutno);
+}
 
 
 
