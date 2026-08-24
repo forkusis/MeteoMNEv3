@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-24T08:29:36.382394+00:00",
+  "updated_at": "2026-08-24T10:25:27.131204+00:00",
   "dani": [
     {
-      "naslov": "Ponedjeljak, 24.08.2026.",
-      "azurirano": "24.08.2026. 05:14 CEST",
-      "tekst": "Sunčano i veoma toplo. Poslijepodne u sjevernim predjelima slab do umjeren razvoj oblačnosti. Vjetar slab do umjeren, promjenljivog smjera. Najviša dnevna temperatura vazduha od 28 do 38 stepeni.",
+      "naslov": "Utorak, 25.08.2026.",
+      "azurirano": "24.08.2026. 11:45 CEST",
+      "tekst": "Malo do umjereno oblačno, prijepodne sa dužim sunčanim periodima. U drugom dijelu dana više oblaka, u sjevernim predjelima ponegdje uz kišu ili pljusak sa grmljavinom. Vjetar slab do umjeren, u sjevernim predjelima povremeno i pojačan, južni i jugozaapdni. Jutarnja temperatura vazduha od 10 do 25 stepeni, najviša dnevna od 26 do 37 stepeni.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
-      "naslov": "Utorak, 25.08.2026.",
-      "azurirano": "23.08.2026. 12:58 CEST",
-      "tekst": "Pretežno sunčano i toplo, uz promjenljivu oblačnost i uslove za mjestimično kratkotrajnu popodnevnu kišu, ponegdje i grmljavinu, prvenstveno na sjeveru zemlje. Vjetar slab do umjeren, uglavnom tokom procesa ponegdje kratkotrajno pojačan, dominantno južnih smjerova. Jutarnja temperatura vazduha od 11 do 24 stepena, najviša dnevna od 26 do 37 stepeni.",
-      "podgorica": "Podgorica: Pretežno sunčano i toplo, uz slab do umjeren razvoj dnevne oblačnosti. Vjetar slab do umjeren, najčešće južni. Jutarnja temperatura vazduha oko 24, najviša dnevna oko 37 stepeni."
+      "naslov": "Srijeda, 26.08.2026.",
+      "azurirano": "24.08.2026. 11:38 CEST",
+      "tekst": "Pretežno sunčano i toplo. U drugom dijelu dana slab do umjeren, a u sjevernim predjelima i pojačan razvoj oblačnosti, ponegddje uz prolaznu kišu ili pljusak sa grmljavinom. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha od 11 do 26 stepeni, najviša dnevna od 27 do 37 stepeni.",
+      "podgorica": "Podgorica: Pretežno sunčano i veoma toplo. Vjetar slab do umjeren, tokom dana južni. Jutarnja temperatura vazduha oko 26, najviša dnevna oko 37 stepeni."
     }
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "24.08.2026. 05:30 CEST",
-    "tekst": "UPOZORENJE: - SINOPTIČKA SITUACIJA: Polje povišenog vazdušnog pritiska. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar tokom dana najčešće W-ih smjerova, a tokom jutra i noći NE, 4-16 čvorova, ponegdje moguće i do 20 čvorova. More 2 do 3. Vidljivost 10 do 20 km. Vedro ili pretežno vedro. Najviša dnevna temperatura vazduha od 31 do 34 stepena.",
+    "azurirano": "24.08.2026. 11:39 CEST",
+    "tekst": "UPOZORENJE: - SINOPTIČKA SITUACIJA: Anticiklonalno polje. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar W-ih smjerova, uz obalu tokom noći i jutra NE i E, 4 do 16, ponegdje moguć i do 20 čvorova. More 2 do 3. Vidljivost oko 20 km. Vedro ili pretežno vedro. Jutarnja temperatura vazduha od 21 do 24 stepena, najviša dnevna od 31 do 34 stepena.",
     "podgorica": ""
   }
 }
