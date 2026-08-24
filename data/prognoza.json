@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-24T03:06:05.657645+00:00",
+  "updated_at": "2026-08-24T03:38:27.271279+00:00",
   "dani": [
     {
       "naslov": "Ponedjeljak, 24.08.2026.",
-      "azurirano": "23.08.2026. 12:55 CEST",
-      "tekst": "Pretežno sunčano i toplo, ponegdje uz slab do umjeren razvoj dnevne oblačnosti. U planinama na sjeveru, moguća je rijetka pojava kratkotrajne popodnevne nestabilnosti. Vjetar slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha od 11 do 25 stepeni, najviša dnevna od 28 do 38 stepeni.",
+      "azurirano": "24.08.2026. 05:14 CEST",
+      "tekst": "Sunčano i veoma toplo. Poslijepodne u sjevernim predjelima slab do umjeren razvoj oblačnosti. Vjetar slab do umjeren, promjenljivog smjera. Najviša dnevna temperatura vazduha od 28 do 38 stepeni.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
@@ -16,8 +16,8 @@
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "23.08.2026. 14:33 CEST",
-    "tekst": "UPOZORENJE: - SINOPTIČKA SITUACIJA: U prizemlju vazdušni pritisak oko normale, imaće tendenciju blagog rasta. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar najčešće NW i W, ponegdje i SW, uz obalu tokom noći i jutra NE i E, 4 do 18, ponegdje kratkotrajno moguć do 24 čvora. More 2 do 3. Vidljivost oko 20 km. Pretežno vedro, ponegdje uz slabu i umjerenu oblačnost. Jutarnja temperatura vazduha od 21 do 25 stepeni, najviša dnevna od 31 do 34 stepena.",
+    "azurirano": "24.08.2026. 05:30 CEST",
+    "tekst": "UPOZORENJE: - SINOPTIČKA SITUACIJA: Polje povišenog vazdušnog pritiska. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar tokom dana najčešće W-ih smjerova, a tokom jutra i noći NE, 4-16 čvorova, ponegdje moguće i do 20 čvorova. More 2 do 3. Vidljivost 10 do 20 km. Vedro ili pretežno vedro. Najviša dnevna temperatura vazduha od 31 do 34 stepena.",
     "podgorica": ""
   }
 }
