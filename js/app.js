@@ -1,7 +1,13 @@
 /* MeteoMNE — app.js v13 (Fixes & Modern RacProg) */
 "use strict";
 const $ = (id) => document.getElementById(id);
-const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({"&":"&","<":"<",">":">"," ":" ","'":"'"}[c]));
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({
+  "&": "&amp;",
+  "<": "&lt;",
+  ">": "&gt;",
+  '"': "&quot;",
+  "'": "&#39;"
+}[c]));
 const MESECI = ["januar", "februar", "mart", "april", "maj", "jun", "jul", "avgust", "septembar", "oktobar", "novembar", "decembar"];
 const RUZA = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"];
 const DEFAULT_SIFRA = "02PLJV10";
