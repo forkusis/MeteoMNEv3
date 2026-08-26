@@ -6,18 +6,20 @@ import time
 import random
 from datetime import datetime, timezone
 from urllib.parse import quote
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 BASE_URL = "https://www.meteo.co.me/Meteorologija/aws_m.php"
+HOME_URL = "https://www.meteo.co.me/"
 GRAPH_URL = "https://www.meteo.co.me/Meteorologija/aws-graph.php"
 PROGNOZA_URL = "https://www.meteo.co.me/page.php?id=31"
+RAC_PAGE = "https://www.meteo.co.me/page.php?id=34"
 SEA_SNOW_URLS = [
     "https://www.meteo.co.me/Meteorologija/TTRR/sneg-talasi.php",
     "https://www.meteo.co.me/synopT.php",
 ]
-
 DATA_DIR = "data"
 HISTORY_CSV = os.path.join(DATA_DIR, "history.csv")
 LATEST_JSON = os.path.join(DATA_DIR, "latest.json")
@@ -26,17 +28,18 @@ SEA_JSON = os.path.join(DATA_DIR, "sea.json")
 SNOW_JSON = os.path.join(DATA_DIR, "snow.json")
 PROGNOZA_JSON = os.path.join(DATA_DIR, "prognoza.json")
 RACPROG_JSON = os.path.join(DATA_DIR, "racprog.json")
+STATUS_JSON = os.path.join(DATA_DIR, "status.json")
 STATION_HISTORY_DIR = os.path.join(DATA_DIR, "history")
-
 MAX_POINTS_PER_STATION = 96
+
 FIELDNAMES = ["sifra", "tip", "stanica", "datum_vrijeme", "T", "vlaga", "RR", "vjetar", "smjer_kod", "udar", "insolacija", "pritisak"]
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "sr-Latn-ME,sr;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Connection": "keep-alive"
-}
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+]
 
 NEBO = ["Vedro", "Pretežno vedro", "Malo oblačno", "Umjereno oblačno", "Pretežno oblačno", "Oblačno"]
 
@@ -52,9 +55,53 @@ RACPROG_GRADOVI = [
 RAC_SATI = ["00", "03", "06", "09", "12", "15", "18", "21"]
 RACPROG_MODELS = {
     "model1": "https://www.meteo.co.me/Meteorologija/Pr/Gradovi/5danaA/",
-    "model2": "https://www.meteo.co.me/Meteorologija/Pr/Gradovi/5danaE/"
+    "model2": "https://www.meteo.co.me/Meteorologija/Pr/Gradovi/5danaE/",
 }
 
+def now_iso():
+    return datetime.now(timezone.utc).isoformat()
+
+def hours_since(iso):
+    try:
+        dt = datetime.fromisoformat(iso)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - dt).total_seconds() / 3600.0
+    except Exception:
+        return None
+
+def human_delay(a, b):
+    d = random.uniform(a, b)
+    if random.random() < 0.15:
+        d += random.uniform(0.5, 1.5)
+    time.sleep(d)
+
+def make_session():
+    s = requests.Session()
+    s.verify = False
+    s.headers.update({
+        "User-Agent": random.choice(USER_AGENTS),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "sr-Latn-ME,sr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0",
+    })
+    return s
+
+def get_page(session, url, referer=None, extra=None):
+    h = {
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "same-origin" if referer else "none",
+        "Sec-Fetch-User": "?1",
+    }
+    if referer:
+        h["Referer"] = referer
+    if extra:
+        h.update(extra)
+    r = session.get(url, timeout=30, headers=h)
+    return r
 
 def opis_vremena(obl, vbn=None):
     val = obl if obl not in (None, "") else vbn
