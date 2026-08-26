@@ -475,6 +475,43 @@ function racVjetarSvg(kod) {
     return '<svg class="rac-vj-svg" viewBox="0 0 24 24" style="transform:rotate(' + smjer + 'deg)"><line x1="12" y1="4" x2="12" y2="20" stroke="currentColor" stroke-width="' + debljina + '" stroke-linecap="round"/><polygon points="12,2 8,8 16,8" fill="currentColor"/></svg>';
 }
 
+const RAC_KOORD = {
+  POD:[42.44,19.26], TUZ:[42.36,19.35], ULC:[41.93,19.21], BAR:[42.10,19.10],
+  BUD:[42.29,18.84], KOT:[42.42,18.77], TIV:[42.43,18.70], HER:[42.45,18.53],
+  CET:[42.39,18.92], DAN:[42.55,19.15], NIK:[42.77,18.94], SAV:[42.96,19.10],
+  KOL:[42.82,19.43], PLU:[43.15,18.85], PLA:[42.60,19.93], AND:[42.74,19.79],
+  GUS:[42.56,19.83], MOJ:[42.96,19.58], PET:[42.93,19.93], BER:[42.84,19.87],
+  ROZ:[42.84,20.17], BIJ:[43.03,19.75], ZAB:[43.15,19.12], PLJ:[43.36,19.36],
+  ADB:[41.86,19.36]
+};
+function nadjiRacGrad(gradovi) {
+  const meta = registry[mojaSifra] || {};
+  const moje = bezDijakritika(meta.naziv || "").toLowerCase().trim();
+  if (moje) {
+    let g = gradovi.find(g => bezDijakritika(g.naziv).toLowerCase().trim() === moje);
+    if (!g) g = gradovi.find(g => {
+      const gn = bezDijakritika(g.naziv).toLowerCase().trim();
+      return gn.startsWith(moje) || moje.startsWith(gn);
+    });
+    if (!g) {
+      const prva = moje.split(" ")[0];
+      g = gradovi.find(g => bezDijakritika(g.naziv).toLowerCase().split(" ")[0] === prva);
+    }
+    if (g) return g;
+  }
+  if (meta.lat != null && meta.lng != null) {
+    let best = null, bd = Infinity;
+    gradovi.forEach(g => {
+      const k = RAC_KOORD[g.kod];
+      if (!k) return;
+      const d = (k[0]-meta.lat)*(k[0]-meta.lat) + (k[1]-meta.lng)*(k[1]-meta.lng);
+      if (d < bd) { bd = d; best = g; }
+    });
+    if (best) return best;
+  }
+  return null;
+}
+
 function renderRacProg() {
     const box = $("pg-racunarska");
     if (!box) return;
@@ -483,9 +520,7 @@ function renderRacProg() {
     }
     const gradovi = racProgPodaci[racProgModel].gradovi;
     if (!racProgIzabrani || !gradovi.find(g => g.kod === racProgIzabrani.kod)) {
-        const mojeNaziv = (registry[mojaSifra] && registry[mojaSifra].naziv) || "";
-        const mojeBazno = bezDijakritika(mojeNaziv.split(" ")[0] || "").toLowerCase();
-        racProgIzabrani = gradovi.find(g => bezDijakritika(g.naziv).toLowerCase() === mojeBazno) || gradovi.find(g => g.kod === "POD");
+        racProgIzabrani = nadjiRacGrad(gradovi) || gradovi[0] || null;
     }
     const gradoviHtml = gradovi.map(g => '<button class="rac-grad' + (g.kod === racProgIzabrani.kod ? ' aktivan' : '') + '" data-kod="' + esc(g.kod) + '">' + esc(g.naziv) + '</button>').join("");
     const dani = racProgIzabrani.dani.map(dan => {
@@ -576,7 +611,7 @@ function renderLista() {
 function otvoriOverlay() { $("overlay").hidden = false; $("pretraga").value = ""; renderLista(); }
 function zatvoriOverlay() { $("overlay").hidden = true; }
 $("mjesto-ime").addEventListener("click", otvoriOverlay); $("overlay-zatvori").addEventListener("click", zatvoriOverlay); $("pretraga").addEventListener("input", renderLista);
-$("lista-mjesta").addEventListener("click", (e) => { const btn = e.target.closest(".red-mjesta"); if (!btn) return; mojaSifra = btn.dataset.sifra; localStorage.setItem("moje_mjesto", mojaSifra); zatvoriOverlay(); prikaziMjesto(); });
+$("lista-mjesta").addEventListener("click", (e) => { const btn = e.target.closest(".red-mjesta"); if (!btn) return; mojaSifra = btn.dataset.sifra; racProgIzabrani = null; localStorage.setItem("moje_mjesto", mojaSifra); zatvoriOverlay(); prikaziMjesto(); });
 
 function mnozina(n, oblici) { const d = n % 10, dd = n % 100; if (d === 1 && dd !== 11) return oblici[0]; if (d >= 2 && d <= 4 && !(dd >= 12 && dd <= 14)) return oblici[1]; return oblici[2]; }
 function renderTematskeKartice() {
