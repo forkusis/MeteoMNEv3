@@ -33,8 +33,8 @@ const MODE_INFO = {
 const KEY1 = { tvaga: "T", rr: "RR", vjetar: "V", pritisak: "P", insolacija: "S" };
 
 function danJe() {
-    const h = (new Date().getUTCHours() + 2) % 24;
-    return h >= 6 && h < 20;
+  const h = parseInt(new Date().toLocaleString("en-GB", { timeZone: "Europe/Podgorica", hour: "2-digit", hourCycle: "h23" }), 10);
+  return h >= 6 && h < 20;
 }
 
 function ikonaFajl(opis, obs) {
@@ -453,16 +453,12 @@ function renderPrognoza() {
 }
 
 /* ---------- računarska prognoza (Moderno) ---------- */
-function cetOffset(datumStr) {
-    const m = /(\d{4})-(\d{2})-(\d{2})/.exec(datumStr || ""); if (!m) return 2;
-    const y = +m[1], mo = +m[2], d = +m[3];
-    const mar31 = new Date(y, 2, 31); const nedMar = 31 - ((mar31.getDay() + 1) % 7);
-    const okt31 = new Date(y, 9, 31); const nedOkt = 31 - ((okt31.getDay() + 1) % 7);
-    const dt = new Date(y, mo - 1, d);
-    const ljetnjeStart = new Date(y, 2, nedMar); const ljetnjeEnd = new Date(y, 9, nedOkt);
-    return (dt >= ljetnjeStart && dt < ljetnjeEnd) ? 2 : 1;
+function cgSat(datumStr, utcSat) {
+  const m = /(\d{4})-(\d{2})-(\d{2})/.exec(datumStr || "");
+  const d = m ? new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], parseInt(utcSat, 10), 0, 0)) : new Date();
+  return d.toLocaleString("en-GB", { timeZone: "Europe/Podgorica", hour: "2-digit", hourCycle: "h23" }).padStart(2, "0");
 }
-function utcToCet(utcSat, datumStr) { return String((parseInt(utcSat, 10) + cetOffset(datumStr)) % 24).padStart(2, "0"); }
+function utcToCet(utcSat, datumStr) { return cgSat(datumStr, utcSat); }
 const RAC_SIMBOL_BASE = "https://www.meteo.co.me/Meteorologija/Pr/Gradovi/5danaE/Simbolcici/";
 function racSimbolUrl(kod) { return kod ? RAC_SIMBOL_BASE + kod + ".svg" : ""; }
 function racVjetarOpis(kod) {
