@@ -100,8 +100,32 @@ def get_page(session, url, referer=None, extra=None):
         h["Referer"] = referer
     if extra:
         h.update(extra)
-    r = session.get(url, timeout=30, headers=h)
-    return r
+    return session.get(url, timeout=30, headers=h)
+
+def read_json(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+def write_json(path, payload):
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+def update_status(results):
+    old = read_json(STATUS_JSON) or {}
+    ds = old.get("datasets", {})
+    for name, st in results.items():
+        e = ds.get(name, {})
+        if st == "ok":
+            e["status"] = "ok"
+            e["last_ok_at"] = now_iso()
+        else:
+            e["status"] = "stale"
+        ds[name] = e
+    write_json(STATUS_JSON, {"updated_at": now_iso(), "datasets": ds})
 
 def opis_vremena(obl, vbn=None):
     val = obl if obl not in (None, "") else vbn
@@ -118,22 +142,14 @@ def opis_vremena(obl, vbn=None):
     if o < 8: return NEBO[4]
     return NEBO[5]
 
-
-def fetch_raw(session):
-    r = session.get(BASE_URL, timeout=30, headers=HEADERS, verify=False)
-    r.raise_for_status()
-    return r.text
-
-
 def extract_posljednje(html):
     m = re.search(r"var\s+posljednje\s*=\s*({.*?});", html, re.S)
     if not m:
         raise ValueError("Nisam pronašao 'posljednje' varijablu na stranici.")
     raw = m.group(1)
-    raw = re.sub(r",\s*]", "]", raw)
-    raw = re.sub(r",\s*}", "}", raw)
+    raw = re.sub(r",\s*\]", "]", raw)
+    raw = re.sub(r",\s*\}", "}", raw)
     return json.loads(raw)
-
 
 def extract_stanice(html):
     marker = re.search(r"var\s+stanice\s*=", html)
@@ -156,12 +172,11 @@ def extract_stanice(html):
         i += 1
     if raw is None:
         return []
-    raw = re.sub(r",\s*]", "]", raw)
+    raw = re.sub(r",\s*\]", "]", raw)
     try:
         return json.loads(raw)
     except json.JSONDecodeError:
         return []
-
 
 def build_station_registry(stanice_raw):
     registry = []
@@ -181,7 +196,6 @@ def build_station_registry(stanice_raw):
     registry.sort(key=lambda s: (s["naziv"] or "").lower())
     return registry
 
-
 def flatten(data):
     rows = []
     for tip, arr in data.items():
@@ -195,7 +209,6 @@ def flatten(data):
             })
     return rows
 
-
 def migrate_history_csv():
     if not os.path.exists(HISTORY_CSV):
         return
@@ -208,7 +221,6 @@ def migrate_history_csv():
         writer = csv.writer(f)
         writer.writerow(FIELDNAMES)
         writer.writerows(fixed)
-
 
 def extract_balanced_object(html, var_name):
     marker = re.search(r"var\s+" + re.escape(var_name) + r"\s*=", html)
@@ -229,7 +241,6 @@ def extract_balanced_object(html, var_name):
         i += 1
     return None
 
-
 def extract_balanced_array(html, var_name):
     marker = re.search(r"var\s+" + re.escape(var_name) + r"\s*=\s*\[", html)
     if not marker:
@@ -249,12 +260,11 @@ def extract_balanced_array(html, var_name):
         i += 1
     return None
 
-
 def extract_sinop(html):
     raw = extract_balanced_array(html, "sinop")
     if not raw:
         return []
-    blocks = re.split(r"}\s*,\s*{", raw.strip("[]"))
+    blocks = re.split(r"\}\s*,\s*\{", raw.strip("[]"))
     out = []
     for b in blocks:
         sifra = re.search(r"sifra:\s*'([^']*)'", b)
@@ -269,19 +279,17 @@ def extract_sinop(html):
         })
     return out
 
-
 def js_object_to_json(js_str):
     s = re.sub(r'([{,]\s*)(\w+)(\s*:)', r'\1"\2"\3', js_str)
-    s = re.sub(r",\s*]", "]", s)
-    s = re.sub(r",\s*}", "}", s)
+    s = re.sub(r",\s*\]", "]", s)
+    s = re.sub(r",\s*\}", "}", s)
     return s
-
 
 def fetch_graph_extra(session, sifra, tip, naziv):
     try:
-        time.sleep(random.uniform(1.5, 3.5))
+        human_delay(0.6, 1.8)
         url = f"{GRAPH_URL}?v={tip}&s={sifra}&name={quote(naziv)}&p=&d="
-        r = session.get(url, timeout=30, headers=HEADERS, verify=False)
+        r = get_page(session, url, referer=BASE_URL)
         r.raise_for_status()
         obj_str = extract_balanced_object(r.text, "DataAll")
         if not obj_str:
@@ -300,16 +308,18 @@ def fetch_graph_extra(session, sifra, tip, naziv):
         print(f"  ! Greška pri dohvatanju grafika za {naziv} ({sifra}): {e}")
         return "", "", ""
 
-
 def enrich_with_graph_data(session, rows):
-    for row in rows:
-        print(f"  Dohvatam grafikone za: {row['stanica']} ({row['tip']})...")
-        insolacija, pritisak, vlaga = fetch_graph_extra(session, row["sifra"], row["tip"], row["stanica"])
-        row["insolacija"] = insolacija
-        row["pritisak"] = pritisak
-        row["vlaga"] = vlaga
+    rows = list(rows)
+    random.shuffle(rows)
+    with ThreadPoolExecutor(max_workers=3) as ex:
+        futs = {ex.submit(fetch_graph_extra, session, r["sifra"], r["tip"], r["stanica"]): r for r in rows}
+        for fut in as_completed(futs):
+            r = futs[fut]
+            insolacija, pritisak, vlaga = fut.result()
+            r["insolacija"] = insolacija
+            r["pritisak"] = pritisak
+            r["vlaga"] = vlaga
     return rows
-
 
 def load_existing_keys():
     keys = set()
@@ -319,8 +329,8 @@ def load_existing_keys():
                 keys.add((row["sifra"], row["datum_vrijeme"]))
     return keys
 
-
 def append_new(rows, existing_keys):
+    os.makedirs(DATA_DIR, exist_ok=True)
     is_new_file = not os.path.exists(HISTORY_CSV)
     new_rows = [r for r in rows if (r["sifra"], r["datum_vrijeme"]) not in existing_keys]
     if new_rows:
@@ -331,7 +341,6 @@ def append_new(rows, existing_keys):
             writer.writerows(new_rows)
     return new_rows
 
-
 def _to_float(value):
     try:
         if value in (None, ""):
@@ -339,7 +348,6 @@ def _to_float(value):
         return float(value)
     except (ValueError, TypeError):
         return None
-
 
 def export_station_history():
     if not os.path.exists(HISTORY_CSV):
@@ -358,10 +366,9 @@ def export_station_history():
                 "RR": _to_float(r.get("RR")), "vjetar": _to_float(r.get("vjetar")),
                 "insolacija": _to_float(r.get("insolacija")), "pritisak": _to_float(r.get("pritisak")),
             })
-        safe_name = re.sub(r"[^A-Za-z0-9_-]", "", sifra)
+        safe_name = re.sub(r"[^A-Za-z0-9_-]", "_", sifra)
         with open(os.path.join(STATION_HISTORY_DIR, f"{safe_name}.json"), "w", encoding="utf-8") as out:
             json.dump(points, out, ensure_ascii=False)
-
 
 # ---------- more i snijeg ----------
 
@@ -369,13 +376,13 @@ def fetch_sea_snow(session):
     htmls = []
     for url in SEA_SNOW_URLS:
         try:
-            r = session.get(url, timeout=30, headers=HEADERS, verify=False)
+            human_delay(0.5, 1.5)
+            r = get_page(session, url, referer=HOME_URL)
             r.raise_for_status()
             htmls.append(r.text)
         except Exception as e:
             print(f"  ! Greška pri dohvatanju {url}: {e}")
     return htmls
-
 
 def _najduzi(rezultati):
     best = ""
@@ -384,27 +391,21 @@ def _najduzi(rezultati):
             best = s
     return best
 
-
 def _js_string(html, var):
     m = re.search(r"var\s+" + var + r"\d*\s*=\s*[\"']((?:[^\"\\]|\\.)*)[\"']", html)
     if not m:
         return ""
     return m.group(1).replace('\\"', '"').replace("\\'", "'")
 
-
 def parse_labela(html, pref):
     return _najduzi([_js_string(html, pref + "H")]).strip()
-
 
 def parse_tabela_tekst(html, pref):
     return _najduzi([_js_string(html, pref + "T")]).strip()
 
-
 def _ocisti(s):
     return (s or "").replace("Â", "").replace("°", "°").replace("*", "")
 
-
-# VRACENA FUNKCIJA ZA HTML TABELE (bitno za more!)
 def parse_html_tabela(s):
     s = _ocisti(s)
     if not s or "<td" not in s:
@@ -416,18 +417,13 @@ def parse_html_tabela(s):
             out.append({"naziv": naziv, "vrijednost": float(m.group(2).replace(",", "."))})
     return out
 
-
 def parse_redovi_jedinica(s, jedinice):
     if not s:
         return []
     s = _ocisti(s)
-    
-    # 1. Pokušaj parsiranja HTML tabele (koju ZHMS često vraća za more)
     html_redovi = parse_html_tabela(s)
     if html_redovi:
         return html_redovi
-        
-    # 2. Fallback na plain tekst parser
     for jed in jedinice:
         if jed not in s:
             continue
@@ -442,7 +438,6 @@ def parse_redovi_jedinica(s, jedinice):
             return out
     return []
 
-
 def parse_redovi_broj(s):
     s = _ocisti(s)
     out = []
@@ -454,15 +449,12 @@ def parse_redovi_broj(s):
             out.append({"naziv": naziv, "vrijednost": float(m.group(3).replace(",", "."))})
     return out
 
-
 def build_more(htmls):
     for html in htmls:
         redovi = parse_redovi_jedinica(parse_tabela_tekst(html, "sea"), ["°C", "°C"])
         if redovi:
-            return {"updated_at": datetime.now(timezone.utc).isoformat(),
-                    "mjerenje_labela": parse_labela(html, "sea"), "stations": redovi}
-    return {"updated_at": datetime.now(timezone.utc).isoformat(), "mjerenje_labela": "", "stations": []}
-
+            return {"updated_at": now_iso(), "mjerenje_labela": parse_labela(html, "sea"), "stations": redovi}
+    return {"updated_at": now_iso(), "mjerenje_labela": "", "stations": []}
 
 def build_snijeg(htmls):
     for html in htmls:
@@ -471,30 +463,27 @@ def build_snijeg(htmls):
         if not redovi:
             redovi = parse_redovi_broj(tekst)
         if redovi:
-            return {"updated_at": datetime.now(timezone.utc).isoformat(),
-                    "mjerenje_labela": parse_labela(html, "snow"), "stations": redovi}
-    return {"updated_at": datetime.now(timezone.utc).isoformat(), "mjerenje_labela": "", "stations": []}
+            return {"updated_at": now_iso(), "mjerenje_labela": parse_labela(html, "snow"), "stations": redovi}
+    return {"updated_at": now_iso(), "mjerenje_labela": "", "stations": []}
 
-
-# ---------- zvanična prognoza (page.php?id=31) ----------
+# ---------- zvanična prognoza ----------
 
 def fetch_prognoza(session):
     try:
-        r = session.get(PROGNOZA_URL, timeout=30, headers=HEADERS, verify=False)
+        human_delay(0.5, 1.5)
+        r = get_page(session, PROGNOZA_URL, referer=HOME_URL)
         r.raise_for_status()
         return r.text
     except Exception as e:
         print(f"  ! Greška pri dohvatanju prognoze: {e}")
         return None
 
-
 def _detag(html):
-    t = re.sub(r"(?is)<(script|style).*?</\1>", "", html)
+    t = re.sub(r"(?is)<(script|style).*?</\1>", " ", html)
     t = re.sub(r"<[^>]+>", "\n", t)
-    t = t.replace("\xa0", " ").replace("&", "&").replace("<", "<").replace(">", ">")
+    t = t.replace("&nbsp;", " ").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
     lines = [re.sub(r"\s+", " ", l).strip() for l in t.split("\n")]
     return [l for l in lines if l]
-
 
 def build_prognoza(html):
     week_re = re.compile(r"^(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja)\b", re.I)
@@ -509,7 +498,6 @@ def build_prognoza(html):
             cur = []
         else:
             cur.append(l)
-
     dani = []
     pomorci = None
     for i, b in enumerate(blocks[:3]):
@@ -544,23 +532,15 @@ def build_prognoza(html):
                 podgorica += " " + x
                 continue
             body.append(x)
-
-        entry = {
-            "naslov": naslov,
-            "azurirano": b["stamp"],
-            "tekst": " ".join(body).strip(),
-            "podgorica": podgorica.strip(),
-        }
+        entry = {"naslov": naslov, "azurirano": b["stamp"], "tekst": " ".join(body).strip(), "podgorica": podgorica.strip()}
         if i < 2:
             dani.append(entry)
         else:
             pomorci = entry
-
     print(f"  prognoza dijagnostika: blokova {len(blocks)}, dana {len(dani)}, pomorci {bool(pomorci)}")
-    return {"updated_at": datetime.now(timezone.utc).isoformat(), "dani": dani, "pomorci": pomorci}
+    return {"updated_at": now_iso(), "dani": dani, "pomorci": pomorci}
 
-
-# ---------- računarska prognoza (5danaE) ----------
+# ---------- računarska prognoza ----------
 
 def _rac_broj(s):
     if s is None:
@@ -570,7 +550,6 @@ def _rac_broj(s):
         return float(s) + 0.0
     except (ValueError, TypeError):
         return None
-
 
 def parse_racprog_dan(html):
     rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S)
@@ -583,24 +562,17 @@ def parse_racprog_dan(html):
         if not raw_cells:
             continue
         cells = [re.sub(r"<[^>]+>", " ", c).strip() for c in raw_cells]
-
         if datum is None:
-            dm = re.search(
-                r"(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja),\s*\d{4}-\d{2}-\d{2}",
-                " ".join(cells), re.I
-            )
+            dm = re.search(r"(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja),\s*\d{4}-\d{2}-\d{2}", " ".join(cells), re.I)
             if dm:
                 datum = dm.group(0)
                 continue
-
         if len(cells) >= 2 and cells[0].lower() == "tmin":
             tmin = _rac_broj(cells[1])
             continue
-
         if len(cells) >= 2 and cells[0].lower() == "tmax":
             tmax = _rac_broj(cells[1])
             continue
-
         if len(cells) >= 5 and cells[0].strip() in RAC_SATI:
             sat = cells[0].strip()
             sim_m = re.search(r'Simbolcici/([^"]+\.svg)', raw_cells[1])
@@ -612,107 +584,161 @@ def parse_racprog_dan(html):
             vj_m = re.search(r'Simbolcici/V/([^"]+\.svg)', raw_cells[4])
             vjetar = vj_m.group(1).replace(".svg", "") if vj_m else None
             sati.append({"sat": sat, "simbol": simbol, "RR": rr, "RH": rh, "vjetar": vjetar})
-
     return datum, tmin, tmax, sati
 
+def _fetch_rac_day(session, base_url, suffix, kod, naziv, dan_i, prev_day):
+    human_delay(0.2, 0.9)
+    url = f"{base_url}{kod}-{suffix}{dan_i}.html"
+    lm = (prev_day or {}).get("lm")
+    try:
+        h = {"Sec-Fetch-Dest": "iframe", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Referer": RAC_PAGE}
+        if lm:
+            h["If-Modified-Since"] = lm
+        r = session.get(url, timeout=30, headers=h)
+        if r.status_code == 304:
+            return (kod, naziv, dan_i, prev_day)
+        r.raise_for_status()
+        text = r.text
+        new_lm = r.headers.get("Last-Modified")
+    except Exception as e:
+        print(f"  ! Greška {kod} dan {dan_i}: {e}")
+        return (kod, naziv, dan_i, prev_day)
+    datum, tmin, tmax, sati = parse_racprog_dan(text)
+    if datum is None and prev_day:
+        return (kod, naziv, dan_i, prev_day)
+    return (kod, naziv, dan_i, {"datum": datum or f"Dan {dan_i}", "Tmin": tmin, "Tmax": tmax, "sati": sati, "lm": new_lm})
 
-def fetch_racprog(session):
-    print(f"Dohvatam računarsku prognozu za {len(RACPROG_GRADOVI)} gradova (oba modela)...")
-    rezultat = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "model1": {"gradovi": []},
-        "model2": {"gradovi": []}
-    }
+def fetch_racprog(session, previous):
+    prev = previous or {}
+    rezultat = {"updated_at": now_iso()}
     for model_key, base_url in RACPROG_MODELS.items():
-        print(f"  Dohvatam {model_key}...")
         suffix = "A" if model_key == "model1" else "E"
-        for kod, naziv in RACPROG_GRADOVI:
-            grad_data = {"kod": kod, "naziv": naziv, "dani": []}
-            for dan in range(1, 6):
-                url = f"{base_url}{kod}-{suffix}{dan}.html"
-                try:
-                    r = session.get(url, timeout=30, headers=HEADERS, verify=False)
-                    if r.status_code == 404:
-                        continue
-                    r.raise_for_status()
-                    html_text = r.content.decode('utf-8', errors='ignore')
-                    datum, tmin, tmax, sati = parse_racprog_dan(html_text)
-                    grad_data["dani"].append({"datum": datum or f"Dan {dan}", "Tmin": tmin, "Tmax": tmax, "sati": sati})
-                    time.sleep(0.15)
-                except Exception as e:
-                    print(f"  ! Greška za {naziv} dan {dan} ({model_key}): {e}")
-                    continue
-            if grad_data["dani"]:
-                rezultat[model_key]["gradovi"].append(grad_data)
+        prev_model = prev.get(model_key) or {}
+        if model_key == "model1" and prev_model:
+            age = hours_since(prev_model.get("updated_at"))
+            if age is not None and age < 12:
+                rezultat[model_key] = prev_model
+                print(f"  {model_key}: zadržavam postojeće (staro {age:.1f}h)")
+                continue
+        prev_idx = {}
+        for g in prev_model.get("gradovi", []):
+            for i, d in enumerate(g.get("dani", [])):
+                prev_idx[(g["kod"], i)] = d
+        results = []
+        with ThreadPoolExecutor(max_workers=3) as ex:
+            futs = [ex.submit(_fetch_rac_day, session, base_url, suffix, kod, naziv, di, prev_idx.get((kod, di)))
+                    for kod, naziv in RACPROG_GRADOVI for di in range(1, 6)]
+            for fut in as_completed(futs):
+                results.append(fut.result())
+        by_kod = {}
+        for kod, naziv, dan_i, day in results:
+            if day is None:
+                continue
+            by_kod.setdefault(kod, {"kod": kod, "naziv": naziv, "dani": {}})
+            by_kod[kod]["dani"][dan_i] = day
+        gradovi = []
+        for kod, obj in by_kod.items():
+            dani = [obj["dani"][i] for i in sorted(obj["dani"].keys())]
+            if dani:
+                gradovi.append({"kod": kod, "naziv": obj["naziv"], "dani": dani})
+        rezultat[model_key] = {"updated_at": now_iso(), "gradovi": gradovi}
+        print(f"  {model_key}: gradova {len(gradovi)}")
     return rezultat
 
+# ---------- main ----------
 
 def main():
-    # OBAVEZNO kreiranje data foldera na samom pocetku!
     os.makedirs(DATA_DIR, exist_ok=True)
-    
-    session = requests.Session()
-    print("Provjeravam da li history.csv treba migraciju...")
+    session = make_session()
+    print("Warm-up: početna stranica...")
+    try:
+        get_page(session, HOME_URL)
+        human_delay(0.8, 2.0)
+    except Exception as e:
+        print(f"  ! warm-up greška: {e}")
+
+    results = {}
+
+    print("Provjeravam history.csv migraciju...")
     migrate_history_csv()
 
     print("Povlačim glavnu listu stanica...")
-    html = fetch_raw(session)
-    data = extract_posljednje(html)
-    rows = flatten(data)
-    stanice_raw = extract_stanice(html)
-    registry = build_station_registry(stanice_raw)
+    rows, registry = [], []
+    try:
+        r = get_page(session, BASE_URL, referer=HOME_URL)
+        r.raise_for_status()
+        html = r.text
+        rows = flatten(extract_posljednje(html))
+        registry = build_station_registry(extract_stanice(html))
+    except Exception as e:
+        print(f"  ! Greška glavni feed: {e}")
 
+    latest_valid = len(rows) >= 20 and sum(1 for x in rows if x["T"] not in ("", None)) >= 15
     if registry:
-        with open(STATIONS_JSON, "w", encoding="utf-8") as f:
-            json.dump({"updated_at": datetime.now(timezone.utc).isoformat(),
-                       "count": len(registry), "stations": registry}, f, ensure_ascii=False, indent=2)
-        print(f"Registar stanica sačuvan: {len(registry)} stanica.")
+        write_json(STATIONS_JSON, {"updated_at": now_iso(), "count": len(registry), "stations": registry})
+
+    if latest_valid:
+        reg_by = {x["sifra"]: x for x in registry}
+        print("Obogaćujem grafikone (paralelno, 3 worker-a)...")
+        rows = enrich_with_graph_data(session, rows)
+        new_rows = append_new(rows, load_existing_keys())
+        export_station_history()
+
+        print("Dohvatam more, snijeg i sinop...")
+        ss_htmls = fetch_sea_snow(session)
+        if ss_htmls:
+            sinop_html = next((h for h in ss_htmls if h and "var sinop" in h), None)
+            if sinop_html:
+                wmo_opis = {str(s["wmo"]): opis_vremena(s.get("obl"), s.get("vbn")) for s in extract_sinop(sinop_html) if s.get("wmo")}
+                for row in rows:
+                    reg = reg_by.get(row["sifra"])
+                    wmo = str(reg["wmo"]) if reg and reg.get("wmo") is not None else None
+                    row["opis"] = wmo_opis.get(wmo) if wmo else None
+            more = build_more(ss_htmls)
+            snijeg = build_snijeg(ss_htmls)
+            if more["stations"]:
+                write_json(SEA_JSON, more)
+                results["sea"] = "ok"
+            else:
+                results["sea"] = "stale"
+                print("  ! more: nema podataka, čuvam postojeći sea.json")
+            write_json(SNOW_JSON, snijeg)
+            results["snow"] = "ok"
+            print(f"  more: {len(more['stations'])} lokacija; snijeg: {len(snijeg['stations'])} lokacija")
+        else:
+            results["sea"] = "stale"
+            results["snow"] = "stale"
+            print("  ! more/snijeg: fetch failed, čuvam stare fajlove")
+
+        write_json(LATEST_JSON, {"updated_at": now_iso(), "stations": rows})
+        results["latest"] = "ok"
+        print(f"  latest: OK ({len(rows)} stanica, novih {len(new_rows)})")
     else:
-        print("Upozorenje: lista stanica (var stanice) nije pronađena na stranici.")
-
-    print(f"Pronađeno {len(rows)} stanica. Krećem u dohvatanje detalja...")
-    rows = enrich_with_graph_data(session, rows)
-    existing = load_existing_keys()
-    new_rows = append_new(rows, existing)
-    export_station_history()
-
-    print("Dohvatam more, snijeg i sinop...")
-    ss_htmls = fetch_sea_snow(session)
-    more = build_more(ss_htmls)
-    snijeg = build_snijeg(ss_htmls)
-    with open(SEA_JSON, "w", encoding="utf-8") as f:
-        json.dump(more, f, ensure_ascii=False, indent=2)
-    with open(SNOW_JSON, "w", encoding="utf-8") as f:
-        json.dump(snijeg, f, ensure_ascii=False, indent=2)
-    print(f"  more: {len(more['stations'])} lokacija; snijeg: {len(snijeg['stations'])} lokacija")
-
-    sinop_html = next((h for h in ss_htmls if h and "var sinop" in h), None)
-    sinop = extract_sinop(sinop_html) if sinop_html else []
-    wmo_opis = {str(s["wmo"]): opis_vremena(s.get("obl"), s.get("vbn")) for s in sinop if s.get("wmo")}
-
-    reg_by_sifra = {r["sifra"]: r for r in registry}
-    for row in rows:
-        reg = reg_by_sifra.get(row["sifra"])
-        wmo = str(reg["wmo"]) if reg and reg.get("wmo") is not None else None
-        row["opis"] = wmo_opis.get(wmo) if wmo else None
+        results["latest"] = "stale"
+        print("  ! latest: NEVALIDNO -> zadržavam stari latest.json")
 
     print("Dohvatam zvaničnu prognozu...")
     prog_html = fetch_prognoza(session)
-    if prog_html is not None:
-        prognoza = build_prognoza(prog_html)
-        with open(PROGNOZA_JSON, "w", encoding="utf-8") as f:
-            json.dump(prognoza, f, ensure_ascii=False, indent=2)
+    prognoza = build_prognoza(prog_html) if prog_html else None
+    if prognoza and len(prognoza["dani"]) >= 1 and any(d["tekst"] for d in prognoza["dani"]):
+        write_json(PROGNOZA_JSON, prognoza)
+        results["prognoza"] = "ok"
+    else:
+        results["prognoza"] = "stale"
+        print("  ! prognoza: NEVALIDNO -> zadržavam staru")
 
-    print("Dohvatam računarsku prognozu (oba modela)...")
-    racprog = fetch_racprog(session)
-    with open(RACPROG_JSON, "w", encoding="utf-8") as f:
-        json.dump(racprog, f, ensure_ascii=False, indent=2)
+    print("Dohvatam računarsku prognozu...")
+    rac = fetch_racprog(session, read_json(RACPROG_JSON))
+    m2 = rac.get("model2", {})
+    if m2.get("gradovi") and len(m2["gradovi"]) >= 10:
+        write_json(RACPROG_JSON, rac)
+        results["racprog"] = "ok"
+    else:
+        results["racprog"] = "stale"
+        print("  ! racprog: NEVALIDNO -> zadržavam stari")
 
-    with open(LATEST_JSON, "w", encoding="utf-8") as f:
-        json.dump({"updated_at": datetime.now(timezone.utc).isoformat(), "stations": rows}, f, ensure_ascii=False, indent=2)
-
-    print(f"Uspješno završeno! Ukupno stanica: {len(rows)}, novih zapisa: {len(new_rows)}")
-
+    update_status(results)
+    print(f"Uspješno završeno. status: {results}")
 
 if __name__ == "__main__":
     main()
