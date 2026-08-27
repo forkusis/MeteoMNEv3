@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-26T14:26:52.833228+00:00",
+  "updated_at": "2026-08-27T09:20:57.405426+00:00",
   "dani": [
     {
       "naslov": "Četvrtak, 27.08.2026.",
-      "azurirano": "26.08.2026. 12:57 CEST",
-      "tekst": "Pretežno sunčano i tokom dana veoma toplo. Vjetar slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha od 12 do 25 stepeni, najviša dnevna od 28 do 38 stepeni.",
+      "azurirano": "27.08.2026. 05:22 CEST",
+      "tekst": "Pretežno sunčano i tokom dana veoma toplo. Vjetar slab do umjeren, promjenljivog smjera. Najviša dnevna temperatura vazduha od 28 do 38 stepeni.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
@@ -16,8 +16,8 @@
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "26.08.2026. 08:47 CEST",
-    "tekst": "UPOZORENJE: - SINOPTIČKA SITUACIJA: Na visini Jadransko more se nalazi u zoni termobaričkog grebena a u prizemlju na periferiji anticiklona iz sjeverne Evrope. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar uglavnom NW i W, 6 do 16 čvorova, na otvorenom moru tokom dana povremeno 10 do 20 čvorova. Tokom noći vjetar će oslabiti na 2 do 12 čvorova a uz obalu će skrenuti na NE i E. More 2 do 3. Vidljivost 10 do 20 km. Vedro do malo oblačno. Najviša dnevna temperatura vazduha od 30 do 33 stepena.",
+    "azurirano": "27.08.2026. 08:45 CEST",
+    "tekst": "UPOZORENJE: - SINOPTIČKA SITUACIJA: Na visini Jadransko more se nalazi u zoni termobaričkog grebena, u prizemlju na periferiji anticiklona iz sjeverne Evrope, uz blagi porast vazdušnog pritiska. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar tokom dana dominantno W-ih smjerova, u jutarnjim i noćnim satima uz obalu i NE i E, 4 do 18 čvorova. More 1 do 3. Vidljivost 10 do 20 km. Pretežno vedro. Najviša dnevna temperatura vazduha od 31 do 34 stepena.",
     "podgorica": ""
   }
 }
