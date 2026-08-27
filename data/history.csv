@@ -5913,3 +5913,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,28.08.2026 01:00,16.30,88.0,0.00,0.40,16,,0.0,914.0
 02NJGV30,klimatološka,Njegovuđa,28.08.2026 01:00,22.52,49.1,,,,,,
 02CTNJ10,glavna,Cetinje,28.08.2026 01:00,19.40,73.0,0.00,0.60,22,,0.8,945.6
+02IVKO30,klimatološka,Ivanova korita,28.08.2026 01:00,23.28,43.2,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,28.08.2026 01:00,17.93,88.1,,,,,,
+02KOSA30,klimatološka,Kosanica,28.08.2026 01:00,12.00,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,28.08.2026 01:00,19.30,78.5,0.00,0.20,4,0.50,0.0,
+02BUDV20,klimatološka,Budva,28.08.2026 01:00,26.71,80.9,,,,,0.0,1015.25
+02BAR010,glavna,Bar,28.08.2026 01:20,25.70,78.0,0.00,1.50,10,,0.0,1015.5
+02PLJV10,glavna,Pljevlja,28.08.2026 01:20,18.00,64.0,0.00,0.50,32,,0.0,929.8
+02ZBLJ10,glavna,Žabljak,28.08.2026 01:20,22.30,39.0,0.00,1.90,26,,0.0,861.4
+02KUKO30,klimatološka,Kučka korita,28.08.2026 01:00,14.69,85.1,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,28.08.2026 01:20,24.30,75.0,0.00,0.30,2,,0.0,1011.1
+02BIST20,klimatološka,Bistrica,28.08.2026 01:00,17.30,75.6,0.00,0.30,16,0.60,0.5,
+02KOLS10,glavna,Kolašin,28.08.2026 01:20,16.20,89.0,0.00,0.30,22,,0.0,913.8
+02PLZN20,klimatološka,Pluzine,28.08.2026 01:00,21.55,81.6,0.00,0.80,16,1.40,0.0,935.6
+02LKOT20,klimatološka,Luka Kotor,28.08.2026 00:46,26.60,75.0,,1.50,,3.00,,1018.8
+02NIKS10,glavna,Nikšić,28.08.2026 01:20,21.90,64.0,0.00,1.40,30,1.60,0.0,944.9
+02PDGR10,glavna,Podgorica,28.08.2026 01:20,27.40,64.0,0.00,0.60,10,,0.0,1010.4
+02BOAN30,klimatološka,Boan,28.08.2026 01:00,16.24,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,28.08.2026 01:20,24.30,89.0,0.00,1.30,32,1.40,0.0,1016.0
+02BPLJ20,klimatološka,Bijelo Polje,28.08.2026 01:00,18.54,91.3,,,,,0.0,950.36
+02UBLI20,klimatološka,Ubli,28.08.2026 01:00,23.82,,,,,,,
+02CTNJ10,glavna,Cetinje,28.08.2026 01:20,19.10,74.0,0.00,0.20,32,,0.5,945.6
+02KOVR30,klimatološka,Kovren,28.08.2026 01:00,22.46,57.6,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,28.08.2026 01:00,16.04,94.7,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,28.08.2026 01:00,18.44,84.2,,,,,,
+02GRAD30,klimatološka,Gradac,28.08.2026 01:00,15.49,93.0,,,,,,
+02BERA20,glavna,Berane,28.08.2026 01:00,19.68,78.8,0.00,0.40,2,1.30,,940.04
