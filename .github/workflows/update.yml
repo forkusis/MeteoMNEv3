@@ -2,7 +2,7 @@ name: Update meteo data
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
   push:
     paths:
@@ -42,5 +42,24 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --staged --quiet || git commit -m "Ažuriranje meteo podataka"
-          git push origin main || echo "!! push odbijen (neko je upravo gurnuo izmjene) - sledeci run preuzima."
+          if ! git diff --staged --quiet; then
+            git commit -m "Ažuriranje meteo podataka"
+            PUSHED=0
+            for i in 1 2 3 4 5; do
+              if git push origin main; then
+                PUSHED=1
+                echo "Push uspio."
+                break
+              fi
+              echo "Push odbijen (pokusaj $i), rebase pa ponovo..."
+              git fetch origin main
+              git rebase --strategy-option=theirs origin/main || git rebase --abort
+              sleep 3
+            done
+            if [ "$PUSHED" != "1" ]; then
+              echo "!! PUSH NIJE USPIO - podaci nijesu sacuvani. Potreban rucni run."
+              exit 1
+            fi
+          else
+            echo "Nema promjena u data/."
+          fi
