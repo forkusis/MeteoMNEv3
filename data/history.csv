@@ -5783,3 +5783,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,27.08.2026 23:00,21.70,71.0,0.00,0.00,8,,0.0,945.9
 02STAB30,klimatološka,Stabna,27.08.2026 23:00,21.11,68.8,,,,,,
 02KOLS10,glavna,Kolašin,27.08.2026 23:00,18.10,82.0,0.00,0.40,18,,0.0,913.9
+02GRAD30,klimatološka,Gradac,27.08.2026 23:00,17.52,82.3,,,,,,
+02BAR010,glavna,Bar,27.08.2026 23:20,26.20,80.0,0.00,1.10,6,,0.3,1016.2
+02CTNJ10,glavna,Cetinje,27.08.2026 23:20,21.10,73.0,0.00,0.10,22,,0.1,945.8
+02HNOV10,glavna,Herceg Novi,27.08.2026 23:20,26.20,72.0,0.00,0.40,24,,0.5,1011.7
+02KOSA30,klimatološka,Kosanica,27.08.2026 23:00,13.16,99.9,,,,,,
+02VELM20,klimatološka,Velimlje,27.08.2026 23:00,21.20,73.8,0.00,0.30,8,0.60,0.6,
+02ZBLJ10,glavna,Žabljak,27.08.2026 23:20,22.70,38.0,0.00,3.40,26,,0.0,861.7
+02ULCN10,glavna,Ulcinj,27.08.2026 23:20,26.30,82.0,0.00,1.80,30,2.60,0.3,1016.3
+02BERA20,glavna,Berane,27.08.2026 23:00,21.95,69.2,0.00,0.40,32,0.90,,940.13
+02IVKO30,klimatološka,Ivanova korita,27.08.2026 23:00,24.41,38.8,0.00,,,,,
+02NIKS10,glavna,Nikšić,27.08.2026 23:20,24.50,59.0,0.00,0.90,32,,0.0,945.2
+02CRKV30,klimatološka,Crkvice,27.08.2026 23:00,19.25,79.5,,,,,,
+02BOAN30,klimatološka,Boan,27.08.2026 23:00,18.37,88.6,,,,,,
+02LKOT20,klimatološka,Luka Kotor,27.08.2026 22:46,27.90,64.0,,1.00,,1.80,,1019.2
+02PLZN20,klimatološka,Pluzine,27.08.2026 23:00,23.86,65.7,0.00,0.60,8,1.60,0.0,935.51
+02UBLI20,klimatološka,Ubli,27.08.2026 23:00,24.68,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,27.08.2026 23:00,20.45,83.2,,,,,0.0,950.13
+02PLJV10,glavna,Pljevlja,27.08.2026 23:20,20.20,55.0,0.00,0.30,32,,0.0,929.8
+02KOLS10,glavna,Kolašin,27.08.2026 23:20,17.80,84.0,0.00,0.60,22,,0.0,914.1
+02BUDV20,klimatološka,Budva,27.08.2026 23:00,27.11,80.6,,,,,0.0,1015.56
+02BIST20,klimatološka,Bistrica,27.08.2026 23:00,19.80,67.9,0.00,0.60,14,1.00,0.5,
+02GOBU30,klimatološka,Gornja Bukovica,27.08.2026 23:00,17.20,87.6,,,,,,
+02PDGR10,glavna,Podgorica,27.08.2026 23:20,28.40,60.0,0.00,0.70,32,,0.0,1010.5
+02KUKO30,klimatološka,Kučka korita,27.08.2026 23:00,17.48,75.1,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,27.08.2026 23:00,20.13,77.8,,,,,,
