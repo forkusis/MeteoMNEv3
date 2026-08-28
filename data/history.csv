@@ -7280,3 +7280,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,28.08.2026 22:00,27.40,,,,,,,
 02ULCN10,glavna,Ulcinj,28.08.2026 22:00,25.90,91.0,0.00,0.60,4,,0.0,1013.1
 02ZBLJ10,glavna,Žabljak,28.08.2026 22:00,19.60,55.0,0.00,1.10,22,,0.1,860.5
+02GRAD30,klimatološka,Gradac,28.08.2026 22:00,20.05,80.8,,,,,,
+02UBLI20,klimatološka,Ubli,28.08.2026 22:00,26.06,,,,,,,
+02KUKO30,klimatološka,Kučka korita,28.08.2026 22:00,19.06,77.5,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,28.08.2026 22:00,22.62,65.0,,,,,,
+02BUDV20,klimatološka,Budva,28.08.2026 22:00,27.70,91.3,,,,,0.0,1012.53
+02BOAN30,klimatološka,Boan,28.08.2026 22:00,20.85,80.7,,,,,,
+02NIKS10,glavna,Nikšić,28.08.2026 22:20,25.80,67.0,0.00,0.30,16,,0.0,943.1
+02IVKO30,klimatološka,Ivanova korita,28.08.2026 22:00,24.77,40.5,0.00,,,,,
+02CTNJ10,glavna,Cetinje,28.08.2026 22:20,22.00,81.0,0.00,0.00,32,,0.1,943.7
+02KOSA30,klimatološka,Kosanica,28.08.2026 22:00,14.79,97.2,,,,,,
+02KOLS10,glavna,Kolašin,28.08.2026 22:20,20.40,71.0,0.00,0.70,16,,0.0,912.2
+02GOBU30,klimatološka,Gornja Bukovica,28.08.2026 22:00,15.38,100.0,,,,,,
+02BERA20,glavna,Berane,28.08.2026 22:00,23.06,64.4,0.00,0.30,30,0.90,,938.71
+02BPLJ20,klimatološka,Bijelo Polje,28.08.2026 22:00,22.01,81.1,,,,,0.0,948.34
+02BAR010,glavna,Bar,28.08.2026 22:20,26.60,84.0,0.00,0.70,4,,0.1,1012.9
+02ZBLJ10,glavna,Žabljak,28.08.2026 22:20,19.20,57.0,0.00,0.60,22,,0.7,860.5
+02LKOT20,klimatološka,Luka Kotor,28.08.2026 21:46,27.50,80.0,,0.50,,1.70,,1016.3
+02CRKV30,klimatološka,Crkvice,28.08.2026 22:00,21.86,78.5,,,,,,
+02PLJV10,glavna,Pljevlja,28.08.2026 22:20,22.50,56.0,0.00,0.20,2,,0.1,927.7
+02BIST20,klimatološka,Bistrica,28.08.2026 22:00,22.30,52.4,0.00,0.70,14,1.20,1.3,
+02VELM20,klimatološka,Velimlje,28.08.2026 22:00,23.70,59.0,0.00,0.70,22,1.00,0.0,
+02PLZN20,klimatološka,Pluzine,28.08.2026 22:00,26.78,60.6,0.00,0.90,14,2.10,0.66,933.54
+02HNOV10,glavna,Herceg Novi,28.08.2026 22:20,26.00,77.0,0.00,1.20,24,,1.4,1009.0
+02PDGR10,glavna,Podgorica,28.08.2026 22:20,28.90,71.0,0.00,0.80,16,,0.0,1007.8
+02ULCN10,glavna,Ulcinj,28.08.2026 22:20,25.50,90.0,0.00,1.60,4,,0.0,1013.0
