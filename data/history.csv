@@ -7668,3 +7668,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,29.08.2026 04:00,15.00,93.0,0.00,0.30,16,,0.1,911.6
 02MATE30,klimatološka,Matesevo,29.08.2026 04:00,13.99,95.1,0.00,,,,,
 02DANL20,klimatološka,Danilovgrad,29.08.2026 04:00,23.30,,,,,,,
+02KUKO30,klimatološka,Kučka korita,29.08.2026 04:00,15.21,77.1,0.00,,,,,
+02BIST20,klimatološka,Bistrica,29.08.2026 04:00,16.30,79.7,0.00,0.40,14,0.50,2.4,
+02UBLI20,klimatološka,Ubli,29.08.2026 04:00,23.45,,,,,,,
+02VELM20,klimatološka,Velimlje,29.08.2026 04:00,17.90,76.6,0.00,0.30,28,0.50,0.0,
+02KOLS10,glavna,Kolašin,29.08.2026 04:20,15.00,93.0,0.00,0.40,4,,0.0,911.5
+02KOSA30,klimatološka,Kosanica,29.08.2026 04:00,10.45,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,29.08.2026 04:20,18.80,49.0,0.00,0.60,8,,0.0,859.6
+02BOAN30,klimatološka,Boan,29.08.2026 04:00,14.61,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,29.08.2026 04:00,20.36,96.6,0.00,0.00,32,0.90,0.0,933.79
+02KOVR30,klimatološka,Kovren,29.08.2026 04:00,20.46,74.6,0.00,,,,,
+02ULCN10,glavna,Ulcinj,29.08.2026 04:20,24.20,96.0,0.00,3.30,6,,0.0,1012.2
+02BERA20,glavna,Berane,29.08.2026 04:00,17.06,87.1,0.00,0.40,12,1.20,,938.58
+02BAR010,glavna,Bar,29.08.2026 04:20,24.50,82.0,0.00,0.90,6,,0.4,1011.9
+02LKOT20,klimatološka,Luka Kotor,29.08.2026 03:51,25.20,90.0,,0.90,,1.80,,1015.3
+02NIKS10,glavna,Nikšić,29.08.2026 04:20,21.70,66.0,0.00,1.10,2,,0.0,942.4
+02GRAD30,klimatološka,Gradac,29.08.2026 04:00,14.06,100.0,,,,,,
+02BUDV20,klimatološka,Budva,29.08.2026 04:00,25.53,99.2,,,,,0.0,1011.62
+02BPLJ20,klimatološka,Bijelo Polje,29.08.2026 04:00,17.04,97.7,,,,,0.0,948.81
+02GOBU30,klimatološka,Gornja Bukovica,29.08.2026 04:00,13.31,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,29.08.2026 04:20,24.20,81.0,0.00,1.20,22,,1.0,1007.7
+02IVKO30,klimatološka,Ivanova korita,29.08.2026 04:00,22.41,45.2,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,29.08.2026 04:00,16.65,93.6,,,,,,
+02CTNJ10,glavna,Cetinje,29.08.2026 04:20,18.20,81.0,0.00,0.40,18,,0.0,942.8
+02PLJV10,glavna,Pljevlja,29.08.2026 04:20,16.20,78.0,0.00,0.30,32,,0.0,927.9
+02PDGR10,glavna,Podgorica,29.08.2026 04:20,26.30,77.0,0.00,0.50,2,,0.6,1007.1
