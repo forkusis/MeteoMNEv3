@@ -8788,3 +8788,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,29.08.2026 21:00,30.19,43.5,,,,,,
 02ULCN10,glavna,Ulcinj,29.08.2026 21:00,27.30,87.0,0.00,0.40,28,,0.0,1012.6
 02NJGV30,klimatološka,Njegovuđa,29.08.2026 21:00,18.87,77.2,,,,,,
+02KUKO30,klimatološka,Kučka korita,29.08.2026 21:00,18.12,66.4,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,29.08.2026 21:00,24.46,64.6,,,,,,
+02LKOT20,klimatološka,Luka Kotor,29.08.2026 20:46,28.90,61.0,,0.90,,2.00,,1015.5
+02HNOV10,glavna,Herceg Novi,29.08.2026 21:20,26.40,66.0,0.00,0.50,30,,0.0,1008.2
+02GRAD30,klimatološka,Gradac,29.08.2026 21:00,22.39,74.3,,,,,,
+02BAR010,glavna,Bar,29.08.2026 21:20,27.30,74.0,0.00,2.10,8,2.90,1.1,1012.5
+02UBLI20,klimatološka,Ubli,29.08.2026 21:00,27.27,,,,,,,
+02BIST20,klimatološka,Bistrica,29.08.2026 21:00,23.90,56.9,0.00,1.10,6,2.30,0.5,
+02GOBU30,klimatološka,Gornja Bukovica,29.08.2026 21:00,19.41,88.1,,,,,,
+02BERA20,glavna,Berane,29.08.2026 21:00,22.42,74.4,0.00,0.50,2,1.80,,939.38
+02VELM20,klimatološka,Velimlje,29.08.2026 21:00,25.10,45.9,0.00,0.80,26,1.50,0.0,
+02ZBLJ10,glavna,Žabljak,29.08.2026 21:20,18.50,64.0,0.00,0.40,6,,0.5,860.1
+02NIKS10,glavna,Nikšić,29.08.2026 21:20,28.00,34.0,0.00,0.10,22,,0.0,941.7
+02PLZN20,klimatološka,Pluzine,29.08.2026 21:00,25.54,71.5,0.00,4.30,32,8.50,0.0,933.3
+02BOAN30,klimatološka,Boan,29.08.2026 21:00,22.23,58.4,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,29.08.2026 21:00,23.17,71.5,,,,,0.0,949.55
+02IVKO30,klimatološka,Ivanova korita,29.08.2026 21:00,21.25,46.1,0.00,,,,,
+02PDGR10,glavna,Podgorica,29.08.2026 21:20,30.00,56.0,0.00,1.50,20,1.60,0.0,1006.5
+02KOLS10,glavna,Kolašin,29.08.2026 21:20,22.70,60.0,0.00,2.70,2,,0.3,911.7
+02BUDV20,klimatološka,Budva,29.08.2026 21:00,28.49,80.5,,,,,0.0,1011.84
+02ULCN10,glavna,Ulcinj,29.08.2026 21:20,27.10,85.0,0.00,1.10,28,,0.0,1012.8
+02PLJV10,glavna,Pljevlja,29.08.2026 21:20,22.90,55.0,0.00,1.00,10,,0.0,928.7
+02CTNJ10,glavna,Cetinje,29.08.2026 21:20,22.90,52.0,0.00,0.30,10,,0.4,942.5
+02CRKV30,klimatološka,Crkvice,29.08.2026 21:00,21.48,59.2,,,,,,
+02KOSA30,klimatološka,Kosanica,29.08.2026 21:00,18.34,87.1,,,,,,
