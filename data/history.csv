@@ -7603,3 +7603,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,29.08.2026 03:00,15.50,91.0,0.00,0.10,32,,0.0,912.1
 02STAB30,klimatološka,Stabna,29.08.2026 03:00,19.11,78.4,,,,,,
 02POSC30,klimatološka,Pošćenje,29.08.2026 03:00,15.61,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,29.08.2026 03:00,18.43,79.1,,,,,,
+02GRAD30,klimatološka,Gradac,29.08.2026 03:00,14.50,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,29.08.2026 02:51,25.20,90.0,,0.00,,0.70,,1015.5
+02KOSA30,klimatološka,Kosanica,29.08.2026 03:00,11.25,100.0,,,,,,
+02PDGR10,glavna,Podgorica,29.08.2026 03:20,26.90,72.0,0.00,0.60,2,,0.4,1007.5
+02NIKS10,glavna,Nikšić,29.08.2026 03:20,21.90,67.0,0.00,1.90,2,,0.0,942.5
+02IVKO30,klimatološka,Ivanova korita,29.08.2026 03:00,22.68,46.3,0.00,,,,,
+02UBLI20,klimatološka,Ubli,29.08.2026 03:00,24.56,,,,,,,
+02ZBLJ10,glavna,Žabljak,29.08.2026 03:20,19.80,50.0,0.00,0.80,8,,0.2,859.7
+02BERA20,glavna,Berane,29.08.2026 03:00,17.79,84.8,0.00,0.00,32,0.90,,938.67
+02PLJV10,glavna,Pljevlja,29.08.2026 03:20,17.00,74.0,0.00,0.40,32,,0.0,927.9
+02PLZN20,klimatološka,Pluzine,29.08.2026 03:00,21.15,92.2,0.00,0.50,32,1.10,0.0,933.74
+02ULCN10,glavna,Ulcinj,29.08.2026 03:20,24.00,95.0,0.00,2.40,6,,0.0,1012.7
+02KUKO30,klimatološka,Kučka korita,29.08.2026 03:00,14.81,81.1,0.00,,,,,
+02VELM20,klimatološka,Velimlje,29.08.2026 03:00,18.60,73.1,0.00,0.20,24,0.30,0.0,
+02CTNJ10,glavna,Cetinje,29.08.2026 03:20,18.20,80.0,0.00,0.30,6,,1.6,943.1
+02BAR010,glavna,Bar,29.08.2026 03:20,24.90,82.0,0.00,0.50,8,,0.1,1012.3
+02KOLS10,glavna,Kolašin,29.08.2026 03:20,15.50,91.0,0.00,0.50,14,,0.1,912.0
+02GOBU30,klimatološka,Gornja Bukovica,29.08.2026 03:00,13.22,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,29.08.2026 03:00,17.61,96.3,,,,,0.0,948.97
+02DDOB30,klimatološka,Donja Dobrilovina,29.08.2026 03:00,17.19,92.1,,,,,,
+02HNOV10,glavna,Herceg Novi,29.08.2026 03:20,23.90,83.0,0.00,0.60,24,,0.0,1008.1
+02BOAN30,klimatološka,Boan,29.08.2026 03:00,15.08,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,29.08.2026 03:00,16.30,79.5,0.00,1.10,14,1.30,1.3,
+02BUDV20,klimatološka,Budva,29.08.2026 03:00,26.06,98.2,,,,,0.0,1011.98
