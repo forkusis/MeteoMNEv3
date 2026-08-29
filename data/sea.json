@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-29T12:01:02.422040+00:00",
-  "mjerenje_labela": "Subota, 29.08.2026. u    8h",
+  "updated_at": "2026-08-29T12:15:48.436005+00:00",
+  "mjerenje_labela": "Subota, 29.08.2026. u   14h",
   "stations": [
     {
       "naziv": "Bar",
-      "vrijednost": 26.0
+      "vrijednost": 28.0
     },
     {
       "naziv": "Ulcinj",
-      "vrijednost": 26.0
+      "vrijednost": 27.0
     }
   ]
 }
