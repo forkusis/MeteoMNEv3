@@ -7865,3 +7865,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,29.08.2026 07:00,24.30,93.0,0.00,3.20,2,,56.5,1012.3
 02DANL20,klimatološka,Danilovgrad,29.08.2026 07:00,22.60,,,,,,,
 02NJGV30,klimatološka,Njegovuđa,29.08.2026 07:00,14.58,83.9,,,,,,
+02PDGR10,glavna,Podgorica,29.08.2026 07:20,26.20,71.0,0.00,0.60,2,,92.8,1007.5
+02ULCN10,glavna,Ulcinj,29.08.2026 07:20,25.20,88.0,0.00,3.50,4,,99.2,1012.4
+02IVKO30,klimatološka,Ivanova korita,29.08.2026 07:00,21.76,51.9,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,29.08.2026 07:00,15.49,100.0,,,,,,
+02NIKS10,glavna,Nikšić,29.08.2026 07:20,21.30,66.0,0.00,0.70,2,,115.7,942.5
+02GRAD30,klimatološka,Gradac,29.08.2026 07:00,13.00,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,29.08.2026 07:00,12.15,100.0,,,,,,
+02BERA20,glavna,Berane,29.08.2026 07:00,16.09,92.4,0.00,0.90,8,2.20,,938.73
+02CRKV30,klimatološka,Crkvice,29.08.2026 07:00,19.88,74.6,,,,,,
+02KOSA30,klimatološka,Kosanica,29.08.2026 07:00,10.07,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,29.08.2026 07:00,23.65,,,,,,,
+02BAR010,glavna,Bar,29.08.2026 07:20,25.20,83.0,0.00,2.40,26,,97.8,1012.2
+02KOLS10,glavna,Kolašin,29.08.2026 07:20,14.80,92.0,0.00,0.30,20,,91.7,911.9
+02BUDV20,klimatološka,Budva,29.08.2026 07:00,26.18,89.0,,,,,40.88,1012.16
+02KUKO30,klimatološka,Kučka korita,29.08.2026 07:00,16.16,72.4,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,29.08.2026 07:20,25.40,76.0,0.00,0.70,24,,102.5,1008.5
+02ZBLJ10,glavna,Žabljak,29.08.2026 07:20,18.20,53.0,0.00,1.10,22,,124.1,859.6
+02PLJV10,glavna,Pljevlja,29.08.2026 07:20,15.50,80.0,0.00,0.40,8,,91.0,928.3
+02BIST20,klimatološka,Bistrica,29.08.2026 07:00,14.60,88.1,0.00,0.40,12,0.60,44.5,
+02LKOT20,klimatološka,Luka Kotor,29.08.2026 06:51,25.60,87.0,,2.20,,3.00,,1015.9
+02VELM20,klimatološka,Velimlje,29.08.2026 07:00,16.00,84.2,0.00,0.80,10,1.50,50.2,
+02PLZN20,klimatološka,Pluzine,29.08.2026 07:00,19.05,100.0,0.00,0.80,14,2.00,45.26,933.91
+02KOVR30,klimatološka,Kovren,29.08.2026 07:00,19.37,93.3,0.00,,,,,
+02BOAN30,klimatološka,Boan,29.08.2026 07:00,13.36,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,29.08.2026 07:00,16.04,100.0,,,,,44.4,949.3
+02CTNJ10,glavna,Cetinje,29.08.2026 07:20,17.60,86.0,0.00,0.30,6,,50.1,942.8
