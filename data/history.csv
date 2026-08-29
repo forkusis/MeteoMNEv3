@@ -7538,3 +7538,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,29.08.2026 02:00,17.70,94.7,,,,,,
 02MAMO30,klimatološka,Manastir Morača,29.08.2026 02:00,20.70,91.8,,,,,,
 02NJGV30,klimatološka,Njegovuđa,29.08.2026 02:00,15.83,84.3,,,,,,
+02NIKS10,glavna,Nikšić,29.08.2026 02:20,22.30,68.0,0.00,1.60,2,2.70,0.0,942.8
+02ZBLJ10,glavna,Žabljak,29.08.2026 02:20,18.70,52.0,0.00,0.10,8,,0.0,859.9
+02PLZN20,klimatološka,Pluzine,29.08.2026 02:00,21.88,87.9,0.00,0.80,16,1.80,0.0,933.93
+02BIST20,klimatološka,Bistrica,29.08.2026 02:00,17.10,76.3,0.00,0.40,14,0.70,0.5,
+02BPLJ20,klimatološka,Bijelo Polje,29.08.2026 02:00,18.31,94.3,,,,,0.0,948.93
+02LKOT20,klimatološka,Luka Kotor,29.08.2026 01:51,25.80,87.0,,0.00,,0.90,,1015.9
+02BOAN30,klimatološka,Boan,29.08.2026 02:00,16.16,100.0,,,,,,
+02BAR010,glavna,Bar,29.08.2026 02:20,25.60,82.0,0.00,1.30,8,,0.5,1012.7
+02VELM20,klimatološka,Velimlje,29.08.2026 02:00,19.30,71.5,0.00,0.40,32,0.50,0.1,
+02GOBU30,klimatološka,Gornja Bukovica,29.08.2026 02:00,12.92,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,29.08.2026 02:20,17.70,72.0,0.00,0.30,4,,0.2,928.1
+02HNOV10,glavna,Herceg Novi,29.08.2026 02:20,24.70,84.0,0.00,1.40,22,,0.6,1008.5
+02KUKO30,klimatološka,Kučka korita,29.08.2026 02:00,15.85,80.1,0.00,,,,,
+02UBLI20,klimatološka,Ubli,29.08.2026 02:00,24.10,,,,,,,
+02PDGR10,glavna,Podgorica,29.08.2026 02:20,27.30,72.0,0.00,0.80,4,,0.3,1007.6
+02KOSA30,klimatološka,Kosanica,29.08.2026 02:00,10.94,100.0,,,,,,
+02KOLS10,glavna,Kolašin,29.08.2026 02:20,16.20,88.0,0.00,0.70,16,,0.0,912.1
+02GRAD30,klimatološka,Gradac,29.08.2026 02:00,15.32,100.0,,,,,,
+02BERA20,glavna,Berane,29.08.2026 02:00,18.70,79.2,0.00,0.40,32,0.80,,938.82
+02CRKV30,klimatološka,Crkvice,29.08.2026 02:00,19.45,74.2,,,,,,
+02BUDV20,klimatološka,Budva,29.08.2026 02:00,26.40,97.2,,,,,0.0,1012.52
+02DDOB30,klimatološka,Donja Dobrilovina,29.08.2026 02:00,18.09,88.2,,,,,,
+02CTNJ10,glavna,Cetinje,29.08.2026 02:20,18.90,83.0,0.00,0.20,24,,0.2,943.4
+02ULCN10,glavna,Ulcinj,29.08.2026 02:20,23.70,91.0,0.00,2.30,2,3.10,0.6,1013.1
+02IVKO30,klimatološka,Ivanova korita,29.08.2026 02:00,21.52,51.2,0.00,,,,,
