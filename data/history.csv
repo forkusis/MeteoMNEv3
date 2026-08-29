@@ -8043,3 +8043,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,29.08.2026 09:50,23.20,52.0,0.00,0.90,18,,512.0,928.1
 02PDGR10,glavna,Podgorica,29.08.2026 09:50,31.20,49.0,0.00,2.00,16,,469.9,1007.6
 02LKOT20,klimatološka,Luka Kotor,29.08.2026 09:16,28.70,75.0,,0.30,,1.30,,1016.9
+02STIT30,klimatološka,Štitarica,29.08.2026 10:00,27.09,58.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,29.08.2026 10:00,31.02,50.8,,,,,,
+02BAR010,glavna,Bar,29.08.2026 10:00,30.90,69.0,0.00,3.20,26,,538.2,1013.5
+02PLJV10,glavna,Pljevlja,29.08.2026 10:00,23.90,52.0,0.00,1.00,16,,371.5,928.1
+02VIRP20,klimatološka,Virpazar,29.08.2026 10:00,31.00,69.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,29.08.2026 10:00,31.30,37.0,0.00,0.40,12,,522.7,943.0
+02ULCN10,glavna,Ulcinj,29.08.2026 10:00,32.30,60.0,0.00,1.50,10,,555.4,1013.2
+02MATE30,klimatološka,Matesevo,29.08.2026 10:00,26.80,52.7,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,29.08.2026 10:00,28.30,28.0,0.00,1.00,2,,559.2,859.9
+02POSC30,klimatološka,Pošćenje,29.08.2026 10:00,29.10,44.5,,,,,,
+02NJGV30,klimatološka,Njegovuđa,29.08.2026 10:00,28.60,36.9,,,,,,
+02STAB30,klimatološka,Stabna,29.08.2026 10:00,28.39,44.6,,,,,,
+02KOLS10,glavna,Kolašin,29.08.2026 10:00,24.90,54.0,0.00,1.10,2,1.50,511.0,911.4
+02NIKS10,glavna,Nikšić,29.08.2026 10:00,29.90,37.0,0.00,0.90,12,,550.9,942.5
+02LKOT20,klimatološka,Luka Kotor,29.08.2026 09:31,29.00,70.0,,1.10,,2.20,,1016.9
+02HNOV10,glavna,Herceg Novi,29.08.2026 10:00,31.80,49.0,0.00,1.20,10,,538.1,1009.1
+02VELK30,klimatološka,Velika,29.08.2026 10:00,28.44,57.4,,,,,,
+02DANL20,klimatološka,Danilovgrad,29.08.2026 10:00,30.60,,,,,,,
+02MOKR30,klimatološka,Mokro,29.08.2026 10:00,27.71,44.3,,,,,,
+02PDGR10,glavna,Podgorica,29.08.2026 10:00,31.80,47.0,0.00,0.30,14,,491.3,1007.7
