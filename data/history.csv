@@ -9115,3 +9115,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02POSC30,klimatološka,Pošćenje,30.08.2026 02:00,13.77,100.0,,,,,,
 02NJGV30,klimatološka,Njegovuđa,30.08.2026 02:00,11.33,100.0,,,,,,
 02STAB30,klimatološka,Stabna,30.08.2026 02:00,17.23,91.2,,,,,,
+02VELM20,klimatološka,Velimlje,30.08.2026 02:00,17.90,70.4,0.00,0.30,32,0.50,0.7,
+02BERA20,glavna,Berane,30.08.2026 02:00,17.65,97.0,0.00,0.00,32,0.60,,939.29
+02KOSA30,klimatološka,Kosanica,30.08.2026 02:00,9.06,100.0,,,,,,
+02BUDV20,klimatološka,Budva,30.08.2026 02:00,26.15,86.0,,,,,0.0,1012.68
+02BIST20,klimatološka,Bistrica,30.08.2026 02:00,15.30,91.0,0.00,1.00,12,1.30,0.5,
+02LKOT20,klimatološka,Luka Kotor,30.08.2026 01:51,26.50,69.0,,1.20,,3.10,,1016.5
+02GOBU30,klimatološka,Gornja Bukovica,30.08.2026 02:00,9.79,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,30.08.2026 02:20,16.50,81.0,0.00,0.70,30,,0.0,928.4
+02GRAD30,klimatološka,Gradac,30.08.2026 02:00,14.79,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,30.08.2026 02:00,19.50,100.0,0.00,0.60,16,0.90,916.45,934.2
+02ULCN10,glavna,Ulcinj,30.08.2026 02:20,25.90,94.0,0.00,3.10,6,,0.0,1013.5
+02DDOB30,klimatološka,Donja Dobrilovina,30.08.2026 02:00,16.02,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,30.08.2026 02:00,17.39,75.3,,,,,,
+02BOAN30,klimatološka,Boan,30.08.2026 02:00,14.21,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,30.08.2026 02:00,23.08,,,,,,,
+02CTNJ10,glavna,Cetinje,30.08.2026 02:20,17.20,72.0,0.00,0.20,32,,0.1,943.5
+02PDGR10,glavna,Podgorica,30.08.2026 02:20,26.60,71.0,0.00,1.80,4,3.00,1.7,1008.0
+02NIKS10,glavna,Nikšić,30.08.2026 02:20,21.20,53.0,0.00,1.60,2,,0.1,942.8
+02HNOV10,glavna,Herceg Novi,30.08.2026 02:20,24.20,71.0,0.00,0.20,10,,0.0,1008.8
+02KUKO30,klimatološka,Kučka korita,30.08.2026 02:00,12.83,82.7,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,30.08.2026 02:20,13.30,82.0,0.00,0.40,20,,1.1,859.5
+02BPLJ20,klimatološka,Bijelo Polje,30.08.2026 02:00,17.35,99.1,,,,,0.0,949.49
+02KOLS10,glavna,Kolašin,30.08.2026 02:20,14.90,91.0,0.00,0.40,20,,0.5,912.1
+02IVKO30,klimatološka,Ivanova korita,30.08.2026 02:00,17.75,56.1,0.00,,,,,
+02BAR010,glavna,Bar,30.08.2026 02:20,25.40,70.0,0.00,0.70,32,,0.0,1012.8
