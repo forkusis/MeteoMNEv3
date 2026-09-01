@@ -13623,3 +13623,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,01.09.2026 23:00,16.33,100.0,,,,,,
 02LKOT20,klimatološka,Luka Kotor,01.09.2026 22:31,27.00,79.0,,0.80,,1.70,,1017.1
 02HNOV10,glavna,Herceg Novi,01.09.2026 23:00,25.90,63.0,0.00,0.80,22,,0.1,1009.7
+02UBLI20,klimatološka,Ubli,01.09.2026 23:00,23.86,,,,,,,
+02ZBLJ10,glavna,Žabljak,01.09.2026 23:20,13.50,82.0,0.00,1.10,22,,0.1,861.7
+02BUDV20,klimatološka,Budva,01.09.2026 23:00,27.61,84.5,,,,,1.12,1013.55
+02KUKO30,klimatološka,Kučka korita,01.09.2026 23:00,19.35,67.2,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,01.09.2026 23:00,13.01,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,01.09.2026 23:00,21.02,80.3,0.00,0.50,8,1.60,2.62,935.65
+02IVKO30,klimatološka,Ivanova korita,01.09.2026 23:00,17.11,84.4,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,01.09.2026 23:00,11.05,100.0,,,,,,
+02PDGR10,glavna,Podgorica,01.09.2026 23:20,30.40,41.0,0.00,1.20,30,,0.0,1008.8
+02GRAD30,klimatološka,Gradac,01.09.2026 23:00,14.98,98.2,,,,,,
+02BAR010,glavna,Bar,01.09.2026 23:20,26.60,73.0,0.00,1.10,6,,0.0,1014.0
+02PLJV10,glavna,Pljevlja,01.09.2026 23:20,18.20,69.0,0.00,1.10,26,,0.3,931.1
+02BOAN30,klimatološka,Boan,01.09.2026 23:00,17.71,87.2,,,,,,
+02HNOV10,glavna,Herceg Novi,01.09.2026 23:20,25.80,62.0,0.00,0.50,22,,0.0,1009.6
+02ULCN10,glavna,Ulcinj,01.09.2026 23:20,24.90,88.0,0.00,0.90,30,,0.0,1014.3
+02CTNJ10,glavna,Cetinje,01.09.2026 23:20,19.50,87.0,0.00,0.20,32,,0.0,944.5
+02DDOB30,klimatološka,Donja Dobrilovina,01.09.2026 23:00,18.08,91.8,,,,,,
+02KOLS10,glavna,Kolašin,01.09.2026 23:20,17.80,86.0,0.00,0.60,16,,0.1,913.8
+02CRKV30,klimatološka,Crkvice,01.09.2026 23:00,16.32,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,01.09.2026 23:00,19.00,86.7,0.00,0.50,14,0.70,0.0,
+02BIST20,klimatološka,Bistrica,01.09.2026 23:00,19.20,69.9,0.00,0.70,18,1.00,0.5,
+02KOVR30,klimatološka,Kovren,01.09.2026 23:00,18.22,85.6,0.00,,,,,
+02BERA20,glavna,Berane,01.09.2026 23:00,19.48,91.9,0.00,0.60,32,2.50,,941.37
+02NIKS10,glavna,Nikšić,01.09.2026 23:20,23.30,56.0,0.00,1.70,2,,0.0,943.9
+02LKOT20,klimatološka,Luka Kotor,01.09.2026 22:46,26.70,80.0,,0.00,,1.30,,1017.2
+02BPLJ20,klimatološka,Bijelo Polje,01.09.2026 23:00,20.45,77.2,,,,,0.0,951.43
