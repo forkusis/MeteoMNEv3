@@ -13088,3 +13088,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,01.09.2026 15:00,35.70,,,,,,,
 02NJGV30,klimatološka,Njegovuđa,01.09.2026 15:00,23.18,62.3,,,,,,
 02VIRP20,klimatološka,Virpazar,01.09.2026 15:00,35.80,36.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,01.09.2026 15:00,29.92,44.2,,,,,420.82,949.01
+02IVKO30,klimatološka,Ivanova korita,01.09.2026 15:00,25.00,68.4,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,01.09.2026 15:00,21.70,100.0,,,,,,
+02BOAN30,klimatološka,Boan,01.09.2026 15:00,26.77,55.4,,,,,,
+02PLZN20,klimatološka,Pluzine,01.09.2026 15:00,28.42,49.6,0.00,7.10,32,11.50,628.3,933.75
+02BAR010,glavna,Bar,01.09.2026 15:20,31.00,73.0,0.00,5.00,26,,604.1,1013.6
+02HNOV10,glavna,Herceg Novi,01.09.2026 15:20,34.60,51.0,0.00,4.00,22,,643.2,1009.4
+02VELM20,klimatološka,Velimlje,01.09.2026 15:00,31.30,31.2,0.00,7.10,24,9.90,736.4,
+02PDGR10,glavna,Podgorica,01.09.2026 15:20,35.50,36.0,0.00,3.40,16,5.80,497.8,1006.6
+02ULCN10,glavna,Ulcinj,01.09.2026 15:20,32.20,59.0,0.00,5.20,24,,649.5,1013.1
+02NIKS10,glavna,Nikšić,01.09.2026 15:20,32.40,26.0,0.00,2.50,30,,327.5,941.9
+02UBLI20,klimatološka,Ubli,01.09.2026 15:00,31.65,,,,,,,
+02BIST20,klimatološka,Bistrica,01.09.2026 15:00,29.40,41.3,0.00,2.30,26,3.70,679.8,
+02LKOT20,klimatološka,Luka Kotor,01.09.2026 14:46,31.60,66.0,,3.00,,7.50,,1016.8
+02GRAD30,klimatološka,Gradac,01.09.2026 15:00,29.22,44.0,,,,,,
+02CTNJ10,glavna,Cetinje,01.09.2026 15:20,23.00,76.0,0.00,0.70,32,,629.3,943.1
+02KOVR30,klimatološka,Kovren,01.09.2026 15:00,24.52,61.4,0.00,,,,,
+02BUDV20,klimatološka,Budva,01.09.2026 15:00,33.10,66.3,,,,,767.17,1013.27
+02KOSA30,klimatološka,Kosanica,01.09.2026 15:00,23.98,66.5,,,,,,
+02BERA20,glavna,Berane,01.09.2026 15:00,30.66,40.8,0.00,2.50,30,5.80,,938.78
+02PLJV10,glavna,Pljevlja,01.09.2026 15:20,27.80,39.0,0.00,2.50,6,,579.7,929.3
+02DDOB30,klimatološka,Donja Dobrilovina,01.09.2026 15:00,27.57,50.5,,,,,,
+02ZBLJ10,glavna,Žabljak,01.09.2026 15:20,23.20,53.0,0.00,1.00,4,,306.9,860.4
+02KOLS10,glavna,Kolašin,01.09.2026 15:20,28.30,44.0,0.00,2.50,4,,539.6,911.5
+02KUKO30,klimatološka,Kučka korita,01.09.2026 15:00,24.23,59.6,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,01.09.2026 15:00,25.01,56.1,,,,,,
