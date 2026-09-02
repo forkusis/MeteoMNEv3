@@ -14278,3 +14278,17 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,02.09.2026 10:40,33.80,29.0,0.00,6.00,6,,686.4,1015.4
 02HNOV10,glavna,Herceg Novi,02.09.2026 10:50,31.70,59.0,0.00,3.40,10,4.70,695.5,1011.5
 02BAR010,glavna,Bar,02.09.2026 10:40,29.80,62.0,,2.80,24,,664.9,1015.6
+02STAB30,klimatološka,Stabna,02.09.2026 11:00,25.40,51.2,,,,,,
+02MOKR30,klimatološka,Mokro,02.09.2026 11:00,24.56,50.8,,,,,,
+02LKOT20,klimatološka,Luka Kotor,02.09.2026 10:31,30.00,53.0,,2.40,,2.70,,1018.7
+02NJGV30,klimatološka,Njegovuđa,02.09.2026 11:00,21.12,64.3,,,,,,
+02PDGR10,glavna,Podgorica,02.09.2026 11:00,33.10,31.0,0.00,2.60,2,3.90,699.4,1009.9
+02POSC30,klimatološka,Pošćenje,02.09.2026 11:00,27.78,48.7,,,,,,
+02VELK30,klimatološka,Velika,02.09.2026 11:00,26.59,61.5,,,,,,
+02DANL20,klimatološka,Danilovgrad,02.09.2026 11:00,33.30,,,,,,,
+02MATE30,klimatološka,Matesevo,02.09.2026 11:00,24.96,50.2,0.00,,,,,
+02STIT30,klimatološka,Štitarica,02.09.2026 11:00,22.89,62.7,,,,,,
+02VIRP20,klimatološka,Virpazar,02.09.2026 11:00,33.30,37.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,02.09.2026 11:00,29.70,42.0,0.00,0.50,10,,732.1,945.1
+02NIKS10,glavna,Nikšić,02.09.2026 11:00,30.40,36.0,0.00,0.80,12,,735.0,944.2
+02SCPO30,klimatološka,Šćepan Polje,02.09.2026 11:00,24.98,54.3,,,,,,
