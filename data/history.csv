@@ -15124,3 +15124,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,03.09.2026 00:00,26.80,43.0,0.00,3.90,2,,0.2,1008.1
 02STIT30,klimatološka,Štitarica,03.09.2026 00:00,10.62,100.0,,,,,,
 02NJGV30,klimatološka,Njegovuđa,03.09.2026 00:00,9.07,100.0,,,,,,
+02BOAN30,klimatološka,Boan,03.09.2026 00:00,11.72,100.0,,,,,,
+02KOLS10,glavna,Kolašin,03.09.2026 00:20,13.40,99.0,0.00,0.70,4,,0.0,913.3
+02ULCN10,glavna,Ulcinj,03.09.2026 00:20,23.40,79.0,0.00,1.50,30,,0.0,1013.5
+02BIST20,klimatološka,Bistrica,03.09.2026 00:00,14.50,99.3,0.00,0.90,24,1.30,0.5,
+02BUDV20,klimatološka,Budva,03.09.2026 00:00,26.47,65.5,,,,,0.0,1012.89
+02IVKO30,klimatološka,Ivanova korita,03.09.2026 00:00,15.64,67.2,0.00,,,,,
+02PDGR10,glavna,Podgorica,03.09.2026 00:20,26.60,43.0,0.00,1.90,2,,0.0,1008.2
+02HNOV10,glavna,Herceg Novi,03.09.2026 00:20,24.80,62.0,0.00,0.80,26,,0.6,1009.1
+02GRAD30,klimatološka,Gradac,03.09.2026 00:00,12.92,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,03.09.2026 00:00,20.13,,,,,,,
+02PLJV10,glavna,Pljevlja,03.09.2026 00:20,15.10,78.0,0.00,0.60,28,,0.4,930.1
+02KOSA30,klimatološka,Kosanica,03.09.2026 00:00,7.08,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,03.09.2026 00:00,19.24,72.4,,,,,,
+02KUKO30,klimatološka,Kučka korita,03.09.2026 00:00,13.50,66.3,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,03.09.2026 00:00,15.68,100.0,0.00,0.60,14,1.00,0.0,935.2
+02BPLJ20,klimatološka,Bijelo Polje,03.09.2026 00:00,14.78,100.0,,,,,0.0,951.42
+02ZBLJ10,glavna,Žabljak,03.09.2026 00:20,10.20,97.0,0.00,1.80,22,,0.1,860.4
+02NIKS10,glavna,Nikšić,03.09.2026 00:20,20.70,53.0,0.00,2.50,32,,0.0,943.0
+02KOVR30,klimatološka,Kovren,03.09.2026 00:00,13.44,100.0,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,03.09.2026 00:00,13.40,100.0,,,,,,
+02BAR010,glavna,Bar,03.09.2026 00:20,25.70,55.0,0.00,1.20,8,,0.0,1013.4
+02CTNJ10,glavna,Cetinje,03.09.2026 00:20,16.70,75.0,0.00,0.20,6,,0.2,943.6
+02GOBU30,klimatološka,Gornja Bukovica,03.09.2026 00:00,9.72,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,02.09.2026 23:46,25.70,71.0,,0.40,,1.00,,1016.7
+02BERA20,glavna,Berane,03.09.2026 00:00,14.09,100.0,0.00,0.40,6,1.00,,941.19
+02VELM20,klimatološka,Velimlje,03.09.2026 00:00,17.40,70.6,0.00,0.20,32,0.30,0.0,
