@@ -16121,3 +16121,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MATE30,klimatološka,Matesevo,03.09.2026 15:00,25.92,29.5,0.00,,,,,
 02POSC30,klimatološka,Pošćenje,03.09.2026 15:00,27.51,33.4,,,,,,
 02HNOV10,glavna,Herceg Novi,03.09.2026 15:00,35.10,40.0,0.00,0.80,18,,410.1,1008.4
+02ZBLJ10,glavna,Žabljak,03.09.2026 15:20,22.60,35.0,0.00,3.70,4,,762.4,859.4
+02CRKV30,klimatološka,Crkvice,03.09.2026 15:00,19.12,100.0,,,,,,
+02BOAN30,klimatološka,Boan,03.09.2026 15:00,27.11,37.9,,,,,,
+02IVKO30,klimatološka,Ivanova korita,03.09.2026 15:00,24.97,53.2,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,03.09.2026 15:00,24.61,45.2,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,03.09.2026 15:00,30.26,36.8,,,,,712.03,948.42
+02PLJV10,glavna,Pljevlja,03.09.2026 15:20,28.40,24.0,0.00,3.40,2,,699.3,928.2
+02KUKO30,klimatološka,Kučka korita,03.09.2026 15:00,24.20,34.9,0.00,,,,,
+02BUDV20,klimatološka,Budva,03.09.2026 15:00,31.39,55.0,,,,,248.38,1011.85
+02KOLS10,glavna,Kolašin,03.09.2026 15:20,26.90,32.0,0.00,4.80,2,,655.8,911.0
+02LKOT20,klimatološka,Luka Kotor,03.09.2026 14:46,31.30,51.0,,2.00,,5.00,,1015.6
+02GRAD30,klimatološka,Gradac,03.09.2026 15:00,29.86,28.2,,,,,,
+02HNOV10,glavna,Herceg Novi,03.09.2026 15:20,34.40,41.0,0.00,1.40,24,,449.8,1008.4
+02VELM20,klimatološka,Velimlje,03.09.2026 15:00,28.40,28.4,0.00,0.70,20,1.10,241.3,
+02NIKS10,glavna,Nikšić,03.09.2026 15:20,31.20,22.0,0.00,3.00,12,,342.9,941.0
+02GOBU30,klimatološka,Gornja Bukovica,03.09.2026 15:00,24.10,38.9,,,,,,
+02CTNJ10,glavna,Cetinje,03.09.2026 15:20,30.40,36.0,0.00,0.50,10,,72.2,941.9
+02BERA20,glavna,Berane,03.09.2026 15:00,29.39,35.9,0.00,1.70,28,4.80,,938.56
+02BAR010,glavna,Bar,03.09.2026 15:20,30.00,60.0,0.00,5.40,24,,588.6,1012.1
+02DDOB30,klimatološka,Donja Dobrilovina,03.09.2026 15:00,27.46,41.2,,,,,,
+02UBLI20,klimatološka,Ubli,03.09.2026 15:00,32.04,,,,,,,
+02PDGR10,glavna,Podgorica,03.09.2026 15:20,35.40,18.0,0.00,4.00,4,5.30,246.2,1005.7
+02ULCN10,glavna,Ulcinj,03.09.2026 15:20,32.20,50.0,0.00,5.60,26,,649.6,1011.6
+02BIST20,klimatološka,Bistrica,03.09.2026 15:00,29.00,28.6,0.00,3.70,28,6.40,747.1,
