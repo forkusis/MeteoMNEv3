@@ -16516,3 +16516,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,03.09.2026 21:00,12.30,77.0,,,,,,
 02STIT30,klimatološka,Štitarica,03.09.2026 21:00,14.96,84.6,,,,,,
 02HNOV10,glavna,Herceg Novi,03.09.2026 21:00,27.90,52.0,0.00,0.40,4,,0.2,1008.9
+02PDGR10,glavna,Podgorica,03.09.2026 21:20,31.30,23.0,0.00,4.40,2,,0.2,1007.8
+02UBLI20,klimatološka,Ubli,03.09.2026 21:00,24.08,,,,,,,
+02KOLS10,glavna,Kolašin,03.09.2026 21:20,14.50,84.0,0.00,0.60,20,,0.5,913.3
+02KOVR30,klimatološka,Kovren,03.09.2026 21:00,19.93,46.9,0.00,,,,,
+02BIST20,klimatološka,Bistrica,03.09.2026 21:00,16.20,68.0,0.00,0.80,16,1.00,0.5,
+02LKOT20,klimatološka,Luka Kotor,03.09.2026 20:46,27.90,52.0,,0.80,,1.90,,1016.6
+02BERA20,glavna,Berane,03.09.2026 21:00,17.95,66.8,0.00,0.40,32,1.50,,940.57
+02DDOB30,klimatološka,Donja Dobrilovina,03.09.2026 21:00,16.48,83.1,,,,,,
+02HNOV10,glavna,Herceg Novi,03.09.2026 21:20,27.40,56.0,0.00,0.20,22,,1.2,1009.0
+02BPLJ20,klimatološka,Bijelo Polje,03.09.2026 21:00,18.11,70.6,,,,,3.04,950.63
+02PLJV10,glavna,Pljevlja,03.09.2026 21:20,19.60,44.0,0.00,0.00,4,,0.0,930.0
+02ULCN10,glavna,Ulcinj,03.09.2026 21:20,27.70,63.0,0.00,1.60,8,,0.0,1013.0
+02BOAN30,klimatološka,Boan,03.09.2026 21:00,15.22,81.0,,,,,,
+02KOSA30,klimatološka,Kosanica,03.09.2026 21:00,11.14,87.6,,,,,,
+02PLZN20,klimatološka,Pluzine,03.09.2026 21:00,22.89,48.9,0.00,2.50,2,5.00,0.0,935.0
+02GRAD30,klimatološka,Gradac,03.09.2026 21:00,16.11,70.4,,,,,,
+02CRKV30,klimatološka,Crkvice,03.09.2026 21:00,17.65,85.6,,,,,,
+02CTNJ10,glavna,Cetinje,03.09.2026 21:20,19.90,64.0,0.00,0.40,28,,0.4,943.7
+02GOBU30,klimatološka,Gornja Bukovica,03.09.2026 21:00,13.82,75.5,,,,,,
+02IVKO30,klimatološka,Ivanova korita,03.09.2026 21:00,15.48,77.2,0.00,,,,,
+02BUDV20,klimatološka,Budva,03.09.2026 21:00,28.49,49.5,,,,,1.56,1012.23
+02ZBLJ10,glavna,Žabljak,03.09.2026 21:20,13.40,66.0,0.00,1.90,22,2.40,0.7,860.9
+02KUKO30,klimatološka,Kučka korita,03.09.2026 21:00,19.06,44.5,0.00,,,,,
+02VELM20,klimatološka,Velimlje,03.09.2026 21:00,19.20,80.2,0.00,0.20,16,0.40,0.0,
+02BAR010,glavna,Bar,03.09.2026 21:20,26.50,63.0,0.00,0.80,4,,0.0,1013.0
+02NIKS10,glavna,Nikšić,03.09.2026 21:20,23.30,34.0,0.00,1.20,24,,0.6,943.5
