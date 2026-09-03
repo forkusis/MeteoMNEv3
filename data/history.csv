@@ -15990,3 +15990,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,03.09.2026 13:00,20.80,40.0,0.00,2.40,4,,860.4,860.1
 02VIRP20,klimatološka,Virpazar,03.09.2026 13:00,34.20,25.0,0.00,,,,,
 02STAB30,klimatološka,Stabna,03.09.2026 13:00,28.49,33.2,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,03.09.2026 13:00,25.41,42.7,,,,,,
+02HNOV10,glavna,Herceg Novi,03.09.2026 13:20,34.60,38.0,0.00,0.40,22,,848.5,1008.9
+02BAR010,glavna,Bar,03.09.2026 13:20,29.80,69.0,0.00,3.60,24,,768.1,1013.0
+02KOSA30,klimatološka,Kosanica,03.09.2026 13:00,22.87,50.1,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,03.09.2026 13:00,22.69,44.0,,,,,,
+02BUDV20,klimatološka,Budva,03.09.2026 13:00,31.73,58.1,,,,,842.48,1012.9
+02ZBLJ10,glavna,Žabljak,03.09.2026 13:20,21.50,39.0,0.00,2.20,6,,863.2,860.0
+02UBLI20,klimatološka,Ubli,03.09.2026 13:00,31.29,,,,,,,
+02BERA20,glavna,Berane,03.09.2026 13:00,25.39,60.4,0.00,1.30,20,2.50,,939.91
+02CTNJ10,glavna,Cetinje,03.09.2026 13:20,31.50,25.0,0.00,0.70,8,,804.0,942.7
+02KUKO30,klimatološka,Kučka korita,03.09.2026 13:00,24.58,31.9,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,03.09.2026 12:46,31.10,50.0,,1.00,,2.80,,1016.5
+02BPLJ20,klimatološka,Bijelo Polje,03.09.2026 13:00,24.25,62.2,,,,,858.09,950.2
+02CRKV30,klimatološka,Crkvice,03.09.2026 13:00,24.98,64.8,,,,,,
+02BOAN30,klimatološka,Boan,03.09.2026 13:00,25.89,43.2,,,,,,
+02KOLS10,glavna,Kolašin,03.09.2026 13:20,25.20,39.0,0.00,2.40,32,,821.7,912.0
+02GRAD30,klimatološka,Gradac,03.09.2026 13:00,28.21,33.5,,,,,,
+02VELM20,klimatološka,Velimlje,03.09.2026 13:00,29.30,26.7,0.00,3.00,20,5.40,170.8,
+02IVKO30,klimatološka,Ivanova korita,03.09.2026 13:00,25.26,54.3,0.00,,,,,
+02ULCN10,glavna,Ulcinj,03.09.2026 13:20,36.40,17.0,0.00,4.20,6,,830.7,1012.6
+02PLJV10,glavna,Pljevlja,03.09.2026 13:20,27.10,26.0,0.00,2.40,2,4.00,627.3,929.0
+02PDGR10,glavna,Podgorica,03.09.2026 13:20,35.00,19.0,0.00,3.00,2,,776.6,1006.9
+02BIST20,klimatološka,Bistrica,03.09.2026 13:00,26.70,33.2,0.00,4.70,2,6.40,471.3,
+02PLZN20,klimatološka,Pluzine,03.09.2026 13:00,27.39,37.9,0.00,4.50,32,8.50,0.0,933.74
+02NIKS10,glavna,Nikšić,03.09.2026 13:20,30.60,21.0,0.00,3.70,6,,847.6,941.8
