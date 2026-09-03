@@ -15237,3 +15237,21 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,03.09.2026 01:50,12.90,98.0,0.00,0.40,8,,0.5,913.2
 02ZBLJ10,glavna,Žabljak,03.09.2026 01:50,9.80,97.0,0.00,1.30,22,,0.1,860.2
 02ULCN10,glavna,Ulcinj,03.09.2026 01:50,22.50,82.0,0.00,1.40,4,,0.0,1013.5
+02ULCN10,glavna,Ulcinj,03.09.2026 02:00,22.10,86.0,0.00,2.00,6,,0.0,1013.5
+02MAMO30,klimatološka,Manastir Morača,03.09.2026 02:00,15.82,100.0,,,,,,
+02KOLS10,glavna,Kolašin,03.09.2026 02:00,12.80,98.0,0.00,0.20,10,,0.0,913.2
+02PDGR10,glavna,Podgorica,03.09.2026 02:00,25.90,44.0,0.00,5.40,30,,0.1,1008.3
+02POSC30,klimatološka,Pošćenje,03.09.2026 02:00,10.84,100.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,03.09.2026 02:00,7.92,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,03.09.2026 02:00,12.92,100.0,,,,,,
+02STAB30,klimatološka,Stabna,03.09.2026 02:00,12.89,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,03.09.2026 02:00,10.05,95.6,,,,,,
+02STIT30,klimatološka,Štitarica,03.09.2026 02:00,9.78,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,03.09.2026 02:00,21.80,,,,,,,
+02ZBLJ10,glavna,Žabljak,03.09.2026 02:00,9.70,97.0,0.00,2.00,22,,0.1,860.2
+02VIRP20,klimatološka,Virpazar,03.09.2026 02:00,19.60,73.0,0.00,,,,,
+02MATE30,klimatološka,Matesevo,03.09.2026 02:00,10.93,97.6,0.00,,,,,
+02BAR010,glavna,Bar,03.09.2026 02:00,24.60,58.0,0.00,1.60,8,,0.0,1013.1
+02PLJV10,glavna,Pljevlja,03.09.2026 02:00,13.00,88.0,0.00,0.60,18,1.10,0.0,930.3
+02VELK30,klimatološka,Velika,03.09.2026 02:00,11.49,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,03.09.2026 01:36,25.00,66.0,,0.60,,1.10,,1016.7
