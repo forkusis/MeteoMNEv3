@@ -17027,3 +17027,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,04.09.2026 04:50,19.70,42.0,0.00,3.00,30,,0.0,944.4
 02ULCN10,glavna,Ulcinj,04.09.2026 04:50,23.90,47.0,0.00,2.80,6,,0.0,1014.6
 02KOLS10,glavna,Kolašin,04.09.2026 04:50,8.20,97.0,0.00,0.40,18,,0.8,914.2
+02VELK30,klimatološka,Velika,04.09.2026 05:00,9.13,100.0,,,,,,
+02PDGR10,glavna,Podgorica,04.09.2026 05:00,25.70,30.0,0.00,0.60,2,,0.4,1009.9
+02ZBLJ10,glavna,Žabljak,04.09.2026 05:00,8.60,82.0,0.00,2.20,22,,0.6,861.0
+02BAR010,glavna,Bar,04.09.2026 05:00,29.40,25.0,0.00,0.30,6,,0.3,1014.1
+02KOLS10,glavna,Kolašin,04.09.2026 05:00,8.10,97.0,0.00,0.10,16,,0.0,914.3
+02POSC30,klimatološka,Pošćenje,04.09.2026 05:00,7.59,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,04.09.2026 05:00,5.81,90.8,,,,,,
+02HNOV10,glavna,Herceg Novi,04.09.2026 05:00,23.80,37.0,0.00,1.40,22,,0.0,1010.4
+02ULCN10,glavna,Ulcinj,04.09.2026 05:00,23.50,45.0,0.00,4.40,4,,0.7,1014.6
+02CTNJ10,glavna,Cetinje,04.09.2026 05:00,12.20,84.0,0.00,0.40,8,,0.6,945.0
+02PLJV10,glavna,Pljevlja,04.09.2026 05:00,9.30,82.0,0.00,0.50,24,1.10,0.9,931.8
+02VIRP20,klimatološka,Virpazar,04.09.2026 05:00,17.60,68.0,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,04.09.2026 05:00,4.28,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,04.09.2026 05:00,7.26,100.0,,,,,,
+02NIKS10,glavna,Nikšić,04.09.2026 05:00,19.60,42.0,0.00,2.70,32,,0.0,944.4
+02STAB30,klimatološka,Stabna,04.09.2026 05:00,11.48,92.7,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,04.09.2026 05:00,9.59,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,04.09.2026 05:00,21.50,,,,,,,
+02MATE30,klimatološka,Matesevo,04.09.2026 05:00,7.20,96.5,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,04.09.2026 05:00,11.84,97.1,,,,,,
+02LKOT20,klimatološka,Luka Kotor,04.09.2026 04:31,29.30,29.0,,2.20,,5.70,,1018.0
