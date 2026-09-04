@@ -17909,3 +17909,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,04.09.2026 18:00,28.35,35.0,,,,,,
 02NIKS10,glavna,Nikšić,04.09.2026 18:00,29.40,24.0,0.00,1.30,2,,165.1,943.7
 02LKOT20,klimatološka,Luka Kotor,04.09.2026 17:31,31.30,32.0,,0.70,,1.20,,1018.5
+02VELM20,klimatološka,Velimlje,04.09.2026 18:00,28.40,32.7,0.00,2.10,26,2.80,197.3,
+02CRKV30,klimatološka,Crkvice,04.09.2026 18:00,23.45,67.8,,,,,,
+02PLZN20,klimatološka,Pluzine,04.09.2026 18:00,28.27,34.9,0.00,1.30,4,6.50,80.76,934.95
+02IVKO30,klimatološka,Ivanova korita,04.09.2026 18:00,20.82,56.1,0.00,,,,,
+02BAR010,glavna,Bar,04.09.2026 18:20,29.70,60.0,0.00,2.30,26,,131.7,1015.3
+02NIKS10,glavna,Nikšić,04.09.2026 18:20,29.10,25.0,0.00,1.70,4,,55.1,943.7
+02KUKO30,klimatološka,Kučka korita,04.09.2026 18:00,22.23,38.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,04.09.2026 18:00,25.90,31.5,0.00,1.70,2,2.60,62.7,
+02BPLJ20,klimatološka,Bijelo Polje,04.09.2026 18:00,28.41,35.8,,,,,95.42,949.75
+02BOAN30,klimatološka,Boan,04.09.2026 18:00,26.05,37.4,,,,,,
+02LKOT20,klimatološka,Luka Kotor,04.09.2026 17:46,31.30,34.0,,0.50,,1.80,,1018.5
+02HNOV10,glavna,Herceg Novi,04.09.2026 18:20,30.90,31.0,0.00,1.90,26,,47.4,1010.7
+02PDGR10,glavna,Podgorica,04.09.2026 18:20,34.10,20.0,0.00,1.80,6,,104.4,1008.7
+02ULCN10,glavna,Ulcinj,04.09.2026 18:20,30.90,34.0,0.00,4.30,24,,157.8,1014.9
+02UBLI20,klimatološka,Ubli,04.09.2026 18:00,29.48,,,,,,,
+02ZBLJ10,glavna,Žabljak,04.09.2026 18:20,21.30,37.0,0.00,0.70,30,,160.8,861.1
+02KOLS10,glavna,Kolašin,04.09.2026 18:20,22.90,45.0,0.00,0.50,6,,49.4,913.0
+02GOBU30,klimatološka,Gornja Bukovica,04.09.2026 18:00,21.61,45.6,,,,,,
+02CTNJ10,glavna,Cetinje,04.09.2026 18:20,27.60,37.0,0.00,1.90,20,,84.2,944.7
+02DDOB30,klimatološka,Donja Dobrilovina,04.09.2026 18:00,20.17,71.2,,,,,,
+02BERA20,glavna,Berane,04.09.2026 18:00,27.35,38.3,0.00,0.90,26,2.30,,940.05
+02PLJV10,glavna,Pljevlja,04.09.2026 18:20,25.70,32.0,0.00,1.20,2,,42.9,929.7
+02BUDV20,klimatološka,Budva,04.09.2026 18:00,31.56,36.2,,,,,123.61,1014.48
+02GRAD30,klimatološka,Gradac,04.09.2026 18:00,28.15,37.0,,,,,,
+02KOSA30,klimatološka,Kosanica,04.09.2026 18:00,22.57,53.3,,,,,,
