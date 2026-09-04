@@ -17888,3 +17888,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,04.09.2026 17:50,28.40,32.0,0.00,0.90,26,,163.3,944.4
 02HNOV10,glavna,Herceg Novi,04.09.2026 17:50,32.90,24.0,0.00,1.30,22,,162.6,1010.8
 02PDGR10,glavna,Podgorica,04.09.2026 17:50,34.50,20.0,0.00,3.60,4,,90.9,1008.6
+02HNOV10,glavna,Herceg Novi,04.09.2026 18:00,32.40,28.0,0.00,0.80,24,,76.3,1010.8
+02CTNJ10,glavna,Cetinje,04.09.2026 18:00,28.40,33.0,0.00,1.10,26,,161.7,944.5
+02MAMO30,klimatološka,Manastir Morača,04.09.2026 18:00,29.57,30.9,,,,,,
+02BAR010,glavna,Bar,04.09.2026 18:00,29.70,60.0,0.00,2.10,24,,149.4,1015.4
+02ZBLJ10,glavna,Žabljak,04.09.2026 18:00,21.50,36.0,0.00,2.20,30,,212.9,861.1
+02MOKR30,klimatološka,Mokro,04.09.2026 18:00,22.88,40.1,,,,,,
+02MATE30,klimatološka,Matesevo,04.09.2026 18:00,21.77,47.8,0.00,,,,,
+02PLJV10,glavna,Pljevlja,04.09.2026 18:00,26.20,32.0,0.00,0.90,2,,65.4,929.7
+02PDGR10,glavna,Podgorica,04.09.2026 18:00,34.10,20.0,0.00,2.50,2,,132.7,1008.7
+02POSC30,klimatološka,Pošćenje,04.09.2026 18:00,25.28,37.2,,,,,,
+02DANL20,klimatološka,Danilovgrad,04.09.2026 18:00,33.10,,,,,,,
+02NJGV30,klimatološka,Njegovuđa,04.09.2026 18:00,22.00,45.5,,,,,,
+02STIT30,klimatološka,Štitarica,04.09.2026 18:00,21.40,67.0,,,,,,
+02STAB30,klimatološka,Stabna,04.09.2026 18:00,26.24,37.6,,,,,,
+02VIRP20,klimatološka,Virpazar,04.09.2026 18:00,31.60,33.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,04.09.2026 18:00,24.10,39.0,0.00,0.10,32,,39.1,913.0
+02VELK30,klimatološka,Velika,04.09.2026 18:00,20.38,66.2,,,,,,
+02ULCN10,glavna,Ulcinj,04.09.2026 18:00,30.40,40.0,0.00,2.60,24,,173.1,1014.9
+02SCPO30,klimatološka,Šćepan Polje,04.09.2026 18:00,28.35,35.0,,,,,,
+02NIKS10,glavna,Nikšić,04.09.2026 18:00,29.40,24.0,0.00,1.30,2,,165.1,943.7
+02LKOT20,klimatološka,Luka Kotor,04.09.2026 17:31,31.30,32.0,,0.70,,1.20,,1018.5
