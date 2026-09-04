@@ -17647,3 +17647,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,04.09.2026 14:00,24.37,43.6,,,,,,
 02VIRP20,klimatološka,Virpazar,04.09.2026 14:00,34.80,20.0,0.00,,,,,
 02MATE30,klimatološka,Matesevo,04.09.2026 14:00,24.76,35.7,0.00,,,,,
+02VELM20,klimatološka,Velimlje,04.09.2026 14:00,29.00,25.6,0.00,4.40,32,5.40,803.1,
+02BAR010,glavna,Bar,04.09.2026 14:20,30.90,48.0,0.00,6.60,24,,687.8,1015.8
+02GOBU30,klimatološka,Gornja Bukovica,04.09.2026 14:00,22.10,42.9,,,,,,
+02KUKO30,klimatološka,Kučka korita,04.09.2026 14:00,22.91,36.3,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,04.09.2026 14:00,28.27,35.1,0.00,4.70,4,8.40,766.18,935.88
+02IVKO30,klimatološka,Ivanova korita,04.09.2026 14:00,22.37,51.5,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,04.09.2026 14:00,26.88,37.0,,,,,,
+02BOAN30,klimatološka,Boan,04.09.2026 14:00,25.26,39.2,,,,,,
+02KOSA30,klimatološka,Kosanica,04.09.2026 14:00,24.16,47.5,,,,,,
+02HNOV10,glavna,Herceg Novi,04.09.2026 14:20,33.50,35.0,0.00,3.30,16,,673.0,1012.0
+02CRKV30,klimatološka,Crkvice,04.09.2026 14:00,24.89,52.0,,,,,,
+02UBLI20,klimatološka,Ubli,04.09.2026 14:00,30.70,,,,,,,
+02NIKS10,glavna,Nikšić,04.09.2026 14:20,29.20,22.0,0.00,7.10,32,,681.3,944.3
+02BIST20,klimatološka,Bistrica,04.09.2026 14:00,28.60,26.0,0.00,3.90,14,5.20,920.5,
+02BPLJ20,klimatološka,Bijelo Polje,04.09.2026 14:00,28.69,35.5,,,,,915.15,950.85
+02BERA20,glavna,Berane,04.09.2026 14:00,27.52,37.3,0.00,2.00,24,4.90,,940.98
+02LKOT20,klimatološka,Luka Kotor,04.09.2026 13:46,30.80,41.0,,0.90,,3.90,,1019.4
+02BUDV20,klimatološka,Budva,04.09.2026 14:00,32.82,36.8,,,,,529.58,1015.45
+02PLJV10,glavna,Pljevlja,04.09.2026 14:20,27.50,27.0,0.00,1.20,4,,773.6,930.7
+02ULCN10,glavna,Ulcinj,04.09.2026 14:20,33.80,26.0,0.00,6.70,22,,769.1,1015.5
+02KOLS10,glavna,Kolašin,04.09.2026 14:20,26.30,32.0,0.00,0.90,2,,793.6,913.7
+02CTNJ10,glavna,Cetinje,04.09.2026 14:20,30.10,22.0,0.00,1.60,18,,825.6,945.1
+02ZBLJ10,glavna,Žabljak,04.09.2026 14:20,21.80,37.0,0.00,5.10,2,6.30,734.8,861.7
+02PDGR10,glavna,Podgorica,04.09.2026 14:20,34.70,17.0,0.00,2.80,2,,757.1,1009.7
+02GRAD30,klimatološka,Gradac,04.09.2026 14:00,29.48,32.1,,,,,,
