@@ -18041,3 +18041,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,04.09.2026 20:00,14.57,71.8,,,,,,
 02MOKR30,klimatološka,Mokro,04.09.2026 20:00,15.88,61.7,,,,,,
 02CTNJ10,glavna,Cetinje,04.09.2026 20:00,21.60,56.0,0.00,0.50,16,,0.2,945.1
+02BPLJ20,klimatološka,Bijelo Polje,04.09.2026 20:00,20.97,62.0,,,,,0.59,950.72
+02BAR010,glavna,Bar,04.09.2026 20:20,26.90,56.0,0.00,0.80,6,,0.0,1015.9
+02UBLI20,klimatološka,Ubli,04.09.2026 20:00,25.02,,,,,,,
+02BOAN30,klimatološka,Boan,04.09.2026 20:00,17.50,72.6,,,,,,
+02BUDV20,klimatološka,Budva,04.09.2026 20:00,28.84,47.9,,,,,0.68,1015.14
+02CRKV30,klimatološka,Crkvice,04.09.2026 20:00,17.16,87.2,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,04.09.2026 20:00,18.62,72.8,,,,,,
+02GRAD30,klimatološka,Gradac,04.09.2026 20:00,18.37,67.3,,,,,,
+02BERA20,glavna,Berane,04.09.2026 20:00,20.44,62.4,0.00,0.00,32,0.90,,940.93
+02NIKS10,glavna,Nikšić,04.09.2026 20:20,25.10,36.0,0.00,1.50,24,,0.0,944.6
+02GOBU30,klimatološka,Gornja Bukovica,04.09.2026 20:00,13.72,82.8,,,,,,
+02BIST20,klimatološka,Bistrica,04.09.2026 20:00,18.60,58.3,0.00,0.90,22,1.00,0.5,
+02KUKO30,klimatološka,Kučka korita,04.09.2026 20:00,17.40,51.6,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,04.09.2026 19:46,28.00,47.0,,0.50,,2.20,,1019.3
+02PDGR10,glavna,Podgorica,04.09.2026 20:20,30.20,33.0,0.00,1.00,32,,0.0,1009.7
+02PLJV10,glavna,Pljevlja,04.09.2026 20:20,20.90,48.0,0.00,0.30,26,,0.0,930.3
+02KOSA30,klimatološka,Kosanica,04.09.2026 20:00,13.26,87.5,,,,,,
+02KOLS10,glavna,Kolašin,04.09.2026 20:20,15.80,76.0,0.00,0.90,24,,0.0,913.9
+02PLZN20,klimatološka,Pluzine,04.09.2026 20:00,23.06,52.4,0.00,0.80,26,2.80,1.17,935.59
+02ZBLJ10,glavna,Žabljak,04.09.2026 20:20,15.10,59.0,0.00,1.40,22,,0.8,861.6
+02HNOV10,glavna,Herceg Novi,04.09.2026 20:20,27.30,51.0,0.00,0.90,30,,0.0,1011.7
+02ULCN10,glavna,Ulcinj,04.09.2026 20:20,28.40,63.0,0.00,3.20,28,,0.0,1015.4
+02VELM20,klimatološka,Velimlje,04.09.2026 20:00,21.80,46.5,0.00,0.80,6,1.50,0.0,
+02IVKO30,klimatološka,Ivanova korita,04.09.2026 20:00,16.20,69.5,0.00,,,,,
+02CTNJ10,glavna,Cetinje,04.09.2026 20:20,20.60,58.0,0.00,0.50,8,,0.7,945.4
