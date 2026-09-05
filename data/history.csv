@@ -18772,3 +18772,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,05.09.2026 07:00,15.90,84.0,0.00,,,,,
 02VELK30,klimatološka,Velika,05.09.2026 07:00,9.89,100.0,,,,,,
 02SCPO30,klimatološka,Šćepan Polje,05.09.2026 07:00,9.86,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,05.09.2026 07:20,25.00,43.0,0.00,0.90,6,,40.7,1012.1
+02BOAN30,klimatološka,Boan,05.09.2026 07:00,7.33,100.0,,,,,,
+02PDGR10,glavna,Podgorica,05.09.2026 07:20,24.40,39.0,0.00,0.60,32,,115.0,1011.2
+02KOSA30,klimatološka,Kosanica,05.09.2026 07:00,2.61,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,05.09.2026 07:00,14.79,84.4,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,05.09.2026 07:00,10.13,100.0,,,,,25.99,952.98
+02LKOT20,klimatološka,Luka Kotor,05.09.2026 06:46,22.10,64.0,,,,,,1019.8
+02KUKO30,klimatološka,Kučka korita,05.09.2026 07:00,10.64,73.8,0.00,,,,,
+02UBLI20,klimatološka,Ubli,05.09.2026 07:00,20.23,,,,,,,
+02BIST20,klimatološka,Bistrica,05.09.2026 07:00,8.00,97.5,0.00,0.40,30,0.70,23.9,
+02IVKO30,klimatološka,Ivanova korita,05.09.2026 07:00,14.37,67.9,0.00,,,,,
+02PLJV10,glavna,Pljevlja,05.09.2026 07:20,9.30,87.0,0.00,0.40,20,1.10,37.9,931.3
+02GOBU30,klimatološka,Gornja Bukovica,05.09.2026 07:00,4.89,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,05.09.2026 07:00,13.23,100.0,0.00,0.50,18,1.00,1835.65,937.23
+02ULCN10,glavna,Ulcinj,05.09.2026 07:20,21.90,60.0,0.00,2.60,4,,116.1,1016.5
+02GRAD30,klimatološka,Gradac,05.09.2026 07:00,6.68,100.0,,,,,,
+02BUDV20,klimatološka,Budva,05.09.2026 07:00,23.54,48.5,,,,,22.16,1015.61
+02KOVR30,klimatološka,Kovren,05.09.2026 07:00,14.82,88.4,0.00,,,,,
+02BAR010,glavna,Bar,05.09.2026 07:20,21.90,52.0,0.00,1.40,6,,93.2,1016.3
+02NIKS10,glavna,Nikšić,05.09.2026 07:20,16.50,59.0,0.00,1.00,2,,97.1,945.6
+02VELM20,klimatološka,Velimlje,05.09.2026 07:00,11.30,86.6,0.00,0.10,12,0.20,28.6,
+02ZBLJ10,glavna,Žabljak,05.09.2026 07:20,11.50,69.0,0.00,0.90,22,,143.1,861.0
+02BERA20,glavna,Berane,05.09.2026 07:00,9.91,100.0,0.00,0.00,32,0.40,,942.41
+02CTNJ10,glavna,Cetinje,05.09.2026 07:20,12.30,84.0,0.00,0.20,4,,32.5,946.0
+02KOLS10,glavna,Kolašin,05.09.2026 07:20,8.00,97.0,0.00,0.10,18,,116.9,914.8
+02DDOB30,klimatološka,Donja Dobrilovina,05.09.2026 07:00,9.17,100.0,,,,,,
