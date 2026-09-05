@@ -18972,3 +18972,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,05.09.2026 10:00,23.07,48.9,,,,,,
 02DANL20,klimatološka,Danilovgrad,05.09.2026 10:00,27.20,,,,,,,
 02MAMO30,klimatološka,Manastir Morača,05.09.2026 10:00,26.07,42.7,,,,,,
+02HNOV10,glavna,Herceg Novi,05.09.2026 10:20,30.90,47.0,0.00,3.50,8,,655.5,1012.7
+02ZBLJ10,glavna,Žabljak,05.09.2026 10:20,24.20,29.0,0.00,0.70,8,,305.8,861.1
+02BOAN30,klimatološka,Boan,05.09.2026 10:00,22.20,59.3,,,,,,
+02BIST20,klimatološka,Bistrica,05.09.2026 10:00,18.40,61.5,0.00,0.70,6,1.10,70.5,
+02GOBU30,klimatološka,Gornja Bukovica,05.09.2026 10:00,24.05,42.8,,,,,,
+02CRKV30,klimatološka,Crkvice,05.09.2026 10:00,25.50,46.0,,,,,,
+02ULCN10,glavna,Ulcinj,05.09.2026 10:20,32.00,30.0,0.00,1.10,10,,640.0,1017.1
+02VELM20,klimatološka,Velimlje,05.09.2026 10:00,25.30,43.5,0.00,0.50,32,0.90,624.9,
+02PLJV10,glavna,Pljevlja,05.09.2026 10:20,20.80,46.0,0.00,1.90,16,,624.2,930.2
+02BPLJ20,klimatološka,Bijelo Polje,05.09.2026 10:00,18.59,68.1,,,,,143.21,952.03
+02UBLI20,klimatološka,Ubli,05.09.2026 10:00,27.30,,,,,,,
+02NIKS10,glavna,Nikšić,05.09.2026 10:20,27.00,30.0,0.00,1.20,18,,652.1,945.2
+02KOVR30,klimatološka,Kovren,05.09.2026 10:00,20.16,66.3,0.00,,,,,
+02BAR010,glavna,Bar,05.09.2026 10:20,28.90,64.0,0.00,1.80,20,,622.3,1016.8
+02CTNJ10,glavna,Cetinje,05.09.2026 10:20,29.00,33.0,0.00,1.20,10,2.60,636.1,945.8
+02PDGR10,glavna,Podgorica,05.09.2026 10:20,30.40,30.0,0.00,1.60,16,,402.3,1011.4
+02KUKO30,klimatološka,Kučka korita,05.09.2026 10:00,23.44,40.4,0.00,,,,,
+02BERA20,glavna,Berane,05.09.2026 10:00,20.44,56.8,0.00,0.70,20,1.90,,941.78
+02DDOB30,klimatološka,Donja Dobrilovina,05.09.2026 10:00,18.92,73.7,,,,,,
+02GRAD30,klimatološka,Gradac,05.09.2026 10:00,19.69,60.7,,,,,,
+02LKOT20,klimatološka,Luka Kotor,05.09.2026 09:46,27.90,42.0,,0.60,,0.90,,1019.9
+02KOSA30,klimatološka,Kosanica,05.09.2026 10:00,25.48,45.3,,,,,,
+02IVKO30,klimatološka,Ivanova korita,05.09.2026 10:00,26.01,32.9,0.00,,,,,
+02KOLS10,glavna,Kolašin,05.09.2026 10:20,22.00,47.0,0.00,0.40,32,,644.9,913.6
