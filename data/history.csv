@@ -19833,3 +19833,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,05.09.2026 23:00,14.60,84.0,0.00,0.30,14,,0.0,914.3
 02MATE30,klimatološka,Matesevo,05.09.2026 23:00,13.41,87.5,0.00,,,,,
 02ZBLJ10,glavna,Žabljak,05.09.2026 23:00,15.10,58.0,0.00,1.80,22,,1.0,862.2
+02BAR010,glavna,Bar,05.09.2026 23:20,24.30,59.0,0.00,2.00,6,2.60,0.0,1015.8
+02GRAD30,klimatološka,Gradac,05.09.2026 23:00,15.39,82.6,,,,,,
+02LKOT20,klimatološka,Luka Kotor,05.09.2026 22:46,25.10,69.0,,0.30,,0.90,,1018.8
+02BERA20,glavna,Berane,05.09.2026 23:00,18.37,74.4,0.00,0.60,32,1.60,,941.35
+02ULCN10,glavna,Ulcinj,05.09.2026 23:20,22.50,83.0,0.00,0.70,32,,0.0,1016.1
+02PDGR10,glavna,Podgorica,05.09.2026 23:20,26.10,56.0,0.00,0.80,2,,0.3,1010.7
+02UBLI20,klimatološka,Ubli,05.09.2026 23:00,23.59,,,,,,,
+02PLZN20,klimatološka,Pluzine,05.09.2026 23:00,21.32,62.6,0.00,0.70,32,1.60,1.7,936.55
+02PLJV10,glavna,Pljevlja,05.09.2026 23:20,22.30,46.0,0.00,0.90,16,,0.2,931.7
+02KUKO30,klimatološka,Kučka korita,05.09.2026 23:00,13.29,74.2,0.00,,,,,
+02NIKS10,glavna,Nikšić,05.09.2026 23:20,20.90,53.0,0.00,2.20,2,,0.4,945.3
+02KOLS10,glavna,Kolašin,05.09.2026 23:20,14.40,86.0,0.00,0.50,8,,0.0,914.5
+02BOAN30,klimatološka,Boan,05.09.2026 23:00,15.10,93.0,,,,,,
+02KOSA30,klimatološka,Kosanica,05.09.2026 23:00,10.91,99.2,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,05.09.2026 23:00,18.71,82.1,,,,,0.0,951.63
+02VELM20,klimatološka,Velimlje,05.09.2026 23:00,18.10,62.4,0.00,0.60,4,0.80,1.7,
+02KOVR30,klimatološka,Kovren,05.09.2026 23:00,19.87,75.6,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,05.09.2026 23:20,15.00,59.0,0.00,0.50,18,,0.0,862.4
+02CRKV30,klimatološka,Crkvice,05.09.2026 23:00,18.95,65.6,,,,,,
+02BUDV20,klimatološka,Budva,05.09.2026 23:00,25.17,65.8,,,,,1.08,1015.04
+02DDOB30,klimatološka,Donja Dobrilovina,05.09.2026 23:00,17.24,88.3,,,,,,
+02HNOV10,glavna,Herceg Novi,05.09.2026 23:20,24.00,55.0,0.00,0.60,2,,0.3,1011.5
+02IVKO30,klimatološka,Ivanova korita,05.09.2026 23:00,16.85,56.5,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,05.09.2026 23:00,14.65,82.3,,,,,,
+02CTNJ10,glavna,Cetinje,05.09.2026 23:20,16.90,76.0,0.00,0.10,24,,0.9,945.8
+02BIST20,klimatološka,Bistrica,05.09.2026 23:00,16.90,71.3,0.00,0.20,2,0.60,0.5,
