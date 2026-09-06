@@ -20208,3 +20208,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,06.09.2026 04:50,22.20,72.0,0.00,0.20,32,,0.0,1012.2
 02KOLS10,glavna,Kolašin,06.09.2026 04:50,11.10,96.0,0.00,1.10,20,,0.0,915.8
 02ULCN10,glavna,Ulcinj,06.09.2026 04:50,20.80,93.0,0.00,0.90,32,,0.0,1016.6
+02VELK30,klimatološka,Velika,06.09.2026 05:00,12.46,100.0,,,,,,
+02BAR010,glavna,Bar,06.09.2026 05:00,23.40,80.0,0.00,0.90,8,,1.1,1016.4
+02PLJV10,glavna,Pljevlja,06.09.2026 05:00,13.30,81.0,0.00,1.50,4,1.60,0.1,933.8
+02MATE30,klimatološka,Matesevo,06.09.2026 05:00,10.18,96.2,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,06.09.2026 05:00,7.61,100.0,,,,,,
+02NIKS10,glavna,Nikšić,06.09.2026 05:00,19.60,55.0,0.00,1.90,2,,0.0,945.7
+02ZBLJ10,glavna,Žabljak,06.09.2026 05:00,10.60,85.0,0.00,0.90,16,,0.0,863.3
+02PDGR10,glavna,Podgorica,06.09.2026 05:00,22.90,62.0,0.00,0.60,32,,0.0,1011.5
+02SCPO30,klimatološka,Šćepan Polje,06.09.2026 05:00,12.13,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,06.09.2026 05:00,20.70,92.0,0.00,1.20,32,,0.0,1016.6
+02MAMO30,klimatološka,Manastir Morača,06.09.2026 05:00,14.39,94.6,,,,,,
+02LKOT20,klimatološka,Luka Kotor,06.09.2026 04:31,22.60,77.0,,0.70,,1.90,,1019.9
+02CTNJ10,glavna,Cetinje,06.09.2026 05:00,13.20,82.0,0.00,0.00,24,,0.3,946.3
+02KOLS10,glavna,Kolašin,06.09.2026 05:00,11.10,96.0,0.00,0.50,22,,0.2,915.8
+02POSC30,klimatološka,Pošćenje,06.09.2026 05:00,12.27,96.4,,,,,,
+02VIRP20,klimatološka,Virpazar,06.09.2026 05:00,18.30,93.0,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,06.09.2026 05:00,18.40,,,,,,,
+02MOKR30,klimatološka,Mokro,06.09.2026 05:00,12.04,87.7,,,,,,
+02STIT30,klimatološka,Štitarica,06.09.2026 05:00,10.54,100.0,,,,,,
+02STAB30,klimatološka,Stabna,06.09.2026 05:00,15.14,88.4,,,,,,
+02HNOV10,glavna,Herceg Novi,06.09.2026 05:00,22.20,70.0,0.00,0.30,32,,0.8,1012.3
