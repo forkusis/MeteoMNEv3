@@ -21269,3 +21269,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,06.09.2026 20:50,26.80,68.0,0.00,0.50,28,,0.0,1014.0
 02PLJV10,glavna,Pljevlja,06.09.2026 20:50,20.70,43.0,0.00,0.90,18,,0.0,935.1
 02ULCN10,glavna,Ulcinj,06.09.2026 20:50,27.00,67.0,0.00,2.10,26,,0.0,1018.3
+02LKOT20,klimatološka,Luka Kotor,06.09.2026 20:31,27.00,58.0,,0.50,,1.20,,1021.4
+02CTNJ10,glavna,Cetinje,06.09.2026 21:00,20.20,69.0,0.00,0.30,32,,0.7,948.3
+02DANL20,klimatološka,Danilovgrad,06.09.2026 21:00,29.80,,,,,,,
+02ZBLJ10,glavna,Žabljak,06.09.2026 21:00,13.30,63.0,0.00,1.40,24,,0.5,865.5
+02ULCN10,glavna,Ulcinj,06.09.2026 21:00,27.20,70.0,0.00,0.70,24,,0.0,1018.4
+02PDGR10,glavna,Podgorica,06.09.2026 21:00,31.60,23.0,0.00,1.30,6,,0.1,1012.9
+02STAB30,klimatološka,Stabna,06.09.2026 21:00,18.44,58.8,,,,,,
+02POSC30,klimatološka,Pošćenje,06.09.2026 21:00,18.60,56.1,,,,,,
+02BAR010,glavna,Bar,06.09.2026 21:00,27.00,63.0,0.00,0.60,6,,0.0,1018.3
+02VIRP20,klimatološka,Virpazar,06.09.2026 21:00,26.20,55.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,06.09.2026 21:00,16.20,70.0,0.00,0.50,18,,0.5,917.9
+02SCPO30,klimatološka,Šćepan Polje,06.09.2026 21:00,18.31,70.0,,,,,,
+02STIT30,klimatološka,Štitarica,06.09.2026 21:00,15.11,79.5,,,,,,
+02MATE30,klimatološka,Matesevo,06.09.2026 21:00,13.66,78.1,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,06.09.2026 21:00,11.76,78.6,,,,,,
+02MOKR30,klimatološka,Mokro,06.09.2026 21:00,16.34,57.7,,,,,,
+02HNOV10,glavna,Herceg Novi,06.09.2026 21:00,26.70,67.0,0.00,0.30,30,,0.0,1014.0
+02NIKS10,glavna,Nikšić,06.09.2026 21:00,25.50,31.0,0.00,5.20,32,,0.0,948.2
+02VELK30,klimatološka,Velika,06.09.2026 21:00,17.37,69.6,,,,,,
+02PLJV10,glavna,Pljevlja,06.09.2026 21:00,20.50,43.0,0.00,0.40,10,,0.0,935.2
+02MAMO30,klimatološka,Manastir Morača,06.09.2026 21:00,23.05,46.9,,,,,,
