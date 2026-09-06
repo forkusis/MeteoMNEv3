@@ -21558,3 +21558,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,07.09.2026 01:00,24.20,45.0,0.00,0.40,24,,0.0,1014.6
 02STAB30,klimatološka,Stabna,07.09.2026 01:00,14.22,79.0,,,,,,
 02SCPO30,klimatološka,Šćepan Polje,07.09.2026 01:00,11.40,99.0,,,,,,
+02PLZN20,klimatološka,Pluzine,07.09.2026 01:00,17.15,75.2,0.00,0.60,16,1.30,1.45,940.86
+02PDGR10,glavna,Podgorica,07.09.2026 01:20,28.00,29.0,0.00,1.10,30,,0.0,1014.1
+02PLJV10,glavna,Pljevlja,07.09.2026 01:20,12.10,76.0,0.00,0.60,18,,0.9,936.5
+02NIKS10,glavna,Nikšić,07.09.2026 01:20,20.20,45.0,0.00,2.00,2,,0.9,948.7
+02ULCN10,glavna,Ulcinj,07.09.2026 01:20,25.90,36.0,0.00,5.00,4,,0.0,1019.0
+02KOSA30,klimatološka,Kosanica,07.09.2026 01:00,4.06,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,07.09.2026 01:00,12.15,96.4,,,,,,
+02CRKV30,klimatološka,Crkvice,07.09.2026 01:00,15.90,73.7,,,,,,
+02UBLI20,klimatološka,Ubli,07.09.2026 01:00,20.45,,,,,,,
+02KOVR30,klimatološka,Kovren,07.09.2026 01:00,14.32,77.9,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,07.09.2026 00:46,30.30,32.0,,1.90,,5.30,,1022.5
+02CTNJ10,glavna,Cetinje,07.09.2026 01:20,14.80,78.0,0.00,0.40,8,0.90,0.8,949.0
+02BERA20,glavna,Berane,07.09.2026 01:00,13.56,78.3,0.00,0.70,8,1.80,,946.77
+02BUDV20,klimatološka,Budva,07.09.2026 01:00,25.08,62.9,,,,,0.0,1018.38
+02GOBU30,klimatološka,Gornja Bukovica,07.09.2026 01:00,8.92,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,07.09.2026 01:00,9.65,100.0,,,,,,
+02KOLS10,glavna,Kolašin,07.09.2026 01:20,10.60,88.0,0.00,0.30,18,,0.2,918.7
+02BAR010,glavna,Bar,07.09.2026 01:20,25.20,48.0,0.00,1.70,2,,0.0,1018.5
+02BIST20,klimatološka,Bistrica,07.09.2026 01:00,11.60,81.8,0.00,0.30,2,0.50,0.5,
+02KUKO30,klimatološka,Kučka korita,07.09.2026 01:00,17.71,49.0,0.00,,,,,
+02VELM20,klimatološka,Velimlje,07.09.2026 01:00,15.10,62.2,0.00,0.20,14,0.50,0.0,
+02IVKO30,klimatološka,Ivanova korita,07.09.2026 01:00,15.70,60.3,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,07.09.2026 01:20,24.20,50.0,0.00,0.50,14,,0.0,1014.6
+02ZBLJ10,glavna,Žabljak,07.09.2026 01:20,9.40,80.0,0.00,1.00,22,,0.4,865.7
+02BPLJ20,klimatološka,Bijelo Polje,07.09.2026 01:00,13.22,87.5,,,,,0.0,957.27
+02BOAN30,klimatološka,Boan,07.09.2026 01:00,10.87,99.6,,,,,,
