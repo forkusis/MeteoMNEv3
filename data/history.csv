@@ -20827,3 +20827,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,06.09.2026 14:00,35.10,24.0,0.00,,,,,
 02MAMO30,klimatološka,Manastir Morača,06.09.2026 14:00,32.78,25.4,,,,,,
 02ZBLJ10,glavna,Žabljak,06.09.2026 14:00,20.90,35.0,0.00,1.00,4,,797.1,864.4
+02LKOT20,klimatološka,Luka Kotor,06.09.2026 13:46,31.20,55.0,,1.70,,4.40,,1021.0
+02GOBU30,klimatološka,Gornja Bukovica,06.09.2026 14:00,22.39,40.5,,,,,,
+02BAR010,glavna,Bar,06.09.2026 14:20,31.80,64.0,0.00,5.60,26,,680.4,1017.6
+02HNOV10,glavna,Herceg Novi,06.09.2026 14:20,33.90,44.0,0.00,3.00,22,,649.2,1013.6
+02PLJV10,glavna,Pljevlja,06.09.2026 14:20,27.20,25.0,0.00,1.20,4,,719.0,933.8
+02PDGR10,glavna,Podgorica,06.09.2026 14:20,35.10,20.0,0.00,1.40,4,,685.1,1011.4
+02BOAN30,klimatološka,Boan,06.09.2026 14:00,26.40,38.3,,,,,,
+02VELM20,klimatološka,Velimlje,06.09.2026 14:00,29.50,28.6,0.00,1.30,4,2.40,753.2,
+02KUKO30,klimatološka,Kučka korita,06.09.2026 14:00,24.86,39.7,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,06.09.2026 14:00,28.77,46.5,,,,,,
+02BIST20,klimatološka,Bistrica,06.09.2026 14:00,27.10,31.5,0.00,4.90,2,8.90,760.9,
+02KOVR30,klimatološka,Kovren,06.09.2026 14:00,23.59,39.4,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,06.09.2026 14:00,27.92,33.4,,,,,784.98,954.33
+02CTNJ10,glavna,Cetinje,06.09.2026 14:20,31.30,26.0,0.00,1.40,8,,701.8,947.0
+02DDOB30,klimatološka,Donja Dobrilovina,06.09.2026 14:00,26.02,39.0,,,,,,
+02KOSA30,klimatološka,Kosanica,06.09.2026 14:00,24.73,43.1,,,,,,
+02NIKS10,glavna,Nikšić,06.09.2026 14:20,31.20,23.0,0.00,5.00,30,,686.9,946.3
+02KOLS10,glavna,Kolašin,06.09.2026 14:20,25.60,32.0,0.00,2.30,2,,750.5,916.5
+02BUDV20,klimatološka,Budva,06.09.2026 14:00,34.00,37.2,,,,,710.15,1016.92
+02BERA20,glavna,Berane,06.09.2026 14:00,29.02,28.9,0.00,1.80,30,5.10,,944.06
+02ULCN10,glavna,Ulcinj,06.09.2026 14:20,36.20,20.0,0.00,6.20,6,,723.0,1017.3
+02PLZN20,klimatološka,Pluzine,06.09.2026 14:00,27.54,33.0,0.00,5.00,32,9.40,710.39,938.19
+02UBLI20,klimatološka,Ubli,06.09.2026 14:00,31.48,,,,,,,
+02ZBLJ10,glavna,Žabljak,06.09.2026 14:20,21.50,35.0,0.00,1.90,4,,780.7,864.3
+02IVKO30,klimatološka,Ivanova korita,06.09.2026 14:00,24.89,57.1,0.00,,,,,
+02GRAD30,klimatološka,Gradac,06.09.2026 14:00,27.65,30.5,,,,,,
