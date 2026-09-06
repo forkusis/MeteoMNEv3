@@ -21336,3 +21336,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,06.09.2026 21:50,24.50,33.0,0.00,4.80,2,,0.2,948.4
 02PLJV10,glavna,Pljevlja,06.09.2026 21:50,19.50,47.0,0.00,0.10,2,,0.4,935.5
 02ZBLJ10,glavna,Žabljak,06.09.2026 21:50,12.20,67.0,0.00,0.80,24,,0.3,865.5
+02CTNJ10,glavna,Cetinje,06.09.2026 22:00,18.40,73.0,0.00,0.40,10,,0.9,948.7
+02KOLS10,glavna,Kolašin,06.09.2026 22:00,14.10,77.0,0.00,1.00,18,,0.0,918.2
+02MATE30,klimatološka,Matesevo,06.09.2026 22:00,12.12,83.0,0.00,,,,,
+02VELK30,klimatološka,Velika,06.09.2026 22:00,15.00,82.9,,,,,,
+02NJGV30,klimatološka,Njegovuđa,06.09.2026 22:00,11.08,83.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,06.09.2026 22:00,20.28,57.4,,,,,,
+02BAR010,glavna,Bar,06.09.2026 22:00,26.10,61.0,0.00,1.00,8,,0.3,1018.5
+02SCPO30,klimatološka,Šćepan Polje,06.09.2026 22:00,15.71,80.1,,,,,,
+02MOKR30,klimatološka,Mokro,06.09.2026 22:00,12.99,70.4,,,,,,
+02POSC30,klimatološka,Pošćenje,06.09.2026 22:00,15.90,67.1,,,,,,
+02PDGR10,glavna,Podgorica,06.09.2026 22:00,30.60,24.0,0.00,2.50,2,,0.1,1013.0
+02STIT30,klimatološka,Štitarica,06.09.2026 22:00,13.68,85.4,,,,,,
+02PLJV10,glavna,Pljevlja,06.09.2026 22:00,19.10,53.0,0.00,0.90,16,,1.0,935.6
+02ULCN10,glavna,Ulcinj,06.09.2026 22:00,25.00,57.0,0.00,1.20,32,,0.0,1018.7
+02VIRP20,klimatološka,Virpazar,06.09.2026 22:00,24.20,61.0,0.00,,,,,
+02STAB30,klimatološka,Stabna,06.09.2026 22:00,17.73,61.8,,,,,,
+02ZBLJ10,glavna,Žabljak,06.09.2026 22:00,12.00,67.0,0.00,0.90,24,,0.6,865.5
+02HNOV10,glavna,Herceg Novi,06.09.2026 22:00,25.60,66.0,0.00,0.60,20,,0.9,1014.2
+02LKOT20,klimatološka,Luka Kotor,06.09.2026 21:31,26.00,60.0,,0.40,,1.20,,1021.7
+02DANL20,klimatološka,Danilovgrad,06.09.2026 22:00,27.40,,,,,,,
+02NIKS10,glavna,Nikšić,06.09.2026 22:00,24.40,33.0,0.00,2.90,2,,0.1,948.4
