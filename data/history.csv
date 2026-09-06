@@ -20229,3 +20229,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,06.09.2026 05:00,10.54,100.0,,,,,,
 02STAB30,klimatološka,Stabna,06.09.2026 05:00,15.14,88.4,,,,,,
 02HNOV10,glavna,Herceg Novi,06.09.2026 05:00,22.20,70.0,0.00,0.30,32,,0.8,1012.3
+02KUKO30,klimatološka,Kučka korita,06.09.2026 05:00,17.79,58.5,0.00,,,,,
+02BAR010,glavna,Bar,06.09.2026 05:20,23.20,83.0,0.00,0.40,6,,0.0,1016.3
+02HNOV10,glavna,Herceg Novi,06.09.2026 05:20,22.20,70.0,0.00,0.70,24,,0.6,1012.3
+02GRAD30,klimatološka,Gradac,06.09.2026 05:00,10.11,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,06.09.2026 05:00,20.17,71.8,0.00,5.70,2,12.70,30.21,937.82
+02GOBU30,klimatološka,Gornja Bukovica,06.09.2026 05:00,9.95,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,06.09.2026 05:00,5.68,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,06.09.2026 05:00,13.75,68.7,0.00,,,,,
+02BIST20,klimatološka,Bistrica,06.09.2026 05:00,11.40,93.8,0.00,0.40,20,0.70,0.5,
+02PLJV10,glavna,Pljevlja,06.09.2026 05:20,13.30,80.0,0.00,1.00,18,,0.4,933.9
+02CRKV30,klimatološka,Crkvice,06.09.2026 05:00,13.76,87.3,,,,,,
+02LKOT20,klimatološka,Luka Kotor,06.09.2026 04:46,22.70,77.0,,0.50,,2.40,,1019.9
+02CTNJ10,glavna,Cetinje,06.09.2026 05:20,13.10,83.0,0.00,0.20,32,,0.0,946.4
+02NIKS10,glavna,Nikšić,06.09.2026 05:20,19.90,57.0,0.00,0.70,28,,0.1,945.9
+02BOAN30,klimatološka,Boan,06.09.2026 05:00,11.27,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,06.09.2026 05:00,19.81,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,06.09.2026 05:00,12.46,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,06.09.2026 05:20,10.60,84.0,0.00,1.30,26,1.70,0.3,863.3
+02VELM20,klimatološka,Velimlje,06.09.2026 05:00,12.20,85.1,0.00,0.40,32,0.60,0.0,
+02PDGR10,glavna,Podgorica,06.09.2026 05:20,22.60,62.0,0.00,0.60,2,,0.0,1011.6
+02BUDV20,klimatološka,Budva,06.09.2026 05:00,23.83,89.3,,,,,1.08,1015.96
+02BPLJ20,klimatološka,Bijelo Polje,06.09.2026 05:00,13.72,97.9,,,,,0.0,954.45
+02ULCN10,glavna,Ulcinj,06.09.2026 05:20,20.20,95.0,0.00,0.50,28,,0.0,1016.7
+02BERA20,glavna,Berane,06.09.2026 05:00,12.96,96.5,0.00,0.40,10,1.10,,944.12
+02KOLS10,glavna,Kolašin,06.09.2026 05:20,10.80,97.0,0.00,1.20,20,1.40,0.0,915.9
