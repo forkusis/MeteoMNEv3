@@ -21622,3 +21622,26 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,07.09.2026 02:00,18.80,73.0,0.00,,,,,
 02POSC30,klimatološka,Pošćenje,07.09.2026 02:00,10.83,89.3,,,,,,
 02STIT30,klimatološka,Štitarica,07.09.2026 02:00,8.39,100.0,,,,,,
+02BAR010,glavna,Bar,07.09.2026 02:20,27.90,36.0,0.00,1.30,6,,0.0,1018.6
+02LKOT20,klimatološka,Luka Kotor,07.09.2026 01:46,29.30,36.0,,2.40,,5.70,,1022.3
+02HNOV10,glavna,Herceg Novi,07.09.2026 02:20,23.20,50.0,0.00,1.60,24,,0.8,1014.7
+02UBLI20,klimatološka,Ubli,07.09.2026 02:00,18.59,,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,07.09.2026 02:00,8.15,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,07.09.2026 02:00,11.40,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,07.09.2026 02:00,15.90,56.3,0.00,,,,,
+02NIKS10,glavna,Nikšić,07.09.2026 02:20,19.90,44.0,0.00,2.30,30,,0.1,948.7
+02BERA20,glavna,Berane,07.09.2026 02:00,12.27,83.3,0.00,0.50,8,1.50,,946.99
+02CRKV30,klimatološka,Crkvice,07.09.2026 02:00,15.78,72.7,,,,,,
+02VELM20,klimatološka,Velimlje,07.09.2026 02:00,13.20,69.5,0.00,0.50,12,0.90,0.0,
+02BUDV20,klimatološka,Budva,07.09.2026 02:00,25.29,64.4,,,,,0.0,1018.35
+02GRAD30,klimatološka,Gradac,07.09.2026 02:00,8.63,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,07.09.2026 02:20,11.00,81.0,0.00,0.40,26,,0.0,936.6
+02KUKO30,klimatološka,Kučka korita,07.09.2026 02:00,18.33,46.4,0.00,,,,,
+02CTNJ10,glavna,Cetinje,07.09.2026 02:20,14.10,79.0,0.00,0.10,32,,0.0,948.9
+02BIST20,klimatološka,Bistrica,07.09.2026 02:00,10.50,86.1,0.00,0.60,18,0.80,0.5,
+02PDGR10,glavna,Podgorica,07.09.2026 02:20,27.40,30.0,0.00,4.60,30,,0.1,1014.1
+02KOLS10,glavna,Kolašin,07.09.2026 02:20,9.80,91.0,0.00,0.60,16,,0.0,918.7
+02ZBLJ10,glavna,Žabljak,07.09.2026 02:20,9.00,81.0,0.00,1.30,22,,0.2,865.7
+02BOAN30,klimatološka,Boan,07.09.2026 02:00,9.88,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,07.09.2026 02:00,12.38,90.2,,,,,0.0,957.43
+02KOSA30,klimatološka,Kosanica,07.09.2026 02:00,3.23,100.0,,,,,,
