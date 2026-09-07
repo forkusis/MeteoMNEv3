@@ -21948,3 +21948,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,07.09.2026 07:00,25.00,31.0,0.00,7.60,6,,55.0,1019.9
 02MAMO30,klimatološka,Manastir Morača,07.09.2026 07:00,11.86,92.8,,,,,,
 02DANL20,klimatološka,Danilovgrad,07.09.2026 07:00,21.50,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,07.09.2026 07:00,13.29,66.9,0.00,,,,,
+02BIST20,klimatološka,Bistrica,07.09.2026 07:00,8.00,96.2,0.00,1.10,18,1.40,21.9,
+02PLZN20,klimatološka,Pluzine,07.09.2026 07:00,13.12,100.0,0.00,1.00,18,2.00,17.36,941.62
+02ZBLJ10,glavna,Žabljak,07.09.2026 07:20,9.60,80.0,0.00,0.70,26,,137.1,865.3
+02BERA20,glavna,Berane,07.09.2026 07:00,9.10,97.8,0.00,0.80,8,1.80,,947.81
+02KOVR30,klimatološka,Kovren,07.09.2026 07:00,13.66,86.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,07.09.2026 07:20,23.80,45.0,0.00,1.30,24,,54.3,1015.6
+02BPLJ20,klimatološka,Bijelo Polje,07.09.2026 07:00,9.46,98.7,,,,,24.75,958.35
+02NIKS10,glavna,Nikšić,07.09.2026 07:20,17.80,49.0,0.00,0.60,4,,132.7,949.1
+02LKOT20,klimatološka,Luka Kotor,07.09.2026 06:46,28.10,35.0,,3.50,,6.70,,1023.2
+02GOBU30,klimatološka,Gornja Bukovica,07.09.2026 07:00,6.59,100.0,,,,,,
+02KOLS10,glavna,Kolašin,07.09.2026 07:20,8.20,94.0,0.00,0.30,18,,118.1,918.9
+02DDOB30,klimatološka,Donja Dobrilovina,07.09.2026 07:00,8.60,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,07.09.2026 07:20,12.10,84.0,0.00,0.00,32,,35.0,949.5
+02VELM20,klimatološka,Velimlje,07.09.2026 07:00,9.90,82.8,0.00,0.20,12,0.40,23.9,
+02GRAD30,klimatološka,Gradac,07.09.2026 07:00,5.81,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,07.09.2026 07:00,0.96,100.0,,,,,,
+02PDGR10,glavna,Podgorica,07.09.2026 07:20,25.90,32.0,0.00,2.70,30,,116.2,1015.3
+02UBLI20,klimatološka,Ubli,07.09.2026 07:00,17.20,,,,,,,
+02PLJV10,glavna,Pljevlja,07.09.2026 07:20,8.40,89.0,0.00,0.40,18,,35.0,936.9
+02ULCN10,glavna,Ulcinj,07.09.2026 07:20,25.80,30.0,0.00,7.00,6,,113.2,1020.0
+02CRKV30,klimatološka,Crkvice,07.09.2026 07:00,11.96,87.6,,,,,,
+02KUKO30,klimatološka,Kučka korita,07.09.2026 07:00,18.18,39.0,0.00,,,,,
+02BAR010,glavna,Bar,07.09.2026 07:20,27.50,31.0,0.00,2.10,6,,62.7,1019.5
+02BOAN30,klimatološka,Boan,07.09.2026 07:00,6.89,100.0,,,,,,
