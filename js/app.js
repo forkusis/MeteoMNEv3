@@ -290,7 +290,7 @@ async function ucitajGraf(sifra, ctx) {
         const r = await fetch("data/history/" + sifra + ".json?_=" + Date.now());
         if (!r.ok) throw new Error("HTTP " + r.status);
         ctx.pts = await r.json();
-        crtajGraf(ctx.pts, ctx.mode, ctx.els);
+        iscrtaj(ctx);
     } catch (e) {
         ctx.pts = null;
         ctx.els.wrap.innerHTML = '<p class="graf-prazno">Istorija za ovu stanicu trenutno nije dostupna.</p>';
@@ -298,20 +298,43 @@ async function ucitajGraf(sifra, ctx) {
     }
 }
 
-const grafMoje = { mode: "tvaga", pts: null, els: { naslov: $("graf-naslov"), legenda: $("graf-legenda"), raspon: $("graf-raspon"), wrap: $("graf-wrap") } };
-const grafDetalj = { mode: "tvaga", pts: null, els: { naslov: $("detalj-graf-naslov"), legenda: $("detalj-graf-legenda"), raspon: $("detalj-graf-raspon"), wrap: $("detalj-graf-wrap") } };
+const grafMoje = { mode: "tvaga", opseg: "3d", pts: null, els: { naslov: $("graf-naslov"), legenda: $("graf-legenda"), raspon: $("graf-raspon"), wrap: $("graf-wrap") } };
+const grafDetalj = { mode: "tvaga", opseg: "3d", pts: null, els: { naslov: $("detalj-graf-naslov"), legenda: $("detalj-graf-legenda"), raspon: $("detalj-graf-raspon"), wrap: $("detalj-graf-wrap") } };
+
+const OPSEG_MS = { "3d": 3 * 24 * 3600 * 1000, "7d": 7 * 24 * 3600 * 1000, "sve": Infinity };
+function filtrirajOpseg(pts, opseg) {
+    if (!pts || opseg === "sve") return pts;
+    const ms = OPSEG_MS[opseg] || OPSEG_MS["3d"];
+    let maxT = -Infinity;
+    pts.forEach((p) => { const d = parseDT(p.dt); if (d && +d > maxT) maxT = +d; });
+    if (!isFinite(maxT)) return pts;
+    return pts.filter((p) => { const d = parseDT(p.dt); return d && (+d >= maxT - ms); });
+}
+function iscrtaj(ctx) { crtajGraf(filtrirajOpseg(ctx.pts, ctx.opseg), ctx.mode, ctx.els); }
 
 function veziChipove(selector, ctx) {
     document.querySelectorAll(selector).forEach((c) => {
         c.addEventListener("click", () => {
             ctx.mode = c.dataset.graf;
             document.querySelectorAll(selector).forEach((x) => x.classList.toggle("aktivan", x === c));
-            if (ctx.pts) crtajGraf(ctx.pts, ctx.mode, ctx.els);
+            if (ctx.pts) iscrtaj(ctx);
         });
     });
 }
 veziChipove("#graf-chips .chip", grafMoje);
 veziChipove("#detalj-chips .chip", grafDetalj);
+
+function veziOpseg(selector, ctx) {
+    document.querySelectorAll(selector).forEach((c) => {
+        c.addEventListener("click", () => {
+            ctx.opseg = c.dataset.opseg;
+            document.querySelectorAll(selector).forEach((x) => x.classList.toggle("aktivan", x === c));
+            if (ctx.pts) iscrtaj(ctx);
+        });
+    });
+}
+veziOpseg("#graf-opseg .chip", grafMoje);
+veziOpseg("#detalj-graf-opseg .chip", grafDetalj);
 
 /* ---------- Moje mjesto ---------- */
 function prikaziMjesto() {
@@ -492,6 +515,19 @@ function racVjetarSvg(kod) {
     return '<svg class="rac-vj-svg" viewBox="0 0 24 24" style="transform:rotate(' + smjer + 'deg)"><line x1="12" y1="4" x2="12" y2="20" stroke="currentColor" stroke-width="' + debljina + '" stroke-linecap="round"/><polygon points="12,2 8,8 16,8" fill="currentColor"/></svg>';
 }
 
+const RAC_DANI_SR = ["Ponedjeljak", "Utorak", "Srijeda", "Četvrtak", "Petak", "Subota", "Nedjelja"];
+function racDatumPrikaz(datumStr) {
+    const m = /(\d{4})-(\d{2})-(\d{2})/.exec(datumStr || "");
+    if (!m) return esc(datumStr);
+    const d = new Date(+m[1], +m[2] - 1, +m[3]);
+    if (isNaN(+d)) return esc(datumStr);
+    const danas = new Date(); danas.setHours(0, 0, 0, 0);
+    const razlika = Math.round((new Date(d.getFullYear(), d.getMonth(), d.getDate()) - danas) / 864e5);
+    const rel = razlika === 0 ? " · Danas" : razlika === 1 ? " · Sutra" : razlika === -1 ? " · Juče" : "";
+    const naziv = RAC_DANI_SR[(d.getDay() + 6) % 7];
+    return esc(naziv + ", " + d.getDate() + "." + (d.getMonth() + 1) + "." + rel);
+}
+
 function renderRacProg() {
     const box = $("pg-racunarska");
     if (!box) return;
@@ -534,7 +570,7 @@ function renderRacProg() {
             const vjHtml = vjOpis ? '<span class="rac-vj-wrap">' + vjSvg + '<span class="rac-vj-txt">' + esc(vjOpis) + '</span></span>' : '<span class="rac-vj-txt">—</span>';
             return '<tr><td class="rac-sat">' + cetSat + '</td><td class="rac-simb-td">' + simbHtml + '</td><td class="rac-rr">' + rr + '</td><td class="rac-rh">' + rh + '</td><td class="rac-vj">' + vjHtml + '</td></tr>';
         }).join("");
-        return '<details class="rac-acc"><summary class="rac-acc-glava"><span class="rac-acc-lijevo"><span class="rac-acc-datum">' + esc(dan.datum) + '</span><span class="rac-acc-tempi">' + TminTxt + ' / ' + TmaxTxt + '</span></span><span class="rac-acc-strelica"></span></summary><div class="rac-acc-tijelo"><table class="rac-tabela"><thead><tr><th>Sat</th><th>Vrijeme</th><th>Padavine</th><th>Vlažnost</th><th>Vjetar</th></tr></thead><tbody>' + redovi + '</tbody></table></div></details>';
+        return '<details class="rac-acc"><summary class="rac-acc-glava"><span class="rac-acc-lijevo"><span class="rac-acc-datum">' + racDatumPrikaz(dan.datum) + '</span><span class="rac-acc-tempi">' + TminTxt + ' / ' + TmaxTxt + '</span></span><span class="rac-acc-strelica"></span></summary><div class="rac-acc-tijelo"><table class="rac-tabela"><thead><tr><th>Sat</th><th>Vrijeme</th><th>Padavine</th><th>Vlažnost</th><th>Vjetar</th></tr></thead><tbody>' + redovi + '</tbody></table></div></details>';
     }).join("");
 
     box.innerHTML =
