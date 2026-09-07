@@ -22940,3 +22940,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,07.09.2026 21:31,25.70,71.0,,0.70,,1.90,,1020.5
 02ZBLJ10,glavna,Žabljak,07.09.2026 22:00,12.00,48.0,0.00,1.20,22,,0.4,863.5
 02SCPO30,klimatološka,Šćepan Polje,07.09.2026 22:00,12.72,68.3,,,,,,
+02BERA20,glavna,Berane,07.09.2026 22:00,15.12,56.8,0.00,0.00,32,0.60,,943.74
+02KUKO30,klimatološka,Kučka korita,07.09.2026 22:00,13.27,61.1,0.00,,,,,
+02PLJV10,glavna,Pljevlja,07.09.2026 22:20,15.70,44.0,0.00,0.30,32,,0.1,932.9
+02LKOT20,klimatološka,Luka Kotor,07.09.2026 21:46,25.60,72.0,,0.00,,0.90,,1020.6
+02BPLJ20,klimatološka,Bijelo Polje,07.09.2026 22:00,15.32,68.7,,,,,0.0,953.8
+02PLZN20,klimatološka,Pluzine,07.09.2026 22:00,19.44,37.9,0.00,0.70,20,1.60,0.58,937.99
+02UBLI20,klimatološka,Ubli,07.09.2026 22:00,23.91,,,,,,,
+02BIST20,klimatološka,Bistrica,07.09.2026 22:00,13.70,57.9,0.00,0.80,2,0.90,0.5,
+02KOLS10,glavna,Kolašin,07.09.2026 22:20,12.30,72.0,0.00,0.30,18,,0.4,916.3
+02HNOV10,glavna,Herceg Novi,07.09.2026 22:20,24.10,68.0,0.00,0.50,24,,0.0,1012.8
+02GRAD30,klimatološka,Gradac,07.09.2026 22:00,11.80,67.6,,,,,,
+02CTNJ10,glavna,Cetinje,07.09.2026 22:20,17.30,79.0,0.00,0.20,8,,0.4,947.1
+02BUDV20,klimatološka,Budva,07.09.2026 22:00,25.96,79.6,,,,,0.0,1016.77
+02CRKV30,klimatološka,Crkvice,07.09.2026 22:00,14.96,82.4,,,,,,
+02ULCN10,glavna,Ulcinj,07.09.2026 22:20,23.00,77.0,0.00,0.50,30,,0.0,1017.2
+02VELM20,klimatološka,Velimlje,07.09.2026 22:00,18.00,74.1,0.00,0.10,28,0.30,0.8,
+02KOSA30,klimatološka,Kosanica,07.09.2026 22:00,6.28,88.5,,,,,,
+02NIKS10,glavna,Nikšić,07.09.2026 22:20,23.00,34.0,0.00,1.10,16,,0.0,946.6
+02IVKO30,klimatološka,Ivanova korita,07.09.2026 22:00,15.37,60.5,0.00,,,,,
+02BAR010,glavna,Bar,07.09.2026 22:20,24.40,54.0,0.00,1.20,8,,1.2,1017.1
+02DDOB30,klimatološka,Donja Dobrilovina,07.09.2026 22:00,14.42,64.9,,,,,,
+02ZBLJ10,glavna,Žabljak,07.09.2026 22:20,11.70,49.0,0.00,0.90,22,,0.2,863.5
+02PDGR10,glavna,Podgorica,07.09.2026 22:20,27.80,30.0,0.00,1.10,4,,0.7,1011.7
+02BOAN30,klimatološka,Boan,07.09.2026 22:00,13.63,63.1,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,07.09.2026 22:00,9.98,66.7,,,,,,
