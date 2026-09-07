@@ -21684,3 +21684,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,07.09.2026 03:00,10.60,82.0,0.00,0.60,24,,0.0,936.7
 02ZBLJ10,glavna,Žabljak,07.09.2026 03:00,8.80,83.0,0.00,1.60,22,,0.6,865.6
 02PDGR10,glavna,Podgorica,07.09.2026 03:00,27.10,31.0,0.00,2.50,32,,0.0,1014.4
+02CRKV30,klimatološka,Crkvice,07.09.2026 03:00,16.04,70.2,,,,,,
+02PDGR10,glavna,Podgorica,07.09.2026 03:20,26.90,31.0,0.00,2.10,32,,0.0,1014.5
+02KOVR30,klimatološka,Kovren,07.09.2026 03:00,12.79,86.6,0.00,,,,,
+02BERA20,glavna,Berane,07.09.2026 03:00,11.28,88.6,0.00,0.60,8,1.40,,947.24
+02KOLS10,glavna,Kolašin,07.09.2026 03:20,9.10,93.0,0.00,0.60,22,,0.4,918.8
+02KUKO30,klimatološka,Kučka korita,07.09.2026 03:00,18.08,45.7,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,07.09.2026 03:00,2.62,100.0,,,,,,
+02NIKS10,glavna,Nikšić,07.09.2026 03:20,20.90,43.0,0.00,1.60,30,,0.0,948.8
+02BIST20,klimatološka,Bistrica,07.09.2026 03:00,10.30,87.8,0.00,1.00,20,1.20,0.8,
+02VELM20,klimatološka,Velimlje,07.09.2026 03:00,12.20,73.8,0.00,1.90,12,2.40,0.6,
+02HNOV10,glavna,Herceg Novi,07.09.2026 03:20,22.40,46.0,0.00,0.50,22,,0.0,1014.9
+02BOAN30,klimatološka,Boan,07.09.2026 03:00,9.04,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,07.09.2026 03:00,18.28,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,07.09.2026 03:00,14.83,59.9,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,07.09.2026 03:00,10.72,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,07.09.2026 03:20,8.50,84.0,0.00,1.10,22,,0.3,865.6
+02LKOT20,klimatološka,Luka Kotor,07.09.2026 02:46,29.30,33.0,,3.10,,5.40,,1022.7
+02BAR010,glavna,Bar,07.09.2026 03:20,27.90,41.0,0.00,0.40,2,,0.0,1018.8
+02BUDV20,klimatološka,Budva,07.09.2026 03:00,24.47,65.1,,,,,0.0,1018.62
+02PLJV10,glavna,Pljevlja,07.09.2026 03:20,10.40,84.0,0.00,0.30,26,,0.0,936.6
+02BPLJ20,klimatološka,Bijelo Polje,07.09.2026 03:00,11.74,91.6,,,,,0.0,957.65
+02GOBU30,klimatološka,Gornja Bukovica,07.09.2026 03:00,7.62,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,07.09.2026 03:20,13.60,78.0,0.00,0.20,6,,0.3,949.1
+02GRAD30,klimatološka,Gradac,07.09.2026 03:00,8.09,100.0,,,,,,
