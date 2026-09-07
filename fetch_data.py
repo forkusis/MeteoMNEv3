@@ -30,8 +30,9 @@ PROGNOZA_JSON = os.path.join(DATA_DIR, "prognoza.json")
 RACPROG_JSON = os.path.join(DATA_DIR, "racprog.json")
 STATUS_JSON = os.path.join(DATA_DIR, "status.json")
 STATION_HISTORY_DIR = os.path.join(DATA_DIR, "history")
-# ~96 mjerenja/dan (15-min cadence) -> 800 ≈ 8 dana, da ima materijala za 3d/7d/Sve prikaz
-MAX_POINTS_PER_STATION = 800
+# Dovoljno da stane cela istorija od pocetka (CSV trenutno ima ~1150 tacaka
+# po aktivnoj stanici) plus rezerva za dalji rast; "Sve" prikazuje sve ovo.
+MAX_POINTS_PER_STATION = 1500
 
 FIELDNAMES = ["sifra", "tip", "stanica", "datum_vrijeme", "T", "vlaga", "RR", "vjetar", "smjer_kod", "udar", "insolacija", "pritisak"]
 
@@ -666,6 +667,25 @@ def _fetch_rac_day(session, base_url, suffix, kod, naziv, dan_i, prev_day):
         return (kod, naziv, dan_i, prev_day)
     return (kod, naziv, dan_i, {"datum": datum or f"Dan {dan_i}", "Tmin": tmin, "Tmax": tmax, "sati": sati, "lm": new_lm})
 
+def _degenerisani_kodovi(prev_model):
+    """Kodovi gradova kod kojih su svi dani identični (datum+Tmin+Tmax).
+
+    Poznata korupcija od starog off-by-one keša: svaki run je pomjerao dane
+    ulijevo i na kraj dopisivao E5, pa se nakon par runova svih 5 dana
+    izjednačilo sa E5. Takve gradove treba povući bezuslovno (bez
+    If-Modified-Since) da se odmah izliječe umjesto da 304 zacementira
+    pokvareno stanje.
+    """
+    losi = set()
+    for g in prev_model.get("gradovi", []) or []:
+        dani = g.get("dani", []) or []
+        if len(dani) >= 2:
+            potpisi = {(d.get("datum"), d.get("Tmin"), d.get("Tmax"))
+                       for d in dani if isinstance(d, dict)}
+            if len(potpisi) == 1:
+                losi.add(g.get("kod"))
+    return losi
+
 def fetch_racprog(session, previous):
     prev = previous or {}
     rezultat = {"updated_at": now_iso()}
@@ -679,10 +699,15 @@ def fetch_racprog(session, previous):
                 print(f"  {model_key}: zadržavam postojeće (staro {age:.1f}h)")
                 continue
         prev_idx = {}
+        losi = _degenerisani_kodovi(prev_model)
+        if losi:
+            print(f"  {model_key}: forsiram svježe preuzimanje za {len(losi)} pokvarenih gradova")
         for g in prev_model.get("gradovi", []):
             # dan_i indeksi su 1-based (range(1, 6) ispod) pa i keš mora biti 1-based;
             # inače If-Modified-Since za dan N nosi Last-Modified od dana N-1.
             for i, d in enumerate(g.get("dani", []), start=1):
+                if g["kod"] in losi:
+                    d = {k: v for k, v in d.items() if k != "lm"}
                 prev_idx[(g["kod"], i)] = d
         results = []
         with ThreadPoolExecutor(max_workers=3) as ex:
