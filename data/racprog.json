@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-07T02:15:55.695736+00:00",
+  "updated_at": "2026-09-07T02:31:03.119187+00:00",
   "model1": {
-    "updated_at": "2026-09-06T14:17:10.224978+00:00",
+    "updated_at": "2026-09-07T02:31:41.898718+00:00",
     "gradovi": [
       {
         "kod": "POD",
@@ -264,7 +264,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 15.2,
             "Tmax": 33.7,
             "sati": [
@@ -590,7 +590,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 15.4,
             "Tmax": 33.3,
             "sati": [
@@ -916,7 +916,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 16.6,
             "Tmax": 27.0,
             "sati": [
@@ -1242,7 +1242,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 18.9,
             "Tmax": 25.9,
             "sati": [
@@ -1568,7 +1568,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 18.1,
             "Tmax": 26.1,
             "sati": [
@@ -1894,7 +1894,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 15.9,
             "Tmax": 29.2,
             "sati": [
@@ -2220,7 +2220,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 17.8,
             "Tmax": 26.3,
             "sati": [
@@ -2546,7 +2546,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 17.2,
             "Tmax": 25.8,
             "sati": [
@@ -2872,7 +2872,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 12.1,
             "Tmax": 29.7,
             "sati": [
@@ -3198,7 +3198,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 15.7,
             "Tmax": 34.8,
             "sati": [
@@ -3524,7 +3524,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 10.0,
             "Tmax": 30.8,
             "sati": [
@@ -3850,7 +3850,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 7.7,
             "Tmax": 26.6,
             "sati": [
@@ -4176,7 +4176,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 9.7,
             "Tmax": 27.6,
             "sati": [
@@ -4502,7 +4502,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 7.8,
             "Tmax": 26.3,
             "sati": [
@@ -4828,7 +4828,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 6.5,
             "Tmax": 26.1,
             "sati": [
@@ -5154,7 +5154,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 7.9,
             "Tmax": 27.9,
             "sati": [
@@ -5480,7 +5480,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 6.3,
             "Tmax": 25.3,
             "sati": [
@@ -5806,7 +5806,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 11.4,
             "Tmax": 26.8,
             "sati": [
@@ -6132,7 +6132,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 9.9,
             "Tmax": 29.0,
             "sati": [
@@ -6458,7 +6458,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 10.3,
             "Tmax": 29.1,
             "sati": [
@@ -6784,7 +6784,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 9.2,
             "Tmax": 26.5,
             "sati": [
@@ -7110,7 +7110,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 9.1,
             "Tmax": 30.1,
             "sati": [
@@ -7436,7 +7436,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 8.5,
             "Tmax": 23.8,
             "sati": [
@@ -7762,7 +7762,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 9.2,
             "Tmax": 28.3,
             "sati": [
@@ -8088,7 +8088,7 @@
             "lm": "Sun, 06 Sep 2026 06:52:05 GMT"
           },
           {
-            "datum": "Dan 5",
+            "datum": "Četvrtak, 2026-09-10",
             "Tmin": 18.0,
             "Tmax": 24.5,
             "sati": [
@@ -8156,7 +8156,7 @@
     ]
   },
   "model2": {
-    "updated_at": "2026-09-07T02:16:32.294968+00:00",
+    "updated_at": "2026-09-07T02:32:17.178372+00:00",
     "gradovi": [
       {
         "kod": "POD",
