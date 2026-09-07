@@ -30,7 +30,8 @@ PROGNOZA_JSON = os.path.join(DATA_DIR, "prognoza.json")
 RACPROG_JSON = os.path.join(DATA_DIR, "racprog.json")
 STATUS_JSON = os.path.join(DATA_DIR, "status.json")
 STATION_HISTORY_DIR = os.path.join(DATA_DIR, "history")
-MAX_POINTS_PER_STATION = 96
+# ~96 mjerenja/dan (15-min cadence) -> 800 ≈ 8 dana, da ima materijala za 3d/7d/Sve prikaz
+MAX_POINTS_PER_STATION = 800
 
 FIELDNAMES = ["sifra", "tip", "stanica", "datum_vrijeme", "T", "vlaga", "RR", "vjetar", "smjer_kod", "udar", "insolacija", "pritisak"]
 
@@ -551,6 +552,59 @@ def _rac_broj(s):
     except (ValueError, TypeError):
         return None
 
+# Srpski nazivi dana, indeks = Python weekday() (ponedjeljak=0 ... nedjelja=6)
+RAC_DANI = ["Ponedjeljak", "Utorak", "Srijeda", "Četvrtak", "Petak", "Subota", "Nedjelja"]
+
+def _rac_datum_iz_teksta(tekst):
+    """Izvuci datum iz reda tabele.
+
+    Primarno traži ISO datum (YYYY-MM-DD) koji je uvijek prisutan, a dan
+    u nedjelji izračuna iz samog datuma. Razlog: slovo Č (Četvrtak) sa
+    meteo.co.me stiže pokvarenim encodingom pa poređenje naziva dana
+    otkazuje i 5. dan spadne na rezervu "Dan 5".
+    """
+    if not tekst:
+        return None
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", tekst)
+    if not m:
+        return None
+    try:
+        from datetime import date as _date
+        d = _date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    except ValueError:
+        return None
+    return f"{RAC_DANI[d.weekday()]}, {d.isoformat()}"
+
+def _rac_iso(datum_str):
+    m = re.search(r"(\d{4}-\d{2}-\d{2})", datum_str or "")
+    return m.group(1) if m else None
+
+def _popuni_datume(dani_po_indeksu):
+    """Dopuni datume koji su ostali bez ISO datuma ("Dan N").
+
+    dan_i indeksi 1..5 su uzastopni dani, pa se nedostajući datum izvede
+    iz najbližeg važećeg susjeda (npr. E5 = E4 + 1 dan). Vraća listu
+    sortiranu po datumu."""
+    anchor_i, anchor_iso = None, None
+    for i in sorted(dani_po_indeksu.keys()):
+        iso = _rac_iso((dani_po_indeksu[i] or {}).get("datum"))
+        if iso:
+            anchor_i, anchor_iso = i, iso
+            break
+    if anchor_iso:
+        try:
+            from datetime import date as _date, timedelta as _td
+            y, mo, dy = [int(x) for x in anchor_iso.split("-")]
+            anchor_d = _date(y, mo, dy)
+            for i, day in dani_po_indeksu.items():
+                if not _rac_iso((day or {}).get("datum")) and isinstance(day, dict):
+                    d = anchor_d + _td(days=i - anchor_i)
+                    day["datum"] = f"{RAC_DANI[d.weekday()]}, {d.isoformat()}"
+        except (ValueError, TypeError):
+            pass
+    return [dani_po_indeksu[i] for i in sorted(dani_po_indeksu.keys())
+            if isinstance(dani_po_indeksu.get(i), dict)]
+
 def parse_racprog_dan(html):
     rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S)
     datum = None
@@ -563,9 +617,8 @@ def parse_racprog_dan(html):
             continue
         cells = [re.sub(r"<[^>]+>", " ", c).strip() for c in raw_cells]
         if datum is None:
-            dm = re.search(r"(ponedjeljak|utorak|srijeda|četvrtak|petak|subota|nedjelja),\s*\d{4}-\d{2}-\d{2}", " ".join(cells), re.I)
-            if dm:
-                datum = dm.group(0)
+            datum = _rac_datum_iz_teksta(" ".join(cells))
+            if datum:
                 continue
         if len(cells) >= 2 and cells[0].lower() == "tmin":
             tmin = _rac_broj(cells[1])
@@ -598,7 +651,12 @@ def _fetch_rac_day(session, base_url, suffix, kod, naziv, dan_i, prev_day):
         if r.status_code == 304:
             return (kod, naziv, dan_i, prev_day)
         r.raise_for_status()
-        text = r.text
+        # Eksplicitno dekodiranje: stranice modela miješaju utf-8 i windows-1250.
+        # Pogrešan charset lomi slovo Č (Četvrtak) i parser gubi datum.
+        try:
+            text = r.content.decode("utf-8")
+        except UnicodeDecodeError:
+            text = r.content.decode("windows-1250", errors="replace")
         new_lm = r.headers.get("Last-Modified")
     except Exception as e:
         print(f"  ! Greška {kod} dan {dan_i}: {e}")
@@ -622,7 +680,9 @@ def fetch_racprog(session, previous):
                 continue
         prev_idx = {}
         for g in prev_model.get("gradovi", []):
-            for i, d in enumerate(g.get("dani", [])):
+            # dan_i indeksi su 1-based (range(1, 6) ispod) pa i keš mora biti 1-based;
+            # inače If-Modified-Since za dan N nosi Last-Modified od dana N-1.
+            for i, d in enumerate(g.get("dani", []), start=1):
                 prev_idx[(g["kod"], i)] = d
         results = []
         with ThreadPoolExecutor(max_workers=3) as ex:
@@ -638,7 +698,9 @@ def fetch_racprog(session, previous):
             by_kod[kod]["dani"][dan_i] = day
         gradovi = []
         for kod, obj in by_kod.items():
-            dani = [obj["dani"][i] for i in sorted(obj["dani"].keys())]
+            dani = _popuni_datume(obj["dani"])
+            # Sortiraj po stvarnom datumu da redoslijed ne zavisi od dan_i indeksa
+            dani.sort(key=lambda d: (_rac_iso(d.get("datum")) or ""))
             if dani:
                 gradovi.append({"kod": kod, "naziv": obj["naziv"], "dani": dani})
         rezultat[model_key] = {"updated_at": now_iso(), "gradovi": gradovi}
