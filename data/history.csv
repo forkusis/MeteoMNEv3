@@ -24711,3 +24711,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,09.09.2026 01:00,11.52,84.1,,,,,,
 02CTNJ10,glavna,Cetinje,09.09.2026 01:00,13.60,71.0,0.00,0.00,32,,0.1,941.6
 02NJGV30,klimatološka,Njegovuđa,09.09.2026 01:00,10.54,89.9,,,,,,
+02BERA20,glavna,Berane,09.09.2026 01:00,13.37,72.2,0.00,0.00,32,0.50,,936.81
+02CTNJ10,glavna,Cetinje,09.09.2026 01:20,13.40,74.0,0.00,0.20,12,,0.0,941.5
+02LKOT20,klimatološka,Luka Kotor,09.09.2026 00:46,23.10,56.0,,0.80,,1.50,,1015.3
+02PLZN20,klimatološka,Pluzine,09.09.2026 01:00,17.97,96.6,0.00,0.00,32,1.10,0.0,931.71
+02CRKV30,klimatološka,Crkvice,09.09.2026 01:00,16.17,74.0,,,,,,
+02KOSA30,klimatološka,Kosanica,09.09.2026 01:00,6.29,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,09.09.2026 01:00,12.07,91.1,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,09.09.2026 01:00,13.39,84.4,,,,,0.0,947.04
+02DDOB30,klimatološka,Donja Dobrilovina,09.09.2026 01:00,13.60,90.6,,,,,,
+02PLJV10,glavna,Pljevlja,09.09.2026 01:20,12.30,57.0,0.00,0.20,32,,0.0,926.1
+02BOAN30,klimatološka,Boan,09.09.2026 01:00,11.94,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,09.09.2026 01:20,21.30,51.0,0.00,1.00,24,,0.0,1007.7
+02BIST20,klimatološka,Bistrica,09.09.2026 01:00,12.40,77.6,0.00,0.40,32,0.50,0.5,
+02BAR010,glavna,Bar,09.09.2026 01:20,23.40,68.0,0.00,1.20,8,,1.1,1011.9
+02KOLS10,glavna,Kolašin,09.09.2026 01:20,11.20,87.0,0.00,0.40,18,,0.1,909.9
+02VELM20,klimatološka,Velimlje,09.09.2026 01:00,15.10,78.2,0.00,0.20,4,0.30,2.3,
+02ZBLJ10,glavna,Žabljak,09.09.2026 01:20,11.50,69.0,0.00,0.40,18,,0.0,857.0
+02GOBU30,klimatološka,Gornja Bukovica,09.09.2026 01:00,8.77,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,09.09.2026 01:00,12.35,88.2,,,,,,
+02UBLI20,klimatološka,Ubli,09.09.2026 01:00,20.07,,,,,,,
+02KUKO30,klimatološka,Kučka korita,09.09.2026 01:00,11.74,66.3,0.00,,,,,
+02BUDV20,klimatološka,Budva,09.09.2026 01:00,23.39,75.0,,,,,0.21,1011.46
+02IVKO30,klimatološka,Ivanova korita,09.09.2026 01:00,13.48,63.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,09.09.2026 01:20,24.20,49.0,0.00,0.80,4,,0.0,1006.5
+02ULCN10,glavna,Ulcinj,09.09.2026 01:20,21.80,92.0,0.00,0.30,30,,0.0,1012.2
+02GRAD30,klimatološka,Gradac,09.09.2026 01:00,8.82,89.4,,,,,,
+02NIKS10,glavna,Nikšić,09.09.2026 01:20,17.80,57.0,0.00,1.60,2,,0.0,940.8
