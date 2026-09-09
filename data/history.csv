@@ -25374,3 +25374,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,09.09.2026 11:00,30.42,36.7,,,,,,
 02STAB30,klimatološka,Stabna,09.09.2026 11:00,22.75,53.5,,,,,,
 02BAR010,glavna,Bar,09.09.2026 11:00,28.70,60.0,0.00,1.80,24,,527.2,1011.3
+02BUDV20,klimatološka,Budva,09.09.2026 11:00,29.01,69.8,,,,,801.27,1010.95
+02KOSA30,klimatološka,Kosanica,09.09.2026 11:00,25.47,41.5,,,,,,
+02BERA20,glavna,Berane,09.09.2026 11:00,22.20,47.2,0.00,0.80,18,1.70,,935.64
+02CTNJ10,glavna,Cetinje,09.09.2026 11:20,28.90,34.0,0.00,0.40,8,,778.2,940.3
+02PLJV10,glavna,Pljevlja,09.09.2026 11:20,22.70,40.0,0.00,1.10,12,,491.2,924.6
+02HNOV10,glavna,Herceg Novi,09.09.2026 11:20,29.20,63.0,0.00,3.30,10,,736.7,1007.2
+02GOBU30,klimatološka,Gornja Bukovica,09.09.2026 11:00,24.22,40.0,,,,,,
+02NIKS10,glavna,Nikšić,09.09.2026 11:20,27.50,36.0,0.00,1.80,14,,578.1,939.6
+02PDGR10,glavna,Podgorica,09.09.2026 11:20,30.80,29.0,0.00,2.40,12,4.60,667.9,1005.5
+02BPLJ20,klimatološka,Bijelo Polje,09.09.2026 11:00,20.70,57.8,,,,,558.87,945.91
+02IVKO30,klimatološka,Ivanova korita,09.09.2026 11:00,23.27,51.3,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,09.09.2026 11:00,21.28,63.6,,,,,,
+02BAR010,glavna,Bar,09.09.2026 11:20,29.10,60.0,0.00,2.80,26,,712.7,1011.2
+02BIST20,klimatološka,Bistrica,09.09.2026 11:00,22.70,49.4,0.00,1.80,28,2.60,607.5,
+02GRAD30,klimatološka,Gradac,09.09.2026 11:00,22.14,44.8,,,,,,
+02ULCN10,glavna,Ulcinj,09.09.2026 11:20,30.20,62.0,0.00,3.20,18,,529.7,1011.4
+02LKOT20,klimatološka,Luka Kotor,09.09.2026 10:46,27.00,59.0,,0.40,,1.60,,1014.6
+02VELM20,klimatološka,Velimlje,09.09.2026 11:00,26.70,34.5,0.00,1.60,16,3.70,543.3,
+02UBLI20,klimatološka,Ubli,09.09.2026 11:00,27.17,,,,,,,
+02KUKO30,klimatološka,Kučka korita,09.09.2026 11:00,23.13,41.3,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,09.09.2026 11:00,25.16,48.3,,,,,,
+02KOLS10,glavna,Kolašin,09.09.2026 11:20,25.30,38.0,0.00,1.90,10,3.00,671.0,908.0
+02ZBLJ10,glavna,Žabljak,09.09.2026 11:20,23.60,31.0,0.00,3.80,8,,440.6,855.9
+02BOAN30,klimatološka,Boan,09.09.2026 11:00,23.67,49.7,,,,,,
