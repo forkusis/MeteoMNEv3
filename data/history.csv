@@ -25764,3 +25764,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,09.09.2026 17:00,29.40,28.0,0.00,0.40,6,,340.1,938.2
 02STAB30,klimatološka,Stabna,09.09.2026 17:00,28.70,34.0,,,,,,
 02SCPO30,klimatološka,Šćepan Polje,09.09.2026 17:00,29.24,38.1,,,,,,
+02ZBLJ10,glavna,Žabljak,09.09.2026 17:20,23.70,31.0,0.00,2.20,6,,246.3,854.5
+02KOSA30,klimatološka,Kosanica,09.09.2026 17:00,25.18,48.1,,,,,,
+02IVKO30,klimatološka,Ivanova korita,09.09.2026 17:00,23.11,31.1,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,09.09.2026 17:00,22.93,45.5,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,09.09.2026 17:00,28.99,39.9,,,,,85.79,942.01
+02DDOB30,klimatološka,Donja Dobrilovina,09.09.2026 17:00,27.13,41.6,,,,,,
+02LKOT20,klimatološka,Luka Kotor,09.09.2026 16:46,30.30,51.0,,1.40,,3.80,,1012.1
+02PLJV10,glavna,Pljevlja,09.09.2026 17:20,25.20,44.0,0.00,1.80,32,,20.7,922.5
+02PDGR10,glavna,Podgorica,09.09.2026 17:20,32.90,30.0,0.00,2.60,14,,226.3,1002.5
+02BOAN30,klimatološka,Boan,09.09.2026 17:00,21.97,76.2,,,,,,
+02VELM20,klimatološka,Velimlje,09.09.2026 17:00,28.70,42.6,0.00,2.10,22,3.50,373.7,
+02CRKV30,klimatološka,Crkvice,09.09.2026 17:00,25.05,76.4,,,,,,
+02ULCN10,glavna,Ulcinj,09.09.2026 17:20,29.50,55.0,0.00,3.60,22,,249.9,1008.9
+02NIKS10,glavna,Nikšić,09.09.2026 17:20,29.40,29.0,0.00,4.30,16,,324.6,937.3
+02CTNJ10,glavna,Cetinje,09.09.2026 17:20,30.10,26.0,0.00,0.30,16,,278.3,938.3
+02UBLI20,klimatološka,Ubli,09.09.2026 17:00,30.20,,,,,,,
+02HNOV10,glavna,Herceg Novi,09.09.2026 17:20,28.80,61.0,0.00,3.60,6,,223.2,1004.8
+02KUKO30,klimatološka,Kučka korita,09.09.2026 17:00,23.67,45.4,0.00,,,,,
+02GRAD30,klimatološka,Gradac,09.09.2026 17:00,26.33,40.1,,,,,,
+02BIST20,klimatološka,Bistrica,09.09.2026 17:00,29.00,27.9,0.00,2.30,16,3.80,241.9,
+02BERA20,glavna,Berane,09.09.2026 17:00,19.79,82.0,0.12,2.40,12,7.60,,933.04
+02BAR010,glavna,Bar,09.09.2026 17:20,29.00,69.0,0.00,1.80,24,,264.8,1008.8
+02KOLS10,glavna,Kolašin,09.09.2026 17:20,25.80,37.0,0.00,0.20,10,,122.7,906.2
+02BUDV20,klimatološka,Budva,09.09.2026 17:00,28.85,73.4,,,,,340.56,1008.49
