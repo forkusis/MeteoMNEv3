@@ -25569,3 +25569,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,09.09.2026 14:00,30.00,63.0,0.00,2.70,10,,627.3,1006.3
 02STIT30,klimatološka,Štitarica,09.09.2026 14:00,27.11,37.7,,,,,,
 02MATE30,klimatološka,Matesevo,09.09.2026 14:00,27.77,37.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,09.09.2026 14:20,25.30,24.0,0.00,0.50,8,,572.6,855.0
+02KOSA30,klimatološka,Kosanica,09.09.2026 14:00,26.11,42.3,,,,,,
+02UBLI20,klimatološka,Ubli,09.09.2026 14:00,30.89,,,,,,,
+02ULCN10,glavna,Ulcinj,09.09.2026 14:20,28.70,62.0,0.00,4.30,22,,561.9,1010.2
+02BOAN30,klimatološka,Boan,09.09.2026 14:00,29.75,34.9,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,09.09.2026 14:00,26.56,55.4,,,,,,
+02IVKO30,klimatološka,Ivanova korita,09.09.2026 14:00,24.14,67.4,0.00,,,,,
+02CTNJ10,glavna,Cetinje,09.09.2026 14:20,30.00,38.0,0.00,0.10,2,,682.9,939.2
+02BPLJ20,klimatološka,Bijelo Polje,09.09.2026 14:00,29.26,38.8,,,,,673.19,943.35
+02VELM20,klimatološka,Velimlje,09.09.2026 14:00,29.20,35.7,0.00,5.50,26,7.50,707.5,
+02PLJV10,glavna,Pljevlja,09.09.2026 14:20,31.00,21.0,0.00,0.80,18,,513.6,922.6
+02BERA20,glavna,Berane,09.09.2026 14:00,30.11,32.8,0.00,1.70,30,4.40,,933.33
+02LKOT20,klimatološka,Luka Kotor,09.09.2026 13:46,29.10,66.0,,1.90,,4.90,,1013.2
+02NIKS10,glavna,Nikšić,09.09.2026 14:20,29.70,28.0,0.00,6.20,16,,590.7,938.2
+02GRAD30,klimatološka,Gradac,09.09.2026 14:00,31.70,27.6,,,,,,
+02CRKV30,klimatološka,Crkvice,09.09.2026 14:00,25.36,77.4,,,,,,
+02HNOV10,glavna,Herceg Novi,09.09.2026 14:20,29.90,62.0,0.00,1.60,10,,635.9,1005.9
+02GOBU30,klimatološka,Gornja Bukovica,09.09.2026 14:00,25.89,35.6,,,,,,
+02KOLS10,glavna,Kolašin,09.09.2026 14:20,27.70,35.0,0.00,2.20,22,,351.8,907.0
+02BIST20,klimatološka,Bistrica,09.09.2026 14:00,28.70,31.7,0.00,0.70,18,1.50,247.1,
+02KUKO30,klimatološka,Kučka korita,09.09.2026 14:00,25.22,38.8,0.00,,,,,
+02BAR010,glavna,Bar,09.09.2026 14:20,29.30,70.0,0.00,1.90,22,,710.8,1010.2
+02BUDV20,klimatološka,Budva,09.09.2026 14:00,29.24,69.9,,,,,769.29,1009.94
+02PDGR10,glavna,Podgorica,09.09.2026 14:20,33.60,26.0,0.00,1.40,14,,613.7,1003.8
