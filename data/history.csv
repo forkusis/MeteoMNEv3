@@ -27856,3 +27856,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,11.09.2026 01:00,20.30,75.0,0.00,1.40,2,,0.6,1014.3
 02POSC30,klimatološka,Pošćenje,11.09.2026 01:00,12.08,94.4,,,,,,
 02DANL20,klimatološka,Danilovgrad,11.09.2026 01:00,19.70,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,11.09.2026 01:00,14.16,93.6,,,,,,
+02ULCN10,glavna,Ulcinj,11.09.2026 01:20,20.70,72.0,0.00,0.50,30,,0.0,1014.3
+02BIST20,klimatološka,Bistrica,11.09.2026 01:00,13.00,78.3,0.00,0.10,2,0.20,0.5,
+02PLZN20,klimatološka,Pluzine,11.09.2026 01:00,17.68,92.8,0.00,0.00,32,0.70,361.21,933.72
+02PLJV10,glavna,Pljevlja,11.09.2026 01:20,14.80,86.0,0.00,0.90,24,,3.3,927.9
+02GRAD30,klimatološka,Gradac,11.09.2026 01:00,13.65,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,11.09.2026 01:20,11.90,78.0,0.00,0.30,28,,0.1,858.9
+02PDGR10,glavna,Podgorica,11.09.2026 01:20,25.30,50.0,0.00,0.60,4,,0.6,1008.4
+02KOSA30,klimatološka,Kosanica,11.09.2026 01:00,7.56,100.0,,,,,,
+02KOLS10,glavna,Kolašin,11.09.2026 01:20,11.80,92.0,0.00,0.50,18,,0.0,912.3
+02HNOV10,glavna,Herceg Novi,11.09.2026 01:20,22.70,62.0,0.00,0.50,2,,0.0,1009.7
+02BOAN30,klimatološka,Boan,11.09.2026 01:00,11.98,100.0,,,,,,
+02BUDV20,klimatološka,Budva,11.09.2026 01:00,24.32,66.0,,,,,0.0,1013.61
+02IVKO30,klimatološka,Ivanova korita,11.09.2026 01:00,13.93,67.2,0.00,,,,,
+02UBLI20,klimatološka,Ubli,11.09.2026 01:00,22.02,,,,,,,
+02KUKO30,klimatološka,Kučka korita,11.09.2026 01:00,11.62,86.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,11.09.2026 01:20,18.80,56.0,0.00,2.50,2,,0.8,942.8
+02LKOT20,klimatološka,Luka Kotor,11.09.2026 00:46,23.90,57.0,,1.30,,2.60,,1017.6
+02GOBU30,klimatološka,Gornja Bukovica,11.09.2026 01:00,8.19,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,11.09.2026 01:00,15.57,89.4,,,,,,
+02BERA20,glavna,Berane,11.09.2026 01:00,14.59,88.2,0.00,0.00,32,0.70,,939.36
+02VELM20,klimatološka,Velimlje,11.09.2026 01:00,16.10,74.5,0.00,0.70,4,1.10,1.4,
+02CTNJ10,glavna,Cetinje,11.09.2026 01:20,14.10,84.0,0.00,0.50,32,0.60,0.0,943.7
+02BAR010,glavna,Bar,11.09.2026 01:20,23.70,52.0,0.00,1.40,6,,0.0,1013.8
+02BPLJ20,klimatološka,Bijelo Polje,11.09.2026 01:00,15.63,87.0,,,,,1.4,949.27
+02KOVR30,klimatološka,Kovren,11.09.2026 01:00,16.39,93.2,0.00,,,,,
