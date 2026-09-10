@@ -27276,3 +27276,26 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STAB30,klimatološka,Stabna,10.09.2026 16:00,30.53,30.3,,,,,,
 02BAR010,glavna,Bar,10.09.2026 16:00,30.10,62.0,0.00,2.20,24,3.30,459.0,1012.9
 02NIKS10,glavna,Nikšić,10.09.2026 16:00,30.50,27.0,0.00,4.20,16,,395.1,941.3
+02BUDV20,klimatološka,Budva,10.09.2026 16:00,31.58,40.1,,,,,517.08,1012.21
+02BOAN30,klimatološka,Boan,10.09.2026 16:00,29.30,29.7,,,,,,
+02CRKV30,klimatološka,Crkvice,10.09.2026 16:00,25.86,63.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,10.09.2026 16:00,24.84,37.4,0.00,,,,,
+02GRAD30,klimatološka,Gradac,10.09.2026 16:00,32.09,27.9,,,,,,
+02ULCN10,glavna,Ulcinj,10.09.2026 16:20,32.70,31.0,0.00,4.60,22,,449.6,1012.8
+02PLZN20,klimatološka,Pluzine,10.09.2026 16:00,30.72,33.3,0.00,1.90,26,6.60,474.63,931.39
+02BPLJ20,klimatološka,Bijelo Polje,10.09.2026 16:00,32.93,27.2,,,,,383.06,945.78
+02NIKS10,glavna,Nikšić,10.09.2026 16:20,30.30,28.0,0.00,4.80,16,,357.7,941.0
+02LKOT20,klimatološka,Luka Kotor,10.09.2026 15:46,30.90,42.0,,,,,,1015.7
+02PDGR10,glavna,Podgorica,10.09.2026 16:20,34.60,27.0,0.00,1.30,14,,404.5,1006.4
+02BIST20,klimatološka,Bistrica,10.09.2026 16:00,31.90,20.6,0.00,3.70,20,5.20,437.8,
+02PLJV10,glavna,Pljevlja,10.09.2026 16:10,31.80,21.0,0.00,0.80,20,,427.7,925.6
+02BERA20,glavna,Berane,10.09.2026 16:00,31.45,31.2,0.00,2.10,24,5.60,,936.2
+02HNOV10,glavna,Herceg Novi,10.09.2026 16:20,30.40,62.0,0.00,2.60,10,,292.5,1008.4
+02IVKO30,klimatološka,Ivanova korita,10.09.2026 16:00,23.50,51.1,0.00,,,,,
+02VELM20,klimatološka,Velimlje,10.09.2026 16:00,29.50,38.4,0.00,2.60,26,3.30,487.0,
+02BAR010,glavna,Bar,10.09.2026 16:20,30.50,60.0,0.00,2.20,26,,409.5,1012.8
+02GOBU30,klimatološka,Gornja Bukovica,10.09.2026 16:00,25.70,37.8,,,,,,
+02CTNJ10,glavna,Cetinje,10.09.2026 16:20,30.70,33.0,0.00,0.60,6,,408.8,941.6
+02DDOB30,klimatološka,Donja Dobrilovina,10.09.2026 16:00,30.35,28.6,,,,,,
+02UBLI20,klimatološka,Ubli,10.09.2026 16:00,30.81,,,,,,,
+02KOSA30,klimatološka,Kosanica,10.09.2026 16:00,27.72,34.4,,,,,,
