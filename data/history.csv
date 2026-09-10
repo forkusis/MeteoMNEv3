@@ -27724,3 +27724,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,10.09.2026 23:00,15.32,98.2,,,,,,
 02PDGR10,glavna,Podgorica,10.09.2026 23:00,25.90,51.0,0.00,0.80,2,,0.9,1008.4
 02ZBLJ10,glavna,Žabljak,10.09.2026 23:00,14.20,69.0,0.00,1.30,22,,0.1,859.6
+02IVKO30,klimatološka,Ivanova korita,10.09.2026 23:00,15.03,73.6,0.00,,,,,
+02PLJV10,glavna,Pljevlja,10.09.2026 23:20,17.70,77.0,0.00,0.30,26,,0.0,928.4
+02KUKO30,klimatološka,Kučka korita,10.09.2026 23:00,11.83,82.1,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,10.09.2026 23:00,10.17,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,10.09.2026 23:00,19.91,79.1,0.00,0.70,16,1.80,4.93,934.04
+02VELM20,klimatološka,Velimlje,10.09.2026 23:00,17.60,71.7,0.00,0.40,4,0.60,1.2,
+02DDOB30,klimatološka,Donja Dobrilovina,10.09.2026 23:00,16.52,82.1,,,,,,
+02ULCN10,glavna,Ulcinj,10.09.2026 23:20,20.80,66.0,0.00,0.80,28,,0.0,1014.4
+02GOBU30,klimatološka,Gornja Bukovica,10.09.2026 23:00,10.22,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,10.09.2026 23:00,22.68,,,,,,,
+02BOAN30,klimatološka,Boan,10.09.2026 23:00,13.68,93.1,,,,,,
+02NIKS10,glavna,Nikšić,10.09.2026 23:20,20.50,55.0,0.00,0.60,14,,0.0,943.2
+02GRAD30,klimatološka,Gradac,10.09.2026 23:00,16.38,90.9,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,10.09.2026 23:00,17.42,79.0,,,,,1.4,949.04
+02LKOT20,klimatološka,Luka Kotor,10.09.2026 22:46,24.70,60.0,,0.40,,1.40,,1017.5
+02BUDV20,klimatološka,Budva,10.09.2026 23:00,25.76,50.5,,,,,0.0,1013.79
+02BAR010,glavna,Bar,10.09.2026 23:20,24.90,52.0,0.00,0.90,6,,0.0,1014.4
+02HNOV10,glavna,Herceg Novi,10.09.2026 23:20,23.60,56.0,0.00,0.50,4,,0.0,1010.0
+02KOLS10,glavna,Kolašin,10.09.2026 23:20,13.50,86.0,0.00,0.00,12,,0.0,912.3
+02ZBLJ10,glavna,Žabljak,10.09.2026 23:20,13.80,71.0,0.00,1.10,22,,0.3,859.6
+02BERA20,glavna,Berane,10.09.2026 23:00,16.92,80.1,0.00,0.00,32,1.00,,939.19
+02PDGR10,glavna,Podgorica,10.09.2026 23:20,25.80,50.0,0.00,1.20,2,,0.0,1008.6
+02BIST20,klimatološka,Bistrica,10.09.2026 23:00,15.90,65.6,0.00,0.80,16,1.00,1.0,
+02CTNJ10,glavna,Cetinje,10.09.2026 23:20,15.70,79.0,0.00,0.10,8,,0.5,943.9
+02CRKV30,klimatološka,Crkvice,10.09.2026 23:00,16.22,94.0,,,,,,
