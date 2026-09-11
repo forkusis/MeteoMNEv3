@@ -28033,3 +28033,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,11.09.2026 03:50,23.70,57.0,0.00,1.30,12,,0.0,1013.7
 02HNOV10,glavna,Herceg Novi,11.09.2026 03:50,22.70,65.0,0.00,0.30,24,,0.1,1009.2
 02PLJV10,glavna,Pljevlja,11.09.2026 03:50,13.20,92.0,0.00,1.00,2,,0.7,927.4
+02POSC30,klimatološka,Pošćenje,11.09.2026 04:00,9.94,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,11.09.2026 04:00,17.90,,,,,,,
+02MAMO30,klimatološka,Manastir Morača,11.09.2026 04:00,13.67,93.9,,,,,,
+02LKOT20,klimatološka,Luka Kotor,11.09.2026 03:31,23.60,62.0,,0.70,,1.30,,1017.2
+02PLJV10,glavna,Pljevlja,11.09.2026 04:00,13.20,90.0,0.00,0.90,24,,0.8,927.4
+02SCPO30,klimatološka,Šćepan Polje,11.09.2026 04:00,12.51,100.0,,,,,,
+02PDGR10,glavna,Podgorica,11.09.2026 04:00,24.00,53.0,0.00,1.60,28,,0.0,1008.5
+02CTNJ10,glavna,Cetinje,11.09.2026 04:00,13.10,85.0,0.00,0.20,8,,0.7,943.4
+02STIT30,klimatološka,Štitarica,11.09.2026 04:00,10.50,100.0,,,,,,
+02STAB30,klimatološka,Stabna,11.09.2026 04:00,13.67,95.7,,,,,,
+02VIRP20,klimatološka,Virpazar,11.09.2026 04:00,17.70,79.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,11.09.2026 04:00,22.70,66.0,0.00,1.10,22,,1.0,1009.3
+02NIKS10,glavna,Nikšić,11.09.2026 04:00,17.10,65.0,0.00,0.40,18,,0.0,942.8
+02KOLS10,glavna,Kolašin,11.09.2026 04:00,10.20,96.0,0.00,0.40,20,,0.9,911.7
+02BAR010,glavna,Bar,11.09.2026 04:00,23.60,58.0,0.00,0.80,10,,0.4,1013.7
+02ULCN10,glavna,Ulcinj,11.09.2026 04:00,21.50,78.0,0.00,1.20,10,,0.0,1014.2
+02NJGV30,klimatološka,Njegovuđa,11.09.2026 04:00,9.81,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,11.09.2026 04:00,13.90,65.0,0.00,1.80,14,,0.0,858.2
+02VELK30,klimatološka,Velika,11.09.2026 04:00,11.58,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,11.09.2026 04:00,9.09,96.0,0.00,,,,,
