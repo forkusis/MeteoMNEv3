@@ -28583,3 +28583,26 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,11.09.2026 12:00,24.37,47.7,,,,,,
 02PDGR10,glavna,Podgorica,11.09.2026 12:00,32.10,32.0,0.00,1.20,16,,693.9,1009.7
 02VIRP20,klimatološka,Virpazar,11.09.2026 12:00,30.30,46.0,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,11.09.2026 12:00,26.63,49.0,,,,,,
+02VELM20,klimatološka,Velimlje,11.09.2026 12:00,26.90,50.3,0.00,4.90,12,9.80,660.6,
+02CRKV30,klimatološka,Crkvice,11.09.2026 12:00,23.07,95.1,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,11.09.2026 12:00,28.72,45.4,,,,,735.31,948.25
+02GOBU30,klimatološka,Gornja Bukovica,11.09.2026 12:00,23.31,57.8,,,,,,
+02HNOV10,glavna,Herceg Novi,11.09.2026 12:20,31.00,63.0,0.00,1.80,14,,810.2,1011.2
+02NIKS10,glavna,Nikšić,11.09.2026 12:20,28.10,40.0,0.00,7.30,16,,787.1,943.2
+02LKOT20,klimatološka,Luka Kotor,11.09.2026 11:46,30.40,50.0,,2.30,,5.80,,1018.4
+02CTNJ10,glavna,Cetinje,11.09.2026 12:20,28.90,42.0,0.00,0.90,8,,736.4,944.4
+02PDGR10,glavna,Podgorica,11.09.2026 12:20,32.70,33.0,0.00,2.40,16,,769.7,1009.6
+02PLJV10,glavna,Pljevlja,11.09.2026 12:20,28.60,33.0,0.00,6.20,18,,399.4,927.3
+02BAR010,glavna,Bar,11.09.2026 12:20,30.00,64.0,0.00,2.20,20,,726.3,1015.6
+02KUKO30,klimatološka,Kučka korita,11.09.2026 12:00,22.46,54.8,0.00,,,,,
+02ULCN10,glavna,Ulcinj,11.09.2026 12:20,30.80,59.0,0.00,2.00,18,,779.2,1015.9
+02KOLS10,glavna,Kolašin,11.09.2026 12:20,26.60,44.0,0.00,2.30,18,,711.2,911.8
+02GRAD30,klimatološka,Gradac,11.09.2026 12:00,26.47,48.7,,,,,,
+02BIST20,klimatološka,Bistrica,11.09.2026 12:00,29.10,35.1,0.00,3.70,18,5.40,886.7,
+02IVKO30,klimatološka,Ivanova korita,11.09.2026 12:00,22.86,51.6,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,11.09.2026 12:00,25.11,57.4,,,,,,
+02ZBLJ10,glavna,Žabljak,11.09.2026 12:20,21.80,46.0,0.00,5.50,14,,296.0,859.1
+02BERA20,glavna,Berane,11.09.2026 12:00,29.58,40.0,0.00,0.60,32,2.30,,938.28
+02UBLI20,klimatološka,Ubli,11.09.2026 12:00,29.57,,,,,,,
+02BOAN30,klimatološka,Boan,11.09.2026 12:00,26.32,55.9,,,,,,
