@@ -29037,3 +29037,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02POSC30,klimatološka,Pošćenje,11.09.2026 19:00,20.70,78.3,,,,,,
 02VELK30,klimatološka,Velika,11.09.2026 19:00,19.69,78.0,,,,,,
 02ULCN10,glavna,Ulcinj,11.09.2026 19:00,27.70,84.0,0.00,0.90,16,,7.3,1014.9
+02ZBLJ10,glavna,Žabljak,11.09.2026 19:20,17.50,61.0,0.00,2.80,14,,2.1,859.5
+02BUDV20,klimatološka,Budva,11.09.2026 19:00,27.58,88.4,,,,,0.0,1014.26
+02KUKO30,klimatološka,Kučka korita,11.09.2026 19:00,18.51,59.9,0.00,,,,,
+02VELM20,klimatološka,Velimlje,11.09.2026 19:00,21.20,68.7,0.00,1.50,18,1.80,3.0,
+02HNOV10,glavna,Herceg Novi,11.09.2026 19:20,26.30,69.0,0.00,0.70,30,,2.8,1011.0
+02KOSA30,klimatološka,Kosanica,11.09.2026 19:00,19.61,83.6,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,11.09.2026 19:00,18.95,88.5,,,,,,
+02PDGR10,glavna,Podgorica,11.09.2026 19:20,29.80,48.0,0.00,1.80,14,,0.8,1008.9
+02CTNJ10,glavna,Cetinje,11.09.2026 19:20,22.30,61.0,0.00,0.00,18,,0.6,944.1
+02LKOT20,klimatološka,Luka Kotor,11.09.2026 18:46,26.80,79.0,,0.70,,1.30,,1018.3
+02CRKV30,klimatološka,Crkvice,11.09.2026 19:00,20.00,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,11.09.2026 19:00,21.11,80.7,,,,,,
+02BOAN30,klimatološka,Boan,11.09.2026 19:00,19.58,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,11.09.2026 19:00,24.85,53.0,,,,,3.37,948.22
+02ULCN10,glavna,Ulcinj,11.09.2026 19:20,27.00,87.0,0.00,1.00,14,,0.0,1015.1
+02IVKO30,klimatološka,Ivanova korita,11.09.2026 19:00,18.59,66.4,0.00,,,,,
+02NIKS10,glavna,Nikšić,11.09.2026 19:20,23.90,63.0,0.00,1.70,26,,0.8,943.6
+02KOLS10,glavna,Kolašin,11.09.2026 19:20,21.10,60.0,0.00,0.30,10,,1.2,912.0
+02UBLI20,klimatološka,Ubli,11.09.2026 19:00,26.43,,,,,,,
+02BAR010,glavna,Bar,11.09.2026 19:20,26.80,85.0,0.00,0.60,22,,0.3,1014.8
+02BERA20,glavna,Berane,11.09.2026 19:00,24.72,45.1,0.00,0.90,14,3.40,,938.23
+02BIST20,klimatološka,Bistrica,11.09.2026 19:00,24.60,45.5,0.00,1.70,24,2.10,1.4,
+02DDOB30,klimatološka,Donja Dobrilovina,11.09.2026 19:00,22.73,70.0,,,,,,
+02PLJV10,glavna,Pljevlja,11.09.2026 19:20,19.70,81.0,0.00,0.40,22,,0.8,928.7
