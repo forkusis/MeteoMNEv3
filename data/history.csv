@@ -29346,3 +29346,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,11.09.2026 23:16,24.80,89.0,,2.50,,4.20,,1018.9
 02KOLS10,glavna,Kolašin,11.09.2026 23:50,15.70,85.0,0.00,0.20,12,,0.0,913.2
 02PDGR10,glavna,Podgorica,11.09.2026 23:50,26.30,81.0,0.00,0.80,18,,0.0,1010.2
+02PDGR10,glavna,Podgorica,12.09.2026 00:00,26.20,81.0,0.00,0.50,20,,0.0,1010.4
+02ZBLJ10,glavna,Žabljak,12.09.2026 00:00,11.50,94.0,0.00,0.70,20,,0.5,860.6
+02STIT30,klimatološka,Štitarica,12.09.2026 00:00,16.67,97.7,,,,,,
+02CTNJ10,glavna,Cetinje,12.09.2026 00:00,18.70,96.0,0.00,0.70,24,,0.1,945.1
+02VIRP20,klimatološka,Virpazar,12.09.2026 00:00,23.60,72.0,0.00,,,,,
+02MATE30,klimatološka,Matesevo,12.09.2026 00:00,14.70,85.2,0.00,,,,,
+02MOKR30,klimatološka,Mokro,12.09.2026 00:00,13.66,96.1,,,,,,
+02HNOV10,glavna,Herceg Novi,12.09.2026 00:00,22.90,92.0,0.00,1.40,2,,2.7,1012.8
+02POSC30,klimatološka,Pošćenje,12.09.2026 00:00,13.48,100.0,,,,,,
+02NIKS10,glavna,Nikšić,12.09.2026 00:00,20.50,65.0,0.00,3.10,32,,0.0,944.7
+02SCPO30,klimatološka,Šćepan Polje,12.09.2026 00:00,16.24,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,12.09.2026 00:00,25.20,91.0,0.00,1.10,30,,0.0,1016.0
+02DANL20,klimatološka,Danilovgrad,12.09.2026 00:00,23.60,,,,,,,
+02NJGV30,klimatološka,Njegovuđa,12.09.2026 00:00,12.32,100.0,,,,,,
+02VELK30,klimatološka,Velika,12.09.2026 00:00,15.47,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,12.09.2026 00:00,20.38,78.6,,,,,,
+02KOLS10,glavna,Kolašin,12.09.2026 00:00,15.60,84.0,0.00,0.70,22,,0.9,913.3
+02PLJV10,glavna,Pljevlja,12.09.2026 00:00,14.80,94.0,0.00,0.80,2,,0.0,930.6
+02LKOT20,klimatološka,Luka Kotor,11.09.2026 23:31,24.40,90.0,,2.40,,3.90,,1019.4
+02BAR010,glavna,Bar,12.09.2026 00:00,22.70,85.0,0.00,4.90,6,,0.0,1015.8
+02STAB30,klimatološka,Stabna,12.09.2026 00:00,14.49,100.0,,,,,,
