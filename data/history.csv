@@ -30675,3 +30675,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,12.09.2026 19:50,10.60,90.0,0.00,1.10,22,,0.5,860.0
 02CTNJ10,glavna,Cetinje,12.09.2026 19:50,18.30,81.0,0.00,0.60,32,,0.3,943.9
 02HNOV10,glavna,Herceg Novi,12.09.2026 19:50,24.30,66.0,0.00,0.60,12,,0.0,1010.0
+02MATE30,klimatološka,Matesevo,12.09.2026 20:00,12.41,96.2,0.00,,,,,
+02VELK30,klimatološka,Velika,12.09.2026 20:00,12.97,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,12.09.2026 19:31,26.40,54.0,,3.00,,6.10,,1018.0
+02PLJV10,glavna,Pljevlja,12.09.2026 20:00,16.80,57.0,0.00,2.60,4,,0.0,930.9
+02HNOV10,glavna,Herceg Novi,12.09.2026 20:00,24.20,66.0,0.00,0.60,18,,0.7,1010.1
+02POSC30,klimatološka,Pošćenje,12.09.2026 20:00,13.14,86.7,,,,,,
+02ULCN10,glavna,Ulcinj,12.09.2026 20:00,23.10,67.0,0.00,4.20,4,,0.0,1015.2
+02STAB30,klimatološka,Stabna,12.09.2026 20:00,13.98,81.9,,,,,,
+02MAMO30,klimatološka,Manastir Morača,12.09.2026 20:00,16.70,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,12.09.2026 20:00,10.92,100.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,12.09.2026 20:00,10.66,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,12.09.2026 20:00,17.80,83.0,0.00,0.20,20,,0.6,943.9
+02SCPO30,klimatološka,Šćepan Polje,12.09.2026 20:00,14.86,100.0,,,,,,
+02NIKS10,glavna,Nikšić,12.09.2026 20:00,18.90,52.0,0.00,0.80,10,,0.0,943.8
+02MOKR30,klimatološka,Mokro,12.09.2026 20:00,14.07,70.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,12.09.2026 20:00,18.60,,,,,,,
+02KOLS10,glavna,Kolašin,12.09.2026 20:00,13.20,93.0,0.00,0.70,20,,0.5,913.2
+02ZBLJ10,glavna,Žabljak,12.09.2026 20:00,10.40,90.0,0.00,0.80,20,,0.0,860.1
+02PDGR10,glavna,Podgorica,12.09.2026 20:00,23.60,48.0,0.00,3.70,2,,0.2,1009.7
+02VIRP20,klimatološka,Virpazar,12.09.2026 20:00,23.40,61.0,0.00,,,,,
+02BAR010,glavna,Bar,12.09.2026 20:00,24.80,62.0,0.00,2.70,6,,0.5,1014.5
