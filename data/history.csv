@@ -30227,3 +30227,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,12.09.2026 13:00,17.62,76.2,,,,,,
 02STIT30,klimatološka,Štitarica,12.09.2026 13:00,12.73,100.0,,,,,,
 02POSC30,klimatološka,Pošćenje,12.09.2026 13:00,19.83,71.7,,,,,,
+02IVKO30,klimatološka,Ivanova korita,12.09.2026 13:00,14.10,99.6,0.00,,,,,
+02CTNJ10,glavna,Cetinje,12.09.2026 13:20,17.80,91.0,0.00,0.50,18,,178.7,944.6
+02HNOV10,glavna,Herceg Novi,12.09.2026 13:20,26.70,54.0,0.00,1.10,12,,675.0,1011.2
+02ULCN10,glavna,Ulcinj,12.09.2026 13:20,30.40,59.0,0.00,6.00,22,7.90,400.6,1014.9
+02UBLI20,klimatološka,Ubli,12.09.2026 13:00,26.01,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,12.09.2026 13:00,17.00,80.2,,,,,163.96,952.73
+02ZBLJ10,glavna,Žabljak,12.09.2026 13:20,10.00,92.0,0.00,1.50,6,,156.2,860.2
+02CRKV30,klimatološka,Crkvice,12.09.2026 13:00,17.63,100.0,,,,,,
+02BUDV20,klimatološka,Budva,12.09.2026 13:00,26.49,69.9,,,,,1014.71,1014.8
+02PLZN20,klimatološka,Pluzine,12.09.2026 13:00,16.43,90.3,0.00,9.30,32,16.30,2.0,936.3
+02KOSA30,klimatološka,Kosanica,12.09.2026 13:00,11.85,100.0,,,,,,
+02PDGR10,glavna,Podgorica,12.09.2026 13:20,29.20,47.0,0.00,2.70,14,,922.4,1009.2
+02KOVR30,klimatološka,Kovren,12.09.2026 13:00,14.04,99.9,0.00,,,,,
+02BIST20,klimatološka,Bistrica,12.09.2026 13:00,15.60,73.0,0.00,1.70,6,3.30,179.8,
+02GOBU30,klimatološka,Gornja Bukovica,12.09.2026 13:00,14.39,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,12.09.2026 13:00,25.70,38.1,0.00,3.00,26,4.80,866.1,
+02BAR010,glavna,Bar,12.09.2026 13:20,28.90,65.0,0.00,3.10,22,,720.0,1015.1
+02NIKS10,glavna,Nikšić,12.09.2026 13:20,26.60,37.0,0.00,3.40,30,,790.4,942.7
+02GRAD30,klimatološka,Gradac,12.09.2026 13:00,16.48,75.8,,,,,,
+02KUKO30,klimatološka,Kučka korita,12.09.2026 13:00,17.14,83.4,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,12.09.2026 13:00,15.08,85.6,,,,,,
+02BERA20,glavna,Berane,12.09.2026 13:00,16.53,77.8,0.00,2.50,30,6.60,,941.92
+02LKOT20,klimatološka,Luka Kotor,12.09.2026 12:46,19.80,87.0,,3.10,,5.40,,1019.1
+02KOLS10,glavna,Kolašin,12.09.2026 13:20,14.20,89.0,0.07,2.70,2,,108.2,913.2
+02BOAN30,klimatološka,Boan,12.09.2026 13:00,20.12,74.4,,,,,,
+02PLJV10,glavna,Pljevlja,12.09.2026 13:20,16.90,56.0,0.00,2.40,4,,447.4,931.6
