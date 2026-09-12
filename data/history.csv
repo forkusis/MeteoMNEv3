@@ -29631,3 +29631,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,12.09.2026 04:00,12.10,94.0,0.00,1.00,22,,0.8,860.0
 02DANL20,klimatološka,Danilovgrad,12.09.2026 04:00,21.60,,,,,,,
 02ULCN10,glavna,Ulcinj,12.09.2026 04:00,20.90,95.0,0.00,5.20,6,,0.0,1015.4
+02VELM20,klimatološka,Velimlje,12.09.2026 04:00,15.20,100.0,0.00,0.40,4,0.50,1.0,
+02UBLI20,klimatološka,Ubli,12.09.2026 04:00,19.04,,,,,,,
+02KOSA30,klimatološka,Kosanica,12.09.2026 04:00,14.10,100.0,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,12.09.2026 04:00,13.75,100.0,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,12.09.2026 04:00,14.74,95.5,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,12.09.2026 04:20,20.50,94.0,0.00,0.60,26,,0.0,1010.5
+02PLZN20,klimatološka,Pluzine,12.09.2026 04:00,15.90,100.0,0.00,0.40,20,1.10,2.0,935.85
+02LKOT20,klimatološka,Luka Kotor,12.09.2026 03:46,22.70,95.0,,0.70,,1.60,,1018.0
+02CRKV30,klimatološka,Crkvice,12.09.2026 04:00,15.06,100.0,,,,,,
+02KOLS10,glavna,Kolašin,12.09.2026 04:20,14.50,98.0,0.00,0.80,2,,0.0,912.4
+02CTNJ10,glavna,Cetinje,12.09.2026 04:20,17.30,99.0,0.00,0.30,4,,0.4,944.3
+02PLJV10,glavna,Pljevlja,12.09.2026 04:20,15.20,96.0,0.00,1.60,20,,0.5,930.3
+02GRAD30,klimatološka,Gradac,12.09.2026 04:00,14.44,100.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,12.09.2026 04:00,16.44,100.0,,,,,0.0,950.82
+02GOBU30,klimatološka,Gornja Bukovica,12.09.2026 04:00,12.65,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,12.09.2026 04:00,16.00,97.6,0.00,1.30,6,1.80,0.5,
+02NIKS10,glavna,Nikšić,12.09.2026 04:20,17.50,95.0,0.00,1.50,2,,0.9,943.6
+02ZBLJ10,glavna,Žabljak,12.09.2026 04:20,12.10,93.0,0.00,1.20,22,,0.8,859.6
+02BAR010,glavna,Bar,12.09.2026 04:20,23.20,74.0,0.00,0.60,30,,0.0,1014.5
+02PDGR10,glavna,Podgorica,12.09.2026 04:20,22.00,92.0,0.00,0.60,26,,0.0,1010.0
+02KOVR30,klimatološka,Kovren,12.09.2026 04:00,14.61,100.0,0.00,,,,,
+02BERA20,glavna,Berane,12.09.2026 04:00,14.91,100.0,0.00,0.30,32,1.00,,940.77
+02DDOB30,klimatološka,Donja Dobrilovina,12.09.2026 04:00,15.63,100.0,,,,,,
+02BUDV20,klimatološka,Budva,12.09.2026 04:00,22.23,100.0,,,,,0.0,1014.29
+02ULCN10,glavna,Ulcinj,12.09.2026 04:20,20.80,95.0,0.00,4.20,4,,0.0,1015.4
+02BOAN30,klimatološka,Boan,12.09.2026 04:00,13.91,100.0,,,,,,
