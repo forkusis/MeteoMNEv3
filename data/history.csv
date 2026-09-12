@@ -30160,3 +30160,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,12.09.2026 12:00,28.20,54.0,0.00,1.50,18,,494.9,1009.6
 02VELK30,klimatološka,Velika,12.09.2026 12:00,14.63,100.0,,,,,,
 02DANL20,klimatološka,Danilovgrad,12.09.2026 12:00,26.90,,,,,,,
+02ULCN10,glavna,Ulcinj,12.09.2026 12:20,29.50,50.0,0.00,2.90,6,,579.6,1015.3
+02CRKV30,klimatološka,Crkvice,12.09.2026 12:00,16.90,100.0,,,,,,
+02BOAN30,klimatološka,Boan,12.09.2026 12:00,18.59,82.0,,,,,,
+02CTNJ10,glavna,Cetinje,12.09.2026 12:20,19.80,92.0,0.00,0.80,32,,337.6,944.3
+02GOBU30,klimatološka,Gornja Bukovica,12.09.2026 12:00,13.98,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,12.09.2026 12:00,14.97,89.1,,,,,,
+02BIST20,klimatološka,Bistrica,12.09.2026 12:00,15.80,73.8,0.00,2.90,6,6.30,189.9,
+02NIKS10,glavna,Nikšić,12.09.2026 12:20,24.10,44.0,0.00,3.60,32,,740.1,943.2
+02PLJV10,glavna,Pljevlja,12.09.2026 12:20,16.20,51.0,0.00,2.80,4,,526.5,932.2
+02BUDV20,klimatološka,Budva,12.09.2026 12:00,29.09,68.6,,,,,1064.25,1014.9
+02BPLJ20,klimatološka,Bijelo Polje,12.09.2026 12:00,17.12,73.9,,,,,143.29,952.96
+02KOSA30,klimatološka,Kosanica,12.09.2026 12:00,10.55,100.0,,,,,,
+02BERA20,glavna,Berane,12.09.2026 12:00,16.36,82.6,0.00,2.40,32,5.70,,942.18
+02VELM20,klimatološka,Velimlje,12.09.2026 12:00,24.20,47.5,0.00,1.30,18,2.80,992.6,
+02ZBLJ10,glavna,Žabljak,12.09.2026 12:20,10.60,95.0,0.00,1.40,6,,150.9,860.4
+02LKOT20,klimatološka,Luka Kotor,12.09.2026 11:46,18.50,96.0,,7.80,,17.00,,1019.7
+02KUKO30,klimatološka,Kučka korita,12.09.2026 12:00,16.95,91.3,0.06,,,,,
+02HNOV10,glavna,Herceg Novi,12.09.2026 12:20,29.70,63.0,0.00,1.30,10,,386.0,1011.0
+02KOLS10,glavna,Kolašin,12.09.2026 12:20,16.10,76.0,0.00,2.30,2,,337.5,913.2
+02BAR010,glavna,Bar,12.09.2026 12:20,28.20,65.0,0.00,3.20,22,,848.6,1015.2
+02KOVR30,klimatološka,Kovren,12.09.2026 12:00,13.16,100.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,12.09.2026 12:20,27.80,63.0,0.00,0.80,18,,356.9,1009.6
+02GRAD30,klimatološka,Gradac,12.09.2026 12:00,15.38,84.8,,,,,,
+02IVKO30,klimatološka,Ivanova korita,12.09.2026 12:00,15.62,100.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,12.09.2026 12:00,16.16,99.4,0.00,8.60,32,13.70,2.0,936.9
+02UBLI20,klimatološka,Ubli,12.09.2026 12:00,25.78,,,,,,,
