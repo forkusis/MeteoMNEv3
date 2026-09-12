@@ -30294,3 +30294,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02POSC30,klimatološka,Pošćenje,12.09.2026 14:00,18.88,72.5,,,,,,
 02KOLS10,glavna,Kolašin,12.09.2026 14:00,14.60,84.0,0.00,2.70,2,,291.2,913.2
 02VIRP20,klimatološka,Virpazar,12.09.2026 14:00,19.40,99.0,0.40,,,,,
+02ZBLJ10,glavna,Žabljak,12.09.2026 14:20,10.30,88.0,0.00,0.80,2,,182.5,860.2
+02BUDV20,klimatološka,Budva,12.09.2026 14:00,29.73,45.0,,,,,434.86,1014.33
+02DDOB30,klimatološka,Donja Dobrilovina,12.09.2026 14:00,15.51,81.3,,,,,,
+02HNOV10,glavna,Herceg Novi,12.09.2026 14:20,28.20,50.0,0.00,1.40,10,,745.2,1011.2
+02KUKO30,klimatološka,Kučka korita,12.09.2026 14:00,15.84,85.3,0.00,,,,,
+02CTNJ10,glavna,Cetinje,12.09.2026 14:20,21.70,76.0,0.00,0.50,12,,792.5,943.8
+02IVKO30,klimatološka,Ivanova korita,12.09.2026 14:00,17.74,87.4,0.00,,,,,
+02NIKS10,glavna,Nikšić,12.09.2026 14:20,23.60,55.0,0.00,3.00,16,,235.5,942.8
+02BIST20,klimatološka,Bistrica,12.09.2026 14:00,16.20,69.9,0.00,0.70,14,1.40,166.5,
+02KOSA30,klimatološka,Kosanica,12.09.2026 14:00,12.42,98.3,,,,,,
+02VELM20,klimatološka,Velimlje,12.09.2026 14:00,24.70,43.6,0.00,2.30,28,3.70,160.1,
+02PDGR10,glavna,Podgorica,12.09.2026 14:20,26.60,62.0,0.00,2.40,2,,723.4,1009.5
+02BPLJ20,klimatološka,Bijelo Polje,12.09.2026 14:00,17.66,73.5,,,,,281.25,952.22
+02ULCN10,glavna,Ulcinj,12.09.2026 14:20,29.60,50.0,0.00,1.20,6,,784.5,1015.0
+02LKOT20,klimatološka,Luka Kotor,12.09.2026 13:46,23.00,72.0,,0.90,,1.90,,1019.2
+02KOVR30,klimatološka,Kovren,12.09.2026 14:00,14.88,93.2,0.00,,,,,
+02BOAN30,klimatološka,Boan,12.09.2026 14:00,19.22,73.9,,,,,,
+02PLZN20,klimatološka,Pluzine,12.09.2026 14:00,17.48,84.6,0.00,7.60,32,12.40,2.0,936.05
+02BAR010,glavna,Bar,12.09.2026 14:20,29.10,63.0,0.00,2.80,22,,724.5,1015.0
+02CRKV30,klimatološka,Crkvice,12.09.2026 14:00,18.40,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,12.09.2026 14:00,23.71,,,,,,,
+02KOLS10,glavna,Kolašin,12.09.2026 14:20,14.70,79.0,0.00,4.30,2,,336.3,913.2
+02GRAD30,klimatološka,Gradac,12.09.2026 14:00,17.39,72.7,,,,,,
+02PLJV10,glavna,Pljevlja,12.09.2026 14:20,17.40,55.0,0.00,0.40,2,,267.8,931.5
+02BERA20,glavna,Berane,12.09.2026 14:00,16.88,73.0,0.00,1.70,32,4.70,,941.91
+02GOBU30,klimatološka,Gornja Bukovica,12.09.2026 14:00,13.41,100.0,,,,,,
