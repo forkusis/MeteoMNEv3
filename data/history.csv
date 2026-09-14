@@ -33326,3 +33326,26 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,14.09.2026 12:00,22.90,33.0,0.00,0.90,22,,779.9,945.5
 02LKOT20,klimatološka,Luka Kotor,14.09.2026 11:31,27.10,33.0,,0.90,,4.60,,1020.5
 02MAMO30,klimatološka,Manastir Morača,14.09.2026 12:00,26.99,35.7,,,,,,
+02IVKO30,klimatološka,Ivanova korita,14.09.2026 12:00,19.55,41.8,0.00,,,,,
+02CTNJ10,glavna,Cetinje,14.09.2026 12:20,23.90,32.0,0.00,0.50,18,,794.6,945.4
+02DDOB30,klimatološka,Donja Dobrilovina,14.09.2026 12:00,19.97,55.8,,,,,,
+02HNOV10,glavna,Herceg Novi,14.09.2026 12:20,29.30,35.0,0.00,1.70,22,,717.0,1013.3
+02BERA20,glavna,Berane,14.09.2026 12:00,21.14,49.0,0.00,0.80,22,2.10,,941.67
+02BPLJ20,klimatološka,Bijelo Polje,14.09.2026 12:00,20.13,53.3,,,,,592.69,952.12
+02VELM20,klimatološka,Velimlje,14.09.2026 12:00,22.50,36.5,0.00,0.90,20,1.50,801.1,
+02UBLI20,klimatološka,Ubli,14.09.2026 12:00,24.50,,,,,,,
+02KOSA30,klimatološka,Kosanica,14.09.2026 12:00,17.15,68.1,,,,,,
+02CRKV30,klimatološka,Crkvice,14.09.2026 12:00,21.16,46.8,,,,,,
+02PDGR10,glavna,Podgorica,14.09.2026 12:20,27.20,29.0,0.00,3.00,16,,771.8,1011.6
+02GRAD30,klimatološka,Gradac,14.09.2026 12:00,20.84,50.2,,,,,,
+02BOAN30,klimatološka,Boan,14.09.2026 12:00,21.14,50.6,,,,,,
+02BIST20,klimatološka,Bistrica,14.09.2026 12:00,19.80,45.9,0.00,2.00,2,3.00,566.4,
+02NIKS10,glavna,Nikšić,14.09.2026 12:20,25.20,30.0,0.00,3.60,16,,727.3,944.2
+02GOBU30,klimatološka,Gornja Bukovica,14.09.2026 12:00,16.46,65.5,,,,,,
+02PLJV10,glavna,Pljevlja,14.09.2026 12:20,20.60,41.0,0.00,4.00,32,,625.1,931.0
+02BAR010,glavna,Bar,14.09.2026 12:20,26.50,39.0,0.00,3.90,20,,768.6,1017.5
+02ZBLJ10,glavna,Žabljak,14.09.2026 12:20,15.40,54.0,0.00,3.00,4,,611.1,860.3
+02LKOT20,klimatološka,Luka Kotor,14.09.2026 11:46,27.10,38.0,,1.70,,4.60,,1020.5
+02KOLS10,glavna,Kolašin,14.09.2026 12:20,19.40,48.0,0.00,2.20,6,,753.1,913.3
+02ULCN10,glavna,Ulcinj,14.09.2026 12:20,29.00,27.0,0.00,3.00,2,,823.4,1017.6
+02PLZN20,klimatološka,Pluzine,14.09.2026 12:00,20.28,58.1,0.00,6.90,32,11.50,725.0,935.77
