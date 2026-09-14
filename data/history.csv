@@ -33915,3 +33915,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,14.09.2026 21:00,21.70,68.0,0.00,,,,,
 02STIT30,klimatološka,Štitarica,14.09.2026 21:00,16.31,74.6,,,,,,
 02MOKR30,klimatološka,Mokro,14.09.2026 21:00,14.99,66.8,,,,,,
+02BIST20,klimatološka,Bistrica,14.09.2026 21:00,18.50,54.8,0.00,1.40,32,1.90,0.5,
+02SCPO30,klimatološka,Šćepan Polje,14.09.2026 21:00,19.40,68.7,,,,,,
+02HNOV10,glavna,Herceg Novi,14.09.2026 21:20,22.10,52.0,0.00,0.20,26,,0.0,1011.9
+02KUKO30,klimatološka,Kučka korita,14.09.2026 21:00,15.05,59.9,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,14.09.2026 21:00,18.47,83.3,0.00,7.90,32,13.00,0.0,936.64
+02GRAD30,klimatološka,Gradac,14.09.2026 21:00,16.85,77.3,,,,,,
+02PLJV10,glavna,Pljevlja,14.09.2026 21:20,17.10,61.0,0.00,0.40,18,,0.0,932.1
+02CTNJ10,glavna,Cetinje,14.09.2026 21:20,16.90,76.0,0.00,0.50,32,,0.4,945.2
+02KOLS10,glavna,Kolašin,14.09.2026 21:20,16.80,61.0,0.00,0.70,2,,0.0,913.9
+02KOSA30,klimatološka,Kosanica,14.09.2026 21:00,11.82,100.0,,,,,,
+02BUDV20,klimatološka,Budva,14.09.2026 21:00,24.15,51.5,,,,,0.0,1015.6
+02BERA20,glavna,Berane,14.09.2026 21:00,18.20,61.0,0.00,0.70,8,2.90,,941.86
+02LKOT20,klimatološka,Luka Kotor,14.09.2026 20:46,23.20,56.0,,0.80,,1.50,,1019.6
+02GOBU30,klimatološka,Gornja Bukovica,14.09.2026 21:00,13.00,96.2,,,,,,
+02CRKV30,klimatološka,Crkvice,14.09.2026 21:00,15.24,88.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,14.09.2026 21:00,17.45,73.8,,,,,0.0,952.28
+02BOAN30,klimatološka,Boan,14.09.2026 21:00,14.25,88.0,,,,,,
+02PDGR10,glavna,Podgorica,14.09.2026 21:20,24.60,37.0,0.00,0.30,8,,0.7,1010.6
+02DDOB30,klimatološka,Donja Dobrilovina,14.09.2026 21:00,18.12,68.0,,,,,,
+02ZBLJ10,glavna,Žabljak,14.09.2026 21:20,11.60,83.0,0.00,0.60,24,,0.0,861.2
+02UBLI20,klimatološka,Ubli,14.09.2026 21:00,19.94,,,,,,,
+02NIKS10,glavna,Nikšić,14.09.2026 21:20,21.00,45.0,0.00,5.60,32,8.10,0.1,944.8
+02VELM20,klimatološka,Velimlje,14.09.2026 21:00,18.00,59.0,0.00,1.30,12,2.20,0.0,
+02BAR010,glavna,Bar,14.09.2026 21:20,23.20,57.0,0.00,1.00,6,,0.0,1016.1
+02IVKO30,klimatološka,Ivanova korita,14.09.2026 21:00,14.99,62.5,0.00,,,,,
+02ULCN10,glavna,Ulcinj,14.09.2026 21:20,24.40,55.0,0.00,1.70,28,,0.0,1016.0
