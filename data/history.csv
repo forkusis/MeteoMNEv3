@@ -33586,3 +33586,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,14.09.2026 16:00,27.60,33.0,0.00,,,,,
 02PLJV10,glavna,Pljevlja,14.09.2026 16:00,21.90,42.0,0.00,3.00,2,5.40,192.4,930.0
 02STIT30,klimatološka,Štitarica,14.09.2026 16:00,20.07,55.7,,,,,,
+02BUDV20,klimatološka,Budva,14.09.2026 16:00,26.92,48.3,,,,,362.06,1015.27
+02BOAN30,klimatološka,Boan,14.09.2026 16:00,20.59,49.8,,,,,,
+02BAR010,glavna,Bar,14.09.2026 16:20,27.00,54.0,0.00,4.00,26,,414.4,1015.8
+02CRKV30,klimatološka,Crkvice,14.09.2026 16:00,21.56,64.4,,,,,,
+02KOLS10,glavna,Kolašin,14.09.2026 16:20,22.00,41.0,0.00,1.10,2,,528.9,912.1
+02NIKS10,glavna,Nikšić,14.09.2026 16:20,24.50,31.0,0.00,3.40,16,,158.2,943.0
+02BPLJ20,klimatološka,Bijelo Polje,14.09.2026 16:00,24.21,42.4,,,,,314.2,950.09
+02ULCN10,glavna,Ulcinj,14.09.2026 16:20,27.40,43.0,0.00,3.40,26,,472.6,1015.3
+02BIST20,klimatološka,Bistrica,14.09.2026 16:00,21.50,42.2,0.00,1.00,2,2.20,109.8,
+02PLJV10,glavna,Pljevlja,14.09.2026 16:20,21.40,42.0,0.00,1.70,2,,156.6,929.9
+02UBLI20,klimatološka,Ubli,14.09.2026 16:00,26.09,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,14.09.2026 16:00,17.06,72.3,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,14.09.2026 16:00,21.21,53.8,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,14.09.2026 16:00,17.79,59.9,,,,,,
+02GRAD30,klimatološka,Gradac,14.09.2026 16:00,22.24,49.6,,,,,,
+02PDGR10,glavna,Podgorica,14.09.2026 16:20,29.40,25.0,0.00,2.20,14,,264.7,1009.3
+02KOSA30,klimatološka,Kosanica,14.09.2026 16:00,17.94,70.0,,,,,,
+02BERA20,glavna,Berane,14.09.2026 16:00,24.47,41.2,0.00,2.50,28,7.80,,939.78
+02CTNJ10,glavna,Cetinje,14.09.2026 16:20,24.20,39.0,0.00,0.60,8,,217.0,943.8
+02PLZN20,klimatološka,Pluzine,14.09.2026 16:00,22.21,56.1,0.00,6.50,32,11.90,472.67,934.6
+02ZBLJ10,glavna,Žabljak,14.09.2026 16:20,15.50,58.0,0.00,0.60,4,,61.1,859.8
+02KUKO30,klimatološka,Kučka korita,14.09.2026 16:00,20.50,42.2,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,14.09.2026 15:46,25.90,49.0,,1.80,,4.50,,1019.3
+02HNOV10,glavna,Herceg Novi,14.09.2026 16:20,29.40,30.0,0.00,2.00,22,,492.7,1011.7
+02VELM20,klimatološka,Velimlje,14.09.2026 16:00,23.40,37.2,0.00,4.90,30,6.80,272.9,
