@@ -34488,3 +34488,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,15.09.2026 05:50,23.50,44.0,0.00,2.50,32,,0.0,1010.8
 02HNOV10,glavna,Herceg Novi,15.09.2026 05:50,22.20,46.0,0.00,1.00,24,,0.0,1011.2
 02ULCN10,glavna,Ulcinj,15.09.2026 05:50,22.30,52.0,0.00,5.50,6,,0.0,1015.8
+02VELK30,klimatološka,Velika,15.09.2026 06:00,11.93,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,15.09.2026 06:00,21.70,,,,,,,
+02KOLS10,glavna,Kolašin,15.09.2026 06:00,13.90,78.0,0.00,0.60,2,,0.4,913.5
+02CTNJ10,glavna,Cetinje,15.09.2026 06:00,13.30,88.0,0.00,0.20,32,,0.1,944.8
+02STAB30,klimatološka,Stabna,15.09.2026 06:00,14.98,89.7,,,,,,
+02MAMO30,klimatološka,Manastir Morača,15.09.2026 06:00,15.89,83.3,,,,,,
+02POSC30,klimatološka,Pošćenje,15.09.2026 06:00,12.76,98.5,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,15.09.2026 06:00,14.39,100.0,,,,,,
+02NIKS10,glavna,Nikšić,15.09.2026 06:00,18.30,57.0,0.00,3.30,32,,0.0,944.5
+02MATE30,klimatološka,Matesevo,15.09.2026 06:00,11.32,93.3,0.00,,,,,
+02ULCN10,glavna,Ulcinj,15.09.2026 06:00,22.00,52.0,0.00,5.70,6,,0.0,1015.8
+02ZBLJ10,glavna,Žabljak,15.09.2026 06:00,9.80,96.0,0.00,0.90,6,,1.1,860.0
+02VIRP20,klimatološka,Virpazar,15.09.2026 06:00,16.20,90.0,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,15.09.2026 05:31,24.50,46.0,,2.00,,6.60,,1018.9
+02STIT30,klimatološka,Štitarica,15.09.2026 06:00,11.93,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,15.09.2026 06:00,13.00,96.0,0.00,0.70,14,,0.5,931.5
+02MOKR30,klimatološka,Mokro,15.09.2026 06:00,12.76,83.0,,,,,,
+02HNOV10,glavna,Herceg Novi,15.09.2026 06:00,22.20,48.0,0.00,0.90,22,,0.4,1011.2
+02BAR010,glavna,Bar,15.09.2026 06:00,24.30,43.0,0.00,3.90,6,,0.1,1015.2
+02NJGV30,klimatološka,Njegovuđa,15.09.2026 06:00,10.24,100.0,,,,,,
+02PDGR10,glavna,Podgorica,15.09.2026 06:00,23.50,44.0,0.00,4.10,32,,0.1,1010.8
