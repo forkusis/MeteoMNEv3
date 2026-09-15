@@ -35639,3 +35639,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,15.09.2026 22:31,19.50,89.0,,0.70,,1.20,,1018.4
 02SCPO30,klimatološka,Šćepan Polje,15.09.2026 23:00,11.35,100.0,,,,,,
 02VELK30,klimatološka,Velika,15.09.2026 23:00,11.33,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,15.09.2026 23:20,21.90,56.0,0.00,3.00,2,,0.0,1015.1
+02CRKV30,klimatološka,Crkvice,15.09.2026 23:00,10.82,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,15.09.2026 23:00,10.20,100.0,,,,,,
+02PDGR10,glavna,Podgorica,15.09.2026 23:20,23.70,44.0,0.00,4.80,2,,0.1,1009.9
+02LKOT20,klimatološka,Luka Kotor,15.09.2026 22:46,19.20,90.0,,1.00,,1.90,,1018.4
+02CTNJ10,glavna,Cetinje,15.09.2026 23:20,12.10,94.0,0.00,0.10,18,,0.6,944.1
+02KOSA30,klimatološka,Kosanica,15.09.2026 23:00,6.43,100.0,,,,,,
+02NIKS10,glavna,Nikšić,15.09.2026 23:20,17.90,55.0,0.00,1.50,2,,0.8,943.6
+02BOAN30,klimatološka,Boan,15.09.2026 23:00,9.69,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,15.09.2026 23:00,9.79,93.8,0.00,,,,,
+02BERA20,glavna,Berane,15.09.2026 23:00,13.09,97.5,0.00,0.50,8,1.40,,940.91
+02BAR010,glavna,Bar,15.09.2026 23:20,23.60,45.0,0.00,3.50,6,,0.1,1014.8
+02PLZN20,klimatološka,Pluzine,15.09.2026 23:00,15.80,95.8,0.00,2.40,10,4.00,0.96,935.15
+02KOVR30,klimatološka,Kovren,15.09.2026 23:00,10.47,100.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,15.09.2026 23:00,13.41,100.0,,,,,0.0,951.47
+02BUDV20,klimatološka,Budva,15.09.2026 23:00,22.82,56.0,,,,,0.0,1014.31
+02PLJV10,glavna,Pljevlja,15.09.2026 23:20,10.60,94.0,0.00,0.50,32,,0.8,930.6
+02UBLI20,klimatološka,Ubli,15.09.2026 23:00,16.02,,,,,,,
+02BIST20,klimatološka,Bistrica,15.09.2026 23:00,11.50,99.0,0.00,0.70,18,1.00,0.5,
+02DDOB30,klimatološka,Donja Dobrilovina,15.09.2026 23:00,11.53,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,15.09.2026 23:00,8.40,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,15.09.2026 23:00,11.40,96.5,0.00,0.00,12,0.10,0.0,
+02KOLS10,glavna,Kolašin,15.09.2026 23:20,11.10,94.0,0.00,0.80,26,1.10,0.4,912.7
+02ZBLJ10,glavna,Žabljak,15.09.2026 23:20,9.40,94.0,0.00,0.50,24,,0.0,859.3
+02HNOV10,glavna,Herceg Novi,15.09.2026 23:20,18.90,81.0,0.00,1.60,24,,0.8,1010.8
+02KUKO30,klimatološka,Kučka korita,15.09.2026 23:00,12.95,71.3,0.00,,,,,
