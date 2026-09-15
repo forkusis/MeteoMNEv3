@@ -34509,3 +34509,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,15.09.2026 06:00,24.30,43.0,0.00,3.90,6,,0.1,1015.2
 02NJGV30,klimatološka,Njegovuđa,15.09.2026 06:00,10.24,100.0,,,,,,
 02PDGR10,glavna,Podgorica,15.09.2026 06:00,23.50,44.0,0.00,4.10,32,,0.1,1010.8
+02CRKV30,klimatološka,Crkvice,15.09.2026 06:00,16.03,77.2,,,,,,
+02BOAN30,klimatološka,Boan,15.09.2026 06:00,12.87,100.0,,,,,,
+02NIKS10,glavna,Nikšić,15.09.2026 06:20,18.20,58.0,0.00,2.80,32,,0.4,944.4
+02PDGR10,glavna,Podgorica,15.09.2026 06:20,23.50,44.0,0.00,4.20,2,,0.8,1010.8
+02BAR010,glavna,Bar,15.09.2026 06:20,24.50,43.0,0.00,2.40,6,,1.1,1015.2
+02ULCN10,glavna,Ulcinj,15.09.2026 06:20,21.90,55.0,0.00,4.70,6,,0.5,1015.9
+02CTNJ10,glavna,Cetinje,15.09.2026 06:20,13.20,88.0,0.00,0.20,8,,1.2,944.9
+02BERA20,glavna,Berane,15.09.2026 06:00,14.26,87.3,0.00,0.00,32,0.50,,941.78
+02GOBU30,klimatološka,Gornja Bukovica,15.09.2026 06:00,10.57,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,15.09.2026 06:20,13.00,96.0,0.00,0.50,16,,0.6,931.5
+02KOVR30,klimatološka,Kovren,15.09.2026 06:00,11.09,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,15.09.2026 06:20,22.30,49.0,0.00,0.30,22,,0.7,1011.2
+02VELM20,klimatološka,Velimlje,15.09.2026 06:00,12.50,80.5,0.00,0.80,30,1.20,0.0,
+02BIST20,klimatološka,Bistrica,15.09.2026 06:00,12.90,97.1,0.00,0.80,14,1.00,0.5,
+02UBLI20,klimatološka,Ubli,15.09.2026 06:00,18.07,,,,,,,
+02KOLS10,glavna,Kolašin,15.09.2026 06:20,13.80,79.0,0.00,1.60,32,,1.7,913.5
+02DDOB30,klimatološka,Donja Dobrilovina,15.09.2026 06:00,12.72,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,15.09.2026 06:00,13.11,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,15.09.2026 06:20,9.80,96.0,0.00,0.50,4,,0.8,860.0
+02KOSA30,klimatološka,Kosanica,15.09.2026 06:00,10.40,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,15.09.2026 05:46,24.70,45.0,,2.60,,8.90,,1019.1
+02BUDV20,klimatološka,Budva,15.09.2026 06:00,23.76,48.4,,,,,0.0,1014.71
+02IVKO30,klimatološka,Ivanova korita,15.09.2026 06:00,11.79,79.7,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,15.09.2026 06:00,13.34,67.5,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,15.09.2026 06:00,15.61,100.0,0.00,5.30,30,8.30,0.0,936.36
+02BPLJ20,klimatološka,Bijelo Polje,15.09.2026 06:00,14.43,97.3,,,,,0.0,952.38
