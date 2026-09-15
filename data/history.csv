@@ -34309,3 +34309,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,15.09.2026 03:00,24.20,41.0,0.00,3.20,2,,0.3,1010.9
 02HNOV10,glavna,Herceg Novi,15.09.2026 03:00,22.60,50.0,0.00,0.20,24,,1.2,1011.3
 02LKOT20,klimatološka,Luka Kotor,15.09.2026 02:31,25.20,44.0,,1.20,,5.70,,1019.2
+02KOLS10,glavna,Kolašin,15.09.2026 03:20,14.00,77.0,0.00,0.60,2,,0.0,913.8
+02BUDV20,klimatološka,Budva,15.09.2026 03:00,23.95,47.5,,,,,0.0,1014.87
+02PLZN20,klimatološka,Pluzine,15.09.2026 03:00,16.64,99.1,0.00,4.20,32,7.30,0.0,936.75
+02UBLI20,klimatološka,Ubli,15.09.2026 03:00,19.43,,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,15.09.2026 03:00,10.89,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,15.09.2026 03:00,13.00,77.0,0.00,1.10,10,1.50,0.0,
+02NIKS10,glavna,Nikšić,15.09.2026 03:20,18.30,56.0,0.00,3.40,32,,0.1,944.8
+02PLJV10,glavna,Pljevlja,15.09.2026 03:20,14.00,85.0,0.00,0.30,24,,0.0,931.7
+02BOAN30,klimatološka,Boan,15.09.2026 03:00,12.99,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,15.09.2026 03:20,22.90,47.0,0.00,4.60,4,,0.0,1016.1
+02DDOB30,klimatološka,Donja Dobrilovina,15.09.2026 03:00,12.96,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,15.09.2026 03:00,14.85,94.3,,,,,0.0,952.5
+02BAR010,glavna,Bar,15.09.2026 03:20,25.20,40.0,0.00,3.60,6,,0.3,1015.4
+02CRKV30,klimatološka,Crkvice,15.09.2026 03:00,14.84,86.1,,,,,,
+02IVKO30,klimatološka,Ivanova korita,15.09.2026 03:00,11.91,78.7,0.00,,,,,
+02BIST20,klimatološka,Bistrica,15.09.2026 03:00,13.50,93.0,0.00,0.20,16,0.30,0.5,
+02PDGR10,glavna,Podgorica,15.09.2026 03:20,24.20,42.0,0.00,4.10,2,,0.3,1010.9
+02HNOV10,glavna,Herceg Novi,15.09.2026 03:20,22.40,46.0,0.00,0.40,24,,0.0,1011.2
+02GRAD30,klimatološka,Gradac,15.09.2026 03:00,13.84,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,15.09.2026 02:46,25.20,44.0,,1.50,,6.30,,1018.9
+02CTNJ10,glavna,Cetinje,15.09.2026 03:20,13.90,86.0,0.00,0.20,16,,0.0,945.1
+02KUKO30,klimatološka,Kučka korita,15.09.2026 03:00,13.59,67.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,15.09.2026 03:00,10.89,100.0,,,,,,
+02BERA20,glavna,Berane,15.09.2026 03:00,14.56,,0.00,0.70,10,1.50,,
+02ZBLJ10,glavna,Žabljak,15.09.2026 03:20,10.10,92.0,0.00,0.70,4,,0.0,860.5
