@@ -36694,3 +36694,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,16.09.2026 15:00,29.63,31.2,,,,,,
 02SCPO30,klimatološka,Šćepan Polje,16.09.2026 15:00,27.54,34.8,,,,,,
 02BAR010,glavna,Bar,16.09.2026 15:00,27.60,52.0,0.00,2.60,22,,616.1,1013.8
+02PLJV10,glavna,Pljevlja,16.09.2026 15:20,25.80,28.0,0.00,1.40,20,,567.1,925.7
+02KOLS10,glavna,Kolašin,16.09.2026 15:20,25.00,34.0,0.00,0.50,22,,588.6,908.9
+02IVKO30,klimatološka,Ivanova korita,16.09.2026 15:00,17.97,68.0,0.00,,,,,
+02BAR010,glavna,Bar,16.09.2026 15:20,27.80,54.0,0.00,3.10,24,,572.5,1013.7
+02BERA20,glavna,Berane,16.09.2026 15:00,27.09,36.6,0.00,0.90,24,2.80,,936.44
+02LKOT20,klimatološka,Luka Kotor,16.09.2026 14:46,27.10,47.0,,1.80,,5.20,,1016.8
+02BIST20,klimatološka,Bistrica,16.09.2026 15:00,23.80,44.9,0.00,5.20,28,7.40,590.8,
+02GOBU30,klimatološka,Gornja Bukovica,16.09.2026 15:00,21.52,43.1,,,,,,
+02UBLI20,klimatološka,Ubli,16.09.2026 15:00,26.64,,,,,,,
+02KUKO30,klimatološka,Kučka korita,16.09.2026 15:00,18.16,55.8,0.00,,,,,
+02VELM20,klimatološka,Velimlje,16.09.2026 15:00,24.40,41.1,0.00,0.80,26,1.60,163.2,
+02DDOB30,klimatološka,Donja Dobrilovina,16.09.2026 15:00,23.79,49.7,,,,,,
+02ZBLJ10,glavna,Žabljak,16.09.2026 15:20,21.80,36.0,0.00,0.20,2,,701.3,856.4
+02BUDV20,klimatološka,Budva,16.09.2026 15:00,28.16,52.6,,,,,655.96,1013.17
+02KOSA30,klimatološka,Kosanica,16.09.2026 15:00,20.57,61.4,,,,,,
+02CTNJ10,glavna,Cetinje,16.09.2026 15:20,25.90,40.0,0.00,1.50,20,,577.2,941.9
+02NIKS10,glavna,Nikšić,16.09.2026 15:20,26.90,31.0,0.00,5.60,14,,589.0,940.7
+02ULCN10,glavna,Ulcinj,16.09.2026 15:20,27.70,51.0,0.00,6.20,22,,611.2,1013.4
+02BPLJ20,klimatološka,Bijelo Polje,16.09.2026 15:00,25.05,38.3,,,,,685.58,946.67
+02BOAN30,klimatološka,Boan,16.09.2026 15:00,25.26,34.9,,,,,,
+02CRKV30,klimatološka,Crkvice,16.09.2026 15:00,21.06,76.5,,,,,,
+02HNOV10,glavna,Herceg Novi,16.09.2026 15:20,30.00,41.0,0.00,0.60,18,,582.1,1009.5
+02GRAD30,klimatološka,Gradac,16.09.2026 15:00,26.46,40.3,,,,,,
+02PDGR10,glavna,Podgorica,16.09.2026 15:20,30.30,28.0,0.00,3.30,14,,571.9,1007.2
