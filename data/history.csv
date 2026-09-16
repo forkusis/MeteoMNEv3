@@ -37216,3 +37216,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,16.09.2026 23:00,21.10,52.0,0.00,1.90,8,,0.1,1013.6
 02HNOV10,glavna,Herceg Novi,16.09.2026 23:00,20.00,68.0,0.00,1.50,22,,0.9,1009.3
 02MAMO30,klimatološka,Manastir Morača,16.09.2026 23:00,13.85,87.8,,,,,,
+02PDGR10,glavna,Podgorica,16.09.2026 23:20,22.20,53.0,0.00,0.90,2,,0.0,1008.1
+02BAR010,glavna,Bar,16.09.2026 23:20,21.30,55.0,0.00,1.90,6,,0.0,1013.5
+02HNOV10,glavna,Herceg Novi,16.09.2026 23:20,19.70,67.0,0.00,1.50,24,,0.0,1009.3
+02LKOT20,klimatološka,Luka Kotor,16.09.2026 22:46,20.90,73.0,,0.50,,1.20,,1016.9
+02DDOB30,klimatološka,Donja Dobrilovina,16.09.2026 23:00,12.13,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,16.09.2026 23:00,16.64,100.0,0.00,0.40,18,0.90,0.31,932.68
+02GRAD30,klimatološka,Gradac,16.09.2026 23:00,10.20,100.0,,,,,,
+02BUDV20,klimatološka,Budva,16.09.2026 23:00,21.37,74.7,,,,,0.8,1012.99
+02NIKS10,glavna,Nikšić,16.09.2026 23:20,16.80,65.0,0.00,2.40,32,2.80,0.0,941.8
+02KUKO30,klimatološka,Kučka korita,16.09.2026 23:00,7.18,90.3,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,16.09.2026 23:00,9.14,100.0,,,,,,
+02KOLS10,glavna,Kolašin,16.09.2026 23:20,10.20,92.0,0.00,0.40,18,,0.0,910.5
+02IVKO30,klimatološka,Ivanova korita,16.09.2026 23:00,10.08,76.8,0.00,,,,,
+02UBLI20,klimatološka,Ubli,16.09.2026 23:00,18.62,,,,,,,
+02VELM20,klimatološka,Velimlje,16.09.2026 23:00,14.00,93.5,0.00,1.00,12,1.60,0.0,
+02ZBLJ10,glavna,Žabljak,16.09.2026 23:20,9.60,86.0,0.00,0.80,22,,0.1,857.0
+02BERA20,glavna,Berane,16.09.2026 23:00,13.11,84.9,0.00,0.90,6,1.50,,937.56
+02BPLJ20,klimatološka,Bijelo Polje,16.09.2026 23:00,13.38,97.3,,,,,0.0,947.67
+02BIST20,klimatološka,Bistrica,16.09.2026 23:00,11.30,92.8,0.00,0.80,14,1.40,0.5,
+02CTNJ10,glavna,Cetinje,16.09.2026 23:20,11.80,89.0,0.00,0.20,12,,0.4,942.6
+02BOAN30,klimatološka,Boan,16.09.2026 23:00,11.24,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,16.09.2026 23:00,11.31,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,16.09.2026 23:00,12.20,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,16.09.2026 23:20,18.30,78.0,0.00,0.60,30,,0.0,1013.8
+02PLJV10,glavna,Pljevlja,16.09.2026 23:20,12.70,79.0,0.00,0.50,24,,0.4,926.6
