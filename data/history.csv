@@ -36497,3 +36497,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,16.09.2026 12:00,28.70,44.0,0.00,2.40,10,,734.5,1010.9
 02STAB30,klimatološka,Stabna,16.09.2026 12:00,22.43,49.8,,,,,,
 02POSC30,klimatološka,Pošćenje,16.09.2026 12:00,23.46,43.5,,,,,,
+02ULCN10,glavna,Ulcinj,16.09.2026 12:20,28.70,42.0,0.00,2.50,16,,792.1,1015.1
+02IVKO30,klimatološka,Ivanova korita,16.09.2026 12:00,17.34,61.5,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,16.09.2026 11:46,26.20,47.0,,2.00,,3.60,,1018.1
+02GOBU30,klimatološka,Gornja Bukovica,16.09.2026 12:00,19.78,53.3,,,,,,
+02PLZN20,klimatološka,Pluzine,16.09.2026 12:00,20.44,69.0,0.00,2.60,4,5.10,1725.61,932.94
+02PLJV10,glavna,Pljevlja,16.09.2026 12:20,21.50,49.0,0.00,1.00,12,,764.9,927.8
+02CRKV30,klimatološka,Crkvice,16.09.2026 12:00,20.72,68.6,,,,,,
+02ZBLJ10,glavna,Žabljak,16.09.2026 12:20,18.20,47.0,0.00,1.40,2,,761.5,857.4
+02KUKO30,klimatološka,Kučka korita,16.09.2026 12:00,16.98,58.6,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,16.09.2026 12:00,19.18,75.7,,,,,,
+02BUDV20,klimatološka,Budva,16.09.2026 12:00,28.16,42.1,,,,,814.01,1014.51
+02BOAN30,klimatološka,Boan,16.09.2026 12:00,22.78,46.4,,,,,,
+02VELM20,klimatološka,Velimlje,16.09.2026 12:00,22.00,51.1,0.00,3.90,2,5.40,236.6,
+02KOSA30,klimatološka,Kosanica,16.09.2026 12:00,19.04,73.4,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,16.09.2026 12:00,19.91,64.2,,,,,815.98,949.46
+02PDGR10,glavna,Podgorica,16.09.2026 12:20,27.90,33.0,0.00,2.20,14,,762.8,1009.3
+02GRAD30,klimatološka,Gradac,16.09.2026 12:00,20.81,60.5,,,,,,
+02BIST20,klimatološka,Bistrica,16.09.2026 12:00,19.40,62.9,0.00,1.60,2,3.10,808.9,
+02UBLI20,klimatološka,Ubli,16.09.2026 12:00,24.27,,,,,,,
+02KOLS10,glavna,Kolašin,16.09.2026 12:20,22.90,44.0,0.00,1.10,18,,778.6,910.4
+02CTNJ10,glavna,Cetinje,16.09.2026 12:20,25.20,43.0,0.00,0.70,14,,738.7,943.2
+02NIKS10,glavna,Nikšić,16.09.2026 12:20,24.80,34.0,0.00,5.50,14,,786.2,942.4
+02HNOV10,glavna,Herceg Novi,16.09.2026 12:20,28.50,41.0,0.00,0.80,12,,797.9,1010.8
+02BAR010,glavna,Bar,16.09.2026 12:20,27.30,45.0,0.00,2.30,26,,737.7,1015.1
+02BERA20,glavna,Berane,16.09.2026 12:00,22.32,55.0,0.00,0.60,22,2.30,,938.75
