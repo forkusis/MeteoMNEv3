@@ -36954,3 +36954,26 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,16.09.2026 19:00,24.90,59.0,0.00,,,,,
 02ZBLJ10,glavna,Žabljak,16.09.2026 19:00,17.10,55.0,0.00,0.60,28,,1.2,856.0
 02NIKS10,glavna,Nikšić,16.09.2026 19:00,23.20,41.0,0.00,3.50,22,,3.1,940.6
+02KOSA30,klimatološka,Kosanica,16.09.2026 19:00,13.65,97.2,,,,,,
+02HNOV10,glavna,Herceg Novi,16.09.2026 19:20,23.40,66.0,0.00,0.50,28,,0.4,1008.8
+02VELM20,klimatološka,Velimlje,16.09.2026 19:00,19.40,67.8,0.00,0.60,12,1.00,0.4,
+02BERA20,glavna,Berane,16.09.2026 19:00,19.68,60.9,0.00,0.70,14,2.40,,935.74
+02BAR010,glavna,Bar,16.09.2026 19:20,24.40,65.0,0.00,1.10,32,,0.2,1012.8
+02NIKS10,glavna,Nikšić,16.09.2026 19:20,22.90,53.0,0.00,2.10,24,,0.2,940.8
+02BPLJ20,klimatološka,Bijelo Polje,16.09.2026 19:00,19.05,69.5,,,,,0.0,945.78
+02GOBU30,klimatološka,Gornja Bukovica,16.09.2026 19:00,17.36,72.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,16.09.2026 19:00,16.81,86.9,,,,,,
+02PDGR10,glavna,Podgorica,16.09.2026 19:20,26.70,44.0,0.00,1.00,10,,0.2,1006.7
+02BIST20,klimatološka,Bistrica,16.09.2026 19:00,16.50,76.0,0.00,0.20,16,0.30,0.5,
+02UBLI20,klimatološka,Ubli,16.09.2026 19:00,21.68,,,,,,,
+02BOAN30,klimatološka,Boan,16.09.2026 19:00,19.58,62.0,,,,,,
+02GRAD30,klimatološka,Gradac,16.09.2026 19:00,17.36,77.2,,,,,,
+02CRKV30,klimatološka,Crkvice,16.09.2026 19:00,14.88,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,16.09.2026 18:46,24.20,65.0,,0.80,,1.90,,1016.4
+02IVKO30,klimatološka,Ivanova korita,16.09.2026 19:00,13.46,90.8,0.00,,,,,
+02PLJV10,glavna,Pljevlja,16.09.2026 19:20,20.50,47.0,0.00,0.20,20,,1.0,925.0
+02ULCN10,glavna,Ulcinj,16.09.2026 19:20,24.60,63.0,0.00,1.80,26,,0.0,1012.4
+02ZBLJ10,glavna,Žabljak,16.09.2026 19:20,16.50,57.0,0.00,0.30,26,,0.2,856.1
+02KUKO30,klimatološka,Kučka korita,16.09.2026 19:00,14.12,67.3,0.00,,,,,
+02KOLS10,glavna,Kolašin,16.09.2026 19:20,16.10,71.0,0.00,1.10,22,,1.5,909.0
+02CTNJ10,glavna,Cetinje,16.09.2026 19:20,18.40,72.0,0.00,0.40,12,,1.0,941.5
