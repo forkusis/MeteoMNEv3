@@ -37349,3 +37349,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,17.09.2026 01:00,8.36,95.0,,,,,,
 02MATE30,klimatološka,Matesevo,17.09.2026 01:00,7.96,95.8,0.00,,,,,
 02VELK30,klimatološka,Velika,17.09.2026 01:00,9.79,100.0,,,,,,
+02KOLS10,glavna,Kolašin,17.09.2026 01:20,8.70,96.0,0.00,0.30,24,,0.0,910.7
+02VELM20,klimatološka,Velimlje,17.09.2026 01:00,12.00,99.5,0.00,0.60,8,0.90,0.4,
+02LKOT20,klimatološka,Luka Kotor,17.09.2026 00:46,19.80,75.0,,0.40,,0.90,,1017.0
+02PDGR10,glavna,Podgorica,17.09.2026 01:20,21.60,49.0,0.00,2.10,4,,1.2,1008.4
+02CTNJ10,glavna,Cetinje,17.09.2026 01:20,10.60,93.0,0.00,0.20,32,,0.4,942.8
+02KOVR30,klimatološka,Kovren,17.09.2026 01:00,13.65,100.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,17.09.2026 01:00,9.01,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,17.09.2026 01:20,16.70,87.0,0.00,1.50,2,,0.0,1013.9
+02KUKO30,klimatološka,Kučka korita,17.09.2026 01:00,6.63,92.2,0.00,,,,,
+02BAR010,glavna,Bar,17.09.2026 01:20,21.20,56.0,0.00,1.20,8,,0.7,1013.6
+02KOSA30,klimatološka,Kosanica,17.09.2026 01:00,7.58,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,17.09.2026 01:00,6.12,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,17.09.2026 01:00,9.80,96.5,0.00,0.40,2,0.60,0.5,
+02BPLJ20,klimatološka,Bijelo Polje,17.09.2026 01:00,11.98,100.0,,,,,0.0,948.09
+02ZBLJ10,glavna,Žabljak,17.09.2026 01:20,8.60,90.0,0.00,0.50,22,,0.7,856.9
+02NIKS10,glavna,Nikšić,17.09.2026 01:20,15.40,69.0,0.00,3.00,2,,0.0,942.1
+02GRAD30,klimatološka,Gradac,17.09.2026 01:00,8.63,100.0,,,,,,
+02BERA20,glavna,Berane,17.09.2026 01:00,11.35,92.9,0.00,0.00,32,0.90,,937.84
+02DDOB30,klimatološka,Donja Dobrilovina,17.09.2026 01:00,10.70,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,17.09.2026 01:00,18.01,,,,,,,
+02PLJV10,glavna,Pljevlja,17.09.2026 01:20,10.40,89.0,0.00,0.40,32,,0.0,926.9
+02CRKV30,klimatološka,Crkvice,17.09.2026 01:00,11.90,100.0,,,,,,
+02BUDV20,klimatološka,Budva,17.09.2026 01:00,20.49,69.9,,,,,0.8,1012.99
+02IVKO30,klimatološka,Ivanova korita,17.09.2026 01:00,9.58,80.8,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,17.09.2026 01:00,14.79,100.0,0.00,0.40,16,1.10,0.31,932.76
+02HNOV10,glavna,Herceg Novi,17.09.2026 01:20,19.30,65.0,0.00,0.40,24,,0.0,1009.5
