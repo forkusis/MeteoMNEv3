@@ -35904,3 +35904,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,16.09.2026 03:00,23.80,45.0,0.00,1.90,4,,0.2,1014.3
 02LKOT20,klimatološka,Luka Kotor,16.09.2026 02:31,21.40,58.0,,0.70,,1.80,,1018.0
 02MATE30,klimatološka,Matesevo,16.09.2026 03:00,7.29,97.9,0.00,,,,,
+02BAR010,glavna,Bar,16.09.2026 03:20,23.60,44.0,0.00,4.20,6,,1.1,1014.2
+02PLZN20,klimatološka,Pluzine,16.09.2026 03:00,11.64,100.0,0.00,0.30,10,0.70,0.96,934.97
+02KOLS10,glavna,Kolašin,16.09.2026 03:20,8.40,98.0,0.00,0.30,16,,0.0,912.1
+02BOAN30,klimatološka,Boan,16.09.2026 03:00,6.42,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,16.09.2026 03:00,8.85,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,16.09.2026 03:20,10.10,97.0,0.00,0.30,32,,0.6,943.6
+02ULCN10,glavna,Ulcinj,16.09.2026 03:20,19.70,64.0,0.00,3.30,4,,0.0,1014.7
+02LKOT20,klimatološka,Luka Kotor,16.09.2026 02:46,22.00,58.0,,0.90,,3.00,,1017.8
+02PLJV10,glavna,Pljevlja,16.09.2026 03:20,9.60,97.0,0.00,0.50,6,,0.4,929.9
+02UBLI20,klimatološka,Ubli,16.09.2026 03:00,14.50,,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,16.09.2026 03:00,6.35,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,16.09.2026 03:20,18.00,70.0,0.00,0.60,22,,0.6,1010.2
+02DDOB30,klimatološka,Donja Dobrilovina,16.09.2026 03:00,9.70,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,16.09.2026 03:00,9.42,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,16.09.2026 03:00,4.65,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,16.09.2026 03:00,9.33,100.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,16.09.2026 03:20,21.90,49.0,0.00,3.50,30,,0.2,1009.6
+02VELM20,klimatološka,Velimlje,16.09.2026 03:00,9.30,99.8,0.00,0.30,12,0.70,1.0,
+02ZBLJ10,glavna,Žabljak,16.09.2026 03:20,6.00,97.0,0.00,0.10,22,,0.0,858.3
+02IVKO30,klimatološka,Ivanova korita,16.09.2026 03:00,8.42,95.7,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,16.09.2026 03:00,11.75,100.0,,,,,0.0,950.93
+02NIKS10,glavna,Nikšić,16.09.2026 03:20,13.20,71.0,0.00,1.90,2,,0.3,943.1
+02BIST20,klimatološka,Bistrica,16.09.2026 03:00,10.90,99.8,0.00,0.90,2,1.30,0.5,
+02BERA20,glavna,Berane,16.09.2026 03:00,11.59,99.8,0.00,0.50,10,1.20,,940.47
+02BUDV20,klimatološka,Budva,16.09.2026 03:00,20.62,58.3,,,,,0.0,1013.72
