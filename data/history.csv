@@ -37812,3 +37812,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,17.09.2026 08:00,11.14,100.0,,,,,,
 02ZBLJ10,glavna,Žabljak,17.09.2026 08:00,9.80,84.0,0.00,0.40,22,,224.6,856.6
 02NJGV30,klimatološka,Njegovuđa,17.09.2026 08:00,14.86,76.2,,,,,,
+02KOLS10,glavna,Kolašin,17.09.2026 08:20,8.40,92.0,0.00,0.40,6,,44.0,910.8
+02GRAD30,klimatološka,Gradac,17.09.2026 08:00,7.31,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,17.09.2026 08:00,7.86,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,17.09.2026 08:00,9.76,86.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,17.09.2026 08:00,5.65,100.0,,,,,,
+02BERA20,glavna,Berane,17.09.2026 08:00,10.65,96.1,0.00,0.50,2,1.20,,938.32
+02NIKS10,glavna,Nikšić,17.09.2026 08:20,15.70,66.0,0.00,1.10,4,,268.5,942.5
+02CRKV30,klimatološka,Crkvice,17.09.2026 08:00,12.17,100.0,,,,,,
+02BUDV20,klimatološka,Budva,17.09.2026 08:00,21.09,79.7,,,,,41.27,1013.55
+02BAR010,glavna,Bar,17.09.2026 08:20,24.10,68.0,0.00,0.80,10,,274.5,1014.2
+02IVKO30,klimatološka,Ivanova korita,17.09.2026 08:00,13.01,76.2,0.00,,,,,
+02VELM20,klimatološka,Velimlje,17.09.2026 08:00,9.30,100.0,0.00,0.40,32,0.60,48.5,
+02BIST20,klimatološka,Bistrica,17.09.2026 08:00,7.40,99.4,0.00,0.80,2,1.10,39.0,
+02PDGR10,glavna,Podgorica,17.09.2026 08:20,22.10,48.0,0.00,0.90,30,,264.2,1009.3
+02UBLI20,klimatološka,Ubli,17.09.2026 08:00,17.81,,,,,,,
+02ZBLJ10,glavna,Žabljak,17.09.2026 08:20,11.10,77.0,0.00,0.70,20,,289.4,856.6
+02PLZN20,klimatološka,Pluzine,17.09.2026 08:00,11.50,100.0,0.00,0.00,6,1.10,38.74,933.34
+02HNOV10,glavna,Herceg Novi,17.09.2026 08:20,23.40,58.0,0.00,0.90,8,,284.5,1009.9
+02KOVR30,klimatološka,Kovren,17.09.2026 08:00,13.53,100.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,17.09.2026 08:00,5.91,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,17.09.2026 08:20,11.20,96.0,0.00,0.10,12,,48.4,942.9
+02BPLJ20,klimatološka,Bijelo Polje,17.09.2026 08:00,9.70,100.0,,,,,62.23,949.01
+02PLJV10,glavna,Pljevlja,17.09.2026 08:20,9.20,95.0,0.00,0.60,14,,228.2,927.4
+02LKOT20,klimatološka,Luka Kotor,17.09.2026 07:46,19.40,75.0,,0.70,,1.50,,1017.7
+02ULCN10,glavna,Ulcinj,17.09.2026 08:20,22.30,67.0,0.00,3.50,8,,272.5,1014.8
+02DDOB30,klimatološka,Donja Dobrilovina,17.09.2026 08:00,8.74,100.0,,,,,,
