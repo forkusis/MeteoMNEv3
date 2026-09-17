@@ -37747,3 +37747,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,17.09.2026 07:00,6.60,95.0,0.00,1.10,22,,42.9,856.6
 02NJGV30,klimatološka,Njegovuđa,17.09.2026 07:00,13.77,77.3,,,,,,
 02MAMO30,klimatološka,Manastir Morača,17.09.2026 07:00,9.25,99.7,,,,,,
+02ZBLJ10,glavna,Žabljak,17.09.2026 07:20,7.40,92.0,0.00,0.80,22,,99.9,856.7
+02ULCN10,glavna,Ulcinj,17.09.2026 07:20,17.00,88.0,0.00,1.70,4,2.00,89.0,1014.7
+02HNOV10,glavna,Herceg Novi,17.09.2026 07:20,19.50,65.0,0.00,1.20,22,,61.6,1010.0
+02KOVR30,klimatološka,Kovren,17.09.2026 07:00,10.46,100.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,17.09.2026 07:00,2.33,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,17.09.2026 07:20,8.80,98.0,0.00,0.10,4,,20.8,943.1
+02GOBU30,klimatološka,Gornja Bukovica,17.09.2026 07:00,2.67,100.0,,,,,,
+02BERA20,glavna,Berane,17.09.2026 07:00,8.10,100.0,0.00,0.00,32,0.80,,938.31
+02KUKO30,klimatološka,Kučka korita,17.09.2026 07:00,6.21,87.9,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,17.09.2026 07:00,9.01,89.5,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,17.09.2026 07:00,7.50,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,17.09.2026 07:00,16.22,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,17.09.2026 06:46,18.60,82.0,,0.00,,1.40,,1017.8
+02BPLJ20,klimatološka,Bijelo Polje,17.09.2026 07:00,9.56,100.0,,,,,12.51,948.96
+02BOAN30,klimatološka,Boan,17.09.2026 07:00,5.23,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,17.09.2026 07:00,11.76,98.6,,,,,,
+02KOLS10,glavna,Kolašin,17.09.2026 07:20,5.70,98.0,0.00,0.20,18,,28.6,910.9
+02BIST20,klimatološka,Bistrica,17.09.2026 07:00,6.40,99.2,0.00,0.70,24,0.90,16.5,
+02VELM20,klimatološka,Velimlje,17.09.2026 07:00,7.80,100.0,0.00,0.90,10,1.10,23.8,
+02PDGR10,glavna,Podgorica,17.09.2026 07:20,19.90,54.0,0.00,1.10,2,,90.1,1009.2
+02BAR010,glavna,Bar,17.09.2026 07:20,21.00,74.0,0.00,1.70,8,,49.3,1014.2
+02NIKS10,glavna,Nikšić,17.09.2026 07:20,12.00,78.0,0.00,2.30,2,,53.8,942.6
+02BUDV20,klimatološka,Budva,17.09.2026 07:00,20.08,85.6,,,,,16.39,1013.57
+02PLJV10,glavna,Pljevlja,17.09.2026 07:20,7.30,97.0,0.00,0.90,18,1.20,50.4,927.7
