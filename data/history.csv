@@ -39575,3 +39575,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,18.09.2026 11:00,21.73,48.0,,,,,,
 02POSC30,klimatološka,Pošćenje,18.09.2026 11:00,22.90,50.4,,,,,,
 02NJGV30,klimatološka,Njegovuđa,18.09.2026 11:00,19.44,58.0,,,,,,
+02VELM20,klimatološka,Velimlje,18.09.2026 11:00,22.90,45.4,0.00,1.00,32,1.40,690.2,
+02BOAN30,klimatološka,Boan,18.09.2026 11:00,21.32,57.9,,,,,,
+02ULCN10,glavna,Ulcinj,18.09.2026 11:20,28.70,50.0,0.00,4.20,10,4.80,718.7,1014.3
+02BERA20,glavna,Berane,18.09.2026 11:00,21.94,46.5,0.00,1.20,20,2.40,,937.57
+02IVKO30,klimatološka,Ivanova korita,18.09.2026 11:00,19.68,62.4,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,18.09.2026 11:00,17.71,86.1,,,,,,
+02CTNJ10,glavna,Cetinje,18.09.2026 11:20,24.70,51.0,0.00,1.20,10,,698.2,942.5
+02HNOV10,glavna,Herceg Novi,18.09.2026 11:20,28.70,58.0,0.00,1.40,10,,705.1,1009.8
+02GRAD30,klimatološka,Gradac,18.09.2026 11:00,22.04,60.1,,,,,,
+02NIKS10,glavna,Nikšić,18.09.2026 11:20,24.80,35.0,0.00,1.30,16,,711.0,941.7
+02KUKO30,klimatološka,Kučka korita,18.09.2026 11:00,19.84,50.4,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,18.09.2026 11:00,21.27,61.9,,,,,,
+02PDGR10,glavna,Podgorica,18.09.2026 11:20,28.20,33.0,0.00,2.60,16,,692.5,1008.5
+02CRKV30,klimatološka,Crkvice,18.09.2026 11:00,20.89,81.0,,,,,,
+02ZBLJ10,glavna,Žabljak,18.09.2026 11:20,18.30,49.0,0.00,2.10,28,,180.2,857.0
+02LKOT20,klimatološka,Luka Kotor,18.09.2026 10:46,25.10,61.0,,1.00,,1.50,,1017.2
+02GOBU30,klimatološka,Gornja Bukovica,18.09.2026 11:00,20.20,52.6,,,,,,
+02BIST20,klimatološka,Bistrica,18.09.2026 11:00,21.80,48.9,0.00,0.40,2,0.80,444.6,
+02PLJV10,glavna,Pljevlja,18.09.2026 11:20,23.30,43.0,0.00,3.10,18,4.70,695.5,926.7
+02BPLJ20,klimatološka,Bijelo Polje,18.09.2026 11:00,20.61,58.8,,,,,710.72,947.89
+02UBLI20,klimatološka,Ubli,18.09.2026 11:00,24.08,,,,,,,
+02BUDV20,klimatološka,Budva,18.09.2026 11:00,27.84,57.1,,,,,718.49,1013.54
+02BAR010,glavna,Bar,18.09.2026 11:20,27.20,66.0,0.00,2.80,20,,628.0,1014.0
+02PLZN20,klimatološka,Pluzine,18.09.2026 11:00,20.40,73.0,0.00,0.80,28,1.50,665.59,932.43
+02KOLS10,glavna,Kolašin,18.09.2026 11:20,23.50,40.0,0.00,0.70,14,,704.2,909.6
