@@ -41668,3 +41668,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,19.09.2026 19:00,25.30,64.0,0.00,,,,,
 02SCPO30,klimatološka,Šćepan Polje,19.09.2026 19:00,17.39,100.0,,,,,,
 02NIKS10,glavna,Nikšić,19.09.2026 19:00,22.80,52.0,0.00,0.70,30,,0.8,946.3
+02VELM20,klimatološka,Velimlje,19.09.2026 19:00,20.40,58.9,0.00,0.90,14,1.20,0.0,
+02GRAD30,klimatološka,Gradac,19.09.2026 19:00,15.57,100.0,,,,,,
+02BERA20,glavna,Berane,19.09.2026 19:00,18.19,80.3,0.00,1.30,2,3.40,,944.1
+02GOBU30,klimatološka,Gornja Bukovica,19.09.2026 19:00,13.03,100.0,,,,,,
+02NIKS10,glavna,Nikšić,19.09.2026 19:20,22.50,53.0,0.00,2.40,32,,0.5,946.4
+02DDOB30,klimatološka,Donja Dobrilovina,19.09.2026 19:00,15.16,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,19.09.2026 19:00,19.37,100.0,0.00,1.10,2,3.30,78.96,938.07
+02BAR010,glavna,Bar,19.09.2026 19:20,24.90,69.0,0.00,2.90,6,,2.6,1018.3
+02KOSA30,klimatološka,Kosanica,19.09.2026 19:00,14.43,99.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,19.09.2026 18:46,23.80,67.0,,0.70,,1.50,,1021.4
+02PLJV10,glavna,Pljevlja,19.09.2026 19:20,15.60,95.0,0.00,0.40,30,,0.0,933.5
+02PDGR10,glavna,Podgorica,19.09.2026 19:20,27.70,43.0,0.00,0.70,6,,0.2,1012.3
+02UBLI20,klimatološka,Ubli,19.09.2026 19:00,24.44,,,,,,,
+02BIST20,klimatološka,Bistrica,19.09.2026 19:00,15.10,97.7,0.00,0.50,26,0.70,0.5,
+02ZBLJ10,glavna,Žabljak,19.09.2026 19:20,12.90,91.0,0.00,1.20,18,,1.8,863.2
+02BOAN30,klimatološka,Boan,19.09.2026 19:00,14.91,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,19.09.2026 19:00,16.83,98.0,,,,,0.0,954.79
+02KOLS10,glavna,Kolašin,19.09.2026 19:20,14.60,94.0,0.00,0.00,30,,0.0,916.1
+02ULCN10,glavna,Ulcinj,19.09.2026 19:20,25.50,64.0,0.00,0.40,22,,0.0,1018.5
+02CRKV30,klimatološka,Crkvice,19.09.2026 19:00,14.72,100.0,,,,,,
+02BUDV20,klimatološka,Budva,19.09.2026 19:00,24.64,79.1,,,,,0.0,1017.69
+02HNOV10,glavna,Herceg Novi,19.09.2026 19:20,22.10,81.0,0.00,0.30,30,,0.5,1013.9
+02CTNJ10,glavna,Cetinje,19.09.2026 19:20,17.80,80.0,0.00,0.30,6,,0.3,947.3
+02IVKO30,klimatološka,Ivanova korita,19.09.2026 19:00,13.34,89.2,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,19.09.2026 19:00,16.23,74.4,0.00,,,,,
