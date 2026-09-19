@@ -41693,3 +41693,9 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,19.09.2026 19:20,17.80,80.0,0.00,0.30,6,,0.3,947.3
 02IVKO30,klimatološka,Ivanova korita,19.09.2026 19:00,13.34,89.2,0.00,,,,,
 02KUKO30,klimatološka,Kučka korita,19.09.2026 19:00,16.23,74.4,0.00,,,,,
+02PLJV10,glavna,Pljevlja,19.09.2026 19:30,15.60,95.0,0.00,0.60,26,,0.0,933.6
+02CTNJ10,glavna,Cetinje,19.09.2026 19:30,17.20,81.0,0.00,0.00,16,,0.7,947.3
+02BAR010,glavna,Bar,19.09.2026 19:30,24.80,71.0,0.00,1.20,6,,0.4,1018.3
+02PDGR10,glavna,Podgorica,19.09.2026 19:30,27.40,44.0,0.00,1.50,6,2.20,1.1,1012.4
+02HNOV10,glavna,Herceg Novi,19.09.2026 19:30,21.80,76.0,0.00,1.00,26,1.40,0.2,1014.0
+02LKOT20,klimatološka,Luka Kotor,19.09.2026 19:01,23.20,69.0,,0.50,,1.20,,1021.5
