@@ -41473,3 +41473,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,19.09.2026 16:00,12.40,91.0,0.00,2.30,22,,132.6,862.3
 02NJGV30,klimatološka,Njegovuđa,19.09.2026 16:00,13.54,100.0,,,,,,
 02VELK30,klimatološka,Velika,19.09.2026 16:00,19.07,100.0,,,,,,
+02NIKS10,glavna,Nikšić,19.09.2026 16:20,23.80,47.0,0.00,2.80,26,,355.6,945.8
+02KUKO30,klimatološka,Kučka korita,19.09.2026 16:00,20.43,56.1,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,19.09.2026 16:00,12.68,100.0,,,,,,
+02KOLS10,glavna,Kolašin,19.09.2026 16:20,17.30,87.0,0.00,0.60,22,,189.9,915.0
+02LKOT20,klimatološka,Luka Kotor,19.09.2026 15:46,25.90,59.0,,4.40,,6.50,,1021.0
+02CTNJ10,glavna,Cetinje,19.09.2026 16:20,23.10,57.0,0.00,2.50,26,,425.7,946.4
+02BUDV20,klimatološka,Budva,19.09.2026 16:00,27.94,65.9,,,,,226.13,1016.94
+02ULCN10,glavna,Ulcinj,19.09.2026 16:20,29.70,49.0,0.00,3.20,24,,425.6,1017.3
+02ZBLJ10,glavna,Žabljak,19.09.2026 16:20,14.10,80.0,0.00,0.70,18,,586.8,862.2
+02DDOB30,klimatološka,Donja Dobrilovina,19.09.2026 16:00,17.80,100.0,,,,,,
+02BAR010,glavna,Bar,19.09.2026 16:20,27.60,66.0,0.00,2.80,24,,391.3,1017.4
+02BERA20,glavna,Berane,19.09.2026 16:00,23.06,66.8,0.00,0.90,28,2.80,,942.38
+02BOAN30,klimatološka,Boan,19.09.2026 16:00,19.12,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,19.09.2026 16:00,15.47,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,19.09.2026 16:00,17.10,94.1,0.00,0.50,22,0.90,246.3,
+02VELM20,klimatološka,Velimlje,19.09.2026 16:00,23.30,54.3,0.00,2.70,4,5.20,204.4,
+02UBLI20,klimatološka,Ubli,19.09.2026 16:00,26.23,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,19.09.2026 16:00,19.31,83.9,,,,,164.7,952.94
+02KOSA30,klimatološka,Kosanica,19.09.2026 16:00,16.79,88.6,,,,,,
+02CRKV30,klimatološka,Crkvice,19.09.2026 16:00,18.32,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,19.09.2026 16:20,25.80,64.0,0.00,0.70,10,,387.4,1013.5
+02PDGR10,glavna,Podgorica,19.09.2026 16:20,29.90,37.0,0.00,4.10,26,,356.5,1011.6
+02IVKO30,klimatološka,Ivanova korita,19.09.2026 16:00,19.17,66.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,19.09.2026 16:20,16.10,93.0,0.00,0.40,22,,85.3,932.6
