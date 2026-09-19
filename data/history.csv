@@ -41976,3 +41976,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,19.09.2026 23:50,19.80,75.0,0.00,0.90,24,,0.2,1015.9
 02LKOT20,klimatološka,Luka Kotor,19.09.2026 23:16,21.00,79.0,,0.50,,1.60,,1023.4
 02BAR010,glavna,Bar,19.09.2026 23:50,22.70,72.0,0.00,1.10,6,,0.0,1020.0
+02HNOV10,glavna,Herceg Novi,20.09.2026 00:00,19.50,73.0,0.00,0.20,24,,0.0,1015.9
+02MOKR30,klimatološka,Mokro,20.09.2026 00:00,7.58,95.4,,,,,,
+02NJGV30,klimatološka,Njegovuđa,20.09.2026 00:00,6.94,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,20.09.2026 00:00,13.10,98.0,0.00,0.80,2,,0.0,935.0
+02VIRP20,klimatološka,Virpazar,20.09.2026 00:00,18.00,92.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,20.09.2026 00:00,12.70,96.0,0.00,0.40,32,0.60,0.5,948.9
+02STIT30,klimatološka,Štitarica,20.09.2026 00:00,8.55,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,20.09.2026 00:00,19.70,84.0,0.00,0.50,2,,0.0,1020.3
+02ZBLJ10,glavna,Žabljak,20.09.2026 00:00,8.90,98.0,0.00,1.60,22,2.00,0.6,863.8
+02BAR010,glavna,Bar,20.09.2026 00:00,22.70,71.0,0.00,1.40,6,,0.0,1020.0
+02VELK30,klimatološka,Velika,20.09.2026 00:00,11.64,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,20.09.2026 00:00,9.54,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,20.09.2026 00:00,9.42,98.4,0.00,,,,,
+02NIKS10,glavna,Nikšić,20.09.2026 00:00,16.10,69.0,0.00,1.80,2,,0.0,948.1
+02LKOT20,klimatološka,Luka Kotor,19.09.2026 23:31,20.70,80.0,,0.40,,1.10,,1023.4
+02DANL20,klimatološka,Danilovgrad,20.09.2026 00:00,19.00,,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,20.09.2026 00:00,14.60,93.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,20.09.2026 00:00,13.78,100.0,,,,,,
+02KOLS10,glavna,Kolašin,20.09.2026 00:00,11.50,100.0,0.00,0.00,12,,0.0,917.3
+02PDGR10,glavna,Podgorica,20.09.2026 00:00,24.00,51.0,0.00,0.20,18,,0.0,1014.3
+02STAB30,klimatološka,Stabna,20.09.2026 00:00,11.88,100.0,,,,,,
