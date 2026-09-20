@@ -43183,3 +43183,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,20.09.2026 18:00,30.00,,0.00,,,,,
 02MATE30,klimatološka,Matesevo,20.09.2026 18:00,17.67,75.3,0.00,,,,,
 02ZBLJ10,glavna,Žabljak,20.09.2026 18:00,18.00,59.0,0.00,0.10,2,,10.6,862.3
+02BIST20,klimatološka,Bistrica,20.09.2026 18:00,19.50,71.3,0.00,1.50,18,2.40,18.4,
+02KUKO30,klimatološka,Kučka korita,20.09.2026 18:00,18.14,55.8,0.00,,,,,
+02PDGR10,glavna,Podgorica,20.09.2026 18:20,30.30,33.0,0.00,2.00,2,,73.4,1012.3
+02KOSA30,klimatološka,Kosanica,20.09.2026 18:00,19.68,75.4,,,,,,
+02BUDV20,klimatološka,Budva,20.09.2026 18:00,27.40,54.2,,,,,25.02,1017.92
+02GOBU30,klimatološka,Gornja Bukovica,20.09.2026 18:00,19.30,73.0,,,,,,
+02KOLS10,glavna,Kolašin,20.09.2026 18:20,19.40,70.0,0.00,0.60,18,,23.7,915.0
+02BPLJ20,klimatološka,Bijelo Polje,20.09.2026 18:00,22.16,70.0,,,,,23.95,952.21
+02UBLI20,klimatološka,Ubli,20.09.2026 18:00,25.14,,,,,,,
+02NIKS10,glavna,Nikšić,20.09.2026 18:20,24.70,45.0,0.00,1.90,26,,30.1,946.2
+02VELM20,klimatološka,Velimlje,20.09.2026 18:00,24.70,49.4,0.00,2.70,28,4.10,118.7,
+02DDOB30,klimatološka,Donja Dobrilovina,20.09.2026 18:00,18.81,86.9,,,,,,
+02GRAD30,klimatološka,Gradac,20.09.2026 18:00,19.88,85.0,,,,,,
+02BERA20,glavna,Berane,20.09.2026 18:00,22.21,67.1,0.00,1.00,8,2.10,,942.23
+02LKOT20,klimatološka,Luka Kotor,20.09.2026 17:46,26.50,58.0,,0.50,,2.00,,1021.7
+02ULCN10,glavna,Ulcinj,20.09.2026 18:20,27.00,53.0,0.00,3.40,24,,49.2,1018.6
+02BAR010,glavna,Bar,20.09.2026 18:20,26.50,69.0,0.00,2.30,26,,40.2,1018.7
+02PLZN20,klimatološka,Pluzine,20.09.2026 18:00,23.24,68.3,0.00,1.70,30,4.10,19.55,936.82
+02CRKV30,klimatološka,Crkvice,20.09.2026 18:00,19.53,98.8,,,,,,
+02CTNJ10,glavna,Cetinje,20.09.2026 18:20,23.10,60.0,0.00,1.30,4,2.00,17.8,947.1
+02HNOV10,glavna,Herceg Novi,20.09.2026 18:20,27.30,55.0,0.00,0.30,28,,36.2,1014.3
+02IVKO30,klimatološka,Ivanova korita,20.09.2026 18:00,16.79,78.2,0.00,,,,,
+02PLJV10,glavna,Pljevlja,20.09.2026 18:20,23.50,46.0,0.00,0.90,4,,33.7,931.5
+02BOAN30,klimatološka,Boan,20.09.2026 18:00,19.89,94.1,,,,,,
+02ZBLJ10,glavna,Žabljak,20.09.2026 18:20,17.80,60.0,0.00,0.30,32,,4.5,862.3
