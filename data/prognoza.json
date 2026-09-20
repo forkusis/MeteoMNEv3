@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-20T09:15:52.534110+00:00",
+  "updated_at": "2026-09-20T09:31:07.085897+00:00",
   "dani": [
     {
-      "naslov": "Nedjelja, 20.09.2026.",
-      "azurirano": "20.09.2026. 05:31 CEST",
-      "tekst": "Pretežno sunčano ili malo do umjereno oblačno. Na sjeveru ujutru po kotlinama magla, poslijepodne u kontinentalnim predjelima uz jači razvoj oblačćnosti, mjestimično kiša ili pljusak sa grmljavinom. Vjetar slab do umjeren promjenljivog smjera. Najviša dnevna temperatura vazduha od 21 do 32 stepena.",
+      "naslov": "Ponedjeljak, 21.09.2026.",
+      "azurirano": "20.09.2026. 11:19 CEST",
+      "tekst": "Promjenljivo oblačno, u južnim predjelima dosta sunčanih perioda. Poslijepodne u sjevernim, a krajem dana ili u večernjim satima lokalno moguće i u južnim predjelima, kiša ili pljusak sa grmljavinom. Vjetar prijepodne u sjevernim, a poslijepodne ili krajem dana i u ostalim predjelima umjeren do jak sjeverni. Jutarnja temperatura vazduha od 7 do 22 stepena, najviša dnevna od 18 do 31 stepen.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
-      "naslov": "Ponedjeljak, 21.09.2026.",
-      "azurirano": "19.09.2026. 11:41 CEST",
-      "tekst": "Promjenljivo oblačno, u južnim predjelima duži sunčani periodi. Poslijepodne u sjevernim, a krajem dana ili u večernjim satima i u centralnim i južnim predjelima, kiša ili pljusak sa grmljavinom. Vjetar prijepodne u sjevernim, a poslijepodne ili krajem dana i u ostalim predjelima umjeren do jak sjeverni. Jutarnja temperatura vazduha od 7 do 22 stepena, najviša dnevna od 18 do 31 stepen.",
-      "podgorica": "Podgorica: Malo do umjereno oblačno sa sunčanim periodima, krajem dana ili u večernjim satima je moguća prolazna kiša ili pljusak sa grmljavinom. Vjetar slab do umjeren promjenljivog smjera, krajem dana i tokom noći umjeren do jak sjeverni. Jutarnja temperatura vazduha oko 21, najviša dnevna do 31 stepen."
+      "naslov": "Utorak, 22.09.2026.",
+      "azurirano": "20.09.2026. 11:17 CEST",
+      "tekst": "U južnim predjelima sunčano, uz povemeno malu do umjerenu oblačnost i vjetrovito. Na sjeveru promjenljivo oblačno, rano ujutru i poslijepodne ponegdje kiša. Vjetar umjeren do jak, povremeno na udare i veoma jak, sjeverni i sjeveroistočni. Jutarnja temperatura vazduha od 3 do 20 stepena, najviša dnevna od 9 do 26 stepeni.",
+      "podgorica": "Podgorica: Pretežno sunčano. Vjetar pojačan i jak sjeverni i sjeveroistočni. Jutarnja temperatura vazduha oko 19, najviša dnevna do 25 stepeni."
     }
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "20.09.2026. 05:29 CEST",
-    "tekst": "UPOZORENJE: SINOPTIČKA SITUACIJA: Anticiklonalno polje. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar u jutarnjim i noćnim satima NE, tokom dana NW, a uz obalu W i SW, 4-16 čvorova. More 2-3. Vidljivost 20 km. Vedro, uz povremeno malu do umjerenu oblačnost. Poslijepodne u zaleđu Boke uz jače naoblačenje moguća je kratkotrajna kiša ili pljusak sa grmljavinom. Najviša dnevna temperatura vazduha od 28 do 30 stepeni.",
+    "azurirano": "20.09.2026. 11:20 CEST",
+    "tekst": "UPOZORENJE: SINOPTIČKA SITUACIJA: Polje visokog vazdušnog pritiska. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar W i NW, a duž obale tokom noći i jutra i NE, 4-16 čvorova. More 2-3. Vidljivost 10-20 km. Promjenljivo oblačno uz dosta sunčanih perioda, a danas poslijepodne na području Boke moguća kratkotrajna i grmljavina. Jutarnja temperatura vazduha od 20 do 22 stepena, najviša dnevna od 28 do 30 stepeni.",
     "podgorica": ""
   }
 }
