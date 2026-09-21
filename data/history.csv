@@ -44304,3 +44304,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,21.09.2026 11:00,26.70,62.0,0.00,,,,,
 02POSC30,klimatološka,Pošćenje,21.09.2026 11:00,17.64,84.3,,,,,,
 02VELK30,klimatološka,Velika,21.09.2026 11:00,18.88,77.4,,,,,,
+02GRAD30,klimatološka,Gradac,21.09.2026 11:00,18.00,88.7,,,,,,
+02KOLS10,glavna,Kolašin,21.09.2026 11:20,20.40,55.0,0.00,4.80,2,,678.8,914.4
+02IVKO30,klimatološka,Ivanova korita,21.09.2026 11:00,20.97,55.6,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,21.09.2026 11:00,17.01,87.4,,,,,,
+02BIST20,klimatološka,Bistrica,21.09.2026 11:00,18.40,81.1,0.00,1.00,6,1.50,189.4,
+02BERA20,glavna,Berane,21.09.2026 11:00,20.21,66.9,0.00,0.90,30,3.00,,942.63
+02GOBU30,klimatološka,Gornja Bukovica,21.09.2026 11:00,16.22,81.4,,,,,,
+02KOVR30,klimatološka,Kovren,21.09.2026 11:00,16.43,100.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,21.09.2026 11:20,28.50,42.0,0.00,3.40,16,,728.0,1011.3
+02UBLI20,klimatološka,Ubli,21.09.2026 11:00,23.85,,,,,,,
+02VELM20,klimatološka,Velimlje,21.09.2026 11:00,22.50,49.6,0.00,3.10,32,5.30,164.6,
+02ULCN10,glavna,Ulcinj,21.09.2026 11:20,27.00,65.0,0.00,2.40,16,,686.5,1017.6
+02CRKV30,klimatološka,Crkvice,21.09.2026 11:00,22.71,65.5,,,,,,
+02LKOT20,klimatološka,Luka Kotor,21.09.2026 10:46,24.80,62.0,,2.10,,2.90,,1020.5
+02BOAN30,klimatološka,Boan,21.09.2026 11:00,19.24,70.2,,,,,,
+02PLJV10,glavna,Pljevlja,21.09.2026 11:20,18.90,62.0,0.00,3.30,4,,525.8,932.7
+02PLZN20,klimatološka,Pluzine,21.09.2026 11:00,20.30,78.7,0.00,7.60,32,13.40,300.36,937.39
+02ZBLJ10,glavna,Žabljak,21.09.2026 11:10,14.70,68.0,0.00,1.00,30,,254.2,861.9
+02BAR010,glavna,Bar,21.09.2026 11:20,26.30,74.0,0.00,2.30,22,,651.1,1017.4
+02NIKS10,glavna,Nikšić,21.09.2026 11:20,24.30,38.0,0.00,4.30,32,,736.6,944.9
+02HNOV10,glavna,Herceg Novi,21.09.2026 11:20,26.80,64.0,0.00,1.20,10,,709.8,1013.1
+02KUKO30,klimatološka,Kučka korita,21.09.2026 11:00,18.55,65.0,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,21.09.2026 11:00,20.49,64.2,,,,,,
+02CTNJ10,glavna,Cetinje,21.09.2026 11:20,26.60,50.0,0.00,0.20,12,,757.2,945.3
+02BPLJ20,klimatološka,Bijelo Polje,21.09.2026 11:00,18.90,83.5,,,,,297.13,953.15
