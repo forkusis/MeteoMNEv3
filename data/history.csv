@@ -43758,3 +43758,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,21.09.2026 02:50,22.70,59.0,0.00,0.60,32,,0.0,1012.8
 02HNOV10,glavna,Herceg Novi,21.09.2026 02:50,19.60,74.0,0.00,1.20,24,1.90,0.3,1014.0
 02CTNJ10,glavna,Cetinje,21.09.2026 02:50,11.70,97.0,0.00,0.20,4,,0.8,947.0
+02ULCN10,glavna,Ulcinj,21.09.2026 03:00,18.70,89.0,0.00,0.40,30,,0.2,1018.3
+02HNOV10,glavna,Herceg Novi,21.09.2026 03:00,19.90,74.0,0.00,0.50,24,,0.0,1013.9
+02CTNJ10,glavna,Cetinje,21.09.2026 03:00,11.70,96.0,0.00,0.10,32,,0.0,946.9
+02VELK30,klimatološka,Velika,21.09.2026 03:00,11.22,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,21.09.2026 03:00,11.20,100.0,,,,,,
+02STAB30,klimatološka,Stabna,21.09.2026 03:00,12.81,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,21.09.2026 03:00,11.41,100.0,,,,,,
+02PDGR10,glavna,Podgorica,21.09.2026 03:00,22.50,58.0,0.00,0.60,30,,0.0,1012.7
+02MATE30,klimatološka,Matesevo,21.09.2026 03:00,9.70,98.0,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,21.09.2026 03:00,17.00,92.0,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,21.09.2026 03:00,14.23,94.2,,,,,,
+02NJGV30,klimatološka,Njegovuđa,21.09.2026 03:00,10.60,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,21.09.2026 03:00,10.62,100.0,,,,,,
+02NIKS10,glavna,Nikšić,21.09.2026 03:00,15.30,78.0,0.00,0.50,2,,0.0,946.2
+02MOKR30,klimatološka,Mokro,21.09.2026 03:00,9.88,95.6,,,,,,
+02LKOT20,klimatološka,Luka Kotor,21.09.2026 02:31,20.40,78.0,,0.80,,1.40,,1021.6
+02KOLS10,glavna,Kolašin,21.09.2026 03:00,11.70,98.0,0.00,0.10,16,,0.6,914.8
+02DANL20,klimatološka,Danilovgrad,21.09.2026 03:00,17.50,,0.00,,,,,
+02PLJV10,glavna,Pljevlja,21.09.2026 03:00,11.70,91.0,0.00,0.30,26,,0.9,931.8
+02ZBLJ10,glavna,Žabljak,21.09.2026 03:00,10.60,93.0,0.00,0.50,18,,0.8,861.3
+02BAR010,glavna,Bar,21.09.2026 03:00,20.90,74.0,0.00,0.90,8,,0.0,1018.1
