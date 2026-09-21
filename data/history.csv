@@ -44964,3 +44964,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,21.09.2026 21:00,25.40,40.0,0.00,,,,,
 02MAMO30,klimatološka,Manastir Morača,21.09.2026 21:00,20.53,49.1,,,,,,
 02BAR010,glavna,Bar,21.09.2026 21:00,26.10,38.0,0.00,6.20,4,,0.7,1014.6
+02PLZN20,klimatološka,Pluzine,21.09.2026 21:00,17.44,45.0,0.00,3.90,4,9.40,0.0,936.71
+02HNOV10,glavna,Herceg Novi,21.09.2026 21:20,23.40,67.0,0.00,0.60,30,,0.0,1010.6
+02VELM20,klimatološka,Velimlje,21.09.2026 21:00,17.50,49.1,0.00,0.80,20,1.70,0.0,
+02KOSA30,klimatološka,Kosanica,21.09.2026 21:00,11.88,93.4,,,,,,
+02UBLI20,klimatološka,Ubli,21.09.2026 21:00,21.54,,,,,,,
+02CTNJ10,glavna,Cetinje,21.09.2026 21:20,18.50,52.0,0.00,2.20,24,,0.6,944.7
+02BUDV20,klimatološka,Budva,21.09.2026 21:00,25.37,49.6,,,,,0.0,1014.22
+02GRAD30,klimatološka,Gradac,21.09.2026 21:00,13.45,91.8,,,,,,
+02CRKV30,klimatološka,Crkvice,21.09.2026 21:00,16.66,70.1,,,,,,
+02PLJV10,glavna,Pljevlja,21.09.2026 21:20,14.50,45.0,0.00,1.00,32,,0.7,932.1
+02BIST20,klimatološka,Bistrica,21.09.2026 21:00,13.90,77.3,0.00,0.30,8,0.50,0.5,
+02ULCN10,glavna,Ulcinj,21.09.2026 21:20,23.10,68.0,0.00,3.20,4,,0.0,1015.2
+02GOBU30,klimatološka,Gornja Bukovica,21.09.2026 21:00,11.95,74.9,,,,,,
+02IVKO30,klimatološka,Ivanova korita,21.09.2026 21:00,14.41,63.5,0.00,,,,,
+02KOLS10,glavna,Kolašin,21.09.2026 21:20,14.60,67.0,0.00,1.30,2,,0.1,913.8
+02LKOT20,klimatološka,Luka Kotor,21.09.2026 20:46,26.30,38.0,,7.20,,14.60,,1018.4
+02KOVR30,klimatološka,Kovren,21.09.2026 21:00,12.83,66.8,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,21.09.2026 21:00,13.87,91.3,,,,,,
+02BOAN30,klimatološka,Boan,21.09.2026 21:00,13.77,86.7,,,,,,
+02BERA20,glavna,Berane,21.09.2026 21:00,15.81,71.3,0.00,0.70,2,1.60,,941.94
+02BAR010,glavna,Bar,21.09.2026 21:20,26.00,36.0,0.00,2.80,4,,0.0,1014.6
+02ZBLJ10,glavna,Žabljak,21.09.2026 21:20,10.10,54.0,0.00,0.40,24,,0.0,860.7
+02PDGR10,glavna,Podgorica,21.09.2026 21:20,25.30,29.0,0.00,8.60,2,,0.3,1010.2
+02BPLJ20,klimatološka,Bijelo Polje,21.09.2026 21:00,15.71,82.6,,,,,0.0,952.42
+02KUKO30,klimatološka,Kučka korita,21.09.2026 21:00,13.73,56.9,0.00,,,,,
+02NIKS10,glavna,Nikšić,21.09.2026 21:20,19.10,,0.00,5.40,32,,,
