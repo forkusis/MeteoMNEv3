@@ -45096,3 +45096,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,21.09.2026 23:00,12.05,76.6,,,,,,
 02MOKR30,klimatološka,Mokro,21.09.2026 23:00,12.44,54.2,,,,,,
 02NJGV30,klimatološka,Njegovuđa,21.09.2026 23:00,7.57,79.5,,,,,,
+02PLJV10,glavna,Pljevlja,21.09.2026 23:10,12.20,49.0,0.00,1.70,2,,0.6,932.6
+02BPLJ20,klimatološka,Bijelo Polje,21.09.2026 23:00,13.25,87.9,,,,,0.0,953.17
+02HNOV10,glavna,Herceg Novi,21.09.2026 23:10,25.70,48.0,0.00,0.30,2,,0.0,1010.3
+02BIST20,klimatološka,Bistrica,21.09.2026 23:00,14.40,46.3,0.00,1.50,32,2.50,0.5,
+02VELM20,klimatološka,Velimlje,21.09.2026 23:00,16.70,27.5,0.00,2.70,24,4.00,0.0,
+02KOSA30,klimatološka,Kosanica,21.09.2026 23:00,6.54,77.3,,,,,,
+02GRAD30,klimatološka,Gradac,21.09.2026 23:00,10.12,91.6,,,,,,
+02BOAN30,klimatološka,Boan,21.09.2026 23:00,12.41,77.0,,,,,,
+02ULCN10,glavna,Ulcinj,21.09.2026 23:10,23.70,51.0,0.00,4.30,6,,0.0,1014.8
+02KUKO30,klimatološka,Kučka korita,21.09.2026 23:00,13.14,40.3,0.00,,,,,
+02UBLI20,klimatološka,Ubli,21.09.2026 23:00,21.29,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,21.09.2026 22:46,25.90,29.0,,4.90,,10.40,,1018.3
+02BAR010,glavna,Bar,21.09.2026 23:10,25.70,24.0,0.00,5.40,4,,0.6,1014.4
+02BUDV20,klimatološka,Budva,21.09.2026 23:00,26.31,31.8,,,,,0.0,1013.81
+02PDGR10,glavna,Podgorica,21.09.2026 23:10,24.90,31.0,0.00,8.80,2,,3.3,1010.1
+02KOVR30,klimatološka,Kovren,21.09.2026 23:00,10.34,54.6,0.00,,,,,
+02NIKS10,glavna,Nikšić,21.09.2026 23:10,18.60,27.0,0.00,4.60,32,,0.0,944.7
+02ZBLJ10,glavna,Žabljak,21.09.2026 23:10,7.50,64.0,0.00,1.20,24,,0.2,860.8
+02KOLS10,glavna,Kolašin,21.09.2026 23:10,14.00,47.0,0.00,1.00,2,,0.1,914.0
+02CRKV30,klimatološka,Crkvice,21.09.2026 23:00,16.65,46.1,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,21.09.2026 23:00,9.63,73.2,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,21.09.2026 23:00,14.37,47.2,,,,,,
+02IVKO30,klimatološka,Ivanova korita,21.09.2026 23:00,13.92,47.6,0.00,,,,,
+02BERA20,glavna,Berane,21.09.2026 23:00,15.39,43.6,0.00,1.00,32,3.90,,942.5
+02PLZN20,klimatološka,Pluzine,21.09.2026 23:00,15.50,35.2,0.00,3.20,2,8.50,0.0,937.14
+02CTNJ10,glavna,Cetinje,21.09.2026 23:10,16.60,56.0,0.00,0.60,4,,0.0,944.4
