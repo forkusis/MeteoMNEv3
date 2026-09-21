@@ -45010,3 +45010,22 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,21.09.2026 21:50,25.60,36.0,0.00,1.50,6,,0.3,1010.6
 02KOLS10,glavna,Kolašin,21.09.2026 21:50,13.80,70.0,0.00,1.20,4,,0.0,913.8
 02ZBLJ10,glavna,Žabljak,21.09.2026 21:50,9.00,59.0,0.00,0.90,2,,0.5,860.6
+02CTNJ10,glavna,Cetinje,21.09.2026 22:00,18.40,49.0,0.00,1.40,24,,0.6,944.7
+02BAR010,glavna,Bar,21.09.2026 22:00,25.90,32.0,0.00,7.60,4,,0.7,1014.6
+02VIRP20,klimatološka,Virpazar,21.09.2026 22:00,24.70,35.0,0.00,,,,,
+02MATE30,klimatološka,Matesevo,21.09.2026 22:00,11.12,87.5,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,21.09.2026 22:00,14.80,41.3,,,,,,
+02DANL20,klimatološka,Danilovgrad,21.09.2026 22:00,24.30,,0.00,,,,,
+02NIKS10,glavna,Nikšić,21.09.2026 22:00,19.10,35.0,0.00,2.70,32,,0.0,944.6
+02SCPO30,klimatološka,Šćepan Polje,21.09.2026 22:00,11.92,91.0,,,,,,
+02MOKR30,klimatološka,Mokro,21.09.2026 22:00,11.29,72.9,,,,,,
+02PLJV10,glavna,Pljevlja,21.09.2026 22:00,13.80,45.0,0.00,1.00,2,,0.3,932.4
+02PDGR10,glavna,Podgorica,21.09.2026 22:00,25.10,26.0,0.00,5.80,2,,0.1,1010.2
+02HNOV10,glavna,Herceg Novi,21.09.2026 22:00,25.90,35.0,0.00,4.40,2,,0.0,1010.4
+02STAB30,klimatološka,Stabna,21.09.2026 22:00,16.23,32.7,,,,,,
+02STIT30,klimatološka,Štitarica,21.09.2026 22:00,10.72,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,21.09.2026 21:31,26.10,35.0,,8.40,,15.00,,1018.5
+02VELK30,klimatološka,Velika,21.09.2026 22:00,13.20,98.6,,,,,,
+02NJGV30,klimatološka,Njegovuđa,21.09.2026 22:00,10.51,66.2,,,,,,
+02MAMO30,klimatološka,Manastir Morača,21.09.2026 22:00,19.77,50.7,,,,,,
+02KOLS10,glavna,Kolašin,21.09.2026 22:00,13.90,69.0,0.00,0.80,8,,0.5,913.7
