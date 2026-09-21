@@ -45029,3 +45029,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,21.09.2026 22:00,10.51,66.2,,,,,,
 02MAMO30,klimatološka,Manastir Morača,21.09.2026 22:00,19.77,50.7,,,,,,
 02KOLS10,glavna,Kolašin,21.09.2026 22:00,13.90,69.0,0.00,0.80,8,,0.5,913.7
+02PLZN20,klimatološka,Pluzine,21.09.2026 22:00,16.73,37.6,0.00,5.80,4,10.80,0.0,936.88
+02PLJV10,glavna,Pljevlja,21.09.2026 22:20,13.40,44.0,0.00,1.10,32,,0.0,932.5
+02BPLJ20,klimatološka,Bijelo Polje,21.09.2026 22:00,14.60,85.8,,,,,0.0,952.88
+02LKOT20,klimatološka,Luka Kotor,21.09.2026 21:46,26.30,32.0,,5.60,,12.60,,1018.4
+02BERA20,glavna,Berane,21.09.2026 22:00,15.48,71.7,0.00,1.00,2,2.50,,942.16
+02GOBU30,klimatološka,Gornja Bukovica,21.09.2026 22:00,11.63,69.8,,,,,,
+02KOVR30,klimatološka,Kovren,21.09.2026 22:00,11.30,66.2,0.00,,,,,
+02BOAN30,klimatološka,Boan,21.09.2026 22:00,12.38,96.2,,,,,,
+02BAR010,glavna,Bar,21.09.2026 22:20,25.80,29.0,0.00,4.50,4,16.60,0.7,1014.4
+02ULCN10,glavna,Ulcinj,21.09.2026 22:20,23.50,55.0,0.00,6.00,6,,0.0,1015.0
+02GRAD30,klimatološka,Gradac,21.09.2026 22:00,12.30,95.4,,,,,,
+02PDGR10,glavna,Podgorica,21.09.2026 22:20,25.10,24.0,0.00,5.00,2,,0.0,1010.2
+02CRKV30,klimatološka,Crkvice,21.09.2026 22:00,16.66,61.6,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,21.09.2026 22:00,15.94,52.0,,,,,,
+02KOLS10,glavna,Kolašin,21.09.2026 22:20,13.90,66.0,0.00,1.60,2,,0.2,913.9
+02NIKS10,glavna,Nikšić,21.09.2026 22:20,19.10,32.0,0.00,2.40,32,,0.3,944.6
+02HNOV10,glavna,Herceg Novi,21.09.2026 22:20,25.70,49.0,0.00,1.70,2,,0.0,1010.5
+02VELM20,klimatološka,Velimlje,21.09.2026 22:00,17.40,40.5,0.00,1.80,24,3.10,0.0,
+02ZBLJ10,glavna,Žabljak,21.09.2026 22:20,8.60,57.0,0.00,1.70,22,,0.5,860.8
+02BUDV20,klimatološka,Budva,21.09.2026 22:00,26.22,35.2,,,,,0.0,1014.07
+02IVKO30,klimatološka,Ivanova korita,21.09.2026 22:00,14.21,56.4,0.00,,,,,
+02BIST20,klimatološka,Bistrica,21.09.2026 22:00,15.00,63.0,0.00,3.70,6,5.30,4.2,
+02CTNJ10,glavna,Cetinje,21.09.2026 22:20,18.30,53.0,0.00,0.40,26,,0.0,944.6
+02KUKO30,klimatološka,Kučka korita,21.09.2026 22:00,13.31,48.2,0.00,,,,,
+02UBLI20,klimatološka,Ubli,21.09.2026 22:00,21.37,,,,,,,
+02KOSA30,klimatološka,Kosanica,21.09.2026 22:00,10.28,65.9,,,,,,
