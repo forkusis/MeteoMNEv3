@@ -44432,3 +44432,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,21.09.2026 13:00,30.70,,0.00,,,,,
 02HNOV10,glavna,Herceg Novi,21.09.2026 13:00,27.00,68.0,0.00,1.00,10,,302.5,1012.5
 02MAMO30,klimatološka,Manastir Morača,21.09.2026 13:00,26.64,43.2,,,,,,
+02CRKV30,klimatološka,Crkvice,21.09.2026 13:00,22.35,60.6,,,,,,
+02KUKO30,klimatološka,Kučka korita,21.09.2026 13:00,18.77,54.8,0.00,,,,,
+02BOAN30,klimatološka,Boan,21.09.2026 13:00,21.12,60.3,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,21.09.2026 13:00,21.97,57.1,,,,,286.06,952.51
+02LKOT20,klimatološka,Luka Kotor,21.09.2026 12:46,26.00,66.0,,1.00,,1.70,,1019.4
+02BERA20,glavna,Berane,21.09.2026 13:00,22.53,58.9,0.00,1.10,26,4.10,,942.13
+02BAR010,glavna,Bar,21.09.2026 13:20,26.30,77.0,0.00,1.00,22,,215.7,1016.5
+02PDGR10,glavna,Podgorica,21.09.2026 13:20,30.20,43.0,0.00,0.80,10,,331.4,1010.1
+02KOSA30,klimatološka,Kosanica,21.09.2026 13:00,16.15,86.8,,,,,,
+02BIST20,klimatološka,Bistrica,21.09.2026 13:00,20.90,55.0,0.00,2.60,12,4.60,694.1,
+02NIKS10,glavna,Nikšić,21.09.2026 13:20,25.60,34.0,0.00,3.40,30,,468.8,944.3
+02VELM20,klimatološka,Velimlje,21.09.2026 13:00,24.70,40.5,0.00,1.80,32,2.80,597.8,
+02BUDV20,klimatološka,Budva,21.09.2026 13:00,25.27,89.6,,,,,258.12,1016.38
+02GRAD30,klimatološka,Gradac,21.09.2026 13:00,18.65,75.0,,,,,,
+02UBLI20,klimatološka,Ubli,21.09.2026 13:00,25.99,,,,,,,
+02KOVR30,klimatološka,Kovren,21.09.2026 13:00,16.67,95.8,0.00,,,,,
+02KOLS10,glavna,Kolašin,21.09.2026 13:20,20.40,54.0,0.00,4.70,2,7.10,483.1,913.8
+02PLJV10,glavna,Pljevlja,21.09.2026 13:20,18.60,61.0,0.00,4.80,2,,303.9,932.2
+02IVKO30,klimatološka,Ivanova korita,21.09.2026 13:00,19.01,67.4,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,21.09.2026 13:00,17.63,75.4,,,,,,
+02HNOV10,glavna,Herceg Novi,21.09.2026 13:20,26.90,65.0,0.00,3.20,10,,537.3,1012.0
+02PLZN20,klimatološka,Pluzine,21.09.2026 13:00,20.98,77.1,0.00,6.10,32,10.70,247.1,936.63
+02CTNJ10,glavna,Cetinje,21.09.2026 13:20,23.60,65.0,0.00,0.50,12,,123.1,944.8
+02ULCN10,glavna,Ulcinj,21.09.2026 13:20,26.60,71.0,0.00,5.30,22,,603.4,1016.4
+02ZBLJ10,glavna,Žabljak,21.09.2026 13:20,15.20,72.0,0.00,1.70,2,,111.0,861.2
+02DDOB30,klimatološka,Donja Dobrilovina,21.09.2026 13:00,20.52,65.7,,,,,,
