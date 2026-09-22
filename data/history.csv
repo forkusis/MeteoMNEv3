@@ -45938,3 +45938,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,22.09.2026 12:00,11.60,52.0,0.00,2.10,2,,273.2,911.8
 02SCPO30,klimatološka,Šćepan Polje,22.09.2026 12:00,15.93,44.9,,,,,,
 02POSC30,klimatološka,Pošćenje,22.09.2026 12:00,14.11,43.8,,,,,,
+02CRKV30,klimatološka,Crkvice,22.09.2026 12:00,15.44,42.9,,,,,,
+02NIKS10,glavna,Nikšić,22.09.2026 12:20,16.70,29.0,0.00,5.10,4,,790.0,943.1
+02KOSA30,klimatološka,Kosanica,22.09.2026 12:00,9.65,73.9,,,,,,
+02CTNJ10,glavna,Cetinje,22.09.2026 12:20,18.60,30.0,0.00,0.50,24,,611.8,942.9
+02UBLI20,klimatološka,Ubli,22.09.2026 12:00,19.17,,,,,,,
+02VELM20,klimatološka,Velimlje,22.09.2026 12:00,16.50,34.2,0.00,6.30,32,8.80,781.6,
+02ULCN10,glavna,Ulcinj,22.09.2026 12:20,25.20,23.0,0.00,9.20,4,,806.0,1014.5
+02BAR010,glavna,Bar,22.09.2026 12:20,24.10,21.0,0.00,2.70,2,,756.2,1014.5
+02DDOB30,klimatološka,Donja Dobrilovina,22.09.2026 12:00,12.24,56.5,,,,,,
+02PLJV10,glavna,Pljevlja,22.09.2026 12:20,13.00,49.0,0.00,1.40,16,,257.1,929.5
+02KUKO30,klimatološka,Kučka korita,22.09.2026 12:00,11.90,39.6,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,22.09.2026 12:20,8.00,55.0,0.00,0.90,32,,317.1,857.4
+02GOBU30,klimatološka,Gornja Bukovica,22.09.2026 12:00,8.68,66.2,,,,,,
+02PLZN20,klimatološka,Pluzine,22.09.2026 12:00,13.73,56.4,0.00,3.40,30,9.60,838.81,934.38
+02GRAD30,klimatološka,Gradac,22.09.2026 12:00,13.94,53.6,,,,,,
+02LKOT20,klimatološka,Luka Kotor,22.09.2026 11:46,22.10,33.0,,9.20,,15.20,,1018.4
+02BPLJ20,klimatološka,Bijelo Polje,22.09.2026 12:00,15.52,45.8,,,,,332.5,950.63
+02KOLS10,glavna,Kolašin,22.09.2026 12:20,12.70,45.0,0.00,2.10,2,,290.1,911.5
+02HNOV10,glavna,Herceg Novi,22.09.2026 12:20,24.10,21.0,0.00,3.40,10,,773.2,1010.6
+02PDGR10,glavna,Podgorica,22.09.2026 12:20,23.10,21.0,0.00,8.10,32,,770.3,1010.0
+02BOAN30,klimatološka,Boan,22.09.2026 12:00,11.69,54.6,,,,,,
+02BIST20,klimatološka,Bistrica,22.09.2026 12:00,13.10,44.4,0.00,3.70,2,7.70,195.4,
+02IVKO30,klimatološka,Ivanova korita,22.09.2026 12:00,12.91,38.1,0.00,,,,,
+02BERA20,glavna,Berane,22.09.2026 12:00,13.60,49.0,0.00,1.00,10,2.40,,940.26
