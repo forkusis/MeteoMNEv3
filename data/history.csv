@@ -45809,3 +45809,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,22.09.2026 10:00,11.70,48.0,0.00,3.80,2,,153.7,912.4
 02MATE30,klimatološka,Matesevo,22.09.2026 10:00,11.76,44.4,0.00,,,,,
 02HNOV10,glavna,Herceg Novi,22.09.2026 10:00,22.00,24.0,0.00,6.70,4,,576.8,1011.3
+02NIKS10,glavna,Nikšić,22.09.2026 10:20,15.70,33.0,0.00,5.00,2,,630.7,944.0
+02ZBLJ10,glavna,Žabljak,22.09.2026 10:20,6.90,61.0,0.00,3.00,4,,264.1,858.2
+02CTNJ10,glavna,Cetinje,22.09.2026 10:20,17.50,33.0,0.00,0.90,12,,593.2,943.6
+02CRKV30,klimatološka,Crkvice,22.09.2026 10:00,12.98,52.2,,,,,,
+02PDGR10,glavna,Podgorica,22.09.2026 10:20,21.50,22.0,0.00,6.80,2,,617.6,1010.8
+02HNOV10,glavna,Herceg Novi,22.09.2026 10:20,22.30,23.0,0.00,4.80,2,,599.0,1011.4
+02BERA20,glavna,Berane,22.09.2026 10:00,13.81,52.2,0.00,1.40,28,4.20,,941.21
+02BAR010,glavna,Bar,22.09.2026 10:20,22.10,25.0,0.00,8.30,2,,623.0,1014.7
+02VELM20,klimatološka,Velimlje,22.09.2026 10:00,14.00,39.6,0.00,4.20,32,6.10,589.4,
+02BIST20,klimatološka,Bistrica,22.09.2026 10:00,11.80,50.0,0.00,4.00,32,5.20,134.1,
+02LKOT20,klimatološka,Luka Kotor,22.09.2026 09:46,21.30,32.0,,,,,,1019.1
+02DDOB30,klimatološka,Donja Dobrilovina,22.09.2026 10:00,11.47,60.5,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,22.09.2026 10:00,7.45,75.2,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,22.09.2026 10:00,10.79,70.2,,,,,183.68,952.14
+02KUKO30,klimatološka,Kučka korita,22.09.2026 10:00,10.04,46.2,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,22.09.2026 10:00,12.43,39.5,0.00,,,,,
+02ULCN10,glavna,Ulcinj,22.09.2026 10:20,23.60,28.0,0.00,7.80,6,,624.9,1015.3
+02PLJV10,glavna,Pljevlja,22.09.2026 10:20,10.00,62.0,0.00,0.10,2,,216.9,930.9
+02BUDV20,klimatološka,Budva,22.09.2026 10:00,22.66,26.1,,,,,622.62,1014.16
+02GRAD30,klimatološka,Gradac,22.09.2026 10:00,9.97,82.8,,,,,,
+02KOLS10,glavna,Kolašin,22.09.2026 10:20,11.60,53.0,0.00,3.10,2,,222.5,912.4
+02UBLI20,klimatološka,Ubli,22.09.2026 10:00,17.25,,,,,,,
+02KOSA30,klimatološka,Kosanica,22.09.2026 10:00,7.92,83.1,,,,,,
+02BOAN30,klimatološka,Boan,22.09.2026 10:00,11.01,58.7,,,,,,
