@@ -45318,3 +45318,8 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02UBLI20,klimatološka,Ubli,22.09.2026 02:00,17.93,,,,,,,
 02BAR010,glavna,Bar,22.09.2026 02:20,23.60,19.0,0.00,8.90,4,,0.5,1013.7
 02KOSA30,klimatološka,Kosanica,22.09.2026 02:00,1.96,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,22.09.2026 02:30,11.90,73.0,0.00,0.30,6,,0.0,943.8
+02PLJV10,glavna,Pljevlja,22.09.2026 02:30,8.90,66.0,0.00,0.70,26,,0.0,932.0
+02PDGR10,glavna,Podgorica,22.09.2026 02:30,21.60,22.0,0.00,7.20,2,,0.3,1010.2
+02HNOV10,glavna,Herceg Novi,22.09.2026 02:30,24.10,20.0,0.00,6.70,2,13.00,0.8,1009.3
+02LKOT20,klimatološka,Luka Kotor,22.09.2026 02:01,23.50,23.0,,7.60,,14.00,,1018.1
