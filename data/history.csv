@@ -45788,3 +45788,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,22.09.2026 09:50,21.80,24.0,0.00,5.90,2,,547.2,1011.3
 02LKOT20,klimatološka,Luka Kotor,22.09.2026 09:16,21.00,36.0,,8.80,,17.80,,1019.3
 02PLJV10,glavna,Pljevlja,22.09.2026 09:50,9.00,66.0,0.00,1.40,12,,334.7,931.2
+02STAB30,klimatološka,Stabna,22.09.2026 10:00,13.24,49.5,,,,,,
+02NIKS10,glavna,Nikšić,22.09.2026 10:00,15.50,32.0,0.00,5.50,2,,577.3,944.1
+02VELK30,klimatološka,Velika,22.09.2026 10:00,13.58,56.5,,,,,,
+02STIT30,klimatološka,Štitarica,22.09.2026 10:00,9.23,73.2,,,,,,
+02ZBLJ10,glavna,Žabljak,22.09.2026 10:00,6.00,67.0,0.00,3.50,28,,159.4,858.4
+02VIRP20,klimatološka,Virpazar,22.09.2026 10:00,21.40,27.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,22.09.2026 10:00,9.50,65.0,0.00,0.30,12,,238.1,931.1
+02NJGV30,klimatološka,Njegovuđa,22.09.2026 10:00,6.98,73.6,,,,,,
+02ULCN10,glavna,Ulcinj,22.09.2026 10:00,23.10,27.0,0.00,8.30,6,,576.6,1015.3
+02CTNJ10,glavna,Cetinje,22.09.2026 10:00,17.20,30.0,0.00,1.70,32,3.30,547.4,943.7
+02LKOT20,klimatološka,Luka Kotor,22.09.2026 09:31,21.00,32.0,,10.30,,16.50,,1019.1
+02MOKR30,klimatološka,Mokro,22.09.2026 10:00,10.98,49.3,,,,,,
+02DANL20,klimatološka,Danilovgrad,22.09.2026 10:00,21.00,,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,22.09.2026 10:00,11.24,76.7,,,,,,
+02BAR010,glavna,Bar,22.09.2026 10:00,21.80,26.0,0.00,7.40,4,,571.9,1014.7
+02PDGR10,glavna,Podgorica,22.09.2026 10:00,20.90,24.0,0.00,8.30,2,,414.1,1011.1
+02MAMO30,klimatološka,Manastir Morača,22.09.2026 10:00,19.61,32.7,,,,,,
+02POSC30,klimatološka,Pošćenje,22.09.2026 10:00,10.89,55.0,,,,,,
+02KOLS10,glavna,Kolašin,22.09.2026 10:00,11.70,48.0,0.00,3.80,2,,153.7,912.4
+02MATE30,klimatološka,Matesevo,22.09.2026 10:00,11.76,44.4,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,22.09.2026 10:00,22.00,24.0,0.00,6.70,4,,576.8,1011.3
