@@ -45462,3 +45462,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,22.09.2026 04:40,3.40,76.0,0.00,2.00,26,,0.5,858.8
 02BAR010,glavna,Bar,22.09.2026 04:40,21.30,28.0,0.00,9.40,4,,0.5,1013.4
 02LKOT20,klimatološka,Luka Kotor,22.09.2026 04:16,21.50,32.0,,6.90,,15.80,,1018.2
+02DANL20,klimatološka,Danilovgrad,22.09.2026 05:00,19.30,,0.00,,,,,
+02PLJV10,glavna,Pljevlja,22.09.2026 05:00,5.60,85.0,0.00,0.30,22,,0.5,931.6
+02SCPO30,klimatološka,Šćepan Polje,22.09.2026 05:00,4.76,100.0,,,,,,
+02STAB30,klimatološka,Stabna,22.09.2026 05:00,11.87,52.8,,,,,,
+02CTNJ10,glavna,Cetinje,22.09.2026 05:00,13.30,44.0,0.00,0.70,24,,0.6,943.5
+02POSC30,klimatološka,Pošćenje,22.09.2026 05:00,5.00,86.8,,,,,,
+02MOKR30,klimatološka,Mokro,22.09.2026 05:00,6.17,69.7,,,,,,
+02NIKS10,glavna,Nikšić,22.09.2026 04:50,13.70,43.0,0.00,5.80,32,,0.0,943.9
+02HNOV10,glavna,Herceg Novi,22.09.2026 05:00,21.90,26.0,0.00,8.00,2,,0.7,1009.2
+02STIT30,klimatološka,Štitarica,22.09.2026 05:00,2.82,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,22.09.2026 05:00,15.61,44.5,,,,,,
+02NJGV30,klimatološka,Njegovuđa,22.09.2026 05:00,0.89,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,22.09.2026 05:00,20.30,28.0,0.00,,,,,
+02VELK30,klimatološka,Velika,22.09.2026 05:00,6.46,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,22.09.2026 04:50,3.90,73.0,0.00,1.00,28,,0.7,858.9
+02BAR010,glavna,Bar,22.09.2026 05:00,21.10,28.0,0.00,8.30,6,,0.3,1013.4
+02MATE30,klimatološka,Matesevo,22.09.2026 05:00,6.23,78.9,0.00,,,,,
+02ULCN10,glavna,Ulcinj,22.09.2026 04:50,19.90,37.0,0.00,8.00,6,,0.0,1013.9
+02PDGR10,glavna,Podgorica,22.09.2026 05:00,20.10,29.0,0.00,4.10,2,,0.0,1010.2
+02LKOT20,klimatološka,Luka Kotor,22.09.2026 04:31,21.60,31.0,,7.00,,17.00,,1018.0
+02KOLS10,glavna,Kolašin,22.09.2026 04:50,5.00,86.0,0.00,1.00,12,1.30,0.2,913.0
