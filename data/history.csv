@@ -45354,3 +45354,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,22.09.2026 03:00,14.30,39.0,0.00,4.40,32,,0.0,944.3
 02POSC30,klimatološka,Pošćenje,22.09.2026 03:00,6.60,73.4,,,,,,
 02ULCN10,glavna,Ulcinj,22.09.2026 03:00,20.60,45.0,0.00,8.10,6,,0.2,1014.0
+02PLJV10,glavna,Pljevlja,22.09.2026 03:20,8.50,73.0,0.00,0.60,24,,1.2,931.4
+02CRKV30,klimatološka,Crkvice,22.09.2026 03:00,12.78,47.9,,,,,,
+02KUKO30,klimatološka,Kučka korita,22.09.2026 03:00,8.78,50.7,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,22.09.2026 03:20,22.90,22.0,0.00,4.30,2,,0.2,1009.2
+02IVKO30,klimatološka,Ivanova korita,22.09.2026 03:00,11.25,37.2,0.00,,,,,
+02BOAN30,klimatološka,Boan,22.09.2026 03:00,7.23,81.6,,,,,,
+02UBLI20,klimatološka,Ubli,22.09.2026 03:00,17.16,,,,,,,
+02BERA20,glavna,Berane,22.09.2026 03:00,8.09,73.9,0.00,0.50,10,1.20,,942.09
+02BPLJ20,klimatološka,Bijelo Polje,22.09.2026 03:00,7.55,90.6,,,,,0.0,952.81
+02ZBLJ10,glavna,Žabljak,22.09.2026 03:20,3.40,76.0,0.00,1.70,22,,0.1,859.2
+02BIST20,klimatološka,Bistrica,22.09.2026 03:00,6.00,77.0,0.00,1.50,20,1.90,0.6,
+02BAR010,glavna,Bar,22.09.2026 03:20,22.60,22.0,0.00,6.30,4,,0.3,1013.3
+02PDGR10,glavna,Podgorica,22.09.2026 03:20,20.70,26.0,0.00,7.70,2,18.60,0.4,1010.1
+02KOSA30,klimatološka,Kosanica,22.09.2026 03:00,0.17,100.0,,,,,,
+02NIKS10,glavna,Nikšić,22.09.2026 03:20,14.10,39.0,0.00,3.30,30,,0.1,944.1
+02CTNJ10,glavna,Cetinje,22.09.2026 03:20,12.40,60.0,0.00,0.10,6,,0.2,943.6
+02GRAD30,klimatološka,Gradac,22.09.2026 03:00,6.51,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,22.09.2026 03:00,4.08,92.1,,,,,,
+02LKOT20,klimatološka,Luka Kotor,22.09.2026 02:46,22.90,26.0,,6.90,,16.50,,1018.0
+02DDOB30,klimatološka,Donja Dobrilovina,22.09.2026 03:00,6.77,87.9,,,,,,
+02ULCN10,glavna,Ulcinj,22.09.2026 03:20,20.50,42.0,0.00,10.60,6,13.90,0.0,1014.0
+02KOLS10,glavna,Kolašin,22.09.2026 03:20,8.10,71.0,0.00,0.40,20,,0.4,913.2
+02BUDV20,klimatološka,Budva,22.09.2026 03:00,24.07,20.9,,,,,0.0,1012.43
+02VELM20,klimatološka,Velimlje,22.09.2026 03:00,11.30,41.7,0.00,1.00,14,1.50,0.0,
