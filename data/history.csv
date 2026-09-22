@@ -45293,3 +45293,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,22.09.2026 02:00,22.10,20.0,0.00,7.30,2,,0.6,1010.1
 02ZBLJ10,glavna,Žabljak,22.09.2026 02:00,3.30,77.0,0.00,0.70,18,,0.4,860.0
 02MOKR30,klimatološka,Mokro,22.09.2026 02:00,10.41,48.2,,,,,,
+02PDGR10,glavna,Podgorica,22.09.2026 02:20,21.70,21.0,0.00,11.60,2,,0.4,1010.2
+02KOLS10,glavna,Kolašin,22.09.2026 02:20,10.20,54.0,0.00,2.00,6,,0.0,913.8
+02LKOT20,klimatološka,Luka Kotor,22.09.2026 01:46,23.80,22.0,,,,,,1018.1
+02GRAD30,klimatološka,Gradac,22.09.2026 02:00,7.46,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,22.09.2026 02:00,13.00,35.5,0.00,1.80,22,2.50,0.0,
+02KOVR30,klimatološka,Kovren,22.09.2026 02:00,8.15,77.2,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,22.09.2026 02:00,9.77,38.5,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,22.09.2026 02:00,8.67,85.6,,,,,0.0,953.26
+02BERA20,glavna,Berane,22.09.2026 02:00,9.56,67.1,0.00,0.80,2,1.80,,942.63
+02PLJV10,glavna,Pljevlja,22.09.2026 02:20,8.90,64.0,0.00,0.40,32,,0.0,932.1
+02GOBU30,klimatološka,Gornja Bukovica,22.09.2026 02:00,4.36,89.3,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,22.09.2026 02:00,7.54,82.5,,,,,,
+02IVKO30,klimatološka,Ivanova korita,22.09.2026 02:00,12.15,37.1,0.00,,,,,
+02CTNJ10,glavna,Cetinje,22.09.2026 02:20,11.90,76.0,0.00,0.30,6,,1.1,943.8
+02BUDV20,klimatološka,Budva,22.09.2026 02:00,24.91,24.5,,,,,0.0,1012.85
+02CRKV30,klimatološka,Crkvice,22.09.2026 02:00,13.91,43.3,,,,,,
+02ULCN10,glavna,Ulcinj,22.09.2026 02:20,22.10,45.0,0.00,6.90,4,,0.5,1014.3
+02HNOV10,glavna,Herceg Novi,22.09.2026 02:20,24.20,20.0,0.00,4.70,2,,0.2,1009.4
+02NIKS10,glavna,Nikšić,22.09.2026 02:20,14.80,34.0,0.00,1.80,30,,0.0,944.4
+02ZBLJ10,glavna,Žabljak,22.09.2026 02:20,3.40,76.0,0.00,0.50,20,,0.4,860.0
+02BOAN30,klimatološka,Boan,22.09.2026 02:00,7.49,72.7,,,,,,
+02BIST20,klimatološka,Bistrica,22.09.2026 02:00,7.30,70.4,0.00,1.10,18,1.40,0.6,
+02UBLI20,klimatološka,Ubli,22.09.2026 02:00,17.93,,,,,,,
+02BAR010,glavna,Bar,22.09.2026 02:20,23.60,19.0,0.00,8.90,4,,0.5,1013.7
+02KOSA30,klimatološka,Kosanica,22.09.2026 02:00,1.96,100.0,,,,,,
