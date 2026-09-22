@@ -46360,3 +46360,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,22.09.2026 18:50,19.70,32.0,0.00,6.40,2,,3.6,1010.4
 02HNOV10,glavna,Herceg Novi,22.09.2026 18:50,21.10,26.0,0.00,2.00,4,,2.0,1011.3
 02LKOT20,klimatološka,Luka Kotor,22.09.2026 18:16,21.30,39.0,,8.90,,14.30,,1018.4
+02STIT30,klimatološka,Štitarica,22.09.2026 19:00,6.25,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,22.09.2026 19:00,13.84,60.1,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,22.09.2026 19:00,8.85,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,22.09.2026 19:00,20.60,27.0,0.00,1.60,4,,0.6,1011.4
+02ULCN10,glavna,Ulcinj,22.09.2026 19:00,21.00,30.0,0.00,7.10,2,,0.7,1014.4
+02ZBLJ10,glavna,Žabljak,22.09.2026 19:00,3.50,88.0,0.00,1.40,28,,1.0,857.8
+02NIKS10,glavna,Nikšić,22.09.2026 19:00,12.60,47.0,0.00,6.10,2,,1.0,943.5
+02VIRP20,klimatološka,Virpazar,22.09.2026 19:00,19.70,32.0,0.00,,,,,
+02STAB30,klimatološka,Stabna,22.09.2026 19:00,8.79,81.5,,,,,,
+02LKOT20,klimatološka,Luka Kotor,22.09.2026 18:31,20.90,35.0,,8.40,,14.30,,1018.8
+02POSC30,klimatološka,Pošćenje,22.09.2026 19:00,8.11,77.7,,,,,,
+02MATE30,klimatološka,Matesevo,22.09.2026 19:00,6.16,93.5,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,22.09.2026 19:00,19.10,,0.00,,,,,
+02VELK30,klimatološka,Velika,22.09.2026 19:00,5.93,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,22.09.2026 19:00,7.30,86.0,0.00,0.30,4,,0.2,930.8
+02PDGR10,glavna,Podgorica,22.09.2026 19:00,19.30,33.0,0.00,2.90,30,,1.1,1010.6
+02BAR010,glavna,Bar,22.09.2026 19:00,20.80,29.0,0.00,4.40,4,,1.5,1014.8
+02KOLS10,glavna,Kolašin,22.09.2026 19:00,7.10,89.0,0.00,1.50,8,,1.5,911.6
+02MOKR30,klimatološka,Mokro,22.09.2026 19:00,8.11,67.1,,,,,,
+02CTNJ10,glavna,Cetinje,22.09.2026 19:00,14.20,39.0,0.00,0.50,26,,1.6,943.2
+02NJGV30,klimatološka,Njegovuđa,22.09.2026 19:00,4.07,100.0,,,,,,
