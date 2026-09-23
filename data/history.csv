@@ -47147,3 +47147,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,23.09.2026 07:00,12.12,61.4,,,,,,
 02NJGV30,klimatološka,Njegovuđa,23.09.2026 07:00,3.82,100.0,,,,,,
 02BAR010,glavna,Bar,23.09.2026 07:00,17.10,37.0,0.00,2.60,2,,15.7,1019.2
+02BIST20,klimatološka,Bistrica,23.09.2026 07:00,5.40,96.7,0.00,1.40,32,2.10,21.5,
+02NIKS10,glavna,Nikšić,23.09.2026 07:20,10.70,49.0,0.00,3.80,2,,29.8,946.7
+02VELM20,klimatološka,Velimlje,23.09.2026 07:00,6.60,69.7,0.00,0.50,4,1.00,17.6,
+02PDGR10,glavna,Podgorica,23.09.2026 07:20,16.20,40.0,0.00,1.70,32,,81.2,1014.9
+02BOAN30,klimatološka,Boan,23.09.2026 07:00,6.37,88.8,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,23.09.2026 07:00,4.42,100.0,,,,,,
+02BUDV20,klimatološka,Budva,23.09.2026 07:00,18.17,33.2,,,,,9.18,1018.46
+02ULCN10,glavna,Ulcinj,23.09.2026 07:20,13.70,53.0,0.00,4.40,6,,65.5,1019.8
+02CRKV30,klimatološka,Crkvice,23.09.2026 07:00,7.87,73.9,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,23.09.2026 07:00,6.32,100.0,,,,,13.07,954.38
+02IVKO30,klimatološka,Ivanova korita,23.09.2026 07:00,5.32,69.1,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,23.09.2026 07:20,3.40,82.0,0.00,1.60,26,,27.8,859.8
+02HNOV10,glavna,Herceg Novi,23.09.2026 07:20,17.80,31.0,0.00,3.10,2,,51.7,1015.4
+02CTNJ10,glavna,Cetinje,23.09.2026 07:20,4.10,86.0,0.00,0.40,6,,19.4,947.0
+02DDOB30,klimatološka,Donja Dobrilovina,23.09.2026 07:00,7.93,91.8,,,,,,
+02PLZN20,klimatološka,Pluzine,23.09.2026 07:00,9.61,91.2,0.00,4.10,2,8.40,22.23,937.58
+02GRAD30,klimatološka,Gradac,23.09.2026 07:00,5.71,100.0,,,,,,
+02BAR010,glavna,Bar,23.09.2026 07:20,17.20,37.0,0.00,6.60,2,,26.2,1019.4
+02LKOT20,klimatološka,Luka Kotor,23.09.2026 06:46,17.80,41.0,,6.90,,10.20,,1023.7
+02KOLS10,glavna,Kolašin,23.09.2026 07:20,6.80,81.0,0.00,2.30,32,4.20,25.6,914.4
+02KUKO30,klimatološka,Kučka korita,23.09.2026 07:00,4.71,68.6,0.00,,,,,
+02PLJV10,glavna,Pljevlja,23.09.2026 07:20,6.20,96.0,0.00,0.60,4,,13.1,933.1
+02KOVR30,klimatološka,Kovren,23.09.2026 07:00,4.91,100.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,23.09.2026 07:00,4.13,100.0,,,,,,
+02BERA20,glavna,Berane,23.09.2026 07:00,7.22,97.4,0.00,0.50,6,1.00,,943.44
+02UBLI20,klimatološka,Ubli,23.09.2026 07:00,8.05,,,,,,,
