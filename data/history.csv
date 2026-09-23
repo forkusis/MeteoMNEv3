@@ -47918,3 +47918,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,23.09.2026 19:00,5.50,88.2,,,,,,
 02ZBLJ10,glavna,Žabljak,23.09.2026 19:00,6.50,74.0,0.00,0.80,26,,0.0,859.8
 02DANL20,klimatološka,Danilovgrad,23.09.2026 19:00,20.10,,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,23.09.2026 18:46,20.00,52.0,,0.60,,2.20,,1022.1
+02IVKO30,klimatološka,Ivanova korita,23.09.2026 19:00,8.96,76.6,0.00,,,,,
+02PDGR10,glavna,Podgorica,23.09.2026 19:20,21.10,26.0,0.00,4.80,2,,0.6,1013.1
+02HNOV10,glavna,Herceg Novi,23.09.2026 19:20,19.60,44.0,0.00,1.20,2,,0.1,1014.2
+02UBLI20,klimatološka,Ubli,23.09.2026 19:00,16.69,,,,,,,
+02CRKV30,klimatološka,Crkvice,23.09.2026 19:00,10.82,64.1,,,,,,
+02KOSA30,klimatološka,Kosanica,23.09.2026 19:00,6.72,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,23.09.2026 19:00,10.28,77.1,,,,,,
+02CTNJ10,glavna,Cetinje,23.09.2026 19:20,12.70,66.0,0.00,0.30,12,,0.7,946.2
+02ZBLJ10,glavna,Žabljak,23.09.2026 19:20,6.30,72.0,0.00,1.20,26,,1.0,859.9
+02BPLJ20,klimatološka,Bijelo Polje,23.09.2026 19:00,12.00,73.3,,,,,0.0,952.88
+02PLJV10,glavna,Pljevlja,23.09.2026 19:20,10.00,69.0,0.00,0.00,24,,0.2,932.0
+02VELM20,klimatološka,Velimlje,23.09.2026 19:00,13.10,42.4,0.00,2.10,2,3.10,0.0,
+02BOAN30,klimatološka,Boan,23.09.2026 19:00,9.03,74.7,,,,,,
+02KOLS10,glavna,Kolašin,23.09.2026 19:20,8.30,77.0,0.00,0.70,16,1.00,0.3,914.1
+02ULCN10,glavna,Ulcinj,23.09.2026 19:20,20.00,43.0,0.00,1.90,24,,0.0,1018.9
+02BERA20,glavna,Berane,23.09.2026 19:00,11.79,66.7,0.00,0.80,4,1.70,,942.37
+02KUKO30,klimatološka,Kučka korita,23.09.2026 19:00,8.14,54.2,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,23.09.2026 19:00,5.08,99.9,,,,,,
+02KOVR30,klimatološka,Kovren,23.09.2026 19:00,8.51,100.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,23.09.2026 19:00,12.79,71.3,0.00,1.80,4,4.10,0.0,936.96
+02NIKS10,glavna,Nikšić,23.09.2026 19:20,14.80,38.0,0.00,2.30,30,,0.0,945.9
+02BIST20,klimatološka,Bistrica,23.09.2026 19:00,10.80,65.0,0.00,0.40,22,0.90,0.5,
+02GRAD30,klimatološka,Gradac,23.09.2026 19:00,11.52,93.0,,,,,,
+02BAR010,glavna,Bar,23.09.2026 19:20,19.90,46.0,0.00,0.70,6,3.50,2.0,1019.0
+02BUDV20,klimatološka,Budva,23.09.2026 19:00,21.03,46.4,,,,,4.19,1018.14
