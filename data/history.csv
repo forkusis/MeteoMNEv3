@@ -47405,3 +47405,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STAB30,klimatološka,Stabna,23.09.2026 11:00,13.17,51.4,,,,,,
 02HNOV10,glavna,Herceg Novi,23.09.2026 11:00,22.90,23.0,0.00,0.70,18,,693.5,1016.7
 02VELK30,klimatološka,Velika,23.09.2026 11:00,9.93,85.6,,,,,,
+02KUKO30,klimatološka,Kučka korita,23.09.2026 11:00,9.72,49.5,0.00,,,,,
+02UBLI20,klimatološka,Ubli,23.09.2026 11:00,17.33,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,23.09.2026 10:46,20.00,34.0,,3.50,,5.20,,1024.2
+02ULCN10,glavna,Ulcinj,23.09.2026 11:20,23.20,27.0,0.00,3.50,8,,739.2,1020.7
+02KOLS10,glavna,Kolašin,23.09.2026 11:20,11.50,55.0,0.00,1.40,2,,386.7,914.8
+02CTNJ10,glavna,Cetinje,23.09.2026 11:20,16.60,34.0,0.00,0.90,24,,717.2,947.3
+02PDGR10,glavna,Podgorica,23.09.2026 11:20,21.30,26.0,0.00,4.10,2,,712.6,1014.9
+02GRAD30,klimatološka,Gradac,23.09.2026 11:00,10.72,90.5,,,,,,
+02KOSA30,klimatološka,Kosanica,23.09.2026 11:00,7.31,95.4,,,,,,
+02NIKS10,glavna,Nikšić,23.09.2026 11:20,15.30,34.0,0.00,5.10,2,,737.6,947.0
+02BERA20,glavna,Berane,23.09.2026 11:00,13.22,59.8,0.00,2.70,30,6.10,,943.6
+02BIST20,klimatološka,Bistrica,23.09.2026 11:00,11.00,57.1,0.00,1.50,30,2.70,252.8,
+02VELM20,klimatološka,Velimlje,23.09.2026 11:00,14.50,41.2,0.00,4.20,32,8.10,731.9,
+02BAR010,glavna,Bar,23.09.2026 11:20,21.70,28.0,0.00,2.20,26,,702.4,1020.6
+02PLJV10,glavna,Pljevlja,23.09.2026 11:20,11.60,64.0,0.00,0.70,2,,229.3,933.1
+02BPLJ20,klimatološka,Bijelo Polje,23.09.2026 11:00,13.95,68.5,,,,,914.53,954.27
+02BOAN30,klimatološka,Boan,23.09.2026 11:00,9.67,68.4,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,23.09.2026 11:00,6.68,82.3,,,,,,
+02HNOV10,glavna,Herceg Novi,23.09.2026 11:20,23.20,24.0,0.00,2.80,12,,724.0,1016.6
+02PLZN20,klimatološka,Pluzine,23.09.2026 11:00,11.99,70.5,0.00,5.00,32,8.70,355.22,938.37
+02CRKV30,klimatološka,Crkvice,23.09.2026 11:00,12.60,54.7,,,,,,
+02ZBLJ10,glavna,Žabljak,23.09.2026 11:20,7.10,63.0,0.00,2.80,30,,214.1,860.2
+02IVKO30,klimatološka,Ivanova korita,23.09.2026 11:00,10.86,47.5,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,23.09.2026 11:00,10.59,68.6,,,,,,
