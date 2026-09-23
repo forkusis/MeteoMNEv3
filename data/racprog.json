@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T09:46:04.536707+00:00",
+  "updated_at": "2026-09-23T10:01:26.526606+00:00",
   "model1": {
     "updated_at": "2026-09-22T22:16:35.569625+00:00",
     "gradovi": [
@@ -8156,7 +8156,7 @@
     ]
   },
   "model2": {
-    "updated_at": "2026-09-23T09:46:41.982697+00:00",
+    "updated_at": "2026-09-23T10:02:04.416577+00:00",
     "gradovi": [
       {
         "kod": "POD",
@@ -15661,68 +15661,68 @@
         "naziv": "Pljevlja",
         "dani": [
           {
-            "datum": "Utorak, 2026-09-22",
-            "Tmin": 6.0,
-            "Tmax": 14.1,
+            "datum": "Srijeda, 2026-09-23",
+            "Tmin": 4.0,
+            "Tmax": 14.5,
             "sati": [
               {
                 "sat": "00",
-                "simbol": "N/01",
+                "simbol": "N/16",
                 "RR": 0.0,
-                "RH": 79.0,
-                "vjetar": "v1-360"
+                "RH": 91.0,
+                "vjetar": "v1-315"
               },
               {
                 "sat": "03",
-                "simbol": "N/01",
+                "simbol": "N/03",
                 "RR": 0.0,
-                "RH": 82.0,
-                "vjetar": "v1-360"
+                "RH": 86.0,
+                "vjetar": "v1-315"
               },
               {
                 "sat": "06",
                 "simbol": "D/03",
                 "RR": 0.0,
-                "RH": 58.0,
-                "vjetar": "v2-360"
+                "RH": 61.0,
+                "vjetar": "v1-315"
               },
               {
                 "sat": "09",
                 "simbol": "D/03",
-                "RR": 0.1,
-                "RH": 53.0,
-                "vjetar": "v3-360"
+                "RR": 0.0,
+                "RH": 55.0,
+                "vjetar": "v2-360"
               },
               {
                 "sat": "12",
-                "simbol": "D/05",
-                "RR": 0.2,
-                "RH": 60.0,
-                "vjetar": "v3-360"
+                "simbol": "D/07",
+                "RR": 1.1,
+                "RH": 70.0,
+                "vjetar": "v1-360"
               },
               {
                 "sat": "15",
-                "simbol": "D/07",
-                "RR": 2.1,
-                "RH": 90.0,
+                "simbol": "D/05",
+                "RR": 0.6,
+                "RH": 86.0,
                 "vjetar": "v1-360"
               },
               {
                 "sat": "18",
-                "simbol": "N/05",
-                "RR": 1.1,
-                "RH": 89.0,
+                "simbol": "N/16",
+                "RR": 0.0,
+                "RH": 84.0,
                 "vjetar": "v1-315"
               },
               {
                 "sat": "21",
                 "simbol": "N/16",
-                "RR": 0.2,
-                "RH": 93.0,
-                "vjetar": "v1-315"
+                "RR": 0.0,
+                "RH": 88.0,
+                "vjetar": "v0-000"
               }
             ],
-            "lm": "Tue, 22 Sep 2026 09:38:19 GMT"
+            "lm": "Wed, 23 Sep 2026 09:37:38 GMT"
           },
           {
             "datum": "Četvrtak, 2026-09-24",
