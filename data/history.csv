@@ -46892,3 +46892,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,23.09.2026 03:00,6.20,76.0,0.00,0.50,8,,0.1,946.3
 02POSC30,klimatološka,Pošćenje,23.09.2026 03:00,7.21,84.4,,,,,,
 02MATE30,klimatološka,Matesevo,23.09.2026 03:00,5.96,85.7,0.00,,,,,
+02GRAD30,klimatološka,Gradac,23.09.2026 03:00,6.43,100.0,,,,,,
+02PDGR10,glavna,Podgorica,23.09.2026 03:20,16.00,40.0,0.00,2.90,30,,0.4,1013.9
+02PLJV10,glavna,Pljevlja,23.09.2026 03:20,6.90,94.0,0.00,0.50,30,,0.6,932.4
+02BOAN30,klimatološka,Boan,23.09.2026 03:00,6.05,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,23.09.2026 03:20,14.50,41.0,0.00,0.60,20,,0.0,1014.7
+02LKOT20,klimatološka,Luka Kotor,23.09.2026 02:46,17.80,42.0,,2.20,,7.80,,1022.0
+02VELM20,klimatološka,Velimlje,23.09.2026 03:00,9.50,60.9,0.00,3.70,2,5.80,0.1,
+02KOVR30,klimatološka,Kovren,23.09.2026 03:00,5.12,100.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,23.09.2026 03:00,9.48,96.4,0.00,8.70,32,15.50,3.97,936.76
+02CRKV30,klimatološka,Crkvice,23.09.2026 03:00,7.71,78.1,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,23.09.2026 03:00,4.46,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,23.09.2026 03:00,4.75,72.8,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,23.09.2026 03:00,7.19,100.0,,,,,0.35,953.64
+02NIKS10,glavna,Nikšić,23.09.2026 03:20,11.30,53.0,0.00,5.10,2,,0.0,945.7
+02KOSA30,klimatološka,Kosanica,23.09.2026 03:00,4.18,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,23.09.2026 03:20,14.10,52.0,0.00,4.30,6,,0.2,1018.6
+02BIST20,klimatološka,Bistrica,23.09.2026 03:00,7.30,84.3,0.07,1.70,4,4.20,0.6,
+02IVKO30,klimatološka,Ivanova korita,23.09.2026 03:00,4.39,77.2,0.00,,,,,
+02BUDV20,klimatološka,Budva,23.09.2026 03:00,17.60,37.8,,,,,0.0,1017.61
+02KOLS10,glavna,Kolašin,23.09.2026 03:20,7.00,81.0,0.00,2.20,2,,0.1,913.4
+02UBLI20,klimatološka,Ubli,23.09.2026 03:00,11.93,,,,,,,
+02BERA20,glavna,Berane,23.09.2026 03:00,7.17,99.0,0.00,0.70,4,1.30,,942.63
+02DDOB30,klimatološka,Donja Dobrilovina,23.09.2026 03:00,7.21,97.7,,,,,,
+02CTNJ10,glavna,Cetinje,23.09.2026 03:20,5.80,78.0,0.00,0.20,14,,0.6,946.3
+02BAR010,glavna,Bar,23.09.2026 03:20,17.30,37.0,0.00,7.10,2,,0.4,1018.0
+02ZBLJ10,glavna,Žabljak,23.09.2026 03:20,3.30,88.0,0.00,1.60,30,,0.3,858.9
