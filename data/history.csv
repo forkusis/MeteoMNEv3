@@ -49085,3 +49085,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,24.09.2026 13:00,24.40,30.0,0.00,4.20,18,,777.7,1021.4
 02MATE30,klimatološka,Matesevo,24.09.2026 13:00,16.53,41.0,0.00,,,,,
 02MAMO30,klimatološka,Manastir Morača,24.09.2026 13:00,25.76,26.0,,,,,,
+02HNOV10,glavna,Herceg Novi,24.09.2026 13:20,24.70,37.0,0.00,0.40,14,,761.3,1016.6
+02PDGR10,glavna,Podgorica,24.09.2026 13:20,24.70,22.0,0.00,1.80,16,,730.9,1014.7
+02ZBLJ10,glavna,Žabljak,24.09.2026 13:20,14.50,43.0,0.00,3.30,4,6.50,773.5,859.6
+02BAR010,glavna,Bar,24.09.2026 13:20,23.20,39.0,0.00,2.00,22,,731.0,1021.2
+02BOAN30,klimatološka,Boan,24.09.2026 13:00,19.15,36.8,,,,,,
+02KOLS10,glavna,Kolašin,24.09.2026 13:20,17.60,37.0,0.00,1.00,10,,752.9,913.9
+02DDOB30,klimatološka,Donja Dobrilovina,24.09.2026 13:00,16.40,51.1,,,,,,
+02CTNJ10,glavna,Cetinje,24.09.2026 13:20,18.60,41.0,0.00,1.70,10,,714.9,947.3
+02VELM20,klimatološka,Velimlje,24.09.2026 13:00,20.00,29.2,0.00,3.20,30,4.50,757.9,
+02LKOT20,klimatološka,Luka Kotor,24.09.2026 12:46,22.60,43.0,,,,,,1024.1
+02BIST20,klimatološka,Bistrica,24.09.2026 13:00,17.20,38.0,0.00,3.70,2,6.70,770.0,
+02KUKO30,klimatološka,Kučka korita,24.09.2026 13:00,13.61,40.9,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,24.09.2026 13:00,17.47,42.9,,,,,810.64,952.87
+02NIKS10,glavna,Nikšić,24.09.2026 13:20,21.50,25.0,0.00,1.40,12,,725.3,946.1
+02ULCN10,glavna,Ulcinj,24.09.2026 13:20,24.40,32.0,0.00,4.50,18,,763.1,1021.3
+02CRKV30,klimatološka,Crkvice,24.09.2026 13:00,16.31,60.0,,,,,,
+02PLJV10,glavna,Pljevlja,24.09.2026 13:20,18.00,35.0,0.00,1.70,18,,718.9,931.2
+02UBLI20,klimatološka,Ubli,24.09.2026 13:00,20.56,,,,,,,
+02KOSA30,klimatološka,Kosanica,24.09.2026 13:00,14.93,58.5,,,,,,
+02IVKO30,klimatološka,Ivanova korita,24.09.2026 13:00,14.18,62.1,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,24.09.2026 13:00,19.30,42.0,0.00,2.00,2,3.20,725.68,936.37
+02BUDV20,klimatološka,Budva,24.09.2026 13:00,23.46,38.2,,,,,873.97,1020.56
+02GOBU30,klimatološka,Gornja Bukovica,24.09.2026 13:00,15.45,49.9,,,,,,
+02GRAD30,klimatološka,Gradac,24.09.2026 13:00,18.78,41.8,,,,,,
+02BERA20,glavna,Berane,24.09.2026 13:00,19.00,38.4,0.00,1.60,18,3.20,,942.65
