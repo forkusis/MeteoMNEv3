@@ -48817,3 +48817,34 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,24.09.2026 09:00,20.70,32.0,0.00,4.60,6,7.90,385.7,1021.1
 02HNOV10,glavna,Herceg Novi,24.09.2026 09:00,21.20,36.0,0.00,0.80,,,320.3,1016.6
 02DANL20,klimatološka,Danilovgrad,24.09.2026 09:00,14.60,,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,24.09.2026 09:00,5.15,100.0,,,,,61.13,955.49
+02VIRP20,klimatološka,Virpazar,24.09.2026 09:00,14.70,78.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,24.09.2026 09:00,7.64,100.0,,,,,,
+02PDGR10,glavna,Podgorica,24.09.2026 09:20,19.30,35.0,0.00,1.90,2,,441.7,1016.2
+02ZBLJ10,glavna,Žabljak,24.09.2026 09:20,8.80,58.0,0.00,1.00,6,,278.5,860.4
+02LKOT20,klimatološka,Luka Kotor,24.09.2026 08:46,19.80,42.0,,0.80,,1.70,,1024.6
+02IVKO30,klimatološka,Ivanova korita,24.09.2026 09:00,12.25,57.6,0.00,,,,,
+02ULCN10,glavna,Ulcinj,24.09.2026 09:20,20.20,43.0,0.00,5.10,6,,443.0,1021.6
+02POSC30,klimatološka,Pošćenje,24.09.2026 09:00,7.52,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,24.09.2026 09:00,3.70,98.4,0.00,0.70,,1.00,80.7,
+02CRKV30,klimatološka,Crkvice,24.09.2026 09:00,10.67,90.0,,,,,,
+02VELM20,klimatološka,Velimlje,24.09.2026 09:00,8.10,86.8,0.00,0.60,,0.90,38.6,
+02STIT30,klimatološka,Štitarica,24.09.2026 09:00,7.38,100.0,,,,,,
+02NIKS10,glavna,Nikšić,24.09.2026 09:20,13.80,45.0,0.00,0.00,32,,431.9,947.8
+02VELK30,klimatološka,Velika,24.09.2026 09:00,9.79,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,24.09.2026 09:00,4.44,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,24.09.2026 09:00,3.64,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,24.09.2026 09:00,15.13,,,,,,,
+02BUDV20,klimatološka,Budva,24.09.2026 09:00,19.96,46.2,,,,,37.17,1019.75
+02PLJV10,glavna,Pljevlja,24.09.2026 09:20,3.80,98.0,0.00,0.30,30,,235.3,934.0
+02NJGV30,klimatološka,Njegovuđa,24.09.2026 09:00,6.31,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,24.09.2026 09:00,6.17,100.0,0.00,0.80,,1.50,27.84,939.41
+02STAB30,klimatološka,Stabna,24.09.2026 09:00,8.31,94.2,,,,,,
+02BAR010,glavna,Bar,24.09.2026 09:20,21.20,31.0,0.00,4.50,6,,441.3,1021.2
+02HNOV10,glavna,Herceg Novi,24.09.2026 09:20,21.80,34.0,0.00,0.50,8,,413.2,1017.0
+02BOAN30,klimatološka,Boan,24.09.2026 09:00,5.79,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,24.09.2026 09:00,5.61,98.0,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,24.09.2026 09:00,4.45,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,24.09.2026 09:20,12.30,50.0,0.00,0.20,20,,215.9,948.3
+02MOKR30,klimatološka,Mokro,24.09.2026 09:00,6.12,96.1,,,,,,
+02KOLS10,glavna,Kolašin,24.09.2026 09:20,4.10,90.0,0.00,1.50,2,,56.9,915.9
