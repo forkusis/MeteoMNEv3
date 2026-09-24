@@ -48779,3 +48779,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,24.09.2026 07:31,18.10,39.0,,1.20,,2.40,,1024.0
 02ULCN10,glavna,Ulcinj,24.09.2026 08:00,15.40,57.0,0.00,3.00,6,,191.3,1021.0
 02VELK30,klimatološka,Velika,24.09.2026 08:00,2.93,100.0,,,,,,
+02BAR010,glavna,Bar,24.09.2026 08:20,19.70,35.0,0.00,4.40,6,6.90,263.2,1020.8
+02BUDV20,klimatološka,Budva,24.09.2026 08:00,16.04,46.2,,,,,37.17,1019.75
+02PLZN20,klimatološka,Pluzine,24.09.2026 08:00,4.64,100.0,0.00,0.00,32,0.60,27.84,939.41
+02KOVR30,klimatološka,Kovren,24.09.2026 08:00,6.23,100.0,0.00,,,,,
+02VELM20,klimatološka,Velimlje,24.09.2026 08:00,2.70,86.8,0.00,0.30,8,0.60,38.6,
+02KOLS10,glavna,Kolašin,24.09.2026 08:20,1.50,98.0,0.00,1.00,2,,132.3,915.8
+02DDOB30,klimatološka,Donja Dobrilovina,24.09.2026 08:00,2.79,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,24.09.2026 07:46,17.40,46.0,,1.20,,2.20,,1024.2
+02CRKV30,klimatološka,Crkvice,24.09.2026 08:00,6.69,90.0,,,,,,
+02GRAD30,klimatološka,Gradac,24.09.2026 08:00,3.17,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,24.09.2026 08:00,4.76,72.2,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,24.09.2026 08:00,4.42,100.0,,,,,61.13,955.49
+02GOBU30,klimatološka,Gornja Bukovica,24.09.2026 08:00,-1.63,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,24.09.2026 08:20,2.70,98.0,0.00,0.20,4,,86.4,934.0
+02UBLI20,klimatološka,Ubli,24.09.2026 08:00,12.20,,,,,,,
+02ZBLJ10,glavna,Žabljak,24.09.2026 08:20,3.80,83.0,0.00,0.10,24,,274.3,860.3
+02CTNJ10,glavna,Cetinje,24.09.2026 08:20,5.30,85.0,0.00,0.20,6,,35.3,948.1
+02NIKS10,glavna,Nikšić,24.09.2026 08:20,9.90,54.0,0.00,1.40,2,,272.3,947.9
+02BERA20,glavna,Berane,24.09.2026 08:00,3.28,99.4,0.00,0.50,10,1.20,,944.67
+02IVKO30,klimatološka,Ivanova korita,24.09.2026 08:00,10.50,57.6,0.00,,,,,
+02ULCN10,glavna,Ulcinj,24.09.2026 08:20,17.10,51.0,0.00,4.60,6,5.40,255.3,1021.2
+02HNOV10,glavna,Herceg Novi,24.09.2026 08:20,17.60,38.0,0.00,0.90,22,,269.8,1016.5
+02BOAN30,klimatološka,Boan,24.09.2026 08:00,-0.21,100.0,,,,,,
+02PDGR10,glavna,Podgorica,24.09.2026 08:20,17.40,38.0,0.00,3.50,30,,244.0,1016.0
+02BIST20,klimatološka,Bistrica,24.09.2026 08:00,2.00,98.4,0.00,0.10,32,0.40,80.7,
+02KOSA30,klimatološka,Kosanica,24.09.2026 08:00,-0.32,100.0,,,,,,
