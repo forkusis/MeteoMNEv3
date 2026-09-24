@@ -48446,3 +48446,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,24.09.2026 03:00,2.30,96.0,0.00,0.60,26,,0.0,933.5
 02MAMO30,klimatološka,Manastir Morača,24.09.2026 03:00,5.07,91.7,,,,,,
 02POSC30,klimatološka,Pošćenje,24.09.2026 03:00,-0.22,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,24.09.2026 03:00,3.57,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,24.09.2026 03:00,4.64,66.6,0.00,,,,,
+02KOVR30,klimatološka,Kovren,24.09.2026 03:00,4.08,100.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,24.09.2026 03:00,-1.76,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,24.09.2026 03:00,2.95,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,24.09.2026 03:00,1.80,97.4,0.00,0.90,16,1.20,0.6,
+02BUDV20,klimatološka,Budva,24.09.2026 03:00,15.36,42.4,,,,,4.19,1019.16
+02NIKS10,glavna,Nikšić,24.09.2026 03:20,7.10,62.0,0.00,2.90,2,3.40,0.3,947.2
+02CTNJ10,glavna,Cetinje,24.09.2026 03:20,3.90,88.0,0.00,0.50,6,,0.3,947.6
+02ULCN10,glavna,Ulcinj,24.09.2026 03:20,12.20,66.0,0.00,1.60,8,,0.0,1020.4
+02PLJV10,glavna,Pljevlja,24.09.2026 03:20,2.30,96.0,0.00,0.50,26,0.70,0.3,933.5
+02KOSA30,klimatološka,Kosanica,24.09.2026 03:00,-3.54,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,24.09.2026 03:00,4.18,68.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,24.09.2026 03:20,0.10,94.0,0.00,1.70,18,,0.0,860.0
+02BPLJ20,klimatološka,Bijelo Polje,24.09.2026 03:00,4.76,99.3,,,,,0.0,954.85
+02HNOV10,glavna,Herceg Novi,24.09.2026 03:20,14.40,46.0,0.00,2.00,24,,1.5,1015.8
+02PDGR10,glavna,Podgorica,24.09.2026 03:20,16.60,42.0,0.00,1.40,24,,0.3,1015.2
+02CRKV30,klimatološka,Crkvice,24.09.2026 03:00,1.91,100.0,,,,,,
+02BAR010,glavna,Bar,24.09.2026 03:20,18.70,35.0,0.00,3.90,8,,0.7,1019.8
+02VELM20,klimatološka,Velimlje,24.09.2026 03:00,3.40,82.1,0.00,0.50,4,0.80,0.0,
+02KOLS10,glavna,Kolašin,24.09.2026 03:20,0.80,97.0,0.00,0.30,18,,0.0,915.6
+02BERA20,glavna,Berane,24.09.2026 03:00,3.46,97.4,0.00,0.80,8,1.40,,944.26
+02PLZN20,klimatološka,Pluzine,24.09.2026 03:00,5.75,100.0,0.00,0.30,32,1.40,8.33,938.45
+02LKOT20,klimatološka,Luka Kotor,24.09.2026 02:46,19.10,39.0,,6.80,,11.90,,1023.4
+02UBLI20,klimatološka,Ubli,24.09.2026 03:00,9.59,,,,,,,
+02BOAN30,klimatološka,Boan,24.09.2026 03:00,-0.09,100.0,,,,,,
