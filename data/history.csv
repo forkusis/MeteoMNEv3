@@ -49412,3 +49412,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,24.09.2026 18:00,12.71,88.8,,,,,,
 02MATE30,klimatološka,Matesevo,24.09.2026 18:00,14.05,49.8,0.00,,,,,
 02ZBLJ10,glavna,Žabljak,24.09.2026 18:00,13.10,43.0,0.00,3.50,24,,37.7,858.2
+02BAR010,glavna,Bar,24.09.2026 18:10,21.20,51.0,0.00,0.40,26,,37.9,1019.2
+02HNOV10,glavna,Herceg Novi,24.09.2026 18:10,21.00,49.0,0.00,0.40,22,,20.2,1014.6
+02ULCN10,glavna,Ulcinj,24.09.2026 18:10,21.30,47.0,0.00,2.00,24,4.60,32.5,1019.1
+02UBLI20,klimatološka,Ubli,24.09.2026 18:00,18.55,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,24.09.2026 18:00,10.22,83.8,0.00,,,,,
+02BOAN30,klimatološka,Boan,24.09.2026 18:00,15.36,52.8,,,,,,
+02KUKO30,klimatološka,Kučka korita,24.09.2026 18:00,11.31,51.7,0.00,,,,,
+02PLJV10,glavna,Pljevlja,24.09.2026 18:20,17.80,35.0,0.00,0.50,28,,16.2,928.2
+02ZBLJ10,glavna,Žabljak,24.09.2026 18:20,12.50,43.0,0.00,2.30,22,,12.6,858.2
+02BIST20,klimatološka,Bistrica,24.09.2026 18:00,15.80,54.6,0.00,0.80,20,1.10,30.5,
+02DDOB30,klimatološka,Donja Dobrilovina,24.09.2026 18:00,13.70,74.2,,,,,,
+02BUDV20,klimatološka,Budva,24.09.2026 18:00,21.74,50.6,,,,,43.3,1018.21
+02KOLS10,glavna,Kolašin,24.09.2026 18:20,14.20,52.0,0.00,1.20,10,2.00,15.5,912.4
+02BERA20,glavna,Berane,24.09.2026 18:00,17.81,50.2,0.00,0.00,32,0.70,,939.19
+02GRAD30,klimatološka,Gradac,24.09.2026 18:00,16.41,70.3,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,24.09.2026 18:00,17.45,58.7,,,,,34.34,949.4
+02NIKS10,glavna,Nikšić,24.09.2026 18:20,17.90,41.0,0.00,1.40,22,,19.9,945.1
+02VELM20,klimatološka,Velimlje,24.09.2026 18:00,15.60,47.3,0.00,1.70,,,40.1,
+02LKOT20,klimatološka,Luka Kotor,24.09.2026 17:46,21.00,56.0,,0.70,,1.90,,1022.3
+02GOBU30,klimatološka,Gornja Bukovica,24.09.2026 18:00,13.31,52.3,,,,,,
+02PDGR10,glavna,Podgorica,24.09.2026 18:20,22.30,41.0,0.00,0.40,14,,19.2,1012.9
+02CTNJ10,glavna,Cetinje,24.09.2026 18:20,16.00,61.0,0.00,1.30,26,,21.6,946.0
+02KOSA30,klimatološka,Kosanica,24.09.2026 18:00,14.69,63.8,,,,,,
+02CRKV30,klimatološka,Crkvice,24.09.2026 18:00,13.04,90.3,,,,,,
