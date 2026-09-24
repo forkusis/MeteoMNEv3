@@ -48513,3 +48513,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,24.09.2026 04:00,0.30,97.0,0.00,0.60,6,1.30,0.2,915.5
 02HNOV10,glavna,Herceg Novi,24.09.2026 04:00,14.20,47.0,0.00,1.10,24,,0.3,1015.7
 02DANL20,klimatološka,Danilovgrad,24.09.2026 04:00,12.10,,0.00,,,,,
+02ULCN10,glavna,Ulcinj,24.09.2026 04:20,12.50,62.0,0.00,2.10,4,,0.2,1020.4
+02KOLS10,glavna,Kolašin,24.09.2026 04:20,0.30,97.0,0.00,0.30,20,,0.4,915.4
+02UBLI20,klimatološka,Ubli,24.09.2026 04:00,8.11,,,,,,,
+02BOAN30,klimatološka,Boan,24.09.2026 04:00,-0.91,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,24.09.2026 04:00,3.22,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,24.09.2026 04:20,14.20,44.0,0.00,0.90,24,,0.0,1015.8
+02VELM20,klimatološka,Velimlje,24.09.2026 04:00,2.60,86.3,0.00,0.60,26,0.70,0.0,
+02BIST20,klimatološka,Bistrica,24.09.2026 04:00,1.30,97.4,0.00,0.30,2,0.40,0.6,
+02DDOB30,klimatološka,Donja Dobrilovina,24.09.2026 04:00,2.57,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,24.09.2026 04:20,0.00,94.0,0.00,1.70,22,,0.6,860.0
+02KUKO30,klimatološka,Kučka korita,24.09.2026 04:00,5.33,66.8,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,24.09.2026 03:46,19.10,37.0,,,,,,1023.3
+02BUDV20,klimatološka,Budva,24.09.2026 04:00,15.30,43.5,,,,,4.19,1019.11
+02IVKO30,klimatološka,Ivanova korita,24.09.2026 04:00,4.24,69.6,0.00,,,,,
+02BERA20,glavna,Berane,24.09.2026 04:00,3.02,98.9,0.00,0.40,6,0.90,,944.15
+02CRKV30,klimatološka,Crkvice,24.09.2026 04:00,3.58,100.0,,,,,,
+02BAR010,glavna,Bar,24.09.2026 04:20,18.50,35.0,0.00,3.30,8,,0.4,1019.8
+02BPLJ20,klimatološka,Bijelo Polje,24.09.2026 04:00,4.56,100.0,,,,,0.0,954.74
+02PLJV10,glavna,Pljevlja,24.09.2026 04:20,1.80,97.0,0.00,0.60,2,1.10,0.0,933.5
+02CTNJ10,glavna,Cetinje,24.09.2026 04:20,3.60,90.0,0.00,0.10,28,,0.0,947.7
+02KOSA30,klimatološka,Kosanica,24.09.2026 04:00,-3.55,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,24.09.2026 04:00,4.58,100.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,24.09.2026 04:20,15.90,42.0,0.00,1.20,32,,0.3,1015.2
+02NIKS10,glavna,Nikšić,24.09.2026 04:20,6.50,66.0,0.00,2.00,32,2.20,0.1,947.2
