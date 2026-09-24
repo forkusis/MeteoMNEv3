@@ -49436,3 +49436,7 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,24.09.2026 18:20,16.00,61.0,0.00,1.30,26,,21.6,946.0
 02KOSA30,klimatološka,Kosanica,24.09.2026 18:00,14.69,63.8,,,,,,
 02CRKV30,klimatološka,Crkvice,24.09.2026 18:00,13.04,90.3,,,,,,
+02NIKS10,glavna,Nikšić,24.09.2026 18:30,17.60,42.0,0.00,1.60,24,,10.1,945.1
+02LKOT20,klimatološka,Luka Kotor,24.09.2026 18:01,20.70,58.0,,0.50,,1.30,,1022.3
+02CTNJ10,glavna,Cetinje,24.09.2026 18:30,15.70,63.0,0.00,0.50,22,,9.5,946.0
+02PDGR10,glavna,Podgorica,24.09.2026 18:30,22.00,42.0,0.00,1.70,14,,8.4,1012.9
