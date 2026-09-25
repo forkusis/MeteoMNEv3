@@ -50203,3 +50203,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,25.09.2026 18:00,14.40,95.0,0.00,,,,,
 02KOLS10,glavna,Kolašin,25.09.2026 18:00,6.90,91.0,0.00,1.10,32,,20.3,910.6
 02CTNJ10,glavna,Cetinje,25.09.2026 18:00,10.80,92.0,0.00,0.00,8,,22.6,942.3
+02GRAD30,klimatološka,Gradac,25.09.2026 18:00,8.77,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,25.09.2026 18:00,5.59,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,25.09.2026 18:00,9.74,100.0,0.00,6.30,32,11.40,21.45,934.18
+02ZBLJ10,glavna,Žabljak,25.09.2026 18:20,3.20,95.0,0.00,2.10,24,,1.7,856.7
+02UBLI20,klimatološka,Ubli,25.09.2026 18:00,11.29,,,,,,,
+02KOLS10,glavna,Kolašin,25.09.2026 18:20,6.80,90.0,0.00,0.20,2,,5.3,910.8
+02KOVR30,klimatološka,Kovren,25.09.2026 18:00,6.02,100.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,25.09.2026 18:00,6.17,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,25.09.2026 18:00,6.89,96.2,,,,,,
+02CTNJ10,glavna,Cetinje,25.09.2026 18:20,10.60,95.0,0.00,0.20,6,,11.2,942.5
+02ULCN10,glavna,Ulcinj,25.09.2026 18:20,14.70,84.0,0.05,3.80,2,,5.0,1015.4
+02GOBU30,klimatološka,Gornja Bukovica,25.09.2026 18:00,3.99,100.0,,,,,,
+02BERA20,glavna,Berane,25.09.2026 18:00,8.82,97.4,0.00,0.80,4,1.90,,939.37
+02CRKV30,klimatološka,Crkvice,25.09.2026 18:00,9.36,79.9,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,25.09.2026 18:00,8.53,100.0,,,,,14.29,950.1
+02VELM20,klimatološka,Velimlje,25.09.2026 18:00,11.80,61.7,0.00,3.80,2,6.10,105.3,
+02HNOV10,glavna,Herceg Novi,25.09.2026 18:20,17.90,51.0,0.00,0.40,32,,27.8,1010.9
+02PLJV10,glavna,Pljevlja,25.09.2026 18:20,8.20,95.0,0.00,0.50,24,,2.8,929.5
+02BUDV20,klimatološka,Budva,25.09.2026 18:00,18.11,51.9,,,,,36.25,1014.33
+02STIT30,klimatološka,Štitarica,25.09.2026 18:00,5.02,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,25.09.2026 18:00,6.09,93.9,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,25.09.2026 17:46,18.10,51.0,,6.70,,9.50,,1018.7
+02KOSA30,klimatološka,Kosanica,25.09.2026 18:00,4.95,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,25.09.2026 18:00,5.70,97.9,0.00,0.40,22,0.60,3.9,
+02BAR010,glavna,Bar,25.09.2026 18:20,16.60,56.0,0.00,5.00,6,,17.0,1015.2
+02PDGR10,glavna,Podgorica,25.09.2026 18:20,16.40,57.0,0.00,1.00,32,,11.2,1010.2
+02NIKS10,glavna,Nikšić,25.09.2026 18:20,11.70,59.0,0.00,4.50,2,,21.8,942.4
+02KUKO30,klimatološka,Kučka korita,25.09.2026 18:00,6.74,81.0,0.00,,,,,
