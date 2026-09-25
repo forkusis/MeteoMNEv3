@@ -50270,3 +50270,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,25.09.2026 19:00,3.85,100.0,,,,,,
 02MAMO30,klimatološka,Manastir Morača,25.09.2026 19:00,10.67,99.2,,,,,,
 02ULCN10,glavna,Ulcinj,25.09.2026 19:00,14.20,83.0,0.00,2.30,2,,0.0,1015.5
+02LKOT20,klimatološka,Luka Kotor,25.09.2026 18:46,18.10,49.0,,3.20,,8.80,,1018.8
+02CRKV30,klimatološka,Crkvice,25.09.2026 19:00,8.95,83.5,,,,,,
+02KUKO30,klimatološka,Kučka korita,25.09.2026 19:00,6.87,78.5,0.00,,,,,
+02BAR010,glavna,Bar,25.09.2026 19:20,16.50,56.0,0.00,4.10,6,,0.4,1015.4
+02CTNJ10,glavna,Cetinje,25.09.2026 19:20,10.20,96.0,0.00,0.30,20,,0.1,942.8
+02BPLJ20,klimatološka,Bijelo Polje,25.09.2026 19:00,8.48,100.0,,,,,0.0,950.57
+02HNOV10,glavna,Herceg Novi,25.09.2026 19:20,17.20,56.0,0.00,1.20,32,,0.0,1011.1
+02IVKO30,klimatološka,Ivanova korita,25.09.2026 19:00,5.44,95.0,0.00,,,,,
+02STIT30,klimatološka,Štitarica,25.09.2026 19:00,5.29,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,25.09.2026 19:20,14.10,86.0,0.00,2.20,4,,0.0,1015.7
+02VELM20,klimatološka,Velimlje,25.09.2026 19:00,9.80,70.3,0.00,2.10,2,3.90,0.0,
+02UBLI20,klimatološka,Ubli,25.09.2026 19:00,10.88,,,,,,,
+02KOLS10,glavna,Kolašin,25.09.2026 19:20,7.00,90.0,0.00,1.60,2,,0.1,911.3
+02BOAN30,klimatološka,Boan,25.09.2026 19:00,6.16,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,25.09.2026 19:00,9.69,100.0,0.00,4.20,2,8.10,0.0,934.52
+02GRAD30,klimatološka,Gradac,25.09.2026 19:00,8.40,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,25.09.2026 19:20,8.20,96.0,0.00,0.40,26,,0.5,929.8
+02ZBLJ10,glavna,Žabljak,25.09.2026 19:20,3.80,96.0,0.00,1.90,30,,0.3,857.1
+02BERA20,glavna,Berane,25.09.2026 19:00,8.65,97.2,0.00,0.60,12,1.80,,939.7
+02BUDV20,klimatološka,Budva,25.09.2026 19:00,16.83,62.9,,,,,0.92,1014.72
+02NIKS10,glavna,Nikšić,25.09.2026 19:20,11.20,64.0,0.00,5.10,2,,0.0,942.8
+02DDOB30,klimatološka,Donja Dobrilovina,25.09.2026 19:00,6.11,100.0,,,,,,
+02PDGR10,glavna,Podgorica,25.09.2026 19:20,16.00,62.0,0.00,1.00,22,,0.3,1010.4
+02KOSA30,klimatološka,Kosanica,25.09.2026 19:00,5.17,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,25.09.2026 19:00,5.80,98.2,0.00,0.80,16,1.10,0.6,
+02POSC30,klimatološka,Pošćenje,25.09.2026 19:00,7.30,93.1,,,,,,
+02KOVR30,klimatološka,Kovren,25.09.2026 19:00,6.22,100.0,0.00,,,,,
