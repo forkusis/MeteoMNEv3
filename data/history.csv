@@ -49938,3 +49938,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,25.09.2026 14:00,10.20,100.0,,,,,,
 02DANL20,klimatološka,Danilovgrad,25.09.2026 14:00,14.50,,0.00,,,,,
 02VIRP20,klimatološka,Virpazar,25.09.2026 14:00,15.00,90.0,0.00,,,,,
+02GRAD30,klimatološka,Gradac,25.09.2026 14:00,8.12,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,25.09.2026 13:46,17.30,55.0,,5.40,,10.60,,1017.7
+02CRKV30,klimatološka,Crkvice,25.09.2026 14:00,7.86,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,25.09.2026 14:00,6.03,96.9,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,25.09.2026 14:20,1.30,94.0,0.00,1.70,22,,218.1,856.1
+02PLZN20,klimatološka,Pluzine,25.09.2026 14:00,9.01,100.0,0.00,4.30,2,8.20,206.96,933.62
+02PDGR10,glavna,Podgorica,25.09.2026 14:20,14.90,63.0,0.00,3.00,32,,189.5,1009.7
+02KOSA30,klimatološka,Kosanica,25.09.2026 14:00,2.43,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,25.09.2026 14:20,7.50,92.0,0.00,0.30,6,,115.9,929.2
+02DDOB30,klimatološka,Donja Dobrilovina,25.09.2026 14:00,4.65,100.0,,,,,,
+02BUDV20,klimatološka,Budva,25.09.2026 14:00,18.57,70.6,,,,,215.27,1013.61
+02HNOV10,glavna,Herceg Novi,25.09.2026 14:20,17.80,50.0,0.00,6.00,2,11.10,416.9,1009.9
+02CTNJ10,glavna,Cetinje,25.09.2026 14:20,10.70,90.0,0.00,1.70,26,,100.3,941.6
+02NIKS10,glavna,Nikšić,25.09.2026 14:20,10.60,73.0,0.00,6.70,32,,321.8,941.3
+02BOAN30,klimatološka,Boan,25.09.2026 14:00,5.00,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,25.09.2026 14:00,10.90,77.2,0.00,3.90,32,5.80,463.7,
+02KOLS10,glavna,Kolašin,25.09.2026 14:20,6.70,91.0,0.00,1.60,2,,231.6,910.0
+02KOVR30,klimatološka,Kovren,25.09.2026 14:00,4.69,100.0,0.00,,,,,
+02ULCN10,glavna,Ulcinj,25.09.2026 14:20,18.50,58.0,0.00,6.60,6,,924.5,1014.5
+02BPLJ20,klimatološka,Bijelo Polje,25.09.2026 14:00,8.95,100.0,,,,,56.88,949.3
+02KUKO30,klimatološka,Kučka korita,25.09.2026 14:00,6.79,86.5,0.00,,,,,
+02UBLI20,klimatološka,Ubli,25.09.2026 14:00,10.77,,,,,,,
+02BERA20,glavna,Berane,25.09.2026 14:00,8.93,96.6,0.00,2.30,32,6.00,,938.12
+02BIST20,klimatološka,Bistrica,25.09.2026 14:00,4.10,96.3,0.00,1.00,16,1.50,86.0,
+02STIT30,klimatološka,Štitarica,25.09.2026 14:00,4.34,100.0,,,,,,
+02BAR010,glavna,Bar,25.09.2026 14:20,17.70,54.0,0.00,4.50,6,,292.7,1014.2
