@@ -50336,3 +50336,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,25.09.2026 20:00,16.20,54.0,0.00,1.80,32,,1.0,1010.6
 02MATE30,klimatološka,Matesevo,25.09.2026 20:00,6.27,95.7,0.00,,,,,
 02MOKR30,klimatološka,Mokro,25.09.2026 20:00,6.21,90.7,,,,,,
+02VELM20,klimatološka,Velimlje,25.09.2026 20:00,8.60,76.4,0.00,0.70,6,1.10,0.0,
+02IVKO30,klimatološka,Ivanova korita,25.09.2026 20:00,6.01,87.3,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,25.09.2026 20:00,8.48,100.0,,,,,0.0,951.08
+02BOAN30,klimatološka,Boan,25.09.2026 20:00,6.12,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,25.09.2026 20:00,5.90,98.2,0.00,0.30,26,0.50,0.6,
+02DDOB30,klimatološka,Donja Dobrilovina,25.09.2026 20:00,6.11,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,25.09.2026 20:20,8.30,93.0,0.00,0.50,6,,0.2,930.3
+02KUKO30,klimatološka,Kučka korita,25.09.2026 20:00,6.70,79.3,0.00,,,,,
+02BERA20,glavna,Berane,25.09.2026 20:00,8.45,99.4,0.00,0.90,4,1.80,,940.33
+02KOSA30,klimatološka,Kosanica,25.09.2026 20:00,5.29,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,25.09.2026 19:46,17.60,50.0,,1.60,,4.00,,1019.1
+02STIT30,klimatološka,Štitarica,25.09.2026 20:00,5.33,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,25.09.2026 20:20,9.70,94.0,0.00,0.00,20,,0.0,943.3
+02ZBLJ10,glavna,Žabljak,25.09.2026 20:20,4.00,97.0,0.00,1.00,30,,0.3,857.4
+02POSC30,klimatološka,Pošćenje,25.09.2026 20:00,7.08,98.7,,,,,,
+02NIKS10,glavna,Nikšić,25.09.2026 20:20,10.80,67.0,0.00,5.60,30,,0.0,943.0
+02KOLS10,glavna,Kolašin,25.09.2026 20:20,7.10,92.0,0.00,2.30,4,,0.6,911.5
+02PLZN20,klimatološka,Pluzine,25.09.2026 20:00,9.93,100.0,0.00,5.10,2,8.70,0.0,934.89
+02BAR010,glavna,Bar,25.09.2026 20:20,16.80,55.0,0.00,2.80,6,,0.1,1015.9
+02HNOV10,glavna,Herceg Novi,25.09.2026 20:20,15.30,68.0,0.00,1.70,22,,1.7,1011.5
+02UBLI20,klimatološka,Ubli,25.09.2026 20:00,11.50,,,,,,,
+02CRKV30,klimatološka,Crkvice,25.09.2026 20:00,9.30,82.9,,,,,,
+02ULCN10,glavna,Ulcinj,25.09.2026 20:20,13.50,86.0,0.00,3.10,4,,0.8,1015.8
+02PDGR10,glavna,Podgorica,25.09.2026 20:20,16.60,51.0,0.00,3.30,2,,1.0,1010.6
+02GRAD30,klimatološka,Gradac,25.09.2026 20:00,8.44,100.0,,,,,,
+02BUDV20,klimatološka,Budva,25.09.2026 20:00,17.40,54.4,,,,,0.0,1015.03
+02KOVR30,klimatološka,Kovren,25.09.2026 20:00,6.24,100.0,0.00,,,,,
