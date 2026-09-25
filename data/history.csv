@@ -50317,3 +50317,22 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,25.09.2026 19:50,4.00,96.0,0.00,1.70,30,,0.2,857.2
 02LKOT20,klimatološka,Luka Kotor,25.09.2026 19:16,17.70,49.0,,2.00,,3.90,,1019.2
 02PLJV10,glavna,Pljevlja,25.09.2026 19:50,8.20,94.0,0.00,0.40,20,,0.6,930.0
+02DANL20,klimatološka,Danilovgrad,25.09.2026 20:00,14.50,,0.00,,,,,
+02NIKS10,glavna,Nikšić,25.09.2026 20:00,10.70,67.0,0.00,4.20,28,,0.0,943.0
+02CTNJ10,glavna,Cetinje,25.09.2026 20:00,10.00,91.0,0.00,0.30,32,,0.0,943.1
+02MAMO30,klimatološka,Manastir Morača,25.09.2026 20:00,10.65,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,25.09.2026 20:00,13.60,98.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,25.09.2026 20:00,15.60,62.0,0.00,1.00,26,,0.8,1011.4
+02NJGV30,klimatološka,Njegovuđa,25.09.2026 20:00,4.35,100.0,,,,,,
+02BAR010,glavna,Bar,25.09.2026 20:00,16.60,55.0,0.00,5.30,6,,0.2,1015.6
+02SCPO30,klimatološka,Šćepan Polje,25.09.2026 20:00,9.51,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,25.09.2026 20:00,8.30,94.0,0.00,0.90,22,,0.0,930.1
+02ZBLJ10,glavna,Žabljak,25.09.2026 20:00,4.00,97.0,0.00,1.80,30,,0.7,857.3
+02VELK30,klimatološka,Velika,25.09.2026 20:00,6.68,100.0,,,,,,
+02STAB30,klimatološka,Stabna,25.09.2026 20:00,10.16,81.4,,,,,,
+02LKOT20,klimatološka,Luka Kotor,25.09.2026 19:31,17.80,49.0,,2.30,,4.70,,1019.2
+02ULCN10,glavna,Ulcinj,25.09.2026 20:00,13.90,86.0,0.00,3.30,6,,0.0,1015.6
+02KOLS10,glavna,Kolašin,25.09.2026 20:00,7.00,92.0,0.00,2.20,2,,0.0,911.5
+02PDGR10,glavna,Podgorica,25.09.2026 20:00,16.20,54.0,0.00,1.80,32,,1.0,1010.6
+02MATE30,klimatološka,Matesevo,25.09.2026 20:00,6.27,95.7,0.00,,,,,
+02MOKR30,klimatološka,Mokro,25.09.2026 20:00,6.21,90.7,,,,,,
