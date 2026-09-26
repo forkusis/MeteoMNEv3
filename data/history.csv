@@ -51463,3 +51463,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,26.09.2026 13:00,24.10,,0.00,,,,,
 02NJGV30,klimatološka,Njegovuđa,26.09.2026 13:00,7.29,100.0,,,,,,
 02VELK30,klimatološka,Velika,26.09.2026 13:00,8.89,100.0,,,,,,
+02NIKS10,glavna,Nikšić,26.09.2026 13:20,17.80,42.0,0.00,5.70,4,,718.3,945.6
+02GRAD30,klimatološka,Gradac,26.09.2026 13:00,13.58,91.0,,,,,,
+02KOSA30,klimatološka,Kosanica,26.09.2026 13:00,9.37,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,26.09.2026 13:20,23.80,41.0,0.00,9.40,6,,764.0,1018.2
+02BPLJ20,klimatološka,Bijelo Polje,26.09.2026 13:00,13.94,88.9,,,,,541.38,954.01
+02BAR010,glavna,Bar,26.09.2026 13:20,24.60,37.0,0.00,3.10,6,,736.7,1017.9
+02UBLI20,klimatološka,Ubli,26.09.2026 13:00,18.84,,,,,,,
+02KUKO30,klimatološka,Kučka korita,26.09.2026 13:00,12.39,64.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,26.09.2026 13:00,7.68,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,26.09.2026 13:00,13.74,57.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,26.09.2026 13:20,7.10,90.0,0.00,2.40,4,,250.3,860.7
+02LKOT20,klimatološka,Luka Kotor,26.09.2026 12:46,23.90,40.0,,5.80,,11.60,,1020.7
+02CRKV30,klimatološka,Crkvice,26.09.2026 13:00,15.53,66.7,,,,,,
+02BUDV20,klimatološka,Budva,26.09.2026 13:00,24.52,34.3,,,,,829.17,1016.78
+02BERA20,glavna,Berane,26.09.2026 13:00,13.68,74.3,0.00,1.40,12,4.90,,943.55
+02DDOB30,klimatološka,Donja Dobrilovina,26.09.2026 13:00,11.54,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,26.09.2026 13:00,10.00,100.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,26.09.2026 13:00,12.92,99.1,0.00,7.30,32,12.50,279.16,937.81
+02HNOV10,glavna,Herceg Novi,26.09.2026 13:20,25.40,32.0,0.00,6.50,10,10.40,807.1,1013.2
+02CTNJ10,glavna,Cetinje,26.09.2026 13:20,19.60,45.0,0.00,1.30,12,5.70,735.6,945.7
+02KOLS10,glavna,Kolašin,26.09.2026 13:20,11.20,78.0,0.00,2.10,2,,507.4,914.8
+02BOAN30,klimatološka,Boan,26.09.2026 13:00,10.91,91.5,,,,,,
+02PLJV10,glavna,Pljevlja,26.09.2026 13:20,13.40,66.0,0.00,4.20,4,,243.8,932.9
+02VELM20,klimatološka,Velimlje,26.09.2026 13:00,17.10,51.0,0.00,3.70,6,12.30,760.4,
+02PDGR10,glavna,Podgorica,26.09.2026 13:20,22.30,39.0,0.00,6.90,2,,719.6,1012.6
+02BIST20,klimatološka,Bistrica,26.09.2026 13:00,11.20,90.3,0.00,0.60,16,1.30,154.8,
