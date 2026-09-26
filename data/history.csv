@@ -51911,3 +51911,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,26.09.2026 19:50,13.80,59.0,0.00,1.40,28,5.30,0.5,946.7
 02PLJV10,glavna,Pljevlja,26.09.2026 19:50,11.60,76.0,0.00,0.60,24,,0.7,933.8
 02LKOT20,klimatološka,Luka Kotor,26.09.2026 19:16,21.90,52.0,,4.70,,8.20,,1022.2
+02LKOT20,klimatološka,Luka Kotor,26.09.2026 19:31,21.50,48.0,,3.80,,6.30,,1022.3
+02ZBLJ10,glavna,Žabljak,26.09.2026 20:00,6.60,91.0,0.00,1.20,4,,0.0,861.6
+02MATE30,klimatološka,Matesevo,26.09.2026 20:00,10.50,77.9,0.00,,,,,
+02KOLS10,glavna,Kolašin,26.09.2026 20:00,11.10,77.0,0.00,1.40,32,,0.2,915.4
+02STAB30,klimatološka,Stabna,26.09.2026 20:00,13.72,65.3,,,,,,
+02MAMO30,klimatološka,Manastir Morača,26.09.2026 20:00,17.21,57.6,,,,,,
+02VIRP20,klimatološka,Virpazar,26.09.2026 20:00,21.10,42.0,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,26.09.2026 20:00,20.80,,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,26.09.2026 20:00,10.66,84.3,,,,,,
+02PDGR10,glavna,Podgorica,26.09.2026 20:00,20.60,42.0,0.00,3.80,2,,0.2,1013.4
+02BAR010,glavna,Bar,26.09.2026 20:00,21.30,43.0,0.00,0.80,6,,0.0,1018.6
+02CTNJ10,glavna,Cetinje,26.09.2026 20:00,14.00,57.0,0.00,0.80,8,,0.1,946.8
+02STIT30,klimatološka,Štitarica,26.09.2026 20:00,10.68,89.2,,,,,,
+02ULCN10,glavna,Ulcinj,26.09.2026 20:00,17.70,57.0,0.00,2.40,2,,0.0,1019.0
+02VELK30,klimatološka,Velika,26.09.2026 20:00,7.66,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,26.09.2026 20:00,11.50,81.0,0.00,1.20,2,,0.6,934.0
+02NIKS10,glavna,Nikšić,26.09.2026 20:00,15.30,51.0,0.00,8.10,2,,0.0,946.6
+02HNOV10,glavna,Herceg Novi,26.09.2026 20:00,21.40,38.0,0.00,1.40,6,,0.0,1014.7
+02SCPO30,klimatološka,Šćepan Polje,26.09.2026 20:00,11.56,100.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,26.09.2026 20:00,7.47,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,26.09.2026 20:00,10.89,70.4,,,,,,
