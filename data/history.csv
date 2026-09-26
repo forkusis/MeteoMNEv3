@@ -52044,3 +52044,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,26.09.2026 21:50,17.40,57.0,0.00,3.80,2,,0.1,1019.5
 02LKOT20,klimatološka,Luka Kotor,26.09.2026 21:16,20.60,47.0,,3.00,,5.20,,1023.1
 02CTNJ10,glavna,Cetinje,26.09.2026 21:50,13.50,64.0,0.00,0.40,26,,0.0,947.5
+02DANL20,klimatološka,Danilovgrad,26.09.2026 22:00,19.80,,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,26.09.2026 22:00,15.93,67.0,,,,,,
+02STAB30,klimatološka,Stabna,26.09.2026 22:00,13.25,68.4,,,,,,
+02VELK30,klimatološka,Velika,26.09.2026 22:00,8.09,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,26.09.2026 22:00,20.80,38.0,0.00,4.90,6,7.30,0.0,1015.4
+02LKOT20,klimatološka,Luka Kotor,26.09.2026 21:31,20.20,46.0,,1.90,,4.00,,1023.2
+02ULCN10,glavna,Ulcinj,26.09.2026 22:00,17.30,57.0,0.00,3.30,2,,0.0,1019.5
+02STIT30,klimatološka,Štitarica,26.09.2026 22:00,10.53,89.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,26.09.2026 22:00,11.17,100.0,,,,,,
+02NIKS10,glavna,Nikšić,26.09.2026 22:00,14.70,51.0,0.00,3.10,2,,0.0,947.2
+02MATE30,klimatološka,Matesevo,26.09.2026 22:00,10.56,76.6,0.00,,,,,
+02CTNJ10,glavna,Cetinje,26.09.2026 22:00,12.80,67.0,0.00,1.00,20,,0.4,947.5
+02MOKR30,klimatološka,Mokro,26.09.2026 22:00,10.59,70.5,,,,,,
+02BAR010,glavna,Bar,26.09.2026 22:00,19.20,48.0,0.00,2.60,4,,0.2,1019.6
+02NJGV30,klimatološka,Njegovuđa,26.09.2026 22:00,7.22,100.0,,,,,,
+02PDGR10,glavna,Podgorica,26.09.2026 22:00,20.10,40.0,0.00,5.30,2,,0.4,1014.1
+02KOLS10,glavna,Kolašin,26.09.2026 22:00,10.90,77.0,0.00,3.60,2,,0.0,916.0
+02POSC30,klimatološka,Pošćenje,26.09.2026 22:00,10.69,82.7,,,,,,
+02ZBLJ10,glavna,Žabljak,26.09.2026 22:00,6.60,90.0,0.00,0.70,30,,0.7,862.5
+02VIRP20,klimatološka,Virpazar,26.09.2026 22:00,17.10,62.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,26.09.2026 22:00,9.80,86.0,0.00,0.80,12,1.10,0.0,934.9
