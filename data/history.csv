@@ -52065,3 +52065,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,26.09.2026 22:00,6.60,90.0,0.00,0.70,30,,0.7,862.5
 02VIRP20,klimatološka,Virpazar,26.09.2026 22:00,17.10,62.0,0.00,,,,,
 02PLJV10,glavna,Pljevlja,26.09.2026 22:00,9.80,86.0,0.00,0.80,12,1.10,0.0,934.9
+02HNOV10,glavna,Herceg Novi,26.09.2026 22:20,20.50,39.0,0.00,0.20,6,,0.0,1015.5
+02GOBU30,klimatološka,Gornja Bukovica,26.09.2026 22:00,7.66,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,26.09.2026 22:00,7.87,78.9,0.00,,,,,
+02VELM20,klimatološka,Velimlje,26.09.2026 22:00,12.90,60.8,0.00,0.50,14,0.90,0.0,
+02GRAD30,klimatološka,Gradac,26.09.2026 22:00,10.16,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,26.09.2026 22:00,15.67,,,,,,,
+02KUKO30,klimatološka,Kučka korita,26.09.2026 22:00,8.86,65.9,0.00,,,,,
+02BIST20,klimatološka,Bistrica,26.09.2026 22:00,9.90,93.0,0.00,1.10,6,1.60,0.5,
+02BPLJ20,klimatološka,Bijelo Polje,26.09.2026 22:00,11.44,97.0,,,,,0.0,955.68
+02KOLS10,glavna,Kolašin,26.09.2026 22:20,10.80,76.0,0.00,1.50,2,,0.3,916.1
+02CTNJ10,glavna,Cetinje,26.09.2026 22:20,12.20,64.0,0.00,0.80,16,,0.6,947.6
+02BUDV20,klimatološka,Budva,26.09.2026 22:00,21.62,38.8,,,,,0.31,1018.19
+02KOVR30,klimatološka,Kovren,26.09.2026 22:00,9.58,100.0,0.00,,,,,
+02BERA20,glavna,Berane,26.09.2026 22:00,11.69,84.2,0.00,0.90,32,1.80,,944.76
+02KOSA30,klimatološka,Kosanica,26.09.2026 22:00,7.73,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,26.09.2026 22:20,10.10,87.0,0.00,0.00,24,,0.5,935.0
+02DDOB30,klimatološka,Donja Dobrilovina,26.09.2026 22:00,9.99,100.0,,,,,,
+02BOAN30,klimatološka,Boan,26.09.2026 22:00,9.76,97.1,,,,,,
+02ZBLJ10,glavna,Žabljak,26.09.2026 22:20,6.60,90.0,0.00,0.40,4,,0.4,862.5
+02NIKS10,glavna,Nikšić,26.09.2026 22:20,14.80,52.0,0.00,7.50,2,,0.0,947.1
+02PDGR10,glavna,Podgorica,26.09.2026 22:20,20.10,42.0,0.00,6.90,2,,0.0,1014.2
+02BAR010,glavna,Bar,26.09.2026 22:20,19.60,45.0,0.00,3.20,6,,0.1,1019.6
+02ULCN10,glavna,Ulcinj,26.09.2026 22:20,16.90,58.0,0.00,2.50,2,,0.0,1019.6
+02LKOT20,klimatološka,Luka Kotor,26.09.2026 21:46,20.90,47.0,,,,,,1023.2
+02PLZN20,klimatološka,Pluzine,26.09.2026 22:00,13.05,91.3,0.00,6.30,32,11.50,0.0,939.18
+02CRKV30,klimatološka,Crkvice,26.09.2026 22:00,11.11,79.7,,,,,,
