@@ -52111,3 +52111,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,26.09.2026 22:50,6.50,91.0,0.00,0.50,30,,0.0,862.6
 02HNOV10,glavna,Herceg Novi,26.09.2026 22:50,20.70,37.0,0.00,2.20,6,,0.3,1015.3
 02PDGR10,glavna,Podgorica,26.09.2026 22:50,20.00,42.0,0.00,4.20,2,,0.1,1014.3
+02PDGR10,glavna,Podgorica,26.09.2026 23:00,20.00,42.0,0.00,8.30,2,,0.3,1014.3
+02POSC30,klimatološka,Pošćenje,26.09.2026 23:00,10.69,78.8,,,,,,
+02MAMO30,klimatološka,Manastir Morača,26.09.2026 23:00,14.94,72.6,,,,,,
+02ZBLJ10,glavna,Žabljak,26.09.2026 23:00,6.50,92.0,0.00,0.20,26,,0.1,862.6
+02CTNJ10,glavna,Cetinje,26.09.2026 23:00,13.10,60.0,0.00,0.80,2,,0.6,947.7
+02PLJV10,glavna,Pljevlja,26.09.2026 23:00,10.10,88.0,0.00,0.20,32,,0.0,935.1
+02ULCN10,glavna,Ulcinj,26.09.2026 23:00,18.50,50.0,0.00,4.40,6,,0.0,1019.6
+02NIKS10,glavna,Nikšić,26.09.2026 23:00,14.70,50.0,0.00,8.20,2,,0.0,947.0
+02SCPO30,klimatološka,Šćepan Polje,26.09.2026 23:00,10.93,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,26.09.2026 23:00,18.00,,0.00,,,,,
+02STAB30,klimatološka,Stabna,26.09.2026 23:00,13.09,68.0,,,,,,
+02KOLS10,glavna,Kolašin,26.09.2026 23:00,10.90,75.0,0.00,3.20,2,,0.1,916.2
+02STIT30,klimatološka,Štitarica,26.09.2026 23:00,10.55,87.7,,,,,,
+02NJGV30,klimatološka,Njegovuđa,26.09.2026 23:00,7.13,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,26.09.2026 23:00,10.32,68.9,,,,,,
+02LKOT20,klimatološka,Luka Kotor,26.09.2026 22:31,21.00,44.0,,5.30,,9.90,,1023.2
+02HNOV10,glavna,Herceg Novi,26.09.2026 23:00,20.80,36.0,0.00,2.40,6,,0.0,1015.3
+02VELK30,klimatološka,Velika,26.09.2026 23:00,8.53,100.0,,,,,,
+02BAR010,glavna,Bar,26.09.2026 23:00,19.80,44.0,0.00,5.10,6,7.60,0.0,1019.6
+02MATE30,klimatološka,Matesevo,26.09.2026 23:00,10.27,75.6,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,26.09.2026 23:00,15.10,73.0,0.00,,,,,
