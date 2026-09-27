@@ -52442,3 +52442,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,27.09.2026 03:50,6.70,94.0,0.00,0.70,10,,0.4,947.2
 02PDGR10,glavna,Podgorica,27.09.2026 03:50,18.80,43.0,0.00,2.60,32,,0.0,1013.9
 02PLJV10,glavna,Pljevlja,27.09.2026 03:50,6.50,97.0,0.00,0.30,8,,0.0,934.8
+02LKOT20,klimatološka,Luka Kotor,27.09.2026 03:31,20.00,47.0,,9.90,,13.20,,1022.3
+02ZBLJ10,glavna,Žabljak,27.09.2026 04:00,5.80,93.0,0.00,2.00,24,,0.7,861.8
+02POSC30,klimatološka,Pošćenje,27.09.2026 04:00,7.81,91.9,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,27.09.2026 04:00,8.83,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,27.09.2026 04:00,6.70,97.0,0.00,0.40,18,,0.0,934.7
+02STAB30,klimatološka,Stabna,27.09.2026 04:00,9.82,85.4,,,,,,
+02VIRP20,klimatološka,Virpazar,27.09.2026 04:00,10.80,89.0,0.00,,,,,
+02STIT30,klimatološka,Štitarica,27.09.2026 04:00,7.23,100.0,,,,,,
+02KOLS10,glavna,Kolašin,27.09.2026 04:00,9.90,76.0,0.00,3.00,32,,0.3,915.6
+02DANL20,klimatološka,Danilovgrad,27.09.2026 04:00,15.40,,0.00,,,,,
+02ULCN10,glavna,Ulcinj,27.09.2026 04:00,14.30,68.0,0.00,2.30,6,,0.2,1019.2
+02CTNJ10,glavna,Cetinje,27.09.2026 04:00,6.60,94.0,0.00,0.00,32,,0.1,947.2
+02NIKS10,glavna,Nikšić,27.09.2026 04:00,13.50,55.0,0.00,3.80,2,,0.2,946.7
+02VELK30,klimatološka,Velika,27.09.2026 04:00,6.58,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,27.09.2026 04:00,19.40,42.0,0.00,1.00,4,,0.0,1014.8
+02MAMO30,klimatološka,Manastir Morača,27.09.2026 04:00,9.01,96.8,,,,,,
+02PDGR10,glavna,Podgorica,27.09.2026 04:00,18.90,43.0,0.00,1.50,2,,0.1,1013.8
+02MOKR30,klimatološka,Mokro,27.09.2026 04:00,5.09,86.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,27.09.2026 04:00,6.13,100.0,,,,,,
+02BAR010,glavna,Bar,27.09.2026 04:00,19.70,44.0,0.00,2.30,6,,0.1,1018.9
+02MATE30,klimatološka,Matesevo,27.09.2026 04:00,5.71,92.1,0.00,,,,,
