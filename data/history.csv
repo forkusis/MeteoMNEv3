@@ -53661,3 +53661,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,27.09.2026 22:00,16.60,69.0,0.00,0.50,32,,0.0,1016.0
 02POSC30,klimatološka,Pošćenje,27.09.2026 22:00,8.80,87.2,,,,,,
 02KOLS10,glavna,Kolašin,27.09.2026 22:00,8.50,81.0,0.00,0.70,2,,0.0,916.3
+02BOAN30,klimatološka,Boan,27.09.2026 22:00,6.85,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,27.09.2026 22:00,13.78,84.4,0.00,2.20,6,5.10,0.95,939.24
+02UBLI20,klimatološka,Ubli,27.09.2026 22:00,16.95,,,,,,,
+02PLJV10,glavna,Pljevlja,27.09.2026 22:20,8.80,87.0,0.00,0.30,4,,0.0,934.4
+02ZBLJ10,glavna,Žabljak,27.09.2026 22:20,4.80,94.0,0.00,0.70,22,,0.6,862.6
+02KOLS10,glavna,Kolašin,27.09.2026 22:20,8.10,83.0,0.00,1.20,2,,0.6,916.4
+02CRKV30,klimatološka,Crkvice,27.09.2026 22:00,10.25,86.6,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,27.09.2026 22:00,4.77,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,27.09.2026 21:46,19.40,50.0,,1.20,,3.00,,1023.7
+02BERA20,glavna,Berane,27.09.2026 22:00,8.69,90.1,0.00,0.50,4,0.90,,945.09
+02BPLJ20,klimatološka,Bijelo Polje,27.09.2026 22:00,9.21,93.3,,,,,0.41,955.53
+02HNOV10,glavna,Herceg Novi,27.09.2026 22:20,17.10,69.0,0.00,0.80,24,,0.7,1016.0
+02VELM20,klimatološka,Velimlje,27.09.2026 22:00,13.00,59.9,0.00,3.40,26,4.20,0.0,
+02KOVR30,klimatološka,Kovren,27.09.2026 22:00,9.51,100.0,0.00,,,,,
+02GRAD30,klimatološka,Gradac,27.09.2026 22:00,7.09,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,27.09.2026 22:00,7.56,100.0,,,,,,
+02PDGR10,glavna,Podgorica,27.09.2026 22:20,21.70,34.0,0.00,3.50,2,,0.0,1014.8
+02BIST20,klimatološka,Bistrica,27.09.2026 22:00,7.00,93.7,0.00,0.30,20,0.40,0.6,
+02KOSA30,klimatološka,Kosanica,27.09.2026 22:00,2.68,100.0,,,,,,
+02NIKS10,glavna,Nikšić,27.09.2026 22:20,13.30,52.0,0.00,2.70,2,,0.4,948.1
+02BUDV20,klimatološka,Budva,27.09.2026 22:00,19.46,48.9,,,,,0.4,1019.44
+02CTNJ10,glavna,Cetinje,27.09.2026 22:20,10.30,77.0,0.00,0.50,24,,0.2,948.5
+02ULCN10,glavna,Ulcinj,27.09.2026 22:20,18.50,50.0,0.00,3.10,2,,0.0,1020.3
+02IVKO30,klimatološka,Ivanova korita,27.09.2026 22:00,7.82,74.0,0.00,,,,,
+02BAR010,glavna,Bar,27.09.2026 22:20,17.60,52.0,0.00,1.90,8,,0.0,1020.3
+02KUKO30,klimatološka,Kučka korita,27.09.2026 22:00,10.23,59.6,0.00,,,,,
