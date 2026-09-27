@@ -52927,3 +52927,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,27.09.2026 11:00,13.50,79.5,,,,,,
 02NIKS10,glavna,Nikšić,27.09.2026 11:00,20.90,34.0,0.00,0.60,18,,673.0,946.9
 02NJGV30,klimatološka,Njegovuđa,27.09.2026 11:00,10.84,81.2,,,,,,
+02HNOV10,glavna,Herceg Novi,27.09.2026 11:20,25.80,31.0,0.00,2.20,14,,702.4,1015.8
+02CRKV30,klimatološka,Crkvice,27.09.2026 11:00,16.25,57.4,,,,,,
+02LKOT20,klimatološka,Luka Kotor,27.09.2026 10:46,23.80,37.0,,0.70,,1.70,,1023.1
+02DDOB30,klimatološka,Donja Dobrilovina,27.09.2026 11:00,14.59,75.3,,,,,,
+02NIKS10,glavna,Nikšić,27.09.2026 11:20,21.10,33.0,0.00,1.90,16,,701.0,946.9
+02KOLS10,glavna,Kolašin,27.09.2026 11:20,13.80,66.0,0.00,3.30,6,,500.2,916.4
+02BIST20,klimatološka,Bistrica,27.09.2026 11:00,14.20,62.3,0.00,0.80,4,1.10,744.0,
+02ZBLJ10,glavna,Žabljak,27.09.2026 11:20,10.10,67.0,0.00,2.00,8,,93.1,862.6
+02BERA20,glavna,Berane,27.09.2026 11:00,15.67,57.3,0.00,1.00,24,2.60,,945.29
+02UBLI20,klimatološka,Ubli,27.09.2026 11:00,19.30,,,,,,,
+02KUKO30,klimatološka,Kučka korita,27.09.2026 11:00,13.42,55.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,27.09.2026 11:20,20.20,42.0,0.00,0.00,32,,690.7,947.5
+02PLZN20,klimatološka,Pluzine,27.09.2026 11:00,15.68,63.7,0.00,7.80,32,14.10,668.53,938.81
+02PDGR10,glavna,Podgorica,27.09.2026 11:20,24.10,32.0,0.00,6.10,2,,684.2,1014.2
+02BAR010,glavna,Bar,27.09.2026 11:20,24.60,36.0,0.00,2.30,28,,672.7,1019.7
+02GRAD30,klimatološka,Gradac,27.09.2026 11:00,11.78,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,27.09.2026 11:00,19.40,40.0,0.00,2.00,12,4.60,683.4,
+02BOAN30,klimatološka,Boan,27.09.2026 11:00,14.87,66.6,,,,,,
+02IVKO30,klimatološka,Ivanova korita,27.09.2026 11:00,14.59,53.1,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,27.09.2026 11:00,11.03,96.9,,,,,683.97,956.49
+02BUDV20,klimatološka,Budva,27.09.2026 11:00,25.43,34.8,,,,,713.55,1019.02
+02PLJV10,glavna,Pljevlja,27.09.2026 11:20,13.30,70.0,0.00,1.10,18,,690.3,934.9
+02KOSA30,klimatološka,Kosanica,27.09.2026 11:00,11.94,85.2,,,,,,
+02ULCN10,glavna,Ulcinj,27.09.2026 11:20,24.50,35.0,0.00,8.30,6,,715.4,1020.0
+02GOBU30,klimatološka,Gornja Bukovica,27.09.2026 11:00,11.53,82.9,,,,,,
