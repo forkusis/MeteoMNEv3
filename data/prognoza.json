@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-27T11:01:17.090222+00:00",
+  "updated_at": "2026-09-27T11:15:54.304898+00:00",
   "dani": [
     {
-      "naslov": "Nedjelja, 27.09.2026.",
-      "azurirano": "27.09.2026. 08:18 CEST",
-      "tekst": "U južnim i centralnim oblastima sunčano a u sjevernim malo do umjereno oblačno sa dužim periodima sunčanog vremena. Vjetar slab do umjeren, na jugu tek ponegdje pojačan, pretežno sjeverni i sjeveroistočni. Najviša dnevna temperatura vazduha od 14 do 27 stepeni.",
+      "naslov": "Ponedjeljak, 28.09.2026.",
+      "azurirano": "27.09.2026. 13:04 CEST",
+      "tekst": "Pretežno sunčano uz malu do umjerenu mjestimičnu oblačnost u sjevernim predjelima. Vjetar slab do umjeren, u kontinentalnim oblastima najčešće sjeverni. Jutarnja temperatura vazduha od 2 do 19 stepeni, najviša dnevna od 14 do 28 stepeni.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
-      "naslov": "Ponedjeljak, 28.09.2026.",
-      "azurirano": "26.09.2026. 13:07 CEST",
-      "tekst": "Pretežno sunčano uz malu do umjerenu mjestimičnu oblačnost u sjevernim predjelima. Vjetar slab do umjeren promjenljivog smjera, u kontinentalnim oblastima najčešće sjeverni. Jutarnja temperatura vazduha od 2 do 20 stepeni, najviša dnevna od 15 do 27 stepeni.",
-      "podgorica": "Podgorica: Sunčano. Vjetar uglavnom slab, promjenljivog smjera. Jutarnja temperatura vazduha oko 16, najviša dnevna oko 27 stepeni."
+      "naslov": "Utorak, 29.09.2026.",
+      "azurirano": "27.09.2026. 13:04 CEST",
+      "tekst": "Pretežno sunčano uz malu do umjerenu mjestimičnu oblačnost u kontinentalnim oblastima. Vjetar slab do umjeren, u kontinentalnim oblastima najčešće sjeverni. Jutarnja temperatura vazduha od 2 do 20 stepeni, najviša dnevna od 14 do 28 stepeni.",
+      "podgorica": "Podgorica: Sunčano. Vjetar uglavnom slab, promjenljivog smjera. Jutarnja temperatura vazduha oko 17, najviša dnevna oko 27 stepeni."
     }
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "27.09.2026. 05:42 CEST",
-    "tekst": "UPOZORENJE: Na jugoistoku akvatorijuma mogući udari vjetra 25 do 35 čvorova. SINOPTIČKA SITUACIJA: Jadransko more se nalazi na periferiji anticiklona sa centrom na sjeveroistoku Evrope. Na visini se Jadransko more nalazi u prednjoj strani termobaričkog grebena. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar na otvorenom moru dominanto NE i N, poslijepodne kratkotrajno NW, 6 do 16 čvorova, na jugoistoku akvatorijuma 14 do 24 čvora sa udarima 25 do 35 čvorova. More 2 do 3, na otvorenom početkom prognostičkog perioda ponegdje 4. Vidljivost 20 km ili veća. Pretežno vedro. Najviša dnevna temperatura vazduha od 25 do 27 stepeni.",
+    "azurirano": "27.09.2026. 13:03 CEST",
+    "tekst": "UPOZORENJE: Na jugoistoku akvatorijuma mogući udari vjetra 24 do 34 čvora. SINOPTIČKA SITUACIJA: Jadransko more se nalazi na periferiji anticiklona sa centrom na sjeveroistoku Evrope. Na visini se Jadransko more nalazi u prednjoj strani termobaričkog grebena. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar na otvorenom moru N i NW, tokom noći u skretanju na NE, 6 do 16 čvorova, na jugoistoku akvatorijuma 12 do 22 čvora sa udarima 24 do 34 čvora. More 2 do 3. Vidljivost 20 km ili veća. Pretežno vedro. Jutarnja temperatura vazduha od 17 do 19 stepeni a najviša dnevna od 25 do 27 stepeni.",
     "podgorica": ""
   }
 }
