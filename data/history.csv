@@ -55043,3 +55043,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,28.09.2026 19:00,19.30,37.0,0.00,3.00,2,,0.1,946.6
 02MAMO30,klimatološka,Manastir Morača,28.09.2026 19:00,16.59,63.2,,,,,,
 02HNOV10,glavna,Herceg Novi,28.09.2026 19:00,20.70,63.0,0.00,0.80,32,,0.5,1015.2
+02DDOB30,klimatološka,Donja Dobrilovina,28.09.2026 19:00,11.32,91.1,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,28.09.2026 19:00,10.17,84.5,,,,,,
+02LKOT20,klimatološka,Luka Kotor,28.09.2026 18:46,20.60,61.0,,0.70,,1.90,,1022.8
+02NIKS10,glavna,Nikšić,28.09.2026 19:20,18.90,37.0,0.00,4.90,2,,0.2,946.8
+02VELM20,klimatološka,Velimlje,28.09.2026 19:00,16.90,45.8,0.00,0.50,12,0.80,0.0,
+02PLJV10,glavna,Pljevlja,28.09.2026 19:20,13.50,63.0,0.00,0.40,2,,0.0,933.2
+02PDGR10,glavna,Podgorica,28.09.2026 19:20,22.10,40.0,0.00,1.10,2,,0.9,1013.5
+02BPLJ20,klimatološka,Bijelo Polje,28.09.2026 19:00,13.49,77.1,,,,,1.66,953.84
+02BERA20,glavna,Berane,28.09.2026 19:00,14.73,64.7,0.00,1.00,2,2.60,,943.38
+02HNOV10,glavna,Herceg Novi,28.09.2026 19:20,20.30,64.0,0.00,0.20,30,2.10,1.1,1015.3
+02UBLI20,klimatološka,Ubli,28.09.2026 19:00,18.52,,,,,,,
+02BIST20,klimatološka,Bistrica,28.09.2026 19:00,11.90,75.9,0.00,0.50,24,0.60,0.5,
+02BOAN30,klimatološka,Boan,28.09.2026 19:00,12.31,75.6,,,,,,
+02PLZN20,klimatološka,Pluzine,28.09.2026 19:00,17.63,55.0,0.00,3.40,2,6.70,0.0,937.86
+02BUDV20,klimatološka,Budva,28.09.2026 19:00,21.88,51.7,,,,,0.1,1018.63
+02BAR010,glavna,Bar,28.09.2026 19:20,20.30,55.0,0.00,1.20,6,,0.6,1019.6
+02ULCN10,glavna,Ulcinj,28.09.2026 19:20,21.50,51.0,0.00,2.40,26,,0.0,1019.1
+02KOSA30,klimatološka,Kosanica,28.09.2026 19:00,8.46,96.7,,,,,,
+02CTNJ10,glavna,Cetinje,28.09.2026 19:20,13.20,75.0,0.00,0.20,26,,1.0,947.2
+02CRKV30,klimatološka,Crkvice,28.09.2026 19:00,11.37,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,28.09.2026 19:00,11.64,61.5,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,28.09.2026 19:20,10.30,67.0,0.00,0.50,20,,0.9,862.1
+02GRAD30,klimatološka,Gradac,28.09.2026 19:00,11.69,95.1,,,,,,
+02KOLS10,glavna,Kolašin,28.09.2026 19:20,12.80,67.0,0.00,0.20,16,,0.1,915.3
