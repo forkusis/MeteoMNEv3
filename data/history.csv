@@ -54516,3 +54516,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STAB30,klimatološka,Stabna,28.09.2026 11:00,16.05,65.0,,,,,,
 02KOLS10,glavna,Kolašin,28.09.2026 11:00,14.80,61.0,0.00,3.80,4,,600.2,915.7
 02STIT30,klimatološka,Štitarica,28.09.2026 11:00,14.84,68.5,,,,,,
+02ZBLJ10,glavna,Žabljak,28.09.2026 11:20,10.80,63.0,0.00,1.70,30,,145.4,862.2
+02HNOV10,glavna,Herceg Novi,28.09.2026 11:20,27.40,31.0,0.00,1.70,22,,684.2,1016.2
+02BERA20,glavna,Berane,28.09.2026 11:00,13.99,70.9,0.00,1.00,20,2.30,,944.75
+02BAR010,glavna,Bar,28.09.2026 11:20,24.10,34.0,0.00,2.10,20,,665.7,1020.5
+02CRKV30,klimatološka,Crkvice,28.09.2026 11:00,16.97,54.4,,,,,,
+02CTNJ10,glavna,Cetinje,28.09.2026 11:20,20.30,37.0,0.00,0.60,10,,676.6,948.1
+02GOBU30,klimatološka,Gornja Bukovica,28.09.2026 11:00,12.81,71.0,,,,,,
+02PLJV10,glavna,Pljevlja,28.09.2026 11:20,13.60,66.0,0.00,1.50,16,,535.5,934.1
+02BOAN30,klimatološka,Boan,28.09.2026 11:00,16.21,59.9,,,,,,
+02LKOT20,klimatološka,Luka Kotor,28.09.2026 10:46,24.00,34.0,,1.20,,1.50,,1023.7
+02KOSA30,klimatološka,Kosanica,28.09.2026 11:00,14.67,75.6,,,,,,
+02PDGR10,glavna,Podgorica,28.09.2026 11:20,25.00,29.0,0.00,1.40,14,,661.5,1014.7
+02KUKO30,klimatološka,Kučka korita,28.09.2026 11:00,14.19,47.7,0.00,,,,,
+02GRAD30,klimatološka,Gradac,28.09.2026 11:00,12.79,94.6,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,28.09.2026 11:00,12.14,95.2,,,,,,
+02UBLI20,klimatološka,Ubli,28.09.2026 11:00,21.46,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,28.09.2026 11:00,14.45,49.2,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,28.09.2026 11:00,12.25,87.6,,,,,669.32,955.44
+02PLZN20,klimatološka,Pluzine,28.09.2026 11:00,15.82,84.9,0.00,1.90,2,4.60,646.8,938.72
+02KOLS10,glavna,Kolašin,28.09.2026 11:20,16.10,54.0,0.00,0.90,2,,718.5,915.6
+02BIST20,klimatološka,Bistrica,28.09.2026 11:00,14.50,67.0,0.00,2.10,6,3.00,754.1,
+02NIKS10,glavna,Nikšić,28.09.2026 11:20,21.00,32.0,0.00,3.20,18,,683.2,947.5
+02ULCN10,glavna,Ulcinj,28.09.2026 11:20,25.80,30.0,0.00,4.70,4,,699.2,1020.6
+02VELM20,klimatološka,Velimlje,28.09.2026 11:00,19.40,41.3,0.00,1.70,14,4.60,662.2,
