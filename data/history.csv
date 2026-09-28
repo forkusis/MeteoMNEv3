@@ -54429,3 +54429,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,28.09.2026 09:50,10.80,69.0,0.00,0.90,4,,89.8,862.3
 02LKOT20,klimatološka,Luka Kotor,28.09.2026 09:16,23.20,37.0,,3.50,,7.10,,1023.9
 02PDGR10,glavna,Podgorica,28.09.2026 09:50,23.20,32.0,0.00,1.60,8,,380.4,1015.3
+02STIT30,klimatološka,Štitarica,28.09.2026 10:00,12.00,87.4,,,,,,
+02NJGV30,klimatološka,Njegovuđa,28.09.2026 10:00,11.39,82.4,,,,,,
+02BAR010,glavna,Bar,28.09.2026 10:00,24.80,32.0,0.00,1.90,8,,531.7,1020.5
+02VIRP20,klimatološka,Virpazar,28.09.2026 10:00,21.80,48.0,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,28.09.2026 10:00,23.20,,0.00,,,,,
+02STAB30,klimatološka,Stabna,28.09.2026 10:00,12.70,77.6,,,,,,
+02VELK30,klimatološka,Velika,28.09.2026 10:00,14.89,82.2,,,,,,
+02POSC30,klimatološka,Pošćenje,28.09.2026 10:00,13.56,79.9,,,,,,
+02NIKS10,glavna,Nikšić,28.09.2026 10:00,19.10,40.0,0.00,1.70,14,,530.0,947.9
+02KOLS10,glavna,Kolašin,28.09.2026 10:00,12.80,68.0,0.00,1.50,2,,64.5,916.0
+02PLJV10,glavna,Pljevlja,28.09.2026 10:00,6.80,93.0,0.00,1.10,14,,448.3,935.0
+02MOKR30,klimatološka,Mokro,28.09.2026 10:00,14.41,64.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,28.09.2026 10:00,8.51,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,28.09.2026 10:00,24.20,33.0,0.00,5.50,6,,544.3,1020.8
+02LKOT20,klimatološka,Luka Kotor,28.09.2026 09:31,23.40,37.0,,2.60,,4.40,,1023.9
+02PDGR10,glavna,Podgorica,28.09.2026 10:00,23.60,31.0,0.00,2.60,10,,493.3,1015.2
+02ZBLJ10,glavna,Žabljak,28.09.2026 10:00,10.70,67.0,0.00,2.50,4,,105.0,862.2
+02HNOV10,glavna,Herceg Novi,28.09.2026 10:00,25.10,31.0,0.00,1.00,8,4.50,545.1,1016.3
+02MATE30,klimatološka,Matesevo,28.09.2026 10:00,14.86,62.8,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,28.09.2026 10:00,19.42,65.1,,,,,,
+02CTNJ10,glavna,Cetinje,28.09.2026 10:00,17.40,40.0,0.00,0.50,16,,229.3,948.2
