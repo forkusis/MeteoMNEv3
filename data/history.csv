@@ -54977,3 +54977,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,28.09.2026 18:00,11.98,89.4,,,,,,
 02PLJV10,glavna,Pljevlja,28.09.2026 18:00,17.80,49.0,0.00,1.00,2,,21.2,932.5
 02NJGV30,klimatološka,Njegovuđa,28.09.2026 18:00,12.64,68.5,,,,,,
+02BAR010,glavna,Bar,28.09.2026 18:20,22.70,52.0,0.00,2.90,26,,14.7,1019.3
+02GOBU30,klimatološka,Gornja Bukovica,28.09.2026 18:00,13.59,63.4,,,,,,
+02LKOT20,klimatološka,Luka Kotor,28.09.2026 17:46,22.20,53.0,,0.80,,1.90,,1022.6
+02DDOB30,klimatološka,Donja Dobrilovina,28.09.2026 18:00,13.16,85.8,,,,,,
+02ZBLJ10,glavna,Žabljak,28.09.2026 18:20,12.00,58.0,0.00,1.40,30,,18.3,861.7
+02KOLS10,glavna,Kolašin,28.09.2026 18:20,16.00,52.0,0.00,1.50,32,,9.4,914.8
+02BIST20,klimatološka,Bistrica,28.09.2026 18:00,15.60,59.6,0.00,0.80,20,2.50,12.0,
+02NIKS10,glavna,Nikšić,28.09.2026 18:20,20.50,33.0,0.00,4.70,6,,13.0,946.2
+02BPLJ20,klimatološka,Bijelo Polje,28.09.2026 18:00,17.43,55.1,,,,,12.34,953.12
+02PDGR10,glavna,Podgorica,28.09.2026 18:20,24.90,32.0,0.00,1.50,16,,13.0,1012.9
+02VELM20,klimatološka,Velimlje,28.09.2026 18:00,20.00,37.9,0.00,1.40,6,2.10,48.9,
+02CRKV30,klimatološka,Crkvice,28.09.2026 18:00,14.89,89.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,28.09.2026 18:00,13.80,53.4,0.00,,,,,
+02BOAN30,klimatološka,Boan,28.09.2026 18:00,15.48,60.2,,,,,,
+02GRAD30,klimatološka,Gradac,28.09.2026 18:00,15.15,77.5,,,,,,
+02BUDV20,klimatološka,Budva,28.09.2026 18:00,23.00,47.5,,,,,16.91,1018.38
+02ULCN10,glavna,Ulcinj,28.09.2026 18:20,22.60,52.0,0.00,3.40,26,,18.8,1018.8
+02HNOV10,glavna,Herceg Novi,28.09.2026 18:20,21.60,62.0,0.00,0.10,24,,11.8,1015.0
+02BERA20,glavna,Berane,28.09.2026 18:00,18.34,51.6,0.00,1.10,30,2.60,,942.78
+02PLZN20,klimatološka,Pluzine,28.09.2026 18:00,18.83,52.4,0.00,4.80,32,9.00,16.77,937.38
+02UBLI20,klimatološka,Ubli,28.09.2026 18:00,22.12,,,,,,,
+02PLJV10,glavna,Pljevlja,28.09.2026 18:20,16.70,53.0,0.00,1.00,30,,10.8,932.7
+02IVKO30,klimatološka,Ivanova korita,28.09.2026 18:00,11.60,74.6,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,28.09.2026 18:00,12.83,76.8,,,,,,
+02CTNJ10,glavna,Cetinje,28.09.2026 18:20,16.80,62.0,0.00,0.80,18,,13.6,946.7
