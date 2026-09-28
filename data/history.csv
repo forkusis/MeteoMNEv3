@@ -55438,3 +55438,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,29.09.2026 01:00,4.90,97.0,0.00,1.00,18,,2.2,917.2
 02VELK30,klimatološka,Velika,29.09.2026 01:00,6.28,100.0,,,,,,
 02BAR010,glavna,Bar,29.09.2026 01:00,21.60,38.0,0.00,2.10,8,,0.2,1020.7
+02HNOV10,glavna,Herceg Novi,29.09.2026 01:20,17.20,51.0,0.00,0.50,26,,0.0,1016.6
+02PLZN20,klimatološka,Pluzine,29.09.2026 01:00,11.26,100.0,0.00,0.90,4,3.10,0.0,940.1
+02IVKO30,klimatološka,Ivanova korita,29.09.2026 01:00,10.04,64.7,0.00,,,,,
+02BAR010,glavna,Bar,29.09.2026 01:20,21.20,40.0,0.00,1.10,6,,0.0,1020.8
+02KUKO30,klimatološka,Kučka korita,29.09.2026 01:00,7.83,74.1,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,29.09.2026 01:00,9.61,87.8,,,,,,
+02UBLI20,klimatološka,Ubli,29.09.2026 01:00,14.81,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,29.09.2026 01:00,7.15,100.0,,,,,1.66,956.41
+02PDGR10,glavna,Podgorica,29.09.2026 01:20,20.70,39.0,0.00,3.40,28,,0.1,1015.6
+02GRAD30,klimatološka,Gradac,29.09.2026 01:00,4.19,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,29.09.2026 01:00,5.86,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,29.09.2026 01:00,4.73,100.0,,,,,,
+02BOAN30,klimatološka,Boan,29.09.2026 01:00,3.61,100.0,,,,,,
+02BUDV20,klimatološka,Budva,29.09.2026 01:00,23.28,34.2,,,,,0.1,1019.66
+02KOVR30,klimatološka,Kovren,29.09.2026 01:00,9.47,100.0,0.00,,,,,
+02BERA20,glavna,Berane,29.09.2026 01:00,6.77,97.3,0.00,0.00,12,0.90,,945.83
+02NIKS10,glavna,Nikšić,29.09.2026 01:20,12.50,62.0,0.00,2.60,2,3.00,1.0,948.8
+02CTNJ10,glavna,Cetinje,29.09.2026 01:20,14.00,58.0,0.00,0.60,18,,0.1,949.0
+02VELM20,klimatološka,Velimlje,29.09.2026 01:00,8.70,78.6,0.00,0.70,8,1.20,1.2,
+02KOSA30,klimatološka,Kosanica,29.09.2026 01:00,-1.37,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,29.09.2026 01:00,5.40,97.0,0.00,0.40,14,0.50,0.6,
+02ZBLJ10,glavna,Žabljak,29.09.2026 01:20,4.50,93.0,0.00,1.60,22,,0.8,863.1
+02ULCN10,glavna,Ulcinj,29.09.2026 01:20,14.60,77.0,0.00,2.40,4,,1.1,1021.0
+02KOLS10,glavna,Kolašin,29.09.2026 01:20,5.00,96.0,0.00,0.70,16,,0.0,917.2
+02PLJV10,glavna,Pljevlja,29.09.2026 01:20,5.60,95.0,0.00,0.40,32,,0.1,935.4
+02LKOT20,klimatološka,Luka Kotor,29.09.2026 00:46,22.00,39.0,,1.20,,2.60,,1024.4
