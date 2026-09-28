@@ -54001,3 +54001,15 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DDOB30,klimatološka,Donja Dobrilovina,28.09.2026 03:00,5.39,100.0,,,,,,
 02KOSA30,klimatološka,Kosanica,28.09.2026 03:00,-1.27,100.0,,,,,,
 02MAMO30,klimatološka,Manastir Morača,28.09.2026 03:00,6.99,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,28.09.2026 02:46,21.10,40.0,,2.60,,5.60,,1024.0
+02BAR010,glavna,Bar,28.09.2026 03:20,20.30,39.0,0.00,3.00,4,,0.8,1020.2
+02NIKS10,glavna,Nikšić,28.09.2026 03:20,9.50,72.0,0.00,1.00,2,,0.0,948.3
+02ULCN10,glavna,Ulcinj,28.09.2026 03:20,15.00,65.0,0.00,2.60,6,,0.0,1020.5
+02PDGR10,glavna,Podgorica,28.09.2026 03:20,18.90,44.0,0.00,1.20,28,,0.0,1015.2
+02KOLS10,glavna,Kolašin,28.09.2026 03:20,4.10,97.0,0.00,0.50,20,,0.7,916.6
+02UBLI20,klimatološka,Ubli,28.09.2026 03:00,12.12,,,,,,,
+02CTNJ10,glavna,Cetinje,28.09.2026 03:20,5.60,95.0,0.00,0.20,4,,0.6,948.6
+02HNOV10,glavna,Herceg Novi,28.09.2026 03:20,15.90,46.0,0.00,3.10,22,3.70,0.2,1016.2
+02BUDV20,klimatološka,Budva,28.09.2026 03:00,21.53,34.9,,,,,0.0,1019.41
+02ZBLJ10,glavna,Žabljak,28.09.2026 03:20,3.10,97.0,0.00,1.10,22,,0.2,862.2
+02PLJV10,glavna,Pljevlja,28.09.2026 03:20,4.80,97.0,0.00,0.20,26,0.90,0.3,935.0
