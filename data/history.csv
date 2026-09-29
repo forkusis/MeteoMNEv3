@@ -55567,3 +55567,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,29.09.2026 03:00,5.81,100.0,,,,,,
 02SCPO30,klimatološka,Šćepan Polje,29.09.2026 03:00,5.71,100.0,,,,,,
 02BAR010,glavna,Bar,29.09.2026 03:00,21.20,38.0,0.00,2.90,6,,0.5,1020.8
+02BPLJ20,klimatološka,Bijelo Polje,29.09.2026 03:00,6.18,100.0,,,,,0.0,956.78
+02BIST20,klimatološka,Bistrica,29.09.2026 03:00,5.00,97.7,0.00,0.50,8,0.70,0.6,
+02GRAD30,klimatološka,Gradac,29.09.2026 03:00,4.80,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,29.09.2026 03:00,-2.17,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,29.09.2026 03:20,8.60,84.0,0.00,0.20,14,,0.5,949.3
+02ULCN10,glavna,Ulcinj,29.09.2026 03:20,14.00,75.0,0.00,3.50,8,,0.2,1021.0
+02LKOT20,klimatološka,Luka Kotor,29.09.2026 02:46,22.50,37.0,,5.10,,9.90,,1024.3
+02KUKO30,klimatološka,Kučka korita,29.09.2026 03:00,8.44,67.1,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,29.09.2026 03:20,4.00,94.0,0.00,1.40,24,,0.3,863.0
+02IVKO30,klimatološka,Ivanova korita,29.09.2026 03:00,7.08,79.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,29.09.2026 03:20,19.90,41.0,0.00,1.90,30,,0.0,1015.8
+02NIKS10,glavna,Nikšić,29.09.2026 03:20,10.90,66.0,0.00,1.20,2,,0.0,948.9
+02BERA20,glavna,Berane,29.09.2026 03:00,5.30,100.0,0.00,0.50,2,0.80,,946.06
+02VELM20,klimatološka,Velimlje,29.09.2026 03:00,7.80,82.7,0.00,0.50,4,1.20,3.2,
+02PLJV10,glavna,Pljevlja,29.09.2026 03:20,4.20,96.0,0.00,0.20,32,,0.0,935.6
+02KOLS10,glavna,Kolašin,29.09.2026 03:20,3.70,97.0,0.00,0.40,18,,0.0,917.3
+02DDOB30,klimatološka,Donja Dobrilovina,29.09.2026 03:00,5.69,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,29.09.2026 03:00,12.13,,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,29.09.2026 03:00,3.33,100.0,,,,,,
+02BAR010,glavna,Bar,29.09.2026 03:20,21.20,38.0,0.00,1.50,6,,0.0,1020.7
+02BOAN30,klimatološka,Boan,29.09.2026 03:00,3.59,100.0,,,,,,
+02BUDV20,klimatološka,Budva,29.09.2026 03:00,22.32,35.2,,,,,0.1,1019.98
+02HNOV10,glavna,Herceg Novi,29.09.2026 03:20,19.20,40.0,0.00,0.80,2,,0.0,1016.7
+02CRKV30,klimatološka,Crkvice,29.09.2026 03:00,7.06,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,29.09.2026 03:00,9.38,100.0,0.00,0.00,32,0.80,0.0,940.31
