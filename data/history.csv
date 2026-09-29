@@ -56690,3 +56690,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STAB30,klimatološka,Stabna,29.09.2026 20:00,12.94,76.7,,,,,,
 02KOLS10,glavna,Kolašin,29.09.2026 20:00,10.30,84.0,0.00,0.60,14,,0.6,918.2
 02MATE30,klimatološka,Matesevo,29.09.2026 20:00,8.32,91.2,0.00,,,,,
+02NIKS10,glavna,Nikšić,29.09.2026 20:20,17.10,46.0,0.00,1.50,30,,0.0,949.6
+02ULCN10,glavna,Ulcinj,29.09.2026 20:20,20.90,51.0,0.00,2.00,28,,0.0,1022.1
+02ZBLJ10,glavna,Žabljak,29.09.2026 20:20,7.60,80.0,0.00,1.00,22,,0.7,864.9
+02BAR010,glavna,Bar,29.09.2026 20:20,20.90,52.0,0.00,1.60,6,,1.0,1022.0
+02PLJV10,glavna,Pljevlja,29.09.2026 20:20,12.00,73.0,0.00,0.50,24,,0.1,936.2
+02GOBU30,klimatološka,Gornja Bukovica,29.09.2026 20:00,7.31,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,29.09.2026 20:00,9.41,95.3,,,,,,
+02HNOV10,glavna,Herceg Novi,29.09.2026 20:20,20.50,49.0,0.00,0.10,32,,0.3,1017.7
+02BPLJ20,klimatološka,Bijelo Polje,29.09.2026 20:00,12.41,88.0,,,,,0.0,957.17
+02KOLS10,glavna,Kolašin,29.09.2026 20:20,9.80,87.0,0.00,0.70,18,,0.5,918.5
+02KOSA30,klimatološka,Kosanica,29.09.2026 20:00,4.42,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,29.09.2026 19:46,20.80,55.0,,1.20,,3.00,,1025.2
+02BOAN30,klimatološka,Boan,29.09.2026 20:00,10.38,88.5,,,,,,
+02PLZN20,klimatološka,Pluzine,29.09.2026 20:00,15.96,67.1,0.00,1.60,4,2.90,1.82,940.86
+02VELM20,klimatološka,Velimlje,29.09.2026 20:00,17.20,46.4,0.00,2.50,6,5.90,0.4,
+02GRAD30,klimatološka,Gradac,29.09.2026 20:00,10.36,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,29.09.2026 20:00,17.91,,,,,,,
+02BUDV20,klimatološka,Budva,29.09.2026 20:00,21.89,47.9,,,,,0.0,1021.08
+02PDGR10,glavna,Podgorica,29.09.2026 20:20,23.70,32.0,0.00,0.90,6,,0.2,1016.4
+02IVKO30,klimatološka,Ivanova korita,29.09.2026 20:00,12.32,59.6,0.00,,,,,
+02CTNJ10,glavna,Cetinje,29.09.2026 20:20,15.40,57.0,0.00,0.90,18,,0.8,950.0
+02KUKO30,klimatološka,Kučka korita,29.09.2026 20:00,12.08,61.3,0.00,,,,,
+02BIST20,klimatološka,Bistrica,29.09.2026 20:00,11.00,78.0,0.00,0.60,14,0.80,0.5,
+02BERA20,glavna,Berane,29.09.2026 20:00,14.97,63.2,0.00,1.70,8,2.90,,946.58
+02DDOB30,klimatološka,Donja Dobrilovina,29.09.2026 20:00,10.50,99.7,,,,,,
