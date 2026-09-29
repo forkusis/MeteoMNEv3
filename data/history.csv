@@ -56142,3 +56142,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,29.09.2026 11:16,25.50,30.0,,3.10,,5.30,,1024.9
 02CTNJ10,glavna,Cetinje,29.09.2026 11:50,21.10,34.0,0.00,1.20,12,,703.7,949.5
 02ZBLJ10,glavna,Žabljak,29.09.2026 11:50,13.70,51.0,0.00,0.90,6,,165.9,863.8
+02CTNJ10,glavna,Cetinje,29.09.2026 12:00,21.60,32.0,0.00,1.20,8,,714.4,949.5
+02MAMO30,klimatološka,Manastir Morača,29.09.2026 12:00,27.32,33.6,,,,,,
+02NJGV30,klimatološka,Njegovuđa,29.09.2026 12:00,14.35,59.9,,,,,,
+02KOLS10,glavna,Kolašin,29.09.2026 12:00,16.80,47.0,0.00,3.60,2,,449.6,917.2
+02MOKR30,klimatološka,Mokro,29.09.2026 12:00,18.23,39.3,,,,,,
+02PLJV10,glavna,Pljevlja,29.09.2026 12:00,17.30,54.0,0.00,2.10,18,,651.2,935.3
+02VIRP20,klimatološka,Virpazar,29.09.2026 12:00,26.70,27.0,0.00,,,,,
+02STAB30,klimatološka,Stabna,29.09.2026 12:00,20.20,41.2,,,,,,
+02ULCN10,glavna,Ulcinj,29.09.2026 12:00,27.20,27.0,0.00,6.10,6,,745.7,1021.9
+02NIKS10,glavna,Nikšić,29.09.2026 12:00,22.10,25.0,0.00,2.10,28,,693.5,948.8
+02PDGR10,glavna,Podgorica,29.09.2026 12:00,26.70,23.0,0.00,2.90,2,,700.9,1015.9
+02LKOT20,klimatološka,Luka Kotor,29.09.2026 11:31,25.40,32.0,,3.00,,5.90,,1024.8
+02STIT30,klimatološka,Štitarica,29.09.2026 12:00,16.80,54.7,,,,,,
+02ZBLJ10,glavna,Žabljak,29.09.2026 12:00,13.60,51.0,0.00,0.90,6,,158.8,863.8
+02POSC30,klimatološka,Pošćenje,29.09.2026 12:00,17.35,48.2,,,,,,
+02DANL20,klimatološka,Danilovgrad,29.09.2026 12:00,28.30,,0.00,,,,,
+02BAR010,glavna,Bar,29.09.2026 12:00,26.60,47.0,0.00,3.00,18,,681.9,1021.7
+02HNOV10,glavna,Herceg Novi,29.09.2026 12:00,28.20,25.0,0.00,1.20,14,,764.5,1017.6
+02MATE30,klimatološka,Matesevo,29.09.2026 12:00,17.58,44.2,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,29.09.2026 12:00,17.92,62.9,,,,,,
+02VELK30,klimatološka,Velika,29.09.2026 12:00,18.38,68.0,,,,,,
