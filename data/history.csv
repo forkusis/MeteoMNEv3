@@ -55546,3 +55546,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,29.09.2026 02:50,11.20,61.0,0.00,4.00,4,,0.0,948.9
 02HNOV10,glavna,Herceg Novi,29.09.2026 02:50,17.00,49.0,0.00,1.20,22,,0.2,1016.7
 02PLJV10,glavna,Pljevlja,29.09.2026 02:50,4.70,96.0,0.00,0.50,24,,0.2,935.6
+02LKOT20,klimatološka,Luka Kotor,29.09.2026 02:31,22.70,37.0,,6.30,,9.90,,1024.2
+02HNOV10,glavna,Herceg Novi,29.09.2026 03:00,17.40,47.0,0.00,2.90,2,4.80,0.0,1016.7
+02MAMO30,klimatološka,Manastir Morača,29.09.2026 03:00,7.62,99.2,,,,,,
+02MOKR30,klimatološka,Mokro,29.09.2026 03:00,2.30,96.7,,,,,,
+02PDGR10,glavna,Podgorica,29.09.2026 03:00,20.00,40.0,0.00,3.10,28,,0.2,1015.8
+02PLJV10,glavna,Pljevlja,29.09.2026 03:00,4.40,96.0,0.00,0.60,32,,0.0,935.6
+02ULCN10,glavna,Ulcinj,29.09.2026 03:00,15.10,75.0,0.00,2.70,6,,0.0,1021.1
+02CTNJ10,glavna,Cetinje,29.09.2026 03:00,9.10,82.0,0.00,0.30,12,,0.7,949.3
+02POSC30,klimatološka,Pošćenje,29.09.2026 03:00,3.26,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,29.09.2026 03:00,3.56,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,29.09.2026 03:00,3.48,96.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,29.09.2026 03:00,4.00,97.0,0.00,0.40,20,,0.2,917.3
+02DANL20,klimatološka,Danilovgrad,29.09.2026 03:00,17.30,,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,29.09.2026 03:00,11.10,88.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,29.09.2026 03:00,4.30,92.0,0.00,1.70,20,,0.5,863.1
+02NJGV30,klimatološka,Njegovuđa,29.09.2026 03:00,0.27,100.0,,,,,,
+02STAB30,klimatološka,Stabna,29.09.2026 03:00,7.15,100.0,,,,,,
+02NIKS10,glavna,Nikšić,29.09.2026 03:00,11.60,64.0,0.00,2.80,2,,0.0,948.9
+02VELK30,klimatološka,Velika,29.09.2026 03:00,5.81,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,29.09.2026 03:00,5.71,100.0,,,,,,
+02BAR010,glavna,Bar,29.09.2026 03:00,21.20,38.0,0.00,2.90,6,,0.5,1020.8
