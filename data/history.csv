@@ -56822,3 +56822,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,29.09.2026 22:00,19.40,49.0,0.00,3.90,4,,0.3,1022.6
 02DANL20,klimatološka,Danilovgrad,29.09.2026 22:00,22.50,,0.00,,,,,
 02NJGV30,klimatološka,Njegovuđa,29.09.2026 22:00,3.69,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,29.09.2026 22:00,12.60,61.7,0.00,1.40,20,2.20,0.3,
+02DDOB30,klimatološka,Donja Dobrilovina,29.09.2026 22:00,8.49,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,29.09.2026 22:00,10.99,63.6,0.00,,,,,
+02GRAD30,klimatološka,Gradac,29.09.2026 22:00,9.28,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,29.09.2026 21:46,24.40,37.0,,2.90,,6.30,,1026.0
+02PLJV10,glavna,Pljevlja,29.09.2026 22:20,9.20,84.0,0.00,0.40,28,,0.0,937.2
+02GOBU30,klimatološka,Gornja Bukovica,29.09.2026 22:00,5.63,100.0,,,,,,
+02KOLS10,glavna,Kolašin,29.09.2026 22:20,7.30,94.0,0.00,0.40,22,,0.4,919.3
+02IVKO30,klimatološka,Ivanova korita,29.09.2026 22:00,10.79,66.7,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,29.09.2026 22:00,8.47,100.0,,,,,,
+02BOAN30,klimatološka,Boan,29.09.2026 22:00,7.71,100.0,,,,,,
+02BERA20,glavna,Berane,29.09.2026 22:00,10.55,84.2,0.00,0.30,8,0.80,,947.7
+02NIKS10,glavna,Nikšić,29.09.2026 22:20,14.80,53.0,0.00,0.50,26,,0.0,950.4
+02HNOV10,glavna,Herceg Novi,29.09.2026 22:20,18.30,50.0,0.00,0.90,24,,0.1,1018.3
+02BIST20,klimatološka,Bistrica,29.09.2026 22:00,8.60,88.3,0.00,1.30,18,1.80,0.5,
+02BUDV20,klimatološka,Budva,29.09.2026 22:00,24.40,34.7,,,,,0.0,1021.84
+02BAR010,glavna,Bar,29.09.2026 22:20,18.60,60.0,0.00,0.70,8,,0.0,1022.6
+02ZBLJ10,glavna,Žabljak,29.09.2026 22:20,6.60,86.0,0.00,0.90,20,,0.9,865.4
+02ULCN10,glavna,Ulcinj,29.09.2026 22:20,20.70,47.0,0.00,3.20,6,,0.0,1022.7
+02KOSA30,klimatološka,Kosanica,29.09.2026 22:00,1.83,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,29.09.2026 22:00,15.49,,,,,,,
+02PDGR10,glavna,Podgorica,29.09.2026 22:20,23.20,34.0,0.00,2.30,2,,0.0,1017.2
+02BPLJ20,klimatološka,Bijelo Polje,29.09.2026 22:00,9.93,97.2,,,,,0.0,958.31
+02PLZN20,klimatološka,Pluzine,29.09.2026 22:00,13.88,87.8,0.00,0.90,6,2.50,1.82,941.77
+02CTNJ10,glavna,Cetinje,29.09.2026 22:20,15.40,57.0,0.00,0.60,22,,0.1,950.8
