@@ -57326,3 +57326,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,30.09.2026 05:50,6.20,96.0,0.00,0.00,32,,0.0,950.9
 02PDGR10,glavna,Podgorica,30.09.2026 05:50,19.50,41.0,0.00,2.00,30,,0.0,1017.4
 02PLJV10,glavna,Pljevlja,30.09.2026 05:50,3.60,97.0,0.00,0.30,20,,0.0,937.6
+02MOKR30,klimatološka,Mokro,30.09.2026 06:00,2.65,97.4,,,,,,
+02ZBLJ10,glavna,Žabljak,30.09.2026 06:00,3.40,96.0,0.00,0.60,22,,0.9,864.7
+02POSC30,klimatološka,Pošćenje,30.09.2026 06:00,3.59,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,30.09.2026 06:00,11.50,86.0,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,30.09.2026 06:00,-0.38,100.0,,,,,,
+02VELK30,klimatološka,Velika,30.09.2026 06:00,5.10,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,30.09.2026 06:00,17.60,48.0,0.00,5.00,4,,0.2,1022.8
+02NIKS10,glavna,Nikšić,30.09.2026 06:00,9.10,77.0,0.00,1.00,2,,0.0,950.2
+02STAB30,klimatološka,Stabna,30.09.2026 06:00,5.61,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,30.09.2026 06:00,6.96,100.0,,,,,,
+02KOLS10,glavna,Kolašin,30.09.2026 06:00,3.50,98.0,0.00,0.50,22,,0.0,919.3
+02STIT30,klimatološka,Štitarica,30.09.2026 06:00,2.32,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,30.09.2026 06:00,3.50,97.0,0.00,0.20,22,,0.0,937.6
+02BAR010,glavna,Bar,30.09.2026 06:00,21.80,37.0,0.00,3.70,6,,0.8,1022.2
+02CTNJ10,glavna,Cetinje,30.09.2026 06:00,6.10,96.0,0.00,0.30,4,,0.7,950.9
+02SCPO30,klimatološka,Šćepan Polje,30.09.2026 06:00,5.72,100.0,,,,,,
+02PDGR10,glavna,Podgorica,30.09.2026 06:00,19.30,41.0,0.00,1.00,28,,0.0,1017.4
+02MATE30,klimatološka,Matesevo,30.09.2026 06:00,2.49,98.2,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,30.09.2026 06:00,12.70,,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,30.09.2026 06:00,16.50,53.0,0.00,2.30,22,,0.4,1018.4
+02LKOT20,klimatološka,Luka Kotor,30.09.2026 05:31,22.30,42.0,,2.10,,4.90,,1025.9
