@@ -59840,3 +59840,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,01.10.2026 20:00,8.72,100.0,,,,,,
 02ULCN10,glavna,Ulcinj,01.10.2026 20:00,20.30,67.0,0.00,0.60,26,,0.0,1022.2
 02NIKS10,glavna,Nikšić,01.10.2026 20:00,17.40,24.0,0.00,3.10,10,,0.8,949.1
+02BOAN30,klimatološka,Boan,01.10.2026 20:00,10.03,60.0,,,,,,
+02PLZN20,klimatološka,Pluzine,01.10.2026 20:00,16.22,49.4,0.00,2.60,2,6.80,1.44,940.57
+02UBLI20,klimatološka,Ubli,01.10.2026 20:00,16.87,,,,,,,
+02ULCN10,glavna,Ulcinj,01.10.2026 20:20,19.10,72.0,0.00,1.40,30,,0.0,1022.4
+02DDOB30,klimatološka,Donja Dobrilovina,01.10.2026 20:00,8.14,88.2,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,01.10.2026 20:00,10.49,74.9,,,,,0.0,957.48
+02PDGR10,glavna,Podgorica,01.10.2026 20:20,20.00,32.0,0.00,0.50,8,,0.0,1016.5
+02CRKV30,klimatološka,Crkvice,01.10.2026 20:00,8.33,92.5,,,,,,
+02BIST20,klimatološka,Bistrica,01.10.2026 20:00,8.40,69.0,0.00,0.40,16,1.10,0.5,
+02HNOV10,glavna,Herceg Novi,01.10.2026 20:20,19.60,70.0,0.00,0.20,28,,0.0,1017.7
+02IVKO30,klimatološka,Ivanova korita,01.10.2026 20:00,8.22,67.2,0.00,,,,,
+02BERA20,glavna,Berane,01.10.2026 20:00,11.04,64.5,0.00,0.50,32,1.90,,946.92
+02BUDV20,klimatološka,Budva,01.10.2026 20:00,20.17,79.3,,,,,0.0,1021.59
+02KUKO30,klimatološka,Kučka korita,01.10.2026 20:00,9.80,45.4,0.00,,,,,
+02PLJV10,glavna,Pljevlja,01.10.2026 20:20,13.30,46.0,0.00,1.90,10,,1.2,936.4
+02KOLS10,glavna,Kolašin,01.10.2026 20:20,7.50,76.0,0.00,0.40,14,,0.7,918.5
+02NIKS10,glavna,Nikšić,01.10.2026 20:20,17.00,25.0,0.00,2.00,10,,0.0,949.3
+02BAR010,glavna,Bar,01.10.2026 20:20,19.20,70.0,0.00,2.30,8,3.20,1.4,1022.3
+02ZBLJ10,glavna,Žabljak,01.10.2026 20:20,5.20,67.0,0.00,1.20,24,,0.3,864.8
+02GRAD30,klimatološka,Gradac,01.10.2026 20:00,8.26,95.2,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,01.10.2026 20:00,6.17,75.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,01.10.2026 19:46,19.90,76.0,,0.60,,1.90,,1025.4
+02KOSA30,klimatološka,Kosanica,01.10.2026 20:00,3.90,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,01.10.2026 20:20,9.50,77.0,0.00,0.20,12,,0.2,950.1
+02VELM20,klimatološka,Velimlje,01.10.2026 20:00,14.40,30.7,0.00,0.50,12,0.80,0.0,
