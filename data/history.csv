@@ -58986,3 +58986,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,01.10.2026 07:00,-3.51,100.0,,,,,,
 02MOKR30,klimatološka,Mokro,01.10.2026 07:00,-1.71,97.2,,,,,,
 02LKOT20,klimatološka,Luka Kotor,01.10.2026 06:31,15.90,61.0,,0.90,,1.70,,1025.9
+02GRAD30,klimatološka,Gradac,01.10.2026 07:00,2.73,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,01.10.2026 07:00,-0.53,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,01.10.2026 07:00,4.88,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,01.10.2026 07:20,16.80,44.0,0.00,5.90,6,,48.2,1022.9
+02VELM20,klimatološka,Velimlje,01.10.2026 07:00,2.10,97.8,0.00,0.40,18,0.70,14.6,
+02KUKO30,klimatološka,Kučka korita,01.10.2026 07:00,1.66,64.6,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,01.10.2026 07:00,4.47,82.8,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,01.10.2026 07:20,15.30,67.0,0.00,0.90,24,,26.9,1018.2
+02BPLJ20,klimatološka,Bijelo Polje,01.10.2026 07:00,3.59,100.0,,,,,5.6,959.09
+02KOSA30,klimatološka,Kosanica,01.10.2026 07:00,-6.69,100.0,,,,,,
+02BUDV20,klimatološka,Budva,01.10.2026 07:00,15.74,59.3,,,,,8.67,1021.6
+02LKOT20,klimatološka,Luka Kotor,01.10.2026 06:46,15.80,65.0,,0.50,,1.40,,1025.9
+02UBLI20,klimatološka,Ubli,01.10.2026 07:00,10.42,,,,,,,
+02BAR010,glavna,Bar,01.10.2026 07:20,20.50,33.0,0.00,3.00,4,,22.7,1022.1
+02PDGR10,glavna,Podgorica,01.10.2026 07:20,17.90,33.0,0.00,4.40,32,,32.5,1018.0
+02ZBLJ10,glavna,Žabljak,01.10.2026 07:20,0.50,89.0,0.00,1.10,22,,26.6,863.8
+02PLJV10,glavna,Pljevlja,01.10.2026 07:20,0.80,98.0,0.00,0.30,32,,31.4,937.1
+02NIKS10,glavna,Nikšić,01.10.2026 07:20,6.80,71.0,0.00,2.40,32,,22.9,950.2
+02BIST20,klimatološka,Bistrica,01.10.2026 07:00,1.00,98.4,0.00,0.60,18,1.20,9.8,
+02BERA20,glavna,Berane,01.10.2026 07:00,3.44,100.0,0.00,0.60,30,1.80,,948.28
+02KOLS10,glavna,Kolašin,01.10.2026 07:20,0.10,98.0,0.00,0.40,32,,15.1,919.1
+02CTNJ10,glavna,Cetinje,01.10.2026 07:20,3.60,98.0,0.00,0.10,32,,16.5,950.6
+02BOAN30,klimatološka,Boan,01.10.2026 07:00,0.04,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,01.10.2026 07:00,1.49,100.0,,,,,,
