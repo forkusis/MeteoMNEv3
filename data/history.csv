@@ -59906,3 +59906,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,01.10.2026 21:00,16.70,59.0,0.00,3.20,2,4.30,1.4,1022.8
 02VIRP20,klimatološka,Virpazar,01.10.2026 21:00,13.70,79.0,0.00,,,,,
 02STAB30,klimatološka,Stabna,01.10.2026 21:00,10.78,62.3,,,,,,
+02PLJV10,glavna,Pljevlja,01.10.2026 21:20,10.30,64.0,0.00,1.10,20,,0.8,937.1
+02BAR010,glavna,Bar,01.10.2026 21:20,18.30,59.0,0.00,1.10,6,,0.2,1023.1
+02LKOT20,klimatološka,Luka Kotor,01.10.2026 20:46,18.60,77.0,,0.40,,1.10,,1026.2
+02GOBU30,klimatološka,Gornja Bukovica,01.10.2026 21:00,5.96,95.2,,,,,,
+02NIKS10,glavna,Nikšić,01.10.2026 21:20,15.60,32.0,0.00,3.30,6,4.40,0.6,950.1
+02UBLI20,klimatološka,Ubli,01.10.2026 21:00,18.47,,,,,,,
+02HNOV10,glavna,Herceg Novi,01.10.2026 21:20,18.00,75.0,0.00,0.80,4,,1.2,1018.5
+02VELM20,klimatološka,Velimlje,01.10.2026 21:00,12.30,36.9,0.00,1.30,12,2.50,0.0,
+02KOSA30,klimatološka,Kosanica,01.10.2026 21:00,1.23,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,01.10.2026 21:20,8.30,82.0,0.00,0.30,28,,0.6,950.8
+02ZBLJ10,glavna,Žabljak,01.10.2026 21:20,4.50,76.0,0.00,1.20,20,,0.4,865.2
+02ULCN10,glavna,Ulcinj,01.10.2026 21:20,17.60,49.0,0.00,2.00,2,,0.0,1023.1
+02KUKO30,klimatološka,Kučka korita,01.10.2026 21:00,11.28,41.1,0.00,,,,,
+02BIST20,klimatološka,Bistrica,01.10.2026 21:00,6.70,78.6,0.00,1.40,18,1.50,1.3,
+02DDOB30,klimatološka,Donja Dobrilovina,01.10.2026 21:00,7.00,94.9,,,,,,
+02KOLS10,glavna,Kolašin,01.10.2026 21:20,5.80,85.0,0.00,0.70,20,,0.3,919.3
+02PLZN20,klimatološka,Pluzine,01.10.2026 21:00,15.73,57.3,0.00,3.20,4,7.20,1.44,941.21
+02PDGR10,glavna,Podgorica,01.10.2026 21:20,19.90,27.0,0.00,2.90,4,,0.0,1017.3
+02CRKV30,klimatološka,Crkvice,01.10.2026 21:00,8.39,88.6,,,,,,
+02BERA20,glavna,Berane,01.10.2026 21:00,8.83,73.8,0.00,0.40,32,1.10,,947.48
+02GRAD30,klimatološka,Gradac,01.10.2026 21:00,6.80,100.0,,,,,,
+02BUDV20,klimatološka,Budva,01.10.2026 21:00,18.96,85.0,,,,,0.0,1022.14
+02BPLJ20,klimatološka,Bijelo Polje,01.10.2026 21:00,8.89,83.3,,,,,0.0,958.24
+02IVKO30,klimatološka,Ivanova korita,01.10.2026 21:00,8.22,61.7,0.00,,,,,
+02BOAN30,klimatološka,Boan,01.10.2026 21:00,8.46,71.8,,,,,,
