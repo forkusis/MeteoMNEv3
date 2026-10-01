@@ -60104,3 +60104,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02POSC30,klimatološka,Pošćenje,02.10.2026 00:00,3.72,93.1,,,,,,
 02VIRP20,klimatološka,Virpazar,02.10.2026 00:00,10.10,87.0,0.00,,,,,
 02NJGV30,klimatološka,Njegovuđa,02.10.2026 00:00,0.06,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,02.10.2026 00:00,11.56,,,,,,,
+02CTNJ10,glavna,Cetinje,02.10.2026 00:20,5.50,90.0,0.00,0.40,28,,0.4,951.8
+02PLZN20,klimatološka,Pluzine,02.10.2026 00:00,11.28,88.1,0.00,0.40,14,1.30,0.0,942.8
+02BUDV20,klimatološka,Budva,02.10.2026 00:00,17.98,84.1,,,,,0.0,1023.19
+02KOSA30,klimatološka,Kosanica,02.10.2026 00:00,-2.62,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,02.10.2026 00:20,4.90,88.0,0.00,0.40,20,,0.0,938.3
+02KUKO30,klimatološka,Kučka korita,02.10.2026 00:00,10.25,37.4,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,02.10.2026 00:00,5.86,95.0,,,,,0.0,959.65
+02DDOB30,klimatološka,Donja Dobrilovina,02.10.2026 00:00,4.65,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,02.10.2026 00:00,3.70,93.1,0.00,0.30,2,0.60,0.6,
+02HNOV10,glavna,Herceg Novi,02.10.2026 00:20,15.60,72.0,0.00,0.20,24,,0.0,1019.7
+02BAR010,glavna,Bar,02.10.2026 00:20,15.70,67.0,0.00,1.60,6,,0.0,1023.8
+02ZBLJ10,glavna,Žabljak,02.10.2026 00:20,2.90,85.0,0.00,1.30,22,,0.0,865.7
+02BERA20,glavna,Berane,02.10.2026 00:00,4.95,87.0,0.00,0.30,32,0.80,,948.99
+02IVKO30,klimatološka,Ivanova korita,02.10.2026 00:00,5.97,64.5,0.00,,,,,
+02NIKS10,glavna,Nikšić,02.10.2026 00:20,13.50,45.0,0.00,0.20,22,,0.5,951.2
+02LKOT20,klimatološka,Luka Kotor,01.10.2026 23:46,17.10,78.0,,0.40,,1.10,,1027.3
+02KOLS10,glavna,Kolašin,02.10.2026 00:20,3.50,92.0,0.00,1.00,20,,0.0,920.2
+02ULCN10,glavna,Ulcinj,02.10.2026 00:20,18.20,38.0,0.00,4.50,2,,0.0,1024.0
+02BOAN30,klimatološka,Boan,02.10.2026 00:00,3.69,100.0,,,,,,
+02PDGR10,glavna,Podgorica,02.10.2026 00:20,20.60,27.0,0.00,4.00,2,,0.1,1018.5
+02GOBU30,klimatološka,Gornja Bukovica,02.10.2026 00:00,1.74,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,02.10.2026 00:00,6.71,86.6,,,,,,
+02GRAD30,klimatološka,Gradac,02.10.2026 00:00,2.94,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,02.10.2026 00:00,6.50,61.4,0.00,0.70,12,0.90,0.7,
