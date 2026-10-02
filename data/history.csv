@@ -61669,3 +61669,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,02.10.2026 23:16,19.90,43.0,,1.90,,3.40,,1029.3
 02BAR010,glavna,Bar,02.10.2026 23:50,16.40,61.0,0.00,1.30,10,,0.0,1025.9
 02CTNJ10,glavna,Cetinje,02.10.2026 23:50,5.30,86.0,0.00,0.00,2,,0.2,953.7
+02KOLS10,glavna,Kolašin,03.10.2026 00:00,3.80,89.0,0.00,0.40,18,,0.0,922.0
+02MATE30,klimatološka,Matesevo,03.10.2026 00:00,3.67,89.1,0.00,,,,,
+02PDGR10,glavna,Podgorica,03.10.2026 00:00,20.80,25.0,0.00,6.70,2,,0.6,1020.4
+02MAMO30,klimatološka,Manastir Morača,03.10.2026 00:00,9.04,79.6,,,,,,
+02STAB30,klimatološka,Stabna,03.10.2026 00:00,13.30,44.4,,,,,,
+02DANL20,klimatološka,Danilovgrad,03.10.2026 00:00,13.00,,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,03.10.2026 00:00,3.78,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,03.10.2026 00:00,4.70,81.0,0.00,0.80,24,,0.2,940.6
+02POSC30,klimatološka,Pošćenje,03.10.2026 00:00,8.26,59.9,,,,,,
+02NIKS10,glavna,Nikšić,03.10.2026 00:00,11.90,48.0,0.00,3.20,2,,1.1,953.0
+02NJGV30,klimatološka,Njegovuđa,03.10.2026 00:00,-1.41,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,02.10.2026 23:31,19.80,45.0,,1.50,,2.70,,1029.4
+02VELK30,klimatološka,Velika,03.10.2026 00:00,5.36,94.6,,,,,,
+02BAR010,glavna,Bar,03.10.2026 00:00,16.40,53.0,0.00,0.50,8,,0.0,1025.9
+02VIRP20,klimatološka,Virpazar,03.10.2026 00:00,10.70,82.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,03.10.2026 00:00,5.10,87.0,0.00,0.40,32,,0.0,953.7
+02ULCN10,glavna,Ulcinj,03.10.2026 00:00,17.80,38.0,0.00,4.70,2,,0.0,1026.1
+02ZBLJ10,glavna,Žabljak,03.10.2026 00:00,2.30,81.0,0.00,1.90,24,,0.3,867.8
+02HNOV10,glavna,Herceg Novi,03.10.2026 00:00,15.40,73.0,0.00,0.50,22,,0.0,1021.7
+02MOKR30,klimatološka,Mokro,03.10.2026 00:00,2.24,84.0,,,,,,
+02STIT30,klimatološka,Štitarica,03.10.2026 00:00,4.48,92.6,,,,,,
