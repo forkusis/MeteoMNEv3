@@ -61155,3 +61155,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,02.10.2026 16:00,17.48,38.5,,,,,,
 02MAMO30,klimatološka,Manastir Morača,02.10.2026 16:00,25.14,20.9,,,,,,
 02NIKS10,glavna,Nikšić,02.10.2026 16:00,23.20,15.0,0.00,4.90,2,,422.6,950.5
+02LKOT20,klimatološka,Luka Kotor,02.10.2026 15:46,23.70,58.0,,1.40,,3.80,,1027.9
+02BERA20,glavna,Berane,02.10.2026 16:00,21.35,24.5,0.00,1.20,32,4.40,,947.78
+02PLJV10,glavna,Pljevlja,02.10.2026 16:20,19.40,29.0,0.00,2.50,2,,334.1,937.6
+02VELM20,klimatološka,Velimlje,02.10.2026 16:00,23.40,17.0,0.00,1.60,6,4.10,435.5,
+02HNOV10,glavna,Herceg Novi,02.10.2026 16:20,25.20,51.0,0.00,1.90,22,,320.8,1020.0
+02DDOB30,klimatološka,Donja Dobrilovina,02.10.2026 16:00,13.45,62.3,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,02.10.2026 16:00,15.29,36.8,,,,,,
+02BAR010,glavna,Bar,02.10.2026 16:20,24.20,56.0,0.00,4.50,26,,341.2,1024.6
+02BPLJ20,klimatološka,Bijelo Polje,02.10.2026 16:00,21.74,29.5,,,,,441.48,958.06
+02GRAD30,klimatološka,Gradac,02.10.2026 16:00,21.33,32.0,,,,,,
+02KOVR30,klimatološka,Kovren,02.10.2026 16:00,17.09,42.6,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,02.10.2026 16:20,14.60,32.0,0.00,4.60,30,6.10,377.5,866.1
+02CTNJ10,glavna,Cetinje,02.10.2026 16:20,22.70,24.0,0.00,0.30,12,,337.8,951.4
+02PLZN20,klimatološka,Pluzine,02.10.2026 16:00,19.63,36.6,0.00,5.90,32,9.90,42.39,942.11
+02ULCN10,glavna,Ulcinj,02.10.2026 16:20,26.90,26.0,0.00,1.50,8,,371.5,1024.3
+02KOLS10,glavna,Kolašin,02.10.2026 16:20,18.30,28.0,0.00,4.00,4,,140.8,919.5
+02IVKO30,klimatološka,Ivanova korita,02.10.2026 16:00,15.21,33.4,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,02.10.2026 16:00,16.34,45.8,,,,,,
+02BUDV20,klimatološka,Budva,02.10.2026 16:00,24.67,53.2,,,,,415.57,1023.97
+02BOAN30,klimatološka,Boan,02.10.2026 16:00,18.58,31.3,,,,,,
+02BIST20,klimatološka,Bistrica,02.10.2026 16:00,20.10,26.7,0.00,2.00,12,3.50,380.6,
+02NIKS10,glavna,Nikšić,02.10.2026 16:20,22.80,16.0,0.00,5.60,4,,360.3,950.5
+02CRKV30,klimatološka,Crkvice,02.10.2026 16:00,16.97,87.1,,,,,,
+02PDGR10,glavna,Podgorica,02.10.2026 16:20,26.40,19.0,0.00,2.70,14,,329.4,1018.2
+02UBLI20,klimatološka,Ubli,02.10.2026 16:00,23.12,,,,,,,
+02KUKO30,klimatološka,Kučka korita,02.10.2026 16:00,17.85,28.0,0.00,,,,,
