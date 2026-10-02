@@ -60295,3 +60295,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,02.10.2026 03:00,2.60,93.0,0.00,0.30,26,,0.0,938.8
 02NJGV30,klimatološka,Njegovuđa,02.10.2026 03:00,-2.60,100.0,,,,,,
 02NIKS10,glavna,Nikšić,02.10.2026 03:00,10.20,54.0,0.00,1.20,30,,0.0,951.4
+02KOSA30,klimatološka,Kosanica,02.10.2026 03:00,-5.50,100.0,,,,,,
+02PDGR10,glavna,Podgorica,02.10.2026 03:20,18.70,29.0,0.00,2.60,30,,1.0,1019.2
+02BPLJ20,klimatološka,Bijelo Polje,02.10.2026 03:00,3.67,99.6,,,,,0.0,960.34
+02ZBLJ10,glavna,Žabljak,02.10.2026 03:20,0.50,92.0,0.00,1.00,22,,0.0,865.6
+02ULCN10,glavna,Ulcinj,02.10.2026 03:20,13.30,55.0,0.00,2.00,4,,0.0,1024.6
+02LKOT20,klimatološka,Luka Kotor,02.10.2026 02:46,16.80,60.0,,1.40,,2.90,,1027.7
+02BIST20,klimatološka,Bistrica,02.10.2026 03:00,1.60,96.7,0.00,0.20,22,0.40,0.6,
+02VELM20,klimatološka,Velimlje,02.10.2026 03:00,5.10,76.2,0.00,0.90,12,1.30,4.6,
+02HNOV10,glavna,Herceg Novi,02.10.2026 03:20,15.70,53.0,0.00,0.70,24,,0.2,1020.1
+02KUKO30,klimatološka,Kučka korita,02.10.2026 03:00,4.33,56.1,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,02.10.2026 03:00,-0.06,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,02.10.2026 03:00,4.50,69.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,02.10.2026 03:20,2.20,93.0,0.00,0.40,20,,0.0,938.9
+02GRAD30,klimatološka,Gradac,02.10.2026 03:00,0.34,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,02.10.2026 03:20,3.30,95.0,0.00,0.40,8,,0.4,952.2
+02BAR010,glavna,Bar,02.10.2026 03:20,14.70,59.0,0.00,1.60,8,,0.7,1024.3
+02DDOB30,klimatološka,Donja Dobrilovina,02.10.2026 03:00,2.71,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,02.10.2026 03:00,10.87,,,,,,,
+02BOAN30,klimatološka,Boan,02.10.2026 03:00,1.24,100.0,,,,,,
+02NIKS10,glavna,Nikšić,02.10.2026 03:20,10.10,54.0,0.00,0.60,26,,0.5,951.4
+02BUDV20,klimatološka,Budva,02.10.2026 03:00,17.05,69.9,,,,,0.0,1023.62
+02CRKV30,klimatološka,Crkvice,02.10.2026 03:00,4.90,89.5,,,,,,
+02KOLS10,glavna,Kolašin,02.10.2026 03:20,1.30,96.0,0.00,0.60,20,,0.7,920.5
+02PLZN20,klimatološka,Pluzine,02.10.2026 03:00,7.53,100.0,0.00,0.60,20,1.60,0.0,943.47
+02MAMO30,klimatološka,Manastir Morača,02.10.2026 03:00,5.64,94.3,,,,,,
+02BERA20,glavna,Berane,02.10.2026 03:00,2.85,96.2,0.00,0.40,10,0.80,,949.66
