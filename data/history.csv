@@ -60890,3 +60890,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,02.10.2026 12:00,24.70,50.0,0.00,0.30,8,,700.5,1021.9
 02MATE30,klimatološka,Matesevo,02.10.2026 12:00,18.23,39.6,0.00,,,,,
 02DANL20,klimatološka,Danilovgrad,02.10.2026 12:00,26.10,,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,02.10.2026 12:00,14.91,36.1,,,,,,
+02IVKO30,klimatološka,Ivanova korita,02.10.2026 12:00,16.54,32.9,0.00,,,,,
+02BAR010,glavna,Bar,02.10.2026 12:20,23.80,44.0,0.00,2.00,22,,702.9,1026.0
+02KOSA30,klimatološka,Kosanica,02.10.2026 12:00,15.45,44.8,,,,,,
+02BOAN30,klimatološka,Boan,02.10.2026 12:00,18.55,25.4,,,,,,
+02PLJV10,glavna,Pljevlja,02.10.2026 12:20,18.10,32.0,0.00,0.90,18,,707.8,938.8
+02BERA20,glavna,Berane,02.10.2026 12:00,16.55,49.4,0.00,1.30,20,2.70,,949.57
+02HNOV10,glavna,Herceg Novi,02.10.2026 12:20,26.30,44.0,0.00,1.20,6,,709.0,1021.9
+02UBLI20,klimatološka,Ubli,02.10.2026 12:00,21.40,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,02.10.2026 11:46,23.10,40.0,,1.20,,2.90,,1029.3
+02KOLS10,glavna,Kolašin,02.10.2026 12:20,15.90,41.0,0.00,5.30,2,,738.8,920.6
+02VELM20,klimatološka,Velimlje,02.10.2026 12:00,20.90,24.6,0.00,2.60,20,3.60,734.7,
+02NIKS10,glavna,Nikšić,02.10.2026 12:20,22.40,18.0,0.00,1.00,18,,741.7,952.1
+02DDOB30,klimatološka,Donja Dobrilovina,02.10.2026 12:00,10.13,86.0,,,,,,
+02CTNJ10,glavna,Cetinje,02.10.2026 12:20,21.90,28.0,0.00,0.80,10,,731.5,952.9
+02CRKV30,klimatološka,Crkvice,02.10.2026 12:00,18.74,31.9,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,02.10.2026 12:00,15.17,54.2,,,,,763.75,960.59
+02ULCN10,glavna,Ulcinj,02.10.2026 12:20,25.80,24.0,0.00,4.30,6,,750.9,1026.1
+02PLZN20,klimatološka,Pluzine,02.10.2026 12:00,15.61,54.8,0.00,3.70,4,8.10,710.29,943.79
+02ZBLJ10,glavna,Žabljak,02.10.2026 12:20,13.10,34.0,0.00,1.40,8,,760.6,867.1
+02PDGR10,glavna,Podgorica,02.10.2026 12:20,24.00,25.0,0.00,1.80,16,,711.8,1020.5
+02BUDV20,klimatološka,Budva,02.10.2026 12:00,24.17,37.8,,,,,765.04,1025.72
+02GRAD30,klimatološka,Gradac,02.10.2026 12:00,18.59,42.1,,,,,,
+02BIST20,klimatološka,Bistrica,02.10.2026 12:00,17.90,35.6,0.00,0.60,12,1.20,776.7,
