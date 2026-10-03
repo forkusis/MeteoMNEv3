@@ -63138,3 +63138,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,03.10.2026 22:00,6.80,74.0,0.00,0.30,18,,0.5,939.5
 02ULCN10,glavna,Ulcinj,03.10.2026 22:00,18.50,36.0,0.00,3.20,2,,0.0,1025.9
 02VIRP20,klimatološka,Virpazar,03.10.2026 22:00,12.60,76.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,03.10.2026 22:00,-1.76,100.0,,,,,,
+02PDGR10,glavna,Podgorica,03.10.2026 22:20,16.10,39.0,0.00,0.70,26,,0.3,1020.4
+02BUDV20,klimatološka,Budva,03.10.2026 22:00,17.94,80.9,,,,,0.96,1025.55
+02GRAD30,klimatološka,Gradac,03.10.2026 22:00,3.85,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,03.10.2026 22:00,4.50,84.1,0.00,1.10,18,1.50,0.6,
+02ULCN10,glavna,Ulcinj,03.10.2026 22:20,18.10,34.0,0.00,2.90,2,,0.0,1025.9
+02KUKO30,klimatološka,Kučka korita,03.10.2026 22:00,8.84,47.7,0.00,,,,,
+02BERA20,glavna,Berane,03.10.2026 22:00,6.80,76.5,0.00,0.70,8,1.20,,950.35
+02BPLJ20,klimatološka,Bijelo Polje,03.10.2026 22:00,6.67,85.4,,,,,0.0,961.02
+02CTNJ10,glavna,Cetinje,03.10.2026 22:20,5.60,84.0,0.00,0.20,26,,0.8,953.7
+02PLJV10,glavna,Pljevlja,03.10.2026 22:20,6.60,76.0,0.00,0.30,32,,0.0,939.5
+02BOAN30,klimatološka,Boan,03.10.2026 22:00,4.72,86.4,,,,,,
+02IVKO30,klimatološka,Ivanova korita,03.10.2026 22:00,7.50,54.1,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,03.10.2026 22:00,5.26,98.5,,,,,,
+02HNOV10,glavna,Herceg Novi,03.10.2026 22:20,16.70,73.0,0.00,0.70,26,,0.0,1021.9
+02ZBLJ10,glavna,Žabljak,03.10.2026 22:20,3.10,80.0,0.00,2.10,22,,0.4,867.2
+02VELM20,klimatološka,Velimlje,03.10.2026 22:00,9.10,77.1,0.00,0.20,8,0.30,0.7,
+02UBLI20,klimatološka,Ubli,03.10.2026 22:00,14.08,,,,,,,
+02KOLS10,glavna,Kolašin,03.10.2026 22:20,3.50,85.0,0.00,0.40,16,,0.3,921.9
+02PLZN20,klimatološka,Pluzine,03.10.2026 22:00,11.18,73.1,0.00,0.70,12,1.10,0.0,944.16
+02NIKS10,glavna,Nikšić,03.10.2026 22:20,10.50,48.0,0.00,2.30,2,2.90,1.4,953.0
+02CRKV30,klimatološka,Crkvice,03.10.2026 22:00,7.83,87.4,,,,,,
+02BAR010,glavna,Bar,03.10.2026 22:20,17.30,64.0,0.00,1.20,12,,0.5,1026.2
+02GOBU30,klimatološka,Gornja Bukovica,03.10.2026 22:00,3.74,93.5,,,,,,
+02LKOT20,klimatološka,Luka Kotor,03.10.2026 21:46,17.70,72.0,,0.00,,0.90,,1029.4
