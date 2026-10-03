@@ -62016,3 +62016,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,03.10.2026 05:00,8.20,80.0,0.00,,,,,
 02STIT30,klimatološka,Štitarica,03.10.2026 05:00,0.29,100.0,,,,,,
 02DANL20,klimatološka,Danilovgrad,03.10.2026 05:00,8.90,,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,03.10.2026 05:00,-7.09,100.0,,,,,,
+02BUDV20,klimatološka,Budva,03.10.2026 05:00,15.23,41.0,,,,,1.16,1025.17
+02NIKS10,glavna,Nikšić,03.10.2026 05:20,8.60,52.0,0.00,0.80,2,,1.4,953.1
+02KUKO30,klimatološka,Kučka korita,03.10.2026 05:00,7.77,34.2,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,03.10.2026 05:00,3.76,89.8,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,03.10.2026 05:00,2.10,100.0,,,,,0.0,962.62
+02LKOT20,klimatološka,Luka Kotor,03.10.2026 04:46,20.20,34.0,,1.50,,3.10,,1029.4
+02KOLS10,glavna,Kolašin,03.10.2026 05:20,-0.10,95.0,0.00,0.40,22,,0.4,921.9
+02PLJV10,glavna,Pljevlja,03.10.2026 05:20,0.10,94.0,0.00,0.20,32,,0.0,940.9
+02BAR010,glavna,Bar,03.10.2026 05:20,19.60,29.0,0.00,2.50,6,,0.2,1025.9
+02HNOV10,glavna,Herceg Novi,03.10.2026 05:20,14.10,49.0,0.00,1.50,24,2.60,0.1,1021.9
+02KOVR30,klimatološka,Kovren,03.10.2026 05:00,4.78,83.9,0.00,,,,,
+02VELM20,klimatološka,Velimlje,03.10.2026 05:00,1.70,81.7,0.00,0.60,12,0.80,0.0,
+02BERA20,glavna,Berane,03.10.2026 05:00,1.69,97.7,0.00,0.40,6,0.90,,951.7
+02IVKO30,klimatološka,Ivanova korita,03.10.2026 05:00,3.47,62.5,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,03.10.2026 05:00,1.65,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,03.10.2026 05:00,-1.59,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,03.10.2026 05:00,9.55,,,,,,,
+02BOAN30,klimatološka,Boan,03.10.2026 05:00,0.58,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,03.10.2026 05:20,1.70,96.0,0.00,0.20,12,,0.1,953.9
+02ZBLJ10,glavna,Žabljak,03.10.2026 05:20,-0.30,85.0,0.00,1.80,22,,0.4,867.1
+02ULCN10,glavna,Ulcinj,03.10.2026 05:20,15.20,40.0,0.00,5.90,4,,0.0,1026.3
+02PDGR10,glavna,Podgorica,03.10.2026 05:20,18.20,26.0,0.00,3.20,30,,0.1,1021.3
+02BIST20,klimatološka,Bistrica,03.10.2026 05:00,0.00,96.3,0.00,0.20,2,0.30,0.6,
