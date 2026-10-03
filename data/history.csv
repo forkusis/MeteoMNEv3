@@ -63183,3 +63183,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,03.10.2026 22:50,3.20,78.0,0.00,1.20,22,,0.0,867.2
 02PLJV10,glavna,Pljevlja,03.10.2026 22:50,5.40,81.0,0.00,0.60,26,,0.4,939.7
 02LKOT20,klimatološka,Luka Kotor,03.10.2026 22:16,17.40,66.0,,0.80,,1.40,,1029.5
+02STAB30,klimatološka,Stabna,03.10.2026 23:00,7.22,83.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,03.10.2026 23:00,4.09,100.0,,,,,,
+02VELK30,klimatološka,Velika,03.10.2026 23:00,5.15,88.8,,,,,,
+02MOKR30,klimatološka,Mokro,03.10.2026 23:00,1.80,82.4,,,,,,
+02CTNJ10,glavna,Cetinje,03.10.2026 23:00,4.90,86.0,0.00,0.20,26,,0.2,953.8
+02VIRP20,klimatološka,Virpazar,03.10.2026 23:00,11.20,78.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,03.10.2026 23:00,2.80,87.0,0.00,0.40,18,,0.0,921.9
+02NIKS10,glavna,Nikšić,03.10.2026 23:00,10.20,47.0,0.00,1.60,26,,0.0,953.1
+02LKOT20,klimatološka,Luka Kotor,03.10.2026 22:31,17.40,73.0,,0.50,,1.40,,1029.6
+02NJGV30,klimatološka,Njegovuđa,03.10.2026 23:00,-0.85,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,03.10.2026 23:00,16.20,74.0,0.00,0.30,26,,0.3,1022.0
+02DANL20,klimatološka,Danilovgrad,03.10.2026 23:00,10.30,,0.00,,,,,
+02PLJV10,glavna,Pljevlja,03.10.2026 23:00,5.30,82.0,0.00,0.50,26,,0.0,939.7
+02ULCN10,glavna,Ulcinj,03.10.2026 23:00,17.80,38.0,0.00,2.80,2,,0.4,1026.1
+02MAMO30,klimatološka,Manastir Morača,03.10.2026 23:00,6.85,84.8,,,,,,
+02ZBLJ10,glavna,Žabljak,03.10.2026 23:00,3.20,79.0,0.00,1.40,22,,0.2,867.2
+02PDGR10,glavna,Podgorica,03.10.2026 23:00,15.70,40.0,0.00,0.40,30,,0.0,1020.7
+02BAR010,glavna,Bar,03.10.2026 23:00,17.40,52.0,0.00,1.20,6,,0.0,1026.2
+02STIT30,klimatološka,Štitarica,03.10.2026 23:00,1.29,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,03.10.2026 23:00,4.17,83.1,,,,,,
+02MATE30,klimatološka,Matesevo,03.10.2026 23:00,1.82,91.4,0.00,,,,,
