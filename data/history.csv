@@ -62609,3 +62609,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,03.10.2026 14:00,17.14,42.8,,,,,,
 02NIKS10,glavna,Nikšić,03.10.2026 14:00,23.40,15.0,0.00,4.40,12,,675.0,951.6
 02SCPO30,klimatološka,Šćepan Polje,03.10.2026 14:00,19.30,39.2,,,,,,
+02PDGR10,glavna,Podgorica,03.10.2026 14:20,25.70,20.0,0.00,2.00,18,,605.1,1019.8
+02ULCN10,glavna,Ulcinj,03.10.2026 14:20,27.10,20.0,0.00,3.00,10,,677.6,1025.8
+02VELM20,klimatološka,Velimlje,03.10.2026 14:00,23.40,14.1,0.00,1.30,26,2.20,673.8,
+02BOAN30,klimatološka,Boan,03.10.2026 14:00,21.25,15.8,,,,,,
+02BIST20,klimatološka,Bistrica,03.10.2026 14:00,19.50,27.6,0.00,1.30,14,2.10,662.8,
+02PLZN20,klimatološka,Pluzine,03.10.2026 14:00,18.97,37.0,0.00,7.30,32,11.60,641.25,942.72
+02UBLI20,klimatološka,Ubli,03.10.2026 14:00,23.28,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,03.10.2026 13:46,23.20,53.0,,1.40,,4.70,,1029.2
+02BPLJ20,klimatološka,Bijelo Polje,03.10.2026 14:00,20.08,36.4,,,,,721.32,959.73
+02NIKS10,glavna,Nikšić,03.10.2026 14:20,23.70,16.0,0.00,3.40,14,,646.3,951.4
+02KUKO30,klimatološka,Kučka korita,03.10.2026 14:00,17.57,28.2,0.00,,,,,
+02CTNJ10,glavna,Cetinje,03.10.2026 14:20,22.80,21.0,0.00,1.20,6,,635.0,952.6
+02GOBU30,klimatološka,Gornja Bukovica,03.10.2026 14:00,15.96,32.1,,,,,,
+02BAR010,glavna,Bar,03.10.2026 14:20,23.90,41.0,0.00,3.40,24,,632.8,1026.1
+02DDOB30,klimatološka,Donja Dobrilovina,03.10.2026 14:00,17.36,50.2,,,,,,
+02PLJV10,glavna,Pljevlja,03.10.2026 14:20,19.40,25.0,0.00,0.90,10,,604.8,938.6
+02IVKO30,klimatološka,Ivanova korita,03.10.2026 14:00,16.61,57.2,0.00,,,,,
+02BUDV20,klimatološka,Budva,03.10.2026 14:00,24.18,44.5,,,,,698.32,1025.46
+02HNOV10,glavna,Herceg Novi,03.10.2026 14:20,25.30,45.0,0.00,2.10,12,,615.6,1021.6
+02KOSA30,klimatološka,Kosanica,03.10.2026 14:00,16.48,41.5,,,,,,
+02BERA20,glavna,Berane,03.10.2026 14:00,21.37,33.4,0.00,1.50,30,4.90,,948.86
+02CRKV30,klimatološka,Crkvice,03.10.2026 14:00,19.54,34.8,,,,,,
+02KOLS10,glavna,Kolašin,03.10.2026 14:20,17.60,35.0,0.00,2.80,2,,642.1,920.4
+02GRAD30,klimatološka,Gradac,03.10.2026 14:00,21.13,31.3,,,,,,
+02ZBLJ10,glavna,Žabljak,03.10.2026 14:20,14.90,26.0,0.00,2.90,2,,674.3,866.9
