@@ -62346,3 +62346,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,03.10.2026 10:00,22.90,32.0,0.00,1.30,10,,526.6,1022.7
 02LKOT20,klimatološka,Luka Kotor,03.10.2026 09:31,21.20,29.0,,0.70,,1.50,,1030.4
 02PDGR10,glavna,Podgorica,03.10.2026 10:00,21.50,20.0,0.00,1.70,2,,520.7,1022.0
+02CRKV30,klimatološka,Crkvice,03.10.2026 10:00,12.49,50.8,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,03.10.2026 10:00,4.34,100.0,,,,,,
+02BERA20,glavna,Berane,03.10.2026 10:00,8.92,68.5,0.00,1.00,18,2.10,,951.75
+02GRAD30,klimatološka,Gradac,03.10.2026 10:00,5.69,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,03.10.2026 10:20,10.20,59.0,0.00,1.00,16,,547.2,940.7
+02ZBLJ10,glavna,Žabljak,03.10.2026 10:20,9.50,44.0,0.00,1.60,2,,49.8,867.4
+02CTNJ10,glavna,Cetinje,03.10.2026 10:20,16.60,30.0,0.00,0.90,10,,579.3,953.8
+02PDGR10,glavna,Podgorica,03.10.2026 10:20,21.90,19.0,0.00,1.10,2,,563.5,1021.9
+02BPLJ20,klimatološka,Bijelo Polje,03.10.2026 10:00,5.33,,,,,,,
+02PLZN20,klimatološka,Pluzine,03.10.2026 10:00,10.42,71.0,0.00,1.20,4,3.00,529.24,945.28
+02VELM20,klimatološka,Velimlje,03.10.2026 10:00,14.90,33.9,0.00,1.40,14,2.20,556.7,
+02KOSA30,klimatološka,Kosanica,03.10.2026 10:00,12.32,63.5,,,,,,
+02BIST20,klimatološka,Bistrica,03.10.2026 10:00,6.90,95.0,0.00,0.90,12,1.40,67.2,
+02LKOT20,klimatološka,Luka Kotor,03.10.2026 09:46,22.50,26.0,,0.00,,0.90,,1030.3
+02IVKO30,klimatološka,Ivanova korita,03.10.2026 10:00,13.75,32.6,0.00,,,,,
+02BAR010,glavna,Bar,03.10.2026 10:20,23.40,33.0,0.00,3.80,22,,571.4,1026.9
+02BUDV20,klimatološka,Budva,03.10.2026 10:00,23.30,31.3,,,,,562.63,1026.22
+02NIKS10,glavna,Nikšić,03.10.2026 10:20,18.40,27.0,0.00,0.60,16,,587.8,953.2
+02UBLI20,klimatološka,Ubli,03.10.2026 10:00,17.73,,,,,,,
+02HNOV10,glavna,Herceg Novi,03.10.2026 10:20,22.80,32.0,0.00,0.80,12,,568.3,1022.7
+02GOBU30,klimatološka,Gornja Bukovica,03.10.2026 10:00,10.58,51.0,,,,,,
+02ULCN10,glavna,Ulcinj,03.10.2026 10:20,22.80,25.0,0.00,7.80,6,,596.0,1027.4
+02KUKO30,klimatološka,Kučka korita,03.10.2026 10:00,14.87,26.2,0.00,,,,,
+02KOLS10,glavna,Kolašin,03.10.2026 10:20,11.10,48.0,0.00,5.20,2,,567.1,921.8
+02BOAN30,klimatološka,Boan,03.10.2026 10:00,11.33,49.4,,,,,,
