@@ -63381,3 +63381,20 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,04.10.2026 01:16,15.50,76.0,,0.00,,1.30,,1029.2
 02HNOV10,glavna,Herceg Novi,04.10.2026 01:50,15.20,57.0,0.00,0.80,24,,0.0,1021.6
 02CTNJ10,glavna,Cetinje,04.10.2026 01:50,3.20,92.0,0.00,0.20,32,,0.0,953.6
+02MAMO30,klimatološka,Manastir Morača,04.10.2026 02:00,4.48,93.1,,,,,,
+02PLJV10,glavna,Pljevlja,04.10.2026 02:00,1.90,94.0,0.00,0.60,24,1.00,0.7,939.6
+02KOLS10,glavna,Kolašin,04.10.2026 02:00,0.30,95.0,0.00,0.60,18,,1.0,921.9
+02ULCN10,glavna,Ulcinj,04.10.2026 02:00,15.60,45.0,0.00,3.50,2,,0.3,1026.1
+02SCPO30,klimatološka,Šćepan Polje,04.10.2026 02:00,1.94,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,04.10.2026 02:00,1.30,85.0,0.00,1.00,22,,0.0,866.5
+02VELK30,klimatološka,Velika,04.10.2026 02:00,1.71,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,04.10.2026 02:00,-0.74,90.5,,,,,,
+02PDGR10,glavna,Podgorica,04.10.2026 02:00,17.00,35.0,0.00,1.60,28,,0.1,1020.8
+02VIRP20,klimatološka,Virpazar,04.10.2026 02:00,9.40,80.0,0.00,,,,,
+02STAB30,klimatološka,Stabna,04.10.2026 02:00,4.76,93.7,,,,,,
+02POSC30,klimatološka,Pošćenje,04.10.2026 02:00,0.97,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,04.10.2026 01:31,15.50,69.0,,1.00,,2.10,,1029.1
+02NJGV30,klimatološka,Njegovuđa,04.10.2026 02:00,-2.91,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,04.10.2026 02:00,0.03,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,04.10.2026 02:00,7.90,,0.00,,,,,
+02MATE30,klimatološka,Matesevo,04.10.2026 02:00,0.46,94.8,0.00,,,,,
