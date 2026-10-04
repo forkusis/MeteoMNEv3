@@ -63639,3 +63639,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,04.10.2026 05:50,5.20,64.0,0.00,1.70,2,,0.0,952.6
 02BAR010,glavna,Bar,04.10.2026 05:50,13.40,55.0,0.00,1.20,10,,0.0,1025.3
 02LKOT20,klimatološka,Luka Kotor,04.10.2026 05:16,14.10,72.0,,0.40,,1.30,,1028.7
+02KOLS10,glavna,Kolašin,04.10.2026 06:00,-1.70,96.0,0.00,0.40,20,,0.3,921.2
+02ULCN10,glavna,Ulcinj,04.10.2026 06:00,13.30,55.0,0.00,1.80,2,,0.0,1025.6
+02MOKR30,klimatološka,Mokro,04.10.2026 06:00,-2.83,95.6,,,,,,
+02PDGR10,glavna,Podgorica,04.10.2026 06:00,15.20,37.0,0.00,0.90,26,,0.1,1020.5
+02HNOV10,glavna,Herceg Novi,04.10.2026 06:00,14.30,56.0,0.00,1.30,24,,0.2,1021.2
+02VELK30,klimatološka,Velika,04.10.2026 06:00,0.09,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,04.10.2026 06:00,2.39,98.1,,,,,,
+02NIKS10,glavna,Nikšić,04.10.2026 06:00,5.10,64.0,0.00,2.10,2,2.70,0.5,952.6
+02NJGV30,klimatološka,Njegovuđa,04.10.2026 06:00,-4.57,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,04.10.2026 06:00,5.60,,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,04.10.2026 06:00,6.20,89.0,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,04.10.2026 05:31,14.20,66.0,,0.50,,1.00,,1028.7
+02ZBLJ10,glavna,Žabljak,04.10.2026 06:00,0.00,82.0,0.00,1.40,22,,0.7,865.6
+02MATE30,klimatološka,Matesevo,04.10.2026 06:00,-1.78,97.0,0.00,,,,,
+02BAR010,glavna,Bar,04.10.2026 06:00,13.30,55.0,0.00,0.30,8,,0.0,1025.2
+02STIT30,klimatološka,Štitarica,04.10.2026 06:00,-1.80,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,04.10.2026 06:00,-0.80,96.0,0.00,0.40,26,,0.8,939.2
+02SCPO30,klimatološka,Šćepan Polje,04.10.2026 06:00,0.59,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,04.10.2026 06:00,1.40,96.0,0.00,0.50,8,,0.7,953.0
+02POSC30,klimatološka,Pošćenje,04.10.2026 06:00,-2.11,100.0,,,,,,
+02STAB30,klimatološka,Stabna,04.10.2026 06:00,2.14,100.0,,,,,,
