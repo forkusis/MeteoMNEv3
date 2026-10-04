@@ -64450,3 +64450,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,04.10.2026 18:00,9.60,63.4,,,,,,
 02BAR010,glavna,Bar,04.10.2026 18:00,22.00,63.0,0.00,4.10,26,,21.7,1023.2
 02CTNJ10,glavna,Cetinje,04.10.2026 18:00,17.30,64.0,0.00,0.40,26,,18.4,950.2
+02ULCN10,glavna,Ulcinj,04.10.2026 18:20,21.50,48.0,0.00,3.60,26,,7.6,1022.8
+02IVKO30,klimatološka,Ivanova korita,04.10.2026 18:00,10.71,87.6,0.00,,,,,
+02NIKS10,glavna,Nikšić,04.10.2026 18:20,18.60,32.0,0.00,3.00,12,,7.0,949.5
+02GOBU30,klimatološka,Gornja Bukovica,04.10.2026 18:00,11.84,41.8,,,,,,
+02BOAN30,klimatološka,Boan,04.10.2026 18:00,15.03,36.1,,,,,,
+02CTNJ10,glavna,Cetinje,04.10.2026 18:20,15.30,72.0,0.00,0.20,8,,6.8,950.4
+02BUDV20,klimatološka,Budva,04.10.2026 18:00,22.00,56.2,,,,,12.56,1022.5
+02BERA20,glavna,Berane,04.10.2026 18:00,16.70,41.3,0.00,0.60,4,1.20,,945.33
+02KUKO30,klimatološka,Kučka korita,04.10.2026 18:00,13.09,41.9,0.00,,,,,
+02GRAD30,klimatološka,Gradac,04.10.2026 18:00,13.35,63.1,,,,,,
+02KOSA30,klimatološka,Kosanica,04.10.2026 18:00,10.32,63.6,,,,,,
+02CRKV30,klimatološka,Crkvice,04.10.2026 18:00,11.55,98.7,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,04.10.2026 18:00,11.84,66.3,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,04.10.2026 18:00,15.09,56.3,,,,,3.39,955.87
+02UBLI20,klimatološka,Ubli,04.10.2026 18:00,20.23,,,,,,,
+02VELM20,klimatološka,Velimlje,04.10.2026 18:00,17.80,52.7,0.00,2.30,22,2.90,11.3,
+02PLJV10,glavna,Pljevlja,04.10.2026 18:20,18.40,32.0,0.00,4.30,2,,5.1,934.7
+02BIST20,klimatološka,Bistrica,04.10.2026 18:00,12.10,,0.00,1.10,18,2.00,,
+02LKOT20,klimatološka,Luka Kotor,04.10.2026 17:46,21.00,59.0,,0.00,,1.00,,1026.6
+02KOLS10,glavna,Kolašin,04.10.2026 18:20,14.00,49.0,0.00,0.70,20,,6.1,917.6
+02ZBLJ10,glavna,Žabljak,04.10.2026 18:20,10.90,47.0,0.00,0.80,24,,7.2,864.1
+02PLZN20,klimatološka,Pluzine,04.10.2026 18:00,18.59,37.3,0.00,5.50,2,9.00,5.3,939.53
+02PDGR10,glavna,Podgorica,04.10.2026 18:20,23.80,35.0,0.00,1.00,10,,6.4,1017.0
+02HNOV10,glavna,Herceg Novi,04.10.2026 18:20,20.30,54.0,0.00,0.90,30,,7.4,1018.9
+02BAR010,glavna,Bar,04.10.2026 18:20,21.30,67.0,0.00,2.70,26,,7.5,1023.2
