@@ -63924,3 +63924,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,04.10.2026 10:00,12.70,28.0,0.00,0.50,30,,64.1,865.6
 02VELK30,klimatološka,Velika,04.10.2026 10:00,11.97,54.1,,,,,,
 02MAMO30,klimatološka,Manastir Morača,04.10.2026 10:00,15.08,47.4,,,,,,
+02BERA20,glavna,Berane,04.10.2026 10:00,8.27,69.0,0.00,1.20,20,2.10,,949.95
+02BPLJ20,klimatološka,Bijelo Polje,04.10.2026 10:00,4.03,100.0,,,,,76.49,961.12
+02BUDV20,klimatološka,Budva,04.10.2026 10:00,23.62,41.4,,,,,537.77,1025.22
+02KOSA30,klimatološka,Kosanica,04.10.2026 10:00,12.39,67.7,,,,,,
+02ZBLJ10,glavna,Žabljak,04.10.2026 10:20,13.60,24.0,0.00,1.20,4,,49.8,865.6
+02DDOB30,klimatološka,Donja Dobrilovina,04.10.2026 10:00,2.99,100.0,,,,,,
+02NIKS10,glavna,Nikšić,04.10.2026 10:20,15.90,34.0,0.00,1.10,26,,563.0,952.4
+02KOLS10,glavna,Kolašin,04.10.2026 10:20,8.10,63.0,0.00,1.00,2,,561.0,920.5
+02KUKO30,klimatološka,Kučka korita,04.10.2026 10:00,15.41,32.7,0.00,,,,,
+02BOAN30,klimatološka,Boan,04.10.2026 10:00,8.80,59.7,,,,,,
+02BIST20,klimatološka,Bistrica,04.10.2026 10:00,4.50,98.4,0.00,0.70,4,0.90,91.6,
+02ULCN10,glavna,Ulcinj,04.10.2026 10:20,23.20,29.0,0.00,3.80,6,,580.7,1026.3
+02GOBU30,klimatološka,Gornja Bukovica,04.10.2026 10:00,13.10,38.9,,,,,,
+02PDGR10,glavna,Podgorica,04.10.2026 10:20,21.60,23.0,0.00,0.50,4,,551.4,1020.9
+02CTNJ10,glavna,Cetinje,04.10.2026 10:20,16.10,40.0,0.00,0.80,8,,557.4,952.8
+02BAR010,glavna,Bar,04.10.2026 10:20,22.40,40.0,0.00,0.70,20,,552.5,1026.1
+02PLJV10,glavna,Pljevlja,04.10.2026 10:20,8.80,62.0,0.00,1.00,14,,547.3,938.7
+02GRAD30,klimatološka,Gradac,04.10.2026 10:00,5.72,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,04.10.2026 10:00,15.59,38.5,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,04.10.2026 10:20,22.70,43.0,0.00,2.10,8,,557.2,1021.8
+02PLZN20,klimatološka,Pluzine,04.10.2026 10:00,10.35,81.6,0.00,0.50,10,1.00,530.42,944.21
+02LKOT20,klimatološka,Luka Kotor,04.10.2026 09:46,19.00,53.0,,,,,,1029.4
+02VELM20,klimatološka,Velimlje,04.10.2026 10:00,13.30,50.6,0.00,0.30,24,0.60,516.7,
+02UBLI20,klimatološka,Ubli,04.10.2026 10:00,17.87,,,,,,,
+02CRKV30,klimatološka,Crkvice,04.10.2026 10:00,14.52,57.9,,,,,,
