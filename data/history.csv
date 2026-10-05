@@ -66161,3 +66161,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,05.10.2026 19:31,18.70,55.0,,0.40,,1.50,,1023.9
 02PDGR10,glavna,Podgorica,05.10.2026 20:00,20.20,28.0,0.00,0.80,6,,0.9,1014.5
 02BAR010,glavna,Bar,05.10.2026 20:00,18.30,68.0,0.00,1.60,6,,0.0,1020.6
+02KOLS10,glavna,Kolašin,05.10.2026 20:20,7.30,81.0,0.00,0.70,20,0.90,0.2,916.1
+02BUDV20,klimatološka,Budva,05.10.2026 20:00,18.81,60.3,,,,,2.28,1019.84
+02LKOT20,klimatološka,Luka Kotor,05.10.2026 19:46,18.40,59.0,,0.80,,1.60,,1024.0
+02BPLJ20,klimatološka,Bijelo Polje,05.10.2026 20:00,9.64,84.7,,,,,0.0,953.93
+02CRKV30,klimatološka,Crkvice,05.10.2026 20:00,8.09,99.2,,,,,,
+02KOSA30,klimatološka,Kosanica,05.10.2026 20:00,2.23,95.5,,,,,,
+02VELM20,klimatološka,Velimlje,05.10.2026 20:00,12.30,60.2,0.00,0.70,30,1.10,0.0,
+02GOBU30,klimatološka,Gornja Bukovica,05.10.2026 20:00,5.05,78.1,,,,,,
+02IVKO30,klimatološka,Ivanova korita,05.10.2026 20:00,7.24,49.3,0.00,,,,,
+02PDGR10,glavna,Podgorica,05.10.2026 20:20,20.20,29.0,0.00,0.40,6,,0.0,1014.6
+02BERA20,glavna,Berane,05.10.2026 20:00,10.48,71.3,0.00,0.40,8,1.00,,943.6
+02NIKS10,glavna,Nikšić,05.10.2026 20:20,14.60,40.0,0.00,2.30,2,,0.0,947.8
+02BAR010,glavna,Bar,05.10.2026 20:20,18.30,67.0,0.00,1.20,8,,1.1,1020.6
+02UBLI20,klimatološka,Ubli,05.10.2026 20:00,16.93,,,,,,,
+02HNOV10,glavna,Herceg Novi,05.10.2026 20:20,17.70,67.0,0.00,0.30,22,,0.0,1016.4
+02ULCN10,glavna,Ulcinj,05.10.2026 20:20,16.50,72.0,0.00,2.00,30,,0.7,1020.6
+02KUKO30,klimatološka,Kučka korita,05.10.2026 20:00,5.63,65.9,0.00,,,,,
+02KOVR30,klimatološka,Kovren,05.10.2026 20:00,13.20,51.8,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,05.10.2026 20:20,6.10,62.0,0.00,1.40,24,,1.4,862.3
+02CTNJ10,glavna,Cetinje,05.10.2026 20:20,7.80,72.0,0.00,0.00,32,,0.4,948.5
+02PLZN20,klimatološka,Pluzine,05.10.2026 20:00,13.01,61.8,0.00,0.50,18,0.90,0.02,938.39
+02BIST20,klimatološka,Bistrica,05.10.2026 20:00,8.40,67.8,0.00,1.50,20,1.90,1.1,
+02DDOB30,klimatološka,Donja Dobrilovina,05.10.2026 20:00,8.75,83.8,,,,,,
+02BOAN30,klimatološka,Boan,05.10.2026 20:00,8.20,72.3,,,,,,
+02GRAD30,klimatološka,Gradac,05.10.2026 20:00,7.39,90.9,,,,,,
+02PLJV10,glavna,Pljevlja,05.10.2026 20:20,11.90,56.0,0.00,1.80,20,,0.5,933.1
