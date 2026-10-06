@@ -67266,3 +67266,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,06.10.2026 13:00,23.40,19.0,0.00,6.20,14,,728.7,946.0
 02VELK30,klimatološka,Velika,06.10.2026 13:00,23.02,28.1,,,,,,
 02DANL20,klimatološka,Danilovgrad,06.10.2026 13:00,27.90,,0.00,,,,,
+02ULCN10,glavna,Ulcinj,06.10.2026 13:20,23.40,55.0,0.00,3.10,22,,633.7,1019.9
+02ZBLJ10,glavna,Žabljak,06.10.2026 13:20,18.50,19.0,0.00,0.80,8,,722.2,860.1
+02UBLI20,klimatološka,Ubli,06.10.2026 13:00,23.02,,,,,,,
+02CTNJ10,glavna,Cetinje,06.10.2026 13:20,23.10,32.0,0.00,1.00,8,,504.9,946.8
+02PLZN20,klimatološka,Pluzine,06.10.2026 13:00,17.88,46.2,0.00,1.30,32,3.30,602.86,936.39
+02DDOB30,klimatološka,Donja Dobrilovina,06.10.2026 13:00,12.53,64.7,,,,,,
+02BIST20,klimatološka,Bistrica,06.10.2026 13:00,19.30,31.5,0.00,0.70,32,1.20,717.2,
+02KOLS10,glavna,Kolašin,06.10.2026 13:20,21.60,25.0,0.00,0.70,18,,696.5,913.5
+02NIKS10,glavna,Nikšić,06.10.2026 13:20,23.40,19.0,0.00,4.00,16,,740.9,945.9
+02GOBU30,klimatološka,Gornja Bukovica,06.10.2026 13:00,19.05,28.5,,,,,,
+02BOAN30,klimatološka,Boan,06.10.2026 13:00,21.85,26.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,06.10.2026 13:00,17.80,25.9,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,06.10.2026 13:00,15.95,68.4,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,06.10.2026 13:00,17.96,46.6,,,,,753.92,952.53
+02VELM20,klimatološka,Velimlje,06.10.2026 13:00,22.00,20.8,0.00,4.10,18,7.00,607.7,
+02BERA20,glavna,Berane,06.10.2026 13:00,19.18,34.2,0.00,1.20,22,2.10,,941.78
+02KOVR30,klimatološka,Kovren,06.10.2026 13:00,18.71,42.2,0.00,,,,,
+02PLJV10,glavna,Pljevlja,06.10.2026 13:20,22.80,14.0,0.00,0.90,18,,669.3,930.4
+02KOSA30,klimatološka,Kosanica,06.10.2026 13:00,19.42,34.5,,,,,,
+02LKOT20,klimatološka,Luka Kotor,06.10.2026 12:46,21.60,47.0,,2.50,,3.60,,1022.8
+02CRKV30,klimatološka,Crkvice,06.10.2026 13:00,19.07,49.6,,,,,,
+02GRAD30,klimatološka,Gradac,06.10.2026 13:00,21.99,28.7,,,,,,
+02BUDV20,klimatološka,Budva,06.10.2026 13:00,23.48,69.6,,,,,523.76,1019.46
+02BAR010,glavna,Bar,06.10.2026 13:20,22.10,66.0,0.00,1.90,24,,498.2,1019.8
+02PDGR10,glavna,Podgorica,06.10.2026 13:20,26.60,19.0,0.00,1.40,18,,673.9,1013.6
+02HNOV10,glavna,Herceg Novi,06.10.2026 13:20,23.60,60.0,0.00,2.50,10,,692.0,1015.4
