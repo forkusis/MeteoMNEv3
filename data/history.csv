@@ -68062,3 +68062,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,07.10.2026 01:00,1.30,92.0,0.00,0.60,18,,0.8,915.1
 02PLJV10,glavna,Pljevlja,07.10.2026 01:00,3.30,84.0,0.00,0.30,30,,0.6,931.9
 02MAMO30,klimatološka,Manastir Morača,07.10.2026 01:00,4.31,95.3,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,07.10.2026 01:00,4.80,97.1,,,,,0.0,953.52
+02PLZN20,klimatološka,Pluzine,07.10.2026 01:00,7.75,87.9,0.00,0.40,16,0.90,0.0,937.59
+02KOLS10,glavna,Kolašin,07.10.2026 01:20,1.20,91.0,0.00,0.50,16,,0.2,915.1
+02KOSA30,klimatološka,Kosanica,07.10.2026 01:00,-5.26,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,07.10.2026 01:00,5.87,57.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,07.10.2026 01:00,0.25,100.0,,,,,,
+02BERA20,glavna,Berane,07.10.2026 01:00,4.22,84.1,0.00,0.30,30,0.80,,942.83
+02NIKS10,glavna,Nikšić,07.10.2026 01:20,8.80,51.0,0.00,2.30,32,,0.0,946.7
+02VELM20,klimatološka,Velimlje,07.10.2026 01:00,6.30,79.4,0.00,0.30,4,0.60,0.0,
+02GOBU30,klimatološka,Gornja Bukovica,07.10.2026 01:00,-2.84,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,07.10.2026 01:00,5.50,74.2,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,07.10.2026 01:00,3.10,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,07.10.2026 01:00,13.44,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,07.10.2026 00:46,15.10,64.0,,0.40,,1.00,,1022.6
+02PLJV10,glavna,Pljevlja,07.10.2026 01:20,3.30,84.0,0.00,0.40,30,,0.0,932.0
+02ZBLJ10,glavna,Žabljak,07.10.2026 01:20,1.20,62.0,0.00,1.40,20,,0.1,860.2
+02BUDV20,klimatološka,Budva,07.10.2026 01:00,15.53,75.8,,,,,0.09,1018.71
+02CTNJ10,glavna,Cetinje,07.10.2026 01:20,2.80,88.0,0.00,0.00,32,,0.5,947.2
+02ULCN10,glavna,Ulcinj,07.10.2026 01:20,11.20,90.0,0.00,0.50,30,,0.0,1019.5
+02GRAD30,klimatološka,Gradac,07.10.2026 01:00,0.88,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,07.10.2026 01:00,3.10,80.9,0.00,0.60,16,0.80,0.9,
+02BAR010,glavna,Bar,07.10.2026 01:20,14.10,53.0,0.00,1.30,6,,0.7,1019.3
+02PDGR10,glavna,Podgorica,07.10.2026 01:20,16.50,33.0,0.00,2.40,2,,0.5,1013.9
+02HNOV10,glavna,Herceg Novi,07.10.2026 01:20,14.70,53.0,0.00,1.20,22,,0.1,1014.9
