@@ -67444,3 +67444,22 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,06.10.2026 15:50,23.20,64.0,0.00,3.00,24,,347.0,1018.9
 02NIKS10,glavna,Nikšić,06.10.2026 15:50,22.40,23.0,0.00,5.20,14,,401.8,945.3
 02ULCN10,glavna,Ulcinj,06.10.2026 15:50,22.50,65.0,0.00,4.40,22,,473.0,1018.7
+02DANL20,klimatološka,Danilovgrad,06.10.2026 16:00,27.00,,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,06.10.2026 16:00,25.96,20.9,,,,,,
+02PLJV10,glavna,Pljevlja,06.10.2026 16:00,23.30,16.0,0.00,3.80,4,,360.9,929.2
+02LKOT20,klimatološka,Luka Kotor,06.10.2026 15:31,23.30,62.0,,0.50,,1.70,,1021.7
+02SCPO30,klimatološka,Šćepan Polje,06.10.2026 16:00,17.64,46.4,,,,,,
+02PDGR10,glavna,Podgorica,06.10.2026 16:00,26.90,18.0,0.00,1.90,18,,397.1,1012.5
+02HNOV10,glavna,Herceg Novi,06.10.2026 16:00,23.90,56.0,0.00,0.80,10,3.10,386.3,1014.5
+02NJGV30,klimatološka,Njegovuđa,06.10.2026 16:00,18.65,29.5,,,,,,
+02MOKR30,klimatološka,Mokro,06.10.2026 16:00,19.20,23.8,,,,,,
+02VIRP20,klimatološka,Virpazar,06.10.2026 16:00,24.10,27.0,0.00,,,,,
+02STIT30,klimatološka,Štitarica,06.10.2026 16:00,19.43,44.4,,,,,,
+02KOLS10,glavna,Kolašin,06.10.2026 16:00,21.10,26.0,0.00,0.20,20,,68.8,912.9
+02CTNJ10,glavna,Cetinje,06.10.2026 16:00,23.10,22.0,0.00,0.20,14,,272.8,946.1
+02NIKS10,glavna,Nikšić,06.10.2026 16:00,22.30,23.0,0.00,6.10,14,,325.8,945.3
+02VELK30,klimatološka,Velika,06.10.2026 16:00,20.79,27.5,,,,,,
+02STAB30,klimatološka,Stabna,06.10.2026 16:00,20.10,32.8,,,,,,
+02BAR010,glavna,Bar,06.10.2026 16:00,22.70,66.0,0.00,2.70,24,,308.8,1018.9
+02MATE30,klimatološka,Matesevo,06.10.2026 16:00,18.94,28.2,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,06.10.2026 16:00,20.04,26.2,,,,,,
