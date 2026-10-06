@@ -66803,3 +66803,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,06.10.2026 06:00,-2.71,94.8,,,,,,
 02SCPO30,klimatološka,Šćepan Polje,06.10.2026 06:00,0.47,100.0,,,,,,
 02NIKS10,glavna,Nikšić,06.10.2026 06:00,5.50,68.0,0.00,2.20,32,,0.0,947.4
+02KUKO30,klimatološka,Kučka korita,06.10.2026 06:00,0.50,75.5,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,06.10.2026 06:20,13.80,54.0,0.00,1.20,26,,0.7,1016.0
+02PLJV10,glavna,Pljevlja,06.10.2026 06:20,-0.10,95.0,0.00,0.30,24,,1.0,934.0
+02BPLJ20,klimatološka,Bijelo Polje,06.10.2026 06:00,2.06,100.0,,,,,0.0,955.9
+02CTNJ10,glavna,Cetinje,06.10.2026 06:20,2.10,96.0,0.00,0.20,24,,0.8,947.9
+02GOBU30,klimatološka,Gornja Bukovica,06.10.2026 06:00,-1.89,100.0,,,,,,
+02BERA20,glavna,Berane,06.10.2026 06:00,0.31,98.3,0.00,0.00,32,0.60,,944.93
+02ZBLJ10,glavna,Žabljak,06.10.2026 06:20,1.60,80.0,0.00,1.70,22,,0.1,861.1
+02BUDV20,klimatološka,Budva,06.10.2026 06:00,14.77,92.1,,,,,0.0,1019.33
+02KOLS10,glavna,Kolašin,06.10.2026 06:20,-1.10,97.0,0.00,0.40,20,,0.4,916.3
+02BAR010,glavna,Bar,06.10.2026 06:20,14.00,64.0,0.00,2.00,8,2.40,1.2,1020.0
+02KOVR30,klimatološka,Kovren,06.10.2026 06:00,5.51,84.5,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,06.10.2026 05:46,13.80,65.0,,0.50,,1.60,,1023.4
+02BOAN30,klimatološka,Boan,06.10.2026 06:00,-0.90,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,06.10.2026 06:00,-7.25,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,06.10.2026 06:00,11.97,,,,,,,
+02ULCN10,glavna,Ulcinj,06.10.2026 06:20,9.10,92.0,0.00,1.40,30,1.80,0.9,1020.5
+02DDOB30,klimatološka,Donja Dobrilovina,06.10.2026 06:00,0.83,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,06.10.2026 06:00,4.97,100.0,0.00,0.60,18,0.90,3.72,939.26
+02CRKV30,klimatološka,Crkvice,06.10.2026 06:00,9.10,62.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,06.10.2026 06:00,5.67,65.8,0.00,,,,,
+02VELM20,klimatološka,Velimlje,06.10.2026 06:00,1.30,94.7,0.00,0.50,2,0.80,0.0,
+02GRAD30,klimatološka,Gradac,06.10.2026 06:00,-1.41,100.0,,,,,,
+02PDGR10,glavna,Podgorica,06.10.2026 06:20,13.70,45.0,0.00,1.10,32,,0.6,1014.8
+02BIST20,klimatološka,Bistrica,06.10.2026 06:00,-0.30,97.3,0.00,0.60,18,1.00,1.0,
+02NIKS10,glavna,Nikšić,06.10.2026 06:20,5.70,67.0,0.00,1.60,32,,0.1,947.4
