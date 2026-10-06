@@ -67529,3 +67529,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,06.10.2026 17:00,23.30,29.0,0.00,,,,,
 02MATE30,klimatološka,Matesevo,06.10.2026 17:00,15.95,37.1,0.00,,,,,
 02PDGR10,glavna,Podgorica,06.10.2026 17:00,26.30,19.0,0.00,1.90,14,,137.2,1012.5
+02BAR010,glavna,Bar,06.10.2026 17:20,22.20,68.0,0.00,1.60,26,,117.6,1018.8
+02ULCN10,glavna,Ulcinj,06.10.2026 17:20,21.70,70.0,0.00,3.70,22,4.70,129.2,1018.5
+02BERA20,glavna,Berane,06.10.2026 17:00,23.63,27.7,0.00,0.80,28,2.30,,939.74
+02BPLJ20,klimatološka,Bijelo Polje,06.10.2026 17:00,21.53,37.3,,,,,202.15,950.04
+02GRAD30,klimatološka,Gradac,06.10.2026 17:00,17.15,47.1,,,,,,
+02ZBLJ10,glavna,Žabljak,06.10.2026 17:20,16.00,29.0,0.00,2.10,16,3.40,112.7,859.8
+02CTNJ10,glavna,Cetinje,06.10.2026 17:20,22.00,32.0,0.00,0.10,18,,107.5,946.1
+02KOVR30,klimatološka,Kovren,06.10.2026 17:00,18.01,38.1,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,06.10.2026 17:20,23.00,61.0,0.00,0.30,32,,63.7,1014.4
+02KUKO30,klimatološka,Kučka korita,06.10.2026 17:00,15.72,29.5,0.00,,,,,
+02BIST20,klimatološka,Bistrica,06.10.2026 17:00,18.00,37.1,0.00,0.50,16,0.90,117.7,
+02KOLS10,glavna,Kolašin,06.10.2026 17:20,16.60,41.0,0.00,0.60,12,,25.0,913.2
+02KOSA30,klimatološka,Kosanica,06.10.2026 17:00,18.01,35.3,,,,,,
+02UBLI20,klimatološka,Ubli,06.10.2026 17:00,22.74,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,06.10.2026 16:46,22.60,62.0,,2.70,,4.00,,1021.9
+02BUDV20,klimatološka,Budva,06.10.2026 17:00,23.05,63.6,,,,,130.84,1018.28
+02NIKS10,glavna,Nikšić,06.10.2026 17:20,21.00,26.0,0.00,5.10,16,,115.0,945.2
+02GOBU30,klimatološka,Gornja Bukovica,06.10.2026 17:00,13.47,44.2,,,,,,
+02CRKV30,klimatološka,Crkvice,06.10.2026 17:00,15.28,85.3,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,06.10.2026 17:00,14.16,61.1,,,,,,
+02BOAN30,klimatološka,Boan,06.10.2026 17:00,18.45,31.2,,,,,,
+02VELM20,klimatološka,Velimlje,06.10.2026 17:00,21.40,38.2,0.00,1.10,22,1.80,163.0,
+02PLJV10,glavna,Pljevlja,06.10.2026 17:20,21.90,23.0,0.00,1.10,2,,100.8,929.3
+02PDGR10,glavna,Podgorica,06.10.2026 17:20,26.00,23.0,0.00,1.90,16,,127.0,1012.4
+02IVKO30,klimatološka,Ivanova korita,06.10.2026 17:00,14.39,50.4,0.00,,,,,
