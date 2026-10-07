@@ -68653,3 +68653,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,07.10.2026 10:00,15.90,,0.00,,,,,
 02POSC30,klimatološka,Pošćenje,07.10.2026 10:00,11.55,46.9,,,,,,
 02LKOT20,klimatološka,Luka Kotor,07.10.2026 09:31,19.20,53.0,,0.00,,0.90,,1022.9
+02PLJV10,glavna,Pljevlja,07.10.2026 10:20,9.00,51.0,0.00,0.90,18,,532.9,931.5
+02ULCN10,glavna,Ulcinj,07.10.2026 10:20,20.70,44.0,0.00,4.20,6,,559.0,1020.1
+02LKOT20,klimatološka,Luka Kotor,07.10.2026 09:46,18.20,58.0,,,,,,1023.0
+02BOAN30,klimatološka,Boan,07.10.2026 10:00,10.23,53.4,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,07.10.2026 10:00,5.36,97.6,,,,,66.3,953.94
+02HNOV10,glavna,Herceg Novi,07.10.2026 10:20,21.40,41.0,0.00,2.10,8,,550.1,1015.3
+02CTNJ10,glavna,Cetinje,07.10.2026 10:20,15.80,41.0,0.00,0.50,18,,540.6,947.1
+02PLZN20,klimatološka,Pluzine,07.10.2026 10:00,10.02,67.1,0.00,0.60,28,1.80,505.4,937.61
+02GOBU30,klimatološka,Gornja Bukovica,07.10.2026 10:00,15.00,32.0,,,,,,
+02BERA20,glavna,Berane,07.10.2026 10:00,8.56,56.9,0.00,0.70,16,1.90,,943.04
+02CRKV30,klimatološka,Crkvice,07.10.2026 10:00,13.61,59.6,,,,,,
+02UBLI20,klimatološka,Ubli,07.10.2026 10:00,19.15,,,,,,,
+02BIST20,klimatološka,Bistrica,07.10.2026 10:00,6.00,73.2,0.00,0.50,6,0.90,87.7,
+02KOLS10,glavna,Kolašin,07.10.2026 10:20,9.40,57.0,0.00,1.20,2,,541.9,914.4
+02KOSA30,klimatološka,Kosanica,07.10.2026 10:00,16.74,39.2,,,,,,
+02KOVR30,klimatološka,Kovren,07.10.2026 10:00,11.72,58.9,0.00,,,,,
+02PDGR10,glavna,Podgorica,07.10.2026 10:20,21.50,23.0,0.00,1.90,26,,518.5,1014.5
+02GRAD30,klimatološka,Gradac,07.10.2026 10:00,5.52,100.0,,,,,,
+02BAR010,glavna,Bar,07.10.2026 10:20,21.20,53.0,0.00,0.90,22,,527.6,1019.7
+02KUKO30,klimatološka,Kučka korita,07.10.2026 10:00,15.60,30.4,0.00,,,,,
+02VELM20,klimatološka,Velimlje,07.10.2026 10:00,13.20,52.5,0.00,0.30,24,0.70,509.8,
+02IVKO30,klimatološka,Ivanova korita,07.10.2026 10:00,16.65,33.2,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,07.10.2026 10:00,2.71,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,07.10.2026 10:20,14.90,17.0,0.00,0.50,20,,45.0,859.6
+02NIKS10,glavna,Nikšić,07.10.2026 10:20,16.00,38.0,0.00,0.90,22,,541.6,946.6
