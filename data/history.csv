@@ -69273,3 +69273,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,07.10.2026 19:50,14.60,32.0,0.00,3.00,10,3.70,0.0,929.0
 02BAR010,glavna,Bar,07.10.2026 19:50,18.60,38.0,0.00,2.00,6,,0.2,1018.6
 02CTNJ10,glavna,Cetinje,07.10.2026 19:50,8.70,67.0,0.00,0.10,20,,0.8,946.2
+02SCPO30,klimatološka,Šćepan Polje,07.10.2026 20:00,9.29,85.8,,,,,,
+02VIRP20,klimatološka,Virpazar,07.10.2026 20:00,14.90,55.0,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,07.10.2026 20:00,10.17,68.7,,,,,,
+02LKOT20,klimatološka,Luka Kotor,07.10.2026 19:31,20.30,48.0,,1.30,,2.70,,1021.9
+02HNOV10,glavna,Herceg Novi,07.10.2026 20:00,17.60,72.0,0.00,0.50,24,,0.8,1014.2
+02POSC30,klimatološka,Pošćenje,07.10.2026 20:00,7.42,64.3,,,,,,
+02STIT30,klimatološka,Štitarica,07.10.2026 20:00,6.55,75.5,,,,,,
+02PLJV10,glavna,Pljevlja,07.10.2026 20:00,15.10,32.0,0.00,2.00,10,,0.0,929.1
+02KOLS10,glavna,Kolašin,07.10.2026 20:00,7.70,69.0,0.00,0.30,20,,0.8,913.4
+02MOKR30,klimatološka,Mokro,07.10.2026 20:00,9.39,46.6,,,,,,
+02ZBLJ10,glavna,Žabljak,07.10.2026 20:00,11.20,30.0,0.00,2.00,14,,0.2,858.9
+02BAR010,glavna,Bar,07.10.2026 20:00,18.90,39.0,0.00,2.10,6,,0.1,1018.6
+02MATE30,klimatološka,Matesevo,07.10.2026 20:00,6.13,74.7,0.00,,,,,
+02ULCN10,glavna,Ulcinj,07.10.2026 20:00,15.00,62.0,0.00,0.30,26,,0.0,1018.9
+02NIKS10,glavna,Nikšić,07.10.2026 20:00,15.70,36.0,0.00,1.70,10,,0.0,945.2
+02PDGR10,glavna,Podgorica,07.10.2026 20:00,18.90,41.0,0.00,0.60,2,,0.4,1012.7
+02CTNJ10,glavna,Cetinje,07.10.2026 20:00,8.30,67.0,0.00,0.20,32,,0.0,946.3
+02NJGV30,klimatološka,Njegovuđa,07.10.2026 20:00,11.42,38.8,,,,,,
+02STAB30,klimatološka,Stabna,07.10.2026 20:00,11.21,59.4,,,,,,
+02DANL20,klimatološka,Danilovgrad,07.10.2026 20:00,15.20,,0.00,,,,,
+02VELK30,klimatološka,Velika,07.10.2026 20:00,9.85,62.7,,,,,,
