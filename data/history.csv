@@ -68122,3 +68122,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,07.10.2026 02:00,0.40,94.0,0.00,0.20,32,,0.0,915.2
 02DANL20,klimatološka,Danilovgrad,07.10.2026 02:00,8.80,,0.00,,,,,
 02MAMO30,klimatološka,Manastir Morača,07.10.2026 02:00,3.68,96.3,,,,,,
+02UBLI20,klimatološka,Ubli,07.10.2026 02:00,12.92,,,,,,,
+02KOLS10,glavna,Kolašin,07.10.2026 02:20,0.20,94.0,0.00,0.50,18,,0.6,915.0
+02BAR010,glavna,Bar,07.10.2026 02:20,14.60,47.0,0.00,1.70,8,,0.2,1019.1
+02CRKV30,klimatološka,Crkvice,07.10.2026 02:00,5.49,70.6,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,07.10.2026 02:00,-3.03,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,07.10.2026 02:00,5.52,60.5,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,07.10.2026 02:20,0.90,62.0,0.00,1.40,22,,0.7,860.0
+02DDOB30,klimatološka,Donja Dobrilovina,07.10.2026 02:00,2.48,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,07.10.2026 02:20,14.50,64.0,0.00,1.40,24,1.60,1.5,1014.9
+02GRAD30,klimatološka,Gradac,07.10.2026 02:00,0.12,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,07.10.2026 02:00,3.20,91.3,0.00,0.00,32,0.30,0.2,
+02PDGR10,glavna,Podgorica,07.10.2026 02:20,15.40,39.0,0.00,0.70,32,,0.2,1013.8
+02NIKS10,glavna,Nikšić,07.10.2026 02:20,7.70,57.0,0.00,1.40,2,,0.0,946.6
+02ULCN10,glavna,Ulcinj,07.10.2026 02:20,10.50,85.0,0.00,1.60,32,,0.0,1019.4
+02BUDV20,klimatološka,Budva,07.10.2026 02:00,15.18,86.1,,,,,0.09,1018.52
+02KOSA30,klimatološka,Kosanica,07.10.2026 02:00,-6.37,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,07.10.2026 02:00,0.77,64.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,07.10.2026 02:20,2.30,86.0,0.00,0.80,32,,0.1,932.0
+02BOAN30,klimatološka,Boan,07.10.2026 02:00,-0.29,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,07.10.2026 02:00,3.86,98.3,,,,,0.0,953.74
+02LKOT20,klimatološka,Luka Kotor,07.10.2026 01:46,14.70,71.0,,0.00,,0.80,,1022.5
+02CTNJ10,glavna,Cetinje,07.10.2026 02:20,2.30,90.0,0.00,0.10,24,,0.5,947.2
+02BERA20,glavna,Berane,07.10.2026 02:00,3.15,90.0,0.00,0.00,32,0.60,,943.06
+02BIST20,klimatološka,Bistrica,07.10.2026 02:00,1.30,88.8,0.00,0.40,18,0.60,0.6,
+02PLZN20,klimatološka,Pluzine,07.10.2026 02:00,6.76,94.1,0.00,0.60,18,0.90,0.0,937.77
