@@ -70061,3 +70061,37 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,08.10.2026 07:50,14.40,82.0,0.00,1.30,30,,17.5,1013.0
 02NIKS10,glavna,Nikšić,08.10.2026 07:50,10.30,94.0,0.06,2.30,2,2.80,6.2,945.2
 02KOLS10,glavna,Kolašin,08.10.2026 07:50,8.00,88.0,0.00,0.00,14,,18.9,912.8
+02BPLJ20,klimatološka,Bijelo Polje,08.10.2026 08:00,4.89,93.8,,,,,49.6,951.32
+02NIKS10,glavna,Nikšić,08.10.2026 08:00,10.30,91.0,0.00,1.00,2,,9.0,945.3
+02KOLS10,glavna,Kolašin,08.10.2026 08:00,8.30,89.0,0.00,0.60,20,,19.7,912.9
+02GOBU30,klimatološka,Gornja Bukovica,08.10.2026 08:00,8.97,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,08.10.2026 08:00,13.30,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,08.10.2026 08:00,11.40,94.3,0.00,0.60,6,0.90,26.7,
+02CTNJ10,glavna,Cetinje,08.10.2026 08:00,11.20,99.0,0.00,0.50,8,,7.1,945.8
+02MOKR30,klimatološka,Mokro,08.10.2026 08:00,7.80,86.9,,,,,,
+02MATE30,klimatološka,Matesevo,08.10.2026 08:00,7.01,89.8,0.00,,,,,
+02VELK30,klimatološka,Velika,08.10.2026 08:00,9.83,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,08.10.2026 08:00,8.64,93.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,08.10.2026 08:00,8.53,92.8,,,,,,
+02POSC30,klimatološka,Pošćenje,08.10.2026 08:00,8.40,89.5,,,,,,
+02STIT30,klimatološka,Štitarica,08.10.2026 08:00,11.15,91.8,,,,,,
+02PLZN20,klimatološka,Pluzine,08.10.2026 08:00,12.50,100.0,0.00,1.00,6,2.70,44.48,934.44
+02STAB30,klimatološka,Stabna,08.10.2026 08:00,11.23,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,08.10.2026 08:00,14.50,,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,08.10.2026 08:00,10.98,100.0,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,08.10.2026 08:00,7.64,88.5,,,,,,
+02NJGV30,klimatološka,Njegovuđa,08.10.2026 08:00,10.89,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,08.10.2026 08:00,10.60,88.0,0.00,2.20,10,,33.4,857.3
+02KOVR30,klimatološka,Kovren,08.10.2026 08:00,10.16,85.9,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,08.10.2026 07:31,15.80,98.0,,0.60,,0.90,,1021.3
+02BIST20,klimatološka,Bistrica,08.10.2026 08:00,8.40,78.2,0.00,2.20,16,2.60,56.6,
+02VIRP20,klimatološka,Virpazar,08.10.2026 08:00,14.00,100.0,0.54,,,,,
+02HNOV10,glavna,Herceg Novi,08.10.2026 08:00,17.20,98.0,0.00,0.30,28,,4.2,1013.2
+02GRAD30,klimatološka,Gradac,08.10.2026 08:00,2.63,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,08.10.2026 08:00,11.38,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,08.10.2026 08:00,6.40,69.0,0.00,0.30,12,,141.8,928.5
+02BERA20,glavna,Berane,08.10.2026 08:00,6.86,80.3,0.00,0.50,22,1.10,,940.34
+02BAR010,glavna,Bar,08.10.2026 08:00,20.50,71.0,0.00,2.60,4,,30.5,1017.3
+02ULCN10,glavna,Ulcinj,08.10.2026 08:00,17.90,62.0,0.00,4.20,8,,23.5,1018.3
+02MAMO30,klimatološka,Manastir Morača,08.10.2026 08:00,9.83,88.4,,,,,,
+02PDGR10,glavna,Podgorica,08.10.2026 08:00,14.60,81.0,0.00,1.90,26,,28.6,1013.0
