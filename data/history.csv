@@ -71073,3 +71073,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,08.10.2026 23:00,13.90,96.0,0.00,3.20,12,,0.0,944.4
 02MOKR30,klimatološka,Mokro,08.10.2026 23:00,15.83,79.8,,,,,,
 02STIT30,klimatološka,Štitarica,08.10.2026 23:00,15.08,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,08.10.2026 23:00,12.90,91.5,0.00,2.50,14,3.20,0.5,
+02LKOT20,klimatološka,Luka Kotor,08.10.2026 22:46,17.20,100.0,,0.40,,1.00,,1020.1
+02BUDV20,klimatološka,Budva,08.10.2026 23:00,19.67,100.0,,,,,0.0,1016.23
+02BOAN30,klimatološka,Boan,08.10.2026 23:00,12.57,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,08.10.2026 23:20,13.90,84.0,0.00,0.70,2,,0.1,926.8
+02GOBU30,klimatološka,Gornja Bukovica,08.10.2026 23:00,13.42,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,08.10.2026 23:00,12.65,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,08.10.2026 23:20,17.20,93.0,0.00,3.60,6,,0.0,1017.8
+02IVKO30,klimatološka,Ivanova korita,08.10.2026 23:00,11.99,100.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,08.10.2026 23:00,12.68,100.0,,,,,0.0,948.94
+02BAR010,glavna,Bar,08.10.2026 23:20,20.90,84.0,0.00,1.10,28,,0.0,1016.3
+02HNOV10,glavna,Herceg Novi,08.10.2026 23:20,19.20,96.0,0.00,0.30,8,,0.0,1012.1
+02BERA20,glavna,Berane,08.10.2026 23:00,13.12,100.0,0.00,0.60,26,1.50,,938.85
+02PDGR10,glavna,Podgorica,08.10.2026 23:20,15.60,96.0,0.00,0.40,20,,0.0,1012.4
+02KUKO30,klimatološka,Kučka korita,08.10.2026 23:00,12.68,100.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,08.10.2026 23:20,13.90,96.0,0.00,3.10,14,,0.5,944.3
+02VELM20,klimatološka,Velimlje,08.10.2026 23:00,14.80,93.5,0.00,1.90,12,3.00,0.0,
+02PLZN20,klimatološka,Pluzine,08.10.2026 23:00,16.15,100.0,0.00,1.60,22,4.40,509.13,933.45
+02CRKV30,klimatološka,Crkvice,08.10.2026 23:00,14.61,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,08.10.2026 23:00,11.92,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,08.10.2026 23:20,13.20,77.0,0.00,3.50,14,8.90,0.3,857.1
+02CTNJ10,glavna,Cetinje,08.10.2026 23:20,12.90,100.0,0.00,0.20,24,,0.5,944.9
+02KOSA30,klimatološka,Kosanica,08.10.2026 23:00,14.81,97.9,,,,,,
+02UBLI20,klimatološka,Ubli,08.10.2026 23:00,13.55,,,,,,,
+02KOLS10,glavna,Kolašin,08.10.2026 23:20,13.40,100.0,0.00,1.00,8,,0.0,911.3
