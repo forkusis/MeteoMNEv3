@@ -71857,3 +71857,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,09.10.2026 11:00,13.97,93.4,,,,,,
 02POSC30,klimatološka,Pošćenje,09.10.2026 11:00,14.73,100.0,,,,,,
 02STIT30,klimatološka,Štitarica,09.10.2026 11:00,15.50,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,09.10.2026 11:00,15.22,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,09.10.2026 11:00,16.69,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,09.10.2026 11:00,14.99,100.0,,,,,225.26,950.46
+02BERA20,glavna,Berane,09.10.2026 11:00,17.35,96.3,0.00,1.10,26,2.60,,939.87
+02GRAD30,klimatološka,Gradac,09.10.2026 11:00,16.93,92.7,,,,,,
+02UBLI20,klimatološka,Ubli,09.10.2026 11:00,15.34,,,,,,,
+02PLZN20,klimatološka,Pluzine,09.10.2026 11:00,19.07,100.0,0.00,1.00,22,3.20,998.26,934.61
+02BAR010,glavna,Bar,09.10.2026 11:20,21.60,78.0,0.00,1.10,32,,143.4,1018.1
+02ZBLJ10,glavna,Žabljak,09.10.2026 11:20,14.90,63.0,0.00,1.70,24,,154.8,858.2
+02VELM20,klimatološka,Velimlje,09.10.2026 11:00,19.10,73.3,0.00,3.60,14,6.60,301.0,
+02IVKO30,klimatološka,Ivanova korita,09.10.2026 11:00,12.94,100.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,09.10.2026 11:20,14.80,100.0,0.00,4.70,14,,120.4,945.0
+02KUKO30,klimatološka,Kučka korita,09.10.2026 11:00,12.57,100.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,09.10.2026 11:20,15.90,93.0,0.00,0.70,18,,154.0,912.6
+02HNOV10,glavna,Herceg Novi,09.10.2026 11:20,21.40,84.0,0.00,1.80,12,,74.3,1013.7
+02PDGR10,glavna,Podgorica,09.10.2026 11:20,18.40,88.0,0.00,0.30,4,,237.8,1013.4
+02LKOT20,klimatološka,Luka Kotor,09.10.2026 10:46,19.90,91.0,,1.20,,2.20,,1021.3
+02ULCN10,glavna,Ulcinj,09.10.2026 11:20,19.30,90.0,0.00,1.80,4,,112.9,1018.8
+02BIST20,klimatološka,Bistrica,09.10.2026 11:00,18.10,76.3,0.00,1.10,4,2.70,200.8,
+02CTNJ10,glavna,Cetinje,09.10.2026 11:20,15.10,100.0,0.00,0.20,8,,87.5,945.8
+02BOAN30,klimatološka,Boan,09.10.2026 11:00,15.65,100.0,,,,,,
+02BUDV20,klimatološka,Budva,09.10.2026 11:00,22.36,87.2,,,,,167.06,1017.69
+02PLJV10,glavna,Pljevlja,09.10.2026 11:20,19.30,67.0,0.00,1.50,18,,473.9,928.7
+02GOBU30,klimatološka,Gornja Bukovica,09.10.2026 11:00,13.78,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,09.10.2026 11:00,14.30,100.0,,,,,,
