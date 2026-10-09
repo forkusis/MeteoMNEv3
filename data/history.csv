@@ -71462,3 +71462,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,09.10.2026 05:00,13.01,100.0,0.07,,,,,
 02CTNJ10,glavna,Cetinje,09.10.2026 05:00,13.60,100.0,0.25,0.30,32,,0.5,944.3
 02HNOV10,glavna,Herceg Novi,09.10.2026 05:00,19.30,95.0,0.00,0.40,28,,0.8,1012.0
+02PDGR10,glavna,Podgorica,09.10.2026 05:20,15.90,95.0,0.00,0.90,26,,0.8,1011.3
+02CRKV30,klimatološka,Crkvice,09.10.2026 05:00,13.86,100.0,,,,,,
+02BOAN30,klimatološka,Boan,09.10.2026 05:00,12.67,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,09.10.2026 05:00,12.66,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,09.10.2026 05:00,12.80,94.1,0.00,0.90,12,1.30,0.5,
+02HNOV10,glavna,Herceg Novi,09.10.2026 05:20,19.00,96.0,0.00,0.50,30,,0.4,1011.8
+02ULCN10,glavna,Ulcinj,09.10.2026 05:20,16.70,97.0,0.00,3.50,6,,0.0,1017.2
+02UBLI20,klimatološka,Ubli,09.10.2026 05:00,14.98,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,09.10.2026 05:00,12.62,100.0,2.05,,,,,
+02KOSA30,klimatološka,Kosanica,09.10.2026 05:00,13.67,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,09.10.2026 04:46,18.20,100.0,,1.80,,2.80,,1019.3
+02KUKO30,klimatološka,Kučka korita,09.10.2026 05:00,12.01,100.0,0.00,,,,,
+02BAR010,glavna,Bar,09.10.2026 05:20,20.40,82.0,0.00,2.30,18,,0.8,1016.4
+02KOLS10,glavna,Kolašin,09.10.2026 05:20,13.30,99.0,0.00,0.40,20,,0.0,911.4
+02BPLJ20,klimatološka,Bijelo Polje,09.10.2026 05:00,11.36,100.0,,,,,0.0,949.22
+02BUDV20,klimatološka,Budva,09.10.2026 05:00,19.73,100.0,,,,,0.78,1015.96
+02GOBU30,klimatološka,Gornja Bukovica,09.10.2026 05:00,12.48,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,09.10.2026 05:00,16.14,100.0,0.00,2.30,18,7.20,372.74,933.83
+02GRAD30,klimatološka,Gradac,09.10.2026 05:00,9.84,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,09.10.2026 05:00,14.00,99.4,0.00,0.10,20,0.30,0.0,
+02CTNJ10,glavna,Cetinje,09.10.2026 05:20,13.60,100.0,0.17,0.80,28,,0.6,944.2
+02ZBLJ10,glavna,Žabljak,09.10.2026 05:20,11.50,90.0,0.00,2.00,14,,0.7,857.3
+02PLJV10,glavna,Pljevlja,09.10.2026 05:20,12.20,88.0,0.00,0.50,22,,1.1,927.6
+02NIKS10,glavna,Nikšić,09.10.2026 05:20,14.20,99.0,0.09,2.30,12,,0.0,943.6
+02BERA20,glavna,Berane,09.10.2026 05:00,12.25,100.0,0.00,0.40,32,0.80,,939.23
