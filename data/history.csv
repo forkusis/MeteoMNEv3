@@ -71248,3 +71248,20 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,09.10.2026 01:50,12.50,88.0,0.00,1.10,2,,0.0,927.6
 02ULCN10,glavna,Ulcinj,09.10.2026 01:50,16.80,96.0,0.00,2.80,8,,0.0,1017.9
 02KOLS10,glavna,Kolašin,09.10.2026 01:50,13.70,99.0,0.00,0.60,4,,0.0,911.9
+02MATE30,klimatološka,Matesevo,09.10.2026 02:00,13.69,94.8,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,09.10.2026 02:00,15.30,,0.00,,,,,
+02STIT30,klimatološka,Štitarica,09.10.2026 02:00,15.03,99.2,,,,,,
+02ULCN10,glavna,Ulcinj,09.10.2026 02:00,16.80,96.0,0.00,4.50,6,5.10,0.0,1017.9
+02POSC30,klimatološka,Pošćenje,09.10.2026 02:00,14.95,96.2,,,,,,
+02STAB30,klimatološka,Stabna,09.10.2026 02:00,12.97,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,09.10.2026 02:00,19.45,75.1,,,,,,
+02VELK30,klimatološka,Velika,09.10.2026 02:00,12.22,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,09.10.2026 02:00,14.70,100.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,09.10.2026 02:00,12.70,85.0,0.00,0.10,2,,0.2,927.5
+02PDGR10,glavna,Podgorica,09.10.2026 02:00,15.80,95.0,0.00,1.00,26,,0.0,1012.9
+02NJGV30,klimatološka,Njegovuđa,09.10.2026 02:00,13.31,96.5,,,,,,
+02MAMO30,klimatološka,Manastir Morača,09.10.2026 02:00,12.76,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,09.10.2026 02:00,12.20,85.0,0.00,1.30,14,,0.0,857.7
+02MOKR30,klimatološka,Mokro,09.10.2026 02:00,14.91,82.7,,,,,,
+02LKOT20,klimatološka,Luka Kotor,09.10.2026 01:31,17.40,100.0,,0.90,,1.80,,1020.6
+02KOLS10,glavna,Kolašin,09.10.2026 02:00,13.70,99.0,0.00,0.40,8,,0.0,911.8
