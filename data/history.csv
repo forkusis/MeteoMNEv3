@@ -73104,3 +73104,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,10.10.2026 06:00,13.80,100.0,0.00,,,,,
 02SCPO30,klimatološka,Šćepan Polje,10.10.2026 06:00,11.80,100.0,,,,,,
 02STAB30,klimatološka,Stabna,10.10.2026 06:00,13.21,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,10.10.2026 06:20,11.50,86.0,0.00,0.40,4,,0.8,926.2
+02BAR010,glavna,Bar,10.10.2026 06:20,19.00,74.0,0.00,4.90,6,6.10,0.2,1014.7
+02UBLI20,klimatološka,Ubli,10.10.2026 06:00,13.92,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,10.10.2026 06:00,11.13,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,10.10.2026 06:20,17.60,92.0,0.00,0.10,6,,0.0,1010.1
+02PLZN20,klimatološka,Pluzine,10.10.2026 06:00,15.02,100.0,0.00,0.80,18,2.30,111.62,932.33
+02GRAD30,klimatološka,Gradac,10.10.2026 06:00,8.71,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,10.10.2026 06:00,9.84,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,10.10.2026 06:00,14.20,92.2,0.00,1.80,12,4.00,0.0,
+02NIKS10,glavna,Nikšić,10.10.2026 06:20,13.10,97.0,0.00,0.80,6,,0.2,942.5
+02KUKO30,klimatološka,Kučka korita,10.10.2026 06:00,8.63,99.8,0.00,,,,,
+02KOLS10,glavna,Kolašin,10.10.2026 06:20,11.00,96.0,0.00,1.60,14,2.10,0.1,910.3
+02LKOT20,klimatološka,Luka Kotor,10.10.2026 05:46,17.10,95.0,,1.40,,3.80,,1018.1
+02CRKV30,klimatološka,Crkvice,10.10.2026 06:00,11.47,100.0,,,,,,
+02BOAN30,klimatološka,Boan,10.10.2026 06:00,10.16,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,10.10.2026 06:20,16.70,94.0,0.00,4.90,6,,0.4,1015.3
+02BPLJ20,klimatološka,Bijelo Polje,10.10.2026 06:00,10.56,100.0,,,,,0.0,948.44
+02ZBLJ10,glavna,Žabljak,10.10.2026 06:20,10.80,89.0,0.00,2.70,14,,0.6,856.1
+02GOBU30,klimatološka,Gornja Bukovica,10.10.2026 06:00,10.68,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,10.10.2026 06:20,10.90,100.0,0.00,0.30,20,,0.1,943.2
+02BUDV20,klimatološka,Budva,10.10.2026 06:00,17.59,99.5,,,,,0.0,1014.24
+02BIST20,klimatološka,Bistrica,10.10.2026 06:00,9.60,97.7,0.00,1.30,14,2.00,0.5,
+02KOSA30,klimatološka,Kosanica,10.10.2026 06:00,11.94,100.0,,,,,,
+02PDGR10,glavna,Podgorica,10.10.2026 06:20,16.20,91.0,0.00,0.30,28,,0.0,1010.2
+02BERA20,glavna,Berane,10.10.2026 06:00,8.71,100.0,0.00,0.40,32,1.00,,938.15
