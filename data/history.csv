@@ -73432,3 +73432,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,10.10.2026 11:00,17.70,,2.39,,,,,
 02LKOT20,klimatološka,Luka Kotor,10.10.2026 10:31,17.70,99.0,,0.90,,2.60,,1018.2
 02SCPO30,klimatološka,Šćepan Polje,10.10.2026 11:00,14.97,100.0,,,,,,
+02PDGR10,glavna,Podgorica,10.10.2026 11:20,17.90,94.0,0.00,1.50,4,,25.1,1010.0
+02PLJV10,glavna,Pljevlja,10.10.2026 11:20,20.70,53.0,0.00,0.60,10,,237.5,925.3
+02BPLJ20,klimatološka,Bijelo Polje,10.10.2026 11:00,18.00,71.3,,,,,246.39,947.09
+02PLZN20,klimatološka,Pluzine,10.10.2026 11:00,17.47,100.0,0.00,1.20,14,2.40,171.81,931.71
+02NIKS10,glavna,Nikšić,10.10.2026 11:20,14.80,96.0,0.00,3.20,14,,39.6,942.1
+02IVKO30,klimatološka,Ivanova korita,10.10.2026 11:00,12.37,100.0,0.00,,,,,
+02BAR010,glavna,Bar,10.10.2026 11:20,20.40,80.0,0.00,1.50,4,,87.6,1014.5
+02ULCN10,glavna,Ulcinj,10.10.2026 11:20,19.50,86.0,0.00,2.90,4,,189.0,1014.9
+02CRKV30,klimatološka,Crkvice,10.10.2026 11:00,13.49,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,10.10.2026 10:46,18.00,98.0,,1.60,,2.80,,1018.2
+02ZBLJ10,glavna,Žabljak,10.10.2026 11:20,12.90,88.0,0.05,1.70,12,,114.2,855.8
+02DDOB30,klimatološka,Donja Dobrilovina,10.10.2026 11:00,18.60,74.0,,,,,,
+02VELM20,klimatološka,Velimlje,10.10.2026 11:00,15.00,95.9,0.00,2.80,12,4.20,138.5,
+02KOLS10,glavna,Kolašin,10.10.2026 11:20,14.70,95.0,0.15,1.30,10,1.50,70.9,909.7
+02BIST20,klimatološka,Bistrica,10.10.2026 11:00,17.90,71.8,0.00,1.40,14,2.30,80.5,
+02UBLI20,klimatološka,Ubli,10.10.2026 11:00,15.69,,,,,,,
+02HNOV10,glavna,Herceg Novi,10.10.2026 11:20,19.10,93.0,0.00,0.80,6,,63.4,1010.3
+02BOAN30,klimatološka,Boan,10.10.2026 11:00,15.39,99.7,,,,,,
+02BERA20,glavna,Berane,10.10.2026 11:00,19.30,64.1,0.00,0.80,22,2.50,,936.73
+02KOSA30,klimatološka,Kosanica,10.10.2026 11:00,18.94,76.2,,,,,,
+02CTNJ10,glavna,Cetinje,10.10.2026 11:20,14.60,100.0,0.00,0.30,18,,59.3,942.8
+02BUDV20,klimatološka,Budva,10.10.2026 11:00,19.18,100.0,,,,,50.87,1014.32
+02KUKO30,klimatološka,Kučka korita,10.10.2026 11:00,13.69,85.9,0.00,,,,,
+02GRAD30,klimatološka,Gradac,10.10.2026 11:00,17.26,85.7,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,10.10.2026 11:00,13.62,100.0,,,,,,
