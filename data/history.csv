@@ -75142,3 +75142,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,11.10.2026 13:00,19.50,86.0,0.00,,,,,
 02MATE30,klimatološka,Matesevo,11.10.2026 13:00,12.68,89.8,0.00,,,,,
 02PLJV10,glavna,Pljevlja,11.10.2026 13:00,12.20,90.0,0.10,2.60,24,,41.6,920.1
+02ULCN10,glavna,Ulcinj,11.10.2026 13:20,20.90,77.0,0.00,1.60,8,,251.4,1006.4
+02NIKS10,glavna,Nikšić,11.10.2026 13:20,15.30,88.0,0.00,0.30,2,,215.7,934.1
+02KUKO30,klimatološka,Kučka korita,11.10.2026 13:00,10.51,91.7,0.06,,,,,
+02PLZN20,klimatološka,Pluzine,11.10.2026 13:00,11.85,100.0,0.00,5.20,32,11.30,142.7,925.71
+02CRKV30,klimatološka,Crkvice,11.10.2026 13:00,13.28,100.0,,,,,,
+02BOAN30,klimatološka,Boan,11.10.2026 13:00,13.26,98.2,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,11.10.2026 13:00,10.82,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,11.10.2026 13:20,20.70,77.0,0.00,0.30,22,,459.5,1002.2
+02KOSA30,klimatološka,Kosanica,11.10.2026 13:00,9.83,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,11.10.2026 13:00,11.45,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,11.10.2026 13:00,14.60,87.7,0.00,0.60,22,0.90,183.0,
+02PDGR10,glavna,Podgorica,11.10.2026 13:20,21.30,66.0,0.00,1.50,14,,172.8,1001.0
+02IVKO30,klimatološka,Ivanova korita,11.10.2026 13:00,11.31,90.5,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,11.10.2026 13:20,8.60,93.0,0.17,3.30,26,,84.8,849.1
+02BERA20,glavna,Berane,11.10.2026 13:00,17.56,74.7,0.00,1.50,28,4.00,,929.52
+02PLJV10,glavna,Pljevlja,11.10.2026 13:20,11.20,94.0,0.23,0.40,22,,23.6,920.5
+02BUDV20,klimatološka,Budva,11.10.2026 13:00,21.73,73.6,,,,,328.98,1005.95
+02UBLI20,klimatološka,Ubli,11.10.2026 13:00,17.45,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,11.10.2026 12:46,19.50,72.0,,,,,,1009.7
+02VELM20,klimatološka,Velimlje,11.10.2026 13:00,13.90,86.9,0.00,1.10,14,3.00,201.3,
+02BAR010,glavna,Bar,11.10.2026 13:20,22.00,65.0,0.00,2.80,20,,292.4,1006.1
+02DDOB30,klimatološka,Donja Dobrilovina,11.10.2026 13:00,14.20,100.0,,,,,,
+02KOLS10,glavna,Kolašin,11.10.2026 13:20,13.90,87.0,0.00,1.40,6,,155.7,902.0
+02BPLJ20,klimatološka,Bijelo Polje,11.10.2026 13:00,15.61,97.9,,,,,191.93,940.21
+02CTNJ10,glavna,Cetinje,11.10.2026 13:20,15.40,90.0,0.00,0.50,4,,98.4,934.5
