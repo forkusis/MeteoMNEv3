@@ -75868,3 +75868,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,12.10.2026 00:00,16.60,,0.00,,,,,
 02PDGR10,glavna,Podgorica,12.10.2026 00:00,17.30,58.0,0.00,4.00,30,,0.3,1004.4
 02NJGV30,klimatološka,Njegovuđa,12.10.2026 00:00,6.35,100.0,,,,,,
+02BERA20,glavna,Berane,12.10.2026 00:00,10.88,93.5,0.00,1.00,2,1.80,,934.8
+02KUKO30,klimatološka,Kučka korita,12.10.2026 00:00,8.41,78.5,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,12.10.2026 00:00,6.69,100.0,,,,,,
+02BUDV20,klimatološka,Budva,12.10.2026 00:00,15.48,100.0,,,,,0.04,1008.97
+02IVKO30,klimatološka,Ivanova korita,12.10.2026 00:00,5.86,100.0,0.00,,,,,
+02BAR010,glavna,Bar,12.10.2026 00:20,19.60,50.0,0.00,2.40,6,,0.1,1009.1
+02CTNJ10,glavna,Cetinje,12.10.2026 00:20,8.60,100.0,0.00,0.70,8,,0.0,938.0
+02BIST20,klimatološka,Bistrica,12.10.2026 00:00,9.40,98.0,0.00,0.10,28,0.30,0.5,
+02KOLS10,glavna,Kolašin,12.10.2026 00:20,9.60,82.0,0.00,3.50,2,,0.4,906.4
+02PLJV10,glavna,Pljevlja,12.10.2026 00:20,9.70,88.0,0.00,0.70,26,,1.7,924.6
+02PDGR10,glavna,Podgorica,12.10.2026 00:20,17.20,58.0,0.00,3.70,30,6.00,0.3,1004.4
+02CRKV30,klimatološka,Crkvice,12.10.2026 00:00,7.02,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,12.10.2026 00:00,5.50,99.0,0.00,0.80,2,1.10,0.0,
+02HNOV10,glavna,Herceg Novi,12.10.2026 00:20,14.40,84.0,0.00,0.70,24,,0.1,1005.2
+02GOBU30,klimatološka,Gornja Bukovica,12.10.2026 00:00,6.84,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,12.10.2026 00:00,11.14,100.0,0.00,5.00,32,9.50,20.86,929.53
+02ULCN10,glavna,Ulcinj,12.10.2026 00:20,15.20,93.0,0.00,2.00,2,,0.0,1009.6
+02ZBLJ10,glavna,Žabljak,12.10.2026 00:20,5.70,95.0,0.00,1.70,30,,1.0,852.7
+02UBLI20,klimatološka,Ubli,12.10.2026 00:00,11.44,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,12.10.2026 00:00,10.72,100.0,,,,,0.04,945.47
+02BOAN30,klimatološka,Boan,12.10.2026 00:00,8.74,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,11.10.2026 23:46,19.30,53.0,,4.70,,9.50,,1012.9
+02NIKS10,glavna,Nikšić,12.10.2026 00:20,12.00,71.0,0.00,2.60,32,,0.5,937.5
+02DDOB30,klimatološka,Donja Dobrilovina,12.10.2026 00:00,9.34,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,12.10.2026 00:00,9.83,100.0,,,,,,
