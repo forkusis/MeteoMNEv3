@@ -75208,3 +75208,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,11.10.2026 14:00,11.00,95.0,0.06,1.30,10,,95.9,920.7
 02SCPO30,klimatološka,Šćepan Polje,11.10.2026 14:00,12.36,100.0,,,,,,
 02VELK30,klimatološka,Velika,11.10.2026 14:00,14.18,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,11.10.2026 14:00,15.40,83.8,0.00,0.40,2,1.10,181.8,
+02KUKO30,klimatološka,Kučka korita,11.10.2026 14:00,12.23,85.9,0.00,,,,,
+02KOLS10,glavna,Kolašin,11.10.2026 14:20,14.20,83.0,0.00,0.20,8,,142.3,901.8
+02CTNJ10,glavna,Cetinje,11.10.2026 14:20,15.50,88.0,0.00,0.00,8,,197.5,934.3
+02BAR010,glavna,Bar,11.10.2026 14:20,22.70,69.0,0.00,3.00,20,,231.5,1006.0
+02NIKS10,glavna,Nikšić,11.10.2026 14:20,15.40,86.0,0.00,1.20,28,,175.9,934.0
+02DDOB30,klimatološka,Donja Dobrilovina,11.10.2026 14:00,13.98,97.7,,,,,,
+02UBLI20,klimatološka,Ubli,11.10.2026 14:00,17.64,,,,,,,
+02KOSA30,klimatološka,Kosanica,11.10.2026 14:00,8.49,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,11.10.2026 13:46,20.10,69.0,,0.50,,0.90,,1009.5
+02BUDV20,klimatološka,Budva,11.10.2026 14:00,22.72,70.1,,,,,557.94,1005.78
+02GOBU30,klimatološka,Gornja Bukovica,11.10.2026 14:00,10.00,100.0,,,,,,
+02BERA20,glavna,Berane,11.10.2026 14:00,16.03,82.8,0.00,1.80,32,4.10,,929.57
+02GRAD30,klimatološka,Gradac,11.10.2026 14:00,11.30,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,11.10.2026 14:00,11.89,100.0,0.00,2.80,2,6.70,182.74,926.19
+02PDGR10,glavna,Podgorica,11.10.2026 14:20,21.00,63.0,0.00,1.10,2,,373.6,1000.7
+02BOAN30,klimatološka,Boan,11.10.2026 14:00,12.15,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,11.10.2026 14:00,14.03,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,11.10.2026 14:20,7.90,93.0,0.00,1.10,26,,100.2,849.5
+02PLJV10,glavna,Pljevlja,11.10.2026 14:20,11.10,92.0,0.07,0.90,4,,130.4,920.8
+02VELM20,klimatološka,Velimlje,11.10.2026 14:00,14.20,83.4,0.00,1.60,4,3.50,97.5,
+02BPLJ20,klimatološka,Bijelo Polje,11.10.2026 14:00,15.91,95.2,,,,,170.57,940.11
+02IVKO30,klimatološka,Ivanova korita,11.10.2026 14:00,11.03,94.2,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,11.10.2026 14:20,20.50,81.0,0.00,0.70,30,,224.6,1002.1
+02ULCN10,glavna,Ulcinj,11.10.2026 14:20,20.20,84.0,0.00,2.00,8,,339.6,1006.3
