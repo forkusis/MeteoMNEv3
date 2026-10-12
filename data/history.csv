@@ -76439,3 +76439,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,12.10.2026 08:50,4.50,71.0,0.00,0.50,12,,258.3,854.6
 02PLJV10,glavna,Pljevlja,12.10.2026 08:50,6.20,90.0,0.00,0.60,22,,54.7,927.8
 02HNOV10,glavna,Herceg Novi,12.10.2026 08:50,17.90,57.0,0.00,0.30,32,,213.9,1007.3
+02NJGV30,klimatološka,Njegovuđa,12.10.2026 09:00,4.34,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,12.10.2026 08:31,19.50,38.0,,6.60,,10.80,,1014.7
+02VELK30,klimatološka,Velika,12.10.2026 09:00,8.34,100.0,,,,,,
+02BAR010,glavna,Bar,12.10.2026 09:00,19.70,39.0,0.00,4.00,6,,295.4,1011.6
+02DANL20,klimatološka,Danilovgrad,12.10.2026 09:00,16.90,,0.00,,,,,
+02PDGR10,glavna,Podgorica,12.10.2026 09:00,18.10,36.0,0.00,5.70,2,,275.8,1006.7
+02SCPO30,klimatološka,Šćepan Polje,12.10.2026 09:00,8.45,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,12.10.2026 09:00,9.92,60.5,,,,,,
+02STIT30,klimatološka,Štitarica,12.10.2026 09:00,6.44,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,12.10.2026 09:00,18.40,42.0,0.00,0.40,2,,346.1,1007.1
+02MATE30,klimatološka,Matesevo,12.10.2026 09:00,8.85,73.5,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,12.10.2026 09:00,9.68,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,12.10.2026 09:00,5.60,69.0,0.00,1.00,4,,283.3,854.6
+02VIRP20,klimatološka,Virpazar,12.10.2026 09:00,13.20,100.0,0.00,,,,,
+02STAB30,klimatološka,Stabna,12.10.2026 09:00,11.77,54.4,,,,,,
+02NIKS10,glavna,Nikšić,12.10.2026 09:00,12.70,52.0,0.00,1.60,2,,331.9,939.2
+02KOLS10,glavna,Kolašin,12.10.2026 09:00,7.20,79.0,0.00,5.20,6,,83.8,908.7
+02PLJV10,glavna,Pljevlja,12.10.2026 09:00,6.20,90.0,0.00,1.40,16,2.20,68.6,927.7
+02MOKR30,klimatološka,Mokro,12.10.2026 09:00,8.20,76.2,,,,,,
+02ULCN10,glavna,Ulcinj,12.10.2026 09:00,19.60,50.0,0.00,5.40,4,,320.7,1011.9
+02CTNJ10,glavna,Cetinje,12.10.2026 09:00,8.60,100.0,0.00,0.30,18,,147.3,939.8
