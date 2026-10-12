@@ -76593,3 +76593,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,12.10.2026 11:00,16.68,79.8,,,,,,
 02ZBLJ10,glavna,Žabljak,12.10.2026 11:00,6.10,67.0,0.00,2.60,6,,224.0,855.2
 02STIT30,klimatološka,Štitarica,12.10.2026 11:00,9.57,74.2,,,,,,
+02VELM20,klimatološka,Velimlje,12.10.2026 11:00,14.20,44.3,0.00,2.50,2,4.30,333.0,
+02PLZN20,klimatološka,Pluzine,12.10.2026 11:00,10.67,83.7,0.00,7.60,32,14.00,335.47,931.74
+02PDGR10,glavna,Podgorica,12.10.2026 11:20,20.30,33.0,0.00,5.50,2,,424.0,1006.9
+02ULCN10,glavna,Ulcinj,12.10.2026 11:20,22.30,46.0,0.00,8.50,6,,647.6,1012.1
+02BOAN30,klimatološka,Boan,12.10.2026 11:00,11.79,57.6,,,,,,
+02HNOV10,glavna,Herceg Novi,12.10.2026 11:20,22.40,40.0,0.00,1.00,16,,441.2,1007.9
+02DDOB30,klimatološka,Donja Dobrilovina,12.10.2026 11:00,10.00,83.7,,,,,,
+02GRAD30,klimatološka,Gradac,12.10.2026 11:00,8.17,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,12.10.2026 11:00,11.50,51.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,12.10.2026 11:00,7.39,85.8,,,,,,
+02CTNJ10,glavna,Cetinje,12.10.2026 11:20,15.90,52.0,0.00,0.50,16,,522.2,940.0
+02CRKV30,klimatološka,Crkvice,12.10.2026 11:00,12.96,55.8,,,,,,
+02PLJV10,glavna,Pljevlja,12.10.2026 11:20,8.60,81.0,0.00,0.60,20,,419.4,928.1
+02KOLS10,glavna,Kolašin,12.10.2026 11:20,10.60,59.0,0.00,4.60,2,,406.5,909.2
+02ZBLJ10,glavna,Žabljak,12.10.2026 11:20,6.20,69.0,0.00,2.40,4,,307.2,855.1
+02KOSA30,klimatološka,Kosanica,12.10.2026 11:00,7.40,96.3,,,,,,
+02LKOT20,klimatološka,Luka Kotor,12.10.2026 10:46,21.30,35.0,,4.00,,5.90,,1015.4
+02BERA20,glavna,Berane,12.10.2026 11:00,12.74,63.0,0.00,1.80,28,4.90,,937.67
+02BPLJ20,klimatološka,Bijelo Polje,12.10.2026 11:00,11.33,81.2,,,,,319.8,948.86
+02BAR010,glavna,Bar,12.10.2026 11:20,22.00,40.0,0.00,2.80,6,,635.9,1011.9
+02NIKS10,glavna,Nikšić,12.10.2026 11:20,17.30,37.0,0.00,3.90,18,7.50,513.3,939.3
+02BIST20,klimatološka,Bistrica,12.10.2026 11:00,10.80,67.3,0.00,3.20,4,5.50,377.0,
+02UBLI20,klimatološka,Ubli,12.10.2026 11:00,16.01,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,12.10.2026 11:00,11.16,54.3,0.00,,,,,
