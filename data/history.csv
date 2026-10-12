@@ -77516,3 +77516,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,13.10.2026 01:00,16.50,45.0,0.00,7.80,6,,0.0,1014.1
 02STIT30,klimatološka,Štitarica,13.10.2026 01:00,5.80,92.9,,,,,,
 02VELK30,klimatološka,Velika,13.10.2026 01:00,4.76,100.0,,,,,,
+02KOLS10,glavna,Kolašin,13.10.2026 01:20,6.80,74.0,0.00,5.40,2,,0.5,912.4
+02BUDV20,klimatološka,Budva,13.10.2026 01:00,19.06,31.0,,,,,0.0,1012.78
+02BERA20,glavna,Berane,13.10.2026 01:00,6.72,78.4,0.00,0.80,2,1.50,,941.6
+02HNOV10,glavna,Herceg Novi,13.10.2026 01:20,18.20,32.0,0.00,4.70,2,,0.3,1009.4
+02GOBU30,klimatološka,Gornja Bukovica,13.10.2026 01:00,3.37,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,13.10.2026 01:00,4.42,100.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,13.10.2026 01:00,7.80,70.9,0.00,2.20,6,4.00,0.5,
+02LKOT20,klimatološka,Luka Kotor,13.10.2026 00:46,18.00,37.0,,9.40,,14.80,,1017.5
+02KUKO30,klimatološka,Kučka korita,13.10.2026 01:00,4.87,66.4,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,13.10.2026 01:20,2.60,83.0,0.00,0.70,26,,0.1,857.9
+02CTNJ10,glavna,Cetinje,13.10.2026 01:20,5.10,99.0,0.00,0.00,26,,0.3,943.2
+02BOAN30,klimatološka,Boan,13.10.2026 01:00,6.40,83.9,,,,,,
+02PLZN20,klimatološka,Pluzine,13.10.2026 01:00,8.29,92.1,0.00,5.40,2,10.40,0.0,935.73
+02IVKO30,klimatološka,Ivanova korita,13.10.2026 01:00,5.91,64.0,0.00,,,,,
+02BAR010,glavna,Bar,13.10.2026 01:20,17.60,36.0,0.00,7.10,6,,0.7,1013.7
+02CRKV30,klimatološka,Crkvice,13.10.2026 01:00,8.03,71.6,,,,,,
+02NIKS10,glavna,Nikšić,13.10.2026 01:20,10.20,53.0,0.00,7.60,32,,0.3,943.1
+02PDGR10,glavna,Podgorica,13.10.2026 01:20,15.70,39.0,0.00,10.80,2,,0.8,1010.1
+02PLJV10,glavna,Pljevlja,13.10.2026 01:20,6.10,89.0,0.00,0.60,30,,0.8,931.3
+02DDOB30,klimatološka,Donja Dobrilovina,13.10.2026 01:00,7.71,82.8,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,13.10.2026 01:00,6.77,99.6,,,,,0.0,952.47
+02UBLI20,klimatološka,Ubli,13.10.2026 01:00,11.47,,,,,,,
+02ULCN10,glavna,Ulcinj,13.10.2026 01:20,16.90,46.0,0.00,5.60,6,,0.0,1014.2
+02VELM20,klimatološka,Velimlje,13.10.2026 01:00,5.20,81.7,0.00,0.60,12,1.40,1.1,
+02GRAD30,klimatološka,Gradac,13.10.2026 01:00,5.52,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,13.10.2026 01:00,3.64,100.0,,,,,,
