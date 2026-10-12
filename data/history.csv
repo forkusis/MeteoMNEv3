@@ -77250,3 +77250,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,12.10.2026 21:00,6.30,84.0,0.00,0.90,2,,0.9,930.1
 02HNOV10,glavna,Herceg Novi,12.10.2026 21:00,16.60,40.0,0.00,0.80,2,,0.0,1008.7
 02CTNJ10,glavna,Cetinje,12.10.2026 21:00,8.10,95.0,0.00,0.00,32,,0.1,941.5
+02PLZN20,klimatološka,Pluzine,12.10.2026 21:00,9.80,89.0,0.00,8.80,32,16.60,0.0,934.13
+02KUKO30,klimatološka,Kučka korita,12.10.2026 21:00,6.68,67.6,0.00,,,,,
+02VELM20,klimatološka,Velimlje,12.10.2026 21:00,7.60,73.6,0.00,1.50,18,2.00,0.8,
+02BERA20,glavna,Berane,12.10.2026 21:00,10.07,70.7,0.00,1.70,32,4.70,,939.75
+02BOAN30,klimatološka,Boan,12.10.2026 21:00,8.40,82.8,,,,,,
+02ULCN10,glavna,Ulcinj,12.10.2026 21:20,16.70,57.0,0.00,3.70,6,,0.1,1013.2
+02HNOV10,glavna,Herceg Novi,12.10.2026 21:20,18.00,37.0,0.00,0.40,6,,0.0,1008.8
+02CTNJ10,glavna,Cetinje,12.10.2026 21:20,7.60,96.0,0.00,0.20,8,,0.7,941.7
+02PLJV10,glavna,Pljevlja,12.10.2026 21:20,6.10,86.0,0.00,1.00,2,,0.8,930.4
+02IVKO30,klimatološka,Ivanova korita,12.10.2026 21:00,5.62,82.2,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,12.10.2026 21:00,3.75,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,12.10.2026 21:00,5.27,100.0,,,,,,
+02BUDV20,klimatološka,Budva,12.10.2026 21:00,18.10,49.3,,,,,0.0,1012.21
+02UBLI20,klimatološka,Ubli,12.10.2026 21:00,13.77,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,12.10.2026 21:00,9.23,85.4,,,,,,
+02BIST20,klimatološka,Bistrica,12.10.2026 21:00,9.40,72.0,0.00,2.80,30,5.10,0.5,
+02BAR010,glavna,Bar,12.10.2026 21:20,19.40,38.0,0.00,4.30,6,,0.2,1012.9
+02ZBLJ10,glavna,Žabljak,12.10.2026 21:20,3.50,88.0,0.00,0.80,6,,0.0,857.2
+02NIKS10,glavna,Nikšić,12.10.2026 21:20,12.20,49.0,0.00,1.90,2,,0.4,941.7
+02GOBU30,klimatološka,Gornja Bukovica,12.10.2026 21:00,5.12,100.0,,,,,,
+02PDGR10,glavna,Podgorica,12.10.2026 21:20,18.00,39.0,0.00,7.60,2,,0.4,1008.3
+02BPLJ20,klimatološka,Bijelo Polje,12.10.2026 21:00,8.77,93.2,,,,,0.0,950.74
+02LKOT20,klimatološka,Luka Kotor,12.10.2026 20:46,19.10,40.0,,3.10,,7.90,,1017.0
+02KOLS10,glavna,Kolašin,12.10.2026 21:20,8.70,75.0,0.00,0.90,2,,0.0,910.9
+02CRKV30,klimatološka,Crkvice,12.10.2026 21:00,9.91,69.1,,,,,,
