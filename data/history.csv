@@ -77912,3 +77912,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MATE30,klimatološka,Matesevo,13.10.2026 07:00,1.40,95.8,0.00,,,,,
 02BAR010,glavna,Bar,13.10.2026 07:00,16.00,38.0,0.00,4.60,6,,4.6,1013.7
 02POSC30,klimatološka,Pošćenje,13.10.2026 07:00,5.94,78.6,,,,,,
+02VELM20,klimatološka,Velimlje,13.10.2026 07:00,3.80,83.5,0.00,0.20,12,0.60,6.3,
+02BIST20,klimatološka,Bistrica,13.10.2026 07:00,5.00,90.9,0.00,1.00,14,1.20,2.6,
+02HNOV10,glavna,Herceg Novi,13.10.2026 07:20,15.10,35.0,0.00,5.50,2,8.00,11.9,1010.1
+02KOLS10,glavna,Kolašin,13.10.2026 07:20,6.00,75.0,0.00,1.60,4,,6.8,911.9
+02ULCN10,glavna,Ulcinj,13.10.2026 07:20,14.10,48.0,0.00,5.20,6,,24.7,1014.2
+02GRAD30,klimatološka,Gradac,13.10.2026 07:00,4.91,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,13.10.2026 07:00,10.57,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,13.10.2026 07:00,6.08,99.0,,,,,0.25,952.15
+02IVKO30,klimatološka,Ivanova korita,13.10.2026 07:00,1.93,80.2,0.00,,,,,
+02CTNJ10,glavna,Cetinje,13.10.2026 07:20,2.70,100.0,0.00,0.50,26,,9.6,942.6
+02KOSA30,klimatološka,Kosanica,13.10.2026 07:00,2.79,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,13.10.2026 07:00,6.31,98.8,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,13.10.2026 07:00,3.17,100.0,,,,,,
+02BUDV20,klimatološka,Budva,13.10.2026 07:00,17.85,32.0,,,,,0.0,1013.09
+02LKOT20,klimatološka,Luka Kotor,13.10.2026 06:46,16.10,40.0,,3.10,,6.70,,1018.5
+02PLJV10,glavna,Pljevlja,13.10.2026 07:20,4.60,92.0,0.00,0.40,16,,3.9,931.2
+02PLZN20,klimatološka,Pluzine,13.10.2026 07:00,8.20,91.1,0.00,6.00,32,11.20,1.28,935.16
+02BOAN30,klimatološka,Boan,13.10.2026 07:00,5.51,84.0,,,,,,
+02BERA20,glavna,Berane,13.10.2026 07:00,6.74,84.5,0.00,0.80,32,1.90,,940.92
+02BAR010,glavna,Bar,13.10.2026 07:20,15.90,38.0,0.00,10.20,6,,13.1,1013.9
+02PDGR10,glavna,Podgorica,13.10.2026 07:20,15.10,40.0,0.00,3.30,32,,13.2,1009.8
+02KUKO30,klimatološka,Kučka korita,13.10.2026 07:00,4.24,70.1,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,13.10.2026 07:00,6.79,72.2,,,,,,
+02KOVR30,klimatološka,Kovren,13.10.2026 07:00,3.93,100.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,13.10.2026 07:20,2.00,83.0,0.00,0.50,26,,7.3,857.4
+02NIKS10,glavna,Nikšić,13.10.2026 07:20,9.50,53.0,0.00,6.00,32,,14.1,942.7
