@@ -79114,3 +79114,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,14.10.2026 01:00,13.90,43.0,0.00,4.60,4,,0.1,1017.2
 02MOKR30,klimatološka,Mokro,14.10.2026 01:00,5.46,63.0,,,,,,
 02SCPO30,klimatološka,Šćepan Polje,14.10.2026 01:00,6.84,99.3,,,,,,
+02CRKV30,klimatološka,Crkvice,14.10.2026 01:00,6.38,63.7,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,14.10.2026 01:00,7.09,73.4,,,,,,
+02NIKS10,glavna,Nikšić,14.10.2026 01:20,9.40,43.0,0.00,5.10,32,,0.3,945.5
+02KOLS10,glavna,Kolašin,14.10.2026 01:20,6.10,63.0,0.00,3.20,2,,0.2,914.0
+02BPLJ20,klimatološka,Bijelo Polje,14.10.2026 01:00,7.21,92.1,,,,,0.0,954.33
+02BOAN30,klimatološka,Boan,14.10.2026 01:00,5.46,76.3,,,,,,
+02KUKO30,klimatološka,Kučka korita,14.10.2026 01:00,3.42,62.4,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,14.10.2026 01:20,1.70,76.0,0.00,1.20,32,,0.7,859.3
+02GOBU30,klimatološka,Gornja Bukovica,14.10.2026 01:00,2.81,97.7,,,,,,
+02HNOV10,glavna,Herceg Novi,14.10.2026 01:20,16.20,29.0,0.00,1.30,6,,0.0,1013.6
+02BAR010,glavna,Bar,14.10.2026 01:20,15.90,34.0,0.00,4.60,2,,0.5,1016.7
+02CTNJ10,glavna,Cetinje,14.10.2026 01:20,3.70,88.0,0.00,0.30,12,,0.2,945.4
+02PLZN20,klimatološka,Pluzine,14.10.2026 01:00,8.03,87.9,0.00,6.20,32,11.60,0.0,937.56
+02KOSA30,klimatološka,Kosanica,14.10.2026 01:00,2.72,100.0,,,,,,
+02BERA20,glavna,Berane,14.10.2026 01:00,8.39,55.8,0.00,2.00,2,6.80,,943.36
+02LKOT20,klimatološka,Luka Kotor,14.10.2026 00:46,16.10,39.0,,10.40,,22.50,,1021.4
+02UBLI20,klimatološka,Ubli,14.10.2026 01:00,11.24,,,,,,,
+02BIST20,klimatološka,Bistrica,14.10.2026 01:00,7.40,59.1,0.00,4.60,30,8.00,0.5,
+02VELM20,klimatološka,Velimlje,14.10.2026 01:00,6.00,55.9,0.00,0.90,8,2.00,0.0,
+02IVKO30,klimatološka,Ivanova korita,14.10.2026 01:00,3.42,68.9,0.00,,,,,
+02GRAD30,klimatološka,Gradac,14.10.2026 01:00,4.07,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,14.10.2026 01:00,3.54,100.0,0.00,,,,,
+02BUDV20,klimatološka,Budva,14.10.2026 01:00,16.15,34.1,,,,,1.82,1016.46
+02ULCN10,glavna,Ulcinj,14.10.2026 01:20,15.00,41.0,0.00,6.60,4,,0.0,1017.2
+02PDGR10,glavna,Podgorica,14.10.2026 01:20,15.00,35.0,0.00,2.60,2,,0.2,1013.4
+02PLJV10,glavna,Pljevlja,14.10.2026 01:20,5.50,80.0,0.00,0.50,2,,0.0,933.2
