@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-10-13T10:45:57.568004+00:00",
+  "updated_at": "2026-10-13T11:01:16.976833+00:00",
   "dani": [
     {
-      "naslov": "Utorak, 13.10.2026.",
-      "azurirano": "13.10.2026. 05:21 CEST",
-      "tekst": "U južnim i centralnim oblastima sunčano uz malu mjestimičnu oblačnost. Na sjeveru pretežno oblačno sa uslovima samo za veoma rijetku pojavu slabih kratkotrajnih padavina. Vjetar sjeverni i sjeveroistočni, u južnim i centralnim oblastima umjeren do jak a u sjevernim slab do umjeren. Najviša dnevna temperatura vazduha od 6 do 23 stepena.",
+      "naslov": "Srijeda, 14.10.2026.",
+      "azurirano": "13.10.2026. 12:50 CEST",
+      "tekst": "Pretežno sunčano uz promjenljivu oblačnost u sjevernim predjelima. Vjetar mjestimično umjeren do jak, sjeverni i sjeveroistočni. Jutarnja temperatura vazduha od 0 do 17, najviša dnevna od 7 do 23 stepena.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
-      "naslov": "Srijeda, 14.10.2026.",
-      "azurirano": "12.10.2026. 13:08 CEST",
-      "tekst": "Pretežno sunčano uz promjenljivu oblačnost u sjevernim predjelima. Vjetar će mjestimično biti umjeren do jak, sjeverni i sjeveroistočni. Jutarnja temperatura vazduha od 0 do 16, najviša dnevna od 8 do 23 stepena.",
-      "podgorica": "Podgorica: Sunčano. Vjetar umjeren do jak, sjeverni. Jutarnja temperatura vazduha oko 14, najviša dnevna oko 20 stepeni."
+      "naslov": "Četvrtak, 15.10.2026.",
+      "azurirano": "13.10.2026. 12:51 CEST",
+      "tekst": "U južnim i centralnim oblastima sunčano uz malu mjestimičnu oblačnost. Na sjeveru promjenljivo oblačno sa sunčanim intervalima. Vjetar slab do umjeren, u južnim oblastima ponegdje pojačan, pretežno sjeverni i sjeveroistočni. Jutarnja temperatura vazduha od -1 do 16, najviša dnevna od 9 do 23 stepena.",
+      "podgorica": "Podgorica: Sunčano. Vjetar slab do umjeren, u jutarnjim i večernjim časovima sjeverni. Jutarnja temperatura vazduha oko 12, najviša dnevna oko 22 stepena."
     }
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "13.10.2026. 06:37 CEST",
-    "tekst": "UPOZORENJE: Tokom naredne noći ponegdje mogući udari Bure 40 do 50 čvorova. SINOPTIČKA SITUACIJA: Jadransko more se nalazi u zoni visinske doline koja se sporo premješta na istok, uz porast vazdušnog pritiska u prizemlju. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar na otvorenom moru N i NE, 12 do 24 čvora sa mjestimičnim udarima 30 do 40 čvorova, tokom noći u pojačanju na 18 do 28 čvorova sa udarima 40 do 50 čvorova. More na otvorenom 3 do 4, uz obalu 2 do 3. Tokom naredne noći na krajnem jugoistoku akvatorijuma more ponegdje 4 do 5. Vidljivost oko 20 km. Pretežno vedro. Najviša dnevna temperatura vazduha od 21 do 23 stepena.",
+    "azurirano": "13.10.2026. 12:49 CEST",
+    "tekst": "UPOZORENJE: Tokom naredne noći ponegdje mogući udari Bure 40 do 50 čvorova. SINOPTIČKA SITUACIJA: Jadransko more se nalazi u zoni visinske doline koja se sporo premješta na istok, uz porast vazdušnog pritiska u prizemlju. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar na otvorenom moru N i NE, 12 do 22 čvora sa mjestimičnim udarima 30 do 40 čvorova, tokom noći u pojačanju na 18 do 28 čvorova sa udarima 40 do 50 čvorova. More na otvorenom 3 do 4, uz obalu 2 do 3. Tokom naredne noći na krajnem jugoistoku akvatorijuma more ponegdje 4 do 5. Vidljivost oko 20 km. Pretežno vedro. Jutarnja temperatura vazduha od 14 do 17 stepeni, a najviša dnevna od 21 do 23 stepena.",
     "podgorica": ""
   }
 }
