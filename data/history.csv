@@ -79576,3 +79576,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,14.10.2026 08:00,10.40,57.0,0.00,,,,,
 02SCPO30,klimatološka,Šćepan Polje,14.10.2026 08:00,4.45,100.0,,,,,,
 02STAB30,klimatološka,Stabna,14.10.2026 08:00,6.87,62.9,,,,,,
+02PDGR10,glavna,Podgorica,14.10.2026 08:20,14.70,35.0,0.00,9.40,32,,177.9,1015.1
+02KOVR30,klimatološka,Kovren,14.10.2026 08:00,4.83,99.9,0.00,,,,,
+02CTNJ10,glavna,Cetinje,14.10.2026 08:20,3.10,86.0,0.00,0.50,4,,30.1,947.3
+02CRKV30,klimatološka,Crkvice,14.10.2026 08:00,6.39,57.7,,,,,,
+02BERA20,glavna,Berane,14.10.2026 08:00,7.03,67.8,0.00,0.70,32,2.50,,945.12
+02ZBLJ10,glavna,Žabljak,14.10.2026 08:20,1.00,77.0,0.00,2.90,2,,117.9,861.0
+02BPLJ20,klimatološka,Bijelo Polje,14.10.2026 08:00,6.09,91.5,,,,,12.06,956.34
+02LKOT20,klimatološka,Luka Kotor,14.10.2026 07:46,15.00,39.0,,5.20,,9.40,,1023.6
+02VELM20,klimatološka,Velimlje,14.10.2026 08:00,6.80,48.9,0.00,2.90,18,4.30,31.7,
+02BIST20,klimatološka,Bistrica,14.10.2026 08:00,6.50,59.6,0.00,1.30,2,2.10,32.9,
+02BUDV20,klimatološka,Budva,14.10.2026 08:00,15.54,28.5,,,,,30.39,1018.45
+02NIKS10,glavna,Nikšić,14.10.2026 08:20,9.40,40.0,0.00,6.00,2,,206.2,947.4
+02DDOB30,klimatološka,Donja Dobrilovina,14.10.2026 08:00,6.04,73.8,,,,,,
+02IVKO30,klimatološka,Ivanova korita,14.10.2026 08:00,4.28,53.8,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,14.10.2026 08:00,3.47,67.4,0.00,,,,,
+02ULCN10,glavna,Ulcinj,14.10.2026 08:20,15.80,32.0,0.00,7.40,4,9.90,199.7,1019.3
+02KOLS10,glavna,Kolašin,14.10.2026 08:20,5.50,64.0,0.00,4.70,4,,88.3,915.8
+02PLJV10,glavna,Pljevlja,14.10.2026 08:20,5.30,74.0,0.00,0.40,10,,192.9,935.2
+02GRAD30,klimatološka,Gradac,14.10.2026 08:00,2.01,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,14.10.2026 08:00,7.13,83.2,0.00,3.50,32,6.90,57.39,939.73
+02KOSA30,klimatološka,Kosanica,14.10.2026 08:00,2.04,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,14.10.2026 08:00,2.01,88.7,,,,,,
+02BOAN30,klimatološka,Boan,14.10.2026 08:00,4.62,73.2,,,,,,
+02BAR010,glavna,Bar,14.10.2026 08:20,15.80,31.0,0.00,5.20,2,,196.3,1019.2
+02UBLI20,klimatološka,Ubli,14.10.2026 08:00,10.31,,,,,,,
+02HNOV10,glavna,Herceg Novi,14.10.2026 08:20,13.20,36.0,0.00,1.30,22,,207.2,1015.1
