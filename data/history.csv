@@ -79223,3 +79223,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,14.10.2026 02:50,2.90,85.0,0.00,1.00,6,,1.4,945.5
 02LKOT20,klimatološka,Luka Kotor,14.10.2026 02:16,15.70,37.0,,9.70,,20.80,,1022.0
 02NIKS10,glavna,Nikšić,14.10.2026 02:50,8.90,45.0,0.00,5.80,2,,0.0,945.7
+02DANL20,klimatološka,Danilovgrad,14.10.2026 03:00,13.80,,0.00,,,,,
+02CTNJ10,glavna,Cetinje,14.10.2026 03:00,3.30,78.0,0.00,0.40,4,,0.8,945.5
+02PLJV10,glavna,Pljevlja,14.10.2026 03:00,5.40,81.0,0.00,0.30,2,,0.0,933.4
+02SCPO30,klimatološka,Šćepan Polje,14.10.2026 03:00,6.99,95.4,,,,,,
+02MAMO30,klimatološka,Manastir Morača,14.10.2026 03:00,11.31,47.2,,,,,,
+02STAB30,klimatološka,Stabna,14.10.2026 03:00,7.79,54.8,,,,,,
+02BAR010,glavna,Bar,14.10.2026 03:00,15.30,32.0,0.00,7.80,4,,0.7,1016.8
+02MATE30,klimatološka,Matesevo,14.10.2026 03:00,5.45,55.6,0.00,,,,,
+02MOKR30,klimatološka,Mokro,14.10.2026 03:00,5.23,60.2,,,,,,
+02NIKS10,glavna,Nikšić,14.10.2026 03:00,8.90,45.0,0.00,8.90,32,17.80,0.0,945.7
+02STIT30,klimatološka,Štitarica,14.10.2026 03:00,5.32,73.9,,,,,,
+02PDGR10,glavna,Podgorica,14.10.2026 03:00,14.60,32.0,0.00,11.20,32,19.00,0.6,1013.5
+02POSC30,klimatološka,Pošćenje,14.10.2026 03:00,5.31,72.6,,,,,,
+02HNOV10,glavna,Herceg Novi,14.10.2026 03:00,12.10,47.0,0.00,1.60,22,,2.2,1013.5
+02ULCN10,glavna,Ulcinj,14.10.2026 03:00,14.20,39.0,0.00,4.60,4,,0.0,1017.2
+02VIRP20,klimatološka,Virpazar,14.10.2026 03:00,15.20,30.0,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,14.10.2026 02:31,15.60,39.0,,9.10,,18.30,,1021.9
+02VELK30,klimatološka,Velika,14.10.2026 03:00,5.22,68.0,,,,,,
+02ZBLJ10,glavna,Žabljak,14.10.2026 03:00,1.40,71.0,0.00,3.30,30,,0.0,859.5
+02NJGV30,klimatološka,Njegovuđa,14.10.2026 03:00,2.23,87.9,,,,,,
+02KOLS10,glavna,Kolašin,14.10.2026 03:00,5.60,66.0,0.00,2.60,2,,0.2,914.0
