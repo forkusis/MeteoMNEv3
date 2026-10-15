@@ -81803,3 +81803,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,15.10.2026 17:50,18.40,57.0,0.00,0.20,22,,19.0,1015.1
 02KOLS10,glavna,Kolašin,15.10.2026 17:50,10.20,59.0,0.00,1.70,2,,10.7,915.1
 02PDGR10,glavna,Podgorica,15.10.2026 17:50,20.10,29.0,0.00,5.90,32,,15.3,1014.0
+02ZBLJ10,glavna,Žabljak,15.10.2026 18:00,6.10,73.0,0.00,1.30,30,,2.4,861.2
+02NIKS10,glavna,Nikšić,15.10.2026 18:00,13.50,43.0,0.00,6.80,32,8.40,6.6,946.8
+02STIT30,klimatološka,Štitarica,15.10.2026 18:00,8.95,73.8,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,15.10.2026 18:00,10.05,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,15.10.2026 18:00,16.04,47.4,,,,,,
+02STAB30,klimatološka,Stabna,15.10.2026 18:00,12.08,60.8,,,,,,
+02PDGR10,glavna,Podgorica,15.10.2026 18:00,20.00,30.0,0.00,5.70,32,,6.5,1014.1
+02LKOT20,klimatološka,Luka Kotor,15.10.2026 17:31,18.00,59.0,,0.80,,2.50,,1022.8
+02KOLS10,glavna,Kolašin,15.10.2026 18:00,9.90,59.0,0.00,1.60,2,,4.1,915.3
+02VIRP20,klimatološka,Virpazar,15.10.2026 18:00,15.00,70.0,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,15.10.2026 18:00,9.58,68.9,,,,,,
+02CTNJ10,glavna,Cetinje,15.10.2026 18:00,13.60,47.0,0.00,0.40,22,,6.5,946.9
+02DANL20,klimatološka,Danilovgrad,15.10.2026 18:00,18.30,,0.00,,,,,
+02ULCN10,glavna,Ulcinj,15.10.2026 18:00,16.00,66.0,0.00,0.40,28,,6.3,1020.2
+02HNOV10,glavna,Herceg Novi,15.10.2026 18:00,17.80,59.0,0.00,0.50,32,,8.4,1015.1
+02NJGV30,klimatološka,Njegovuđa,15.10.2026 18:00,6.75,83.2,,,,,,
+02PLJV10,glavna,Pljevlja,15.10.2026 18:00,10.30,67.0,0.00,0.70,24,,3.4,933.7
+02VELK30,klimatološka,Velika,15.10.2026 18:00,8.89,78.1,,,,,,
+02BAR010,glavna,Bar,15.10.2026 18:00,18.50,53.0,0.00,0.70,10,,6.7,1019.7
+02MOKR30,klimatološka,Mokro,15.10.2026 18:00,9.41,58.0,,,,,,
+02MATE30,klimatološka,Matesevo,15.10.2026 18:00,8.90,63.7,0.00,,,,,
