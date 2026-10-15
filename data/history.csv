@@ -82292,3 +82292,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,16.10.2026 00:31,19.00,41.0,,5.50,,10.80,,1023.0
 02KOLS10,glavna,Kolašin,16.10.2026 01:00,8.70,71.0,0.00,0.10,2,,0.0,914.5
 02MATE30,klimatološka,Matesevo,16.10.2026 01:00,6.09,83.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,16.10.2026 01:20,2.40,90.0,0.00,0.80,24,,0.7,860.3
+02KOLS10,glavna,Kolašin,16.10.2026 01:20,8.50,72.0,0.00,1.80,32,,0.1,914.6
+02BIST20,klimatološka,Bistrica,16.10.2026 01:00,6.60,88.5,0.00,0.30,10,0.50,0.5,
+02PLJV10,glavna,Pljevlja,16.10.2026 01:20,4.30,92.0,0.00,0.20,16,,0.0,933.6
+02BUDV20,klimatološka,Budva,16.10.2026 01:00,15.24,56.7,,,,,0.0,1018.82
+02KOVR30,klimatološka,Kovren,16.10.2026 01:00,5.73,100.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,16.10.2026 01:00,6.19,97.7,,,,,,
+02CRKV30,klimatološka,Crkvice,16.10.2026 01:00,6.66,91.7,,,,,,
+02IVKO30,klimatološka,Ivanova korita,16.10.2026 01:00,6.53,62.3,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,16.10.2026 01:20,13.20,56.0,0.00,1.60,26,,0.6,1015.5
+02CTNJ10,glavna,Cetinje,16.10.2026 01:20,5.40,89.0,0.00,0.60,4,,1.1,947.2
+02GOBU30,klimatološka,Gornja Bukovica,16.10.2026 01:00,5.24,100.0,,,,,,
+02NIKS10,glavna,Nikšić,16.10.2026 01:20,10.80,59.0,0.00,4.50,2,,0.7,946.9
+02DDOB30,klimatološka,Donja Dobrilovina,16.10.2026 01:00,7.31,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,16.10.2026 01:00,7.00,73.5,0.00,1.00,12,1.70,1.6,
+02BERA20,glavna,Berane,16.10.2026 01:00,6.85,88.8,0.00,0.00,32,0.70,,943.46
+02KUKO30,klimatološka,Kučka korita,16.10.2026 01:00,5.47,68.9,0.00,,,,,
+02BAR010,glavna,Bar,16.10.2026 01:20,18.60,35.0,0.00,2.70,6,,0.6,1019.2
+02PLZN20,klimatološka,Pluzine,16.10.2026 01:00,10.53,86.6,0.00,1.60,4,3.40,0.0,937.95
+02BPLJ20,klimatološka,Bijelo Polje,16.10.2026 01:00,6.00,97.8,,,,,0.0,954.69
+02UBLI20,klimatološka,Ubli,16.10.2026 01:00,10.34,,,,,,,
+02PDGR10,glavna,Podgorica,16.10.2026 01:20,17.20,39.0,0.00,3.20,30,,0.2,1014.6
+02KOSA30,klimatološka,Kosanica,16.10.2026 01:00,1.55,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,16.10.2026 01:20,14.10,58.0,0.00,4.30,6,,0.0,1019.8
+02GRAD30,klimatološka,Gradac,16.10.2026 01:00,2.61,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,16.10.2026 00:46,18.60,40.0,,3.90,,7.10,,1023.0
