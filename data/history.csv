@@ -80825,3 +80825,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MATE30,klimatološka,Matesevo,15.10.2026 03:00,-0.73,90.9,0.00,,,,,
 02BAR010,glavna,Bar,15.10.2026 03:00,15.70,26.0,0.00,2.20,2,,0.3,1022.4
 02STIT30,klimatološka,Štitarica,15.10.2026 03:00,-0.90,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,15.10.2026 03:20,2.50,71.0,0.00,1.40,26,,0.0,863.6
+02BPLJ20,klimatološka,Bijelo Polje,15.10.2026 03:00,0.11,100.0,,,,,0.0,959.82
+02DDOB30,klimatološka,Donja Dobrilovina,15.10.2026 03:00,0.86,100.0,,,,,,
+02BOAN30,klimatološka,Boan,15.10.2026 03:00,1.85,94.9,,,,,,
+02KUKO30,klimatološka,Kučka korita,15.10.2026 03:00,5.19,33.6,0.00,,,,,
+02VELM20,klimatološka,Velimlje,15.10.2026 03:00,7.70,51.6,0.00,1.90,18,3.40,0.1,
+02CTNJ10,glavna,Cetinje,15.10.2026 03:20,0.90,90.0,0.00,0.60,10,,0.6,949.3
+02PDGR10,glavna,Podgorica,15.10.2026 03:20,15.90,28.0,0.00,3.70,28,,0.6,1017.4
+02KOSA30,klimatološka,Kosanica,15.10.2026 03:00,-2.84,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,15.10.2026 03:00,0.55,100.0,,,,,,
+02KOLS10,glavna,Kolašin,15.10.2026 03:20,4.50,71.0,0.00,1.10,2,,0.0,918.6
+02NIKS10,glavna,Nikšić,15.10.2026 03:20,8.70,39.0,0.00,6.00,2,11.70,0.4,949.5
+02HNOV10,glavna,Herceg Novi,15.10.2026 03:20,11.90,30.0,0.00,0.90,28,1.90,0.0,1017.4
+02KOVR30,klimatološka,Kovren,15.10.2026 03:00,2.98,100.0,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,15.10.2026 03:00,10.10,46.2,,,,,,
+02BUDV20,klimatološka,Budva,15.10.2026 03:00,15.09,26.6,,,,,3.41,1020.93
+02PLJV10,glavna,Pljevlja,15.10.2026 03:20,0.70,93.0,0.00,0.20,20,,0.0,938.2
+02ULCN10,glavna,Ulcinj,15.10.2026 03:20,12.00,47.0,0.00,5.00,6,,0.6,1022.5
+02PLZN20,klimatološka,Pluzine,15.10.2026 03:00,9.56,73.1,0.00,2.80,32,6.00,0.0,941.88
+02BERA20,glavna,Berane,15.10.2026 03:00,-0.09,96.6,0.00,0.00,32,0.70,,948.57
+02IVKO30,klimatološka,Ivanova korita,15.10.2026 03:00,7.15,31.3,0.00,,,,,
+02UBLI20,klimatološka,Ubli,15.10.2026 03:00,8.82,,,,,,,
+02BIST20,klimatološka,Bistrica,15.10.2026 03:00,0.20,95.7,0.00,0.30,18,0.60,4.0,
+02LKOT20,klimatološka,Luka Kotor,15.10.2026 02:46,17.80,29.0,,4.60,,8.60,,1025.3
+02GOBU30,klimatološka,Gornja Bukovica,15.10.2026 03:00,2.95,82.5,,,,,,
+02BAR010,glavna,Bar,15.10.2026 03:20,15.60,23.0,0.00,1.80,2,,0.0,1022.1
