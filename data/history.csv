@@ -82489,3 +82489,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,16.10.2026 04:00,15.90,43.0,0.00,0.90,28,,0.0,1013.9
 02POSC30,klimatološka,Pošćenje,16.10.2026 04:00,7.15,77.7,,,,,,
 02MATE30,klimatološka,Matesevo,16.10.2026 04:00,5.09,87.8,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,16.10.2026 03:46,17.30,44.0,,3.40,,5.70,,1022.4
+02BOAN30,klimatološka,Boan,16.10.2026 04:00,6.18,89.7,,,,,,
+02PDGR10,glavna,Podgorica,16.10.2026 04:20,15.50,44.0,0.00,1.20,26,,0.4,1013.7
+02KUKO30,klimatološka,Kučka korita,16.10.2026 04:00,4.77,73.2,0.00,,,,,
+02BAR010,glavna,Bar,16.10.2026 04:20,17.70,37.0,0.00,4.20,6,,0.4,1018.4
+02BIST20,klimatološka,Bistrica,16.10.2026 04:00,8.50,73.7,0.00,1.50,4,1.80,1.1,
+02CTNJ10,glavna,Cetinje,16.10.2026 04:20,4.00,95.0,0.00,0.50,2,,0.1,946.3
+02KOLS10,glavna,Kolašin,16.10.2026 04:20,7.90,72.0,0.00,0.70,2,,0.2,913.3
+02NIKS10,glavna,Nikšić,16.10.2026 04:20,9.50,62.0,0.00,1.70,32,,0.0,945.9
+02IVKO30,klimatološka,Ivanova korita,16.10.2026 04:00,6.21,60.4,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,16.10.2026 04:00,5.76,100.0,,,,,,
+02BUDV20,klimatološka,Budva,16.10.2026 04:00,14.43,51.7,,,,,0.0,1018.04
+02UBLI20,klimatološka,Ubli,16.10.2026 04:00,9.26,,,,,,,
+02HNOV10,glavna,Herceg Novi,16.10.2026 04:20,12.50,64.0,0.00,1.70,26,,0.8,1014.6
+02KOVR30,klimatološka,Kovren,16.10.2026 04:00,4.43,100.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,16.10.2026 04:00,4.07,100.0,,,,,0.0,953.77
+02ZBLJ10,glavna,Žabljak,16.10.2026 04:20,2.70,82.0,0.00,1.80,26,,0.3,858.9
+02VELM20,klimatološka,Velimlje,16.10.2026 04:00,8.50,64.4,0.00,1.10,10,1.70,0.0,
+02GRAD30,klimatološka,Gradac,16.10.2026 04:00,2.96,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,16.10.2026 04:00,8.83,66.5,,,,,,
+02PLJV10,glavna,Pljevlja,16.10.2026 04:20,3.00,96.0,0.00,0.10,32,,0.3,932.5
+02KOSA30,klimatološka,Kosanica,16.10.2026 04:00,-0.82,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,16.10.2026 04:00,10.10,83.4,0.00,2.50,4,6.70,0.0,936.94
+02ULCN10,glavna,Ulcinj,16.10.2026 04:20,14.50,55.0,0.00,3.60,6,,0.0,1018.9
+02BERA20,glavna,Berane,16.10.2026 04:00,5.30,97.0,0.00,0.00,32,0.60,,942.71
