@@ -83086,3 +83086,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,16.10.2026 13:00,23.40,,0.00,,,,,
 02ULCN10,glavna,Ulcinj,16.10.2026 13:00,21.20,32.0,0.00,7.60,6,,682.1,1016.5
 02ZBLJ10,glavna,Žabljak,16.10.2026 13:00,4.90,58.0,0.00,2.10,30,,275.0,857.4
+02KOSA30,klimatološka,Kosanica,16.10.2026 13:00,7.31,70.6,,,,,,
+02CRKV30,klimatološka,Crkvice,16.10.2026 13:00,12.21,42.1,,,,,,
+02PDGR10,glavna,Podgorica,16.10.2026 13:20,20.10,22.0,0.00,8.40,2,,628.7,1010.9
+02UBLI20,klimatološka,Ubli,16.10.2026 13:00,15.91,,,,,,,
+02CTNJ10,glavna,Cetinje,16.10.2026 13:20,16.40,30.0,0.00,2.60,2,,623.9,943.1
+02BUDV20,klimatološka,Budva,16.10.2026 13:00,21.12,27.7,,,,,690.86,1015.43
+02GOBU30,klimatološka,Gornja Bukovica,16.10.2026 13:00,6.37,63.1,,,,,,
+02BIST20,klimatološka,Bistrica,16.10.2026 13:00,9.40,51.7,0.00,2.40,4,4.10,117.9,
+02BAR010,glavna,Bar,16.10.2026 13:20,21.00,25.0,0.00,3.20,32,,628.1,1016.0
+02KUKO30,klimatološka,Kučka korita,16.10.2026 13:00,7.86,46.8,0.00,,,,,
+02GRAD30,klimatološka,Gradac,16.10.2026 13:00,12.52,45.4,,,,,,
+02KOVR30,klimatološka,Kovren,16.10.2026 13:00,6.91,81.6,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,16.10.2026 13:20,21.30,31.0,0.00,0.80,10,,629.3,1012.1
+02NIKS10,glavna,Nikšić,16.10.2026 13:20,14.20,31.0,0.00,5.80,2,,605.1,943.3
+02VELM20,klimatološka,Velimlje,16.10.2026 13:00,13.30,35.9,0.00,3.50,30,4.70,654.4,
+02PLZN20,klimatološka,Pluzine,16.10.2026 13:00,11.45,53.1,0.00,6.70,32,13.10,810.1,935.06
+02PLJV10,glavna,Pljevlja,16.10.2026 13:20,9.90,55.0,0.00,2.60,2,,116.8,930.5
+02BPLJ20,klimatološka,Bijelo Polje,16.10.2026 13:00,11.13,52.3,,,,,216.5,951.3
+02DDOB30,klimatološka,Donja Dobrilovina,16.10.2026 13:00,9.46,57.3,,,,,,
+02ZBLJ10,glavna,Žabljak,16.10.2026 13:20,4.80,59.0,0.00,2.70,30,,164.4,857.3
+02POSC30,klimatološka,Pošćenje,16.10.2026 13:00,10.63,47.5,,,,,,
+02BOAN30,klimatološka,Boan,16.10.2026 13:00,9.04,53.4,,,,,,
+02ULCN10,glavna,Ulcinj,16.10.2026 13:20,21.50,31.0,0.00,3.10,8,,668.4,1016.3
+02BERA20,glavna,Berane,16.10.2026 13:00,10.46,55.1,0.00,2.00,30,5.30,,940.44
+02KOLS10,glavna,Kolašin,16.10.2026 13:20,9.20,46.0,0.00,1.00,32,,184.1,911.7
+02LKOT20,klimatološka,Luka Kotor,16.10.2026 12:46,20.00,31.0,,5.80,,11.00,,1019.5
+02IVKO30,klimatološka,Ivanova korita,16.10.2026 13:00,10.99,39.0,0.00,,,,,
