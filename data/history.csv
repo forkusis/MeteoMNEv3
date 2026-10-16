@@ -83823,3 +83823,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,17.10.2026 00:00,9.10,49.0,0.00,3.00,2,,0.8,943.9
 02ULCN10,glavna,Ulcinj,17.10.2026 00:00,10.70,52.0,0.00,5.30,4,,0.5,1017.2
 02STAB30,klimatološka,Stabna,17.10.2026 00:00,5.38,80.8,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,17.10.2026 00:00,4.53,96.9,,,,,0.0,951.44
+02NIKS10,glavna,Nikšić,17.10.2026 00:20,9.30,50.0,0.00,3.10,32,,0.0,943.9
+02KOSA30,klimatološka,Kosanica,17.10.2026 00:00,0.85,100.0,,,,,,
+02BUDV20,klimatološka,Budva,17.10.2026 00:00,15.25,36.2,,,,,0.0,1016.62
+02ZBLJ10,glavna,Žabljak,17.10.2026 00:20,1.40,80.0,0.00,1.10,26,,0.0,856.6
+02HNOV10,glavna,Herceg Novi,17.10.2026 00:20,10.50,54.0,0.00,0.80,22,,1.2,1013.3
+02UBLI20,klimatološka,Ubli,17.10.2026 00:00,5.38,,,,,,,
+02CRKV30,klimatološka,Crkvice,17.10.2026 00:00,6.30,71.2,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,17.10.2026 00:00,4.04,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,17.10.2026 00:20,11.70,50.0,0.00,5.20,4,,0.0,1017.2
+02VELM20,klimatološka,Velimlje,17.10.2026 00:00,3.20,75.1,0.00,3.00,2,5.20,2.5,
+02BIST20,klimatološka,Bistrica,17.10.2026 00:00,4.10,86.6,0.00,0.80,14,1.20,0.6,
+02PDGR10,glavna,Podgorica,17.10.2026 00:20,14.20,39.0,0.00,3.80,32,,0.4,1012.1
+02BERA20,glavna,Berane,17.10.2026 00:00,3.34,92.6,0.00,0.90,8,1.60,,940.58
+02KOVR30,klimatološka,Kovren,17.10.2026 00:00,2.67,100.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,17.10.2026 00:20,5.90,72.0,0.00,3.40,2,,0.1,911.2
+02PLJV10,glavna,Pljevlja,17.10.2026 00:20,3.80,87.0,0.00,0.70,28,,0.0,930.3
+02GRAD30,klimatološka,Gradac,17.10.2026 00:00,2.30,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,17.10.2026 00:20,4.60,76.0,0.00,0.30,8,,0.0,944.2
+02BOAN30,klimatološka,Boan,17.10.2026 00:00,4.16,89.8,,,,,,
+02KUKO30,klimatološka,Kučka korita,17.10.2026 00:00,2.93,66.0,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,16.10.2026 23:46,15.40,40.0,,4.00,,8.10,,1021.3
+02PLZN20,klimatološka,Pluzine,17.10.2026 00:00,7.74,83.8,0.00,2.80,2,7.90,0.0,934.85
+02GOBU30,klimatološka,Gornja Bukovica,17.10.2026 00:00,2.97,98.6,,,,,,
+02IVKO30,klimatološka,Ivanova korita,17.10.2026 00:00,2.17,74.6,0.00,,,,,
+02BAR010,glavna,Bar,17.10.2026 00:20,15.20,35.0,0.00,1.50,6,,0.2,1016.9
