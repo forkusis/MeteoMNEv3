@@ -83803,3 +83803,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,16.10.2026 23:50,5.70,72.0,0.00,0.00,4,,0.1,944.2
 02PDGR10,glavna,Podgorica,16.10.2026 23:50,13.90,39.0,0.00,1.80,32,,0.5,1012.1
 02KOLS10,glavna,Kolašin,16.10.2026 23:50,5.70,73.0,0.00,4.30,2,,0.0,911.1
+02STIT30,klimatološka,Štitarica,17.10.2026 00:00,5.13,85.4,,,,,,
+02NJGV30,klimatološka,Njegovuđa,17.10.2026 00:00,2.09,96.4,,,,,,
+02PLJV10,glavna,Pljevlja,17.10.2026 00:00,3.80,88.0,0.00,0.40,2,,0.0,930.3
+02SCPO30,klimatološka,Šćepan Polje,17.10.2026 00:00,4.15,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,16.10.2026 23:31,15.20,40.0,,2.20,,4.80,,1021.3
+02ZBLJ10,glavna,Žabljak,17.10.2026 00:00,1.50,79.0,0.00,0.80,30,,0.5,856.6
+02CTNJ10,glavna,Cetinje,17.10.2026 00:00,5.10,77.0,0.00,0.50,26,,0.0,944.2
+02DANL20,klimatološka,Danilovgrad,17.10.2026 00:00,9.90,,0.00,,,,,
+02PDGR10,glavna,Podgorica,17.10.2026 00:00,14.00,39.0,0.00,4.80,32,,0.6,1011.9
+02HNOV10,glavna,Herceg Novi,17.10.2026 00:00,11.70,43.0,0.00,0.40,30,,0.0,1013.3
+02KOLS10,glavna,Kolašin,17.10.2026 00:00,5.70,72.0,0.00,3.30,2,,0.1,911.0
+02MATE30,klimatološka,Matesevo,17.10.2026 00:00,2.69,86.7,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,17.10.2026 00:00,9.80,62.0,0.00,,,,,
+02BAR010,glavna,Bar,17.10.2026 00:00,15.40,35.0,0.00,6.70,6,,0.4,1016.7
+02POSC30,klimatološka,Pošćenje,17.10.2026 00:00,5.61,74.3,,,,,,
+02MAMO30,klimatološka,Manastir Morača,17.10.2026 00:00,8.80,72.5,,,,,,
+02MOKR30,klimatološka,Mokro,17.10.2026 00:00,5.44,66.1,,,,,,
+02NIKS10,glavna,Nikšić,17.10.2026 00:00,9.10,49.0,0.00,3.00,2,,0.8,943.9
+02ULCN10,glavna,Ulcinj,17.10.2026 00:00,10.70,52.0,0.00,5.30,4,,0.5,1017.2
+02STAB30,klimatološka,Stabna,17.10.2026 00:00,5.38,80.8,,,,,,
