@@ -85005,3 +85005,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,17.10.2026 18:00,12.58,60.0,,,,,,
 02DANL20,klimatološka,Danilovgrad,17.10.2026 18:00,15.30,,0.00,,,,,
 02LKOT20,klimatološka,Luka Kotor,17.10.2026 17:31,16.10,58.0,,0.90,,2.30,,1017.9
+02HNOV10,glavna,Herceg Novi,17.10.2026 18:20,14.90,52.0,0.00,0.50,26,,0.6,1010.3
+02LKOT20,klimatološka,Luka Kotor,17.10.2026 17:46,16.20,58.0,,0.80,,2.40,,1018.0
+02ZBLJ10,glavna,Žabljak,17.10.2026 18:20,4.90,63.0,0.00,0.50,8,,0.0,853.9
+02UBLI20,klimatološka,Ubli,17.10.2026 18:00,13.38,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,17.10.2026 18:00,5.01,89.3,0.00,,,,,
+02BERA20,glavna,Berane,17.10.2026 18:00,9.01,67.8,0.00,0.30,32,0.70,,937.19
+02GRAD30,klimatološka,Gradac,17.10.2026 18:00,8.89,86.9,,,,,,
+02NIKS10,glavna,Nikšić,17.10.2026 18:20,11.10,47.0,0.00,2.20,12,,0.3,940.3
+02GOBU30,klimatološka,Gornja Bukovica,17.10.2026 18:00,6.59,56.3,,,,,,
+02BOAN30,klimatološka,Boan,17.10.2026 18:00,8.83,52.7,,,,,,
+02CTNJ10,glavna,Cetinje,17.10.2026 18:20,8.90,79.0,0.00,0.40,20,,0.2,941.3
+02PDGR10,glavna,Podgorica,17.10.2026 18:20,17.00,40.0,0.00,1.10,16,,1.4,1008.7
+02BUDV20,klimatološka,Budva,17.10.2026 18:00,16.96,54.9,,,,,0.0,1013.93
+02PLJV10,glavna,Pljevlja,17.10.2026 18:20,8.40,73.0,0.00,0.40,30,,0.0,926.3
+02BIST20,klimatološka,Bistrica,17.10.2026 18:00,8.30,74.6,0.00,0.20,20,0.40,0.5,
+02PLZN20,klimatološka,Pluzine,17.10.2026 18:00,12.75,52.5,0.00,1.20,8,2.60,24.09,930.42
+02ULCN10,glavna,Ulcinj,17.10.2026 18:20,16.50,54.0,0.00,0.60,26,,0.0,1014.7
+02CRKV30,klimatološka,Crkvice,17.10.2026 18:00,6.93,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,17.10.2026 18:00,11.30,53.5,0.00,3.00,20,4.00,1.6,
+02DDOB30,klimatološka,Donja Dobrilovina,17.10.2026 18:00,7.93,90.9,,,,,,
+02POSC30,klimatološka,Pošćenje,17.10.2026 18:00,9.09,53.2,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,17.10.2026 18:00,10.31,71.5,,,,,0.0,947.4
+02KOLS10,glavna,Kolašin,17.10.2026 18:20,7.80,66.0,0.00,0.60,20,,0.0,908.6
+02BAR010,glavna,Bar,17.10.2026 18:20,17.30,57.0,0.00,1.70,26,,0.3,1014.6
+02KOSA30,klimatološka,Kosanica,17.10.2026 18:00,5.96,79.7,,,,,,
+02KUKO30,klimatološka,Kučka korita,17.10.2026 18:00,7.06,66.6,0.00,,,,,
