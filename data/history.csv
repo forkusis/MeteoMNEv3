@@ -85200,3 +85200,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,17.10.2026 20:31,14.00,67.0,,0.60,,1.40,,1018.6
 02BAR010,glavna,Bar,17.10.2026 21:00,14.70,61.0,0.00,2.20,4,,0.3,1015.4
 02STIT30,klimatološka,Štitarica,17.10.2026 21:00,2.82,100.0,,,,,,
+02BERA20,glavna,Berane,17.10.2026 21:00,6.20,85.4,0.00,0.00,32,1.10,,937.59
+02NIKS10,glavna,Nikšić,17.10.2026 21:20,7.10,66.0,0.00,1.10,32,,0.3,941.4
+02CTNJ10,glavna,Cetinje,17.10.2026 21:20,4.60,94.0,0.00,0.40,8,,0.9,942.4
+02UBLI20,klimatološka,Ubli,17.10.2026 21:00,9.15,,,,,,,
+02HNOV10,glavna,Herceg Novi,17.10.2026 21:20,12.20,64.0,0.00,1.80,22,,1.2,1011.3
+02KUKO30,klimatološka,Kučka korita,17.10.2026 21:00,4.97,73.3,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,17.10.2026 21:00,3.65,84.5,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,17.10.2026 21:00,2.13,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,17.10.2026 21:20,14.50,68.0,0.00,2.20,6,,0.0,1015.4
+02GOBU30,klimatološka,Gornja Bukovica,17.10.2026 21:00,0.20,97.7,,,,,,
+02ZBLJ10,glavna,Žabljak,17.10.2026 21:20,3.20,77.0,0.00,0.40,18,,0.0,854.4
+02POSC30,klimatološka,Pošćenje,17.10.2026 21:00,1.79,92.4,,,,,,
+02GRAD30,klimatološka,Gradac,17.10.2026 21:00,6.25,100.0,,,,,,
+02KOLS10,glavna,Kolašin,17.10.2026 21:20,3.70,88.0,0.00,0.60,20,,1.1,909.3
+02KOVR30,klimatološka,Kovren,17.10.2026 21:00,5.31,100.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,17.10.2026 21:20,12.40,61.0,0.00,0.20,22,,0.4,1009.7
+02BPLJ20,klimatološka,Bijelo Polje,17.10.2026 21:00,7.63,91.3,,,,,0.0,948.15
+02VELM20,klimatološka,Velimlje,17.10.2026 21:00,5.30,79.5,0.00,0.60,30,0.70,1.0,
+02CRKV30,klimatološka,Crkvice,17.10.2026 21:00,3.28,100.0,,,,,,
+02BAR010,glavna,Bar,17.10.2026 21:20,14.40,62.0,0.00,2.50,6,,1.1,1015.4
+02BOAN30,klimatološka,Boan,17.10.2026 21:00,2.85,84.1,,,,,,
+02PLZN20,klimatološka,Pluzine,17.10.2026 21:00,9.43,79.5,0.00,0.00,32,0.60,12.83,931.64
+02DDOB30,klimatološka,Donja Dobrilovina,17.10.2026 21:00,4.65,90.6,,,,,,
+02LKOT20,klimatološka,Luka Kotor,17.10.2026 20:46,13.90,65.0,,0.50,,1.40,,1018.9
+02BUDV20,klimatološka,Budva,17.10.2026 21:00,15.38,62.7,,,,,0.0,1014.62
+02BIST20,klimatološka,Bistrica,17.10.2026 21:00,5.00,84.6,0.00,0.80,16,1.20,0.7,
+02PLJV10,glavna,Pljevlja,17.10.2026 21:20,7.10,82.0,0.00,0.50,24,,1.3,926.9
