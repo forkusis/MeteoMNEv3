@@ -85134,3 +85134,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,17.10.2026 20:00,2.99,85.5,,,,,,
 02LKOT20,klimatološka,Luka Kotor,17.10.2026 19:31,15.00,62.0,,1.20,,2.20,,1018.3
 02BAR010,glavna,Bar,17.10.2026 20:00,15.30,60.0,0.00,1.80,6,,0.6,1015.2
+02GRAD30,klimatološka,Gradac,17.10.2026 20:00,6.38,100.0,,,,,,
+02NIKS10,glavna,Nikšić,17.10.2026 20:20,9.30,58.0,0.00,2.00,32,2.30,0.0,941.1
+02BAR010,glavna,Bar,17.10.2026 20:20,15.10,60.0,0.00,2.20,6,,0.4,1015.2
+02DDOB30,klimatološka,Donja Dobrilovina,17.10.2026 20:00,6.34,81.9,,,,,,
+02POSC30,klimatološka,Pošćenje,17.10.2026 20:00,3.88,76.6,,,,,,
+02HNOV10,glavna,Herceg Novi,17.10.2026 20:20,12.50,65.0,0.00,1.60,22,,0.5,1011.0
+02UBLI20,klimatološka,Ubli,17.10.2026 20:00,10.91,,,,,,,
+02KOLS10,glavna,Kolašin,17.10.2026 20:20,4.80,84.0,0.00,0.30,20,,0.1,909.1
+02BERA20,glavna,Berane,17.10.2026 20:00,8.09,77.6,0.00,0.00,32,0.70,,937.49
+02GOBU30,klimatološka,Gornja Bukovica,17.10.2026 20:00,0.96,91.1,,,,,,
+02IVKO30,klimatološka,Ivanova korita,17.10.2026 20:00,4.57,85.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,17.10.2026 20:00,8.28,86.7,,,,,0.0,948.1
+02BOAN30,klimatološka,Boan,17.10.2026 20:00,5.09,74.0,,,,,,
+02BIST20,klimatološka,Bistrica,17.10.2026 20:00,6.20,81.7,0.00,0.50,24,0.60,0.6,
+02LKOT20,klimatološka,Luka Kotor,17.10.2026 19:46,15.10,63.0,,0.90,,2.20,,1018.5
+02VELM20,klimatološka,Velimlje,17.10.2026 20:00,6.90,71.8,0.00,0.30,12,0.40,0.0,
+02CRKV30,klimatološka,Crkvice,17.10.2026 20:00,4.36,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,17.10.2026 20:00,10.04,73.8,0.00,0.60,14,1.40,10.95,931.47
+02PDGR10,glavna,Podgorica,17.10.2026 20:20,13.80,54.0,0.00,1.30,30,,0.9,1009.5
+02CTNJ10,glavna,Cetinje,17.10.2026 20:20,6.00,91.0,0.00,0.10,8,,0.4,942.0
+02KUKO30,klimatološka,Kučka korita,17.10.2026 20:00,5.48,73.2,0.00,,,,,
+02PLJV10,glavna,Pljevlja,17.10.2026 20:20,7.10,80.0,0.00,0.10,32,,0.0,926.8
+02ZBLJ10,glavna,Žabljak,17.10.2026 20:20,3.10,75.0,0.00,0.60,8,,0.6,854.3
+02ULCN10,glavna,Ulcinj,17.10.2026 20:20,15.80,60.0,0.00,1.60,24,,0.0,1015.1
+02KOSA30,klimatološka,Kosanica,17.10.2026 20:00,3.22,100.0,,,,,,
+02BUDV20,klimatološka,Budva,17.10.2026 20:00,15.48,62.4,,,,,0.0,1014.4
