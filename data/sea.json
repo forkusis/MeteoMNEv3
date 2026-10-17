@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-17T06:01:20.552889+00:00",
-  "mjerenje_labela": "Petak, 16.10.2026. u   14h",
+  "updated_at": "2026-10-17T06:16:00.146554+00:00",
+  "mjerenje_labela": "Subota, 17.10.2026. Temperatura mora u    8h (°C)",
   "stations": [
     {
       "naziv": "Herceg Novi",
@@ -8,11 +8,11 @@
     },
     {
       "naziv": "Bar",
-      "vrijednost": 20.0
+      "vrijednost": 19.0
     },
     {
       "naziv": "Ulcinj",
-      "vrijednost": 20.0
+      "vrijednost": 19.0
     }
   ]
 }
