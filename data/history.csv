@@ -84617,3 +84617,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,17.10.2026 12:00,19.30,32.0,0.00,5.30,6,8.40,679.2,1016.5
 02VIRP20,klimatološka,Virpazar,17.10.2026 12:00,17.50,36.0,0.00,,,,,
 02STAB30,klimatološka,Stabna,17.10.2026 12:00,10.86,50.2,,,,,,
+02CRKV30,klimatološka,Crkvice,17.10.2026 12:00,11.29,55.5,,,,,,
+02PLJV10,glavna,Pljevlja,17.10.2026 12:20,7.70,69.0,0.00,1.50,10,,197.6,927.8
+02DDOB30,klimatološka,Donja Dobrilovina,17.10.2026 12:00,9.09,72.8,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,17.10.2026 12:00,8.52,78.8,,,,,383.11,949.21
+02PDGR10,glavna,Podgorica,17.10.2026 12:20,16.60,38.0,0.00,1.20,20,,313.9,1010.8
+02IVKO30,klimatološka,Ivanova korita,17.10.2026 12:00,10.49,44.8,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,17.10.2026 12:00,10.45,56.3,,,,,,
+02NIKS10,glavna,Nikšić,17.10.2026 12:10,13.00,39.0,0.00,0.60,16,,574.5,941.8
+02KUKO30,klimatološka,Kučka korita,17.10.2026 12:00,6.53,58.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,17.10.2026 12:20,13.50,48.0,0.00,1.40,10,,277.6,942.4
+02ZBLJ10,glavna,Žabljak,17.10.2026 12:10,5.80,64.0,0.00,1.20,4,,297.2,854.7
+02KOVR30,klimatološka,Kovren,17.10.2026 12:00,5.84,100.0,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,17.10.2026 11:46,17.80,37.0,,1.00,,1.40,,1019.4
+02HNOV10,glavna,Herceg Novi,17.10.2026 12:20,20.10,39.0,0.00,0.80,22,,505.0,1011.8
+02VELM20,klimatološka,Velimlje,17.10.2026 12:00,12.70,38.8,0.00,0.30,26,0.70,435.8,
+02ULCN10,glavna,Ulcinj,17.10.2026 12:10,19.60,34.0,0.00,6.10,8,,675.7,1016.5
+02KOLS10,glavna,Kolašin,17.10.2026 12:10,7.90,62.0,0.00,1.20,2,,232.9,909.6
+02BUDV20,klimatološka,Budva,17.10.2026 12:00,19.95,37.0,,,,,363.73,1015.32
+02UBLI20,klimatološka,Ubli,17.10.2026 12:00,13.07,,,,,,,
+02BAR010,glavna,Bar,17.10.2026 12:10,18.50,34.0,0.00,1.30,26,,257.3,1016.0
+02KOSA30,klimatološka,Kosanica,17.10.2026 12:00,5.50,91.0,,,,,,
+02BOAN30,klimatološka,Boan,17.10.2026 12:00,9.99,43.5,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,17.10.2026 12:00,6.77,64.2,,,,,,
+02BERA20,glavna,Berane,17.10.2026 12:00,9.60,65.0,0.00,0.50,32,1.70,,938.44
+02GRAD30,klimatološka,Gradac,17.10.2026 12:00,9.22,75.4,,,,,,
+02BIST20,klimatološka,Bistrica,17.10.2026 12:00,8.30,70.0,0.00,2.30,6,3.00,275.6,
