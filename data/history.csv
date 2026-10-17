@@ -84217,3 +84217,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,17.10.2026 06:00,5.80,84.0,0.00,,,,,
 02BAR010,glavna,Bar,17.10.2026 06:00,13.80,41.0,0.00,4.30,6,,0.0,1016.7
 02PLJV10,glavna,Pljevlja,17.10.2026 06:00,1.90,95.0,0.00,0.20,30,,0.0,929.1
+02BERA20,glavna,Berane,17.10.2026 06:00,1.65,99.4,0.00,0.00,2,0.60,,939.78
+02PDGR10,glavna,Podgorica,17.10.2026 06:20,12.60,42.0,0.00,2.70,30,,0.9,1011.6
+02NIKS10,glavna,Nikšić,17.10.2026 06:20,6.60,62.0,0.00,2.90,30,,0.0,943.0
+02ULCN10,glavna,Ulcinj,17.10.2026 06:20,8.40,65.0,0.00,1.70,32,,0.0,1017.0
+02BUDV20,klimatološka,Budva,17.10.2026 06:00,15.33,34.4,,,,,0.0,1015.7
+02PLZN20,klimatološka,Pluzine,17.10.2026 06:00,6.71,82.2,0.00,0.80,2,2.70,0.0,933.8
+02KOSA30,klimatološka,Kosanica,17.10.2026 06:00,0.11,100.0,,,,,,
+02BOAN30,klimatološka,Boan,17.10.2026 06:00,2.42,98.1,,,,,,
+02BIST20,klimatološka,Bistrica,17.10.2026 06:00,3.90,92.8,0.00,1.10,28,1.50,0.6,
+02IVKO30,klimatološka,Ivanova korita,17.10.2026 06:00,-0.18,83.6,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,17.10.2026 06:20,9.40,57.0,0.00,1.00,24,,0.0,1012.4
+02ZBLJ10,glavna,Žabljak,17.10.2026 06:20,-0.70,87.0,0.00,0.00,22,,0.0,855.4
+02POSC30,klimatološka,Pošćenje,17.10.2026 06:00,3.39,82.6,,,,,,
+02UBLI20,klimatološka,Ubli,17.10.2026 06:00,6.13,,,,,,,
+02KUKO30,klimatološka,Kučka korita,17.10.2026 06:00,2.15,71.9,0.00,,,,,
+02VELM20,klimatološka,Velimlje,17.10.2026 06:00,1.10,86.8,0.00,0.60,4,1.00,0.0,
+02LKOT20,klimatološka,Luka Kotor,17.10.2026 05:46,14.70,41.0,,4.10,,9.80,,1020.2
+02DDOB30,klimatološka,Donja Dobrilovina,17.10.2026 06:00,4.61,100.0,,,,,,
+02BAR010,glavna,Bar,17.10.2026 06:20,13.90,39.0,0.00,3.80,8,8.60,0.3,1016.8
+02PLJV10,glavna,Pljevlja,17.10.2026 06:20,1.90,95.0,0.00,0.30,28,,0.6,929.1
+02CRKV30,klimatološka,Crkvice,17.10.2026 06:00,3.21,85.7,,,,,,
+02KOVR30,klimatološka,Kovren,17.10.2026 06:00,2.33,100.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,17.10.2026 06:00,1.85,99.6,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,17.10.2026 06:00,2.88,100.0,,,,,0.0,950.69
+02KOLS10,glavna,Kolašin,17.10.2026 06:20,3.40,83.0,0.00,0.50,18,,0.0,910.5
+02CTNJ10,glavna,Cetinje,17.10.2026 06:20,2.50,87.0,0.00,0.50,28,,0.0,943.7
+02GRAD30,klimatološka,Gradac,17.10.2026 06:00,0.04,100.0,,,,,,
