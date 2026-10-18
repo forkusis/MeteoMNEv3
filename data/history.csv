@@ -86186,3 +86186,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,18.10.2026 12:00,17.50,55.5,,,,,,
 02STAB30,klimatološka,Stabna,18.10.2026 12:00,11.86,60.5,,,,,,
 02ZBLJ10,glavna,Žabljak,18.10.2026 12:00,10.70,52.0,0.00,2.20,4,,217.5,858.1
+02PLJV10,glavna,Pljevlja,18.10.2026 12:20,12.90,51.0,0.00,0.50,20,,343.3,930.6
+02BERA20,glavna,Berane,18.10.2026 12:00,15.32,50.1,0.00,1.10,22,3.20,,941.05
+02CTNJ10,glavna,Cetinje,18.10.2026 12:20,17.60,45.0,0.00,0.90,6,,608.9,945.7
+02BUDV20,klimatološka,Budva,18.10.2026 12:00,19.51,56.8,,,,,668.93,1019.29
+02IVKO30,klimatološka,Ivanova korita,18.10.2026 12:00,12.89,64.4,0.00,,,,,
+02ULCN10,glavna,Ulcinj,18.10.2026 12:20,20.30,53.0,0.00,3.40,14,,642.8,1020.2
+02BPLJ20,klimatološka,Bijelo Polje,18.10.2026 12:00,13.60,57.5,,,,,265.7,951.65
+02BOAN30,klimatološka,Boan,18.10.2026 12:00,12.80,55.3,,,,,,
+02VELM20,klimatološka,Velimlje,18.10.2026 12:00,17.20,35.7,0.00,3.80,26,5.70,616.6,
+02POSC30,klimatološka,Pošćenje,18.10.2026 12:00,12.51,51.2,,,,,,
+02ZBLJ10,glavna,Žabljak,18.10.2026 12:20,11.20,48.0,0.00,1.30,2,,633.1,858.1
+02DDOB30,klimatološka,Donja Dobrilovina,18.10.2026 12:00,12.08,63.0,,,,,,
+02PDGR10,glavna,Podgorica,18.10.2026 12:20,18.80,34.0,0.00,1.10,12,,608.0,1014.0
+02LKOT20,klimatološka,Luka Kotor,18.10.2026 11:46,17.70,59.0,,2.00,,2.80,,1023.0
+02UBLI20,klimatološka,Ubli,18.10.2026 12:00,15.28,,,,,,,
+02KOSA30,klimatološka,Kosanica,18.10.2026 12:00,11.24,57.4,,,,,,
+02HNOV10,glavna,Herceg Novi,18.10.2026 12:20,20.80,57.0,0.00,2.00,10,,725.5,1015.5
+02NIKS10,glavna,Nikšić,18.10.2026 12:20,17.70,27.0,0.00,1.50,20,,525.5,944.8
+02CRKV30,klimatološka,Crkvice,18.10.2026 12:00,12.94,83.9,,,,,,
+02BIST20,klimatološka,Bistrica,18.10.2026 12:00,12.70,55.2,0.00,3.70,4,5.30,702.4,
+02PLZN20,klimatološka,Pluzine,18.10.2026 12:00,11.35,81.4,0.00,0.80,28,1.50,448.14,936.02
+02GRAD30,klimatološka,Gradac,18.10.2026 12:00,13.09,68.0,,,,,,
+02KOLS10,glavna,Kolašin,18.10.2026 12:20,14.70,36.0,0.00,2.50,32,,615.9,912.2
+02GOBU30,klimatološka,Gornja Bukovica,18.10.2026 12:00,12.35,54.8,,,,,,
+02KUKO30,klimatološka,Kučka korita,18.10.2026 12:00,10.64,52.6,0.00,,,,,
+02BAR010,glavna,Bar,18.10.2026 12:20,19.30,60.0,0.00,2.80,20,,599.6,1019.9
