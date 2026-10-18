@@ -86845,3 +86845,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,18.10.2026 22:00,1.81,100.0,,,,,,
 02PDGR10,glavna,Podgorica,18.10.2026 22:00,13.80,71.0,0.00,0.60,2,,0.0,1015.5
 02PLJV10,glavna,Pljevlja,18.10.2026 22:00,5.20,88.0,0.00,0.50,30,,0.2,933.1
+02GRAD30,klimatološka,Gradac,18.10.2026 22:00,3.46,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,18.10.2026 22:00,5.78,88.6,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,18.10.2026 22:20,13.40,82.0,0.00,1.20,24,,1.0,1016.7
+02PLZN20,klimatološka,Pluzine,18.10.2026 22:00,8.87,100.0,0.00,0.60,18,1.20,1.35,938.11
+02POSC30,klimatološka,Pošćenje,18.10.2026 22:00,4.37,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,18.10.2026 22:00,6.40,89.0,0.00,0.40,32,0.70,0.6,
+02NIKS10,glavna,Nikšić,18.10.2026 22:20,8.60,80.0,0.00,2.60,2,,0.2,947.5
+02CTNJ10,glavna,Cetinje,18.10.2026 22:20,5.50,98.0,0.00,0.20,20,,0.3,948.0
+02BERA20,glavna,Berane,18.10.2026 22:00,7.91,88.8,0.00,0.00,32,0.70,,943.42
+02UBLI20,klimatološka,Ubli,18.10.2026 22:00,11.25,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,18.10.2026 22:00,6.43,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,18.10.2026 22:20,3.50,92.0,0.00,1.00,22,,0.4,860.7
+02KOSA30,klimatološka,Kosanica,18.10.2026 22:00,-1.19,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,18.10.2026 22:00,6.00,92.0,0.00,0.00,20,0.20,0.3,
+02BOAN30,klimatološka,Boan,18.10.2026 22:00,5.06,100.0,,,,,,
+02PDGR10,glavna,Podgorica,18.10.2026 22:20,13.60,67.0,0.00,0.40,2,,1.2,1015.5
+02PLJV10,glavna,Pljevlja,18.10.2026 22:20,4.90,90.0,0.00,0.30,20,,0.1,933.2
+02GOBU30,klimatološka,Gornja Bukovica,18.10.2026 22:00,3.98,100.0,,,,,,
+02KOLS10,glavna,Kolašin,18.10.2026 22:20,5.30,93.0,0.00,0.70,16,,0.3,915.1
+02BAR010,glavna,Bar,18.10.2026 22:20,14.80,72.0,0.00,0.90,6,,0.0,1020.9
+02BUDV20,klimatološka,Budva,18.10.2026 22:00,14.17,94.7,,,,,0.0,1020.26
+02BPLJ20,klimatološka,Bijelo Polje,18.10.2026 22:00,6.51,98.0,,,,,0.0,954.21
+02ULCN10,glavna,Ulcinj,18.10.2026 22:20,10.50,94.0,0.00,0.80,2,,0.0,1021.1
+02CRKV30,klimatološka,Crkvice,18.10.2026 22:00,5.53,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,18.10.2026 21:46,13.90,86.0,,0.30,,1.00,,1024.2
+02KUKO30,klimatološka,Kučka korita,18.10.2026 22:00,5.40,82.9,0.00,,,,,
