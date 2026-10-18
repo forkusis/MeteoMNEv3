@@ -86516,3 +86516,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STAB30,klimatološka,Stabna,18.10.2026 17:00,13.14,69.3,,,,,,
 02CTNJ10,glavna,Cetinje,18.10.2026 17:00,16.30,59.0,0.00,0.40,16,,114.1,945.9
 02MATE30,klimatološka,Matesevo,18.10.2026 17:00,13.27,53.9,0.00,,,,,
+02CTNJ10,glavna,Cetinje,18.10.2026 17:20,14.90,68.0,0.00,0.00,22,,23.7,946.1
+02ZBLJ10,glavna,Žabljak,18.10.2026 17:20,9.40,62.0,0.00,0.90,8,,24.2,859.2
+02ULCN10,glavna,Ulcinj,18.10.2026 17:20,19.00,62.0,0.00,4.20,22,,88.9,1019.7
+02GOBU30,klimatološka,Gornja Bukovica,18.10.2026 17:00,11.49,68.7,,,,,,
+02UBLI20,klimatološka,Ubli,18.10.2026 17:00,17.26,,,,,,,
+02KUKO30,klimatološka,Kučka korita,18.10.2026 17:00,11.41,58.6,0.00,,,,,
+02BUDV20,klimatološka,Budva,18.10.2026 17:00,18.67,74.5,,,,,83.47,1018.97
+02KOSA30,klimatološka,Kosanica,18.10.2026 17:00,11.06,73.2,,,,,,
+02BOAN30,klimatološka,Boan,18.10.2026 17:00,14.35,63.1,,,,,,
+02PDGR10,glavna,Podgorica,18.10.2026 17:20,20.20,47.0,0.00,2.50,18,,31.8,1013.6
+02BAR010,glavna,Bar,18.10.2026 17:20,19.20,67.0,0.00,3.10,26,,71.4,1019.5
+02LKOT20,klimatološka,Luka Kotor,18.10.2026 16:46,18.40,69.0,,1.20,,2.30,,1022.7
+02KOLS10,glavna,Kolašin,18.10.2026 17:20,13.70,54.0,0.00,0.70,2,,26.1,912.9
+02PLJV10,glavna,Pljevlja,18.10.2026 17:20,14.30,50.0,0.00,0.40,24,,43.9,930.7
+02CRKV30,klimatološka,Crkvice,18.10.2026 17:00,10.21,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,18.10.2026 17:00,15.24,55.4,,,,,,
+02IVKO30,klimatološka,Ivanova korita,18.10.2026 17:00,8.77,84.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,18.10.2026 17:20,15.10,54.0,0.00,6.50,14,,74.7,945.1
+02DDOB30,klimatološka,Donja Dobrilovina,18.10.2026 17:00,14.07,66.9,,,,,,
+02VELM20,klimatološka,Velimlje,18.10.2026 17:00,17.10,56.4,0.00,1.50,22,2.30,139.5,
+02BERA20,glavna,Berane,18.10.2026 17:00,14.79,52.0,0.00,1.00,32,1.90,,941.25
+02BIST20,klimatološka,Bistrica,18.10.2026 17:00,14.60,51.0,0.00,0.50,6,1.60,43.4,
+02BPLJ20,klimatološka,Bijelo Polje,18.10.2026 17:00,15.02,59.3,,,,,24.2,951.72
+02HNOV10,glavna,Herceg Novi,18.10.2026 17:20,19.70,64.0,0.00,0.80,22,,57.5,1015.1
+02GRAD30,klimatološka,Gradac,18.10.2026 17:00,14.85,67.2,,,,,,
