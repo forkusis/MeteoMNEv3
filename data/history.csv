@@ -86647,3 +86647,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STAB30,klimatološka,Stabna,18.10.2026 19:00,9.09,86.3,,,,,,
 02MAMO30,klimatološka,Manastir Morača,18.10.2026 19:00,12.28,84.9,,,,,,
 02LKOT20,klimatološka,Luka Kotor,18.10.2026 18:31,16.70,74.0,,0.30,,1.00,,1023.4
+02UBLI20,klimatološka,Ubli,18.10.2026 19:00,12.10,,,,,,,
+02PLJV10,glavna,Pljevlja,18.10.2026 19:20,8.90,73.0,0.00,0.40,30,,0.4,931.9
+02ULCN10,glavna,Ulcinj,18.10.2026 19:20,13.50,80.0,0.00,1.00,32,,1.1,1020.5
+02KOLS10,glavna,Kolašin,18.10.2026 19:20,9.30,76.0,0.00,0.40,20,,0.0,914.2
+02CTNJ10,glavna,Cetinje,18.10.2026 19:20,8.10,93.0,0.00,0.20,28,,0.1,947.2
+02KOSA30,klimatološka,Kosanica,18.10.2026 19:00,6.84,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,18.10.2026 19:00,5.98,90.3,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,18.10.2026 19:00,6.45,80.5,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,18.10.2026 19:00,10.16,74.7,,,,,,
+02BERA20,glavna,Berane,18.10.2026 19:00,11.58,70.1,0.00,0.60,32,1.20,,942.25
+02ZBLJ10,glavna,Žabljak,18.10.2026 19:20,7.20,78.0,0.00,0.90,22,,1.7,860.1
+02PLZN20,klimatološka,Pluzine,18.10.2026 19:00,13.06,75.0,0.00,0.60,16,1.60,1.35,936.7
+02PDGR10,glavna,Podgorica,18.10.2026 19:20,16.10,66.0,0.00,0.90,2,,0.7,1014.6
+02HNOV10,glavna,Herceg Novi,18.10.2026 19:20,16.10,74.0,0.00,0.40,26,,0.3,1016.1
+02GOBU30,klimatološka,Gornja Bukovica,18.10.2026 19:00,8.99,89.1,,,,,,
+02BUDV20,klimatološka,Budva,18.10.2026 19:00,16.02,85.4,,,,,0.0,1019.73
+02VELM20,klimatološka,Velimlje,18.10.2026 19:00,10.90,79.3,0.00,0.40,4,1.00,0.0,
+02NIKS10,glavna,Nikšić,18.10.2026 19:20,12.40,64.0,0.00,1.50,12,,0.0,946.5
+02BOAN30,klimatološka,Boan,18.10.2026 19:00,9.75,88.9,,,,,,
+02CRKV30,klimatološka,Crkvice,18.10.2026 19:00,6.45,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,18.10.2026 19:00,11.02,78.8,,,,,0.0,952.81
+02BIST20,klimatološka,Bistrica,18.10.2026 19:00,11.40,70.9,0.00,0.90,32,1.10,0.5,
+02BAR010,glavna,Bar,18.10.2026 19:20,15.90,74.0,0.00,0.60,8,,0.9,1020.5
+02GRAD30,klimatološka,Gradac,18.10.2026 19:00,7.94,96.5,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,18.10.2026 19:00,10.86,88.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,18.10.2026 18:46,16.60,75.0,,0.40,,1.80,,1023.6
