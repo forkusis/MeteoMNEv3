@@ -87703,3 +87703,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,19.10.2026 11:00,12.54,64.6,,,,,,
 02MAMO30,klimatološka,Manastir Morača,19.10.2026 11:00,17.94,60.9,,,,,,
 02STAB30,klimatološka,Stabna,19.10.2026 11:00,12.53,68.3,,,,,,
+02BERA20,glavna,Berane,19.10.2026 11:00,12.47,67.7,0.00,0.80,22,1.50,,944.57
+02KUKO30,klimatološka,Kučka korita,19.10.2026 11:00,13.97,55.6,0.00,,,,,
+02BAR010,glavna,Bar,19.10.2026 11:20,19.60,70.0,0.00,1.80,20,,556.6,1021.8
+02BPLJ20,klimatološka,Bijelo Polje,19.10.2026 11:00,9.29,92.4,,,,,559.85,955.52
+02DDOB30,klimatološka,Donja Dobrilovina,19.10.2026 11:00,6.26,100.0,,,,,,
+02PDGR10,glavna,Podgorica,19.10.2026 11:20,19.40,49.0,0.00,0.20,18,,550.6,1016.0
+02KOLS10,glavna,Kolašin,19.10.2026 11:20,13.20,65.0,0.00,1.30,10,,563.8,915.4
+02KOSA30,klimatološka,Kosanica,19.10.2026 11:00,14.21,74.0,,,,,,
+02CRKV30,klimatološka,Crkvice,19.10.2026 11:00,14.76,71.9,,,,,,
+02GRAD30,klimatološka,Gradac,19.10.2026 11:00,8.79,99.7,,,,,,
+02LKOT20,klimatološka,Luka Kotor,19.10.2026 10:46,17.90,66.0,,0.90,,1.50,,1025.0
+02CTNJ10,glavna,Cetinje,19.10.2026 11:20,19.30,51.0,0.00,0.40,6,,566.0,948.0
+02BIST20,klimatološka,Bistrica,19.10.2026 11:00,11.20,71.7,0.00,1.20,14,1.70,600.4,
+02POSC30,klimatološka,Pošćenje,19.10.2026 11:00,13.67,71.9,,,,,,
+02BUDV20,klimatološka,Budva,19.10.2026 11:00,20.86,68.1,,,,,581.87,1021.15
+02ZBLJ10,glavna,Žabljak,19.10.2026 11:20,12.40,63.0,0.00,1.90,4,,52.3,861.2
+02HNOV10,glavna,Herceg Novi,19.10.2026 11:20,19.70,56.0,0.00,1.70,10,,571.4,1017.5
+02IVKO30,klimatološka,Ivanova korita,19.10.2026 11:00,15.30,54.4,0.00,,,,,
+02PLJV10,glavna,Pljevlja,19.10.2026 11:20,8.80,74.0,0.00,1.30,16,,543.9,933.9
+02BOAN30,klimatološka,Boan,19.10.2026 11:00,12.94,77.8,,,,,,
+02UBLI20,klimatološka,Ubli,19.10.2026 11:00,17.89,,,,,,,
+02VELM20,klimatološka,Velimlje,19.10.2026 11:00,15.90,58.3,0.00,0.50,2,1.20,568.9,
+02NIKS10,glavna,Nikšić,19.10.2026 11:20,18.50,45.0,0.00,2.40,14,,577.7,947.3
+02GOBU30,klimatološka,Gornja Bukovica,19.10.2026 11:00,13.60,69.6,,,,,,
+02ULCN10,glavna,Ulcinj,19.10.2026 11:20,20.30,61.0,0.00,0.40,18,,588.7,1022.0
