@@ -88243,3 +88243,17 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BOAN30,klimatološka,Boan,19.10.2026 19:00,9.99,88.5,,,,,,
 02LKOT20,klimatološka,Luka Kotor,19.10.2026 18:31,16.90,79.0,,0.70,,1.30,,1023.3
 02KOSA30,klimatološka,Kosanica,19.10.2026 19:00,3.72,100.0,,,,,,
+02BUDV20,klimatološka,Budva,19.10.2026 19:00,16.87,84.6,,,,,0.0,1019.5
+02PLJV10,glavna,Pljevlja,19.10.2026 19:20,11.20,74.0,0.00,0.80,2,,0.0,931.9
+02POSC30,klimatološka,Pošćenje,19.10.2026 19:00,9.99,82.4,,,,,,
+02NIKS10,glavna,Nikšić,19.10.2026 19:20,14.70,64.0,0.00,3.30,12,,0.0,946.5
+02PDGR10,glavna,Podgorica,19.10.2026 19:20,17.60,63.0,0.00,0.70,32,,0.0,1014.3
+02HNOV10,glavna,Herceg Novi,19.10.2026 19:20,16.00,80.0,0.00,0.80,24,,1.5,1015.9
+02BAR010,glavna,Bar,19.10.2026 19:20,17.00,77.0,0.00,0.90,6,,0.7,1020.2
+02KOLS10,glavna,Kolašin,19.10.2026 19:20,9.10,86.0,0.00,0.80,18,,0.9,914.6
+02ULCN10,glavna,Ulcinj,19.10.2026 19:20,15.40,84.0,0.00,1.60,32,2.20,0.2,1020.3
+02UBLI20,klimatološka,Ubli,19.10.2026 19:00,14.31,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,19.10.2026 18:46,16.80,82.0,,0.70,,1.40,,1023.3
+02ZBLJ10,glavna,Žabljak,19.10.2026 19:20,6.30,85.0,0.00,1.50,22,,0.6,860.8
+02DDOB30,klimatološka,Donja Dobrilovina,19.10.2026 19:00,9.32,99.8,,,,,,
+02CTNJ10,glavna,Cetinje,19.10.2026 19:20,9.60,94.0,0.00,0.20,32,,0.0,947.4
