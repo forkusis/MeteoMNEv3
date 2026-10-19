@@ -87505,3 +87505,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,19.10.2026 08:00,2.40,97.0,0.00,0.70,22,,107.9,861.3
 02MATE30,klimatološka,Matesevo,19.10.2026 08:00,1.50,99.1,0.00,,,,,
 02MAMO30,klimatološka,Manastir Morača,19.10.2026 08:00,3.77,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,19.10.2026 08:00,2.82,100.0,,,,,,
+02BOAN30,klimatološka,Boan,19.10.2026 08:00,0.74,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,19.10.2026 08:00,7.92,100.0,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,19.10.2026 08:00,6.59,82.4,0.00,,,,,
+02PLJV10,glavna,Pljevlja,19.10.2026 08:20,1.80,98.0,0.00,0.60,6,,67.9,935.0
+02HNOV10,glavna,Herceg Novi,19.10.2026 08:20,14.00,76.0,0.00,0.90,6,1.20,159.5,1017.6
+02BPLJ20,klimatološka,Bijelo Polje,19.10.2026 08:00,4.22,100.0,,,,,26.17,956.32
+02ZBLJ10,glavna,Žabljak,19.10.2026 08:20,3.60,96.0,0.00,0.10,22,,169.5,861.5
+02IVKO30,klimatološka,Ivanova korita,19.10.2026 08:00,6.68,89.2,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,19.10.2026 08:00,6.26,100.0,,,,,,
+02NIKS10,glavna,Nikšić,19.10.2026 08:20,7.00,82.0,0.00,0.20,8,,169.8,948.4
+02GOBU30,klimatološka,Gornja Bukovica,19.10.2026 08:00,-0.97,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,19.10.2026 08:20,12.60,86.0,0.00,2.60,2,,166.9,1022.3
+02BERA20,glavna,Berane,19.10.2026 08:00,4.07,100.0,0.00,0.00,32,0.60,,945.22
+02VELM20,klimatološka,Velimlje,19.10.2026 08:00,1.70,100.0,0.00,0.50,32,0.60,32.7,
+02KOSA30,klimatološka,Kosanica,19.10.2026 08:00,-3.54,100.0,,,,,,
+02BAR010,glavna,Bar,19.10.2026 08:20,15.00,69.0,0.00,1.50,8,,161.7,1022.0
+02PLZN20,klimatološka,Pluzine,19.10.2026 08:00,4.36,100.0,0.00,0.00,32,0.40,21.37,940.23
+02POSC30,klimatološka,Pošćenje,19.10.2026 08:00,-0.01,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,19.10.2026 07:46,12.00,95.0,,1.00,,1.70,,1025.2
+02PDGR10,glavna,Podgorica,19.10.2026 08:20,12.00,73.0,0.00,0.40,6,,149.1,1016.7
+02BIST20,klimatološka,Bistrica,19.10.2026 08:00,2.20,98.3,0.00,0.80,20,1.00,26.2,
+02UBLI20,klimatološka,Ubli,19.10.2026 08:00,10.82,,,,,,,
+02CTNJ10,glavna,Cetinje,19.10.2026 08:20,3.30,100.0,0.00,0.30,32,,30.1,948.7
+02GRAD30,klimatološka,Gradac,19.10.2026 08:00,1.02,100.0,,,,,,
+02KOLS10,glavna,Kolašin,19.10.2026 08:20,3.00,99.0,0.00,0.50,32,,56.3,916.7
+02BUDV20,klimatološka,Budva,19.10.2026 08:00,13.61,96.7,,,,,33.92,1021.04
