@@ -88431,3 +88431,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,19.10.2026 22:00,11.20,98.0,0.00,,,,,
 02BAR010,glavna,Bar,19.10.2026 22:00,15.90,77.0,0.00,1.40,8,,0.5,1020.5
 02STIT30,klimatološka,Štitarica,19.10.2026 22:00,4.04,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,19.10.2026 22:00,6.33,92.6,0.00,,,,,
+02BAR010,glavna,Bar,19.10.2026 22:20,15.40,80.0,0.00,1.40,10,,1.0,1020.6
+02GOBU30,klimatološka,Gornja Bukovica,19.10.2026 22:00,1.82,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,19.10.2026 22:00,8.89,100.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,19.10.2026 22:20,9.50,85.0,0.00,0.30,2,,0.1,947.2
+02ZBLJ10,glavna,Žabljak,19.10.2026 22:20,3.70,92.0,0.00,1.10,22,,0.1,860.8
+02BUDV20,klimatološka,Budva,19.10.2026 22:00,15.31,95.8,,,,,0.0,1019.84
+02PLJV10,glavna,Pljevlja,19.10.2026 22:20,6.00,92.0,0.00,0.30,32,,0.3,932.5
+02BOAN30,klimatološka,Boan,19.10.2026 22:00,5.09,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,19.10.2026 21:46,14.40,88.0,,0.00,,0.70,,1023.8
+02PDGR10,glavna,Podgorica,19.10.2026 22:20,14.60,70.0,0.00,0.50,2,,0.0,1015.0
+02KOLS10,glavna,Kolašin,19.10.2026 22:20,4.90,96.0,0.00,0.40,22,,0.3,915.2
+02CRKV30,klimatološka,Crkvice,19.10.2026 22:00,7.24,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,19.10.2026 22:20,11.90,93.0,0.00,1.10,30,,0.2,1020.9
+02KUKO30,klimatološka,Kučka korita,19.10.2026 22:00,3.91,92.1,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,19.10.2026 22:00,7.29,98.8,,,,,0.0,953.81
+02CTNJ10,glavna,Cetinje,19.10.2026 22:20,6.70,98.0,0.00,0.00,8,,0.4,947.9
+02BIST20,klimatološka,Bistrica,19.10.2026 22:00,6.20,95.9,0.00,0.70,2,1.00,0.6,
+02KOSA30,klimatološka,Kosanica,19.10.2026 22:00,-1.44,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,19.10.2026 22:20,13.70,87.0,0.00,1.20,24,,0.8,1016.2
+02VELM20,klimatološka,Velimlje,19.10.2026 22:00,7.20,90.7,0.00,0.20,22,0.30,0.0,
+02BERA20,glavna,Berane,19.10.2026 22:00,6.99,89.1,0.00,0.40,8,0.90,,943.32
+02POSC30,klimatološka,Pošćenje,19.10.2026 22:00,4.62,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,19.10.2026 22:00,4.26,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,19.10.2026 22:00,12.68,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,19.10.2026 22:00,6.55,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,19.10.2026 22:00,9.75,100.0,0.00,0.60,14,0.90,0.54,937.91
