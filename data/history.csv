@@ -88164,3 +88164,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,19.10.2026 18:00,11.14,78.8,,,,,,
 02MATE30,klimatološka,Matesevo,19.10.2026 18:00,8.99,81.7,0.00,,,,,
 02ULCN10,glavna,Ulcinj,19.10.2026 18:00,19.00,73.0,0.00,2.20,26,,4.8,1019.8
+02PLZN20,klimatološka,Pluzine,19.10.2026 18:00,15.98,72.7,0.00,0.00,32,1.20,0.54,936.32
+02KOLS10,glavna,Kolašin,19.10.2026 18:20,12.50,72.0,0.00,0.70,18,,1.0,914.2
+02BIST20,klimatološka,Bistrica,19.10.2026 18:00,11.40,76.2,0.00,1.30,18,1.90,0.5,
+02KUKO30,klimatološka,Kučka korita,19.10.2026 18:00,9.11,81.4,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,19.10.2026 18:20,8.20,81.0,0.00,1.20,22,,1.5,860.6
+02BOAN30,klimatološka,Boan,19.10.2026 18:00,12.66,76.8,,,,,,
+02IVKO30,klimatološka,Ivanova korita,19.10.2026 18:00,9.19,87.5,0.00,,,,,
+02NIKS10,glavna,Nikšić,19.10.2026 18:20,15.70,59.0,0.00,3.30,12,,0.3,946.2
+02GRAD30,klimatološka,Gradac,19.10.2026 18:00,10.75,95.9,,,,,,
+02KOVR30,klimatološka,Kovren,19.10.2026 18:00,12.06,89.7,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,19.10.2026 18:00,10.58,92.3,,,,,,
+02LKOT20,klimatološka,Luka Kotor,19.10.2026 17:46,17.90,80.0,,0.60,,1.30,,1023.3
+02PDGR10,glavna,Podgorica,19.10.2026 18:20,19.60,53.0,0.00,0.30,4,,0.2,1014.0
+02CTNJ10,glavna,Cetinje,19.10.2026 18:20,11.80,87.0,0.00,0.30,6,,1.1,947.0
+02ULCN10,glavna,Ulcinj,19.10.2026 18:20,18.60,73.0,0.00,2.00,26,,0.3,1019.9
+02BUDV20,klimatološka,Budva,19.10.2026 18:00,18.88,75.8,,,,,0.0,1019.27
+02UBLI20,klimatološka,Ubli,19.10.2026 18:00,14.91,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,19.10.2026 18:00,13.87,71.9,,,,,0.0,952.37
+02KOSA30,klimatološka,Kosanica,19.10.2026 18:00,7.86,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,19.10.2026 18:20,17.60,73.0,0.00,0.60,28,,0.4,1015.7
+02BAR010,glavna,Bar,19.10.2026 18:20,18.60,76.0,0.00,1.10,2,,1.2,1020.1
+02PLJV10,glavna,Pljevlja,19.10.2026 18:20,15.00,58.0,0.00,0.20,24,,0.0,931.5
+02BERA20,glavna,Berane,19.10.2026 18:00,14.08,60.1,0.00,0.60,14,1.60,,942.05
+02GOBU30,klimatološka,Gornja Bukovica,19.10.2026 18:00,9.88,89.1,,,,,,
+02VELM20,klimatološka,Velimlje,19.10.2026 18:00,15.60,59.9,0.00,0.60,22,0.90,1.6,
+02POSC30,klimatološka,Pošćenje,19.10.2026 18:00,14.63,62.9,,,,,,
