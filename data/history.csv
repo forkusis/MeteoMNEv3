@@ -90192,3 +90192,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,21.10.2026 01:00,5.69,100.0,,,,,,
 02NIKS10,glavna,Nikšić,21.10.2026 01:00,7.70,87.0,0.00,0.80,2,,0.0,947.8
 02SCPO30,klimatološka,Šćepan Polje,21.10.2026 01:00,6.40,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,21.10.2026 01:00,5.92,100.0,,,,,1.72,952.83
+02KUKO30,klimatološka,Kučka korita,21.10.2026 01:00,3.76,93.6,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,21.10.2026 01:00,3.41,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,21.10.2026 01:20,16.30,86.0,0.00,0.90,28,,0.0,1016.1
+02BERA20,glavna,Berane,21.10.2026 01:00,5.20,99.0,0.00,0.40,14,1.10,,942.43
+02NIKS10,glavna,Nikšić,21.10.2026 01:20,7.60,89.0,0.00,0.60,12,,0.0,947.7
+02VELM20,klimatološka,Velimlje,21.10.2026 01:00,7.80,94.1,0.00,1.00,4,2.20,0.4,
+02CRKV30,klimatološka,Crkvice,21.10.2026 01:00,11.28,92.1,,,,,,
+02PLJV10,glavna,Pljevlja,21.10.2026 01:20,8.10,76.0,0.00,1.20,14,,0.0,930.7
+02ULCN10,glavna,Ulcinj,21.10.2026 01:20,12.30,93.0,0.00,3.70,6,,0.0,1020.9
+02ZBLJ10,glavna,Žabljak,21.10.2026 01:20,9.80,58.0,0.00,3.70,8,,0.0,858.9
+02CTNJ10,glavna,Cetinje,21.10.2026 01:20,6.30,99.0,0.00,0.00,32,,0.0,948.2
+02PDGR10,glavna,Podgorica,21.10.2026 01:20,14.90,70.0,0.00,1.00,2,,0.5,1015.6
+02BOAN30,klimatološka,Boan,21.10.2026 01:00,2.22,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,21.10.2026 01:00,2.35,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,21.10.2026 01:00,5.87,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,21.10.2026 01:00,10.23,77.3,,,,,,
+02BAR010,glavna,Bar,21.10.2026 01:20,16.60,72.0,0.00,1.90,8,,0.2,1020.6
+02IVKO30,klimatološka,Ivanova korita,21.10.2026 01:00,10.45,82.4,0.00,,,,,
+02BIST20,klimatološka,Bistrica,21.10.2026 01:00,4.60,90.8,0.00,1.70,18,2.50,0.6,
+02LKOT20,klimatološka,Luka Kotor,21.10.2026 00:46,14.90,92.0,,0.60,,1.30,,1024.1
+02PLZN20,klimatološka,Pluzine,21.10.2026 01:00,10.18,100.0,0.00,1.60,18,3.60,0.0,937.76
+02UBLI20,klimatološka,Ubli,21.10.2026 01:00,10.46,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,21.10.2026 01:00,4.88,100.0,,,,,,
+02KOLS10,glavna,Kolašin,21.10.2026 01:20,4.80,98.0,0.00,0.90,18,1.40,0.2,915.0
+02BUDV20,klimatološka,Budva,21.10.2026 01:00,16.45,82.1,,,,,0.0,1019.84
