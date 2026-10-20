@@ -89018,3 +89018,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STAB30,klimatološka,Stabna,20.10.2026 07:00,3.44,100.0,,,,,,
 02LKOT20,klimatološka,Luka Kotor,20.10.2026 06:31,11.70,96.0,,0.40,,0.80,,1024.0
 02DANL20,klimatološka,Danilovgrad,20.10.2026 07:00,6.80,,0.00,,,,,
+02CTNJ10,glavna,Cetinje,20.10.2026 07:20,2.90,100.0,0.00,0.20,14,,8.1,947.6
+02BUDV20,klimatološka,Budva,20.10.2026 07:00,13.22,100.0,,,,,1.41,1019.96
+02BOAN30,klimatološka,Boan,20.10.2026 07:00,0.04,100.0,,,,,,
+02NIKS10,glavna,Nikšić,20.10.2026 07:20,5.00,95.0,0.00,0.70,30,,10.6,947.0
+02BPLJ20,klimatološka,Bijelo Polje,20.10.2026 07:00,4.21,100.0,,,,,1.14,954.02
+02LKOT20,klimatološka,Luka Kotor,20.10.2026 06:46,11.70,96.0,,0.40,,1.00,,1023.8
+02KOSA30,klimatološka,Kosanica,20.10.2026 07:00,-5.22,100.0,,,,,,
+02BAR010,glavna,Bar,20.10.2026 07:20,13.90,83.0,0.00,3.30,4,,11.2,1020.6
+02UBLI20,klimatološka,Ubli,20.10.2026 07:00,10.15,,,,,,,
+02HNOV10,glavna,Herceg Novi,20.10.2026 07:20,12.50,89.0,0.00,1.00,22,1.40,10.4,1016.3
+02IVKO30,klimatološka,Ivanova korita,20.10.2026 07:00,4.55,98.5,0.00,,,,,
+02KOLS10,glavna,Kolašin,20.10.2026 07:20,0.60,99.0,0.00,0.30,32,,6.4,914.9
+02GRAD30,klimatološka,Gradac,20.10.2026 07:00,3.23,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,20.10.2026 07:00,2.10,100.0,0.00,0.10,4,0.30,2.0,
+02ULCN10,glavna,Ulcinj,20.10.2026 07:20,10.40,96.0,0.00,1.70,2,,15.0,1021.0
+02GOBU30,klimatološka,Gornja Bukovica,20.10.2026 07:00,-1.17,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,20.10.2026 07:00,3.17,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,20.10.2026 07:00,4.00,98.8,0.00,0.60,18,0.90,0.7,
+02KUKO30,klimatološka,Kučka korita,20.10.2026 07:00,1.61,94.7,0.00,,,,,
+02BERA20,glavna,Berane,20.10.2026 07:00,2.28,100.0,0.00,0.00,32,0.40,,943.28
+02ZBLJ10,glavna,Žabljak,20.10.2026 07:20,1.80,97.0,0.00,1.00,22,,12.4,859.6
+02PDGR10,glavna,Podgorica,20.10.2026 07:20,10.90,81.0,0.00,0.50,4,,10.1,1015.4
+02KOVR30,klimatološka,Kovren,20.10.2026 07:00,4.54,100.0,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,20.10.2026 07:00,-0.12,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,20.10.2026 07:00,5.05,100.0,0.00,0.40,18,0.80,0.59,937.97
+02PLJV10,glavna,Pljevlja,20.10.2026 07:20,2.80,98.0,0.00,0.40,22,,5.6,932.2
