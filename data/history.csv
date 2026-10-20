@@ -89536,3 +89536,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,20.10.2026 15:00,21.30,70.0,0.00,0.70,10,,424.1,1015.8
 02NJGV30,klimatološka,Njegovuđa,20.10.2026 15:00,15.77,55.2,,,,,,
 02STIT30,klimatološka,Štitarica,20.10.2026 15:00,17.71,52.5,,,,,,
+02POSC30,klimatološka,Pošćenje,20.10.2026 15:00,17.75,52.1,,,,,,
+02KOSA30,klimatološka,Kosanica,20.10.2026 15:00,18.21,54.9,,,,,,
+02BUDV20,klimatološka,Budva,20.10.2026 15:00,21.20,74.7,,,,,461.83,1019.86
+02LKOT20,klimatološka,Luka Kotor,20.10.2026 14:46,21.50,68.0,,0.50,,1.50,,1023.3
+02NIKS10,glavna,Nikšić,20.10.2026 15:20,18.60,52.0,0.00,7.50,16,,391.4,945.9
+02BOAN30,klimatološka,Boan,20.10.2026 15:00,19.68,55.7,,,,,,
+02CRKV30,klimatološka,Crkvice,20.10.2026 15:00,14.45,90.6,,,,,,
+02KUKO30,klimatološka,Kučka korita,20.10.2026 15:00,14.15,63.7,0.00,,,,,
+02BIST20,klimatološka,Bistrica,20.10.2026 15:00,21.70,36.4,0.00,5.10,22,8.20,430.2,
+02CTNJ10,glavna,Cetinje,20.10.2026 15:20,18.60,61.0,0.00,1.10,8,,377.8,947.0
+02GRAD30,klimatološka,Gradac,20.10.2026 15:00,22.32,48.2,,,,,,
+02VELM20,klimatološka,Velimlje,20.10.2026 15:00,18.70,57.2,0.00,1.90,16,4.10,352.8,
+02BERA20,glavna,Berane,20.10.2026 15:00,22.56,41.1,0.00,1.30,22,3.20,,939.76
+02HNOV10,glavna,Herceg Novi,20.10.2026 15:20,21.40,67.0,0.00,1.00,2,,379.1,1015.8
+02ZBLJ10,glavna,Žabljak,20.10.2026 15:20,16.00,40.0,0.00,1.30,16,,427.0,859.1
+02IVKO30,klimatološka,Ivanova korita,20.10.2026 15:00,13.26,65.0,0.00,,,,,
+02ULCN10,glavna,Ulcinj,20.10.2026 15:20,22.20,62.0,0.00,1.90,16,,425.5,1020.7
+02DDOB30,klimatološka,Donja Dobrilovina,20.10.2026 15:00,16.54,66.9,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,20.10.2026 15:00,20.58,53.1,,,,,478.87,950.21
+02BAR010,glavna,Bar,20.10.2026 15:20,22.00,68.0,0.00,2.00,22,,383.5,1020.4
+02GOBU30,klimatološka,Gornja Bukovica,20.10.2026 15:00,15.29,61.2,,,,,,
+02UBLI20,klimatološka,Ubli,20.10.2026 15:00,19.85,,,,,,,
+02PLJV10,glavna,Pljevlja,20.10.2026 15:20,22.20,35.0,0.00,1.10,14,,369.2,929.1
+02KOLS10,glavna,Kolašin,20.10.2026 15:20,19.20,47.0,0.00,1.50,22,,402.4,913.3
+02PDGR10,glavna,Podgorica,20.10.2026 15:20,23.10,43.0,0.00,2.70,14,,372.2,1014.3
