@@ -89274,3 +89274,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,20.10.2026 11:00,12.60,71.0,0.00,0.70,26,,489.1,914.4
 02VIRP20,klimatološka,Virpazar,20.10.2026 11:00,18.30,71.0,0.00,,,,,
 02MAMO30,klimatološka,Manastir Morača,20.10.2026 11:00,16.93,70.6,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,20.10.2026 11:00,14.46,71.1,,,,,,
+02UBLI20,klimatološka,Ubli,20.10.2026 11:00,17.26,,,,,,,
+02KUKO30,klimatološka,Kučka korita,20.10.2026 11:00,14.23,59.3,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,20.10.2026 11:00,15.29,53.5,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,20.10.2026 10:46,16.80,79.0,,1.90,,2.50,,1024.5
+02BIST20,klimatološka,Bistrica,20.10.2026 11:00,8.70,98.9,0.00,0.70,22,2.00,575.3,
+02NIKS10,glavna,Nikšić,20.10.2026 11:20,16.50,59.0,0.00,1.50,16,,568.7,947.0
+02HNOV10,glavna,Herceg Novi,20.10.2026 11:20,20.40,68.0,0.00,1.40,10,,555.1,1017.0
+02BERA20,glavna,Berane,20.10.2026 11:00,10.56,79.6,0.00,1.10,22,1.90,,942.67
+02CTNJ10,glavna,Cetinje,20.10.2026 11:20,18.00,58.0,0.00,0.70,10,,553.7,947.8
+02PLJV10,glavna,Pljevlja,20.10.2026 11:20,8.80,78.0,0.00,0.50,18,,521.6,931.6
+02KOSA30,klimatološka,Kosanica,20.10.2026 11:00,15.75,69.3,,,,,,
+02BOAN30,klimatološka,Boan,20.10.2026 11:00,13.32,82.0,,,,,,
+02CRKV30,klimatološka,Crkvice,20.10.2026 11:00,14.03,78.8,,,,,,
+02VELM20,klimatološka,Velimlje,20.10.2026 11:00,16.50,60.1,0.00,2.10,18,3.20,569.4,
+02BAR010,glavna,Bar,20.10.2026 11:20,20.60,67.0,0.00,1.60,22,,540.4,1021.3
+02KOLS10,glavna,Kolašin,20.10.2026 11:20,15.40,59.0,0.00,0.00,8,,526.1,914.1
+02BPLJ20,klimatološka,Bijelo Polje,20.10.2026 11:00,7.95,98.4,,,,,509.12,953.77
+02BUDV20,klimatološka,Budva,20.10.2026 11:00,20.76,77.8,,,,,569.45,1020.84
+02DDOB30,klimatološka,Donja Dobrilovina,20.10.2026 11:00,5.13,100.0,,,,,,
+02PDGR10,glavna,Podgorica,20.10.2026 11:20,20.30,48.0,0.00,0.70,18,,544.3,1015.7
+02GRAD30,klimatološka,Gradac,20.10.2026 11:00,8.40,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,20.10.2026 11:20,20.70,64.0,0.00,2.90,8,,581.5,1021.6
+02ZBLJ10,glavna,Žabljak,20.10.2026 11:20,13.60,54.0,0.00,1.20,32,,60.3,859.6
+02PLZN20,klimatološka,Pluzine,20.10.2026 11:00,11.56,100.0,0.00,0.50,4,1.20,527.43,937.47
+02POSC30,klimatološka,Pošćenje,20.10.2026 11:00,14.46,71.6,,,,,,
