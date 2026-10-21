@@ -91427,3 +91427,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,21.10.2026 20:00,14.60,,1.39,,,,,
 02STAB30,klimatološka,Stabna,21.10.2026 20:00,11.55,100.0,,,,,,
 02MAMO30,klimatološka,Manastir Morača,21.10.2026 20:00,13.34,100.0,0.00,,,,,
+02BERA20,glavna,Berane,21.10.2026 20:00,12.47,100.0,0.00,0.70,8,1.80,,936.23
+02BPLJ20,klimatološka,Bijelo Polje,21.10.2026 20:00,12.83,100.0,,,,,0.0,946.07
+02GRAD30,klimatološka,Gradac,21.10.2026 20:00,14.87,93.6,,,,,,
+02BOAN30,klimatološka,Boan,21.10.2026 20:00,11.26,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,21.10.2026 20:20,16.20,64.0,0.00,2.10,18,,0.0,923.8
+02BAR010,glavna,Bar,21.10.2026 20:20,18.20,82.0,0.06,6.20,6,7.60,0.3,1013.3
+02LKOT20,klimatološka,Luka Kotor,21.10.2026 19:46,17.20,94.0,,1.40,,3.90,,1016.5
+02IVKO30,klimatološka,Ivanova korita,21.10.2026 20:00,10.73,100.0,0.16,,,,,
+02ULCN10,glavna,Ulcinj,21.10.2026 20:20,15.70,97.0,0.07,8.80,2,10.20,0.7,1014.4
+02KUKO30,klimatološka,Kučka korita,21.10.2026 20:00,10.11,98.4,0.05,,,,,
+02ZBLJ10,glavna,Žabljak,21.10.2026 20:20,9.50,94.0,0.00,0.90,10,,0.0,854.0
+02KOLS10,glavna,Kolašin,21.10.2026 20:20,11.50,97.0,0.00,0.20,6,,0.0,908.2
+02BUDV20,klimatološka,Budva,21.10.2026 20:00,17.89,100.0,,,,,0.1,1013.18
+02BIST20,klimatološka,Bistrica,21.10.2026 20:00,14.70,73.6,0.00,5.20,6,8.60,7.5,
+02VELM20,klimatološka,Velimlje,21.10.2026 20:00,13.30,94.4,0.00,0.90,16,1.40,0.0,
+02CTNJ10,glavna,Cetinje,21.10.2026 20:20,11.90,100.0,0.05,0.40,4,,0.4,941.7
+02HNOV10,glavna,Herceg Novi,21.10.2026 20:20,17.70,94.0,0.35,3.50,8,,1.2,1009.3
+02PDGR10,glavna,Podgorica,21.10.2026 20:20,15.10,96.0,0.00,1.10,22,,0.3,1009.0
+02UBLI20,klimatološka,Ubli,21.10.2026 20:00,14.69,,,,,,,
+02POSC30,klimatološka,Pošćenje,21.10.2026 20:00,12.08,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,21.10.2026 20:00,12.40,98.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,21.10.2026 20:00,11.76,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,21.10.2026 20:00,11.41,100.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,21.10.2026 20:00,10.59,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,21.10.2026 20:00,13.36,100.0,0.00,2.10,22,5.50,0.22,930.61
+02NIKS10,glavna,Nikšić,21.10.2026 20:20,12.10,99.0,0.00,5.70,14,,0.4,940.7
