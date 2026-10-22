@@ -93108,3 +93108,16 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,22.10.2026 21:40,9.60,96.0,0.00,0.10,18,,0.0,930.2
 02LKOT20,klimatološka,Luka Kotor,22.10.2026 21:16,15.70,96.0,,0.30,,1.30,,1020.5
 02NIKS10,glavna,Nikšić,22.10.2026 21:50,11.90,93.0,0.00,1.00,10,,0.0,943.9
+02BAR010,glavna,Bar,22.10.2026 22:00,16.80,84.0,0.00,1.90,8,,2.0,1017.3
+02CTNJ10,glavna,Cetinje,22.10.2026 22:00,10.30,98.0,0.00,0.40,4,,0.0,944.5
+02VELK30,klimatološka,Velika,22.10.2026 22:00,9.34,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,22.10.2026 22:00,6.90,93.0,0.05,3.10,30,,3.2,857.6
+02MATE30,klimatološka,Matesevo,22.10.2026 22:00,9.15,95.8,0.00,,,,,
+02NIKS10,glavna,Nikšić,22.10.2026 22:00,11.90,93.0,0.00,1.90,30,,0.0,943.9
+02SCPO30,klimatološka,Šćepan Polje,22.10.2026 22:00,10.37,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,22.10.2026 22:00,15.80,95.0,0.00,1.00,28,,0.7,1013.3
+02LKOT20,klimatološka,Luka Kotor,22.10.2026 21:31,15.70,96.0,,0.70,,2.10,,1020.7
+02DANL20,klimatološka,Danilovgrad,22.10.2026 22:00,16.30,,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,22.10.2026 22:00,14.60,100.0,0.00,,,,,
+02ULCN10,glavna,Ulcinj,22.10.2026 22:00,14.50,96.0,0.00,0.50,28,,0.0,1017.3
+02MOKR30,klimatološka,Mokro,22.10.2026 22:00,9.10,97.3,,,,,,
