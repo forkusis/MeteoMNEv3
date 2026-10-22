@@ -92580,3 +92580,35 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,22.10.2026 13:50,21.10,70.0,0.00,0.50,4,,235.4,1009.2
 02LKOT20,klimatološka,Luka Kotor,22.10.2026 13:16,19.40,78.0,,2.30,,3.30,,1018.4
 02BAR010,glavna,Bar,22.10.2026 13:50,22.30,65.0,0.00,1.40,16,,306.8,1015.1
+02VELM20,klimatološka,Velimlje,22.10.2026 14:00,16.80,68.1,0.00,2.50,14,3.80,423.8,
+02LKOT20,klimatološka,Luka Kotor,22.10.2026 13:31,19.00,79.0,,2.10,,4.40,,1018.4
+02NJGV30,klimatološka,Njegovuđa,22.10.2026 14:00,12.64,76.3,,,,,,
+02HNOV10,glavna,Herceg Novi,22.10.2026 14:00,20.80,75.0,0.00,2.30,10,,372.4,1010.8
+02KOLS10,glavna,Kolašin,22.10.2026 14:00,15.00,78.0,0.00,1.20,22,,124.8,909.0
+02KOSA30,klimatološka,Kosanica,22.10.2026 14:00,15.56,70.1,,,,,,
+02BERA20,glavna,Berane,22.10.2026 14:00,20.28,49.4,0.00,2.00,16,5.50,,935.71
+02MOKR30,klimatološka,Mokro,22.10.2026 14:00,14.51,66.6,,,,,,
+02NIKS10,glavna,Nikšić,22.10.2026 14:00,14.90,86.0,0.00,4.20,18,,231.0,941.6
+02IVKO30,klimatološka,Ivanova korita,22.10.2026 14:00,11.96,91.3,0.00,,,,,
+02BOAN30,klimatološka,Boan,22.10.2026 14:00,15.11,90.1,,,,,,
+02MATE30,klimatološka,Matesevo,22.10.2026 14:00,15.77,64.0,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,22.10.2026 14:00,18.48,73.7,,,,,,
+02MAMO30,klimatološka,Manastir Morača,22.10.2026 14:00,19.62,79.3,,,,,,
+02ULCN10,glavna,Ulcinj,22.10.2026 14:00,23.30,65.0,0.00,3.00,18,,561.7,1015.3
+02STAB30,klimatološka,Stabna,22.10.2026 14:00,16.74,84.2,,,,,,
+02DANL20,klimatološka,Danilovgrad,22.10.2026 14:00,21.30,,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,22.10.2026 14:00,17.04,83.8,0.00,2.50,18,6.30,228.57,931.34
+02CRKV30,klimatološka,Crkvice,22.10.2026 14:00,13.56,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,22.10.2026 14:00,21.90,70.0,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,22.10.2026 14:00,13.76,73.2,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,22.10.2026 14:00,12.30,67.0,0.00,3.00,14,,374.7,854.8
+02BIST20,klimatološka,Bistrica,22.10.2026 14:00,18.10,49.5,0.00,4.40,18,8.30,293.6,
+02BAR010,glavna,Bar,22.10.2026 14:00,21.80,66.0,0.00,1.50,18,,331.7,1015.1
+02STIT30,klimatološka,Štitarica,22.10.2026 14:00,15.48,75.0,,,,,,
+02PDGR10,glavna,Podgorica,22.10.2026 14:00,21.30,68.0,0.00,0.80,32,,501.8,1009.1
+02CTNJ10,glavna,Cetinje,22.10.2026 14:00,16.90,84.0,0.00,0.80,4,,220.0,942.1
+02VELK30,klimatološka,Velika,22.10.2026 14:00,15.54,86.6,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,22.10.2026 14:00,12.33,89.2,,,,,,
+02PLJV10,glavna,Pljevlja,22.10.2026 14:00,18.50,50.0,0.00,1.40,10,,368.6,924.8
+02BPLJ20,klimatološka,Bijelo Polje,22.10.2026 14:00,21.90,50.3,,,,,901.6,945.89
+02GRAD30,klimatološka,Gradac,22.10.2026 14:00,19.29,48.7,,,,,,
