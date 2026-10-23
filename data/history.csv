@@ -94816,3 +94816,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,24.10.2026 00:00,4.69,100.0,,,,,,
 02STAB30,klimatološka,Stabna,24.10.2026 00:00,4.44,100.0,,,,,,
 02NJGV30,klimatološka,Njegovuđa,24.10.2026 00:00,7.18,95.6,,,,,,
+02KOVR30,klimatološka,Kovren,24.10.2026 00:00,6.33,100.0,0.00,,,,,
+02ULCN10,glavna,Ulcinj,24.10.2026 00:20,10.40,96.0,0.00,0.90,2,,0.5,1018.1
+02BERA20,glavna,Berane,24.10.2026 00:00,4.73,100.0,0.00,0.80,8,1.90,,939.85
+02BAR010,glavna,Bar,24.10.2026 00:20,13.40,78.0,0.00,1.40,12,,0.2,1017.7
+02HNOV10,glavna,Herceg Novi,24.10.2026 00:20,12.50,83.0,0.00,1.20,24,,0.9,1013.5
+02NIKS10,glavna,Nikšić,24.10.2026 00:20,7.20,96.0,0.00,0.80,2,,0.0,944.4
+02BPLJ20,klimatološka,Bijelo Polje,24.10.2026 00:00,6.24,100.0,,,,,0.0,950.62
+02CTNJ10,glavna,Cetinje,24.10.2026 00:20,4.90,100.0,0.00,0.30,6,,0.7,945.1
+02KUKO30,klimatološka,Kučka korita,24.10.2026 00:00,2.16,98.8,0.00,,,,,
+02BIST20,klimatološka,Bistrica,24.10.2026 00:00,3.70,98.2,0.00,1.10,18,1.40,0.6,
+02POSC30,klimatološka,Pošćenje,24.10.2026 00:00,2.76,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,24.10.2026 00:00,3.52,100.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,24.10.2026 00:20,4.20,97.0,0.00,0.50,24,,0.1,928.5
+02UBLI20,klimatološka,Ubli,24.10.2026 00:00,10.83,,,,,,,
+02GRAD30,klimatološka,Gradac,24.10.2026 00:00,5.07,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,24.10.2026 00:20,1.20,96.0,0.00,0.60,22,,0.0,856.5
+02LKOT20,klimatološka,Luka Kotor,23.10.2026 23:46,12.50,98.0,,0.70,,1.20,,1021.0
+02GOBU30,klimatološka,Gornja Bukovica,24.10.2026 00:00,0.73,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,24.10.2026 00:00,4.60,100.0,0.00,0.90,4,1.20,2.3,
+02PDGR10,glavna,Podgorica,24.10.2026 00:20,13.20,,0.00,0.70,2,,,
+02KOSA30,klimatološka,Kosanica,24.10.2026 00:00,3.33,100.0,,,,,,
+02BOAN30,klimatološka,Boan,24.10.2026 00:00,2.35,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,24.10.2026 00:00,4.37,100.0,,,,,,
+02KOLS10,glavna,Kolašin,24.10.2026 00:20,4.20,99.0,0.00,0.50,2,,0.0,911.9
+02BUDV20,klimatološka,Budva,24.10.2026 00:00,13.17,96.1,,,,,1.13,1017.1
