@@ -93366,3 +93366,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,23.10.2026 02:00,9.28,100.0,,,,,,
 02MOKR30,klimatološka,Mokro,23.10.2026 02:00,6.91,98.0,,,,,,
 02DANL20,klimatološka,Danilovgrad,23.10.2026 02:00,13.40,,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,23.10.2026 02:00,6.59,97.5,0.00,,,,,
+02NIKS10,glavna,Nikšić,23.10.2026 02:20,10.10,87.0,0.00,2.10,32,,0.0,944.4
+02PLJV10,glavna,Pljevlja,23.10.2026 02:20,8.40,95.0,0.00,0.50,26,,0.0,931.0
+02BIST20,klimatološka,Bistrica,23.10.2026 02:00,8.80,92.4,0.00,1.40,6,2.20,0.5,
+02BPLJ20,klimatološka,Bijelo Polje,23.10.2026 02:00,9.62,100.0,,,,,0.17,952.41
+02LKOT20,klimatološka,Luka Kotor,23.10.2026 01:46,14.20,97.0,,0.70,,1.40,,1021.0
+02KOLS10,glavna,Kolašin,23.10.2026 02:20,8.30,89.0,0.00,1.50,30,,0.2,912.8
+02ULCN10,glavna,Ulcinj,23.10.2026 02:20,14.40,96.0,0.00,2.50,2,,0.4,1017.8
+02PDGR10,glavna,Podgorica,23.10.2026 02:20,16.20,67.0,0.00,2.10,32,,1.3,1012.1
+02KOVR30,klimatološka,Kovren,23.10.2026 02:00,6.52,100.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,23.10.2026 02:20,4.90,98.0,0.00,0.70,8,,0.6,858.0
+02KOSA30,klimatološka,Kosanica,23.10.2026 02:00,5.64,100.0,,,,,,
+02BOAN30,klimatološka,Boan,23.10.2026 02:00,6.68,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,23.10.2026 02:00,5.88,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,23.10.2026 02:20,12.60,93.0,0.00,1.10,24,,0.2,1013.5
+02VELM20,klimatološka,Velimlje,23.10.2026 02:00,7.30,96.4,0.00,0.50,12,1.40,0.0,
+02BERA20,glavna,Berane,23.10.2026 02:00,9.72,96.8,0.00,1.10,8,2.70,,941.63
+02CRKV30,klimatološka,Crkvice,23.10.2026 02:00,6.10,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,23.10.2026 02:00,11.15,,,,,,,
+02POSC30,klimatološka,Pošćenje,23.10.2026 02:00,6.26,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,23.10.2026 02:00,8.76,100.0,,,,,,
+02BAR010,glavna,Bar,23.10.2026 02:20,15.00,85.0,0.00,2.20,4,3.10,1.3,1017.4
+02BUDV20,klimatološka,Budva,23.10.2026 02:00,15.14,100.0,,,,,0.0,1017.22
+02DDOB30,klimatološka,Donja Dobrilovina,23.10.2026 02:00,8.57,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,23.10.2026 02:00,7.20,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,23.10.2026 02:00,9.49,100.0,0.00,3.70,4,6.90,0.0,936.02
+02CTNJ10,glavna,Cetinje,23.10.2026 02:20,9.70,100.0,0.00,0.30,20,,0.2,944.8
