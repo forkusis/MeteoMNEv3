@@ -94160,3 +94160,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,23.10.2026 13:31,20.10,60.0,,1.80,,3.70,,1021.9
 02SCPO30,klimatološka,Šćepan Polje,23.10.2026 14:00,15.07,71.9,,,,,,
 02MOKR30,klimatološka,Mokro,23.10.2026 14:00,15.25,48.0,,,,,,
+02CTNJ10,glavna,Cetinje,23.10.2026 14:20,17.90,62.0,0.00,1.10,10,,343.7,944.8
+02PLJV10,glavna,Pljevlja,23.10.2026 14:20,15.20,52.0,0.00,1.10,18,,482.9,928.8
+02NIKS10,glavna,Nikšić,23.10.2026 14:20,17.90,52.0,0.00,3.20,14,,514.9,944.0
+02LKOT20,klimatološka,Luka Kotor,23.10.2026 13:46,20.20,63.0,,2.70,,4.90,,1021.8
+02BERA20,glavna,Berane,23.10.2026 14:00,16.77,53.3,0.00,1.20,26,2.80,,940.33
+02UBLI20,klimatološka,Ubli,23.10.2026 14:00,17.54,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,23.10.2026 14:00,10.55,81.9,0.00,,,,,
+02KOLS10,glavna,Kolašin,23.10.2026 14:20,14.80,59.0,0.00,0.80,2,,367.8,911.3
+02KOSA30,klimatološka,Kosanica,23.10.2026 14:00,12.10,92.6,,,,,,
+02ZBLJ10,glavna,Žabljak,23.10.2026 14:20,11.00,64.0,0.00,0.80,30,,546.7,857.2
+02DDOB30,klimatološka,Donja Dobrilovina,23.10.2026 14:00,11.31,93.9,,,,,,
+02GRAD30,klimatološka,Gradac,23.10.2026 14:00,15.24,72.8,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,23.10.2026 14:00,12.78,58.8,,,,,,
+02BIST20,klimatološka,Bistrica,23.10.2026 14:00,14.40,67.5,0.00,1.70,22,3.00,555.7,
+02HNOV10,glavna,Herceg Novi,23.10.2026 14:20,19.10,75.0,0.00,1.10,8,,144.2,1014.2
+02ULCN10,glavna,Ulcinj,23.10.2026 14:20,22.80,56.0,0.00,4.40,20,,551.6,1018.6
+02BUDV20,klimatološka,Budva,23.10.2026 14:00,21.46,59.4,,,,,547.73,1018.2
+02BOAN30,klimatološka,Boan,23.10.2026 14:00,16.01,49.9,,,,,,
+02CRKV30,klimatološka,Crkvice,23.10.2026 14:00,12.57,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,23.10.2026 14:00,15.28,59.4,,,,,,
+02PLZN20,klimatološka,Pluzine,23.10.2026 14:00,15.13,79.8,0.00,2.00,4,4.80,505.16,934.39
+02PDGR10,glavna,Podgorica,23.10.2026 14:20,21.60,46.0,0.00,3.40,14,5.10,502.0,1012.4
+02BAR010,glavna,Bar,23.10.2026 14:20,21.10,64.0,0.00,1.60,22,,513.1,1018.7
+02VELM20,klimatološka,Velimlje,23.10.2026 14:00,17.00,39.1,0.00,2.40,22,3.80,555.0,
+02BPLJ20,klimatološka,Bijelo Polje,23.10.2026 14:00,14.64,62.9,,,,,589.23,951.15
