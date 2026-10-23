@@ -94684,3 +94684,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,23.10.2026 22:00,12.40,92.0,0.00,1.80,30,,0.6,1018.4
 02PLJV10,glavna,Pljevlja,23.10.2026 22:00,5.90,96.0,0.00,0.00,26,,0.7,929.2
 02STIT30,klimatološka,Štitarica,23.10.2026 22:00,3.70,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,23.10.2026 22:20,5.70,99.0,0.00,0.10,10,,0.7,945.6
+02ULCN10,glavna,Ulcinj,23.10.2026 22:20,11.60,93.0,0.00,0.40,32,,0.0,1018.4
+02BOAN30,klimatološka,Boan,23.10.2026 22:00,2.95,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,23.10.2026 22:20,5.60,95.0,0.00,0.50,6,,0.3,929.2
+02KOVR30,klimatološka,Kovren,23.10.2026 22:00,6.63,100.0,0.00,,,,,
+02BAR010,glavna,Bar,23.10.2026 22:20,15.10,70.0,0.00,1.40,6,,0.0,1018.2
+02ZBLJ10,glavna,Žabljak,23.10.2026 22:20,1.70,95.0,0.00,1.50,22,,0.6,857.3
+02NIKS10,glavna,Nikšić,23.10.2026 22:20,8.80,93.0,0.00,1.30,16,,0.0,945.0
+02PDGR10,glavna,Podgorica,23.10.2026 22:20,13.90,81.0,0.00,1.20,2,,0.8,1012.9
+02BIST20,klimatološka,Bistrica,23.10.2026 22:00,4.90,98.1,0.00,1.30,14,1.90,1.4,
+02UBLI20,klimatološka,Ubli,23.10.2026 22:00,11.46,,,,,,,
+02KUKO30,klimatološka,Kučka korita,23.10.2026 22:00,2.78,97.5,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,23.10.2026 22:00,0.80,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,23.10.2026 22:00,4.78,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,23.10.2026 22:00,4.10,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,23.10.2026 22:00,6.99,100.0,,,,,0.0,950.64
+02HNOV10,glavna,Herceg Novi,23.10.2026 22:20,12.90,85.0,0.00,0.40,4,,0.0,1014.0
+02KOLS10,glavna,Kolašin,23.10.2026 22:20,4.80,98.0,0.00,0.70,22,,0.4,912.3
+02GRAD30,klimatološka,Gradac,23.10.2026 22:00,5.01,100.0,,,,,,
+02BUDV20,klimatološka,Budva,23.10.2026 22:00,14.24,96.7,,,,,1.13,1017.69
+02VELM20,klimatološka,Velimlje,23.10.2026 22:00,6.10,99.8,0.00,0.90,4,1.30,1.4,
+02BERA20,glavna,Berane,23.10.2026 22:00,6.20,98.8,0.00,0.60,28,1.90,,939.8
+02KOSA30,klimatološka,Kosanica,23.10.2026 22:00,0.30,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,23.10.2026 21:46,13.50,91.0,,0.50,,1.30,,1021.6
+02IVKO30,klimatološka,Ivanova korita,23.10.2026 22:00,3.85,100.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,23.10.2026 22:00,7.92,100.0,0.00,0.90,12,1.80,1.01,935.4
