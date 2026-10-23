@@ -94796,3 +94796,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,23.10.2026 23:50,12.70,82.0,0.00,0.70,26,,0.0,1013.6
 02CTNJ10,glavna,Cetinje,23.10.2026 23:50,5.00,100.0,0.00,0.00,12,,0.1,945.2
 02BAR010,glavna,Bar,23.10.2026 23:50,13.90,77.0,0.00,1.40,12,,0.5,1017.8
+02ZBLJ10,glavna,Žabljak,24.10.2026 00:00,1.20,96.0,0.00,1.70,20,2.50,0.0,856.6
+02STIT30,klimatološka,Štitarica,24.10.2026 00:00,4.74,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,24.10.2026 00:00,4.40,97.0,0.00,0.40,24,,0.0,928.5
+02SCPO30,klimatološka,Šćepan Polje,24.10.2026 00:00,5.53,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,23.10.2026 23:31,12.50,95.0,,0.00,,0.90,,1021.1
+02DANL20,klimatološka,Danilovgrad,24.10.2026 00:00,10.40,,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,24.10.2026 00:00,10.00,100.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,24.10.2026 00:00,13.70,77.0,0.00,0.60,4,,0.0,1012.5
+02BAR010,glavna,Bar,24.10.2026 00:00,13.60,76.0,0.00,1.90,10,,0.4,1017.7
+02MAMO30,klimatološka,Manastir Morača,24.10.2026 00:00,7.26,100.0,,,,,,
+02NIKS10,glavna,Nikšić,24.10.2026 00:00,7.50,95.0,0.00,0.60,12,,0.0,944.5
+02CTNJ10,glavna,Cetinje,24.10.2026 00:00,4.90,100.0,0.00,0.20,10,,0.4,945.2
+02MATE30,klimatološka,Matesevo,24.10.2026 00:00,3.58,96.7,0.00,,,,,
+02ULCN10,glavna,Ulcinj,24.10.2026 00:00,10.50,95.0,0.00,0.50,4,,0.0,1018.2
+02MOKR30,klimatološka,Mokro,24.10.2026 00:00,2.63,96.9,,,,,,
+02HNOV10,glavna,Herceg Novi,24.10.2026 00:00,12.80,81.0,0.00,1.30,24,,0.1,1013.5
+02KOLS10,glavna,Kolašin,24.10.2026 00:00,4.10,99.0,0.00,0.50,8,,0.5,912.0
+02VELK30,klimatološka,Velika,24.10.2026 00:00,4.69,100.0,,,,,,
+02STAB30,klimatološka,Stabna,24.10.2026 00:00,4.44,100.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,24.10.2026 00:00,7.18,95.6,,,,,,
