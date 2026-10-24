@@ -1,18 +1,14 @@
 {
-  "updated_at": "2026-10-24T12:01:17.384476+00:00",
-  "mjerenje_labela": "Subota, 24.10.2026. u    8h",
+  "updated_at": "2026-10-24T12:15:55.678486+00:00",
+  "mjerenje_labela": "Subota, 24.10.2026. u   14h",
   "stations": [
     {
       "naziv": "Herceg Novi",
-      "vrijednost": 19.0
+      "vrijednost": 20.0
     },
     {
       "naziv": "Bar",
-      "vrijednost": 19.0
-    },
-    {
-      "naziv": "Ulcinj",
-      "vrijednost": 19.0
+      "vrijednost": 20.0
     }
   ]
 }
