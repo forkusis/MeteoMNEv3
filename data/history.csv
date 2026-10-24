@@ -96319,3 +96319,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,24.10.2026 23:00,10.05,100.0,,,,,,
 02MOKR30,klimatološka,Mokro,24.10.2026 23:00,8.00,96.5,,,,,,
 02KOLS10,glavna,Kolašin,24.10.2026 23:00,8.70,91.0,0.00,0.40,22,,0.3,906.9
+02KOSA30,klimatološka,Kosanica,24.10.2026 23:00,7.06,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,24.10.2026 22:46,13.70,99.0,,,,,,1015.5
+02CRKV30,klimatološka,Crkvice,24.10.2026 23:00,8.32,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,24.10.2026 23:00,9.01,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,24.10.2026 23:00,7.43,88.5,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,24.10.2026 23:00,8.10,100.0,,,,,,
+02BUDV20,klimatološka,Budva,24.10.2026 23:00,14.49,100.0,,,,,0.11,1011.55
+02BPLJ20,klimatološka,Bijelo Polje,24.10.2026 23:00,10.54,90.9,,,,,0.0,944.99
+02ZBLJ10,glavna,Žabljak,24.10.2026 23:20,5.40,93.0,0.10,1.40,14,,1.1,852.8
+02PLJV10,glavna,Pljevlja,24.10.2026 23:20,9.60,95.0,0.16,1.60,4,,1.1,924.8
+02BAR010,glavna,Bar,24.10.2026 23:20,15.30,93.0,0.05,1.10,8,,0.0,1011.9
+02PLZN20,klimatološka,Pluzine,24.10.2026 23:00,10.34,100.0,0.14,0.50,32,1.20,0.0,930.15
+02CTNJ10,glavna,Cetinje,24.10.2026 23:20,10.10,99.0,0.36,0.30,32,,0.6,939.5
+02KOLS10,glavna,Kolašin,24.10.2026 23:20,8.70,92.0,0.00,0.40,20,,0.8,906.7
+02UBLI20,klimatološka,Ubli,24.10.2026 23:00,13.31,,,,,,,
+02VELM20,klimatološka,Velimlje,24.10.2026 23:00,9.70,96.4,0.00,2.70,12,5.30,0.0,
+02BERA20,glavna,Berane,24.10.2026 23:00,8.73,86.4,0.00,1.80,8,3.00,,934.69
+02NIKS10,glavna,Nikšić,24.10.2026 23:20,10.50,97.0,0.12,3.70,6,4.40,2.1,939.5
+02IVKO30,klimatološka,Ivanova korita,24.10.2026 23:00,6.86,100.0,0.48,,,,,
+02BOAN30,klimatološka,Boan,24.10.2026 23:00,8.47,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,24.10.2026 23:20,13.70,97.0,0.00,1.30,22,,0.3,1007.5
+02ULCN10,glavna,Ulcinj,24.10.2026 23:20,14.80,89.0,0.16,1.00,6,,0.0,1011.6
+02GOBU30,klimatološka,Gornja Bukovica,24.10.2026 23:00,6.46,100.0,,,,,,
+02PDGR10,glavna,Podgorica,24.10.2026 23:20,14.40,90.0,0.16,2.50,26,,0.7,1007.5
+02BIST20,klimatološka,Bistrica,24.10.2026 23:00,9.30,86.7,0.00,0.50,16,0.90,0.5,
+02GRAD30,klimatološka,Gradac,24.10.2026 23:00,9.07,100.0,,,,,,
