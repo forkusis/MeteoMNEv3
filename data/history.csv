@@ -96900,3 +96900,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,25.10.2026 08:00,9.87,100.0,,,,,,
 02PLJV10,glavna,Pljevlja,25.10.2026 08:00,6.30,98.0,0.00,0.40,18,,38.4,923.6
 02HNOV10,glavna,Herceg Novi,25.10.2026 08:00,12.60,98.0,0.00,1.10,24,,16.6,1007.3
+02ZBLJ10,glavna,Žabljak,25.10.2026 08:20,3.10,96.0,0.00,0.30,26,,168.8,851.3
+02IVKO30,klimatološka,Ivanova korita,25.10.2026 08:00,5.10,100.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,25.10.2026 08:20,6.60,97.0,0.00,1.70,18,2.90,60.4,924.0
+02UBLI20,klimatološka,Ubli,25.10.2026 08:00,9.84,,,,,,,
+02HNOV10,glavna,Herceg Novi,25.10.2026 08:20,12.90,98.0,0.00,1.70,14,1.90,14.9,1007.7
+02KOLS10,glavna,Kolašin,25.10.2026 08:20,6.30,99.0,0.00,0.10,14,,67.1,906.1
+02ULCN10,glavna,Ulcinj,25.10.2026 08:20,14.20,95.0,0.00,2.70,8,,39.3,1011.8
+02NIKS10,glavna,Nikšić,25.10.2026 08:20,7.30,98.0,0.00,0.70,6,,29.0,938.3
+02GRAD30,klimatološka,Gradac,25.10.2026 08:00,6.62,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,25.10.2026 08:00,7.43,100.0,0.00,0.70,26,1.80,32.35,929.42
+02CRKV30,klimatološka,Crkvice,25.10.2026 08:00,7.82,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,25.10.2026 08:00,3.71,100.0,,,,,,
+02PDGR10,glavna,Podgorica,25.10.2026 08:20,13.30,89.0,0.00,0.30,28,,63.0,1006.5
+02DDOB30,klimatološka,Donja Dobrilovina,25.10.2026 08:00,5.56,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,25.10.2026 08:00,7.40,98.8,0.00,0.60,26,0.80,55.4,
+02BUDV20,klimatološka,Budva,25.10.2026 08:00,13.72,100.0,,,,,9.68,1011.57
+02CTNJ10,glavna,Cetinje,25.10.2026 08:20,9.50,100.0,0.00,0.10,16,,23.7,938.9
+02LKOT20,klimatološka,Luka Kotor,25.10.2026 07:46,13.20,94.0,,0.70,,2.60,,1015.6
+02BAR010,glavna,Bar,25.10.2026 08:20,14.30,90.0,0.00,1.20,30,,17.4,1011.7
+02BOAN30,klimatološka,Boan,25.10.2026 08:00,4.62,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,25.10.2026 08:00,5.60,97.9,0.00,1.50,16,2.10,18.3,
+02KOSA30,klimatološka,Kosanica,25.10.2026 08:00,4.48,100.0,,,,,,
+02BERA20,glavna,Berane,25.10.2026 08:00,7.88,100.0,0.00,0.00,8,0.80,,934.3
+02GOBU30,klimatološka,Gornja Bukovica,25.10.2026 08:00,0.84,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,25.10.2026 08:00,8.25,100.0,,,,,46.56,944.73
