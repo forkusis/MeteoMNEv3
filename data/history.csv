@@ -98138,3 +98138,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,26.10.2026 03:00,4.83,100.0,,,,,,
 02ULCN10,glavna,Ulcinj,26.10.2026 03:00,11.60,98.0,0.00,1.40,32,,0.0,1011.7
 02STIT30,klimatološka,Štitarica,26.10.2026 03:00,2.65,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,26.10.2026 03:00,6.70,96.7,0.00,0.90,16,1.30,0.5,
+02POSC30,klimatološka,Pošćenje,26.10.2026 03:00,3.59,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,26.10.2026 03:20,12.00,98.0,0.00,1.40,28,2.70,0.0,1011.8
+02CTNJ10,glavna,Cetinje,26.10.2026 03:20,4.60,100.0,0.00,0.00,18,,0.2,939.2
+02DDOB30,klimatološka,Donja Dobrilovina,26.10.2026 03:00,6.49,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,26.10.2026 03:00,2.83,100.0,,,,,,
+02KOLS10,glavna,Kolašin,26.10.2026 03:20,5.20,100.0,0.00,0.90,2,,0.0,906.3
+02KUKO30,klimatološka,Kučka korita,26.10.2026 03:00,5.30,96.7,0.00,,,,,
+02BERA20,glavna,Berane,26.10.2026 03:00,7.15,100.0,0.00,0.00,32,0.90,,934.43
+02UBLI20,klimatološka,Ubli,26.10.2026 03:00,11.16,,,,,,,
+02GRAD30,klimatološka,Gradac,26.10.2026 03:00,6.09,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,26.10.2026 02:46,11.50,100.0,,0.80,,1.50,,1015.3
+02HNOV10,glavna,Herceg Novi,26.10.2026 03:20,12.00,88.0,0.00,1.10,22,,0.6,1007.5
+02NIKS10,glavna,Nikšić,26.10.2026 03:20,6.90,96.0,0.00,1.20,32,,0.0,938.8
+02ZBLJ10,glavna,Žabljak,26.10.2026 03:20,2.00,99.0,0.00,0.70,16,,0.1,851.9
+02PLZN20,klimatološka,Pluzine,26.10.2026 03:00,7.39,100.0,0.00,0.80,18,1.70,0.0,929.82
+02BAR010,glavna,Bar,26.10.2026 03:20,15.40,79.0,0.00,2.30,6,,1.5,1011.5
+02BUDV20,klimatološka,Budva,26.10.2026 03:00,13.04,100.0,,,,,0.0,1011.11
+02BPLJ20,klimatološka,Bijelo Polje,26.10.2026 03:00,7.71,100.0,,,,,0.0,945.29
+02KOSA30,klimatološka,Kosanica,26.10.2026 03:00,2.69,100.0,,,,,,
+02PDGR10,glavna,Podgorica,26.10.2026 03:20,13.60,82.0,0.00,0.90,2,,1.2,1006.1
+02IVKO30,klimatološka,Ivanova korita,26.10.2026 03:00,3.42,100.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,26.10.2026 03:00,3.58,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,26.10.2026 03:20,6.30,97.0,0.00,0.90,10,1.50,1.3,924.5
+02VELM20,klimatološka,Velimlje,26.10.2026 03:00,4.40,100.0,0.00,0.70,24,1.30,1.2,
