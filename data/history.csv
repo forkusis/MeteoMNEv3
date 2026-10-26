@@ -98442,3 +98442,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,26.10.2026 07:50,6.50,96.0,0.00,0.50,18,,2.9,926.9
 02ZBLJ10,glavna,Žabljak,26.10.2026 07:50,4.00,98.0,0.00,3.60,30,,5.4,853.8
 02PDGR10,glavna,Podgorica,26.10.2026 07:50,12.00,83.0,0.00,2.40,2,,31.4,1006.6
+02ULCN10,glavna,Ulcinj,26.10.2026 08:00,11.50,98.0,0.00,1.10,2,,41.2,1011.8
+02VELK30,klimatološka,Velika,26.10.2026 08:00,5.60,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,26.10.2026 07:31,12.40,97.0,,1.60,,2.50,,1015.8
+02DANL20,klimatološka,Danilovgrad,26.10.2026 08:00,10.60,,0.00,,,,,
+02STAB30,klimatološka,Stabna,26.10.2026 08:00,6.65,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,26.10.2026 08:00,9.50,100.0,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,26.10.2026 08:00,7.41,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,26.10.2026 08:00,3.80,98.0,0.00,3.10,30,,4.5,854.1
+02NJGV30,klimatološka,Njegovuđa,26.10.2026 08:00,4.21,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,26.10.2026 08:00,5.59,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,26.10.2026 08:00,12.40,85.0,0.00,0.40,32,,35.6,1008.1
+02MATE30,klimatološka,Matesevo,26.10.2026 08:00,5.39,98.6,0.00,,,,,
+02BAR010,glavna,Bar,26.10.2026 08:00,13.10,88.0,0.00,0.60,4,,27.8,1011.9
+02KOLS10,glavna,Kolašin,26.10.2026 08:00,6.80,92.0,0.00,2.10,2,,7.0,907.8
+02NIKS10,glavna,Nikšić,26.10.2026 08:00,8.30,86.0,0.00,1.40,28,,47.8,939.5
+02PLJV10,glavna,Pljevlja,26.10.2026 08:00,6.60,96.0,0.00,0.60,8,,2.9,927.2
+02MAMO30,klimatološka,Manastir Morača,26.10.2026 08:00,8.11,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,26.10.2026 08:00,4.22,99.4,,,,,,
+02CTNJ10,glavna,Cetinje,26.10.2026 08:00,5.90,100.0,0.00,0.30,4,,66.7,939.5
+02PDGR10,glavna,Podgorica,26.10.2026 08:00,12.30,83.0,0.00,0.90,4,,42.9,1006.6
