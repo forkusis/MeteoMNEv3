@@ -99195,3 +99195,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,26.10.2026 19:50,4.00,86.0,0.00,0.30,6,,0.9,943.5
 02PLJV10,glavna,Pljevlja,26.10.2026 19:50,3.40,78.0,0.00,0.30,26,,0.2,931.0
 02LKOT20,klimatološka,Luka Kotor,26.10.2026 19:16,17.10,34.0,,4.40,,14.00,,1019.5
+02MOKR30,klimatološka,Mokro,26.10.2026 20:00,4.09,67.7,,,,,,
+02LKOT20,klimatološka,Luka Kotor,26.10.2026 19:31,17.00,34.0,,6.60,,14.40,,1019.3
+02PLJV10,glavna,Pljevlja,26.10.2026 20:00,3.10,80.0,0.00,0.70,2,,0.0,931.1
+02MATE30,klimatološka,Matesevo,26.10.2026 20:00,1.41,85.8,0.00,,,,,
+02STAB30,klimatološka,Stabna,26.10.2026 20:00,8.06,56.0,,,,,,
+02VIRP20,klimatološka,Virpazar,26.10.2026 20:00,15.90,31.0,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,26.10.2026 20:00,13.50,,0.00,,,,,
+02NIKS10,glavna,Nikšić,26.10.2026 20:00,9.70,45.0,0.00,2.80,4,,0.5,944.0
+02KOLS10,glavna,Kolašin,26.10.2026 20:00,6.00,62.0,0.00,2.50,4,,0.0,912.3
+02VELK30,klimatološka,Velika,26.10.2026 20:00,2.35,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,26.10.2026 20:00,2.90,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,26.10.2026 20:00,8.23,74.0,,,,,,
+02CTNJ10,glavna,Cetinje,26.10.2026 20:00,4.00,84.0,0.00,0.70,26,,1.5,943.6
+02BAR010,glavna,Bar,26.10.2026 20:00,16.90,29.0,0.00,8.00,4,18.00,0.6,1015.0
+02NJGV30,klimatološka,Njegovuđa,26.10.2026 20:00,-1.38,99.8,,,,,,
+02HNOV10,glavna,Herceg Novi,26.10.2026 20:00,16.60,28.0,0.00,1.40,2,,0.4,1011.3
+02STIT30,klimatološka,Štitarica,26.10.2026 20:00,3.74,84.4,,,,,,
+02ZBLJ10,glavna,Žabljak,26.10.2026 20:00,0.20,80.0,0.00,1.80,22,3.60,1.0,857.4
+02PDGR10,glavna,Podgorica,26.10.2026 20:00,15.50,32.0,0.00,5.70,2,,0.5,1010.9
+02ULCN10,glavna,Ulcinj,26.10.2026 20:00,14.20,57.0,0.00,6.50,6,,0.0,1015.4
