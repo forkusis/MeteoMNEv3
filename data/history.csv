@@ -100648,3 +100648,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,27.10.2026 18:00,13.60,41.0,0.00,1.00,4,,0.0,1011.0
 02LKOT20,klimatološka,Luka Kotor,27.10.2026 17:31,15.00,40.0,,7.80,,17.70,,1019.0
 02KOLS10,glavna,Kolašin,27.10.2026 18:00,3.50,81.0,0.00,2.10,2,,0.3,909.1
+02LKOT20,klimatološka,Luka Kotor,27.10.2026 17:46,14.90,43.0,,9.00,,16.90,,1018.8
+02CTNJ10,glavna,Cetinje,27.10.2026 18:20,8.10,50.0,0.00,0.80,30,,0.7,941.8
+02GOBU30,klimatološka,Gornja Bukovica,27.10.2026 18:00,0.33,100.0,,,,,,
+02NIKS10,glavna,Nikšić,27.10.2026 18:20,7.10,62.0,0.00,4.60,6,,0.0,941.8
+02ULCN10,glavna,Ulcinj,27.10.2026 18:20,12.00,58.0,0.00,4.20,4,,0.7,1015.2
+02HNOV10,glavna,Herceg Novi,27.10.2026 18:20,13.30,36.0,0.00,0.90,4,,0.4,1011.3
+02BIST20,klimatološka,Bistrica,27.10.2026 18:00,4.10,81.8,0.10,1.70,6,3.00,0.6,
+02UBLI20,klimatološka,Ubli,27.10.2026 18:00,9.00,,,,,,,
+02KUKO30,klimatološka,Kučka korita,27.10.2026 18:00,1.74,78.3,0.00,,,,,
+02VELM20,klimatološka,Velimlje,27.10.2026 18:00,7.00,54.2,0.00,4.30,2,6.30,1.1,
+02BERA20,glavna,Berane,27.10.2026 18:00,4.92,85.5,0.00,0.90,32,2.70,,938.53
+02KOVR30,klimatološka,Kovren,27.10.2026 18:00,1.02,100.0,0.12,,,,,
+02BUDV20,klimatološka,Budva,27.10.2026 18:00,15.82,30.5,,,,,0.0,1014.23
+02DDOB30,klimatološka,Donja Dobrilovina,27.10.2026 18:00,3.97,95.6,,,,,,
+02GRAD30,klimatološka,Gradac,27.10.2026 18:00,5.64,93.1,,,,,,
+02IVKO30,klimatološka,Ivanova korita,27.10.2026 18:00,2.69,67.4,0.00,,,,,
+02PLJV10,glavna,Pljevlja,27.10.2026 18:20,4.30,89.0,0.00,1.10,2,,0.1,928.5
+02PLZN20,klimatološka,Pluzine,27.10.2026 18:00,7.42,76.7,0.00,4.20,30,10.10,0.0,932.64
+02KOLS10,glavna,Kolašin,27.10.2026 18:20,3.30,85.0,0.00,2.50,4,,0.2,909.3
+02BPLJ20,klimatološka,Bijelo Polje,27.10.2026 18:00,5.28,91.4,,,,,0.0,949.66
+02BAR010,glavna,Bar,27.10.2026 18:20,15.30,34.0,0.00,5.10,2,,0.7,1014.6
+02ZBLJ10,glavna,Žabljak,27.10.2026 18:20,-0.10,88.0,0.00,2.40,28,,0.1,854.5
+02PDGR10,glavna,Podgorica,27.10.2026 18:20,13.10,41.0,0.00,3.80,32,,0.4,1010.3
+02BOAN30,klimatološka,Boan,27.10.2026 18:00,2.53,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,27.10.2026 18:00,0.77,100.0,,,,,,
