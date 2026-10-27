@@ -99984,3 +99984,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STAB30,klimatološka,Stabna,27.10.2026 08:00,6.62,61.9,,,,,,
 02DANL20,klimatološka,Danilovgrad,27.10.2026 08:00,9.30,,0.00,,,,,
 02VELK30,klimatološka,Velika,27.10.2026 08:00,2.46,92.3,,,,,,
+02BUDV20,klimatološka,Budva,27.10.2026 08:00,15.20,30.3,,,,,40.92,1015.21
+02KOSA30,klimatološka,Kosanica,27.10.2026 08:00,-4.18,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,27.10.2026 08:00,9.72,,,,,,,
+02BERA20,glavna,Berane,27.10.2026 08:00,-0.63,100.0,0.00,0.80,8,1.40,,941.31
+02GRAD30,klimatološka,Gradac,27.10.2026 08:00,-1.18,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,27.10.2026 08:00,7.60,48.6,0.00,2.40,30,5.10,274.5,
+02POSC30,klimatološka,Pošćenje,27.10.2026 08:00,3.71,72.8,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,27.10.2026 08:00,0.89,100.0,,,,,,
+02PDGR10,glavna,Podgorica,27.10.2026 08:20,14.10,32.0,0.00,4.20,32,,272.7,1011.9
+02CTNJ10,glavna,Cetinje,27.10.2026 08:20,7.80,49.0,0.00,1.60,24,,83.7,943.3
+02BAR010,glavna,Bar,27.10.2026 08:20,14.70,31.0,0.00,6.00,4,,315.2,1016.1
+02LKOT20,klimatološka,Luka Kotor,27.10.2026 07:46,14.80,37.0,,9.10,,14.60,,1020.0
+02NIKS10,glavna,Nikšić,27.10.2026 08:20,9.10,43.0,0.00,7.10,2,14.90,324.6,943.2
+02IVKO30,klimatološka,Ivanova korita,27.10.2026 08:00,3.76,54.8,0.00,,,,,
+02BIST20,klimatološka,Bistrica,27.10.2026 08:00,0.20,96.7,0.00,1.10,16,1.60,84.3,
+02CRKV30,klimatološka,Crkvice,27.10.2026 08:00,5.74,59.5,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,27.10.2026 08:00,-0.35,100.0,,,,,41.18,952.35
+02ZBLJ10,glavna,Žabljak,27.10.2026 08:20,0.90,71.0,0.00,3.00,30,,113.7,856.0
+02ULCN10,glavna,Ulcinj,27.10.2026 08:20,14.10,41.0,0.00,5.10,8,,332.5,1016.8
+02PLJV10,glavna,Pljevlja,27.10.2026 08:20,-0.80,98.0,0.00,0.60,26,,73.5,930.9
+02KUKO30,klimatološka,Kučka korita,27.10.2026 08:00,1.23,66.7,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,27.10.2026 08:20,14.60,49.0,0.00,1.10,22,,342.0,1012.3
+02KOVR30,klimatološka,Kovren,27.10.2026 08:00,2.90,100.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,27.10.2026 08:00,3.23,80.4,,,,,,
+02KOLS10,glavna,Kolašin,27.10.2026 08:20,3.90,69.0,0.00,4.00,6,,85.9,911.0
+02PLZN20,klimatološka,Pluzine,27.10.2026 08:00,5.50,96.2,0.00,5.50,32,12.60,56.63,934.35
+02GOBU30,klimatološka,Gornja Bukovica,27.10.2026 08:00,0.54,98.0,,,,,,
