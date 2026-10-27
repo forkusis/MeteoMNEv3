@@ -99853,3 +99853,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,27.10.2026 06:00,7.20,47.0,0.00,5.80,2,,0.9,943.0
 02CTNJ10,glavna,Cetinje,27.10.2026 06:00,-0.50,96.0,0.00,0.10,10,,0.6,943.1
 02MOKR30,klimatološka,Mokro,27.10.2026 06:00,2.21,69.3,,,,,,
+02CTNJ10,glavna,Cetinje,27.10.2026 06:20,-0.20,96.0,0.00,0.60,32,,5.9,942.9
+02KUKO30,klimatološka,Kučka korita,27.10.2026 06:00,0.96,65.2,0.00,,,,,
+02UBLI20,klimatološka,Ubli,27.10.2026 06:00,9.19,,,,,,,
+02ZBLJ10,glavna,Žabljak,27.10.2026 06:20,-0.10,68.0,0.00,3.30,24,,10.6,855.7
+02NIKS10,glavna,Nikšić,27.10.2026 06:20,7.60,46.0,0.00,7.00,2,,6.8,943.0
+02POSC30,klimatološka,Pošćenje,27.10.2026 06:00,2.33,76.7,,,,,,
+02PLZN20,klimatološka,Pluzine,27.10.2026 06:00,5.26,93.0,0.00,6.80,32,13.60,0.0,933.9
+02GOBU30,klimatološka,Gornja Bukovica,27.10.2026 06:00,0.46,91.6,,,,,,
+02VELM20,klimatološka,Velimlje,27.10.2026 06:00,5.30,56.9,0.00,2.10,4,4.10,2.3,
+02IVKO30,klimatološka,Ivanova korita,27.10.2026 06:00,1.96,58.8,0.00,,,,,
+02GRAD30,klimatološka,Gradac,27.10.2026 06:00,-1.38,100.0,,,,,,
+02PDGR10,glavna,Podgorica,27.10.2026 06:20,11.00,44.0,0.00,1.70,30,,6.6,1011.5
+02BUDV20,klimatološka,Budva,27.10.2026 06:00,11.58,42.4,,,,,0.0,1015.28
+02LKOT20,klimatološka,Luka Kotor,27.10.2026 05:46,14.10,41.0,,5.60,,15.70,,1019.7
+02BERA20,glavna,Berane,27.10.2026 06:00,-0.98,100.0,0.00,0.80,2,1.70,,940.91
+02BIST20,klimatološka,Bistrica,27.10.2026 06:00,-1.40,96.5,0.00,0.80,18,1.20,0.6,
+02HNOV10,glavna,Herceg Novi,27.10.2026 06:20,9.70,48.0,0.00,0.70,24,,6.1,1012.4
+02BPLJ20,klimatološka,Bijelo Polje,27.10.2026 06:00,-0.74,100.0,,,,,0.04,952.15
+02BOAN30,klimatološka,Boan,27.10.2026 06:00,0.03,99.7,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,27.10.2026 06:00,-0.97,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,27.10.2026 06:20,-1.40,98.0,0.00,0.20,26,,1.8,930.7
+02KOVR30,klimatološka,Kovren,27.10.2026 06:00,-0.78,100.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,27.10.2026 06:00,-9.06,100.0,,,,,,
+02KOLS10,glavna,Kolašin,27.10.2026 06:20,2.40,77.0,0.00,2.70,2,,5.9,910.7
+02ULCN10,glavna,Ulcinj,27.10.2026 06:20,10.90,51.0,0.00,5.10,8,,7.8,1016.4
+02BAR010,glavna,Bar,27.10.2026 06:20,13.90,32.0,0.00,8.10,2,,7.3,1015.7
