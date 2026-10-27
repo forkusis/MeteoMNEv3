@@ -100247,3 +100247,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MATE30,klimatološka,Matesevo,27.10.2026 12:00,6.73,50.1,0.00,,,,,
 02VIRP20,klimatološka,Virpazar,27.10.2026 12:00,16.60,28.0,0.00,,,,,
 02LKOT20,klimatološka,Luka Kotor,27.10.2026 11:31,16.40,33.0,,7.10,,9.90,,1018.6
+02ZBLJ10,glavna,Žabljak,27.10.2026 12:20,3.60,60.0,0.00,3.20,32,,561.7,854.9
+02PLZN20,klimatološka,Pluzine,27.10.2026 12:00,7.95,66.8,0.00,7.80,32,14.40,111.14,933.11
+02KOLS10,glavna,Kolašin,27.10.2026 12:20,7.80,55.0,0.00,2.40,2,,316.2,909.4
+02NIKS10,glavna,Nikšić,27.10.2026 12:20,10.90,37.0,0.00,8.10,2,,422.8,942.1
+02CTNJ10,glavna,Cetinje,27.10.2026 12:20,13.10,42.0,0.00,1.60,10,,561.9,941.9
+02VELM20,klimatološka,Velimlje,27.10.2026 12:00,11.10,43.8,0.00,2.60,4,4.10,606.7,
+02POSC30,klimatološka,Pošćenje,27.10.2026 12:00,6.90,55.4,,,,,,
+02BOAN30,klimatološka,Boan,27.10.2026 12:00,6.22,68.2,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,27.10.2026 12:00,5.32,84.9,,,,,260.04,950.05
+02BAR010,glavna,Bar,27.10.2026 12:20,17.20,32.0,0.00,2.30,2,,578.5,1015.3
+02IVKO30,klimatološka,Ivanova korita,27.10.2026 12:00,7.47,49.9,0.00,,,,,
+02GRAD30,klimatološka,Gradac,27.10.2026 12:00,10.73,47.5,,,,,,
+02KOSA30,klimatološka,Kosanica,27.10.2026 12:00,5.94,77.6,,,,,,
+02ULCN10,glavna,Ulcinj,27.10.2026 12:20,18.30,27.0,0.00,1.60,6,,609.7,1015.6
+02BIST20,klimatološka,Bistrica,27.10.2026 12:00,7.00,60.6,0.00,1.10,24,1.70,113.9,
+02KOVR30,klimatološka,Kovren,27.10.2026 12:00,6.91,69.9,0.00,,,,,
+02UBLI20,klimatološka,Ubli,27.10.2026 12:00,12.75,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,27.10.2026 12:00,6.79,69.7,,,,,,
+02BUDV20,klimatološka,Budva,27.10.2026 12:00,18.42,28.7,,,,,642.87,1014.73
+02GOBU30,klimatološka,Gornja Bukovica,27.10.2026 12:00,3.38,75.1,,,,,,
+02HNOV10,glavna,Herceg Novi,27.10.2026 12:20,18.10,31.0,0.00,1.20,8,,535.4,1011.0
+02CRKV30,klimatološka,Crkvice,27.10.2026 12:00,8.43,54.8,,,,,,
+02KUKO30,klimatološka,Kučka korita,27.10.2026 12:00,5.05,57.4,0.00,,,,,
+02BERA20,glavna,Berane,27.10.2026 12:00,8.46,64.7,0.00,1.80,10,3.80,,938.76
+02PDGR10,glavna,Podgorica,27.10.2026 12:20,16.70,30.0,0.00,3.20,30,,560.2,1010.1
+02LKOT20,klimatološka,Luka Kotor,27.10.2026 11:46,16.70,33.0,,7.20,,14.60,,1018.7
+02PLJV10,glavna,Pljevlja,27.10.2026 12:20,9.00,47.0,0.00,0.30,2,,431.0,928.2
