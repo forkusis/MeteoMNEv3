@@ -100759,3 +100759,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,27.10.2026 19:50,5.40,79.0,0.00,1.70,32,,0.0,928.7
 02LKOT20,klimatološka,Luka Kotor,27.10.2026 19:16,14.40,44.0,,9.10,,17.00,,1018.5
 02NIKS10,glavna,Nikšić,27.10.2026 19:50,8.40,53.0,0.00,4.40,2,,1.2,941.3
+02SCPO30,klimatološka,Šćepan Polje,27.10.2026 20:00,9.02,68.1,,,,,,
+02BAR010,glavna,Bar,27.10.2026 20:00,13.90,39.0,0.00,5.00,32,,0.3,1014.9
+02PLJV10,glavna,Pljevlja,27.10.2026 20:00,5.40,81.0,0.00,0.60,2,,1.5,928.8
+02MOKR30,klimatološka,Mokro,27.10.2026 20:00,4.34,71.9,,,,,,
+02DANL20,klimatološka,Danilovgrad,27.10.2026 20:00,12.90,,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,27.10.2026 20:00,13.40,40.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,27.10.2026 20:00,7.40,57.0,0.00,1.10,2,,0.4,941.7
+02VELK30,klimatološka,Velika,27.10.2026 20:00,1.70,100.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,27.10.2026 20:00,1.02,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,27.10.2026 20:00,2.32,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,27.10.2026 20:00,2.96,87.2,0.00,,,,,
+02PDGR10,glavna,Podgorica,27.10.2026 20:00,12.30,46.0,0.00,2.70,30,,0.8,1010.1
+02KOLS10,glavna,Kolašin,27.10.2026 20:00,3.00,88.0,0.00,4.90,6,,0.0,909.1
+02ZBLJ10,glavna,Žabljak,27.10.2026 20:00,0.60,84.0,0.00,7.50,30,,0.5,854.5
+02NIKS10,glavna,Nikšić,27.10.2026 20:00,8.50,53.0,0.00,3.90,2,,0.1,941.2
+02HNOV10,glavna,Herceg Novi,27.10.2026 20:00,11.70,44.0,0.00,0.10,32,,0.0,1011.4
+02ULCN10,glavna,Ulcinj,27.10.2026 20:00,9.90,67.0,0.00,5.40,6,,0.4,1015.5
+02STAB30,klimatološka,Stabna,27.10.2026 20:00,7.27,66.2,,,,,,
+02MAMO30,klimatološka,Manastir Morača,27.10.2026 20:00,9.07,68.7,,,,,,
+02LKOT20,klimatološka,Luka Kotor,27.10.2026 19:31,14.40,46.0,,8.50,,13.80,,1018.3
