@@ -100095,3 +100095,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,27.10.2026 09:50,17.50,30.0,0.00,0.50,18,,523.4,1012.6
 02KOLS10,glavna,Kolašin,27.10.2026 09:50,5.60,62.0,0.00,2.70,2,,275.0,911.0
 02PLJV10,glavna,Pljevlja,27.10.2026 09:50,1.90,86.0,0.00,1.20,18,,590.9,930.3
+02LKOT20,klimatološka,Luka Kotor,27.10.2026 09:31,15.40,32.0,,5.40,,9.70,,1020.2
+02PLJV10,glavna,Pljevlja,27.10.2026 10:00,2.80,85.0,0.00,1.60,18,,591.7,930.2
+02KOLS10,glavna,Kolašin,27.10.2026 10:00,5.50,61.0,0.00,4.00,4,8.60,252.3,911.0
+02MOKR30,klimatološka,Mokro,27.10.2026 10:00,5.40,57.3,,,,,,
+02HNOV10,glavna,Herceg Novi,27.10.2026 10:00,18.30,28.0,0.00,1.60,12,,539.7,1012.5
+02STAB30,klimatološka,Stabna,27.10.2026 10:00,8.54,50.1,,,,,,
+02STIT30,klimatološka,Štitarica,27.10.2026 10:00,4.85,79.7,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,27.10.2026 10:00,2.71,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,27.10.2026 10:00,16.90,38.0,0.00,5.40,6,,561.1,1016.5
+02VELK30,klimatološka,Velika,27.10.2026 10:00,4.74,73.2,,,,,,
+02DANL20,klimatološka,Danilovgrad,27.10.2026 10:00,17.00,,0.00,,,,,
+02CTNJ10,glavna,Cetinje,27.10.2026 10:00,10.60,43.0,0.00,0.20,12,,525.7,943.3
+02VIRP20,klimatološka,Virpazar,27.10.2026 10:00,15.50,29.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,27.10.2026 10:00,9.30,43.0,0.00,4.90,2,,543.3,943.4
+02NJGV30,klimatološka,Njegovuđa,27.10.2026 10:00,1.58,88.7,,,,,,
+02MAMO30,klimatološka,Manastir Morača,27.10.2026 10:00,13.51,47.5,,,,,,
+02ZBLJ10,glavna,Žabljak,27.10.2026 10:00,1.60,66.0,0.00,0.50,2,,75.6,855.8
+02BAR010,glavna,Bar,27.10.2026 10:00,15.90,30.0,0.00,3.70,4,,529.5,1016.3
+02MATE30,klimatološka,Matesevo,27.10.2026 10:00,7.13,52.8,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,27.10.2026 10:00,6.47,61.5,,,,,,
+02PDGR10,glavna,Podgorica,27.10.2026 10:00,15.20,33.0,0.00,4.20,32,,521.8,1011.5
