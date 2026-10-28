@@ -101631,3 +101631,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,28.10.2026 09:00,8.35,87.2,,,,,,
 02CTNJ10,glavna,Cetinje,28.10.2026 09:00,11.60,55.0,0.00,0.30,32,,163.7,942.4
 02NJGV30,klimatološka,Njegovuđa,28.10.2026 09:00,1.88,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,28.10.2026 08:46,16.30,46.0,,,,,,1018.6
+02PLJV10,glavna,Pljevlja,28.10.2026 09:20,5.90,88.0,0.00,0.90,22,3.40,68.8,930.4
+02PLZN20,klimatološka,Pluzine,28.10.2026 09:00,7.33,100.0,0.00,3.60,2,8.50,84.8,935.36
+02ULCN10,glavna,Ulcinj,28.10.2026 09:20,18.30,47.0,0.00,2.80,12,,455.1,1015.5
+02UBLI20,klimatološka,Ubli,28.10.2026 09:00,11.41,,,,,,,
+02NIKS10,glavna,Nikšić,28.10.2026 09:20,9.70,60.0,0.00,7.70,32,,221.2,942.6
+02KOVR30,klimatološka,Kovren,28.10.2026 09:00,4.78,100.0,0.00,,,,,
+02VELM20,klimatološka,Velimlje,28.10.2026 09:00,10.50,59.3,0.00,1.40,4,2.20,431.2,
+02GOBU30,klimatološka,Gornja Bukovica,28.10.2026 09:00,2.24,100.0,,,,,,
+02BAR010,glavna,Bar,28.10.2026 09:20,17.50,39.0,0.00,8.20,4,,458.6,1014.9
+02KOLS10,glavna,Kolašin,28.10.2026 09:20,5.30,84.0,0.00,2.40,6,,53.0,911.1
+02GRAD30,klimatološka,Gradac,28.10.2026 09:00,6.73,98.9,,,,,,
+02CTNJ10,glavna,Cetinje,28.10.2026 09:20,11.70,53.0,0.00,1.60,8,,170.0,942.5
+02DDOB30,klimatološka,Donja Dobrilovina,28.10.2026 09:00,5.51,97.6,,,,,,
+02HNOV10,glavna,Herceg Novi,28.10.2026 09:20,18.40,37.0,0.00,0.70,2,,451.3,1011.4
+02KOSA30,klimatološka,Kosanica,28.10.2026 09:00,2.84,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,28.10.2026 09:00,5.90,81.0,0.00,1.40,6,2.20,34.5,
+02BPLJ20,klimatološka,Bijelo Polje,28.10.2026 09:00,5.80,100.0,,,,,68.65,951.57
+02CRKV30,klimatološka,Crkvice,28.10.2026 09:00,7.75,80.1,,,,,,
+02BOAN30,klimatološka,Boan,28.10.2026 09:00,4.98,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,28.10.2026 09:00,5.69,75.8,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,28.10.2026 09:00,6.83,66.8,0.00,,,,,
+02BERA20,glavna,Berane,28.10.2026 09:00,6.53,82.3,0.00,1.20,2,2.90,,940.6
+02ZBLJ10,glavna,Žabljak,28.10.2026 09:20,1.90,93.0,0.00,0.70,26,,95.5,856.6
+02POSC30,klimatološka,Pošćenje,28.10.2026 09:00,5.79,88.2,,,,,,
+02PDGR10,glavna,Podgorica,28.10.2026 09:20,16.50,41.0,0.00,5.80,32,,518.2,1009.6
