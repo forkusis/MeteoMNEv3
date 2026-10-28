@@ -101089,3 +101089,16 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,28.10.2026 00:50,0.40,91.0,0.00,2.30,30,,0.0,855.3
 02KOLS10,glavna,Kolašin,28.10.2026 00:50,4.20,81.0,0.00,5.20,2,,0.4,909.9
 02BAR010,glavna,Bar,28.10.2026 00:50,13.00,44.0,0.00,3.10,6,7.50,0.6,1015.4
+02MAMO30,klimatološka,Manastir Morača,28.10.2026 01:00,10.92,55.2,,,,,,
+02DANL20,klimatološka,Danilovgrad,28.10.2026 01:00,11.10,,0.00,,,,,
+02VELK30,klimatološka,Velika,28.10.2026 01:00,1.36,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,28.10.2026 01:00,3.91,91.9,,,,,,
+02NJGV30,klimatološka,Njegovuđa,28.10.2026 01:00,0.90,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,28.10.2026 01:00,4.43,72.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,28.10.2026 00:31,13.90,43.0,,3.40,,5.90,,1019.1
+02PDGR10,glavna,Podgorica,28.10.2026 01:00,13.00,43.0,0.00,4.40,30,,0.1,1009.8
+02ULCN10,glavna,Ulcinj,28.10.2026 01:00,6.10,81.0,0.00,3.10,28,3.50,0.3,1015.8
+02STAB30,klimatološka,Stabna,28.10.2026 01:00,7.23,67.5,,,,,,
+02VIRP20,klimatološka,Virpazar,28.10.2026 01:00,9.60,62.0,0.00,,,,,
+02MATE30,klimatološka,Matesevo,28.10.2026 01:00,4.16,77.1,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,28.10.2026 01:00,7.02,91.0,,,,,,
