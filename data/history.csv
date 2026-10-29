@@ -103213,3 +103213,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,29.10.2026 09:00,17.80,45.0,0.00,3.20,2,,344.4,1011.7
 02MAMO30,klimatološka,Manastir Morača,29.10.2026 09:00,11.25,88.6,,,,,,
 02PLJV10,glavna,Pljevlja,29.10.2026 09:00,7.10,89.0,0.00,0.40,14,,72.6,931.9
+02BOAN30,klimatološka,Boan,29.10.2026 09:00,7.68,92.6,,,,,,
+02KOVR30,klimatološka,Kovren,29.10.2026 09:00,5.57,100.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,29.10.2026 09:20,18.10,43.0,0.00,2.70,2,,489.7,1011.6
+02HNOV10,glavna,Herceg Novi,29.10.2026 09:20,19.30,49.0,0.00,0.30,8,,463.3,1012.6
+02KUKO30,klimatološka,Kučka korita,29.10.2026 09:00,8.70,68.0,0.00,,,,,
+02BERA20,glavna,Berane,29.10.2026 09:00,7.91,89.7,0.00,0.70,4,2.30,,942.34
+02ULCN10,glavna,Ulcinj,29.10.2026 09:20,19.20,49.0,0.00,6.80,4,,451.5,1016.9
+02KOSA30,klimatološka,Kosanica,29.10.2026 09:00,3.71,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,29.10.2026 09:00,7.84,100.0,,,,,39.57,953.12
+02CTNJ10,glavna,Cetinje,29.10.2026 09:20,11.60,68.0,0.00,0.70,18,,280.2,944.1
+02NIKS10,glavna,Nikšić,29.10.2026 09:20,13.50,53.0,0.00,5.40,32,,359.6,943.5
+02CRKV30,klimatološka,Crkvice,29.10.2026 09:00,10.29,87.2,,,,,,
+02UBLI20,klimatološka,Ubli,29.10.2026 09:00,13.05,,,,,,,
+02IVKO30,klimatološka,Ivanova korita,29.10.2026 09:00,8.70,73.9,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,29.10.2026 09:00,7.10,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,29.10.2026 09:00,8.48,82.3,,,,,,
+02PLZN20,klimatološka,Pluzine,29.10.2026 09:00,9.66,96.0,0.00,6.60,32,13.40,221.74,935.85
+02GOBU30,klimatološka,Gornja Bukovica,29.10.2026 09:00,4.10,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,29.10.2026 09:00,7.30,90.2,0.00,0.30,22,0.90,66.9,
+02GRAD30,klimatološka,Gradac,29.10.2026 09:00,7.25,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,29.10.2026 09:20,3.30,96.0,0.00,1.60,4,,69.8,858.4
+02KOLS10,glavna,Kolašin,29.10.2026 09:20,7.20,84.0,0.00,3.60,2,,107.2,913.1
+02VELM20,klimatološka,Velimlje,29.10.2026 09:00,7.80,87.9,0.00,0.50,24,1.20,288.0,
+02PLJV10,glavna,Pljevlja,29.10.2026 09:20,7.30,88.0,0.00,0.30,4,,76.6,931.8
+02LKOT20,klimatološka,Luka Kotor,29.10.2026 08:46,18.20,52.0,,,,,,1020.0
+02BAR010,glavna,Bar,29.10.2026 09:20,18.80,43.0,0.00,2.80,6,,391.4,1016.6
