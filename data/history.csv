@@ -103995,3 +103995,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,29.10.2026 20:50,15.80,59.0,0.00,6.30,4,,0.0,1016.8
 02PLJV10,glavna,Pljevlja,29.10.2026 20:50,8.10,81.0,0.00,0.30,24,,0.4,931.9
 02NIKS10,glavna,Nikšić,29.10.2026 20:50,12.00,59.0,0.00,6.90,32,,0.2,943.9
+02PLJV10,glavna,Pljevlja,29.10.2026 21:00,8.00,81.0,0.00,0.30,24,,0.0,931.9
+02ZBLJ10,glavna,Žabljak,29.10.2026 21:00,3.30,96.0,0.00,0.60,8,,0.0,858.7
+02CTNJ10,glavna,Cetinje,29.10.2026 21:00,6.90,95.0,0.00,0.00,32,,0.0,944.4
+02NJGV30,klimatološka,Njegovuđa,29.10.2026 21:00,3.78,100.0,,,,,,
+02STAB30,klimatološka,Stabna,29.10.2026 21:00,10.23,76.7,,,,,,
+02KOLS10,glavna,Kolašin,29.10.2026 21:00,7.30,84.0,0.00,2.50,32,,0.4,913.3
+02MATE30,klimatološka,Matesevo,29.10.2026 21:00,6.61,86.6,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,29.10.2026 21:00,8.71,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,29.10.2026 21:00,7.26,78.5,,,,,,
+02BAR010,glavna,Bar,29.10.2026 21:00,18.30,46.0,0.00,6.10,6,,0.5,1016.4
+02VIRP20,klimatološka,Virpazar,29.10.2026 21:00,10.90,91.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,29.10.2026 21:00,17.10,47.0,0.00,4.50,2,,0.3,1011.6
+02HNOV10,glavna,Herceg Novi,29.10.2026 21:00,14.60,75.0,0.00,1.50,22,,0.1,1012.4
+02LKOT20,klimatološka,Luka Kotor,29.10.2026 20:31,17.40,55.0,,1.80,,3.70,,1020.0
+02DANL20,klimatološka,Danilovgrad,29.10.2026 21:00,16.30,,0.00,,,,,
+02STIT30,klimatološka,Štitarica,29.10.2026 21:00,5.94,100.0,,,,,,
+02VELK30,klimatološka,Velika,29.10.2026 21:00,5.99,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,29.10.2026 21:00,10.78,90.7,,,,,,
+02NIKS10,glavna,Nikšić,29.10.2026 21:00,12.00,60.0,0.00,3.00,2,,0.3,944.0
+02ULCN10,glavna,Ulcinj,29.10.2026 21:00,15.70,60.0,0.00,5.10,4,,0.0,1016.8
