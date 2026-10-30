@@ -104732,3 +104732,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,30.10.2026 08:00,3.70,99.0,0.00,1.10,22,,31.7,858.3
 02PLJV10,glavna,Pljevlja,30.10.2026 08:00,6.20,95.0,0.00,0.70,18,,29.2,931.9
 02NJGV30,klimatološka,Njegovuđa,30.10.2026 08:00,3.35,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,30.10.2026 08:00,7.18,100.0,,,,,22.08,953.28
+02PLJV10,glavna,Pljevlja,30.10.2026 08:20,6.30,95.0,0.00,0.80,18,,26.9,931.9
+02BIST20,klimatološka,Bistrica,30.10.2026 08:00,6.40,98.3,0.06,0.20,14,0.40,20.8,
+02CRKV30,klimatološka,Crkvice,30.10.2026 08:00,5.96,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,30.10.2026 08:00,6.27,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,30.10.2026 08:00,11.09,,,,,,,
+02POSC30,klimatološka,Pošćenje,30.10.2026 08:00,7.62,89.3,,,,,,
+02BAR010,glavna,Bar,30.10.2026 08:20,17.90,47.0,0.00,2.40,6,,148.9,1017.0
+02NIKS10,glavna,Nikšić,30.10.2026 08:20,12.60,58.0,0.00,2.00,32,,141.8,943.9
+02BUDV20,klimatološka,Budva,30.10.2026 08:00,15.96,79.2,,,,,100.21,1016.53
+02KOSA30,klimatološka,Kosanica,30.10.2026 08:00,3.74,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,30.10.2026 08:20,15.70,72.0,0.00,0.80,24,,143.9,1013.0
+02KOVR30,klimatološka,Kovren,30.10.2026 08:00,4.25,100.0,0.03,,,,,
+02VELM20,klimatološka,Velimlje,30.10.2026 08:00,8.30,86.6,0.00,0.40,4,0.60,69.1,
+02PLZN20,klimatološka,Pluzine,30.10.2026 08:00,8.04,100.0,0.00,7.60,32,12.20,85.72,936.27
+02GRAD30,klimatološka,Gradac,30.10.2026 08:00,6.38,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,30.10.2026 08:20,3.80,98.0,0.00,0.70,30,,32.4,858.3
+02KUKO30,klimatološka,Kučka korita,30.10.2026 08:00,8.13,71.3,0.00,,,,,
+02BOAN30,klimatološka,Boan,30.10.2026 08:00,6.96,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,30.10.2026 08:00,6.71,87.3,0.00,,,,,
+02ULCN10,glavna,Ulcinj,30.10.2026 08:20,15.00,65.0,0.00,6.90,6,8.20,69.5,1017.8
+02BERA20,glavna,Berane,30.10.2026 08:00,6.92,97.0,0.00,0.30,32,1.10,,942.35
+02GOBU30,klimatološka,Gornja Bukovica,30.10.2026 08:00,3.94,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,30.10.2026 08:20,8.50,91.0,0.00,0.00,32,,154.2,944.7
+02PDGR10,glavna,Podgorica,30.10.2026 08:20,16.90,48.0,0.00,2.70,2,,105.7,1012.3
+02LKOT20,klimatološka,Luka Kotor,30.10.2026 07:46,17.80,53.0,,1.90,,4.60,,1020.7
+02KOLS10,glavna,Kolašin,30.10.2026 08:20,6.70,87.0,0.00,1.20,2,,108.3,913.1
