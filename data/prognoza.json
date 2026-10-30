@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-30T04:01:17.043033+00:00",
+  "updated_at": "2026-10-30T04:15:54.368613+00:00",
   "dani": [
     {
       "naslov": "Petak, 30.10.2026.",
-      "azurirano": "29.10.2026. 13:09 CET",
-      "tekst": "U južnim i centralnim oblastima promjenljivo oblačno sa sunčanim intervalima. U sjevernim predjelima oblačno sa uslovima za mjestimičnu pojavu slabe kratkotrajne kiše. Vjetar slab do umjeren, u južnim i centralnim oblastima tek ponegdje pojačan, pretežno sjeverni i sjeveroistočni. Jutarnja temperatura vazduha od 3 do 15, najviša dnevna od 5 do 21 stepen.",
+      "azurirano": "30.10.2026. 05:03 CET",
+      "tekst": "Promjenljivo do pretežno oblačno, ponegdje sa slabom kišom. Više izgleda za padavine u sjevernim predjelima. Vjetar slab do umjeren, u južnim i centralnim oblastima povremeno i pojačan, sjeverni i sjeveroistočni. Najviša dnevna temperatura vazduha od 5 do 21 stepen.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
@@ -16,8 +16,8 @@
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "29.10.2026. 13:08 CET",
-    "tekst": "UPOZORENJE: Udari vjetra na jugoistoku akvatorijuma 20 do 30 čvorova. SINOPTIČKA SITUACIJA: Jadransko more se nalazi na periferii anticiklona sa centrom na sjeveroistoku Evrope, i u zoni plitke visinske doline. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar na otvorenom moru N i NW, 5 do 15 čvorova, na jugoistoku akvatorijuma 10 do 20 čvorova sa povremenim udarima 20 do 30 čvorova. Tokom noći će vjetar na otvorenom moru skrenuti na NE i E. More 2 do 3. Vidljivost 20 km ili veća. Malo do umjereno oblačno. Jutarnja temperatura vazduha od 12 do 15 stepeni, a najviša dnevna od 19 do 21 stepen.",
+    "azurirano": "30.10.2026. 05:03 CET",
+    "tekst": "UPOZORENJE: Povremeni udari NE vjetra, uglavnom, na jugoistoku akvatorijuma, 25 do 35 čvorova. SINOPTIČKA SITUACIJA: Jadran je pod uticajem rasplinute visinske doline i povišenog vazdušnog pritiska u prizemlju. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar najčešće NE, 4 do 16 čvorova, na jugoistoku akvatorijuma 8 do 20 čvorova, sa povremenim udarima 25 do 35 čvorova. Poslijepodne će vjetar oslabiti i na otvorenom moru skrenuti na NW smjer. More uglavnom 2 do 3. Vidljivost 20 km. Promjenljivo oblačno i većinom suvo, ili ponegdje uz kratkotrajnu kišu uglavnom tokom jutra i tokom noći. Najviša dnevna temperatura vazduha od 19 do 21 stepen.",
     "podgorica": ""
   }
 }
