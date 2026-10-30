@@ -105809,3 +105809,17 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MATE30,klimatološka,Matesevo,31.10.2026 00:00,6.25,84.6,0.00,,,,,
 02IVKO30,klimatološka,Ivanova korita,31.10.2026 00:00,4.40,98.5,0.00,,,,,
 02NJGV30,klimatološka,Njegovuđa,31.10.2026 00:00,2.92,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,31.10.2026 00:20,2.50,97.0,0.00,0.70,22,,0.1,858.3
+02PDGR10,glavna,Podgorica,31.10.2026 00:20,16.20,47.0,0.00,2.30,32,,0.0,1012.0
+02UBLI20,klimatološka,Ubli,31.10.2026 00:00,10.18,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,31.10.2026 00:00,5.78,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,31.10.2026 00:20,6.50,99.0,0.00,0.00,4,,0.0,944.6
+02POSC30,klimatološka,Pošćenje,31.10.2026 00:00,6.45,87.5,,,,,,
+02PLJV10,glavna,Pljevlja,31.10.2026 00:20,6.70,98.0,0.00,0.40,18,,0.0,931.7
+02HNOV10,glavna,Herceg Novi,31.10.2026 00:20,13.30,77.0,0.00,0.40,2,,0.0,1012.9
+02BAR010,glavna,Bar,31.10.2026 00:20,17.30,46.0,0.00,5.90,6,,0.2,1016.7
+02LKOT20,klimatološka,Luka Kotor,30.10.2026 23:46,17.90,47.0,,4.50,,8.10,,1020.3
+02ULCN10,glavna,Ulcinj,31.10.2026 00:20,15.40,62.0,0.00,7.70,4,,0.0,1017.3
+02BUDV20,klimatološka,Budva,31.10.2026 00:00,15.03,78.9,,,,,0.0,1016.38
+02NIKS10,glavna,Nikšić,31.10.2026 00:20,10.40,60.0,0.00,3.80,32,,0.0,944.3
+02KOLS10,glavna,Kolašin,31.10.2026 00:20,6.60,88.0,0.00,2.70,2,,0.6,913.0
