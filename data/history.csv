@@ -105467,3 +105467,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,30.10.2026 19:00,7.20,86.0,0.00,3.10,32,,0.0,913.0
 02MATE30,klimatološka,Matesevo,30.10.2026 19:00,6.82,84.4,0.00,,,,,
 02PDGR10,glavna,Podgorica,30.10.2026 19:00,16.90,46.0,0.00,3.00,2,,0.1,1011.8
+02NIKS10,glavna,Nikšić,30.10.2026 19:20,11.30,58.0,0.00,5.10,2,,0.2,943.8
+02BOAN30,klimatološka,Boan,30.10.2026 19:00,7.21,91.9,,,,,,
+02BERA20,glavna,Berane,30.10.2026 19:00,7.69,97.2,0.00,0.60,6,1.40,,941.95
+02PLZN20,klimatološka,Pluzine,30.10.2026 19:00,8.53,100.0,0.00,3.40,2,6.10,0.0,936.36
+02LKOT20,klimatološka,Luka Kotor,30.10.2026 18:46,17.20,56.0,,0.90,,3.50,,1020.6
+02PDGR10,glavna,Podgorica,30.10.2026 19:20,16.80,46.0,0.00,5.80,2,,0.6,1011.7
+02GRAD30,klimatološka,Gradac,30.10.2026 19:00,7.17,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,30.10.2026 19:00,4.01,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,30.10.2026 19:00,4.09,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,30.10.2026 19:20,6.90,98.0,0.00,0.00,20,,0.0,931.6
+02HNOV10,glavna,Herceg Novi,30.10.2026 19:20,13.80,85.0,0.00,1.20,26,,0.5,1012.6
+02IVKO30,klimatološka,Ivanova korita,30.10.2026 19:00,5.85,97.7,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,30.10.2026 19:00,6.14,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,30.10.2026 19:00,4.73,100.0,0.00,,,,,
+02VELM20,klimatološka,Velimlje,30.10.2026 19:00,9.50,71.4,0.00,1.00,2,1.80,0.0,
+02BAR010,glavna,Bar,30.10.2026 19:20,17.70,48.0,0.00,5.30,4,,0.3,1016.6
+02UBLI20,klimatološka,Ubli,30.10.2026 19:00,12.18,,,,,,,
+02BUDV20,klimatološka,Budva,30.10.2026 19:00,15.38,92.6,,,,,0.0,1016.4
+02BIST20,klimatološka,Bistrica,30.10.2026 19:00,6.50,98.6,0.00,0.90,16,1.20,0.6,
+02KUKO30,klimatološka,Kučka korita,30.10.2026 19:00,6.53,76.7,0.00,,,,,
+02KOLS10,glavna,Kolašin,30.10.2026 19:20,7.10,86.0,0.00,2.80,32,8.30,0.3,912.9
+02ZBLJ10,glavna,Žabljak,30.10.2026 19:20,3.00,98.0,0.00,0.50,2,,0.3,858.3
+02ULCN10,glavna,Ulcinj,30.10.2026 19:20,15.70,61.0,0.00,6.70,6,,0.0,1016.9
+02CTNJ10,glavna,Cetinje,30.10.2026 19:20,9.10,97.0,0.00,0.00,32,,0.0,944.3
+02DDOB30,klimatološka,Donja Dobrilovina,30.10.2026 19:00,6.33,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,30.10.2026 19:00,8.00,100.0,,,,,0.0,952.84
