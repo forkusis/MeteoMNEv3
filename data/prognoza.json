@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-10-30T10:45:55.374460+00:00",
+  "updated_at": "2026-10-30T11:01:19.979195+00:00",
   "dani": [
     {
-      "naslov": "Petak, 30.10.2026.",
-      "azurirano": "30.10.2026. 05:03 CET",
-      "tekst": "Promjenljivo do pretežno oblačno, ponegdje sa slabom kišom. Više izgleda za padavine u sjevernim predjelima. Vjetar slab do umjeren, u južnim i centralnim oblastima povremeno i pojačan, sjeverni i sjeveroistočni. Najviša dnevna temperatura vazduha od 5 do 21 stepen.",
+      "naslov": "Subota, 31.10.2026.",
+      "azurirano": "30.10.2026. 11:53 CET",
+      "tekst": "Umjereno do potpuno oblačno mjestimično kiša. U južnim i centralnim predjelima padavine uglavnom u drugom dijelu dana, a na sjeveru tokom noći u višim planinama susnježica i snijeg. Vjetar slab do umjeren, na krajnjem jugoistoku i pojačan sjeveroistočni. Jutarnja temperatura vazduha od 2 do 15, najviša dnevna od 4 do 20 stepeni.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
-      "naslov": "Subota, 31.10.2026.",
-      "azurirano": "29.10.2026. 13:10 CET",
-      "tekst": "U južnim i centralnim oblastima promjenljivo oblačno sa sunčanim intervalima i uglavnom suvo. U ovim oblastima je moguća samo veoma rijetka pojava slabe kratkotrajne kiše. U sjevernim oblastima oblačno sa uslovima za mjestimičnu pojavu slabe kiše i snijega ili susnježice u višim planinskim predjelima. Vjetar slab do umjeren, pretežno sjeverni i sjeveroistočni. Jutarnja temperatura vazduha od 2 do 15, najviša dnevna od 4 do 20 stepeni.",
-      "podgorica": "Podgorica: Promjenljivo oblačno sa sunčanim intervalima. Vjetar slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 12, najviša dnevna do 19 stepeni."
+      "naslov": "Nedjelja, 01.11.2026.",
+      "azurirano": "30.10.2026. 11:53 CET",
+      "tekst": "Oblačno, povremeno sa slabom, ponegdje i umjerenom kišom, a u višim planinama na sjeveru sa slabim snijegom. Vjetar slab do umjeren, istočnih smjerova, tokom noći ponegdje pojačan sjeveroistočni. Jutarnja temperatura vazduha od 0 do 14, najviša dnevna od 1 do 18 stepeni.",
+      "podgorica": "Podgorica: Oblačno sa kšom. Vjetar slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 12, najviša dnevna do 16 stepeni."
     }
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "30.10.2026. 05:03 CET",
-    "tekst": "UPOZORENJE: Povremeni udari NE vjetra, uglavnom, na jugoistoku akvatorijuma, 25 do 35 čvorova. SINOPTIČKA SITUACIJA: Jadran je pod uticajem rasplinute visinske doline i povišenog vazdušnog pritiska u prizemlju. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar najčešće NE, 4 do 16 čvorova, na jugoistoku akvatorijuma 8 do 20 čvorova, sa povremenim udarima 25 do 35 čvorova. Poslijepodne će vjetar oslabiti i na otvorenom moru skrenuti na NW smjer. More uglavnom 2 do 3. Vidljivost 20 km. Promjenljivo oblačno i većinom suvo, ili ponegdje uz kratkotrajnu kišu uglavnom tokom jutra i tokom noći. Najviša dnevna temperatura vazduha od 19 do 21 stepen.",
+    "azurirano": "30.10.2026. 11:52 CET",
+    "tekst": "UPOZORENJE: Na jugoistoku akvatorijuma, povremeni udari NE vjetra, 25 do 35 čvorova. SINOPTIČKA SITUACIJA: Jadran je pod uticajem rasplinute visinske doline i povišenog vazdušnog pritiska u prizemlju. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar najčešće NE, 4 do 16 čvorova, na jugoistoku akvatorijuma 8 do 20 čvorova, sa povremenim udarima 25 do 35 čvorova. Poslijepodne prolazno slab do umjeren NW i W. More uglavnom 2 do 3. Vidljivost 20 km. Promjenljivo oblačno, ponegdje je moguća kratkotrajna kiša. Jutarnja temperatura vazduha od 13 do 15 stepeni, a najviša dnevna od 18 do 20 stepeni.",
     "podgorica": ""
   }
 }
