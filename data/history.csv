@@ -104866,3 +104866,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,30.10.2026 10:00,7.10,89.0,0.00,0.50,2,,171.7,913.2
 02PLJV10,glavna,Pljevlja,30.10.2026 10:00,6.50,96.0,0.00,0.70,18,,54.7,932.1
 02NJGV30,klimatološka,Njegovuđa,30.10.2026 10:00,4.06,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,30.10.2026 10:00,6.99,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,30.10.2026 10:00,6.75,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,30.10.2026 10:00,9.15,70.7,0.00,,,,,
+02PDGR10,glavna,Podgorica,30.10.2026 10:20,18.50,48.0,0.00,1.80,26,,339.0,1012.2
+02LKOT20,klimatološka,Luka Kotor,30.10.2026 09:46,18.70,49.0,,2.60,,3.50,,1020.7
+02PLZN20,klimatološka,Pluzine,30.10.2026 10:00,8.69,100.0,0.00,5.00,32,9.90,143.18,936.61
+02BOAN30,klimatološka,Boan,30.10.2026 10:00,8.75,88.6,,,,,,
+02KOVR30,klimatološka,Kovren,30.10.2026 10:00,4.89,100.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,30.10.2026 10:20,6.50,96.0,0.00,1.30,18,,66.4,932.1
+02BIST20,klimatološka,Bistrica,30.10.2026 10:00,7.00,97.2,0.00,0.50,4,0.70,82.3,
+02GOBU30,klimatološka,Gornja Bukovica,30.10.2026 10:00,4.64,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,30.10.2026 10:20,19.30,55.0,0.00,0.60,22,,350.0,1013.3
+02VELM20,klimatološka,Velimlje,30.10.2026 10:00,13.70,57.4,0.00,1.40,10,2.30,238.9,
+02UBLI20,klimatološka,Ubli,30.10.2026 10:00,14.67,,,,,,,
+02BAR010,glavna,Bar,30.10.2026 10:20,19.30,44.0,0.00,1.80,4,,290.8,1017.1
+02CTNJ10,glavna,Cetinje,30.10.2026 10:20,13.70,58.0,0.00,0.80,20,,364.7,944.6
+02KUKO30,klimatološka,Kučka korita,30.10.2026 10:00,8.94,68.4,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,30.10.2026 10:20,3.90,97.0,0.00,0.50,22,,37.0,858.6
+02KOSA30,klimatološka,Kosanica,30.10.2026 10:00,4.16,100.0,,,,,,
+02KOLS10,glavna,Kolašin,30.10.2026 10:20,7.50,85.0,0.00,4.70,2,,230.2,913.1
+02BERA20,glavna,Berane,30.10.2026 10:00,8.01,96.0,0.00,0.30,32,1.10,,942.5
+02CRKV30,klimatološka,Crkvice,30.10.2026 10:00,11.22,77.9,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,30.10.2026 10:00,7.21,100.0,,,,,93.86,953.43
+02ULCN10,glavna,Ulcinj,30.10.2026 10:20,16.20,64.0,0.00,5.30,4,,114.7,1017.8
+02POSC30,klimatološka,Pošćenje,30.10.2026 10:00,8.25,86.9,,,,,,
+02NIKS10,glavna,Nikšić,30.10.2026 10:20,14.20,52.0,0.00,3.10,32,11.20,240.4,943.8
