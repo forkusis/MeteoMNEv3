@@ -106852,3 +106852,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,31.10.2026 16:00,6.60,75.8,,,,,,
 02CTNJ10,glavna,Cetinje,31.10.2026 16:00,12.10,65.0,0.00,0.30,6,,18.9,942.5
 02ULCN10,glavna,Ulcinj,31.10.2026 16:00,16.70,56.0,0.00,6.80,6,,49.7,1015.6
+02KOVR30,klimatološka,Kovren,31.10.2026 16:00,4.36,100.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,31.10.2026 16:20,11.30,58.0,0.00,4.20,30,,17.2,942.1
+02KOLS10,glavna,Kolašin,31.10.2026 16:20,6.30,86.0,0.00,1.30,32,,8.0,910.9
+02CRKV30,klimatološka,Crkvice,31.10.2026 16:00,9.69,77.7,,,,,,
+02KOSA30,klimatološka,Kosanica,31.10.2026 16:00,3.34,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,31.10.2026 16:00,6.85,77.1,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,31.10.2026 16:00,6.26,74.9,0.00,,,,,
+02PDGR10,glavna,Podgorica,31.10.2026 16:20,16.80,44.0,0.00,1.80,2,,11.3,1010.0
+02PLZN20,klimatološka,Pluzine,31.10.2026 16:00,8.35,100.0,0.00,5.80,32,10.50,7.17,934.01
+02GOBU30,klimatološka,Gornja Bukovica,31.10.2026 16:00,3.44,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,31.10.2026 16:20,16.70,64.0,0.00,0.70,30,,22.1,1011.0
+02BOAN30,klimatološka,Boan,31.10.2026 16:00,6.59,95.4,,,,,,
+02VELM20,klimatološka,Velimlje,31.10.2026 16:00,11.30,61.0,0.00,1.30,14,3.60,35.6,
+02UBLI20,klimatološka,Ubli,31.10.2026 16:00,12.74,,,,,,,
+02GRAD30,klimatološka,Gradac,31.10.2026 16:00,6.93,100.0,,,,,,
+02BAR010,glavna,Bar,31.10.2026 16:20,18.00,48.0,0.00,4.10,4,,19.6,1015.1
+02BIST20,klimatološka,Bistrica,31.10.2026 16:00,6.90,94.4,0.00,0.40,2,0.60,5.6,
+02BERA20,glavna,Berane,31.10.2026 16:00,7.71,88.6,0.00,1.40,32,3.60,,939.78
+02BPLJ20,klimatološka,Bijelo Polje,31.10.2026 16:00,8.23,100.0,,,,,3.34,950.68
+02ULCN10,glavna,Ulcinj,31.10.2026 16:20,16.10,57.0,0.00,7.50,4,9.30,20.7,1015.6
+02POSC30,klimatološka,Pošćenje,31.10.2026 16:00,6.92,85.2,,,,,,
+02CTNJ10,glavna,Cetinje,31.10.2026 16:20,11.70,65.0,0.00,0.00,10,,8.2,942.5
+02DDOB30,klimatološka,Donja Dobrilovina,31.10.2026 16:00,6.93,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,31.10.2026 15:46,17.90,58.0,,1.50,,3.10,,1018.6
+02BUDV20,klimatološka,Budva,31.10.2026 16:00,18.35,60.1,,,,,15.11,1014.8
+02ZBLJ10,glavna,Žabljak,31.10.2026 16:20,2.30,98.0,0.00,1.80,2,,6.0,856.1
+02PLJV10,glavna,Pljevlja,31.10.2026 16:20,6.80,89.0,0.00,1.50,2,2.50,2.6,929.4
