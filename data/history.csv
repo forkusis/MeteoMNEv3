@@ -106564,3 +106564,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,31.10.2026 11:50,7.60,91.0,0.00,0.80,24,,71.5,930.6
 02LKOT20,klimatološka,Luka Kotor,31.10.2026 11:16,18.30,47.0,,1.20,,2.10,,1019.4
 02PDGR10,glavna,Podgorica,31.10.2026 11:50,18.50,41.0,0.00,3.70,2,,335.4,1010.9
+02STAB30,klimatološka,Stabna,31.10.2026 12:00,10.47,71.5,,,,,,
+02MAMO30,klimatološka,Manastir Morača,31.10.2026 12:00,14.37,61.4,,,,,,
+02STIT30,klimatološka,Štitarica,31.10.2026 12:00,5.81,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,31.10.2026 12:00,7.70,72.5,,,,,,
+02POSC30,klimatološka,Pošćenje,31.10.2026 12:00,8.37,81.9,,,,,,
+02PLJV10,glavna,Pljevlja,31.10.2026 12:00,7.60,91.0,0.00,0.20,2,,62.5,930.5
+02MATE30,klimatološka,Matesevo,31.10.2026 12:00,7.25,78.3,0.00,,,,,
+02VELK30,klimatološka,Velika,31.10.2026 12:00,7.10,100.0,,,,,,
+02NIKS10,glavna,Nikšić,31.10.2026 12:00,13.70,51.0,0.00,5.50,2,,292.6,942.7
+02VIRP20,klimatološka,Virpazar,31.10.2026 12:00,19.00,49.0,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,31.10.2026 12:00,3.24,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,31.10.2026 12:00,17.10,57.0,0.00,6.70,6,,229.2,1016.7
+02DANL20,klimatološka,Danilovgrad,31.10.2026 12:00,20.00,,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,31.10.2026 12:00,8.40,100.0,,,,,,
+02BAR010,glavna,Bar,31.10.2026 12:00,19.10,43.0,0.00,4.50,6,,245.2,1016.2
+02HNOV10,glavna,Herceg Novi,31.10.2026 12:00,19.70,50.0,0.00,1.10,24,3.40,249.4,1012.0
+02CTNJ10,glavna,Cetinje,31.10.2026 12:00,13.90,61.0,0.00,0.80,12,1.80,260.1,943.2
+02PDGR10,glavna,Podgorica,31.10.2026 12:00,18.70,41.0,0.00,3.20,2,,375.9,1010.8
+02LKOT20,klimatološka,Luka Kotor,31.10.2026 11:31,18.60,48.0,,0.00,,1.50,,1019.4
+02KOLS10,glavna,Kolašin,31.10.2026 12:00,7.70,81.0,0.00,4.20,4,,117.3,911.8
+02ZBLJ10,glavna,Žabljak,31.10.2026 12:00,3.10,95.0,0.00,0.70,2,,54.2,857.1
