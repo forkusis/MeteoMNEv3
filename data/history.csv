@@ -107506,3 +107506,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,01.11.2026 02:00,3.70,97.0,0.00,0.40,32,,0.0,927.6
 02DANL20,klimatološka,Danilovgrad,01.11.2026 02:00,12.30,,0.00,,,,,
 02NIKS10,glavna,Nikšić,01.11.2026 02:00,7.30,80.0,0.00,2.80,30,,0.7,940.2
+02BERA20,glavna,Berane,01.11.2026 02:00,5.38,94.3,0.04,0.40,6,0.90,,937.55
+02IVKO30,klimatološka,Ivanova korita,01.11.2026 02:00,3.66,92.1,0.00,,,,,
+02KOLS10,glavna,Kolašin,01.11.2026 02:20,3.60,91.0,0.00,1.60,2,,0.0,908.5
+02DDOB30,klimatološka,Donja Dobrilovina,01.11.2026 02:00,3.44,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,01.11.2026 02:00,9.07,,,,,,,
+02BOAN30,klimatološka,Boan,01.11.2026 02:00,3.33,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,01.11.2026 02:00,1.43,100.0,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,01.11.2026 02:00,3.60,100.0,,,,,,
+02PDGR10,glavna,Podgorica,01.11.2026 02:20,13.80,52.0,0.00,1.80,32,,0.6,1008.4
+02ZBLJ10,glavna,Žabljak,01.11.2026 02:20,-0.20,98.0,0.00,0.50,6,,0.8,853.4
+02BIST20,klimatološka,Bistrica,01.11.2026 02:00,3.70,95.3,0.00,0.80,2,1.30,0.6,
+02BPLJ20,klimatološka,Bijelo Polje,01.11.2026 02:00,5.69,100.0,,,,,0.0,948.73
+02BUDV20,klimatološka,Budva,01.11.2026 02:00,14.29,71.1,,,,,0.0,1012.71
+02KOSA30,klimatološka,Kosanica,01.11.2026 02:00,-0.03,100.0,,,,,,
+02NIKS10,glavna,Nikšić,01.11.2026 02:20,6.90,82.0,0.00,4.10,30,,0.4,940.0
+02GRAD30,klimatološka,Gradac,01.11.2026 02:00,3.94,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,01.11.2026 02:00,5.70,96.3,0.05,0.60,30,0.90,0.0,
+02ULCN10,glavna,Ulcinj,01.11.2026 02:20,13.60,60.0,0.00,6.10,4,,0.0,1013.8
+02HNOV10,glavna,Herceg Novi,01.11.2026 02:20,11.60,92.0,0.06,1.30,28,3.40,0.0,1009.4
+02PLZN20,klimatološka,Pluzine,01.11.2026 02:00,3.72,100.0,0.03,6.20,4,11.00,0.0,932.18
+02PLJV10,glavna,Pljevlja,01.11.2026 02:20,3.60,97.0,0.00,0.40,26,,0.1,927.5
+02BAR010,glavna,Bar,01.11.2026 02:20,16.00,50.0,0.00,3.10,6,,0.2,1013.0
+02GOBU30,klimatološka,Gornja Bukovica,01.11.2026 02:00,0.39,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,01.11.2026 01:46,15.90,52.0,,3.20,,4.80,,1016.6
+02KUKO30,klimatološka,Kučka korita,01.11.2026 02:00,5.19,77.4,0.00,,,,,
+02CTNJ10,glavna,Cetinje,01.11.2026 02:20,6.10,96.0,0.00,0.00,8,,0.1,940.3
