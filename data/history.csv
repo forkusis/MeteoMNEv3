@@ -110524,3 +110524,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,02.11.2026 23:50,13.30,76.0,0.14,0.90,2,,0.6,1007.5
 02LKOT20,klimatološka,Luka Kotor,02.11.2026 23:16,17.00,52.0,,3.70,,6.10,,1010.8
 02CTNJ10,glavna,Cetinje,02.11.2026 23:50,8.20,96.0,0.00,0.70,16,1.60,0.4,935.5
+02STAB30,klimatološka,Stabna,03.11.2026 00:00,8.00,82.6,,,,,,
+02KOLS10,glavna,Kolašin,03.11.2026 00:00,5.40,93.0,0.00,3.80,4,,0.3,905.3
+02NIKS10,glavna,Nikšić,03.11.2026 00:00,10.60,62.0,0.00,7.50,32,,0.5,935.8
+02LKOT20,klimatološka,Luka Kotor,02.11.2026 23:31,16.70,52.0,,3.50,,6.30,,1010.8
+02ULCN10,glavna,Ulcinj,03.11.2026 00:00,12.00,88.0,0.00,5.10,4,,0.4,1007.5
+02ZBLJ10,glavna,Žabljak,03.11.2026 00:00,1.40,99.0,0.00,0.60,30,,0.5,851.6
+02NJGV30,klimatološka,Njegovuđa,03.11.2026 00:00,2.07,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,03.11.2026 00:00,4.71,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,03.11.2026 00:00,11.47,73.2,0.00,,,,,
+02PLJV10,glavna,Pljevlja,03.11.2026 00:00,6.10,89.0,0.00,0.70,22,,0.4,925.0
+02PDGR10,glavna,Podgorica,03.11.2026 00:00,15.80,50.0,0.00,10.20,2,,0.6,1002.5
+02VIRP20,klimatološka,Virpazar,03.11.2026 00:00,11.40,100.0,0.25,,,,,
+02VELK30,klimatološka,Velika,03.11.2026 00:00,4.65,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,03.11.2026 00:00,13.40,,0.11,,,,,
+02BAR010,glavna,Bar,03.11.2026 00:00,13.10,78.0,0.00,0.30,32,,0.4,1007.4
+02MATE30,klimatološka,Matesevo,03.11.2026 00:00,5.15,91.5,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,03.11.2026 00:00,5.26,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,03.11.2026 00:00,8.20,97.0,0.00,0.30,8,,0.8,935.4
+02MOKR30,klimatološka,Mokro,03.11.2026 00:00,5.09,86.6,,,,,,
+02HNOV10,glavna,Herceg Novi,03.11.2026 00:00,17.10,56.0,0.00,1.80,10,,0.0,1003.2
