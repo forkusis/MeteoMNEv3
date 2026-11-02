@@ -109681,3 +109681,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,02.11.2026 11:00,1.87,100.0,,,,,,
 02PDGR10,glavna,Podgorica,02.11.2026 11:00,17.80,55.0,0.00,1.60,6,,480.2,1005.0
 02CTNJ10,glavna,Cetinje,02.11.2026 11:00,13.00,66.0,0.00,0.40,18,,581.6,937.6
+02KOSA30,klimatološka,Kosanica,02.11.2026 11:00,2.69,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,02.11.2026 11:20,21.30,39.0,0.00,3.70,10,,543.8,1004.4
+02PDGR10,glavna,Podgorica,02.11.2026 11:20,18.00,47.0,0.00,2.80,2,,507.9,1004.7
+02KOVR30,klimatološka,Kovren,02.11.2026 11:00,3.78,100.0,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,02.11.2026 11:00,11.01,95.0,,,,,,
+02POSC30,klimatološka,Pošćenje,02.11.2026 11:00,5.81,98.9,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,02.11.2026 11:00,4.66,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,02.11.2026 11:00,3.53,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,02.11.2026 11:20,1.80,98.0,0.00,1.50,22,,73.8,853.2
+02NIKS10,glavna,Nikšić,02.11.2026 11:20,13.30,55.0,0.00,4.80,6,,275.1,937.0
+02KUKO30,klimatološka,Kučka korita,02.11.2026 11:00,9.70,66.7,0.00,,,,,
+02ULCN10,glavna,Ulcinj,02.11.2026 11:20,18.80,52.0,0.00,11.00,4,,582.3,1009.6
+02PLZN20,klimatološka,Pluzine,02.11.2026 11:00,7.03,100.0,0.00,8.90,2,15.70,385.02,930.67
+02IVKO30,klimatološka,Ivanova korita,02.11.2026 11:00,8.66,76.3,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,02.11.2026 10:46,19.90,45.0,,6.10,,12.30,,1012.2
+02BOAN30,klimatološka,Boan,02.11.2026 11:00,6.77,100.0,,,,,,
+02KOLS10,glavna,Kolašin,02.11.2026 11:20,6.50,86.0,0.00,1.60,2,,127.4,907.1
+02BIST20,klimatološka,Bistrica,02.11.2026 11:00,5.10,96.4,0.00,1.00,24,1.30,35.6,
+02CTNJ10,glavna,Cetinje,02.11.2026 11:20,14.00,65.0,0.00,0.50,8,3.20,486.2,937.3
+02PLJV10,glavna,Pljevlja,02.11.2026 11:20,4.10,98.0,0.00,1.00,16,,80.5,926.8
+02GOBU30,klimatološka,Gornja Bukovica,02.11.2026 11:00,2.40,100.0,,,,,,
+02BAR010,glavna,Bar,02.11.2026 11:20,19.30,48.0,0.00,5.90,4,,174.5,1008.9
+02BERA20,glavna,Berane,02.11.2026 11:00,7.30,89.3,0.00,1.30,2,3.30,,936.42
+02BPLJ20,klimatološka,Bijelo Polje,02.11.2026 11:00,6.89,100.0,,,,,62.26,947.48
+02UBLI20,klimatološka,Ubli,02.11.2026 11:00,15.02,,,,,,,
+02VELM20,klimatološka,Velimlje,02.11.2026 11:00,13.10,58.6,0.00,2.70,10,7.40,394.6,
