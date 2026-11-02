@@ -109947,3 +109947,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,02.11.2026 15:00,16.90,55.0,0.00,8.60,4,,90.0,1007.2
 02MAMO30,klimatološka,Manastir Morača,02.11.2026 15:00,13.86,62.4,,,,,,
 02VIRP20,klimatološka,Virpazar,02.11.2026 15:00,16.90,72.0,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,02.11.2026 15:00,7.98,71.6,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,02.11.2026 15:20,20.20,39.0,0.00,1.30,6,,76.1,1002.1
+02KOLS10,glavna,Kolašin,02.11.2026 15:20,6.30,88.0,0.00,4.30,2,,27.9,906.2
+02ULCN10,glavna,Ulcinj,02.11.2026 15:20,16.70,56.0,0.00,10.90,4,17.40,58.8,1007.3
+02ZBLJ10,glavna,Žabljak,02.11.2026 15:20,1.40,98.0,0.00,0.50,20,,18.7,852.0
+02LKOT20,klimatološka,Luka Kotor,02.11.2026 14:46,19.70,47.0,,2.90,,8.90,,1010.2
+02PLJV10,glavna,Pljevlja,02.11.2026 15:20,5.80,98.0,0.09,0.90,16,,19.2,925.2
+02NIKS10,glavna,Nikšić,02.11.2026 15:20,11.80,57.0,0.00,4.20,4,,96.5,935.8
+02PLZN20,klimatološka,Pluzine,02.11.2026 15:00,6.48,100.0,0.00,9.30,32,14.60,80.25,929.37
+02BUDV20,klimatološka,Budva,02.11.2026 15:00,19.82,44.3,,,,,95.12,1005.36
+02BAR010,glavna,Bar,02.11.2026 15:20,19.00,44.0,0.00,5.50,6,,64.1,1006.2
+02GOBU30,klimatološka,Gornja Bukovica,02.11.2026 15:00,2.38,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,02.11.2026 15:00,6.24,86.9,,,,,,
+02GRAD30,klimatološka,Gradac,02.11.2026 15:00,4.37,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,02.11.2026 15:00,7.63,84.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,02.11.2026 15:20,17.50,45.0,0.00,5.80,2,14.70,82.6,1002.2
+02BOAN30,klimatološka,Boan,02.11.2026 15:00,6.71,93.1,,,,,,
+02BERA20,glavna,Berane,02.11.2026 15:00,7.41,95.4,0.00,2.20,2,4.80,,935.27
+02VELM20,klimatološka,Velimlje,02.11.2026 15:00,11.40,61.3,0.00,3.10,4,6.50,99.6,
+02CRKV30,klimatološka,Crkvice,02.11.2026 15:00,10.12,83.0,,,,,,
+02UBLI20,klimatološka,Ubli,02.11.2026 15:00,13.58,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,02.11.2026 15:00,7.22,100.0,,,,,18.84,946.07
+02DDOB30,klimatološka,Donja Dobrilovina,02.11.2026 15:00,5.26,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,02.11.2026 15:20,12.80,74.0,0.00,0.40,32,,76.9,935.6
+02KOSA30,klimatološka,Kosanica,02.11.2026 15:00,2.98,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,02.11.2026 15:00,5.30,98.7,0.00,0.60,30,0.80,26.6,
+02KOVR30,klimatološka,Kovren,02.11.2026 15:00,4.59,100.0,0.00,,,,,
