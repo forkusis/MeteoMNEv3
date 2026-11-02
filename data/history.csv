@@ -109747,3 +109747,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,02.11.2026 12:00,21.30,39.0,0.00,3.60,10,,455.9,1004.1
 02MOKR30,klimatološka,Mokro,02.11.2026 12:00,6.80,77.5,,,,,,
 02STIT30,klimatološka,Štitarica,02.11.2026 12:00,5.02,100.0,,,,,,
+02PDGR10,glavna,Podgorica,02.11.2026 12:20,19.20,44.0,0.00,3.00,2,,417.2,1004.0
+02BERA20,glavna,Berane,02.11.2026 12:00,7.04,94.7,0.00,1.70,30,5.90,,935.98
+02LKOT20,klimatološka,Luka Kotor,02.11.2026 11:46,20.50,44.0,,4.00,,10.50,,1011.8
+02ZBLJ10,glavna,Žabljak,02.11.2026 12:20,2.10,98.0,0.00,0.60,22,,56.0,852.6
+02PLJV10,glavna,Pljevlja,02.11.2026 12:20,4.60,97.0,0.00,0.50,18,,51.3,926.1
+02BOAN30,klimatološka,Boan,02.11.2026 12:00,7.03,94.8,,,,,,
+02KOLS10,glavna,Kolašin,02.11.2026 12:20,6.60,86.0,0.00,5.80,2,,106.2,906.5
+02NIKS10,glavna,Nikšić,02.11.2026 12:20,13.90,54.0,0.00,0.00,2,,287.9,936.3
+02GOBU30,klimatološka,Gornja Bukovica,02.11.2026 12:00,2.62,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,02.11.2026 12:00,7.73,94.4,,,,,,
+02BAR010,glavna,Bar,02.11.2026 12:20,18.90,48.0,0.00,3.90,4,,252.4,1008.5
+02CTNJ10,glavna,Cetinje,02.11.2026 12:20,14.60,67.0,0.00,0.70,6,,342.0,936.9
+02IVKO30,klimatološka,Ivanova korita,02.11.2026 12:00,9.56,72.5,0.00,,,,,
+02BIST20,klimatološka,Bistrica,02.11.2026 12:00,5.40,97.3,0.00,0.60,32,0.90,52.9,
+02KUKO30,klimatološka,Kučka korita,02.11.2026 12:00,9.11,67.8,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,02.11.2026 12:00,11.80,81.6,,,,,,
+02GRAD30,klimatološka,Gradac,02.11.2026 12:00,3.90,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,02.11.2026 12:00,5.16,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,02.11.2026 12:00,7.18,99.0,,,,,31.91,947.13
+02VELM20,klimatološka,Velimlje,02.11.2026 12:00,14.60,53.7,0.00,3.50,4,6.70,831.2,
+02KOSA30,klimatološka,Kosanica,02.11.2026 12:00,2.70,100.0,,,,,,
+02BUDV20,klimatološka,Budva,02.11.2026 12:00,21.35,39.3,,,,,413.1,1007.66
+02UBLI20,klimatološka,Ubli,02.11.2026 12:00,15.03,,,,,,,
+02ULCN10,glavna,Ulcinj,02.11.2026 12:20,19.10,51.0,0.00,12.80,4,,393.8,1009.1
+02KOVR30,klimatološka,Kovren,02.11.2026 12:00,3.52,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,02.11.2026 12:20,21.40,39.0,0.00,3.90,10,,176.5,1003.9
