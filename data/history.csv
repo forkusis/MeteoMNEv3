@@ -111045,3 +111045,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,03.11.2026 07:50,7.10,100.0,0.00,0.00,22,,66.0,935.1
 02LKOT20,klimatološka,Luka Kotor,03.11.2026 07:16,16.10,53.0,,10.70,,14.10,,1010.0
 02ULCN10,glavna,Ulcinj,03.11.2026 07:50,13.70,70.0,0.00,6.50,6,,122.8,1006.5
+02STIT30,klimatološka,Štitarica,03.11.2026 08:00,2.80,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,03.11.2026 08:00,9.63,88.7,,,,,,
+02ULCN10,glavna,Ulcinj,03.11.2026 08:00,14.10,68.0,0.00,8.30,6,,139.2,1006.4
+02DANL20,klimatološka,Danilovgrad,03.11.2026 08:00,14.30,,0.00,,,,,
+02BAR010,glavna,Bar,03.11.2026 08:00,15.80,45.0,0.00,6.30,6,,96.9,1005.8
+02MATE30,klimatološka,Matesevo,03.11.2026 08:00,3.94,91.0,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,03.11.2026 08:00,11.00,100.0,0.00,,,,,
+02STAB30,klimatološka,Stabna,03.11.2026 08:00,7.94,77.9,,,,,,
+02LKOT20,klimatološka,Luka Kotor,03.11.2026 07:31,16.30,50.0,,9.90,,15.40,,1010.0
+02KOLS10,glavna,Kolašin,03.11.2026 08:00,3.80,90.0,0.00,5.80,2,,86.3,905.8
+02CTNJ10,glavna,Cetinje,03.11.2026 08:00,7.20,99.0,0.00,0.20,8,,112.4,935.3
+02VELK30,klimatološka,Velika,03.11.2026 08:00,3.48,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,03.11.2026 08:00,5.62,100.0,,,,,,
+02PDGR10,glavna,Podgorica,03.11.2026 08:00,14.60,45.0,0.00,8.50,2,,94.3,1002.4
+02NJGV30,klimatološka,Njegovuđa,03.11.2026 08:00,0.19,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,03.11.2026 08:00,4.50,98.0,0.00,0.40,26,,30.4,925.3
+02HNOV10,glavna,Herceg Novi,03.11.2026 08:00,17.80,43.0,0.00,3.40,6,,146.5,1002.3
+02MOKR30,klimatološka,Mokro,03.11.2026 08:00,4.67,77.1,,,,,,
+02NIKS10,glavna,Nikšić,03.11.2026 08:00,10.00,57.0,0.00,7.30,2,,118.5,935.4
+02ZBLJ10,glavna,Žabljak,03.11.2026 08:00,0.50,98.0,0.00,1.50,26,,74.1,851.5
