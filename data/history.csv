@@ -110978,3 +110978,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,03.11.2026 06:50,12.40,77.0,0.00,7.10,6,,15.9,1005.8
 02HNOV10,glavna,Herceg Novi,03.11.2026 06:50,17.00,43.0,0.00,6.20,4,9.00,11.5,1001.7
 02ZBLJ10,glavna,Žabljak,03.11.2026 06:50,0.20,99.0,0.05,1.80,24,,6.1,851.4
+02VELK30,klimatološka,Velika,03.11.2026 07:00,2.53,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,03.11.2026 07:00,12.80,,0.00,,,,,
+02MATE30,klimatološka,Matesevo,03.11.2026 07:00,3.03,92.9,0.00,,,,,
+02BAR010,glavna,Bar,03.11.2026 07:00,15.60,47.0,0.00,3.50,8,,21.2,1005.8
+02HNOV10,glavna,Herceg Novi,03.11.2026 07:00,17.20,45.0,0.00,3.80,6,,21.0,1001.8
+02LKOT20,klimatološka,Luka Kotor,03.11.2026 06:31,15.60,56.0,,8.90,,11.70,,1010.0
+02CTNJ10,glavna,Cetinje,03.11.2026 07:00,7.20,99.0,0.00,0.60,24,,32.9,934.8
+02NIKS10,glavna,Nikšić,03.11.2026 07:00,9.40,61.0,0.00,6.00,32,,28.8,934.9
+02VIRP20,klimatološka,Virpazar,03.11.2026 07:00,10.30,100.0,0.00,,,,,
+02STIT30,klimatološka,Štitarica,03.11.2026 07:00,2.49,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,03.11.2026 07:00,0.20,99.0,0.05,1.50,22,,10.3,851.3
+02MOKR30,klimatološka,Mokro,03.11.2026 07:00,3.33,90.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,03.11.2026 07:00,5.48,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,03.11.2026 07:00,4.30,98.0,0.05,0.30,32,,5.2,925.1
+02STAB30,klimatološka,Stabna,03.11.2026 07:00,6.60,90.4,,,,,,
+02PDGR10,glavna,Podgorica,03.11.2026 07:00,14.10,47.0,0.00,6.80,2,,37.6,1002.2
+02ULCN10,glavna,Ulcinj,03.11.2026 07:00,12.50,76.0,0.00,7.60,6,,23.1,1005.9
+02KOLS10,glavna,Kolašin,03.11.2026 07:00,3.30,92.0,0.00,1.40,2,,29.5,905.2
+02MAMO30,klimatološka,Manastir Morača,03.11.2026 07:00,8.58,88.9,,,,,,
+02NJGV30,klimatološka,Njegovuđa,03.11.2026 07:00,0.03,100.0,,,,,,

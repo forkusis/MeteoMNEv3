@@ -1,10 +1,14 @@
 {
-  "updated_at": "2026-11-03T06:01:19.419482+00:00",
-  "mjerenje_labela": "Ponedjeljak, 02.11.2026. 7h",
+  "updated_at": "2026-11-03T06:15:54.813032+00:00",
+  "mjerenje_labela": "Utorak, 03.11.2026. 7h",
   "stations": [
     {
-      "naziv": "Žabljak Žabljak Žabljak Žabljak",
-      "vrijednost": 11.0
+      "naziv": "Rožaje Rožaje Rožaje Rožaje Rožaje",
+      "vrijednost": 2.0
+    },
+    {
+      "naziv": "Žabljak Žabljak Žabljak Žabljak Žabljak",
+      "vrijednost": 7.0
     }
   ]
 }
