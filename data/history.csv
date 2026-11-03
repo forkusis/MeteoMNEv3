@@ -112129,3 +112129,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,04.11.2026 00:00,4.20,98.0,0.00,0.60,18,,0.4,929.6
 02STIT30,klimatološka,Štitarica,04.11.2026 00:00,2.19,100.0,,,,,,
 02VIRP20,klimatološka,Virpazar,04.11.2026 00:00,6.80,93.0,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,04.11.2026 00:00,3.05,72.8,0.00,,,,,
+02VELM20,klimatološka,Velimlje,04.11.2026 00:00,5.00,78.9,0.00,0.90,12,1.30,1.2,
+02ULCN10,glavna,Ulcinj,04.11.2026 00:20,10.70,64.0,0.00,4.80,4,,0.1,1016.2
+02CTNJ10,glavna,Cetinje,04.11.2026 00:20,2.10,98.0,0.00,0.50,26,,1.6,943.0
+02POSC30,klimatološka,Pošćenje,04.11.2026 00:00,4.37,91.8,,,,,,
+02GRAD30,klimatološka,Gradac,04.11.2026 00:00,4.76,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,04.11.2026 00:00,3.01,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,03.11.2026 23:46,15.10,43.0,,2.10,,5.10,,1019.4
+02KOVR30,klimatološka,Kovren,04.11.2026 00:00,1.16,100.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,04.11.2026 00:00,3.40,99.0,0.00,0.20,18,0.40,0.6,
+02SCPO30,klimatološka,Šćepan Polje,04.11.2026 00:00,6.05,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,04.11.2026 00:00,4.73,100.0,,,,,0.0,951.08
+02ZBLJ10,glavna,Žabljak,04.11.2026 00:20,0.50,98.0,0.00,1.70,22,,0.9,855.8
+02PLZN20,klimatološka,Pluzine,04.11.2026 00:00,6.34,100.0,0.00,3.70,2,7.80,0.0,934.23
+02HNOV10,glavna,Herceg Novi,04.11.2026 00:20,15.50,38.0,0.00,1.10,4,,0.1,1011.4
+02NIKS10,glavna,Nikšić,04.11.2026 00:20,8.20,59.0,0.00,5.40,30,,0.2,942.3
+02UBLI20,klimatološka,Ubli,04.11.2026 00:00,5.29,,,,,,,
+02KOSA30,klimatološka,Kosanica,04.11.2026 00:00,0.00,100.0,,,,,,
+02PDGR10,glavna,Podgorica,04.11.2026 00:20,12.90,47.0,0.00,3.60,2,,0.1,1010.7
+02BUDV20,klimatološka,Budva,04.11.2026 00:00,12.09,56.8,,,,,0.44,1014.91
+02BOAN30,klimatološka,Boan,04.11.2026 00:00,3.41,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,04.11.2026 00:20,4.10,98.0,0.00,0.60,12,,0.0,929.7
+02KOLS10,glavna,Kolašin,04.11.2026 00:20,3.10,92.0,0.00,2.10,32,4.30,0.2,911.1
+02GOBU30,klimatološka,Gornja Bukovica,04.11.2026 00:00,1.39,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,04.11.2026 00:00,0.07,91.4,0.00,,,,,
+02BAR010,glavna,Bar,04.11.2026 00:20,13.90,43.0,0.00,2.80,6,,0.1,1015.8
+02BERA20,glavna,Berane,04.11.2026 00:00,4.11,100.0,0.00,0.00,32,0.30,,940.23
