@@ -111647,3 +111647,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,03.11.2026 16:50,4.80,96.0,0.06,0.20,8,,0.1,926.7
 02PDGR10,glavna,Podgorica,03.11.2026 16:50,14.60,42.0,0.00,8.60,2,,2.3,1006.8
 02ZBLJ10,glavna,Žabljak,03.11.2026 16:50,0.70,95.0,0.00,3.00,26,,0.8,853.0
+02BAR010,glavna,Bar,03.11.2026 17:00,15.70,41.0,0.00,5.40,4,,1.0,1010.7
+02HNOV10,glavna,Herceg Novi,03.11.2026 17:00,17.10,38.0,0.00,4.60,2,10.40,1.1,1006.8
+02ULCN10,glavna,Ulcinj,03.11.2026 17:00,13.60,65.0,0.00,6.90,6,,0.5,1011.3
+02PLJV10,glavna,Pljevlja,03.11.2026 17:00,4.70,96.0,0.00,0.30,6,,0.4,926.8
+02CTNJ10,glavna,Cetinje,03.11.2026 17:00,8.90,76.0,0.00,0.00,32,,0.9,938.9
+02MOKR30,klimatološka,Mokro,03.11.2026 17:00,4.50,78.4,,,,,,
+02KOLS10,glavna,Kolašin,03.11.2026 17:00,3.30,92.0,0.00,0.80,32,,0.0,907.9
+02MAMO30,klimatološka,Manastir Morača,03.11.2026 17:00,10.22,64.8,,,,,,
+02LKOT20,klimatološka,Luka Kotor,03.11.2026 16:31,16.20,47.0,,7.70,,13.20,,1014.7
+02MATE30,klimatološka,Matesevo,03.11.2026 17:00,3.71,83.4,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,03.11.2026 17:00,6.80,100.0,,,,,,
+02PDGR10,glavna,Podgorica,03.11.2026 17:00,14.50,45.0,0.00,3.60,2,,1.0,1006.9
+02STAB30,klimatološka,Stabna,03.11.2026 17:00,7.08,81.9,,,,,,
+02ZBLJ10,glavna,Žabljak,03.11.2026 17:00,0.70,95.0,0.00,1.50,24,,0.6,853.1
+02STIT30,klimatološka,Štitarica,03.11.2026 17:00,2.24,100.0,,,,,,
+02NIKS10,glavna,Nikšić,03.11.2026 17:00,9.30,56.0,0.00,6.10,2,,0.4,939.3
+02VIRP20,klimatološka,Virpazar,03.11.2026 17:00,15.00,46.0,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,03.11.2026 17:00,14.40,,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,03.11.2026 17:00,0.33,100.0,,,,,,
+02VELK30,klimatološka,Velika,03.11.2026 17:00,2.83,100.0,,,,,,
