@@ -110912,3 +110912,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,03.11.2026 05:50,4.50,97.0,0.00,0.70,18,,0.1,924.7
 02HNOV10,glavna,Herceg Novi,03.11.2026 05:50,15.90,53.0,0.00,4.10,2,,0.0,1001.2
 02BAR010,glavna,Bar,03.11.2026 05:50,15.10,52.0,0.00,5.10,6,,0.3,1005.4
+02HNOV10,glavna,Herceg Novi,03.11.2026 06:00,16.10,49.0,0.00,4.70,2,,0.0,1001.3
+02MAMO30,klimatološka,Manastir Morača,03.11.2026 06:00,8.43,93.5,,,,,,
+02VELK30,klimatološka,Velika,03.11.2026 06:00,2.31,100.0,,,,,,
+02PDGR10,glavna,Podgorica,03.11.2026 06:00,14.40,46.0,0.00,6.90,2,12.60,0.4,1002.0
+02SCPO30,klimatološka,Šćepan Polje,03.11.2026 06:00,5.29,100.0,,,,,,
+02KOLS10,glavna,Kolašin,03.11.2026 06:00,3.40,91.0,0.00,4.80,4,,0.3,905.2
+02LKOT20,klimatološka,Luka Kotor,03.11.2026 05:31,15.30,55.0,,3.60,,7.80,,1010.1
+02STIT30,klimatološka,Štitarica,03.11.2026 06:00,2.79,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,03.11.2026 06:00,12.40,80.0,0.00,7.70,6,,0.1,1005.9
+02MATE30,klimatološka,Matesevo,03.11.2026 06:00,3.06,92.9,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,03.11.2026 06:00,3.57,100.0,,,,,,
+02NIKS10,glavna,Nikšić,03.11.2026 06:00,9.00,60.0,0.00,6.80,32,,0.0,935.0
+02BAR010,glavna,Bar,03.11.2026 06:00,15.20,51.0,0.00,7.00,6,,0.5,1005.6
+02VIRP20,klimatološka,Virpazar,03.11.2026 06:00,10.40,100.0,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,03.11.2026 06:00,0.02,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,03.11.2026 06:00,4.50,98.0,0.00,0.50,4,,0.0,924.8
+02ZBLJ10,glavna,Žabljak,03.11.2026 06:00,0.20,99.0,0.05,2.50,24,,0.4,851.1
+02STAB30,klimatološka,Stabna,03.11.2026 06:00,6.45,90.8,,,,,,
+02CTNJ10,glavna,Cetinje,03.11.2026 06:00,7.50,99.0,0.00,0.40,6,,0.6,934.6
+02MOKR30,klimatološka,Mokro,03.11.2026 06:00,3.44,89.1,,,,,,
+02DANL20,klimatološka,Danilovgrad,03.11.2026 06:00,11.90,,0.00,,,,,
