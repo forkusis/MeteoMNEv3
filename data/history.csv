@@ -113228,3 +113228,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,04.11.2026 17:00,9.40,59.0,0.00,1.10,30,,0.5,946.7
 02LKOT20,klimatološka,Luka Kotor,04.11.2026 16:31,15.00,65.0,,0.90,,2.10,,1024.0
 02SCPO30,klimatološka,Šćepan Polje,04.11.2026 17:00,7.29,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,04.11.2026 17:00,3.20,93.5,0.00,,,,,
+02PLJV10,glavna,Pljevlja,04.11.2026 17:20,5.90,93.0,0.00,0.50,26,,0.3,934.0
+02GOBU30,klimatološka,Gornja Bukovica,04.11.2026 17:00,2.33,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,04.11.2026 17:00,6.40,85.9,0.00,0.40,22,0.60,0.6,
+02BOAN30,klimatološka,Boan,04.11.2026 17:00,5.53,89.0,,,,,,
+02NIKS10,glavna,Nikšić,04.11.2026 17:20,9.00,60.0,0.00,1.40,30,,0.0,946.8
+02KOSA30,klimatološka,Kosanica,04.11.2026 17:00,2.51,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,04.11.2026 17:20,12.90,63.0,0.00,3.50,2,,0.6,1021.2
+02PDGR10,glavna,Podgorica,04.11.2026 17:20,14.80,46.0,0.00,7.50,2,,0.6,1015.2
+02VELM20,klimatološka,Velimlje,04.11.2026 17:00,7.90,71.1,0.00,0.80,14,1.20,0.1,
+02KUKO30,klimatološka,Kučka korita,04.11.2026 17:00,3.61,80.3,0.00,,,,,
+02KOLS10,glavna,Kolašin,04.11.2026 17:20,5.30,89.0,0.00,3.30,32,,0.6,915.4
+02LKOT20,klimatološka,Luka Kotor,04.11.2026 16:46,14.70,66.0,,1.10,,2.30,,1024.1
+02CTNJ10,glavna,Cetinje,04.11.2026 17:20,6.30,88.0,0.00,0.20,10,,0.5,947.2
+02UBLI20,klimatološka,Ubli,04.11.2026 17:00,10.48,,,,,,,
+02BAR010,glavna,Bar,04.11.2026 17:20,14.40,57.0,0.00,1.30,6,,0.4,1020.8
+02BPLJ20,klimatološka,Bijelo Polje,04.11.2026 17:00,7.82,92.5,,,,,0.0,955.13
+02KOVR30,klimatološka,Kovren,04.11.2026 17:00,3.42,100.0,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,04.11.2026 17:00,5.89,82.9,,,,,,
+02BERA20,glavna,Berane,04.11.2026 17:00,6.56,96.2,0.00,0.80,8,1.50,,944.44
+02HNOV10,glavna,Herceg Novi,04.11.2026 17:20,14.50,65.0,0.00,0.20,32,,0.1,1016.4
+02PLZN20,klimatološka,Pluzine,04.11.2026 17:00,7.05,100.0,0.00,6.00,32,10.20,0.0,938.5
+02BUDV20,klimatološka,Budva,04.11.2026 17:00,16.25,62.6,,,,,0.0,1020.05
+02GRAD30,klimatološka,Gradac,04.11.2026 17:00,6.41,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,04.11.2026 17:20,1.40,98.0,0.00,0.60,20,,2.1,860.1
+02DDOB30,klimatološka,Donja Dobrilovina,04.11.2026 17:00,5.76,100.0,,,,,,
