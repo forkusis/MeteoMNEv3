@@ -113556,3 +113556,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,04.11.2026 22:00,4.09,100.0,,,,,,
 02PLJV10,glavna,Pljevlja,04.11.2026 22:00,5.40,98.0,0.00,0.50,20,,0.7,935.4
 02MOKR30,klimatološka,Mokro,04.11.2026 22:00,4.42,82.9,,,,,,
+02HNOV10,glavna,Herceg Novi,04.11.2026 22:20,10.80,77.0,0.00,0.90,24,,0.4,1018.0
+02PLJV10,glavna,Pljevlja,04.11.2026 22:20,5.30,98.0,0.00,0.30,20,,0.0,935.4
+02BERA20,glavna,Berane,04.11.2026 22:00,6.06,100.0,0.00,0.60,6,1.30,,945.93
+02GRAD30,klimatološka,Gradac,04.11.2026 22:00,5.57,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,04.11.2026 22:00,3.15,100.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,04.11.2026 22:00,6.82,100.0,,,,,0.0,956.88
+02BUDV20,klimatološka,Budva,04.11.2026 22:00,11.03,73.8,,,,,0.0,1021.29
+02ULCN10,glavna,Ulcinj,04.11.2026 22:20,12.00,66.0,0.00,4.70,4,,0.3,1022.4
+02CTNJ10,glavna,Cetinje,04.11.2026 22:20,1.60,98.0,0.00,0.20,6,,0.8,949.0
+02PDGR10,glavna,Podgorica,04.11.2026 22:20,11.80,59.0,0.00,4.20,20,6.30,0.7,1017.2
+02VELM20,klimatološka,Velimlje,04.11.2026 22:00,1.90,95.7,0.00,0.50,12,0.80,0.3,
+02UBLI20,klimatološka,Ubli,04.11.2026 22:00,7.43,,,,,,,
+02BOAN30,klimatološka,Boan,04.11.2026 22:00,4.40,100.0,,,,,,
+02BAR010,glavna,Bar,04.11.2026 22:20,14.70,48.0,0.00,5.40,6,,0.1,1022.0
+02KOSA30,klimatološka,Kosanica,04.11.2026 22:00,2.09,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,04.11.2026 22:00,0.56,97.9,0.00,,,,,
+02NIKS10,glavna,Nikšić,04.11.2026 22:20,5.50,77.0,0.00,3.00,32,3.50,0.1,948.3
+02ZBLJ10,glavna,Žabljak,04.11.2026 22:20,1.10,99.0,0.00,1.20,4,,0.9,861.3
+02KUKO30,klimatološka,Kučka korita,04.11.2026 22:00,3.58,78.8,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,04.11.2026 22:00,2.07,100.0,,,,,,
+02KOLS10,glavna,Kolašin,04.11.2026 22:20,5.10,89.0,0.00,2.90,2,,0.1,916.6
+02DDOB30,klimatološka,Donja Dobrilovina,04.11.2026 22:00,4.76,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,04.11.2026 21:46,15.40,48.0,,1.50,,4.50,,1025.6
+02PLZN20,klimatološka,Pluzine,04.11.2026 22:00,6.88,100.0,0.00,5.50,2,10.10,0.0,939.84
