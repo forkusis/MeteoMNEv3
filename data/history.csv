@@ -113685,3 +113685,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,05.11.2026 00:00,4.14,100.0,,,,,,
 02BAR010,glavna,Bar,05.11.2026 00:00,14.50,48.0,0.00,6.80,6,,0.4,1022.5
 02ULCN10,glavna,Ulcinj,05.11.2026 00:00,12.00,63.0,0.00,5.10,6,,0.0,1022.8
+02NIKS10,glavna,Nikšić,05.11.2026 00:20,4.80,80.0,0.00,1.90,2,,0.0,948.6
+02BERA20,glavna,Berane,05.11.2026 00:00,6.17,98.0,0.00,0.60,8,1.10,,946.17
+02CTNJ10,glavna,Cetinje,05.11.2026 00:20,0.80,99.0,0.00,0.20,22,,0.7,949.3
+02BAR010,glavna,Bar,05.11.2026 00:20,14.50,48.0,0.00,4.80,6,,0.3,1022.5
+02PLJV10,glavna,Pljevlja,05.11.2026 00:20,5.30,95.0,0.00,0.50,24,,0.0,935.6
+02ZBLJ10,glavna,Žabljak,05.11.2026 00:20,1.10,99.0,0.00,0.30,8,,0.5,861.4
+02IVKO30,klimatološka,Ivanova korita,05.11.2026 00:00,0.17,99.2,0.00,,,,,
+02KOLS10,glavna,Kolašin,05.11.2026 00:20,5.10,89.0,0.00,3.60,6,7.40,0.3,916.8
+02KOVR30,klimatološka,Kovren,05.11.2026 00:00,2.95,100.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,05.11.2026 00:00,1.84,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,05.11.2026 00:00,1.90,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,05.11.2026 00:00,6.12,,,,,,,
+02BOAN30,klimatološka,Boan,05.11.2026 00:00,5.27,95.6,,,,,,
+02PLZN20,klimatološka,Pluzine,05.11.2026 00:00,6.71,100.0,0.00,4.00,32,8.30,0.0,940.15
+02PDGR10,glavna,Podgorica,05.11.2026 00:20,9.80,66.0,0.00,1.20,24,,0.6,1017.7
+02LKOT20,klimatološka,Luka Kotor,04.11.2026 23:46,15.10,53.0,,2.70,,4.90,,1026.0
+02GRAD30,klimatološka,Gradac,05.11.2026 00:00,5.56,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,05.11.2026 00:20,12.00,63.0,0.00,4.80,6,,0.0,1022.9
+02BUDV20,klimatološka,Budva,05.11.2026 00:00,11.26,69.3,,,,,0.0,1021.81
+02BPLJ20,klimatološka,Bijelo Polje,05.11.2026 00:00,6.65,100.0,,,,,0.0,957.09
+02POSC30,klimatološka,Pošćenje,05.11.2026 00:00,4.77,91.9,,,,,,
+02HNOV10,glavna,Herceg Novi,05.11.2026 00:20,10.20,75.0,0.00,1.30,24,,0.6,1018.4
+02DDOB30,klimatološka,Donja Dobrilovina,05.11.2026 00:00,4.81,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,05.11.2026 00:00,3.60,79.0,0.00,,,,,
+02VELM20,klimatološka,Velimlje,05.11.2026 00:00,0.20,99.1,0.00,0.40,2,0.60,0.0,
