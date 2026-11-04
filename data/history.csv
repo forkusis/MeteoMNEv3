@@ -112816,3 +112816,36 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,04.11.2026 10:50,12.80,51.0,0.00,1.00,14,,506.5,945.5
 02PLJV10,glavna,Pljevlja,04.11.2026 10:50,5.70,93.0,0.00,0.90,16,,150.5,932.5
 02HNOV10,glavna,Herceg Novi,04.11.2026 10:50,18.90,37.0,0.00,1.70,8,,541.7,1015.2
+02GOBU30,klimatološka,Gornja Bukovica,04.11.2026 11:00,2.36,100.0,,,,,,
+02VELK30,klimatološka,Velika,04.11.2026 11:00,4.90,100.0,,,,,,
+02STAB30,klimatološka,Stabna,04.11.2026 11:00,9.19,68.6,,,,,,
+02MOKR30,klimatološka,Mokro,04.11.2026 11:00,6.84,68.7,,,,,,
+02MATE30,klimatološka,Matesevo,04.11.2026 11:00,7.08,70.7,0.00,,,,,
+02PDGR10,glavna,Podgorica,04.11.2026 11:00,17.70,38.0,0.00,3.50,14,9.00,518.2,1013.8
+02KOVR30,klimatološka,Kovren,04.11.2026 11:00,3.16,100.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,04.11.2026 11:00,7.00,97.5,,,,,266.74,953.97
+02BIST20,klimatološka,Bistrica,04.11.2026 11:00,6.80,80.7,0.00,1.40,2,2.70,236.2,
+02SCPO30,klimatološka,Šćepan Polje,04.11.2026 11:00,7.20,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,04.11.2026 11:00,9.72,69.6,,,,,,
+02MAMO30,klimatološka,Manastir Morača,04.11.2026 11:00,15.39,47.8,,,,,,
+02NJGV30,klimatološka,Njegovuđa,04.11.2026 11:00,1.86,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,04.11.2026 11:00,13.40,49.0,0.00,1.30,10,,522.9,945.5
+02VELM20,klimatološka,Velimlje,04.11.2026 11:00,12.10,53.5,0.00,1.60,30,3.70,543.6,
+02LKOT20,klimatološka,Luka Kotor,04.11.2026 10:31,18.20,40.0,,0.00,,1.90,,1022.6
+02BERA20,glavna,Berane,04.11.2026 11:00,6.64,94.7,0.00,0.30,32,1.40,,943.08
+02PLJV10,glavna,Pljevlja,04.11.2026 11:00,5.90,93.0,0.00,1.10,16,,170.8,932.5
+02KUKO30,klimatološka,Kučka korita,04.11.2026 11:00,6.98,67.1,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,04.11.2026 11:00,2.40,88.0,0.00,0.40,30,,197.4,858.5
+02HNOV10,glavna,Herceg Novi,04.11.2026 11:00,18.80,37.0,0.00,0.80,8,,549.0,1015.1
+02BAR010,glavna,Bar,04.11.2026 11:00,17.50,50.0,0.00,2.50,20,,406.4,1019.3
+02VIRP20,klimatološka,Virpazar,04.11.2026 11:00,18.40,44.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,04.11.2026 11:00,6.86,84.5,,,,,,
+02NIKS10,glavna,Nikšić,04.11.2026 11:00,13.40,47.0,0.00,4.90,2,,540.1,944.7
+02ULCN10,glavna,Ulcinj,04.11.2026 11:00,17.90,45.0,0.00,5.70,6,,559.8,1019.6
+02GRAD30,klimatološka,Gradac,04.11.2026 11:00,7.00,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,04.11.2026 11:00,21.20,,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,04.11.2026 11:00,7.39,64.8,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,04.11.2026 11:00,2.63,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,04.11.2026 11:00,4.96,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,04.11.2026 11:00,7.25,100.0,0.00,7.30,32,12.50,209.29,937.14
+02KOLS10,glavna,Kolašin,04.11.2026 11:00,6.40,80.0,0.00,3.60,2,,343.7,913.6
