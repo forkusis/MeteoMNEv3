@@ -112583,3 +112583,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,04.11.2026 07:00,4.60,100.0,0.00,,,,,
 02NIKS10,glavna,Nikšić,04.11.2026 07:00,7.40,65.0,0.00,2.50,26,,54.3,943.9
 02VELK30,klimatološka,Velika,04.11.2026 07:00,2.42,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,04.11.2026 07:00,1.67,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,04.11.2026 07:20,0.80,100.0,0.00,0.00,32,,21.3,944.8
+02NIKS10,glavna,Nikšić,04.11.2026 07:20,8.20,61.0,0.00,3.60,30,,111.2,944.0
+02BERA20,glavna,Berane,04.11.2026 07:00,4.07,100.0,0.00,0.00,32,0.60,,941.96
+02IVKO30,klimatološka,Ivanova korita,04.11.2026 07:00,0.26,94.3,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,04.11.2026 07:00,5.72,100.0,0.00,2.50,2,6.20,28.14,935.84
+02BAR010,glavna,Bar,04.11.2026 07:20,14.10,45.0,0.00,4.10,6,,43.3,1017.9
+02DDOB30,klimatološka,Donja Dobrilovina,04.11.2026 07:00,2.83,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,04.11.2026 07:00,1.29,100.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,04.11.2026 07:00,0.39,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,04.11.2026 07:20,0.60,98.0,0.00,1.40,24,,28.9,857.4
+02HNOV10,glavna,Herceg Novi,04.11.2026 07:20,10.30,64.0,0.00,1.60,22,,71.3,1013.8
+02BPLJ20,klimatološka,Bijelo Polje,04.11.2026 07:00,4.92,100.0,,,,,17.5,952.68
+02VELM20,klimatološka,Velimlje,04.11.2026 07:00,1.00,95.9,0.00,0.30,2,0.40,19.7,
+02KUKO30,klimatološka,Kučka korita,04.11.2026 07:00,3.59,73.4,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,04.11.2026 07:00,2.91,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,04.11.2026 07:20,11.20,68.0,0.00,3.50,4,,111.8,1018.5
+02PLJV10,glavna,Pljevlja,04.11.2026 07:20,3.90,98.0,0.09,0.40,6,,17.6,931.5
+02UBLI20,klimatološka,Ubli,04.11.2026 07:00,5.38,,,,,,,
+02BOAN30,klimatološka,Boan,04.11.2026 07:00,3.22,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,04.11.2026 07:00,4.20,100.0,,,,,,
+02KOLS10,glavna,Kolašin,04.11.2026 07:20,3.60,90.0,0.00,1.20,32,,45.3,912.6
+02LKOT20,klimatološka,Luka Kotor,04.11.2026 06:46,13.40,48.0,,0.70,,2.40,,1021.5
+02PDGR10,glavna,Podgorica,04.11.2026 07:20,12.10,53.0,0.00,1.10,24,,46.1,1012.9
+02BUDV20,klimatološka,Budva,04.11.2026 07:00,11.42,65.4,,,,,19.28,1016.96
