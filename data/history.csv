@@ -113490,3 +113490,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,04.11.2026 21:00,9.40,84.7,,,,,,
 02PDGR10,glavna,Podgorica,04.11.2026 21:00,14.00,50.0,0.00,3.30,30,,0.3,1017.2
 02STIT30,klimatološka,Štitarica,04.11.2026 21:00,4.10,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,04.11.2026 21:20,5.30,98.0,0.00,0.20,28,,0.6,935.4
+02GOBU30,klimatološka,Gornja Bukovica,04.11.2026 21:00,2.01,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,04.11.2026 21:00,0.84,96.2,0.00,,,,,
+02BOAN30,klimatološka,Boan,04.11.2026 21:00,5.10,96.4,,,,,,
+02KOLS10,glavna,Kolašin,04.11.2026 21:20,5.10,90.0,0.00,2.50,4,,0.4,916.6
+02HNOV10,glavna,Herceg Novi,04.11.2026 21:20,10.90,74.0,0.00,1.50,24,,1.3,1017.8
+02PLZN20,klimatološka,Pluzine,04.11.2026 21:00,6.94,100.0,0.00,5.60,2,9.00,0.0,939.8
+02UBLI20,klimatološka,Ubli,04.11.2026 21:00,9.06,,,,,,,
+02ULCN10,glavna,Ulcinj,04.11.2026 21:20,11.90,66.0,0.00,4.50,6,6.90,0.0,1022.6
+02NIKS10,glavna,Nikšić,04.11.2026 21:20,7.60,66.0,0.00,2.20,2,,0.5,948.3
+02BERA20,glavna,Berane,04.11.2026 21:00,6.08,100.0,0.00,0.00,32,0.70,,945.78
+02POSC30,klimatološka,Pošćenje,04.11.2026 21:00,3.90,95.2,,,,,,
+02BUDV20,klimatološka,Budva,04.11.2026 21:00,12.20,69.9,,,,,0.0,1021.43
+02KOSA30,klimatološka,Kosanica,04.11.2026 21:00,2.03,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,04.11.2026 21:00,5.64,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,04.11.2026 20:46,15.60,48.0,,3.90,,10.10,,1025.4
+02ZBLJ10,glavna,Žabljak,04.11.2026 21:20,1.10,99.0,0.00,0.20,20,,0.0,861.3
+02BPLJ20,klimatološka,Bijelo Polje,04.11.2026 21:00,7.00,100.0,,,,,0.0,956.73
+02VELM20,klimatološka,Velimlje,04.11.2026 21:00,2.90,92.5,0.00,0.50,8,0.70,0.7,
+02KOVR30,klimatološka,Kovren,04.11.2026 21:00,3.17,100.0,0.00,,,,,
+02KUKO30,klimatološka,Kučka korita,04.11.2026 21:00,3.40,79.6,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,04.11.2026 21:00,4.88,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,04.11.2026 21:20,2.10,98.0,0.00,0.10,8,,0.7,949.0
+02BAR010,glavna,Bar,04.11.2026 21:20,14.70,47.0,0.00,7.00,6,,0.2,1022.1
+02PDGR10,glavna,Podgorica,04.11.2026 21:20,13.50,52.0,0.00,1.80,30,,0.0,1017.2
