@@ -113371,3 +113371,17 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02GOBU30,klimatološka,Gornja Bukovica,04.11.2026 19:00,2.14,100.0,,,,,,
 02DANL20,klimatološka,Danilovgrad,04.11.2026 19:00,11.20,,0.00,,,,,
 02ZBLJ10,glavna,Žabljak,04.11.2026 19:00,1.20,99.0,0.00,0.60,18,,0.7,860.7
+02DDOB30,klimatološka,Donja Dobrilovina,04.11.2026 19:00,5.34,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,04.11.2026 19:20,11.90,68.0,0.00,3.80,2,,0.0,1022.0
+02PDGR10,glavna,Podgorica,04.11.2026 19:20,14.60,48.0,0.00,3.60,2,,0.0,1016.4
+02PLJV10,glavna,Pljevlja,04.11.2026 19:20,5.40,96.0,0.00,0.20,26,,0.0,934.8
+02CTNJ10,glavna,Cetinje,04.11.2026 19:20,3.60,96.0,0.00,0.20,32,,0.2,948.2
+02LKOT20,klimatološka,Luka Kotor,04.11.2026 18:46,15.90,47.0,,3.60,,7.30,,1024.8
+02UBLI20,klimatološka,Ubli,04.11.2026 19:00,8.34,,,,,,,
+02HNOV10,glavna,Herceg Novi,04.11.2026 19:20,12.30,75.0,0.00,0.90,24,,0.8,1017.2
+02NIKS10,glavna,Nikšić,04.11.2026 19:20,7.50,67.0,0.00,1.90,2,,1.1,947.7
+02POSC30,klimatološka,Pošćenje,04.11.2026 19:00,5.44,87.4,,,,,,
+02BUDV20,klimatološka,Budva,04.11.2026 19:00,12.27,70.2,,,,,0.0,1020.85
+02BAR010,glavna,Bar,04.11.2026 19:20,14.60,50.0,0.00,1.40,6,,0.7,1021.4
+02KOLS10,glavna,Kolašin,04.11.2026 19:20,5.20,91.0,0.00,2.00,2,,0.2,916.0
+02ZBLJ10,glavna,Žabljak,04.11.2026 19:20,1.20,99.0,0.00,0.60,2,,0.0,860.8
