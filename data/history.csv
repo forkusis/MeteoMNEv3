@@ -113104,3 +113104,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,04.11.2026 15:00,14.30,52.0,0.00,0.80,14,,210.7,945.9
 02MAMO30,klimatološka,Manastir Morača,04.11.2026 15:00,13.23,57.8,,,,,,
 02NJGV30,klimatološka,Njegovuđa,04.11.2026 15:00,1.88,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,04.11.2026 15:00,7.55,100.0,0.00,6.70,32,11.10,55.3,937.68
+02BOAN30,klimatološka,Boan,04.11.2026 15:00,6.18,88.3,,,,,,
+02BAR010,glavna,Bar,04.11.2026 15:20,18.60,47.0,0.00,3.20,22,,161.6,1019.8
+02KOLS10,glavna,Kolašin,04.11.2026 15:20,6.10,81.0,0.00,2.00,32,,24.0,914.4
+02CTNJ10,glavna,Cetinje,04.11.2026 15:20,14.30,55.0,0.00,0.50,12,,162.5,945.9
+02PDGR10,glavna,Podgorica,04.11.2026 15:20,16.70,42.0,0.00,5.00,2,,169.1,1014.0
+02CRKV30,klimatološka,Crkvice,04.11.2026 15:00,9.53,73.9,,,,,,
+02BIST20,klimatološka,Bistrica,04.11.2026 15:00,7.00,80.1,0.00,2.50,2,3.30,54.8,
+02ZBLJ10,glavna,Žabljak,04.11.2026 15:20,1.90,97.0,0.00,0.90,6,,30.4,859.2
+02BUDV20,klimatološka,Budva,04.11.2026 15:00,19.04,44.6,,,,,245.16,1018.92
+02DDOB30,klimatološka,Donja Dobrilovina,04.11.2026 15:00,6.25,97.9,,,,,,
+02UBLI20,klimatološka,Ubli,04.11.2026 15:00,13.09,,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,04.11.2026 15:00,2.75,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,04.11.2026 15:00,2.90,100.0,,,,,,
+02BERA20,glavna,Berane,04.11.2026 15:00,7.85,89.7,0.00,0.00,32,1.10,,943.41
+02ULCN10,glavna,Ulcinj,04.11.2026 15:20,17.80,47.0,0.00,6.10,6,,188.4,1019.9
+02PLJV10,glavna,Pljevlja,04.11.2026 15:20,6.70,88.0,0.00,0.70,2,,29.7,933.0
+02VELM20,klimatološka,Velimlje,04.11.2026 15:00,11.30,59.6,0.00,1.80,32,3.30,59.4,
+02KOVR30,klimatološka,Kovren,04.11.2026 15:00,4.20,100.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,04.11.2026 15:00,8.36,88.6,,,,,22.16,954.14
+02GRAD30,klimatološka,Gradac,04.11.2026 15:00,7.23,100.0,,,,,,
+02NIKS10,glavna,Nikšić,04.11.2026 15:20,12.00,51.0,0.00,3.00,2,,173.6,945.6
+02IVKO30,klimatološka,Ivanova korita,04.11.2026 15:00,6.21,76.4,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,04.11.2026 15:00,6.29,84.2,,,,,,
+02KUKO30,klimatološka,Kučka korita,04.11.2026 15:00,6.72,69.3,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,04.11.2026 15:20,16.60,59.0,0.00,0.20,22,,33.9,1015.3
+02LKOT20,klimatološka,Luka Kotor,04.11.2026 14:46,17.10,56.0,,1.80,,4.10,,1023.0
