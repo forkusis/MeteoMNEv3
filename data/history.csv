@@ -114788,3 +114788,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,05.11.2026 17:00,6.40,100.0,,,,,,
 02MATE30,klimatološka,Matesevo,05.11.2026 17:00,6.89,74.1,0.00,,,,,
 02CTNJ10,glavna,Cetinje,05.11.2026 17:00,6.90,87.0,0.00,0.20,10,,0.7,948.3
+02KOVR30,klimatološka,Kovren,05.11.2026 17:00,5.20,100.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,05.11.2026 17:20,7.00,79.0,0.00,1.00,2,,0.1,916.3
+02CTNJ10,glavna,Cetinje,05.11.2026 17:20,5.90,90.0,0.00,0.10,32,,0.3,948.5
+02HNOV10,glavna,Herceg Novi,05.11.2026 17:20,13.70,74.0,0.00,0.40,28,,0.5,1018.0
+02PDGR10,glavna,Podgorica,05.11.2026 17:20,13.90,56.0,0.00,0.40,4,,0.8,1016.7
+02BOAN30,klimatološka,Boan,05.11.2026 17:00,5.72,95.8,,,,,,
+02ZBLJ10,glavna,Žabljak,05.11.2026 17:20,1.70,96.0,0.00,0.40,8,,0.4,861.0
+02ULCN10,glavna,Ulcinj,05.11.2026 17:20,14.10,56.0,0.00,3.10,2,,0.1,1022.3
+02GRAD30,klimatološka,Gradac,05.11.2026 17:00,7.67,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,05.11.2026 17:00,3.29,91.2,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,05.11.2026 17:00,6.72,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,05.11.2026 17:00,8.00,100.0,0.00,4.40,2,6.70,0.0,939.47
+02BUDV20,klimatološka,Budva,05.11.2026 17:00,15.60,72.8,,,,,0.41,1021.43
+02UBLI20,klimatološka,Ubli,05.11.2026 17:00,11.65,,,,,,,
+02BERA20,glavna,Berane,05.11.2026 17:00,8.36,79.4,0.00,1.00,32,2.30,,945.08
+02KOSA30,klimatološka,Kosanica,05.11.2026 17:00,3.88,100.0,,,,,,
+02NIKS10,glavna,Nikšić,05.11.2026 17:20,9.70,63.0,0.00,1.10,4,,1.6,947.8
+02GOBU30,klimatološka,Gornja Bukovica,05.11.2026 17:00,2.55,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,05.11.2026 17:00,4.74,91.7,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,05.11.2026 17:00,9.18,82.1,,,,,0.0,955.85
+02KUKO30,klimatološka,Kučka korita,05.11.2026 17:00,4.54,82.3,0.00,,,,,
+02PLJV10,glavna,Pljevlja,05.11.2026 17:20,7.80,75.0,0.00,2.30,2,,0.5,934.6
+02VELM20,klimatološka,Velimlje,05.11.2026 17:00,10.30,67.7,0.00,0.50,4,0.90,0.0,
+02BAR010,glavna,Bar,05.11.2026 17:20,14.70,63.0,0.00,1.80,6,,1.0,1022.2
+02LKOT20,klimatološka,Luka Kotor,05.11.2026 16:46,15.30,72.0,,1.80,,2.70,,1025.6
