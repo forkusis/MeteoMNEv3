@@ -113853,3 +113853,32 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,05.11.2026 02:50,12.00,63.0,0.00,4.80,6,,0.0,1022.5
 02HNOV10,glavna,Herceg Novi,05.11.2026 02:50,9.70,77.0,0.00,1.40,24,,0.4,1018.1
 02ZBLJ10,glavna,Žabljak,05.11.2026 02:50,0.70,99.0,0.00,0.50,6,,0.7,861.1
+02BERA20,glavna,Berane,05.11.2026 03:00,5.97,95.3,0.00,1.00,2,1.90,,945.58
+02SCPO30,klimatološka,Šćepan Polje,05.11.2026 03:00,6.34,100.0,,,,,,
+02KOLS10,glavna,Kolašin,05.11.2026 03:00,4.90,88.0,0.00,4.40,4,,0.3,916.4
+02VELM20,klimatološka,Velimlje,05.11.2026 03:00,-1.30,100.0,0.00,0.30,26,0.40,0.0,
+02BOAN30,klimatološka,Boan,05.11.2026 03:00,5.23,92.4,,,,,,
+02GRAD30,klimatološka,Gradac,05.11.2026 03:00,5.17,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,05.11.2026 03:00,2.83,100.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,05.11.2026 03:00,6.32,100.0,,,,,0.0,956.64
+02MAMO30,klimatološka,Manastir Morača,05.11.2026 03:00,5.49,99.8,,,,,,
+02ZBLJ10,glavna,Žabljak,05.11.2026 03:00,0.60,98.0,0.00,0.50,6,,0.0,861.1
+02DANL20,klimatološka,Danilovgrad,05.11.2026 03:00,4.50,,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,05.11.2026 03:00,1.59,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,05.11.2026 02:31,14.20,54.0,,0.80,,3.30,,1025.7
+02STAB30,klimatološka,Stabna,05.11.2026 03:00,4.04,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,05.11.2026 03:00,-0.20,99.0,0.00,0.10,32,,0.6,949.1
+02BAR010,glavna,Bar,05.11.2026 03:00,14.20,48.0,0.00,5.60,6,,0.3,1022.0
+02PLJV10,glavna,Pljevlja,05.11.2026 03:00,4.60,97.0,0.00,0.00,16,,0.0,935.2
+02STIT30,klimatološka,Štitarica,05.11.2026 03:00,3.81,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,05.11.2026 03:00,9.70,78.0,0.00,0.80,24,,0.0,1018.1
+02MOKR30,klimatološka,Mokro,05.11.2026 03:00,4.91,76.8,,,,,,
+02VIRP20,klimatološka,Virpazar,05.11.2026 03:00,4.70,100.0,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,05.11.2026 03:00,-0.16,100.0,0.00,,,,,
+02VELK30,klimatološka,Velika,05.11.2026 03:00,3.88,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,05.11.2026 03:00,4.37,89.4,0.05,,,,,
+02PDGR10,glavna,Podgorica,05.11.2026 03:00,8.40,74.0,0.00,0.50,4,,0.0,1017.7
+02NIKS10,glavna,Nikšić,05.11.2026 03:00,3.90,84.0,0.00,1.70,32,,0.1,948.4
+02KUKO30,klimatološka,Kučka korita,05.11.2026 03:00,4.28,75.3,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,05.11.2026 03:00,0.91,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,05.11.2026 03:00,12.00,64.0,0.00,5.40,4,,0.0,1022.6
