@@ -116312,3 +116312,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,06.11.2026 16:16,14.30,78.0,,0.60,,1.30,,1021.7
 02BAR010,glavna,Bar,06.11.2026 16:50,15.70,73.0,0.00,1.30,30,,0.4,1018.4
 02CTNJ10,glavna,Cetinje,06.11.2026 16:50,7.00,90.0,0.00,0.20,22,,1.0,944.7
+02MATE30,klimatološka,Matesevo,06.11.2026 17:00,4.40,83.0,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,06.11.2026 17:00,-0.88,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,06.11.2026 17:00,1.10,97.0,0.00,1.50,22,,0.8,857.5
+02MAMO30,klimatološka,Manastir Morača,06.11.2026 17:00,8.30,86.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,06.11.2026 17:00,10.90,,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,06.11.2026 16:31,14.40,78.0,,0.80,,1.40,,1021.8
+02ULCN10,glavna,Ulcinj,06.11.2026 17:00,14.60,75.0,0.00,1.20,26,,0.1,1018.6
+02STAB30,klimatološka,Stabna,06.11.2026 17:00,4.51,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,06.11.2026 17:00,3.29,84.9,,,,,,
+02NIKS10,glavna,Nikšić,06.11.2026 17:00,9.90,69.0,0.00,5.50,12,,0.3,943.9
+02PLJV10,glavna,Pljevlja,06.11.2026 17:00,6.60,81.0,0.00,0.90,2,,0.5,930.7
+02STIT30,klimatološka,Štitarica,06.11.2026 17:00,3.33,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,06.11.2026 17:00,6.50,92.0,0.00,0.10,10,,0.6,944.8
+02VELK30,klimatološka,Velika,06.11.2026 17:00,4.92,96.7,,,,,,
+02VIRP20,klimatološka,Virpazar,06.11.2026 17:00,10.80,83.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,06.11.2026 17:00,8.20,67.0,0.00,1.20,2,,0.5,911.7
+02SCPO30,klimatološka,Šćepan Polje,06.11.2026 17:00,8.14,87.9,,,,,,
+02BAR010,glavna,Bar,06.11.2026 17:00,15.40,74.0,0.00,1.20,4,2.20,0.5,1018.5
+02HNOV10,glavna,Herceg Novi,06.11.2026 17:00,14.60,70.0,0.00,0.90,30,1.30,1.1,1014.2
+02PDGR10,glavna,Podgorica,06.11.2026 17:00,14.10,59.0,0.00,0.60,10,,0.0,1012.9
