@@ -115874,3 +115874,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,06.11.2026 10:00,16.40,52.0,0.00,0.90,20,,451.6,1020.6
 02NJGV30,klimatološka,Njegovuđa,06.11.2026 10:00,0.99,100.0,,,,,,
 02MATE30,klimatološka,Matesevo,06.11.2026 10:00,7.89,65.4,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,06.11.2026 10:20,15.60,69.0,0.00,0.50,24,,234.3,1016.4
+02BIST20,klimatološka,Bistrica,06.11.2026 10:00,6.50,76.1,0.00,1.30,14,2.10,248.6,
+02PLJV10,glavna,Pljevlja,06.11.2026 10:20,6.80,72.0,0.00,0.60,10,,178.7,932.5
+02VELM20,klimatološka,Velimlje,06.11.2026 10:00,7.70,82.5,0.00,0.70,30,1.10,485.8,
+02DDOB30,klimatološka,Donja Dobrilovina,06.11.2026 10:00,6.33,87.4,,,,,,
+02NIKS10,glavna,Nikšić,06.11.2026 10:20,11.40,58.0,0.00,0.90,16,,502.5,945.9
+02POSC30,klimatološka,Pošćenje,06.11.2026 10:00,4.74,88.9,,,,,,
+02LKOT20,klimatološka,Luka Kotor,06.11.2026 09:46,12.90,64.0,,1.00,,1.50,,1024.0
+02BUDV20,klimatološka,Budva,06.11.2026 10:00,17.22,70.0,,,,,288.16,1020.05
+02BPLJ20,klimatološka,Bijelo Polje,06.11.2026 10:00,8.94,68.7,,,,,130.65,953.88
+02ULCN10,glavna,Ulcinj,06.11.2026 10:20,16.60,45.0,0.00,7.40,6,,521.1,1021.1
+02PDGR10,glavna,Podgorica,06.11.2026 10:20,15.20,46.0,0.00,0.30,32,,480.1,1015.5
+02KOVR30,klimatološka,Kovren,06.11.2026 10:00,6.93,100.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,06.11.2026 10:00,1.97,100.0,,,,,,
+02BOAN30,klimatološka,Boan,06.11.2026 10:00,4.99,92.8,,,,,,
+02IVKO30,klimatološka,Ivanova korita,06.11.2026 10:00,10.52,66.5,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,06.11.2026 10:20,2.40,97.0,0.00,0.80,2,,54.7,858.4
+02CTNJ10,glavna,Cetinje,06.11.2026 10:20,11.70,67.0,0.00,0.40,10,,488.6,946.4
+02CRKV30,klimatološka,Crkvice,06.11.2026 10:00,7.16,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,06.11.2026 10:00,11.42,,,,,,,
+02KOLS10,glavna,Kolašin,06.11.2026 10:20,7.80,69.0,0.00,3.50,4,,501.5,913.5
+02BERA20,glavna,Berane,06.11.2026 10:00,8.88,65.1,0.00,0.60,26,1.70,,943.16
+02GOBU30,klimatološka,Gornja Bukovica,06.11.2026 10:00,5.98,100.0,,,,,,
+02BAR010,glavna,Bar,06.11.2026 10:20,17.00,51.0,0.00,1.50,22,,475.5,1020.5
+02GRAD30,klimatološka,Gradac,06.11.2026 10:00,7.23,87.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,06.11.2026 10:00,8.30,67.1,0.00,,,,,
