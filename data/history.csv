@@ -117230,3 +117230,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,07.11.2026 07:00,1.00,100.0,,,,,,
 02MOKR30,klimatološka,Mokro,07.11.2026 07:00,-2.65,97.6,,,,,,
 02KOLS10,glavna,Kolašin,07.11.2026 07:00,2.00,86.0,0.00,2.90,4,,38.6,914.5
+02IVKO30,klimatološka,Ivanova korita,07.11.2026 07:00,1.59,64.5,0.00,,,,,
+02BOAN30,klimatološka,Boan,07.11.2026 07:00,-4.06,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,07.11.2026 07:00,1.35,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,07.11.2026 07:00,0.71,100.0,0.00,,,,,
+02BAR010,glavna,Bar,07.11.2026 07:20,12.60,57.0,0.00,2.70,12,,56.7,1019.7
+02PLZN20,klimatološka,Pluzine,07.11.2026 07:00,2.12,100.0,0.00,0.50,32,1.80,24.21,938.24
+02KOSA30,klimatološka,Kosanica,07.11.2026 07:00,-0.20,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,07.11.2026 07:00,-1.08,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,07.11.2026 07:00,2.90,100.0,,,,,,
+02KOLS10,glavna,Kolašin,07.11.2026 07:20,1.70,86.0,0.00,2.30,8,,46.5,914.8
+02UBLI20,klimatološka,Ubli,07.11.2026 07:00,5.71,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,07.11.2026 07:00,3.06,100.0,,,,,20.62,955.11
+02BERA20,glavna,Berane,07.11.2026 07:00,2.57,98.2,0.00,0.30,8,0.70,,944.25
+02PDGR10,glavna,Podgorica,07.11.2026 07:20,6.60,83.0,0.00,0.30,16,,71.1,1015.6
+02BUDV20,klimatološka,Budva,07.11.2026 07:00,10.44,93.8,,,,,28.97,1018.91
+02NIKS10,glavna,Nikšić,07.11.2026 07:20,2.80,82.0,0.00,0.00,20,,64.8,946.1
+02PLJV10,glavna,Pljevlja,07.11.2026 07:20,2.20,89.0,0.00,0.60,10,,35.6,933.6
+02GRAD30,klimatološka,Gradac,07.11.2026 07:00,3.03,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,07.11.2026 07:20,-0.70,100.0,0.00,0.40,20,,44.3,946.7
+02ULCN10,glavna,Ulcinj,07.11.2026 07:20,11.00,56.0,0.00,6.80,6,,117.3,1020.6
+02HNOV10,glavna,Herceg Novi,07.11.2026 07:20,10.50,82.0,0.00,0.40,26,,57.6,1015.7
+02ZBLJ10,glavna,Žabljak,07.11.2026 07:20,-3.10,97.0,0.00,0.40,22,,57.0,858.8
+02BIST20,klimatološka,Bistrica,07.11.2026 07:00,2.70,92.6,0.00,1.00,16,1.60,40.0,
+02GOBU30,klimatološka,Gornja Bukovica,07.11.2026 07:00,-2.95,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,07.11.2026 06:46,9.70,84.0,,1.20,,2.90,,1023.2
+02VELM20,klimatološka,Velimlje,07.11.2026 07:00,-1.70,99.2,0.00,1.60,12,2.30,13.9,
+02KUKO30,klimatološka,Kučka korita,07.11.2026 07:00,0.57,54.4,0.00,,,,,
