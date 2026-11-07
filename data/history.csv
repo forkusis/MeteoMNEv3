@@ -117751,3 +117751,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,07.11.2026 15:00,6.86,93.1,,,,,,
 02MATE30,klimatološka,Matesevo,07.11.2026 15:00,8.72,42.2,0.00,,,,,
 02VELK30,klimatološka,Velika,07.11.2026 15:00,9.94,59.8,,,,,,
+02HNOV10,glavna,Herceg Novi,07.11.2026 15:20,17.40,71.0,0.00,0.30,16,,65.2,1015.3
+02BPLJ20,klimatološka,Bijelo Polje,07.11.2026 15:00,12.51,50.1,,,,,250.43,953.18
+02KOLS10,glavna,Kolašin,07.11.2026 15:20,8.90,47.0,0.00,2.50,32,,39.4,913.2
+02LKOT20,klimatološka,Luka Kotor,07.11.2026 14:46,16.60,66.0,,0.50,,5.40,,1023.1
+02CRKV30,klimatološka,Crkvice,07.11.2026 15:00,7.60,83.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,07.11.2026 15:00,7.44,60.5,0.00,,,,,
+02CTNJ10,glavna,Cetinje,07.11.2026 15:20,14.60,35.0,0.00,0.30,14,,149.5,946.2
+02ULCN10,glavna,Ulcinj,07.11.2026 15:20,17.30,40.0,0.00,3.20,4,,194.0,1020.1
+02DDOB30,klimatološka,Donja Dobrilovina,07.11.2026 15:00,6.92,84.5,,,,,,
+02UBLI20,klimatološka,Ubli,07.11.2026 15:00,13.95,,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,07.11.2026 15:00,8.07,64.1,,,,,,
+02BIST20,klimatološka,Bistrica,07.11.2026 15:00,10.50,60.3,0.00,0.80,22,1.50,211.9,
+02KUKO30,klimatološka,Kučka korita,07.11.2026 15:00,10.38,43.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,07.11.2026 15:20,13.00,44.0,0.00,4.70,14,,171.3,945.2
+02POSC30,klimatološka,Pošćenje,07.11.2026 15:00,11.05,53.3,,,,,,
+02BUDV20,klimatološka,Budva,07.11.2026 15:00,18.40,62.1,,,,,225.2,1019.19
+02PDGR10,glavna,Podgorica,07.11.2026 15:20,17.50,38.0,0.00,1.10,10,,157.1,1014.5
+02KOSA30,klimatološka,Kosanica,07.11.2026 15:00,6.81,73.5,,,,,,
+02VELM20,klimatološka,Velimlje,07.11.2026 15:00,16.40,29.2,0.00,1.00,26,1.40,106.5,
+02ZBLJ10,glavna,Žabljak,07.11.2026 15:20,7.40,52.0,0.00,1.30,2,,182.0,858.6
+02BERA20,glavna,Berane,07.11.2026 15:00,12.10,50.3,0.00,0.80,18,2.00,,942.36
+02BAR010,glavna,Bar,07.11.2026 15:20,18.90,48.0,0.00,2.60,26,,162.5,1019.7
+02BOAN30,klimatološka,Boan,07.11.2026 15:00,8.97,57.7,,,,,,
+02PLJV10,glavna,Pljevlja,07.11.2026 15:20,11.20,46.0,0.00,3.20,4,,174.0,931.5
+02GRAD30,klimatološka,Gradac,07.11.2026 15:00,9.46,71.0,,,,,,
