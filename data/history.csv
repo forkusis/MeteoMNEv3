@@ -117431,3 +117431,27 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,07.11.2026 10:00,6.00,71.0,0.00,2.00,20,,398.2,933.4
 02LKOT20,klimatološka,Luka Kotor,07.11.2026 09:31,12.60,75.0,,0.60,,1.20,,1024.2
 02DANL20,klimatološka,Danilovgrad,07.11.2026 10:00,13.50,,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,07.11.2026 10:00,9.26,62.3,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,07.11.2026 10:00,4.48,82.1,,,,,,
+02NIKS10,glavna,Nikšić,07.11.2026 10:20,11.20,54.0,0.00,0.20,18,,373.7,946.2
+02UBLI20,klimatološka,Ubli,07.11.2026 10:00,12.17,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,07.11.2026 10:00,5.38,90.4,,,,,,
+02KOSA30,klimatološka,Kosanica,07.11.2026 10:00,3.81,100.0,,,,,,
+02KOLS10,glavna,Kolašin,07.11.2026 10:20,5.60,68.0,0.00,2.90,4,,392.7,914.7
+02CTNJ10,glavna,Cetinje,07.11.2026 10:20,8.60,73.0,0.00,0.30,18,,296.6,947.1
+02PDGR10,glavna,Podgorica,07.11.2026 10:20,14.00,49.0,0.00,0.70,8,,399.2,1016.2
+02IVKO30,klimatološka,Ivanova korita,07.11.2026 10:00,8.82,40.6,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,07.11.2026 10:00,2.04,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,07.11.2026 10:20,6.50,68.0,0.00,1.50,14,,404.7,933.3
+02VELM20,klimatološka,Velimlje,07.11.2026 10:00,7.70,73.0,0.00,0.80,4,1.30,362.2,
+02BIST20,klimatološka,Bistrica,07.11.2026 10:00,6.20,69.1,0.00,0.60,22,1.50,376.8,
+02HNOV10,glavna,Herceg Novi,07.11.2026 10:20,16.50,57.0,0.00,1.30,8,,572.1,1016.4
+02KUKO30,klimatološka,Kučka korita,07.11.2026 10:00,9.16,41.6,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,07.11.2026 09:46,12.90,73.0,,0.50,,2.00,,1024.3
+02ZBLJ10,glavna,Žabljak,07.11.2026 10:20,2.90,76.0,0.00,0.40,26,,194.9,859.2
+02GRAD30,klimatološka,Gradac,07.11.2026 10:00,5.43,89.1,,,,,,
+02BAR010,glavna,Bar,07.11.2026 10:20,17.60,53.0,0.00,2.10,22,,335.0,1020.6
+02BERA20,glavna,Berane,07.11.2026 10:00,7.24,64.1,0.00,0.50,32,1.20,,944.35
+02BPLJ20,klimatološka,Bijelo Polje,07.11.2026 10:00,7.03,71.0,,,,,320.51,955.35
+02ULCN10,glavna,Ulcinj,07.11.2026 10:20,14.60,38.0,0.00,9.70,6,,649.4,1021.3
+02BOAN30,klimatološka,Boan,07.11.2026 10:00,3.30,97.3,,,,,,
