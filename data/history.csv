@@ -118012,3 +118012,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,07.11.2026 19:00,6.50,93.0,0.00,,,,,
 02NIKS10,glavna,Nikšić,07.11.2026 19:00,5.80,76.0,0.00,0.40,4,,0.0,947.3
 02MAMO30,klimatološka,Manastir Morača,07.11.2026 19:00,4.38,91.5,,,,,,
+02ZBLJ10,glavna,Žabljak,07.11.2026 19:20,-1.60,97.0,0.00,0.70,22,,0.2,859.7
+02BERA20,glavna,Berane,07.11.2026 19:00,2.88,88.3,0.00,0.60,6,1.10,,944.22
+02CTNJ10,glavna,Cetinje,07.11.2026 19:20,1.50,94.0,0.00,0.30,32,,0.5,948.3
+02VELM20,klimatološka,Velimlje,07.11.2026 19:00,4.90,73.2,0.00,0.70,22,1.00,1.5,
+02DDOB30,klimatološka,Donja Dobrilovina,07.11.2026 19:00,1.80,99.5,,,,,,
+02IVKO30,klimatološka,Ivanova korita,07.11.2026 19:00,2.59,72.3,0.00,,,,,
+02GRAD30,klimatološka,Gradac,07.11.2026 19:00,0.30,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,07.11.2026 18:46,12.30,85.0,,0.50,,1.10,,1024.8
+02POSC30,klimatološka,Pošćenje,07.11.2026 19:00,0.55,98.2,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,07.11.2026 19:00,1.50,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,07.11.2026 19:00,-2.24,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,07.11.2026 19:20,12.60,84.0,0.00,0.20,24,,0.0,1017.2
+02KOVR30,klimatološka,Kovren,07.11.2026 19:00,2.48,100.0,0.00,,,,,
+02UBLI20,klimatološka,Ubli,07.11.2026 19:00,7.88,,,,,,,
+02NIKS10,glavna,Nikšić,07.11.2026 19:20,5.30,75.0,0.00,1.20,32,2.70,0.0,947.4
+02PLJV10,glavna,Pljevlja,07.11.2026 19:20,1.80,83.0,0.00,0.60,22,,0.7,933.4
+02BPLJ20,klimatološka,Bijelo Polje,07.11.2026 19:00,2.35,94.0,,,,,0.21,955.04
+02KOLS10,glavna,Kolašin,07.11.2026 19:20,0.50,87.0,0.00,0.20,20,,0.8,915.4
+02PDGR10,glavna,Podgorica,07.11.2026 19:20,9.80,71.0,0.00,0.80,32,,0.1,1016.6
+02BUDV20,klimatološka,Budva,07.11.2026 19:00,12.67,83.9,,,,,0.0,1020.72
+02BOAN30,klimatološka,Boan,07.11.2026 19:00,1.32,90.2,,,,,,
+02BAR010,glavna,Bar,07.11.2026 19:20,11.80,54.0,0.00,1.70,6,,0.3,1021.3
+02BIST20,klimatološka,Bistrica,07.11.2026 19:00,1.70,86.1,0.00,0.40,16,0.60,1.0,
+02KUKO30,klimatološka,Kučka korita,07.11.2026 19:00,0.28,81.8,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,07.11.2026 19:00,-3.77,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,07.11.2026 19:20,12.10,47.0,0.00,4.00,2,,0.1,1022.0
