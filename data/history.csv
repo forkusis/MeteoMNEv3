@@ -117816,3 +117816,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,07.11.2026 16:00,14.00,58.0,0.00,,,,,
 02MAMO30,klimatološka,Manastir Morača,07.11.2026 16:00,10.27,66.1,,,,,,
 02PLJV10,glavna,Pljevlja,07.11.2026 16:00,9.60,45.0,0.00,2.30,2,,28.2,931.7
+02NIKS10,glavna,Nikšić,07.11.2026 16:20,10.90,58.0,0.00,3.00,12,,11.2,945.5
+02CTNJ10,glavna,Cetinje,07.11.2026 16:20,7.20,70.0,0.00,0.20,32,,9.3,946.6
+02GRAD30,klimatološka,Gradac,07.11.2026 16:00,7.34,84.3,,,,,,
+02BUDV20,klimatološka,Budva,07.11.2026 16:00,15.27,77.6,,,,,11.76,1019.42
+02KOSA30,klimatološka,Kosanica,07.11.2026 16:00,3.41,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,07.11.2026 16:00,4.80,80.2,,,,,,
+02UBLI20,klimatološka,Ubli,07.11.2026 16:00,11.80,,,,,,,
+02BERA20,glavna,Berane,07.11.2026 16:00,10.12,58.5,0.00,0.90,28,1.50,,942.64
+02IVKO30,klimatološka,Ivanova korita,07.11.2026 16:00,4.70,69.3,0.00,,,,,
+02KOVR30,klimatološka,Kovren,07.11.2026 16:00,5.56,82.1,0.00,,,,,
+02BOAN30,klimatološka,Boan,07.11.2026 16:00,6.86,66.2,,,,,,
+02KUKO30,klimatološka,Kučka korita,07.11.2026 16:00,6.32,61.5,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,07.11.2026 16:00,8.97,82.0,0.00,6.00,2,9.70,8.17,936.39
+02PLJV10,glavna,Pljevlja,07.11.2026 16:20,9.20,49.0,0.00,0.60,2,,12.1,931.9
+02ZBLJ10,glavna,Žabljak,07.11.2026 16:20,1.30,88.0,0.00,1.20,24,,10.9,859.0
+02DDOB30,klimatološka,Donja Dobrilovina,07.11.2026 16:00,6.18,80.4,,,,,,
+02ULCN10,glavna,Ulcinj,07.11.2026 16:20,14.50,48.0,0.00,2.60,4,,12.5,1020.4
+02LKOT20,klimatološka,Luka Kotor,07.11.2026 15:46,15.30,69.0,,0.30,,2.30,,1023.3
+02POSC30,klimatološka,Pošćenje,07.11.2026 16:00,7.98,62.4,,,,,,
+02BIST20,klimatološka,Bistrica,07.11.2026 16:00,6.00,72.8,0.00,1.60,18,2.60,12.6,
+02HNOV10,glavna,Herceg Novi,07.11.2026 16:20,15.00,79.0,0.00,0.30,30,,9.3,1015.7
+02BAR010,glavna,Bar,07.11.2026 16:20,16.70,52.0,0.00,2.10,26,,11.3,1020.0
+02KOLS10,glavna,Kolašin,07.11.2026 16:20,7.10,59.0,0.00,2.00,32,,9.0,913.8
+02PDGR10,glavna,Podgorica,07.11.2026 16:20,15.40,57.0,0.00,2.20,16,,11.6,1014.8
+02VELM20,klimatološka,Velimlje,07.11.2026 16:00,11.90,51.5,0.00,1.80,14,2.60,25.8,
+02BPLJ20,klimatološka,Bijelo Polje,07.11.2026 16:00,9.03,61.9,,,,,18.39,953.39
