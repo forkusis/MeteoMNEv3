@@ -116902,3 +116902,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,07.11.2026 02:00,0.36,100.0,,,,,,
 02VIRP20,klimatološka,Virpazar,07.11.2026 02:00,3.70,100.0,0.00,,,,,
 02DANL20,klimatološka,Danilovgrad,07.11.2026 02:00,3.30,,0.00,,,,,
+02BIST20,klimatološka,Bistrica,07.11.2026 02:00,2.10,98.7,0.00,1.10,18,1.80,0.6,
+02HNOV10,glavna,Herceg Novi,07.11.2026 02:20,9.80,86.0,0.00,1.10,24,,0.2,1015.1
+02IVKO30,klimatološka,Ivanova korita,07.11.2026 02:00,0.37,93.2,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,07.11.2026 02:00,0.33,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,07.11.2026 02:00,2.85,100.0,0.00,0.00,32,0.70,0.0,937.82
+02DDOB30,klimatološka,Donja Dobrilovina,07.11.2026 02:00,1.71,100.0,,,,,,
+02KOLS10,glavna,Kolašin,07.11.2026 02:20,-1.10,97.0,0.00,0.50,32,,0.0,914.0
+02BERA20,glavna,Berane,07.11.2026 02:00,1.17,100.0,0.00,0.00,32,0.80,,943.73
+02LKOT20,klimatološka,Luka Kotor,07.11.2026 01:46,9.70,92.0,,0.60,,1.20,,1022.7
+02BPLJ20,klimatološka,Bijelo Polje,07.11.2026 02:00,1.92,100.0,,,,,0.0,954.65
+02KOVR30,klimatološka,Kovren,07.11.2026 02:00,0.97,100.0,0.00,,,,,
+02BUDV20,klimatološka,Budva,07.11.2026 02:00,10.98,92.9,,,,,0.0,1018.48
+02KOSA30,klimatološka,Kosanica,07.11.2026 02:00,0.52,100.0,,,,,,
+02PDGR10,glavna,Podgorica,07.11.2026 02:20,6.80,86.0,0.00,1.30,32,,0.2,1014.3
+02NIKS10,glavna,Nikšić,07.11.2026 02:20,1.80,89.0,0.00,2.70,2,,0.0,945.4
+02BOAN30,klimatološka,Boan,07.11.2026 02:00,-2.54,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,07.11.2026 02:00,5.55,,,,,,,
+02KUKO30,klimatološka,Kučka korita,07.11.2026 02:00,-0.57,58.8,0.00,,,,,
+02VELM20,klimatološka,Velimlje,07.11.2026 02:00,-0.40,100.0,0.00,0.90,12,1.20,2.9,
+02GRAD30,klimatološka,Gradac,07.11.2026 02:00,2.94,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,07.11.2026 02:20,1.30,98.0,0.00,0.20,28,,0.0,933.1
+02CTNJ10,glavna,Cetinje,07.11.2026 02:20,-0.40,100.0,0.00,0.20,4,,0.6,945.9
+02ZBLJ10,glavna,Žabljak,07.11.2026 02:20,-2.10,98.0,0.00,0.40,8,,1.1,858.5
+02ULCN10,glavna,Ulcinj,07.11.2026 02:20,9.40,78.0,0.00,2.50,4,,0.3,1019.6
+02GOBU30,klimatološka,Gornja Bukovica,07.11.2026 02:00,0.14,100.0,,,,,,
+02BAR010,glavna,Bar,07.11.2026 02:20,12.30,65.0,0.00,2.30,8,,0.3,1019.1
