@@ -118379,3 +118379,16 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,08.11.2026 00:50,-1.90,96.0,0.00,1.60,22,,0.5,860.4
 02BAR010,glavna,Bar,08.11.2026 00:50,13.40,60.0,0.00,0.20,4,,0.0,1022.6
 02KOLS10,glavna,Kolašin,08.11.2026 00:50,-2.90,95.0,0.00,0.60,18,,0.3,917.0
+02VIRP20,klimatološka,Virpazar,08.11.2026 01:00,5.00,100.0,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,08.11.2026 01:00,0.43,100.0,,,,,,
+02PDGR10,glavna,Podgorica,08.11.2026 01:00,6.70,80.0,0.00,0.40,6,,0.0,1018.6
+02ULCN10,glavna,Ulcinj,08.11.2026 01:00,10.70,53.0,0.00,4.80,4,,0.0,1023.8
+02MOKR30,klimatološka,Mokro,08.11.2026 01:00,-1.66,95.7,,,,,,
+02LKOT20,klimatološka,Luka Kotor,08.11.2026 00:31,10.70,80.0,,0.00,,1.00,,1026.3
+02STIT30,klimatološka,Štitarica,08.11.2026 01:00,-3.67,100.0,,,,,,
+02STAB30,klimatološka,Stabna,08.11.2026 01:00,1.52,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,08.11.2026 01:00,4.00,,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,08.11.2026 01:00,-3.99,100.0,,,,,,
+02VELK30,klimatološka,Velika,08.11.2026 01:00,-2.13,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,08.11.2026 01:00,0.44,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,08.11.2026 01:00,-3.79,96.8,0.00,,,,,
