@@ -118392,3 +118392,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,08.11.2026 01:00,-2.13,100.0,,,,,,
 02SCPO30,klimatološka,Šćepan Polje,08.11.2026 01:00,0.44,100.0,,,,,,
 02MATE30,klimatološka,Matesevo,08.11.2026 01:00,-3.79,96.8,0.00,,,,,
+02VELM20,klimatološka,Velimlje,08.11.2026 01:00,2.30,89.5,0.00,0.20,2,0.30,3.3,
+02POSC30,klimatološka,Pošćenje,08.11.2026 01:00,-1.04,100.0,,,,,,
+02BAR010,glavna,Bar,08.11.2026 01:20,13.80,55.0,0.00,1.80,2,,0.2,1022.8
+02KOVR30,klimatološka,Kovren,08.11.2026 01:00,-0.20,100.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,08.11.2026 01:00,-1.70,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,08.11.2026 01:20,-1.50,96.0,0.00,1.50,22,,0.0,860.5
+02GRAD30,klimatološka,Gradac,08.11.2026 01:00,-1.13,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,08.11.2026 00:46,11.00,83.0,,0.70,,1.60,,1026.4
+02KOSA30,klimatološka,Kosanica,08.11.2026 01:00,-6.96,100.0,,,,,,
+02KOLS10,glavna,Kolašin,08.11.2026 01:20,-3.10,95.0,0.00,0.50,6,,0.0,917.2
+02NIKS10,glavna,Nikšić,08.11.2026 01:20,3.80,81.0,0.00,0.00,20,,0.0,949.2
+02GOBU30,klimatološka,Gornja Bukovica,08.11.2026 01:00,-2.52,100.0,,,,,,
+02PDGR10,glavna,Podgorica,08.11.2026 01:20,6.70,79.0,0.00,0.90,4,1.30,0.4,1018.9
+02BERA20,glavna,Berane,08.11.2026 01:00,-1.50,99.2,0.00,0.40,8,1.10,,946.18
+02UBLI20,klimatološka,Ubli,08.11.2026 01:00,5.53,,,,,,,
+02CTNJ10,glavna,Cetinje,08.11.2026 01:20,1.70,97.0,0.00,0.00,32,,0.0,949.9
+02BUDV20,klimatološka,Budva,08.11.2026 01:00,13.62,68.7,,,,,0.0,1022.18
+02KUKO30,klimatološka,Kučka korita,08.11.2026 01:00,-2.48,83.2,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,08.11.2026 01:00,-2.05,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,08.11.2026 01:00,-0.91,100.0,,,,,0.0,957.28
+02IVKO30,klimatološka,Ivanova korita,08.11.2026 01:00,3.21,93.5,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,08.11.2026 01:20,12.10,81.0,0.00,1.70,24,,2.1,1018.8
+02ULCN10,glavna,Ulcinj,08.11.2026 01:20,11.20,51.0,0.00,6.20,2,,0.0,1024.0
+02BIST20,klimatološka,Bistrica,08.11.2026 01:00,-2.40,96.3,0.00,0.50,2,0.70,0.6,
+02PLZN20,klimatološka,Pluzine,08.11.2026 01:00,2.32,100.0,0.00,0.00,32,0.80,0.0,940.31
