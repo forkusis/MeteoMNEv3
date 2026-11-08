@@ -119234,3 +119234,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,08.11.2026 14:00,7.74,92.2,,,,,,
 02NIKS10,glavna,Nikšić,08.11.2026 14:00,8.10,90.0,0.00,0.10,32,,41.6,949.9
 02ULCN10,glavna,Ulcinj,08.11.2026 14:00,16.50,54.0,0.00,3.70,8,,93.6,1024.4
+02BAR010,glavna,Bar,08.11.2026 14:20,17.00,65.0,0.00,0.50,6,,19.7,1023.8
+02KOSA30,klimatološka,Kosanica,08.11.2026 14:00,9.19,92.4,,,,,,
+02KOLS10,glavna,Kolašin,08.11.2026 14:20,9.30,82.0,0.00,0.20,12,,68.9,916.2
+02BPLJ20,klimatološka,Bijelo Polje,08.11.2026 14:00,11.50,57.2,,,,,102.28,954.88
+02PDGR10,glavna,Podgorica,08.11.2026 14:20,13.10,68.0,0.00,1.30,24,,31.0,1019.2
+02DDOB30,klimatološka,Donja Dobrilovina,08.11.2026 14:00,8.62,85.5,,,,,,
+02KUKO30,klimatološka,Kučka korita,08.11.2026 14:00,8.04,78.7,0.00,,,,,
+02BUDV20,klimatološka,Budva,08.11.2026 14:00,14.23,95.8,,,,,25.93,1023.63
+02GOBU30,klimatološka,Gornja Bukovica,08.11.2026 14:00,6.50,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,08.11.2026 14:20,16.20,53.0,0.00,4.40,6,,98.9,1024.3
+02CRKV30,klimatološka,Crkvice,08.11.2026 14:00,6.86,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,08.11.2026 14:20,7.10,85.0,0.00,1.80,12,,70.8,860.9
+02BOAN30,klimatološka,Boan,08.11.2026 14:00,8.74,87.4,,,,,,
+02UBLI20,klimatološka,Ubli,08.11.2026 14:00,10.66,,,,,,,
+02CTNJ10,glavna,Cetinje,08.11.2026 14:20,7.70,97.0,0.00,0.30,8,,11.5,950.3
+02POSC30,klimatološka,Pošćenje,08.11.2026 14:00,7.66,91.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,08.11.2026 14:00,6.61,100.0,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,08.11.2026 13:46,12.00,91.0,,1.30,,2.30,,1027.9
+02HNOV10,glavna,Herceg Novi,08.11.2026 14:20,13.10,96.0,0.06,0.30,26,,35.0,1020.2
+02NIKS10,glavna,Nikšić,08.11.2026 14:20,7.90,93.0,0.00,1.50,16,,30.4,950.0
+02VELM20,klimatološka,Velimlje,08.11.2026 14:00,8.20,97.2,0.00,1.20,30,1.40,40.3,
+02PLJV10,glavna,Pljevlja,08.11.2026 14:20,9.80,67.0,0.00,0.50,18,,28.9,933.4
+02PLZN20,klimatološka,Pluzine,08.11.2026 14:00,8.07,100.0,0.00,0.30,26,0.90,30.63,939.84
+02BIST20,klimatološka,Bistrica,08.11.2026 14:00,9.30,67.5,0.00,1.00,2,1.40,40.6,
+02BERA20,glavna,Berane,08.11.2026 14:00,12.86,53.4,0.00,0.50,28,1.50,,943.99
+02GRAD30,klimatološka,Gradac,08.11.2026 14:00,9.90,82.4,,,,,,
