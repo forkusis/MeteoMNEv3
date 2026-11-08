@@ -118498,3 +118498,23 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,08.11.2026 02:50,7.80,69.0,0.00,1.20,4,,0.7,1018.6
 02BAR010,glavna,Bar,08.11.2026 02:50,15.80,51.0,0.00,1.00,6,,0.2,1022.8
 02HNOV10,glavna,Herceg Novi,08.11.2026 02:50,12.20,74.0,0.00,0.50,30,,0.0,1018.6
+02PLJV10,glavna,Pljevlja,08.11.2026 03:00,-2.30,97.0,0.00,0.20,2,,0.0,934.8
+02NJGV30,klimatološka,Njegovuđa,08.11.2026 03:00,-1.92,100.0,,,,,,
+02STAB30,klimatološka,Stabna,08.11.2026 03:00,2.10,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,08.11.2026 03:00,0.31,94.6,,,,,,
+02CTNJ10,glavna,Cetinje,08.11.2026 03:00,3.50,92.0,0.00,0.20,10,,0.0,949.6
+02VIRP20,klimatološka,Virpazar,08.11.2026 03:00,6.40,98.0,0.00,,,,,
+02MATE30,klimatološka,Matesevo,08.11.2026 03:00,-2.66,96.5,0.00,,,,,
+02VELK30,klimatološka,Velika,08.11.2026 03:00,-2.22,100.0,,,,,,
+02BAR010,glavna,Bar,08.11.2026 03:00,15.90,50.0,0.00,1.60,6,,0.3,1022.8
+02ZBLJ10,glavna,Žabljak,08.11.2026 03:00,-1.00,95.0,0.00,1.30,22,,0.2,860.2
+02LKOT20,klimatološka,Luka Kotor,08.11.2026 02:31,11.70,77.0,,0.50,,1.20,,1026.3
+02DANL20,klimatološka,Danilovgrad,08.11.2026 03:00,5.30,,0.00,,,,,
+02NIKS10,glavna,Nikšić,08.11.2026 03:00,4.10,82.0,0.00,0.40,14,,0.0,949.0
+02MAMO30,klimatološka,Manastir Morača,08.11.2026 03:00,0.60,100.0,,,,,,
+02PDGR10,glavna,Podgorica,08.11.2026 03:00,8.30,68.0,0.00,0.80,4,,0.9,1018.6
+02STIT30,klimatološka,Štitarica,08.11.2026 03:00,-2.53,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,08.11.2026 03:00,0.98,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,08.11.2026 03:00,12.00,50.0,0.00,6.10,6,,0.1,1023.8
+02KOLS10,glavna,Kolašin,08.11.2026 03:00,-2.20,95.0,0.00,0.10,32,,0.0,916.8
+02HNOV10,glavna,Herceg Novi,08.11.2026 03:00,12.50,77.0,0.00,1.00,22,,0.7,1018.5
