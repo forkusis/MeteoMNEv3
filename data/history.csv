@@ -118712,3 +118712,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,08.11.2026 06:00,2.34,100.0,,,,,,
 02STAB30,klimatološka,Stabna,08.11.2026 06:00,2.72,100.0,,,,,,
 02MOKR30,klimatološka,Mokro,08.11.2026 06:00,1.43,89.5,,,,,,
+02LKOT20,klimatološka,Luka Kotor,08.11.2026 05:46,11.80,77.0,,0.50,,1.20,,1026.8
+02BUDV20,klimatološka,Budva,08.11.2026 06:00,13.97,86.2,,,,,0.0,1022.68
+02GRAD30,klimatološka,Gradac,08.11.2026 06:00,-0.75,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,08.11.2026 06:00,3.44,100.0,0.00,0.60,14,1.40,0.0,940.06
+02BOAN30,klimatološka,Boan,08.11.2026 06:00,0.01,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,08.11.2026 06:10,11.80,54.0,0.00,4.20,4,,0.8,1024.4
+02NIKS10,glavna,Nikšić,08.11.2026 06:10,5.00,82.0,0.00,0.70,2,,0.0,949.2
+02KOSA30,klimatološka,Kosanica,08.11.2026 06:00,-3.49,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,08.11.2026 06:00,7.16,,,,,,,
+02POSC30,klimatološka,Pošćenje,08.11.2026 06:00,1.07,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,08.11.2026 06:00,-0.17,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,08.11.2026 06:20,12.80,78.0,0.00,0.10,24,,1.2,1019.0
+02KOLS10,glavna,Kolašin,08.11.2026 06:10,-1.50,96.0,0.00,1.00,4,,1.1,916.8
+02KUKO30,klimatološka,Kučka korita,08.11.2026 06:00,2.76,84.4,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,08.11.2026 06:10,-0.70,94.0,0.00,1.00,18,,0.0,860.4
+02CTNJ10,glavna,Cetinje,08.11.2026 06:20,5.10,95.0,0.00,0.40,6,0.50,0.4,950.1
+02PDGR10,glavna,Podgorica,08.11.2026 06:20,8.90,84.0,0.00,0.40,28,,1.6,1019.4
+02GOBU30,klimatološka,Gornja Bukovica,08.11.2026 06:00,0.20,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,08.11.2026 06:00,5.72,98.7,0.00,,,,,
+02VELM20,klimatološka,Velimlje,08.11.2026 06:00,1.70,93.8,0.00,0.60,14,0.70,2.3,
+02BIST20,klimatološka,Bistrica,08.11.2026 06:00,-1.80,97.0,0.00,1.00,14,1.30,0.6,
+02DDOB30,klimatološka,Donja Dobrilovina,08.11.2026 06:00,-1.24,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,08.11.2026 06:00,-0.68,100.0,,,,,0.0,957.32
+02BAR010,glavna,Bar,08.11.2026 06:10,12.30,87.0,0.00,0.70,2,,0.0,1023.6
+02PLJV10,glavna,Pljevlja,08.11.2026 06:20,-1.00,97.0,0.00,0.60,18,,1.1,935.0
+02BERA20,glavna,Berane,08.11.2026 06:00,-1.74,100.0,0.00,1.00,8,1.80,,946.23
