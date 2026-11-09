@@ -120993,3 +120993,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MATE30,klimatološka,Matesevo,09.11.2026 22:00,1.01,97.6,0.00,,,,,
 02VIRP20,klimatološka,Virpazar,09.11.2026 22:00,7.40,100.0,0.00,,,,,
 02STIT30,klimatološka,Štitarica,09.11.2026 22:00,2.06,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,09.11.2026 22:00,1.76,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,09.11.2026 22:00,6.23,100.0,0.00,0.50,14,1.00,0.0,938.29
+02BIST20,klimatološka,Bistrica,09.11.2026 22:00,2.50,92.3,0.00,1.00,22,1.10,0.6,
+02PDGR10,glavna,Podgorica,09.11.2026 22:20,11.90,92.0,0.00,0.20,32,,0.0,1018.2
+02KOVR30,klimatološka,Kovren,09.11.2026 22:00,4.54,100.0,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,09.11.2026 22:00,1.57,91.8,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,09.11.2026 22:00,1.12,100.0,,,,,,
+02NIKS10,glavna,Nikšić,09.11.2026 22:20,4.90,97.0,0.00,0.30,14,,0.0,948.6
+02BOAN30,klimatološka,Boan,09.11.2026 22:00,2.01,100.0,,,,,,
+02BERA20,glavna,Berane,09.11.2026 22:00,4.38,91.2,0.00,0.60,4,1.70,,943.26
+02GOBU30,klimatološka,Gornja Bukovica,09.11.2026 22:00,1.18,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,09.11.2026 22:00,7.12,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,09.11.2026 22:00,3.39,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,09.11.2026 22:00,4.13,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,09.11.2026 22:00,2.70,97.2,0.00,0.40,16,0.60,0.0,
+02KUKO30,klimatološka,Kučka korita,09.11.2026 22:00,-0.02,98.6,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,09.11.2026 22:00,4.94,93.0,,,,,231.8,953.86
+02KOSA30,klimatološka,Kosanica,09.11.2026 22:00,0.29,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,09.11.2026 22:20,9.20,83.0,0.00,1.10,24,,0.0,1019.0
+02ZBLJ10,glavna,Žabljak,09.11.2026 22:20,-0.10,97.0,0.00,0.60,20,,1.1,859.4
+02KOLS10,glavna,Kolašin,09.11.2026 22:20,2.60,97.0,0.00,0.90,18,,0.0,915.2
+02BAR010,glavna,Bar,09.11.2026 22:20,11.50,83.0,0.00,2.30,10,,1.0,1023.4
+02BUDV20,klimatološka,Budva,09.11.2026 22:00,10.90,100.0,,,,,91.46,1022.66
+02CTNJ10,glavna,Cetinje,09.11.2026 22:20,2.20,100.0,0.00,0.40,32,,0.0,949.4
+02ULCN10,glavna,Ulcinj,09.11.2026 22:20,8.40,98.0,0.00,1.50,32,,0.0,1023.8
+02PLJV10,glavna,Pljevlja,09.11.2026 22:20,3.20,92.0,0.00,0.80,18,,0.0,932.2
+02LKOT20,klimatološka,Luka Kotor,09.11.2026 21:46,10.30,91.0,,0.00,,0.60,,1026.7
