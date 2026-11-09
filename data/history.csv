@@ -121058,3 +121058,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02STIT30,klimatološka,Štitarica,09.11.2026 23:00,2.87,100.0,,,,,,
 02NIKS10,glavna,Nikšić,09.11.2026 23:00,4.40,99.0,0.00,0.70,2,,0.0,948.8
 02STAB30,klimatološka,Stabna,09.11.2026 23:00,4.51,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,09.11.2026 23:20,2.90,92.0,0.00,0.50,32,,0.0,932.2
+02BPLJ20,klimatološka,Bijelo Polje,09.11.2026 23:00,4.45,95.9,,,,,0.0,954.08
+02ZBLJ10,glavna,Žabljak,09.11.2026 23:20,-0.10,97.0,0.00,1.20,22,,1.3,859.4
+02KOVR30,klimatološka,Kovren,09.11.2026 23:00,3.92,100.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,09.11.2026 23:00,2.90,93.1,0.00,0.30,18,0.50,0.6,
+02KOLS10,glavna,Kolašin,09.11.2026 23:20,2.50,98.0,0.00,0.10,20,,0.1,915.4
+02KOSA30,klimatološka,Kosanica,09.11.2026 23:00,0.55,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,09.11.2026 23:00,1.64,94.8,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,09.11.2026 22:46,9.60,93.0,,0.00,,0.80,,1026.7
+02KUKO30,klimatološka,Kučka korita,09.11.2026 23:00,-0.56,98.9,0.00,,,,,
+02BERA20,glavna,Berane,09.11.2026 23:00,4.11,92.7,0.00,0.70,8,1.30,,943.16
+02VELM20,klimatološka,Velimlje,09.11.2026 23:00,2.00,98.3,0.00,0.10,26,0.40,0.0,
+02UBLI20,klimatološka,Ubli,09.11.2026 23:00,6.76,,,,,,,
+02GRAD30,klimatološka,Gradac,09.11.2026 23:00,1.86,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,09.11.2026 23:10,9.50,82.0,0.00,0.80,26,,0.0,1019.1
+02NIKS10,glavna,Nikšić,09.11.2026 23:20,3.80,98.0,0.00,1.00,2,,1.1,948.9
+02GOBU30,klimatološka,Gornja Bukovica,09.11.2026 23:00,2.26,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,09.11.2026 23:20,1.50,100.0,0.00,0.00,32,,0.0,949.5
+02BOAN30,klimatološka,Boan,09.11.2026 23:00,1.51,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,09.11.2026 23:00,4.32,100.0,,,,,,
+02BAR010,glavna,Bar,09.11.2026 23:20,11.70,84.0,0.00,1.30,10,,0.0,1023.3
+02DDOB30,klimatološka,Donja Dobrilovina,09.11.2026 23:00,3.59,100.0,,,,,,
+02PDGR10,glavna,Podgorica,09.11.2026 23:20,11.80,94.0,0.00,0.80,4,,0.5,1018.2
+02POSC30,klimatološka,Pošćenje,09.11.2026 23:00,1.25,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,09.11.2026 23:20,8.80,99.0,0.00,1.40,4,,0.0,1023.9
