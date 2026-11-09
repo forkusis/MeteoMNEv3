@@ -119926,3 +119926,17 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,09.11.2026 00:50,13.60,97.0,0.00,0.80,20,,0.4,1018.8
 02NIKS10,glavna,Nikšić,09.11.2026 00:50,7.80,99.0,0.00,2.00,14,,0.7,948.6
 02KOLS10,glavna,Kolašin,09.11.2026 00:50,6.80,99.0,0.00,0.60,22,,1.5,915.3
+02MAMO30,klimatološka,Manastir Morača,09.11.2026 01:00,8.38,100.0,0.09,,,,,
+02VIRP20,klimatološka,Virpazar,09.11.2026 01:00,10.00,100.0,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,09.11.2026 01:00,4.68,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,09.11.2026 01:00,11.90,92.0,0.00,2.70,6,,0.0,1024.0
+02STIT30,klimatološka,Štitarica,09.11.2026 01:00,7.54,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,09.11.2026 01:00,5.63,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,09.11.2026 01:00,6.01,98.4,,,,,,
+02MATE30,klimatološka,Matesevo,09.11.2026 01:00,6.15,98.8,0.00,,,,,
+02PLJV10,glavna,Pljevlja,09.11.2026 00:50,6.20,94.0,0.00,0.80,30,,1.2,933.0
+02DANL20,klimatološka,Danilovgrad,09.11.2026 01:00,10.50,,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,09.11.2026 00:31,12.00,100.0,,0.50,,1.00,,1026.5
+02PDGR10,glavna,Podgorica,09.11.2026 01:00,10.40,96.0,0.00,0.50,4,,0.6,1018.6
+02VELK30,klimatološka,Velika,09.11.2026 01:00,6.46,100.0,,,,,,
+02STAB30,klimatološka,Stabna,09.11.2026 01:00,7.41,100.0,,,,,,
