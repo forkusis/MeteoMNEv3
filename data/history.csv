@@ -120660,3 +120660,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,09.11.2026 12:00,7.33,82.1,,,,,,
 02LKOT20,klimatološka,Luka Kotor,09.11.2026 11:31,14.80,92.0,,2.60,,3.60,,1026.3
 02SCPO30,klimatološka,Šćepan Polje,09.11.2026 12:00,11.00,99.5,,,,,,
+02UBLI20,klimatološka,Ubli,09.11.2026 12:00,10.85,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,09.11.2026 12:00,12.27,69.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,09.11.2026 11:46,14.70,93.0,,1.00,,1.90,,1025.9
+02VELM20,klimatološka,Velimlje,09.11.2026 12:00,12.10,67.1,0.00,3.50,24,5.80,638.6,
+02PLJV10,glavna,Pljevlja,09.11.2026 12:20,12.30,76.0,0.00,0.70,18,,351.3,931.5
+02NIKS10,glavna,Nikšić,09.11.2026 12:20,11.80,87.0,0.00,5.80,12,,467.2,947.5
+02KOLS10,glavna,Kolašin,09.11.2026 12:20,10.80,71.0,0.00,0.30,22,,106.6,914.1
+02POSC30,klimatološka,Pošćenje,09.11.2026 12:00,9.99,82.3,,,,,,
+02BIST20,klimatološka,Bistrica,09.11.2026 12:00,14.30,46.8,0.00,5.00,18,6.70,207.9,
+02ULCN10,glavna,Ulcinj,09.11.2026 12:20,16.10,84.0,0.00,1.90,8,,267.3,1023.5
+02IVKO30,klimatološka,Ivanova korita,09.11.2026 12:00,6.79,89.4,0.00,,,,,
+02CTNJ10,glavna,Cetinje,09.11.2026 12:20,11.10,92.0,0.00,0.80,14,,133.7,948.5
+02ZBLJ10,glavna,Žabljak,09.11.2026 12:20,8.60,56.0,0.00,1.70,18,,484.0,859.0
+02BAR010,glavna,Bar,09.11.2026 12:20,16.70,78.0,0.00,0.80,18,,39.4,1022.9
+02BOAN30,klimatološka,Boan,09.11.2026 12:00,9.74,81.2,,,,,,
+02KUKO30,klimatološka,Kučka korita,09.11.2026 12:00,6.49,87.3,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,09.11.2026 12:00,14.35,70.0,,,,,344.57,952.43
+02GRAD30,klimatološka,Gradac,09.11.2026 12:00,11.93,93.4,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,09.11.2026 12:00,9.06,87.6,,,,,,
+02PDGR10,glavna,Podgorica,09.11.2026 12:20,14.40,85.0,0.00,1.20,30,,113.0,1017.6
+02BERA20,glavna,Berane,09.11.2026 12:00,12.98,58.3,0.00,2.40,24,6.20,,942.2
+02HNOV10,glavna,Herceg Novi,09.11.2026 12:20,16.70,77.0,0.00,1.00,28,,204.3,1018.2
+02CRKV30,klimatološka,Crkvice,09.11.2026 12:00,9.48,94.9,,,,,,
+02KOSA30,klimatološka,Kosanica,09.11.2026 12:00,9.32,80.1,,,,,,
+02BUDV20,klimatološka,Budva,09.11.2026 12:00,17.38,70.0,,,,,232.05,1022.59
