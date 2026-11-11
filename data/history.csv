@@ -123170,3 +123170,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MATE30,klimatološka,Matesevo,11.11.2026 13:00,12.68,90.6,0.00,,,,,
 02MOKR30,klimatološka,Mokro,11.11.2026 13:00,12.98,84.6,,,,,,
 02BAR010,glavna,Bar,11.11.2026 13:00,20.40,83.0,0.00,2.10,14,,145.3,1011.6
+02PLZN20,klimatološka,Pluzine,11.11.2026 13:00,13.16,83.3,0.00,1.10,18,3.00,81.22,927.88
+02GRAD30,klimatološka,Gradac,11.11.2026 13:00,15.43,100.0,,,,,,
+02BUDV20,klimatološka,Budva,11.11.2026 13:00,20.14,95.2,,,,,127.14,1011.27
+02HNOV10,glavna,Herceg Novi,11.11.2026 13:10,18.60,94.0,0.00,1.40,6,,72.4,1007.0
+02PDGR10,glavna,Podgorica,11.11.2026 13:20,15.90,90.0,0.00,0.80,30,,104.4,1006.4
+02ULCN10,glavna,Ulcinj,11.11.2026 13:20,17.60,91.0,0.00,2.90,6,3.80,138.6,1011.9
+02ZBLJ10,glavna,Žabljak,11.11.2026 13:20,10.20,88.0,0.00,5.10,16,,87.2,851.1
+02BIST20,klimatološka,Bistrica,11.11.2026 13:00,16.40,73.0,0.00,2.40,6,5.40,68.2,
+02PLJV10,glavna,Pljevlja,11.11.2026 13:20,13.30,89.0,0.00,0.50,2,,87.1,921.4
+02SCPO30,klimatološka,Šćepan Polje,11.11.2026 13:00,14.54,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,11.11.2026 13:00,12.88,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,11.11.2026 13:00,13.79,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,11.11.2026 13:00,15.76,98.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,11.11.2026 12:46,14.90,98.0,,1.30,,1.80,,1014.5
+02KOLS10,glavna,Kolašin,11.11.2026 13:20,12.90,94.0,0.00,0.50,12,,115.6,905.3
+02BOAN30,klimatološka,Boan,11.11.2026 13:00,14.08,98.6,,,,,,
+02BERA20,glavna,Berane,11.11.2026 13:00,17.83,71.8,0.00,0.80,26,2.50,,932.42
+02BPLJ20,klimatološka,Bijelo Polje,11.11.2026 13:00,16.23,83.5,,,,,166.27,942.43
+02GOBU30,klimatološka,Gornja Bukovica,11.11.2026 13:00,10.71,100.0,,,,,,
+02NIKS10,glavna,Nikšić,11.11.2026 13:20,12.20,100.0,0.00,1.30,14,,64.8,938.2
+02KUKO30,klimatološka,Kučka korita,11.11.2026 13:00,10.39,100.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,11.11.2026 13:20,14.60,95.0,0.00,0.60,32,,90.7,938.7
+02BAR010,glavna,Bar,11.11.2026 13:20,20.30,84.0,0.00,1.70,16,,207.6,1011.5
+02CRKV30,klimatološka,Crkvice,11.11.2026 13:00,13.61,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,11.11.2026 13:00,11.27,100.0,0.00,,,,,
+02VELM20,klimatološka,Velimlje,11.11.2026 13:00,15.10,90.2,0.00,1.10,14,3.00,114.1,
+02STIT30,klimatološka,Štitarica,11.11.2026 13:00,13.03,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,11.11.2026 13:00,13.04,97.8,,,,,,
