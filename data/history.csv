@@ -122674,3 +122674,7 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,11.11.2026 05:20,7.70,99.0,0.00,0.60,18,,0.2,922.4
 02LKOT20,klimatološka,Luka Kotor,11.11.2026 04:46,13.20,100.0,,1.70,,2.90,,1015.4
 02BOAN30,klimatološka,Boan,11.11.2026 05:00,7.90,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,11.11.2026 05:01,13.00,100.0,,0.90,,1.90,,1015.5
+02CTNJ10,glavna,Cetinje,11.11.2026 05:30,9.30,100.0,0.00,0.00,14,,0.6,939.3
+02PLJV10,glavna,Pljevlja,11.11.2026 05:30,7.80,99.0,0.00,0.10,2,,0.0,922.4
+02PDGR10,glavna,Podgorica,11.11.2026 05:30,11.90,98.0,0.00,0.60,8,,0.0,1007.3
