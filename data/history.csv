@@ -123790,3 +123790,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,11.11.2026 22:31,20.30,79.0,,2.50,,6.90,,1013.3
 02VIRP20,klimatološka,Virpazar,11.11.2026 23:00,14.90,100.0,0.13,,,,,
 02MAMO30,klimatološka,Manastir Morača,11.11.2026 23:00,12.81,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,11.11.2026 23:10,10.70,85.0,0.00,1.80,14,,0.0,849.4
+02LKOT20,klimatološka,Luka Kotor,11.11.2026 22:46,20.20,79.0,,5.70,,10.40,,1012.7
+02BOAN30,klimatološka,Boan,11.11.2026 23:00,10.98,100.0,,,,,,
+02BAR010,glavna,Bar,11.11.2026 23:10,19.90,86.0,0.00,5.00,10,,0.4,1010.7
+02PLJV10,glavna,Pljevlja,11.11.2026 23:10,13.40,78.0,0.00,1.10,2,,0.0,919.3
+02DDOB30,klimatološka,Donja Dobrilovina,11.11.2026 23:00,12.95,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,11.11.2026 23:00,11.08,100.0,0.00,,,,,
+02VELM20,klimatološka,Velimlje,11.11.2026 23:00,11.20,100.0,0.00,0.60,32,0.80,0.7,
+02GRAD30,klimatološka,Gradac,11.11.2026 23:00,11.56,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,11.11.2026 23:00,15.44,,,,,,,
+02BUDV20,klimatološka,Budva,11.11.2026 23:00,19.30,100.0,,,,,0.2,1010.19
+02STIT30,klimatološka,Štitarica,11.11.2026 23:00,13.06,100.0,,,,,,
+02BERA20,glavna,Berane,11.11.2026 23:00,13.77,81.9,0.00,0.80,8,2.10,,930.73
+02BPLJ20,klimatološka,Bijelo Polje,11.11.2026 23:00,15.70,77.0,,,,,0.0,940.79
+02ULCN10,glavna,Ulcinj,11.11.2026 23:10,19.50,92.0,0.00,7.80,18,,0.0,1010.6
+02NIKS10,glavna,Nikšić,11.11.2026 23:10,13.50,100.0,0.00,4.70,14,,0.3,936.5
+02KOVR30,klimatološka,Kovren,11.11.2026 23:00,12.05,100.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,11.11.2026 23:00,12.37,98.4,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,11.11.2026 23:00,11.31,100.0,,,,,,
+02PDGR10,glavna,Podgorica,11.11.2026 23:10,14.80,98.0,0.00,0.40,14,,0.6,1004.9
+02CTNJ10,glavna,Cetinje,11.11.2026 23:10,14.30,97.0,0.06,1.20,10,,0.3,937.9
+02KOLS10,glavna,Kolašin,11.11.2026 23:10,12.40,99.0,0.00,1.00,16,4.50,1.3,903.9
+02POSC30,klimatološka,Pošćenje,11.11.2026 23:00,13.44,99.2,,,,,,
+02BIST20,klimatološka,Bistrica,11.11.2026 23:00,13.80,79.4,0.00,0.30,16,0.50,0.5,
+02HNOV10,glavna,Herceg Novi,11.11.2026 23:10,18.60,91.0,0.00,2.60,6,,1.8,1005.7
