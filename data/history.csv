@@ -122582,3 +122582,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,11.11.2026 04:00,11.20,,0.38,,,,,
 02NIKS10,glavna,Nikšić,11.11.2026 04:00,8.70,99.0,0.00,1.40,32,,0.4,938.8
 02LKOT20,klimatološka,Luka Kotor,11.11.2026 03:31,12.90,100.0,,0.80,,1.60,,1015.5
+02SCPO30,klimatološka,Šćepan Polje,11.11.2026 04:00,9.28,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,11.11.2026 04:20,8.30,98.0,0.00,0.80,16,,0.0,851.2
+02PDGR10,glavna,Podgorica,11.11.2026 04:20,12.00,98.0,0.00,1.10,14,,1.3,1007.2
+02BIST20,klimatološka,Bistrica,11.11.2026 04:00,10.20,90.8,0.00,0.90,14,1.30,0.5,
+02LKOT20,klimatološka,Luka Kotor,11.11.2026 03:46,12.90,100.0,,1.00,,1.60,,1015.7
+02PLJV10,glavna,Pljevlja,11.11.2026 04:20,7.70,98.0,0.06,0.60,32,,0.1,922.6
+02IVKO30,klimatološka,Ivanova korita,11.11.2026 04:00,10.30,100.0,0.00,,,,,
+02ULCN10,glavna,Ulcinj,11.11.2026 04:20,12.90,98.0,0.00,2.90,6,4.10,0.0,1012.7
+02STIT30,klimatološka,Štitarica,11.11.2026 04:00,9.75,100.0,,,,,,
+02BUDV20,klimatološka,Budva,11.11.2026 04:00,17.10,100.0,,,,,1.42,1011.47
+02KOSA30,klimatološka,Kosanica,11.11.2026 04:00,10.27,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,11.11.2026 04:00,9.61,100.0,,,,,,
+02BOAN30,klimatološka,Boan,11.11.2026 04:00,7.65,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,11.11.2026 04:00,9.64,100.0,,,,,,
+02BAR010,glavna,Bar,11.11.2026 04:20,18.50,85.0,0.00,0.80,10,,0.0,1012.0
+02HNOV10,glavna,Herceg Novi,11.11.2026 04:20,14.50,99.0,0.00,1.10,24,,1.1,1007.7
+02NIKS10,glavna,Nikšić,11.11.2026 04:20,8.70,99.0,0.10,1.20,2,,1.0,938.7
+02BERA20,glavna,Berane,11.11.2026 04:00,10.36,94.6,0.00,0.40,6,1.00,,933.21
+02GRAD30,klimatološka,Gradac,11.11.2026 04:00,6.61,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,11.11.2026 04:00,9.69,100.0,0.05,,,,,
+02VELM20,klimatološka,Velimlje,11.11.2026 04:00,8.60,100.0,0.06,3.20,12,4.00,0.0,
+02UBLI20,klimatološka,Ubli,11.11.2026 04:00,11.00,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,11.11.2026 04:00,8.37,100.0,,,,,0.0,943.89
+02CTNJ10,glavna,Cetinje,11.11.2026 04:20,9.30,100.0,0.00,1.20,6,,0.4,939.4
+02POSC30,klimatološka,Pošćenje,11.11.2026 04:00,8.57,100.0,,,,,,
+02KOLS10,glavna,Kolašin,11.11.2026 04:20,9.30,100.0,0.00,0.30,18,,0.0,905.7
+02PLZN20,klimatološka,Pluzine,11.11.2026 04:00,9.55,83.3,0.02,0.90,28,1.60,0.65,928.39
