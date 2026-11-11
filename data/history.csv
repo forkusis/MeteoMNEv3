@@ -122820,3 +122820,35 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,11.11.2026 07:50,9.70,92.0,0.00,0.50,14,,28.7,851.9
 02LKOT20,klimatološka,Luka Kotor,11.11.2026 07:16,13.30,100.0,,0.70,,1.60,,1015.7
 02PDGR10,glavna,Podgorica,11.11.2026 07:50,12.50,98.0,0.00,0.90,14,1.20,14.4,1007.8
+02MOKR30,klimatološka,Mokro,11.11.2026 08:00,11.17,94.5,,,,,,
+02GRAD30,klimatološka,Gradac,11.11.2026 08:00,7.32,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,11.11.2026 08:00,10.43,83.3,0.00,0.50,8,1.40,38.75,928.9
+02LKOT20,klimatološka,Luka Kotor,11.11.2026 07:31,13.30,100.0,,0.90,,1.50,,1015.9
+02NJGV30,klimatološka,Njegovuđa,11.11.2026 08:00,10.14,100.0,,,,,,
+02BOAN30,klimatološka,Boan,11.11.2026 08:00,9.33,100.0,,,,,,
+02KUKO30,klimatološka,Kučka korita,11.11.2026 08:00,10.15,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,11.11.2026 08:00,15.50,100.0,0.00,1.10,24,,27.1,1008.1
+02BPLJ20,klimatološka,Bijelo Polje,11.11.2026 08:00,8.70,100.0,,,,,55.01,944.15
+02BAR010,glavna,Bar,11.11.2026 08:00,18.30,88.0,0.00,0.60,6,,71.6,1012.6
+02MATE30,klimatološka,Matesevo,11.11.2026 08:00,12.01,92.5,0.00,,,,,
+02PLJV10,glavna,Pljevlja,11.11.2026 08:00,8.10,99.0,0.00,0.50,18,,71.2,923.0
+02VELM20,klimatološka,Velimlje,11.11.2026 08:00,9.40,100.0,0.00,0.50,4,0.70,39.2,
+02VELK30,klimatološka,Velika,11.11.2026 08:00,9.85,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,11.11.2026 08:00,11.93,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,11.11.2026 08:00,11.49,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,11.11.2026 08:00,13.70,98.0,0.00,2.40,6,,82.4,1013.3
+02BIST20,klimatološka,Bistrica,11.11.2026 08:00,10.30,99.0,0.00,0.90,2,1.40,30.9,
+02BERA20,glavna,Berane,11.11.2026 08:00,10.19,100.0,0.00,0.90,20,1.90,,933.48
+02GOBU30,klimatološka,Gornja Bukovica,11.11.2026 08:00,9.35,100.0,,,,,,
+02NIKS10,glavna,Nikšić,11.11.2026 08:00,9.40,100.0,0.00,0.80,32,,28.4,939.5
+02STAB30,klimatološka,Stabna,11.11.2026 08:00,10.13,100.0,,,,,,
+02KOLS10,glavna,Kolašin,11.11.2026 08:00,10.20,100.0,0.00,0.80,8,,23.6,906.5
+02DANL20,klimatološka,Danilovgrad,11.11.2026 08:00,12.00,,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,11.11.2026 08:00,12.40,100.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,11.11.2026 08:00,9.50,94.0,0.00,1.90,12,,21.4,852.1
+02CTNJ10,glavna,Cetinje,11.11.2026 08:00,10.10,100.0,0.00,0.70,6,0.80,34.4,940.0
+02PDGR10,glavna,Podgorica,11.11.2026 08:00,12.60,98.0,0.00,1.20,16,1.70,18.4,1007.8
+02KOVR30,klimatološka,Kovren,11.11.2026 08:00,9.68,100.0,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,11.11.2026 08:00,10.17,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,11.11.2026 08:00,10.45,100.0,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,11.11.2026 08:00,11.80,100.0,,,,,,
