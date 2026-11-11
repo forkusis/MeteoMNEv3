@@ -123600,3 +123600,33 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,11.11.2026 19:50,12.20,86.0,0.00,0.70,30,,0.4,920.3
 02NIKS10,glavna,Nikšić,11.11.2026 19:50,12.90,100.0,0.00,2.10,14,,0.3,937.8
 02ZBLJ10,glavna,Žabljak,11.11.2026 19:50,10.50,78.0,0.00,2.10,16,,0.2,850.5
+02BPLJ20,klimatološka,Bijelo Polje,11.11.2026 20:00,17.92,66.9,,,,,0.0,941.54
+02LKOT20,klimatološka,Luka Kotor,11.11.2026 19:31,18.00,92.0,,1.70,,2.90,,1013.9
+02VELK30,klimatološka,Velika,11.11.2026 20:00,11.32,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,11.11.2026 20:00,11.19,100.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,11.11.2026 20:00,12.90,100.0,0.00,1.30,10,,0.0,937.9
+02ULCN10,glavna,Ulcinj,11.11.2026 20:00,18.80,96.0,0.00,0.50,2,,0.0,1011.4
+02DANL20,klimatološka,Danilovgrad,11.11.2026 20:00,14.30,,0.00,,,,,
+02BERA20,glavna,Berane,11.11.2026 20:00,13.84,86.2,0.00,1.00,8,1.80,,931.39
+02BAR010,glavna,Bar,11.11.2026 20:00,19.90,84.0,0.00,2.80,14,,1.6,1011.1
+02PLZN20,klimatološka,Pluzine,11.11.2026 20:00,15.30,100.0,0.00,3.10,18,7.70,0.95,927.24
+02CTNJ10,glavna,Cetinje,11.11.2026 20:00,12.90,100.0,0.54,0.50,24,,0.2,938.6
+02NJGV30,klimatološka,Njegovuđa,11.11.2026 20:00,11.15,95.6,,,,,,
+02PLJV10,glavna,Pljevlja,11.11.2026 20:00,12.60,85.0,0.00,1.50,30,,0.4,920.5
+02VELM20,klimatološka,Velimlje,11.11.2026 20:00,11.60,100.0,0.00,0.90,22,1.40,0.0,
+02GRAD30,klimatološka,Gradac,11.11.2026 20:00,12.77,100.0,,,,,,
+02BOAN30,klimatološka,Boan,11.11.2026 20:00,12.89,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,11.11.2026 20:00,12.40,93.7,,,,,,
+02MOKR30,klimatološka,Mokro,11.11.2026 20:00,13.16,81.2,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,11.11.2026 20:00,12.36,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,11.11.2026 20:00,14.20,100.0,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,11.11.2026 20:00,12.79,100.0,,,,,,
+02STAB30,klimatološka,Stabna,11.11.2026 20:00,11.85,100.0,,,,,,
+02KOLS10,glavna,Kolašin,11.11.2026 20:00,12.40,95.0,0.00,0.90,8,,0.0,904.7
+02ZBLJ10,glavna,Žabljak,11.11.2026 20:00,10.60,79.0,0.00,1.70,14,,0.0,850.7
+02MATE30,klimatološka,Matesevo,11.11.2026 20:00,12.50,91.2,0.11,,,,,
+02BIST20,klimatološka,Bistrica,11.11.2026 20:00,16.10,66.2,0.00,3.00,24,4.70,5.6,
+02KOVR30,klimatološka,Kovren,11.11.2026 20:00,13.35,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,11.11.2026 20:00,18.10,95.0,0.00,0.80,20,,1.7,1006.4
+02GOBU30,klimatološka,Gornja Bukovica,11.11.2026 20:00,10.91,100.0,,,,,,
+02PDGR10,glavna,Podgorica,11.11.2026 20:00,15.00,97.0,0.00,0.00,28,,0.0,1005.6
