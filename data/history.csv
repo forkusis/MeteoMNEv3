@@ -125047,3 +125047,7 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02UBLI20,klimatološka,Ubli,12.11.2026 19:00,17.52,,,,,,,
 02BPLJ20,klimatološka,Bijelo Polje,12.11.2026 19:00,18.28,56.9,,,,,2.72,934.14
 02PLZN20,klimatološka,Pluzine,12.11.2026 19:00,14.55,100.0,0.06,3.30,26,10.40,0.0,919.02
+02ULCN10,glavna,Ulcinj,12.11.2026 19:20,20.20,68.0,0.00,6.10,16,9.20,0.8,1003.6
+02NIKS10,glavna,Nikšić,12.11.2026 19:20,13.80,92.0,0.06,11.30,16,,0.0,930.5
+02LKOT20,klimatološka,Luka Kotor,12.11.2026 19:01,18.80,79.0,,10.90,,23.10,,1006.3
+02ZBLJ10,glavna,Žabljak,12.11.2026 19:20,10.20,84.0,0.00,3.90,18,,0.2,841.9
