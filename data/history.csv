@@ -124097,3 +124097,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,12.11.2026 04:00,16.60,100.0,0.80,,,,,
 02HNOV10,glavna,Herceg Novi,12.11.2026 04:00,18.40,91.0,0.00,1.80,6,,0.0,1004.5
 02VELK30,klimatološka,Velika,12.11.2026 04:00,11.23,100.0,,,,,,
+02NIKS10,glavna,Nikšić,12.11.2026 04:20,13.60,100.0,0.00,5.70,16,,0.0,935.3
+02BERA20,glavna,Berane,12.11.2026 04:00,11.33,98.2,0.00,0.80,8,1.80,,929.24
+02HNOV10,glavna,Herceg Novi,12.11.2026 04:20,18.40,90.0,0.00,2.40,6,,0.2,1004.3
+02ZBLJ10,glavna,Žabljak,12.11.2026 04:20,10.70,72.0,0.00,3.20,18,,1.4,847.8
+02CTNJ10,glavna,Cetinje,12.11.2026 04:20,13.50,99.0,0.05,1.60,4,,0.5,936.5
+02GRAD30,klimatološka,Gradac,12.11.2026 04:00,12.93,93.2,,,,,,
+02BAR010,glavna,Bar,12.11.2026 04:20,19.40,91.0,0.00,2.20,12,,0.3,1008.9
+02GOBU30,klimatološka,Gornja Bukovica,12.11.2026 04:00,10.86,100.0,,,,,,
+02KOLS10,glavna,Kolašin,12.11.2026 04:20,12.20,96.0,0.00,0.50,18,,0.0,902.5
+02KOSA30,klimatološka,Kosanica,12.11.2026 04:00,12.46,92.7,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,12.11.2026 04:00,17.91,64.1,,,,,0.0,939.14
+02STIT30,klimatološka,Štitarica,12.11.2026 04:00,13.58,94.0,,,,,,
+02ULCN10,glavna,Ulcinj,12.11.2026 04:20,19.30,93.0,0.00,4.20,18,,0.0,1008.9
+02PLZN20,klimatološka,Pluzine,12.11.2026 04:00,14.88,100.0,0.00,1.70,20,5.80,0.15,924.72
+02PLJV10,glavna,Pljevlja,12.11.2026 04:20,16.40,62.0,0.00,1.70,14,,0.0,917.8
+02DDOB30,klimatološka,Donja Dobrilovina,12.11.2026 04:00,12.26,97.0,,,,,,
+02VELM20,klimatološka,Velimlje,12.11.2026 04:00,10.70,100.0,0.00,0.90,32,1.30,0.0,
+02POSC30,klimatološka,Pošćenje,12.11.2026 04:00,13.11,93.1,,,,,,
+02BIST20,klimatološka,Bistrica,12.11.2026 04:00,17.10,55.4,0.00,4.70,24,6.50,0.5,
+02IVKO30,klimatološka,Ivanova korita,12.11.2026 04:00,10.15,100.0,0.00,,,,,
+02UBLI20,klimatološka,Ubli,12.11.2026 04:00,16.16,,,,,,,
+02BOAN30,klimatološka,Boan,12.11.2026 04:00,13.61,88.7,,,,,,
+02BUDV20,klimatološka,Budva,12.11.2026 04:00,18.81,100.0,,,,,0.0,1008.56
+02PDGR10,glavna,Podgorica,12.11.2026 04:20,14.40,99.0,0.00,1.00,4,,1.2,1003.0
+02LKOT20,klimatološka,Luka Kotor,12.11.2026 03:46,19.30,82.0,,1.60,,4.10,,1011.4
