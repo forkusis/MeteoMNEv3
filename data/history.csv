@@ -126300,3 +126300,13 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DDOB30,klimatološka,Donja Dobrilovina,13.11.2026 16:00,12.31,100.0,,,,,,
 02SCPO30,klimatološka,Šćepan Polje,13.11.2026 16:00,13.96,100.0,,,,,,
 02IVKO30,klimatološka,Ivanova korita,13.11.2026 16:00,11.03,100.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,13.11.2026 16:30,9.30,80.0,0.05,7.10,18,,2.1,845.2
+02PDGR10,glavna,Podgorica,13.11.2026 16:30,18.90,86.0,0.00,1.90,16,,1.0,997.6
+02CTNJ10,glavna,Cetinje,13.11.2026 16:30,14.60,88.0,0.10,3.70,20,,1.1,932.2
+02PLJV10,glavna,Pljevlja,13.11.2026 16:30,15.90,58.0,0.00,0.90,12,,1.3,914.3
+02LKOT20,klimatološka,Luka Kotor,13.11.2026 16:01,18.60,74.0,,6.50,,13.70,,1006.5
+02HNOV10,glavna,Herceg Novi,13.11.2026 16:30,19.10,88.0,0.00,2.30,6,,0.9,999.5
+02BAR010,glavna,Bar,13.11.2026 16:30,20.50,81.0,0.00,5.20,12,,0.3,1004.0
+02ULCN10,glavna,Ulcinj,13.11.2026 16:30,20.30,86.0,0.00,5.20,16,,2.8,1004.3
+02NIKS10,glavna,Nikšić,13.11.2026 16:30,14.30,97.0,0.00,1.50,20,,0.2,930.5
+02KOLS10,glavna,Kolašin,13.11.2026 16:30,10.80,96.0,0.00,0.70,22,,0.0,898.2
