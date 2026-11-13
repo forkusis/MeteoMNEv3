@@ -126149,3 +126149,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,13.11.2026 14:00,13.10,82.8,,,,,,
 02PLJV10,glavna,Pljevlja,13.11.2026 14:00,17.80,51.0,0.00,7.60,16,,63.6,912.7
 02NJGV30,klimatološka,Njegovuđa,13.11.2026 14:00,12.04,83.2,,,,,,
+02LKOT20,klimatološka,Luka Kotor,13.11.2026 13:46,22.00,65.0,,3.90,,9.10,,1006.0
+02NIKS10,glavna,Nikšić,13.11.2026 14:20,15.40,87.0,0.00,6.10,16,,209.8,930.5
+02CRKV30,klimatološka,Crkvice,13.11.2026 14:00,14.69,90.3,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,13.11.2026 14:00,12.30,100.0,,,,,,
+02BERA20,glavna,Berane,13.11.2026 14:00,19.40,50.4,0.00,4.00,22,14.60,,923.83
+02VELM20,klimatološka,Velimlje,13.11.2026 14:00,15.80,72.8,0.00,3.70,22,6.00,48.7,
+02ULCN10,glavna,Ulcinj,13.11.2026 14:20,21.50,81.0,0.00,5.50,18,,336.4,1003.9
+02BPLJ20,klimatološka,Bijelo Polje,13.11.2026 14:00,19.82,54.4,,,,,465.35,933.76
+02SCPO30,klimatološka,Šćepan Polje,13.11.2026 14:00,16.34,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,13.11.2026 14:00,15.70,60.1,0.00,10.00,20,15.90,66.9,
+02IVKO30,klimatološka,Ivanova korita,13.11.2026 14:00,10.75,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,13.11.2026 14:10,20.50,84.0,0.00,1.20,10,,40.9,999.2
+02KOLS10,glavna,Kolašin,13.11.2026 14:20,14.20,80.0,0.00,2.00,18,,63.9,897.3
+02ZBLJ10,glavna,Žabljak,13.11.2026 14:20,11.20,65.0,0.00,9.80,18,,74.0,841.9
+02GRAD30,klimatološka,Gradac,13.11.2026 14:00,19.26,53.5,,,,,,
+02BUDV20,klimatološka,Budva,13.11.2026 14:00,20.38,96.0,,,,,52.56,1003.63
+02CTNJ10,glavna,Cetinje,13.11.2026 14:20,16.70,78.0,0.00,2.40,16,,52.7,931.8
+02STIT30,klimatološka,Štitarica,13.11.2026 14:00,15.18,73.3,,,,,,
+02KOVR30,klimatološka,Kovren,13.11.2026 14:00,14.52,84.5,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,13.11.2026 14:00,11.54,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,13.11.2026 14:00,17.03,,,,,,,
+02KOSA30,klimatološka,Kosanica,13.11.2026 14:00,13.01,85.1,,,,,,
+02BOAN30,klimatološka,Boan,13.11.2026 14:00,13.27,94.8,,,,,,
+02PLJV10,glavna,Pljevlja,13.11.2026 14:20,17.50,50.0,0.00,6.20,14,,47.0,912.9
+02POSC30,klimatološka,Pošćenje,13.11.2026 14:00,13.11,95.2,,,,,,
+02BAR010,glavna,Bar,13.11.2026 14:20,21.30,82.0,0.00,4.20,12,,156.9,1004.0
+02PDGR10,glavna,Podgorica,13.11.2026 14:20,20.10,81.0,0.00,1.10,10,,83.8,998.0
