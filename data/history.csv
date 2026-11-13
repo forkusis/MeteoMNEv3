@@ -125524,3 +125524,5 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,13.11.2026 03:20,20.30,78.0,0.00,8.50,16,,0.0,1001.9
 02DDOB30,klimatološka,Donja Dobrilovina,13.11.2026 03:00,14.13,95.8,,,,,,
 02IVKO30,klimatološka,Ivanova korita,13.11.2026 03:00,12.26,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,13.11.2026 03:30,19.50,91.0,0.00,6.00,8,,0.5,996.8
+02LKOT20,klimatološka,Luka Kotor,13.11.2026 03:01,21.80,74.0,,15.20,,28.10,,1003.4
