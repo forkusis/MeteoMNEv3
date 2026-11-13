@@ -126028,3 +126028,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02DANL20,klimatološka,Danilovgrad,13.11.2026 12:00,17.80,,0.45,,,,,
 02PDGR10,glavna,Podgorica,13.11.2026 12:00,20.10,81.0,0.00,2.90,14,,68.4,997.5
 02VIRP20,klimatološka,Virpazar,13.11.2026 12:00,21.50,76.0,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,13.11.2026 12:00,14.29,91.7,,,,,,
+02BERA20,glavna,Berane,13.11.2026 12:00,18.44,57.3,0.00,3.10,24,9.00,,923.13
+02PLZN20,klimatološka,Pluzine,13.11.2026 12:00,15.45,100.0,0.00,3.70,22,10.60,333.9,919.06
+02BPLJ20,klimatološka,Bijelo Polje,13.11.2026 12:00,20.96,54.1,,,,,325.71,932.8
+02HNOV10,glavna,Herceg Novi,13.11.2026 12:10,21.10,77.0,0.00,3.10,6,,195.7,999.2
+02VELM20,klimatološka,Velimlje,13.11.2026 12:00,17.30,69.0,0.00,6.50,22,10.20,655.0,
+02LKOT20,klimatološka,Luka Kotor,13.11.2026 11:46,22.10,68.0,,9.60,,17.70,,1006.2
+02BUDV20,klimatološka,Budva,13.11.2026 12:00,20.39,98.4,,,,,82.05,1003.84
+02GRAD30,klimatološka,Gradac,13.11.2026 12:00,19.38,55.6,,,,,,
+02BAR010,glavna,Bar,13.11.2026 12:20,20.70,85.0,0.00,5.80,14,,103.9,1004.2
+02KOLS10,glavna,Kolašin,13.11.2026 12:20,14.40,80.0,0.00,2.40,18,,117.7,896.6
+02NIKS10,glavna,Nikšić,13.11.2026 12:20,14.70,92.0,0.00,6.60,16,10.80,170.1,930.3
+02PDGR10,glavna,Podgorica,13.11.2026 12:20,19.40,85.0,0.10,1.60,16,,77.0,997.5
+02ZBLJ10,glavna,Žabljak,13.11.2026 12:20,11.30,76.0,0.00,7.40,18,,137.1,841.1
+02CTNJ10,glavna,Cetinje,13.11.2026 12:20,16.00,88.0,0.00,5.20,16,,72.0,931.1
+02SCPO30,klimatološka,Šćepan Polje,13.11.2026 12:00,15.47,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,13.11.2026 12:20,19.10,45.0,0.00,7.80,16,,259.9,911.9
+02DDOB30,klimatološka,Donja Dobrilovina,13.11.2026 12:00,14.39,91.0,,,,,,
+02KOSA30,klimatološka,Kosanica,13.11.2026 12:00,13.22,85.1,,,,,,
+02BIST20,klimatološka,Bistrica,13.11.2026 12:00,14.90,68.2,0.00,7.40,18,12.10,127.9,
+02BOAN30,klimatološka,Boan,13.11.2026 12:00,12.68,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,13.11.2026 12:20,21.30,83.0,0.00,8.90,18,,203.6,1003.8
+02IVKO30,klimatološka,Ivanova korita,13.11.2026 12:00,11.01,100.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,13.11.2026 12:00,11.48,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,13.11.2026 12:00,15.46,77.5,,,,,,
+02KOVR30,klimatološka,Kovren,13.11.2026 12:00,14.15,94.0,0.00,,,,,
+02UBLI20,klimatološka,Ubli,13.11.2026 12:00,17.49,,,,,,,
