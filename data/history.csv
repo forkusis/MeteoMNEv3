@@ -125373,3 +125373,11 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,13.11.2026 00:50,11.30,99.0,0.18,2.50,12,,0.0,894.7
 02PDGR10,glavna,Podgorica,13.11.2026 00:50,19.00,72.0,0.00,1.40,10,,0.7,995.5
 02CTNJ10,glavna,Cetinje,13.11.2026 00:50,15.60,93.0,0.00,1.10,14,,0.0,929.8
+02DANL20,klimatološka,Danilovgrad,13.11.2026 01:00,15.10,,2.73,,,,,
+02NJGV30,klimatološka,Njegovuđa,13.11.2026 01:00,11.36,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,13.11.2026 01:00,20.90,82.0,0.00,,,,,
+02VELK30,klimatološka,Velika,13.11.2026 01:00,13.57,92.5,,,,,,
+02STAB30,klimatološka,Stabna,13.11.2026 01:00,13.43,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,13.11.2026 00:31,21.40,76.0,,15.00,,25.70,,1003.7
+02MOKR30,klimatološka,Mokro,13.11.2026 01:00,12.38,97.9,,,,,,
+02MATE30,klimatološka,Matesevo,13.11.2026 01:00,13.82,81.6,0.00,,,,,
