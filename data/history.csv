@@ -128234,3 +128234,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,15.11.2026 00:00,-1.20,98.0,0.00,0.40,22,,0.3,858.5
 02KOLS10,glavna,Kolašin,15.11.2026 00:00,2.60,97.0,0.00,0.20,16,,0.0,914.8
 02MOKR30,klimatološka,Mokro,15.11.2026 00:00,3.11,96.5,,,,,,
+02KOLS10,glavna,Kolašin,15.11.2026 00:20,2.60,97.0,0.00,0.20,20,,0.3,914.8
+02SCPO30,klimatološka,Šćepan Polje,15.11.2026 00:00,4.44,100.0,,,,,,
+02BERA20,glavna,Berane,15.11.2026 00:00,2.14,100.0,0.00,1.50,8,2.60,,943.85
+02BPLJ20,klimatološka,Bijelo Polje,15.11.2026 00:00,2.39,100.0,,,,,0.0,955.1
+02UBLI20,klimatološka,Ubli,15.11.2026 00:00,7.34,,,,,,,
+02HNOV10,glavna,Herceg Novi,15.11.2026 00:10,13.40,94.0,0.00,1.10,22,,0.6,1017.9
+02IVKO30,klimatološka,Ivanova korita,15.11.2026 00:00,5.91,100.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,15.11.2026 00:20,8.00,100.0,0.00,0.60,12,,0.0,948.3
+02LKOT20,klimatološka,Luka Kotor,14.11.2026 23:46,12.80,99.0,,1.10,,2.10,,1025.7
+02GOBU30,klimatološka,Gornja Bukovica,15.11.2026 00:00,1.14,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,15.11.2026 00:20,-0.10,98.0,0.00,0.30,4,,0.0,932.9
+02ZBLJ10,glavna,Žabljak,15.11.2026 00:20,-1.10,98.0,0.00,1.10,22,,0.5,858.5
+02BAR010,glavna,Bar,15.11.2026 00:20,14.00,84.0,0.00,0.70,6,1.60,0.0,1022.2
+02VELM20,klimatološka,Velimlje,15.11.2026 00:00,7.50,94.1,0.00,1.30,12,1.80,0.0,
+02KOVR30,klimatološka,Kovren,15.11.2026 00:00,0.08,100.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,15.11.2026 00:00,3.04,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,15.11.2026 00:00,0.78,100.0,,,,,,
+02NIKS10,glavna,Nikšić,15.11.2026 00:20,6.90,97.0,0.00,0.30,24,,0.0,947.7
+02STIT30,klimatološka,Štitarica,15.11.2026 00:00,1.49,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,15.11.2026 00:00,4.91,100.0,0.00,0.00,32,0.90,0.78,938.49
+02BUDV20,klimatološka,Budva,15.11.2026 00:00,14.15,100.0,,,,,0.0,1021.82
+02DDOB30,klimatološka,Donja Dobrilovina,15.11.2026 00:00,-0.43,100.0,,,,,,
+02PDGR10,glavna,Podgorica,15.11.2026 00:20,11.00,76.0,0.00,1.10,32,,0.1,1017.7
+02POSC30,klimatološka,Pošćenje,15.11.2026 00:00,2.99,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,15.11.2026 00:00,-0.11,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,15.11.2026 00:00,-0.30,98.1,0.00,1.00,14,1.40,0.9,
+02ULCN10,glavna,Ulcinj,15.11.2026 00:20,11.30,78.0,0.00,3.30,4,,0.4,1022.8
