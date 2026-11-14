@@ -127675,3 +127675,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,14.11.2026 14:50,9.20,100.0,0.06,0.90,10,,41.5,944.4
 02STAB30,klimatološka,Stabna,14.11.2026 15:00,5.82,82.0,,,,,,
 02PDGR10,glavna,Podgorica,14.11.2026 14:50,12.50,61.0,0.00,3.00,2,,61.4,1013.1
+02VELM20,klimatološka,Velimlje,14.11.2026 15:00,9.30,80.1,0.00,3.30,16,4.90,41.8,
+02BUDV20,klimatološka,Budva,14.11.2026 15:00,16.79,76.1,,,,,25.4,1017.19
+02UBLI20,klimatološka,Ubli,14.11.2026 15:00,8.36,,,,,,,
+02PDGR10,glavna,Podgorica,14.11.2026 15:20,12.70,60.0,0.00,2.60,2,,28.1,1013.4
+02STIT30,klimatološka,Štitarica,14.11.2026 15:00,2.45,99.4,,,,,,
+02BERA20,glavna,Berane,14.11.2026 15:00,3.58,95.2,0.00,0.50,18,1.10,,942.82
+02KOSA30,klimatološka,Kosanica,14.11.2026 15:00,0.71,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,14.11.2026 15:00,3.70,94.1,0.00,0.70,18,1.30,71.3,
+02GOBU30,klimatološka,Gornja Bukovica,14.11.2026 15:00,0.38,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,14.11.2026 14:46,16.30,77.0,,0.90,,2.20,,1021.0
+02ULCN10,glavna,Ulcinj,14.11.2026 15:20,13.40,67.0,0.00,4.70,4,,62.9,1018.7
+02KOVR30,klimatološka,Kovren,14.11.2026 15:00,0.95,100.0,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,14.11.2026 15:00,3.29,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,14.11.2026 15:00,6.00,88.9,,,,,,
+02HNOV10,glavna,Herceg Novi,14.11.2026 15:10,17.10,73.0,0.00,0.40,32,,68.8,1013.1
+02BOAN30,klimatološka,Boan,14.11.2026 15:00,3.55,100.0,,,,,,
+02BAR010,glavna,Bar,14.11.2026 15:20,15.40,74.0,0.00,0.90,4,,19.5,1018.1
+02POSC30,klimatološka,Pošćenje,14.11.2026 15:00,4.29,95.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,14.11.2026 15:00,6.12,100.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,14.11.2026 15:00,4.81,100.0,0.00,3.70,2,6.30,45.37,936.41
+02BPLJ20,klimatološka,Bijelo Polje,14.11.2026 15:00,4.96,84.2,,,,,54.85,953.55
+02NIKS10,glavna,Nikšić,14.11.2026 15:20,8.10,75.0,0.00,5.20,32,,31.2,944.0
+02ZBLJ10,glavna,Žabljak,14.11.2026 15:20,-0.70,94.0,0.00,0.80,6,,32.2,857.2
+02CTNJ10,glavna,Cetinje,14.11.2026 15:20,9.00,98.0,0.00,0.30,6,,18.3,944.6
+02PLJV10,glavna,Pljevlja,14.11.2026 15:20,4.40,80.0,0.00,0.70,14,,55.5,931.5
+02GRAD30,klimatološka,Gradac,14.11.2026 15:00,5.40,89.2,,,,,,
+02KOLS10,glavna,Kolašin,14.11.2026 15:20,3.00,84.0,0.00,2.10,2,,32.7,913.1
