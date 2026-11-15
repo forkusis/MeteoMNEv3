@@ -129451,3 +129451,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,15.11.2026 20:00,12.10,87.0,0.00,0.50,18,,0.3,943.5
 02STAB30,klimatološka,Stabna,15.11.2026 20:00,8.67,100.0,,,,,,
 02LKOT20,klimatološka,Luka Kotor,15.11.2026 19:31,17.60,82.0,,2.70,,7.90,,1020.5
+02KOLS10,glavna,Kolašin,15.11.2026 20:20,9.60,99.0,0.00,0.20,32,4.70,1.0,909.1
+02PLZN20,klimatološka,Pluzine,15.11.2026 20:00,7.16,100.0,0.00,0.50,32,2.10,6.27,932.34
+02NIKS10,glavna,Nikšić,15.11.2026 20:20,9.90,100.0,0.00,3.60,14,,0.0,942.4
+02GOBU30,klimatološka,Gornja Bukovica,15.11.2026 20:00,7.99,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,15.11.2026 20:00,12.92,,,,,,,
+02STIT30,klimatološka,Štitarica,15.11.2026 20:00,10.54,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,15.11.2026 20:00,6.96,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,15.11.2026 20:00,6.62,100.0,,,,,,
+02BUDV20,klimatološka,Budva,15.11.2026 20:00,17.39,86.9,,,,,0.0,1017.06
+02VELM20,klimatološka,Velimlje,15.11.2026 20:00,10.10,100.0,0.00,0.90,10,2.20,0.0,
+02BIST20,klimatološka,Bistrica,15.11.2026 20:00,7.80,99.0,0.00,2.00,4,2.90,0.5,
+02HNOV10,glavna,Herceg Novi,15.11.2026 20:20,15.80,89.0,0.00,0.30,24,,0.0,1012.9
+02IVKO30,klimatološka,Ivanova korita,15.11.2026 20:00,7.38,100.0,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,15.11.2026 20:00,5.44,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,15.11.2026 20:20,11.80,95.0,0.00,0.60,24,,0.0,943.6
+02BOAN30,klimatološka,Boan,15.11.2026 20:00,8.38,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,15.11.2026 20:00,6.46,100.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,15.11.2026 20:20,6.90,94.0,0.00,1.10,14,,0.0,854.2
+02BAR010,glavna,Bar,15.11.2026 20:20,18.20,81.0,0.00,5.00,18,,0.2,1017.9
+02PLJV10,glavna,Pljevlja,15.11.2026 20:20,5.00,98.0,0.00,0.30,24,,0.0,926.8
+02GRAD30,klimatološka,Gradac,15.11.2026 20:00,5.33,100.0,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,15.11.2026 19:46,17.20,85.0,,,,,,1020.6
+02POSC30,klimatološka,Pošćenje,15.11.2026 20:00,9.26,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,15.11.2026 20:00,6.79,100.0,,,,,0.0,948.36
+02ULCN10,glavna,Ulcinj,15.11.2026 20:20,18.10,79.0,0.00,5.70,20,10.90,0.2,1018.1
+02BERA20,glavna,Berane,15.11.2026 20:00,6.38,100.0,0.00,1.30,8,2.10,,937.56
+02PDGR10,glavna,Podgorica,15.11.2026 20:20,11.90,97.0,0.00,0.90,20,,0.0,1011.7
