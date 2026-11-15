@@ -128721,3 +128721,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VELK30,klimatološka,Velika,15.11.2026 08:00,2.40,100.0,,,,,,
 02DANL20,klimatološka,Danilovgrad,15.11.2026 08:00,10.80,,0.00,,,,,
 02MOKR30,klimatološka,Mokro,15.11.2026 08:00,4.43,98.3,,,,,,
+02ZBLJ10,glavna,Žabljak,15.11.2026 08:20,0.50,98.0,0.00,1.30,24,,55.4,858.1
+02IVKO30,klimatološka,Ivanova korita,15.11.2026 08:00,5.40,100.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,15.11.2026 08:20,0.90,98.0,0.00,0.90,2,,45.8,932.3
+02BERA20,glavna,Berane,15.11.2026 08:00,3.15,98.7,0.00,0.50,12,1.10,,943.45
+02STIT30,klimatološka,Štitarica,15.11.2026 08:00,2.79,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,15.11.2026 08:00,4.26,100.0,,,,,,
+02KOLS10,glavna,Kolašin,15.11.2026 08:20,5.40,99.0,0.00,0.70,20,,45.4,914.1
+02ULCN10,glavna,Ulcinj,15.11.2026 08:20,11.80,84.0,0.00,5.20,6,,94.6,1022.3
+02CTNJ10,glavna,Cetinje,15.11.2026 08:20,8.50,100.0,0.00,0.00,4,,85.2,948.1
+02POSC30,klimatološka,Pošćenje,15.11.2026 08:00,4.46,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,15.11.2026 08:00,5.51,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,15.11.2026 08:00,5.67,100.0,0.00,0.90,20,2.10,78.86,937.18
+02BOAN30,klimatološka,Boan,15.11.2026 08:00,3.86,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,15.11.2026 08:00,7.90,100.0,0.00,2.00,30,2.50,78.2,
+02NIKS10,glavna,Nikšić,15.11.2026 08:20,8.70,96.0,0.00,1.00,24,,119.8,947.3
+02BAR010,glavna,Bar,15.11.2026 08:20,13.50,84.0,0.00,0.20,6,,148.9,1021.6
+02PDGR10,glavna,Podgorica,15.11.2026 08:20,11.20,79.0,0.00,0.30,26,,132.1,1017.3
+02KOSA30,klimatološka,Kosanica,15.11.2026 08:00,-1.82,100.0,,,,,,
+02BUDV20,klimatološka,Budva,15.11.2026 08:00,13.68,100.0,,,,,64.77,1021.22
+02GRAD30,klimatološka,Gradac,15.11.2026 08:00,2.01,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,15.11.2026 08:00,2.93,100.0,,,,,47.46,954.43
+02UBLI20,klimatološka,Ubli,15.11.2026 08:00,7.85,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,15.11.2026 08:00,1.84,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,15.11.2026 08:00,0.99,100.0,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,15.11.2026 08:10,13.70,94.0,0.00,0.40,28,,47.2,1017.1
+02BIST20,klimatološka,Bistrica,15.11.2026 08:00,2.00,98.1,0.00,0.20,18,0.50,60.9,
+02LKOT20,klimatološka,Luka Kotor,15.11.2026 07:46,12.60,100.0,,0.90,,1.50,,1024.9
