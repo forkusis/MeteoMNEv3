@@ -129269,3 +129269,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,15.11.2026 17:00,17.50,82.0,0.00,3.20,12,,0.7,1016.5
 02CTNJ10,glavna,Cetinje,15.11.2026 17:00,12.30,93.0,0.00,2.80,10,,0.2,942.5
 02NJGV30,klimatološka,Njegovuđa,15.11.2026 17:00,7.10,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,15.11.2026 17:00,8.42,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,15.11.2026 17:00,5.96,100.0,,,,,,
+02BOAN30,klimatološka,Boan,15.11.2026 17:00,8.07,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,15.11.2026 17:10,4.80,96.0,0.00,0.30,18,,0.0,927.0
+02VELM20,klimatološka,Velimlje,15.11.2026 17:00,10.00,99.3,0.00,1.30,14,2.20,0.0,
+02CTNJ10,glavna,Cetinje,15.11.2026 17:10,12.50,91.0,0.00,2.00,18,,0.3,942.5
+02IVKO30,klimatološka,Ivanova korita,15.11.2026 17:00,8.05,100.0,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,15.11.2026 17:00,7.22,100.0,,,,,,
+02BAR010,glavna,Bar,15.11.2026 17:10,17.50,82.0,0.00,3.50,12,,0.5,1016.4
+02KOVR30,klimatološka,Kovren,15.11.2026 17:00,8.00,100.0,0.00,,,,,
+02BUDV20,klimatološka,Budva,15.11.2026 17:00,17.22,98.5,,,,,2.5,1015.76
+02KOLS10,glavna,Kolašin,15.11.2026 17:10,9.00,100.0,0.00,0.60,10,,0.0,908.8
+02DDOB30,klimatološka,Donja Dobrilovina,15.11.2026 17:00,7.19,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,15.11.2026 17:00,5.29,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,15.11.2026 17:00,9.43,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,15.11.2026 16:46,18.40,76.0,,7.10,,12.00,,1018.7
+02BERA20,glavna,Berane,15.11.2026 17:00,7.06,98.8,0.02,0.30,32,1.00,,937.7
+02HNOV10,glavna,Herceg Novi,15.11.2026 17:10,15.90,94.0,0.00,4.10,10,9.10,0.3,1011.4
+02BIST20,klimatološka,Bistrica,15.11.2026 17:00,8.20,97.9,0.00,1.70,16,2.00,0.6,
+02ULCN10,glavna,Ulcinj,15.11.2026 17:10,13.60,93.0,0.00,0.50,2,,0.0,1017.1
+02ZBLJ10,glavna,Žabljak,15.11.2026 17:10,6.50,95.0,0.05,1.20,12,,0.3,854.0
+02BPLJ20,klimatološka,Bijelo Polje,15.11.2026 17:00,6.92,96.6,,,,,0.0,948.5
+02PLZN20,klimatološka,Pluzine,15.11.2026 17:00,7.75,73.3,0.05,1.10,2,2.20,4.45,931.79
+02SCPO30,klimatološka,Šćepan Polje,15.11.2026 17:00,5.44,100.0,,,,,,
+02NIKS10,glavna,Nikšić,15.11.2026 17:10,9.40,100.0,0.00,4.30,14,6.60,0.4,941.6
+02PDGR10,glavna,Podgorica,15.11.2026 17:10,11.60,96.0,0.00,0.50,2,,0.3,1011.2
+02UBLI20,klimatološka,Ubli,15.11.2026 17:00,12.29,,,,,,,
