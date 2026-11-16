@@ -72,6 +72,10 @@ main{padding:8px 20px calc(84px + env(safe-area-inset-bottom))}
 .graf-raspon{margin:0;font-size:11px;color:var(--mutno);white-space:nowrap}
 .graf-wrap{position:relative;margin-top:10px}
 .g-svg{width:100%;height:auto;display:block}
+.g-plot{position:relative;width:100%}
+.g-canvas,.g-overlay{display:block}
+.g-overlay{position:absolute;left:0;top:0;touch-action:pan-y}
+.leg-b{opacity:.75}
 .g-mreza{stroke:var(--linija);stroke-width:1}
 .g-lab{fill:var(--mutno);font-size:9px}
 .g-lab-l{fill:var(--ink)}

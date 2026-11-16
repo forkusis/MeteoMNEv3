@@ -1,10 +1,11 @@
 import re
 import json
 import csv
+import calendar
 import os
 import time
 import random
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from urllib.parse import quote
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
@@ -33,6 +34,8 @@ STATION_HISTORY_DIR = os.path.join(DATA_DIR, "history")
 # Dovoljno da stane cela istorija od pocetka (CSV trenutno ima ~1150 tacaka
 # po aktivnoj stanici) plus rezerva za dalji rast; "Sve" prikazuje sve ovo.
 MAX_POINTS_PER_STATION = 1500
+# Sirovi nivo za grafikon (10-min tacke) i dnevna arhiva za cijelu istoriju.
+RAW_TIER_DAYS = 30
 
 FIELDNAMES = ["sifra", "tip", "stanica", "datum_vrijeme", "T", "vlaga", "RR", "vjetar", "smjer_kod", "udar", "insolacija", "pritisak"]
 
@@ -351,6 +354,98 @@ def _to_float(value):
     except (ValueError, TypeError):
         return None
 
+def _parse_dt_local(s):
+    try:
+        return datetime.strptime(s, "%d.%m.%Y %H:%M")
+    except (ValueError, TypeError):
+        return None
+
+
+def _last_sunday(year, month):
+    last = calendar.monthrange(year, month)[1]
+    d = datetime(year, month, last)
+    return d - timedelta(days=(d.weekday() + 1) % 7)
+
+
+def to_epoch(dt):
+    """Naivno lokalno vrijeme Crne Gore -> unix sekunde (UTC).
+    EU pravilo ljetnjeg vremena; ne zavisi od tzdata na masini."""
+    pocetak = _last_sunday(dt.year, 3).replace(hour=3)
+    kraj = _last_sunday(dt.year, 10).replace(hour=3)
+    off = 2 if pocetak <= dt < kraj else 1
+    return int((dt - timedelta(hours=off)).replace(tzinfo=timezone.utc).timestamp())
+
+
+def _num(v, dec=1):
+    f = _to_float(v)
+    return None if f is None else round(f, dec)
+
+
+def _avg(vals, dec=1):
+    vals = [v for v in vals if v is not None]
+    return round(sum(vals) / len(vals), dec) if vals else None
+
+
+def _tier_raw(rows):
+    """Sirovi nivo: zadnjih RAW_TIER_DAYS dana, minute od t0."""
+    parovi = []
+    for r in rows:
+        dt = _parse_dt_local(r.get("datum_vrijeme"))
+        if dt is not None:
+            parovi.append((dt, r))
+    if not parovi:
+        return None
+    parovi.sort(key=lambda x: x[0])
+    od = parovi[-1][0] - timedelta(days=RAW_TIER_DAYS)
+    parovi = [x for x in parovi if x[0] >= od]
+    if not parovi:
+        return None
+    t0 = to_epoch(parovi[0][0])
+    kljucevi = [("T", "T"), ("H", "vlaga"), ("RR", "RR"), ("V", "vjetar"),
+                ("G", "udar"), ("P", "pritisak"), ("S", "insolacija")]
+    out = {"v": 1, "k": "r", "t0": t0, "m": []}
+    for k, _ in kljucevi:
+        out[k] = []
+    for dt, r in parovi:
+        out["m"].append(int((to_epoch(dt) - t0) // 60))
+        for k, src in kljucevi:
+            out[k].append(_num(r.get(src)))
+    return out
+
+
+def _tier_daily(rows):
+    """Dnevni nivo: cijela istorija, min/prosjek/maks po danu."""
+    dani = {}
+    for r in rows:
+        dt = _parse_dt_local(r.get("datum_vrijeme"))
+        if dt is None:
+            continue
+        dani.setdefault(dt.date(), []).append(r)
+    if not dani:
+        return None
+    out = {"v": 1, "k": "d", "ts": [], "T": [], "Tn": [], "Tx": [],
+           "H": [], "RR": [], "V": [], "G": [], "P": [], "S": []}
+    for d in sorted(dani):
+        rr = dani[d]
+        temp = [_to_float(x.get("T")) for x in rr]
+        temp = [t for t in temp if t is not None]
+        pad = [_to_float(x.get("RR")) for x in rr]
+        pad = [p for p in pad if p is not None]
+        udar = [_to_float(x.get("udar")) for x in rr]
+        udar = [u for u in udar if u is not None]
+        out["ts"].append(to_epoch(datetime(d.year, d.month, d.day)))
+        out["T"].append(_avg(temp))
+        out["Tn"].append(round(min(temp), 1) if temp else None)
+        out["Tx"].append(round(max(temp), 1) if temp else None)
+        out["H"].append(_avg([_to_float(x.get("vlaga")) for x in rr], 0))
+        out["RR"].append(round(sum(pad), 1) if pad else None)
+        out["V"].append(_avg([_to_float(x.get("vjetar")) for x in rr]))
+        out["G"].append(round(max(udar), 1) if udar else None)
+        out["P"].append(_avg([_to_float(x.get("pritisak")) for x in rr]))
+        out["S"].append(_avg([_to_float(x.get("insolacija")) for x in rr], 0))
+    return out
+
+
 def export_station_history():
     if not os.path.exists(HISTORY_CSV):
         return
@@ -360,6 +455,14 @@ def export_station_history():
             by_station.setdefault(row["sifra"], []).append(row)
     os.makedirs(STATION_HISTORY_DIR, exist_ok=True)
     for sifra, rows in by_station.items():
+        safe_name = re.sub(r"[^A-Za-z0-9_-]", "_", sifra)
+        # novi, kompaktni nivoi (grafikon)
+        for sufiks, tier in ((".r.json", _tier_raw(rows)), (".d.json", _tier_daily(rows))):
+            if tier is None:
+                continue
+            with open(os.path.join(STATION_HISTORY_DIR, safe_name + sufiks), "w", encoding="utf-8") as out:
+                json.dump(tier, out, ensure_ascii=False, separators=(",", ":"))
+        # stari format (privremeno, dok frontend ne predje)
         trimmed = rows[-MAX_POINTS_PER_STATION:]
         points = []
         for r in trimmed:
@@ -368,7 +471,6 @@ def export_station_history():
                 "RR": _to_float(r.get("RR")), "vjetar": _to_float(r.get("vjetar")),
                 "insolacija": _to_float(r.get("insolacija")), "pritisak": _to_float(r.get("pritisak")),
             })
-        safe_name = re.sub(r"[^A-Za-z0-9_-]", "_", sifra)
         with open(os.path.join(STATION_HISTORY_DIR, f"{safe_name}.json"), "w", encoding="utf-8") as out:
             json.dump(points, out, ensure_ascii=False)
 

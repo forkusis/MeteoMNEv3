@@ -29,11 +29,10 @@ let racProgModel = "model2"; // Default ECMWF
 const MODE_INFO = {
     tvaga: { naslov: "Temperatura i vlažnost", legenda: '<span class="leg-t">— temperatura (°C)</span> <span class="leg-h">– – vlažnost (%)</span>' },
     rr: { naslov: "Padavine", legenda: '<span class="leg-t">▮ padavine (mm)</span>' },
-    vjetar: { naslov: "Vjetar", legenda: '<span class="leg-t">— brzina vjetra (m/s)</span>' },
+    vjetar: { naslov: "Vjetar", legenda: '<span class="leg-t">— brzina vjetra (m/s)</span> <span class="leg-h">– – udar</span>' },
     pritisak: { naslov: "Pritisak", legenda: '<span class="leg-t">— pritisak (hPa)</span>' },
     insolacija: { naslov: "Insolacija", legenda: '<span class="leg-t">— insolacija (W/m²)</span>' }
 };
-const KEY1 = { tvaga: "T", rr: "RR", vjetar: "V", pritisak: "P", insolacija: "S" };
 
 // P0 FIX: dan/noć po stvarnom vremenu u Crnoj Gori (automatski CET/CEST)
 function danJe() {
@@ -139,185 +138,65 @@ function parametriHTML(obs) {
 }
 
 /* ---------- grafovi ---------- */
-function crtajGraf(pts, mode, els) {
-    els.naslov.textContent = MODE_INFO[mode].naslov;
-    els.legenda.innerHTML = MODE_INFO[mode].legenda;
-    const data = (pts || []).map((p) => ({ t: parseDT(p.dt), T: p.T, H: p.vlaga, RR: p.RR, V: p.vjetar, P: p.pritisak, S: p.insolacija })).filter((p) => p.t);
-    const ser = (key) => { const out = []; data.forEach((p, i) => { if (p[key] != null) out.push({ t: p.t, v: p[key], i: i }); }); return out; };
-    let s1 = [], s2 = null;
-    if (mode === "tvaga") { s1 = ser("T"); s2 = ser("H"); }
-    else if (mode === "rr") s1 = ser("RR");
-    else if (mode === "vjetar") s1 = ser("V");
-    else if (mode === "pritisak") s1 = ser("P");
-    else s1 = ser("S");
+const OPSEG_DANA = { "3d": 3, "7d": 7, "30d": 30 };
 
-    if (data.length < 2 || s1.length < 1) {
-        els.wrap.innerHTML = '<p class="graf-prazno">' + (data.length < 2 ? "Nedovoljno podataka za grafikon." : "Za ovaj parametar nema izmjerenih podataka.") + '</p>';
-        els.raspon.textContent = "—";
-        return;
-    }
-    const W = 340, H = 170, mL = 36, mR = (mode === "tvaga") ? 32 : 10, mT = 8, mB = 22;
-    const iw = W - mL - mR, ih = H - mT - mB;
-    const t0 = data[0].t, t1 = data[data.length - 1].t;
-    const span = Math.max(+t1 - +t0, 1);
-    const X = (d) => mL + ((+d - +t0) / span) * iw;
-    const vals = s1.map((p) => p.v).concat(s2 ? s2.map((p) => p.v) : []);
-    let yMin, yMax;
-    if (mode === "tvaga" || mode === "pritisak") {
-        const only = (mode === "tvaga") ? s1.map((p) => p.v) : vals;
-        yMin = Math.min.apply(null, only); yMax = Math.max.apply(null, only);
-        if (yMax - yMin < 2) { yMax += 1; yMin -= 1; }
-        const pad = (yMax - yMin) * 0.15; yMin -= pad; yMax += pad;
-    } else {
-        yMin = 0; yMax = Math.max.apply(null, vals) * 1.15;
-        if (yMax < 1) yMax = 1;
-    }
-    const Y = (v) => mT + (1 - (v - yMin) / (yMax - yMin)) * ih;
-    const YH = (v) => mT + (1 - v / 100) * ih;
-    const ticks = niceTicks(yMin, yMax);
-    const korak = (ticks.length > 1) ? (ticks[1] - ticks[0]) : 1;
-    const fmtTick = (v) => (korak >= 1 ? String(Math.round(v)) : v.toFixed(1).replace(".", ","));
-    let grid = "", labL = "";
-    ticks.forEach((tv) => {
-        const y = Y(tv);
-        grid += '<line x1="' + mL + '" y1="' + y.toFixed(1) + '" x2="' + (W - mR) + '" y2="' + y.toFixed(1) + '" class="g-mreza"/>';
-        labL += '<text x="' + (mL - 5) + '" y="' + (y + 3).toFixed(1) + '" class="g-lab g-lab-l" text-anchor="end">' + fmtTick(tv) + '</text>';
-    });
-    let labR = "";
-    if (mode === "tvaga") {
-        [100, 50, 0].forEach((v, i) => { labR += '<text x="' + (W - mR + 5) + '" y="' + (mT + i * 0.5 * ih + 3) + '" class="g-lab g-lab-r">' + v + '</text>'; });
-    }
-    const fmtX = (d) => d.getDate() + ". " + (d.getMonth() + 1) + ". " + String(d.getHours()).padStart(2, "0") + "h";
-    const fmtDT = (d) => d.getDate() + ". " + (d.getMonth() + 1) + ". · " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
-    const xMid = new Date((+t0 + +t1) / 2);
-    const labX =
-        '<text x="' + mL + '" y="' + (H - 6) + '" class="g-lab">' + fmtX(t0) + '</text>' +
-        '<text x="' + (mL + iw / 2) + '" y="' + (H - 6) + '" class="g-lab" text-anchor="middle">' + fmtX(xMid) + '</text>' +
-        '<text x="' + (W - mR) + '" y="' + (H - 6) + '" class="g-lab" text-anchor="end">' + fmtX(t1) + '</text>';
+// keš-verzija: mijenja se na 10 min -> browser može da kešira istoriju
+function verzija() { return "?v=" + Math.floor(Date.now() / 600000); }
 
-    function linija(s, cls, yFn) {
-        let d = "";
-        for (let k = 0; k < s.length; k++) {
-            const gap = (k > 0) && ((s[k].i - s[k - 1].i) > 1);
-            d += ((k > 0 && !gap) ? "L" : "M") + X(s[k].t).toFixed(1) + " " + yFn(s[k].v).toFixed(1);
-        }
-        return d ? '<path d="' + d + '" class="' + cls + '" fill="none"/>' : "";
-    }
-    function stubovi(s) {
-        const bw = Math.max(2, (iw / Math.max(data.length, 1)) * 0.6);
-        let out = "";
-        s.forEach((p) => {
-            const y = Y(p.v); const h = (mT + ih) - y;
-            if (h > 0) out += '<rect x="' + (X(p.t) - bw / 2).toFixed(1) + '" y="' + y.toFixed(1) + '" width="' + bw.toFixed(1) + '" height="' + h.toFixed(1) + '" class="g-stub"/>';
-        });
-        return out;
-    }
-    let serSvg = "";
-    if (mode === "tvaga") serSvg = linija(s2, "g-linija-h", YH) + linija(s1, "g-linija-t", Y);
-    else if (mode === "rr") serSvg = stubovi(s1);
-    else serSvg = linija(s1, "g-linija-t", Y);
+const grafMoje = { mode: "tvaga", opseg: "3d", sifra: null, kes: {}, raw: null, els: { naslov: $("graf-naslov"), legenda: $("graf-legenda"), raspon: $("graf-raspon"), wrap: $("graf-wrap") } };
+const grafDetalj = { mode: "tvaga", opseg: "3d", sifra: null, kes: {}, raw: null, els: { naslov: $("detalj-graf-naslov"), legenda: $("detalj-graf-legenda"), raspon: $("detalj-graf-raspon"), wrap: $("detalj-graf-wrap") } };
 
-    els.raspon.textContent = fmtX(t0) + " – " + fmtX(t1) + " · " + data.length + " mjerenja";
-    els.wrap.innerHTML =
-        '<svg viewBox="0 0 ' + W + ' ' + H + '" class="g-svg">' + grid + labL + labR + labX + serSvg +
-        '<line class="g-vodilica" id="g-vodilica" x1="-10" x2="-10" y1="' + mT + '" y2="' + (mT + ih) + '"/>' +
-        '<circle class="g-tacka-t" id="g-tacka-t" cx="-10" cy="-10" r="3"/>' +
-        '<rect x="0" y="0" width="' + W + '" height="' + H + '" fill="transparent" id="g-dodir"/>' +
-        '</svg>' + '<div class="g-tooltip" id="g-tooltip" hidden></div>';
-
-    const svgEl = els.wrap.querySelector(".g-svg");
-    const dodir = els.wrap.querySelector("#g-dodir");
-    const tooltip = els.wrap.querySelector("#g-tooltip");
-    const vod = els.wrap.querySelector("#g-vodilica");
-    const tacka = els.wrap.querySelector("#g-tacka-t");
-
-    function ttSadrzaj(p) {
-        const f = (v, u, d) => (v == null ? "—" : fmtBroj(v, d) + u);
-        if (mode === "tvaga") return '<span>T <b>' + f(p.T, "°C", 1) + '</b></span> <span class="tt-h">Vlažnost <b>' + f(p.H, "%", 0) + '</b></span>';
-        if (mode === "rr") return '<span>Padavine <b>' + f(p.RR, " mm", 1) + '</b></span>';
-        if (mode === "vjetar") return '<span>Vjetar <b>' + f(p.V, " m/s", 1) + '</b></span>';
-        if (mode === "pritisak") return '<span>Pritisak <b>' + f(p.P, " hPa", 1) + '</b></span>';
-        return '<span>Insolacija <b>' + f(p.S, " W/m²", 1) + '</b></span>';
-    }
-
-    function naDodir(ev) {
-        const rect = svgEl.getBoundingClientRect();
-        const px = ((ev.clientX - rect.left) / rect.width) * W;
-        let best = null, bd = Infinity;
-        data.forEach((p) => { const d = Math.abs(X(p.t) - px); if (d < bd) { bd = d; best = p; } });
-        if (!best) return;
-        const x = X(best.t);
-        vod.setAttribute("x1", x); vod.setAttribute("x2", x);
-        const v1 = best[KEY1[mode]];
-        if (mode !== "rr" && v1 != null) { tacka.setAttribute("cx", x); tacka.setAttribute("cy", Y(v1)); }
-        else { tacka.setAttribute("cx", -10); }
-        tooltip.hidden = false;
-        tooltip.innerHTML = '<span class="tt-vrijeme">' + fmtDT(best.t) + '</span>' + ttSadrzaj(best);
-        tooltip.style.left = Math.min(82, Math.max(18, (x / W) * 100)) + "%";
-    }
-    dodir.addEventListener("pointerdown", naDodir);
-    dodir.addEventListener("pointermove", naDodir);
-    dodir.addEventListener("pointerleave", () => {
-        tooltip.hidden = true;
-        vod.setAttribute("x1", -10); vod.setAttribute("x2", -10);
-        tacka.setAttribute("cx", -10); tacka.setAttribute("cy", -10);
-    });
-}
-
-function niceTicks(lo, hi) {
-    const range = Math.max(hi - lo, 1e-9);
-    const divs = [3, 4, 5];
-    for (let d = 0; d < divs.length; d++) {
-        const step = niceStep(range / divs[d]);
-        const first = Math.ceil((lo - 1e-9) / step) * step;
-        const ticks = [];
-        for (let v = first; v <= hi + 1e-9; v += step) ticks.push(v);
-        if (ticks.length >= 3 && ticks.length <= 5) return ticks;
-    }
-    return [lo, (lo + hi) / 2, hi];
-}
-
-function niceStep(raw) {
-    const pow = Math.pow(10, Math.floor(Math.log10(raw)));
-    const frac = raw / pow;
-    let nice;
-    if (frac <= 1) nice = 1; else if (frac <= 2) nice = 2; else if (frac <= 2.5) nice = 2.5; else if (frac <= 5) nice = 5; else nice = 10;
-    return nice * pow;
-}
+function grafTier(opseg) { return opseg === "sve" ? "d" : "r"; }
 
 async function ucitajGraf(sifra, ctx) {
-    try {
-        const r = await fetch("data/history/" + sifra + ".json?_=" + Date.now());
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        ctx.pts = await r.json();
-        iscrtaj(ctx);
-    } catch (e) {
-        ctx.pts = null;
-        ctx.els.wrap.innerHTML = '<p class="graf-prazno">Istorija za ovu stanicu trenutno nije dostupna.</p>';
-        ctx.els.raspon.textContent = "—";
+    ctx.sifra = sifra;
+    const tier = grafTier(ctx.opseg);
+    const url = "data/history/" + sifra + (tier === "d" ? ".d.json" : ".r.json");
+    let data;
+    if (Object.prototype.hasOwnProperty.call(ctx.kes, url)) {
+        data = ctx.kes[url];
+    } else {
+        try { const r = await fetch(url + verzija()); data = r.ok ? await r.json() : null; }
+        catch (e) { data = null; }
+        ctx.kes[url] = data;
     }
+    if (!data && tier === "d") {                      // nema dnevnog -> padni na sirovi (30 dana)
+        try { const r = await fetch("data/history/" + sifra + ".r.json" + verzija()); data = r.ok ? await r.json() : null; }
+        catch (e) { data = null; }
+        if (data) ctx.kes[url] = data;
+    }
+    ctx.raw = data;
+    iscrtaj(ctx);
 }
 
-const grafMoje = { mode: "tvaga", opseg: "3d", pts: null, els: { naslov: $("graf-naslov"), legenda: $("graf-legenda"), raspon: $("graf-raspon"), wrap: $("graf-wrap") } };
-const grafDetalj = { mode: "tvaga", opseg: "3d", pts: null, els: { naslov: $("detalj-graf-naslov"), legenda: $("detalj-graf-legenda"), raspon: $("detalj-graf-raspon"), wrap: $("detalj-graf-wrap") } };
-
-const OPSEG_MS = { "3d": 3 * 24 * 3600 * 1000, "7d": 7 * 24 * 3600 * 1000, "sve": Infinity };
-function filtrirajOpseg(pts, opseg) {
-    if (!pts || opseg === "sve") return pts;
-    const ms = OPSEG_MS[opseg] || OPSEG_MS["3d"];
-    let maxT = -Infinity;
-    pts.forEach((p) => { const d = parseDT(p.dt); if (d && +d > maxT) maxT = +d; });
-    if (!isFinite(maxT)) return pts;
-    return pts.filter((p) => { const d = parseDT(p.dt); return d && (+d >= maxT - ms); });
+function iscrtaj(ctx) {
+    const dec = Graf.decode(ctx.raw);
+    if (!dec || !dec.pts.length) {
+        Graf.prazno(ctx.els.wrap, "Istorija za ovu stanicu trenutno nije dostupna.", ctx.els.raspon);
+        return;
+    }
+    let pts = dec.pts;
+    if (ctx.opseg !== "sve") {
+        const dana = OPSEG_DANA[ctx.opseg] || 3;
+        const od = pts[pts.length - 1].t - dana * 86400000;
+        pts = pts.filter((p) => p.t >= od);
+    }
+    if (pts.length < 2) {
+        Graf.prazno(ctx.els.wrap, "Nedovoljno podataka za izabrani opseg.", ctx.els.raspon);
+        return;
+    }
+    const mi = MODE_INFO[ctx.mode];
+    ctx.els.naslov.textContent = mi.naslov;
+    ctx.els.legenda.innerHTML = mi.legenda + (dec.kind === "d" ? ' <span class="leg-b">pojas = min–maks</span>' : "");
+    Graf.render(ctx.els.wrap, { pts: pts, mode: ctx.mode, kind: dec.kind, rasponEl: ctx.els.raspon });
 }
-function iscrtaj(ctx) { crtajGraf(filtrirajOpseg(ctx.pts, ctx.opseg), ctx.mode, ctx.els); }
 
 function veziChipove(selector, ctx) {
     document.querySelectorAll(selector).forEach((c) => {
         c.addEventListener("click", () => {
             ctx.mode = c.dataset.graf;
             document.querySelectorAll(selector).forEach((x) => x.classList.toggle("aktivan", x === c));
-            if (ctx.pts) iscrtaj(ctx);
+            if (ctx.raw) iscrtaj(ctx);
         });
     });
 }
@@ -327,9 +206,10 @@ veziChipove("#detalj-chips .chip", grafDetalj);
 function veziOpseg(selector, ctx) {
     document.querySelectorAll(selector).forEach((c) => {
         c.addEventListener("click", () => {
+            if (ctx.opseg === c.dataset.opseg) return;
             ctx.opseg = c.dataset.opseg;
             document.querySelectorAll(selector).forEach((x) => x.classList.toggle("aktivan", x === c));
-            if (ctx.pts) iscrtaj(ctx);
+            if (ctx.sifra) ucitajGraf(ctx.sifra, ctx);
         });
     });
 }
@@ -669,6 +549,7 @@ async function ucitaj() {
             fetch("data/racprog.json?_=" + Date.now()).then((r) => (r.ok ? r.json() : null)).catch(() => null)
         ]);
         morePodaci = more; snijegPodaci = snijeg; prognozaPodaci = prog; racProgPodaci = rac;
+        grafMoje.kes = {}; grafDetalj.kes = {};   // svjeza istorija poslije osvježavanja
         renderTematskeKartice(); renderPrognoza(); prikaziMjesto(); renderMreza(); renderListaStanica(); syncIzHasa();
         if (detaljSifra && $("ekran-detalj").classList.contains("aktivan")) renderDetalj();
         if ($("ekran-more").classList.contains("aktivan")) renderMoreEkran();
