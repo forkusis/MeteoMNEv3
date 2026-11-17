@@ -131410,3 +131410,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,17.11.2026 22:30,18.80,78.0,0.00,4.90,14,,0.3,1007.7
 02HNOV10,glavna,Herceg Novi,17.11.2026 22:20,15.60,94.0,0.00,1.60,2,,0.0,1003.2
 02ULCN10,glavna,Ulcinj,17.11.2026 22:30,18.50,78.0,0.00,8.10,16,,0.0,1008.1
+02BPLJ20,klimatološka,Bijelo Polje,17.11.2026 22:00,13.84,69.5,,,,,0.0,937.24
+02IVKO30,klimatološka,Ivanova korita,17.11.2026 22:00,7.91,100.0,0.09,,,,,
+02NIKS10,glavna,Nikšić,17.11.2026 22:50,10.10,100.0,0.06,6.00,16,,0.1,932.9
+02VELM20,klimatološka,Velimlje,17.11.2026 22:00,9.70,96.3,0.00,1.30,12,2.80,0.3,
+02BERA20,glavna,Berane,17.11.2026 22:00,13.58,66.1,0.00,2.70,14,7.80,,927.0
+02BOAN30,klimatološka,Boan,17.11.2026 22:00,7.68,100.0,,,,,,
+02BUDV20,klimatološka,Budva,17.11.2026 22:00,18.44,85.1,,,,,0.0,1007.54
+02LKOT20,klimatološka,Luka Kotor,17.11.2026 22:16,19.30,65.0,,9.10,,16.10,,1009.6
+02HNOV10,glavna,Herceg Novi,17.11.2026 22:40,16.60,87.0,0.00,1.90,6,,0.7,1002.6
+02PLJV10,glavna,Pljevlja,17.11.2026 22:50,13.00,65.0,0.00,0.70,14,,0.0,915.5
+02DDOB30,klimatološka,Donja Dobrilovina,17.11.2026 22:00,9.92,98.3,,,,,,
+02ULCN10,glavna,Ulcinj,17.11.2026 22:50,18.40,80.0,0.00,8.70,16,,0.1,1007.6
+02KOSA30,klimatološka,Kosanica,17.11.2026 22:00,8.77,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,17.11.2026 22:00,11.27,,,,,,,
+02BIST20,klimatološka,Bistrica,17.11.2026 22:00,13.10,63.9,0.00,3.70,22,7.00,0.5,
+02GRAD30,klimatološka,Gradac,17.11.2026 22:00,14.73,67.8,,,,,,
+02BAR010,glavna,Bar,17.11.2026 22:50,18.70,79.0,0.00,1.70,14,,0.0,1007.4
+02PDGR10,glavna,Podgorica,17.11.2026 22:50,13.40,97.0,0.00,1.00,22,,1.0,1002.3
+02KOVR30,klimatološka,Kovren,17.11.2026 22:00,8.86,100.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,17.11.2026 22:00,10.93,100.0,0.00,1.60,26,5.20,0.0,922.31
+02CTNJ10,glavna,Cetinje,17.11.2026 22:50,12.40,91.0,0.00,0.90,14,,0.1,934.5
+02GOBU30,klimatološka,Gornja Bukovica,17.11.2026 22:00,6.77,100.0,,,,,,
+02KOLS10,glavna,Kolašin,17.11.2026 22:50,9.00,98.0,0.00,0.40,18,,0.0,900.1
+02DANL20,klimatološka,Danilovgrad,17.11.2026 22:00,13.30,,0.36,,,,,
+02MAMO30,klimatološka,Manastir Morača,17.11.2026 22:00,11.54,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,17.11.2026 22:00,13.40,100.0,0.08,,,,,
