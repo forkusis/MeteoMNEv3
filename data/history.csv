@@ -130675,3 +130675,22 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,17.11.2026 07:20,5.70,100.0,0.00,0.60,14,,21.9,905.1
 02PDGR10,glavna,Podgorica,17.11.2026 07:20,11.00,99.0,0.00,0.80,2,,24.2,1007.3
 02PLZN20,klimatološka,Pluzine,17.11.2026 07:00,9.42,100.0,0.00,0.80,28,2.60,16.91,928.12
+02KOSA30,klimatološka,Kosanica,17.11.2026 09:00,8.31,88.1,,,,,,
+02CRKV30,klimatološka,Crkvice,17.11.2026 09:00,8.15,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,17.11.2026 09:00,3.98,100.0,,,,,,
+02BERA20,glavna,Berane,17.11.2026 09:00,9.04,100.0,0.00,1.70,26,6.40,,932.14
+02LKOT20,klimatološka,Luka Kotor,17.11.2026 09:26,13.50,100.0,,0.30,,0.70,,1015.7
+02GOBU30,klimatološka,Gornja Bukovica,17.11.2026 09:00,6.27,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,17.11.2026 10:00,8.92,85.4,0.00,,,,,
+02CTNJ10,glavna,Cetinje,17.11.2026 10:00,10.30,90.0,0.00,0.70,4,,311.5,939.2
+02IVKO30,klimatološka,Ivanova korita,17.11.2026 09:00,6.49,100.0,0.00,,,,,
+02BUDV20,klimatološka,Budva,17.11.2026 09:00,14.37,100.0,,,,,127.29,1011.85
+02KOVR30,klimatološka,Kovren,17.11.2026 09:00,9.40,98.8,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,17.11.2026 09:00,5.71,100.0,,,,,160.63,943.14
+02KOLS10,glavna,Kolašin,17.11.2026 10:00,8.90,91.0,0.00,0.40,16,,333.5,905.0
+02BIST20,klimatološka,Bistrica,17.11.2026 09:00,11.70,59.0,0.00,4.80,18,9.50,133.2,
+02HNOV10,glavna,Herceg Novi,17.11.2026 09:50,16.10,81.0,0.00,0.60,20,,369.9,1007.9
+02BOAN30,klimatološka,Boan,17.11.2026 09:00,7.02,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,17.11.2026 10:00,14.30,,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,17.11.2026 09:00,10.75,78.0,,,,,,
+02BAR010,glavna,Bar,17.11.2026 10:00,17.90,78.0,0.00,2.20,14,,242.5,1012.4
