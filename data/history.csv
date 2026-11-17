@@ -131258,3 +131258,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,17.11.2026 19:00,7.20,80.0,0.00,2.80,6,,0.5,846.8
 02MATE30,klimatološka,Matesevo,17.11.2026 19:00,8.81,88.9,0.00,,,,,
 02VELK30,klimatološka,Velika,17.11.2026 19:00,10.68,85.4,,,,,,
+02ULCN10,glavna,Ulcinj,17.11.2026 19:20,17.60,80.0,0.00,3.40,14,,0.4,1010.0
+02KOSA30,klimatološka,Kosanica,17.11.2026 19:00,8.74,97.8,,,,,,
+02IVKO30,klimatološka,Ivanova korita,17.11.2026 19:00,6.88,98.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,17.11.2026 19:20,7.50,77.0,0.00,4.90,6,,0.2,846.9
+02GRAD30,klimatološka,Gradac,17.11.2026 19:00,13.69,69.9,,,,,,
+02BIST20,klimatološka,Bistrica,17.11.2026 19:00,13.70,57.5,0.00,4.50,22,10.10,0.5,
+02HNOV10,glavna,Herceg Novi,17.11.2026 19:10,15.40,90.0,0.00,1.50,4,,0.0,1005.2
+02BUDV20,klimatološka,Budva,17.11.2026 19:00,16.41,84.1,,,,,0.0,1009.49
+02CTNJ10,glavna,Cetinje,17.11.2026 19:20,10.70,94.0,0.00,0.70,10,,0.8,936.7
+02GOBU30,klimatološka,Gornja Bukovica,17.11.2026 19:00,7.01,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,17.11.2026 19:00,12.48,,,,,,,
+02KOLS10,glavna,Kolašin,17.11.2026 19:20,8.40,98.0,0.00,0.30,22,,0.4,902.5
+02POSC30,klimatološka,Pošćenje,17.11.2026 19:00,8.36,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,17.11.2026 19:00,14.64,71.9,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,17.11.2026 19:00,11.31,83.2,,,,,,
+02LKOT20,klimatološka,Luka Kotor,17.11.2026 18:46,16.20,70.0,,2.90,,4.60,,1012.4
+02BERA20,glavna,Berane,17.11.2026 19:00,13.46,59.9,0.00,2.80,14,9.50,,928.78
+02NIKS10,glavna,Nikšić,17.11.2026 19:20,10.60,100.0,0.00,6.40,16,,0.0,935.5
+02PLZN20,klimatološka,Pluzine,17.11.2026 19:00,12.01,100.0,0.00,3.60,18,8.20,0.08,925.23
+02BPLJ20,klimatološka,Bijelo Polje,17.11.2026 19:00,13.76,67.3,,,,,0.0,938.85
+02PLJV10,glavna,Pljevlja,17.11.2026 19:20,11.50,66.0,0.00,1.80,6,,0.0,917.3
+02VELM20,klimatološka,Velimlje,17.11.2026 19:00,10.50,90.2,0.00,4.30,12,6.20,0.0,
+02BAR010,glavna,Bar,17.11.2026 19:20,17.90,73.0,0.00,1.30,6,,0.7,1009.6
+02STIT30,klimatološka,Štitarica,17.11.2026 19:00,9.69,94.1,,,,,,
+02PDGR10,glavna,Podgorica,17.11.2026 19:20,14.20,93.0,0.00,0.80,6,,1.9,1004.2
+02BOAN30,klimatološka,Boan,17.11.2026 19:00,7.95,100.0,,,,,,
