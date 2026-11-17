@@ -131000,3 +131000,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,17.11.2026 15:00,8.60,73.0,0.00,0.70,12,,96.9,847.9
 02DANL20,klimatološka,Danilovgrad,17.11.2026 15:00,15.50,,0.00,,,,,
 02BAR010,glavna,Bar,17.11.2026 15:00,18.40,69.0,0.00,2.50,16,,167.6,1011.1
+02DDOB30,klimatološka,Donja Dobrilovina,17.11.2026 15:00,13.13,69.8,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,17.11.2026 15:00,7.88,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,17.11.2026 15:00,12.50,79.6,0.00,3.20,12,4.90,91.2,
+02STIT30,klimatološka,Štitarica,17.11.2026 15:00,9.98,92.8,,,,,,
+02BIST20,klimatološka,Bistrica,17.11.2026 15:00,13.80,55.7,0.00,8.20,20,15.40,106.9,
+02ZBLJ10,glavna,Žabljak,17.11.2026 15:20,7.90,72.0,0.00,2.70,22,,32.5,848.1
+02HNOV10,glavna,Herceg Novi,17.11.2026 15:20,16.90,83.0,0.00,2.20,10,,52.5,1006.5
+02BUDV20,klimatološka,Budva,17.11.2026 15:00,18.61,79.5,,,,,155.56,1010.6
+02GRAD30,klimatološka,Gradac,17.11.2026 15:00,13.58,75.7,,,,,,
+02BERA20,glavna,Berane,17.11.2026 15:00,14.30,58.2,0.00,2.00,22,7.10,,929.77
+02BOAN30,klimatološka,Boan,17.11.2026 15:00,10.45,91.2,,,,,,
+02CTNJ10,glavna,Cetinje,17.11.2026 15:20,11.40,90.0,0.00,1.20,10,,65.4,937.8
+02BAR010,glavna,Bar,17.11.2026 15:20,18.60,69.0,0.00,1.60,14,,150.8,1011.2
+02UBLI20,klimatološka,Ubli,17.11.2026 15:00,13.00,,,,,,,
+02MAMO30,klimatološka,Manastir Morača,17.11.2026 15:00,14.80,79.3,,,,,,
+02CRKV30,klimatološka,Crkvice,17.11.2026 15:00,9.65,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,17.11.2026 15:00,7.25,95.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,17.11.2026 15:20,13.80,56.0,0.00,2.30,16,,21.0,918.4
+02ULCN10,glavna,Ulcinj,17.11.2026 15:20,18.50,69.0,0.00,3.80,20,,184.2,1011.4
+02POSC30,klimatološka,Pošćenje,17.11.2026 15:00,10.15,88.2,,,,,,
+02NIKS10,glavna,Nikšić,17.11.2026 15:20,10.80,99.0,0.00,4.70,16,,5.3,936.7
+02LKOT20,klimatološka,Luka Kotor,17.11.2026 14:46,17.40,71.0,,3.50,,7.90,,1014.0
+02KOSA30,klimatološka,Kosanica,17.11.2026 15:00,9.56,86.1,,,,,,
+02KOVR30,klimatološka,Kovren,17.11.2026 15:00,11.16,79.6,0.00,,,,,
+02PDGR10,glavna,Podgorica,17.11.2026 15:20,16.50,82.0,0.00,1.10,20,,85.5,1005.4
+02SCPO30,klimatološka,Šćepan Polje,17.11.2026 15:00,14.03,90.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,17.11.2026 15:00,14.89,61.5,,,,,94.7,940.08
+02KOLS10,glavna,Kolašin,17.11.2026 15:20,9.70,89.0,0.00,0.30,2,,16.0,902.9
