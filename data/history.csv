@@ -131194,3 +131194,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,17.11.2026 17:50,16.40,81.0,0.00,2.20,6,,0.2,1006.0
 02VELK30,klimatološka,Velika,17.11.2026 18:00,10.79,68.2,,,,,,
 02VIRP20,klimatološka,Virpazar,17.11.2026 18:00,12.90,100.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,17.11.2026 18:00,12.70,55.9,0.00,8.90,18,13.50,0.5,
+02HNOV10,glavna,Herceg Novi,17.11.2026 18:10,16.30,80.0,0.00,3.80,6,,0.6,1005.8
+02BERA20,glavna,Berane,17.11.2026 18:00,13.09,54.5,0.00,3.10,20,9.00,,929.8
+02NIKS10,glavna,Nikšić,17.11.2026 18:20,10.60,100.0,0.00,5.70,16,,0.3,936.1
+02ULCN10,glavna,Ulcinj,17.11.2026 18:20,17.80,73.0,0.00,4.20,14,,0.0,1010.7
+02GRAD30,klimatološka,Gradac,17.11.2026 18:00,9.50,95.6,,,,,,
+02PLJV10,glavna,Pljevlja,17.11.2026 18:20,12.40,59.0,0.00,3.80,18,,0.4,917.8
+02LKOT20,klimatološka,Luka Kotor,17.11.2026 17:46,16.10,71.0,,1.40,,4.40,,1012.8
+02GOBU30,klimatološka,Gornja Bukovica,17.11.2026 18:00,7.22,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,17.11.2026 18:00,9.28,85.8,0.00,,,,,
+02VELM20,klimatološka,Velimlje,17.11.2026 18:00,10.50,86.5,0.00,1.00,18,1.80,0.0,
+02STIT30,klimatološka,Štitarica,17.11.2026 18:00,9.76,86.0,,,,,,
+02PDGR10,glavna,Podgorica,17.11.2026 18:20,14.60,90.0,0.00,1.20,16,,1.0,1004.8
+02UBLI20,klimatološka,Ubli,17.11.2026 18:00,12.98,,,,,,,
+02KOLS10,glavna,Kolašin,17.11.2026 18:20,9.40,89.0,0.00,0.60,8,,0.3,903.1
+02BPLJ20,klimatološka,Bijelo Polje,17.11.2026 18:00,13.71,60.2,,,,,0.0,939.77
+02POSC30,klimatološka,Pošćenje,17.11.2026 18:00,9.39,90.5,,,,,,
+02PLZN20,klimatološka,Pluzine,17.11.2026 18:00,11.76,100.0,0.00,1.30,18,4.70,0.1,925.45
+02DDOB30,klimatološka,Donja Dobrilovina,17.11.2026 18:00,12.25,66.8,,,,,,
+02KOSA30,klimatološka,Kosanica,17.11.2026 18:00,8.33,88.5,,,,,,
+02ZBLJ10,glavna,Žabljak,17.11.2026 18:20,7.00,76.0,0.00,2.70,28,,0.0,847.0
+02BOAN30,klimatološka,Boan,17.11.2026 18:00,9.47,91.2,,,,,,
+02CTNJ10,glavna,Cetinje,17.11.2026 18:20,11.00,89.0,0.00,1.30,10,,0.0,937.2
+02SCPO30,klimatološka,Šćepan Polje,17.11.2026 18:00,14.83,63.6,,,,,,
+02IVKO30,klimatološka,Ivanova korita,17.11.2026 18:00,7.14,96.8,0.00,,,,,
+02BAR010,glavna,Bar,17.11.2026 18:20,17.10,68.0,0.00,2.70,6,3.30,0.0,1010.3
