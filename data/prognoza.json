@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-18T11:45:59.531522+00:00",
+  "updated_at": "2026-11-18T12:01:17.755252+00:00",
   "dani": [
     {
-      "naslov": "Srijeda, 18.11.2026.",
-      "azurirano": "18.11.2026. 05:39 CET",
-      "tekst": "Pretežno oblačno sa povremenom kišom u većem dijelu države. Više padavina se očekuje u južnim i centralnim oblastima nego u sjevernim. Vjetar slab do umjeren, u prvom dijelu dana mjestimično jak, pretežno južni i jugozapadni. Najviša dnevna temperatura vazduha od 10 do 21 stepen.",
+      "naslov": "Četvrtak, 19.11.2026.",
+      "azurirano": "18.11.2026. 13:00 CET",
+      "tekst": "Pretežno oblačno sa povremenom kišom tokom većeg dijela dana. Glavnina padavina, pljuskovi, ponegdje i grmljavina, očekuju se u u drugom dijelu dana. Ponegdje su moguće umjerene do obilne količine padavina, naročito u južnim i centralnim oblastima. Tokom noći padavine će oslabiti, i u većem djelu zemlje prestati. Vjetar pretežno južni, tokom dana u pojačanju na umjeren do jak, ponegdje i veom jak. Jutarnja temperatura vazduha od 6 do 16, najviša dnevna od 11 do 21 stepen.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
-      "naslov": "Četvrtak, 19.11.2026.",
+      "naslov": "Petak, 20.11.2026.",
       "azurirano": "17.11.2026. 12:58 CET",
       "tekst": "Pretežno oblačno, u prvom dijelu dana ponegdje kiša. Intenzivne padavine, kiša, pljuskovi, ponegdje i grmljavina, očekuju se u popodnevnim satima. Ponegdje se očekuju obilniji pljuskovi, naročito u južnim i centralnim oblastima. U noćnim satima padavine će oslabiti u većem djelu zemlje i prestati. Vjetar južnih smjerova, u jačanju na umjeren do jak, na udare ponegdje i olujne jačine. Jutarnja temperatura vazduha od 6 do 17, najviša dnevna od 10 do 21 stepen.",
       "podgorica": "Podgorica: Pretežno oblačno, povremeno kiša, intenzivnije padavine u popodnevnim satima, mogući su obilniji pljuskovi i grmljavina. Vjetar tokom dana umjeren do jak, južni. Jutarnja temperatura vazduha oko 15, najviša dnevna oko 19 stepeni."
@@ -16,8 +16,8 @@
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "17.11.2026. 07:54 CET",
-    "tekst": "UPOZORENJE: Mjestimično, udari vjetra S-ih smjerova, 25 do 48 čvorova, krajem prognostičkog perioda more ponegdje moguće i jače talasasto. SINOPTIČKA SITUACIJA: Jača uticaj ciklona sa sjeverozapada i sjevera kontinenta. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar S-ih smjerova, 4-18, tokom dana u pojačanju na 10-26 čvorova, mjestimično na udare 25-48. More 2 do 3, u jačanju na 3-4, krajem prognostičkog perioda ponegdje moguće i 5. Vidljivost 10 do 20 km, pri kiši smanjena. Promjenljivo do potpuno oblačno, tokom dana uglavnom suvo ili uz rijetku pojavu kratkotrajno slabe kiše, u noćnim satima povremeno kiša, ponegdje pljuskovi i grmljavina. Najviša dnevna temperatura vazduha od 17 do 20 stepeni.",
+    "azurirano": "18.11.2026. 13:00 CET",
+    "tekst": "UPOZORENJE: Početkom prognostičkog perioda mogući udari vjetra 25 do 35 čvorova. More umjereno talasasto do talasasto. SINOPTIČKA SITUACIJA: Jadransko more se nalazi u zoni prostranog ciklona sa centrom na sjeveru Evrope. Na visini zapadno strujanje. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar na otvorenom moru S i SW, 10 do 22 ćvora, sa udarima 25 do 35 čvorova. Tokom noći vjetar na otvorenom moru u skretanju na W i SW i u slabljenju na 4 do 14 čvorova. Sjutra prijepodne vjetar u skretanju na S smjer i u pojačanju na 12 do 22 čvora. More 3 do 4. Vidljivost 10 do 20 km, pri kiši smanjena na 4 do 10 km. Pretežno oblačno sa uslovima za povremenu kišu početkom i krajem prognostičkog perioda. Jutarnja temperatura vazduha od 14 do 16, najviša dnevna 19 do 21 stepen.",
     "podgorica": ""
   }
 }
