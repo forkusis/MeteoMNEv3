@@ -132526,3 +132526,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,18.11.2026 17:00,16.90,93.0,0.00,1.50,26,,0.0,995.1
 02MOKR30,klimatološka,Mokro,18.11.2026 17:00,11.89,89.9,,,,,,
 02VIRP20,klimatološka,Virpazar,18.11.2026 17:00,16.00,100.0,0.00,,,,,
+02BUDV20,klimatološka,Budva,18.11.2026 17:00,17.68,100.0,,,,,0.76,1000.47
+02STIT30,klimatološka,Štitarica,18.11.2026 17:00,12.60,98.4,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,18.11.2026 17:00,16.36,73.1,,,,,6.03,930.53
+02ULCN10,glavna,Ulcinj,18.11.2026 17:20,19.30,86.0,0.00,8.50,18,,0.0,1000.9
+02PLJV10,glavna,Pljevlja,18.11.2026 17:20,12.00,93.0,0.00,0.50,14,,0.4,910.3
+02BIST20,klimatološka,Bistrica,18.11.2026 17:00,15.70,66.3,0.00,6.30,18,11.00,0.5,
+02ZBLJ10,glavna,Žabljak,18.11.2026 17:20,10.20,80.0,0.00,1.80,16,,0.0,840.9
+02VELM20,klimatološka,Velimlje,18.11.2026 17:00,13.10,91.6,0.00,0.90,18,1.50,0.0,
+02KOSA30,klimatološka,Kosanica,18.11.2026 17:00,10.86,100.0,,,,,,
+02PDGR10,glavna,Podgorica,18.11.2026 17:20,16.70,95.0,0.00,0.50,30,,0.6,995.0
+02BERA20,glavna,Berane,18.11.2026 17:00,16.76,63.0,0.00,3.40,22,11.40,,920.27
+02KOVR30,klimatološka,Kovren,18.11.2026 17:00,12.60,100.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,18.11.2026 17:00,14.77,100.0,0.00,5.60,18,12.70,2.25,916.32
+02HNOV10,glavna,Herceg Novi,18.11.2026 17:10,16.80,97.0,0.00,0.20,22,,0.2,996.4
+02POSC30,klimatološka,Pošćenje,18.11.2026 17:00,11.78,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,18.11.2026 17:00,14.45,,,,,,,
+02NIKS10,glavna,Nikšić,18.11.2026 17:20,12.80,100.0,0.00,6.30,14,,0.3,927.5
+02DDOB30,klimatološka,Donja Dobrilovina,18.11.2026 17:00,11.46,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,18.11.2026 17:00,10.36,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,18.11.2026 17:00,10.60,100.0,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,18.11.2026 16:46,16.10,95.0,,1.00,,3.90,,1003.9
+02KOLS10,glavna,Kolašin,18.11.2026 17:20,12.00,95.0,0.00,1.40,22,,0.4,894.6
+02BAR010,glavna,Bar,18.11.2026 17:20,19.30,84.0,0.00,3.50,14,,0.6,1001.1
+02GRAD30,klimatološka,Gradac,18.11.2026 17:00,13.16,100.0,,,,,,
+02BOAN30,klimatološka,Boan,18.11.2026 17:00,12.18,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,18.11.2026 17:10,14.90,89.0,0.00,2.80,14,,0.6,928.7
+02SCPO30,klimatološka,Šćepan Polje,18.11.2026 17:00,13.15,100.0,,,,,,
