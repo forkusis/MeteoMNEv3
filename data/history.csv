@@ -132224,3 +132224,12 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02POSC30,klimatološka,Pošćenje,18.11.2026 11:00,11.16,100.0,,,,,,
 02LKOT20,klimatološka,Luka Kotor,18.11.2026 11:01,19.00,73.0,,3.20,,6.60,,1005.5
 02LKOT20,klimatološka,Luka Kotor,18.11.2026 11:16,19.40,66.0,,4.00,,6.90,,1005.3
+02MATE30,klimatološka,Matesevo,18.11.2026 12:00,10.83,93.7,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,18.11.2026 12:00,10.91,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,18.11.2026 12:00,10.98,90.1,,,,,,
+02LKOT20,klimatološka,Luka Kotor,18.11.2026 11:31,18.70,72.0,,0.70,,2.40,,1005.2
+02NJGV30,klimatološka,Njegovuđa,18.11.2026 12:00,9.98,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,18.11.2026 12:00,16.44,87.5,,,,,,
+02STIT30,klimatološka,Štitarica,18.11.2026 12:00,11.79,100.0,,,,,,
+02STAB30,klimatološka,Stabna,18.11.2026 12:00,13.38,100.0,,,,,,
+02VELK30,klimatološka,Velika,18.11.2026 12:00,14.41,89.6,,,,,,
