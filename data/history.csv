@@ -132333,3 +132333,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,18.11.2026 13:50,13.80,90.0,0.00,1.60,12,,18.7,929.0
 02NJGV30,klimatološka,Njegovuđa,18.11.2026 14:00,10.04,100.0,,,,,,
 02PDGR10,glavna,Podgorica,18.11.2026 14:00,17.60,84.0,0.00,1.50,16,,33.3,995.4
+02PDGR10,glavna,Podgorica,18.11.2026 14:20,17.70,82.0,0.00,4.30,16,,90.1,995.1
+02BERA20,glavna,Berane,18.11.2026 14:00,17.30,62.8,0.00,2.00,16,6.50,,920.91
+02IVKO30,klimatološka,Ivanova korita,18.11.2026 14:00,9.41,100.0,0.00,,,,,
+02BOAN30,klimatološka,Boan,18.11.2026 14:00,12.52,100.0,,,,,,
+02BAR010,glavna,Bar,18.11.2026 14:20,19.00,83.0,0.00,1.80,12,,16.1,1001.2
+02LKOT20,klimatološka,Luka Kotor,18.11.2026 13:46,20.10,67.0,,5.80,,9.90,,1003.8
+02STIT30,klimatološka,Štitarica,18.11.2026 14:00,12.00,100.0,,,,,,
+02NIKS10,glavna,Nikšić,18.11.2026 14:20,12.60,100.0,0.00,4.60,16,,25.4,927.6
+02KOSA30,klimatološka,Kosanica,18.11.2026 14:00,11.35,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,18.11.2026 14:00,10.78,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,18.11.2026 14:10,17.70,91.0,0.00,0.90,4,,20.2,996.7
+02SCPO30,klimatološka,Šćepan Polje,18.11.2026 14:00,16.85,83.8,,,,,,
+02CTNJ10,glavna,Cetinje,18.11.2026 14:20,14.00,86.0,0.00,0.70,22,,13.6,929.0
+02VELM20,klimatološka,Velimlje,18.11.2026 14:00,13.60,88.5,0.00,3.80,14,5.80,24.5,
+02ZBLJ10,glavna,Žabljak,18.11.2026 14:20,8.90,93.0,0.13,3.70,14,,16.3,840.5
+02DDOB30,klimatološka,Donja Dobrilovina,18.11.2026 14:00,13.87,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,18.11.2026 14:20,15.30,68.0,0.00,5.80,18,,94.2,909.5
+02GRAD30,klimatološka,Gradac,18.11.2026 14:00,18.39,66.6,,,,,,
+02ULCN10,glavna,Ulcinj,18.11.2026 14:20,19.20,84.0,0.00,5.20,18,,28.3,1001.4
+02BIST20,klimatološka,Bistrica,18.11.2026 14:00,15.10,68.8,0.00,3.80,22,7.60,123.1,
+02KOLS10,glavna,Kolašin,18.11.2026 14:20,11.00,98.0,0.00,0.50,20,,7.7,894.4
+02GOBU30,klimatološka,Gornja Bukovica,18.11.2026 14:00,9.41,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,18.11.2026 14:00,14.59,,,,,,,
+02KOVR30,klimatološka,Kovren,18.11.2026 14:00,13.73,100.0,0.00,,,,,
+02CRKV30,klimatološka,Crkvice,18.11.2026 14:00,11.76,100.0,,,,,,
+02BUDV20,klimatološka,Budva,18.11.2026 14:00,18.33,100.0,,,,,6.16,1000.89
+02BPLJ20,klimatološka,Bijelo Polje,18.11.2026 14:00,17.60,66.3,,,,,402.98,930.89
