@@ -133689,3 +133689,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02SCPO30,klimatološka,Šćepan Polje,19.11.2026 11:00,16.36,71.6,,,,,,
 02ULCN10,glavna,Ulcinj,19.11.2026 11:00,18.90,92.0,0.00,1.50,12,,93.5,1006.6
 02VELK30,klimatološka,Velika,19.11.2026 11:00,13.39,80.1,,,,,,
+02VELM20,klimatološka,Velimlje,19.11.2026 11:00,12.50,83.5,0.00,2.80,12,5.00,98.2,
+02ZBLJ10,glavna,Žabljak,19.11.2026 11:20,9.10,76.0,0.00,2.70,18,,305.0,844.1
+02PDGR10,glavna,Podgorica,19.11.2026 11:20,16.50,93.0,0.00,0.50,4,,71.4,1000.6
+02PLJV10,glavna,Pljevlja,19.11.2026 11:20,14.00,63.0,0.00,0.90,8,,34.2,914.8
+02BPLJ20,klimatološka,Bijelo Polje,19.11.2026 11:00,9.83,94.3,,,,,57.04,936.38
+02PLZN20,klimatološka,Pluzine,19.11.2026 11:00,12.60,100.0,0.00,1.70,22,5.90,50.39,922.0
+02GOBU30,klimatološka,Gornja Bukovica,19.11.2026 11:00,9.18,100.0,,,,,,
+02NIKS10,glavna,Nikšić,19.11.2026 11:20,12.40,100.0,0.00,4.40,14,,40.5,932.2
+02BUDV20,klimatološka,Budva,19.11.2026 11:00,19.15,93.8,,,,,51.07,1005.73
+02KOSA30,klimatološka,Kosanica,19.11.2026 11:00,10.45,92.3,,,,,,
+02ULCN10,glavna,Ulcinj,19.11.2026 11:20,19.10,91.0,0.00,1.20,16,3.50,67.6,1006.6
+02DDOB30,klimatološka,Donja Dobrilovina,19.11.2026 11:00,14.56,71.8,,,,,,
+02LKOT20,klimatološka,Luka Kotor,19.11.2026 10:46,16.20,90.0,,1.20,,2.20,,1008.8
+02BAR010,glavna,Bar,19.11.2026 11:20,19.70,74.0,0.00,1.20,12,,56.2,1006.1
+02GRAD30,klimatološka,Gradac,19.11.2026 11:00,7.78,100.0,,,,,,
+02BERA20,glavna,Berane,19.11.2026 11:00,15.18,61.1,0.00,1.30,16,5.60,,926.01
+02CTNJ10,glavna,Cetinje,19.11.2026 11:20,13.90,90.0,0.00,1.30,10,,55.8,933.5
+02BIST20,klimatološka,Bistrica,19.11.2026 11:00,15.30,58.1,0.00,7.90,20,13.80,225.5,
+02CRKV30,klimatološka,Crkvice,19.11.2026 11:00,11.97,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,19.11.2026 11:00,9.98,98.6,0.00,,,,,
+02BOAN30,klimatološka,Boan,19.11.2026 11:00,11.67,92.6,,,,,,
+02HNOV10,glavna,Herceg Novi,19.11.2026 11:10,17.90,88.0,0.00,2.00,8,,77.4,1001.4
+02KOLS10,glavna,Kolašin,19.11.2026 11:20,11.50,89.0,0.00,1.40,18,,157.0,899.4
+02KOVR30,klimatološka,Kovren,19.11.2026 11:00,10.50,100.0,0.00,,,,,
+02UBLI20,klimatološka,Ubli,19.11.2026 11:00,14.78,,,,,,,
