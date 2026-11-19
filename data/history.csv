@@ -133166,3 +133166,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,19.11.2026 03:00,14.90,97.0,0.00,0.40,26,,0.0,1004.4
 02KOLS10,glavna,Kolašin,19.11.2026 03:00,6.70,100.0,0.00,0.60,18,,0.0,898.4
 02VIRP20,klimatološka,Virpazar,19.11.2026 03:00,14.60,100.0,0.00,,,,,
+02BERA20,glavna,Berane,19.11.2026 03:00,8.95,97.4,0.00,0.70,10,2.30,,925.57
+02HNOV10,glavna,Herceg Novi,19.11.2026 03:10,13.80,100.0,0.00,0.50,24,,0.4,999.6
+02KOVR30,klimatološka,Kovren,19.11.2026 03:00,8.93,97.8,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,19.11.2026 03:00,6.77,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,19.11.2026 03:00,5.70,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,19.11.2026 03:00,5.85,100.0,,,,,,
+02BUDV20,klimatološka,Budva,19.11.2026 03:00,16.71,100.0,,,,,0.0,1003.37
+02IVKO30,klimatološka,Ivanova korita,19.11.2026 03:00,9.23,83.5,0.00,,,,,
+02UBLI20,klimatološka,Ubli,19.11.2026 03:00,11.08,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,19.11.2026 03:00,7.69,100.0,,,,,,
+02BOAN30,klimatološka,Boan,19.11.2026 03:00,5.86,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,19.11.2026 03:00,7.56,100.0,,,,,0.0,935.76
+02KOLS10,glavna,Kolašin,19.11.2026 03:20,6.80,100.0,0.00,1.20,22,,0.2,898.5
+02ULCN10,glavna,Ulcinj,19.11.2026 03:20,14.50,98.0,0.00,0.90,2,,0.0,1004.3
+02PLJV10,glavna,Pljevlja,19.11.2026 03:20,5.00,99.0,0.00,1.00,2,,0.3,914.9
+02GOBU30,klimatološka,Gornja Bukovica,19.11.2026 03:00,6.78,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,19.11.2026 03:00,6.99,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,19.11.2026 03:00,7.47,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,19.11.2026 03:20,8.00,63.0,0.00,1.10,14,,0.0,844.1
+02PDGR10,glavna,Podgorica,19.11.2026 03:20,13.40,100.0,0.00,1.00,4,,0.0,998.1
+02BAR010,glavna,Bar,19.11.2026 03:20,15.80,92.0,0.00,1.50,6,,1.0,1004.0
+02VELM20,klimatološka,Velimlje,19.11.2026 03:00,7.20,100.0,0.00,0.80,28,1.10,0.3,
+02LKOT20,klimatološka,Luka Kotor,19.11.2026 02:46,14.30,100.0,,0.70,,1.40,,1007.4
+02PLZN20,klimatološka,Pluzine,19.11.2026 03:00,9.84,100.0,0.00,1.30,12,2.60,0.03,920.97
+02NIKS10,glavna,Nikšić,19.11.2026 03:20,8.90,100.0,0.00,2.70,12,,0.0,931.0
+02CTNJ10,glavna,Cetinje,19.11.2026 03:10,10.70,84.0,0.00,0.20,26,,0.2,931.5
+02BIST20,klimatološka,Bistrica,19.11.2026 03:00,12.00,64.4,0.00,1.70,30,2.40,0.5,
