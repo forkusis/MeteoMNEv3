@@ -135543,3 +135543,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,20.11.2026 16:00,13.10,65.0,0.00,3.90,18,,24.7,936.3
 02MATE30,klimatološka,Matesevo,20.11.2026 16:00,10.38,67.9,0.00,,,,,
 02PLJV10,glavna,Pljevlja,20.11.2026 16:00,9.80,82.0,0.00,0.70,2,,12.9,920.9
+02BAR010,glavna,Bar,20.11.2026 16:20,17.70,71.0,0.00,2.40,18,,4.5,1011.5
+02POSC30,klimatološka,Pošćenje,20.11.2026 16:00,9.15,87.2,,,,,,
+02PDGR10,glavna,Podgorica,20.11.2026 16:20,17.00,72.0,0.00,2.60,14,,4.2,1005.0
+02KOSA30,klimatološka,Kosanica,20.11.2026 16:00,8.20,82.8,,,,,,
+02UBLI20,klimatološka,Ubli,20.11.2026 16:00,13.92,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,20.11.2026 16:00,9.98,90.5,,,,,,
+02STIT30,klimatološka,Štitarica,20.11.2026 16:00,10.41,82.2,,,,,,
+02HNOV10,glavna,Herceg Novi,20.11.2026 16:10,15.70,85.0,0.00,0.50,32,1.00,18.9,1006.7
+02SCPO30,klimatološka,Šćepan Polje,20.11.2026 16:00,9.19,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,20.11.2026 16:00,8.37,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,20.11.2026 16:00,12.86,71.6,0.00,2.10,16,6.20,5.05,926.07
+02GOBU30,klimatološka,Gornja Bukovica,20.11.2026 16:00,7.43,88.7,,,,,,
+02CRKV30,klimatološka,Crkvice,20.11.2026 16:00,9.24,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,20.11.2026 16:00,11.70,69.8,0.00,0.80,30,1.70,12.5,
+02LKOT20,klimatološka,Luka Kotor,20.11.2026 15:46,17.20,75.0,,2.10,,6.30,,1014.3
+02ULCN10,glavna,Ulcinj,20.11.2026 16:20,17.70,68.0,0.00,3.60,22,,4.7,1011.5
+02NIKS10,glavna,Nikšić,20.11.2026 16:20,12.70,67.0,0.00,6.90,18,,5.5,936.7
+02BUDV20,klimatološka,Budva,20.11.2026 16:00,17.86,79.7,,,,,24.97,1010.58
+02BIST20,klimatološka,Bistrica,20.11.2026 16:00,9.80,71.4,0.00,1.20,22,1.90,4.1,
+02ZBLJ10,glavna,Žabljak,20.11.2026 16:20,6.90,59.0,0.00,2.10,18,,2.9,848.9
+02BOAN30,klimatološka,Boan,20.11.2026 16:00,10.31,80.5,,,,,,
+02BERA20,glavna,Berane,20.11.2026 16:00,14.25,49.2,0.00,2.30,24,6.60,,930.89
+02KOLS10,glavna,Kolašin,20.11.2026 16:20,10.20,75.0,0.00,1.20,20,,2.1,903.3
+02BPLJ20,klimatološka,Bijelo Polje,20.11.2026 16:00,12.68,68.9,,,,,4.71,941.11
+02IVKO30,klimatološka,Ivanova korita,20.11.2026 16:00,7.39,91.4,0.00,,,,,
+02CTNJ10,glavna,Cetinje,20.11.2026 16:10,10.20,88.0,0.00,0.40,12,,7.2,937.7
+02PLJV10,glavna,Pljevlja,20.11.2026 16:20,8.00,85.0,0.00,1.50,12,,2.6,921.3
