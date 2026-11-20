@@ -135608,3 +135608,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,20.11.2026 17:00,16.30,72.0,0.00,1.60,16,,0.3,1005.5
 02VIRP20,klimatološka,Virpazar,20.11.2026 17:00,16.30,75.0,0.00,,,,,
 02KOLS10,glavna,Kolašin,20.11.2026 17:00,10.10,77.0,0.00,1.40,18,,0.0,903.9
+02KOLS10,glavna,Kolašin,20.11.2026 17:20,9.70,79.0,0.00,0.70,22,,0.2,904.0
+02BUDV20,klimatološka,Budva,20.11.2026 17:00,17.41,80.2,,,,,0.0,1011.24
+02BIST20,klimatološka,Bistrica,20.11.2026 17:00,11.80,55.4,0.00,3.40,24,5.80,2.1,
+02PLJV10,glavna,Pljevlja,20.11.2026 17:20,7.30,90.0,0.00,0.90,18,,0.7,921.4
+02STIT30,klimatološka,Štitarica,20.11.2026 17:00,10.16,82.9,,,,,,
+02BOAN30,klimatološka,Boan,20.11.2026 17:00,9.49,82.4,,,,,,
+02KOVR30,klimatološka,Kovren,20.11.2026 17:00,6.04,100.0,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,20.11.2026 17:00,11.69,74.5,,,,,0.37,941.73
+02HNOV10,glavna,Herceg Novi,20.11.2026 17:10,14.60,92.0,0.00,0.40,2,,1.0,1007.4
+02BAR010,glavna,Bar,20.11.2026 17:20,17.80,71.0,0.00,2.70,18,,0.2,1012.0
+02ZBLJ10,glavna,Žabljak,20.11.2026 17:20,6.90,60.0,0.00,3.10,16,,0.5,849.4
+02SCPO30,klimatološka,Šćepan Polje,20.11.2026 17:00,7.95,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,20.11.2026 17:10,10.20,83.0,0.00,1.60,14,,0.7,938.4
+02GOBU30,klimatološka,Gornja Bukovica,20.11.2026 17:00,6.92,97.5,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,20.11.2026 17:00,9.31,96.0,,,,,,
+02GRAD30,klimatološka,Gradac,20.11.2026 17:00,7.37,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,20.11.2026 17:00,13.23,,,,,,,
+02VELM20,klimatološka,Velimlje,20.11.2026 17:00,10.90,73.5,0.00,2.40,14,3.20,0.6,
+02ULCN10,glavna,Ulcinj,20.11.2026 17:20,17.90,62.0,0.00,5.10,18,,0.1,1012.2
+02POSC30,klimatološka,Pošćenje,20.11.2026 17:00,9.71,80.3,,,,,,
+02PLZN20,klimatološka,Pluzine,20.11.2026 17:00,12.45,73.6,0.00,3.00,18,8.70,0.0,926.56
+02LKOT20,klimatološka,Luka Kotor,20.11.2026 16:46,16.70,75.0,,,,,,1015.0
+02PDGR10,glavna,Podgorica,20.11.2026 17:20,16.10,75.0,0.00,1.50,14,,0.3,1005.9
+02IVKO30,klimatološka,Ivanova korita,20.11.2026 17:00,6.94,93.9,0.00,,,,,
+02NIKS10,glavna,Nikšić,20.11.2026 17:20,11.70,73.0,0.00,2.80,16,,0.0,937.4
+02BERA20,glavna,Berane,20.11.2026 17:00,12.84,55.6,0.00,0.60,20,1.50,,931.62
+02KOSA30,klimatološka,Kosanica,20.11.2026 17:00,5.36,100.0,,,,,,
