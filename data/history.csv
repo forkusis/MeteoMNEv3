@@ -134958,3 +134958,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,20.11.2026 07:00,3.67,94.0,,,,,,
 02VELK30,klimatološka,Velika,20.11.2026 07:00,5.94,100.0,,,,,,
 02PDGR10,glavna,Podgorica,20.11.2026 07:00,12.50,96.0,0.00,1.30,6,,10.0,1001.9
+02BERA20,glavna,Berane,20.11.2026 07:00,6.55,99.8,0.00,0.50,4,1.90,,928.95
+02KOLS10,glavna,Kolašin,20.11.2026 07:20,5.00,100.0,0.00,0.70,16,,14.5,902.1
+02STIT30,klimatološka,Štitarica,20.11.2026 07:00,4.76,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,20.11.2026 07:00,2.35,100.0,,,,,,
+02BOAN30,klimatološka,Boan,20.11.2026 07:00,4.15,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,20.11.2026 07:20,2.50,96.0,0.00,0.10,4,,16.0,918.8
+02KOVR30,klimatološka,Kovren,20.11.2026 07:00,7.89,91.2,0.00,,,,,
+02CTNJ10,glavna,Cetinje,20.11.2026 07:10,5.50,99.0,0.00,0.20,12,,13.0,935.7
+02IVKO30,klimatološka,Ivanova korita,20.11.2026 07:00,4.88,100.0,0.00,,,,,
+02POSC30,klimatološka,Pošćenje,20.11.2026 07:00,3.56,100.0,,,,,,
+02NIKS10,glavna,Nikšić,20.11.2026 07:20,7.10,99.0,0.00,2.70,2,,45.7,935.1
+02KOSA30,klimatološka,Kosanica,20.11.2026 07:00,5.93,90.2,,,,,,
+02GRAD30,klimatološka,Gradac,20.11.2026 07:00,1.50,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,20.11.2026 07:00,11.08,,,,,,,
+02PLZN20,klimatološka,Pluzine,20.11.2026 07:00,6.46,100.0,0.00,1.40,12,2.90,20.59,925.1
+02HNOV10,glavna,Herceg Novi,20.11.2026 07:20,11.40,91.0,0.00,0.70,32,,23.0,1004.2
+02BPLJ20,klimatološka,Bijelo Polje,20.11.2026 07:00,8.12,91.4,,,,,6.18,939.18
+02ZBLJ10,glavna,Žabljak,20.11.2026 07:20,6.00,53.0,0.00,6.90,22,12.20,18.0,846.9
+02BUDV20,klimatološka,Budva,20.11.2026 07:00,12.89,100.0,,,,,7.42,1007.91
+02SCPO30,klimatološka,Šćepan Polje,20.11.2026 07:00,3.97,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,20.11.2026 07:00,4.50,100.0,0.00,0.90,20,1.10,10.4,
+02ULCN10,glavna,Ulcinj,20.11.2026 07:20,14.50,88.0,0.00,1.10,26,2.70,19.6,1008.7
+02BAR010,glavna,Bar,20.11.2026 07:20,14.30,85.0,0.00,1.10,6,,33.2,1008.8
+02LKOT20,klimatološka,Luka Kotor,20.11.2026 06:46,12.30,96.0,,0.90,,1.50,,1011.9
+02PDGR10,glavna,Podgorica,20.11.2026 07:20,12.10,98.0,0.00,0.20,20,,23.7,1002.4
+02DDOB30,klimatološka,Donja Dobrilovina,20.11.2026 07:00,7.23,100.0,,,,,,
