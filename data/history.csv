@@ -135478,3 +135478,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,20.11.2026 15:00,9.14,72.1,,,,,,
 02HNOV10,glavna,Herceg Novi,20.11.2026 14:50,17.30,75.0,0.00,1.10,4,,44.0,1005.9
 02PLJV10,glavna,Pljevlja,20.11.2026 15:00,13.30,51.0,0.00,1.70,18,,181.2,919.7
+02POSC30,klimatološka,Pošćenje,20.11.2026 15:00,9.83,79.2,,,,,,
+02ULCN10,glavna,Ulcinj,20.11.2026 15:20,18.20,67.0,0.00,3.30,22,,112.7,1011.3
+02GRAD30,klimatološka,Gradac,20.11.2026 15:00,13.98,60.3,,,,,,
+02KOSA30,klimatološka,Kosanica,20.11.2026 15:00,7.87,86.2,,,,,,
+02STIT30,klimatološka,Štitarica,20.11.2026 15:00,9.03,100.0,,,,,,
+02PDGR10,glavna,Podgorica,20.11.2026 15:20,19.30,55.0,0.00,4.70,18,,106.9,1004.3
+02LKOT20,klimatološka,Luka Kotor,20.11.2026 14:46,18.00,66.0,,1.80,,4.60,,1013.8
+02GOBU30,klimatološka,Gornja Bukovica,20.11.2026 15:00,7.01,89.5,,,,,,
+02IVKO30,klimatološka,Ivanova korita,20.11.2026 15:00,7.81,94.1,0.00,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,20.11.2026 15:00,14.57,59.9,,,,,36.34,940.89
+02VELM20,klimatološka,Velimlje,20.11.2026 15:00,13.80,59.3,0.00,2.50,22,3.50,170.8,
+02DDOB30,klimatološka,Donja Dobrilovina,20.11.2026 15:00,10.47,86.9,,,,,,
+02KOLS10,glavna,Kolašin,20.11.2026 15:20,10.70,76.0,0.00,0.90,20,,24.0,903.2
+02BUDV20,klimatološka,Budva,20.11.2026 15:00,18.53,75.4,,,,,143.58,1010.03
+02UBLI20,klimatološka,Ubli,20.11.2026 15:00,16.10,,,,,,,
+02BOAN30,klimatološka,Boan,20.11.2026 15:00,10.37,81.1,,,,,,
+02NIKS10,glavna,Nikšić,20.11.2026 15:20,15.00,60.0,0.00,5.70,18,,121.8,935.9
+02PLZN20,klimatološka,Pluzine,20.11.2026 15:00,13.55,67.2,0.00,1.20,18,2.70,98.65,925.64
+02CRKV30,klimatološka,Crkvice,20.11.2026 15:00,10.41,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,20.11.2026 15:20,13.10,51.0,0.00,1.40,18,,38.8,919.9
+02BIST20,klimatološka,Bistrica,20.11.2026 15:00,11.90,58.3,0.00,1.80,18,3.20,44.9,
+02SCPO30,klimatološka,Šćepan Polje,20.11.2026 15:00,13.82,76.9,,,,,,
+02ZBLJ10,glavna,Žabljak,20.11.2026 15:20,7.30,58.0,0.00,2.20,18,,36.9,848.8
+02BAR010,glavna,Bar,20.11.2026 15:20,18.40,70.0,0.00,2.60,18,,139.9,1010.9
+02CTNJ10,glavna,Cetinje,20.11.2026 15:10,12.80,73.0,0.00,0.80,12,,44.8,937.3
+02BERA20,glavna,Berane,20.11.2026 15:00,16.25,46.6,0.00,1.10,24,3.00,,930.66
+02HNOV10,glavna,Herceg Novi,20.11.2026 15:10,17.00,75.0,0.00,1.50,10,,39.6,1006.0
