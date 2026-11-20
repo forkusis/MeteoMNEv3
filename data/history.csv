@@ -135095,3 +135095,19 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,20.11.2026 08:31,12.50,96.0,,1.30,,2.20,,1013.1
 02MATE30,klimatološka,Matesevo,20.11.2026 09:00,8.29,94.8,0.00,,,,,
 02STAB30,klimatološka,Stabna,20.11.2026 09:00,6.12,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,20.11.2026 09:00,14.84,,,,,,,
+02KOLS10,glavna,Kolašin,20.11.2026 09:20,8.30,89.0,0.00,0.70,16,,49.0,902.9
+02PDGR10,glavna,Podgorica,20.11.2026 09:20,17.90,78.0,0.00,1.10,16,,313.5,1003.9
+02ZBLJ10,glavna,Žabljak,20.11.2026 09:20,7.60,50.0,0.00,1.40,26,,159.1,847.8
+02PLJV10,glavna,Pljevlja,20.11.2026 09:20,7.90,80.0,0.00,0.50,16,,324.4,919.7
+02LKOT20,klimatološka,Luka Kotor,20.11.2026 08:46,13.10,93.0,,0.90,,2.30,,1013.4
+02SCPO30,klimatološka,Šćepan Polje,20.11.2026 09:00,6.23,100.0,,,,,,
+02NIKS10,glavna,Nikšić,20.11.2026 09:20,11.60,84.0,0.00,1.10,30,,330.9,936.2
+02CTNJ10,glavna,Cetinje,20.11.2026 09:10,11.00,80.0,0.00,0.40,20,,213.3,936.7
+02POSC30,klimatološka,Pošćenje,20.11.2026 09:00,9.96,93.8,,,,,,
+02BUDV20,klimatološka,Budva,20.11.2026 09:00,19.38,81.6,,,,,321.68,1009.45
+02ULCN10,glavna,Ulcinj,20.11.2026 09:20,19.00,70.0,0.00,1.90,22,,347.0,1010.1
+02HNOV10,glavna,Herceg Novi,20.11.2026 09:10,16.70,70.0,0.00,1.30,10,,283.7,1005.7
+02DDOB30,klimatološka,Donja Dobrilovina,20.11.2026 09:00,7.76,98.3,,,,,,
+02BAR010,glavna,Bar,20.11.2026 09:20,18.60,76.0,0.00,0.70,18,,306.3,1010.1
+02STIT30,klimatološka,Štitarica,20.11.2026 09:00,11.35,75.8,,,,,,
