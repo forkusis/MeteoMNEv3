@@ -134895,3 +134895,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MATE30,klimatološka,Matesevo,20.11.2026 06:00,5.70,95.9,0.00,,,,,
 02ZBLJ10,glavna,Žabljak,20.11.2026 06:00,5.50,55.0,0.00,4.30,22,,1.0,846.4
 02ULCN10,glavna,Ulcinj,20.11.2026 06:00,15.40,91.0,0.00,2.20,30,,0.9,1007.6
+02KOSA30,klimatološka,Kosanica,20.11.2026 06:00,5.98,94.3,,,,,,
+02KOLS10,glavna,Kolašin,20.11.2026 06:20,6.00,98.0,0.00,0.70,20,,0.6,901.2
+02ULCN10,glavna,Ulcinj,20.11.2026 06:20,14.40,90.0,0.00,1.80,28,,0.3,1007.9
+02BAR010,glavna,Bar,20.11.2026 06:20,14.40,86.0,0.00,2.10,10,,1.1,1007.9
+02LKOT20,klimatološka,Luka Kotor,20.11.2026 05:46,12.90,93.0,,0.90,,1.70,,1010.8
+02BOAN30,klimatološka,Boan,20.11.2026 06:00,5.55,100.0,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,20.11.2026 06:00,6.87,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,20.11.2026 06:00,2.66,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,20.11.2026 06:00,9.90,73.2,,,,,0.0,938.47
+02PDGR10,glavna,Podgorica,20.11.2026 06:20,13.00,97.0,0.00,0.80,6,,0.0,1001.4
+02IVKO30,klimatološka,Ivanova korita,20.11.2026 06:00,6.41,85.9,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,20.11.2026 06:00,6.93,100.0,0.00,1.30,14,2.30,10.55,924.48
+02BERA20,glavna,Berane,20.11.2026 06:00,7.76,94.7,0.00,1.10,32,2.10,,928.36
+02UBLI20,klimatološka,Ubli,20.11.2026 06:00,10.23,,,,,,,
+02GRAD30,klimatološka,Gradac,20.11.2026 06:00,2.04,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,20.11.2026 06:00,5.20,99.8,0.00,0.70,6,1.40,0.0,
+02PLJV10,glavna,Pljevlja,20.11.2026 06:20,2.90,95.0,0.00,0.80,8,,0.8,918.0
+02STIT30,klimatološka,Štitarica,20.11.2026 06:00,4.45,100.0,,,,,,
+02BUDV20,klimatološka,Budva,20.11.2026 06:00,13.85,96.0,,,,,0.0,1006.88
+02POSC30,klimatološka,Pošćenje,20.11.2026 06:00,4.01,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,20.11.2026 06:10,12.00,91.0,0.00,0.70,2,,0.0,1002.9
+02KOVR30,klimatološka,Kovren,20.11.2026 06:00,7.56,93.2,0.00,,,,,
+02NIKS10,glavna,Nikšić,20.11.2026 06:20,7.20,100.0,0.00,1.90,32,,0.4,933.9
+02SCPO30,klimatološka,Šćepan Polje,20.11.2026 06:00,4.18,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,20.11.2026 06:20,6.10,57.0,0.00,6.40,22,,0.6,846.3
+02CTNJ10,glavna,Cetinje,20.11.2026 06:20,6.20,99.0,0.00,0.40,12,,0.3,934.9
