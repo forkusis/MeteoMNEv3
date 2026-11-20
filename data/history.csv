@@ -134770,3 +134770,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,20.11.2026 04:00,16.30,74.0,0.00,,,,,
 02LKOT20,klimatološka,Luka Kotor,20.11.2026 03:31,15.20,74.0,,0.40,,1.70,,1009.2
 02ULCN10,glavna,Ulcinj,20.11.2026 04:00,15.60,94.0,0.00,0.30,30,,0.0,1006.1
+02KOVR30,klimatološka,Kovren,20.11.2026 04:00,8.74,92.1,0.00,,,,,
+02STIT30,klimatološka,Štitarica,20.11.2026 04:00,5.94,100.0,,,,,,
+02NIKS10,glavna,Nikšić,20.11.2026 04:20,8.80,100.0,0.00,1.30,32,,0.0,932.8
+02IVKO30,klimatološka,Ivanova korita,20.11.2026 04:00,6.47,100.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,20.11.2026 04:20,8.90,89.0,0.00,0.70,12,,0.3,899.9
+02DDOB30,klimatološka,Donja Dobrilovina,20.11.2026 04:00,8.36,98.4,,,,,,
+02ULCN10,glavna,Ulcinj,20.11.2026 04:20,15.60,88.0,0.00,1.10,28,,0.4,1006.3
+02BPLJ20,klimatološka,Bijelo Polje,20.11.2026 04:00,14.02,56.5,,,,,0.0,937.29
+02GRAD30,klimatološka,Gradac,20.11.2026 04:00,4.03,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,20.11.2026 04:20,4.80,90.0,0.00,0.70,28,,1.1,916.9
+02VELM20,klimatološka,Velimlje,20.11.2026 04:00,5.90,100.0,0.00,0.70,28,1.20,0.1,
+02ZBLJ10,glavna,Žabljak,20.11.2026 04:20,5.80,75.0,0.00,0.70,10,,0.2,845.8
+02KOSA30,klimatološka,Kosanica,20.11.2026 04:00,6.00,97.3,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,20.11.2026 04:00,5.42,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,20.11.2026 04:00,4.74,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,20.11.2026 04:10,9.30,88.0,0.00,0.50,12,,0.6,933.5
+02BUDV20,klimatološka,Budva,20.11.2026 04:00,16.70,80.2,,,,,0.0,1005.28
+02PLZN20,klimatološka,Pluzine,20.11.2026 04:00,7.84,100.0,0.00,1.20,26,2.20,4.09,923.11
+02HNOV10,glavna,Herceg Novi,20.11.2026 04:10,13.80,80.0,0.00,0.70,26,,0.7,1001.6
+02POSC30,klimatološka,Pošćenje,20.11.2026 04:00,5.00,100.0,,,,,,
+02BERA20,glavna,Berane,20.11.2026 04:00,9.76,90.5,0.00,0.80,10,2.30,,927.07
+02LKOT20,klimatološka,Luka Kotor,20.11.2026 03:46,15.50,75.0,,1.10,,1.80,,1009.3
+02PDGR10,glavna,Podgorica,20.11.2026 04:20,13.60,97.0,0.00,0.80,6,,0.5,999.9
+02BOAN30,klimatološka,Boan,20.11.2026 04:00,9.04,92.3,,,,,,
+02BAR010,glavna,Bar,20.11.2026 04:20,15.90,90.0,0.00,0.80,8,,0.3,1006.1
+02UBLI20,klimatološka,Ubli,20.11.2026 04:00,12.31,,,,,,,
