@@ -135067,3 +135067,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,20.11.2026 08:16,12.30,96.0,,0.00,,1.90,,1013.0
 02KOLS10,glavna,Kolašin,20.11.2026 08:50,6.40,97.0,0.00,0.10,8,,45.3,902.9
 02PLJV10,glavna,Pljevlja,20.11.2026 08:50,6.20,82.0,0.00,0.80,14,,150.7,919.5
+02GRAD30,klimatološka,Gradac,20.11.2026 09:00,4.14,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,20.11.2026 09:00,18.80,72.0,0.00,2.30,24,,300.6,1009.7
+02PDGR10,glavna,Podgorica,20.11.2026 09:00,16.70,78.0,0.00,0.60,10,,260.1,1003.7
+02BAR010,glavna,Bar,20.11.2026 09:00,18.60,74.0,0.00,0.50,16,,267.5,1009.7
+02MOKR30,klimatološka,Mokro,20.11.2026 09:00,10.05,74.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,20.11.2026 09:00,7.36,78.8,,,,,,
+02IVKO30,klimatološka,Ivanova korita,20.11.2026 09:00,8.13,87.8,0.00,,,,,
+02BERA20,glavna,Berane,20.11.2026 09:00,13.84,60.6,0.00,1.70,20,4.40,,930.32
+02KOSA30,klimatološka,Kosanica,20.11.2026 09:00,9.84,76.4,,,,,,
+02MAMO30,klimatološka,Manastir Morača,20.11.2026 09:00,11.08,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,20.11.2026 09:00,7.31,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,20.11.2026 08:50,16.10,74.0,0.00,0.10,6,,267.1,1005.2
+02KOLS10,glavna,Kolašin,20.11.2026 09:00,6.90,96.0,0.00,0.70,22,,44.0,902.9
+02VIRP20,klimatološka,Virpazar,20.11.2026 09:00,19.10,63.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,20.11.2026 09:00,7.01,100.0,0.00,0.60,2,1.70,53.12,925.81
+02DANL20,klimatološka,Danilovgrad,20.11.2026 09:00,12.90,,0.00,,,,,
+02VELK30,klimatološka,Velika,20.11.2026 09:00,8.28,96.2,,,,,,
+02NIKS10,glavna,Nikšić,20.11.2026 09:00,10.70,87.0,0.00,0.60,32,,292.9,936.0
+02KOVR30,klimatološka,Kovren,20.11.2026 09:00,12.15,66.3,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,20.11.2026 09:00,7.60,50.0,0.00,2.70,22,,128.8,847.7
+02VELM20,klimatološka,Velimlje,20.11.2026 09:00,7.70,88.3,0.00,0.30,4,0.70,269.9,
+02BPLJ20,klimatološka,Bijelo Polje,20.11.2026 09:00,9.80,84.7,,,,,69.14,940.32
+02GOBU30,klimatološka,Gornja Bukovica,20.11.2026 09:00,7.70,99.8,,,,,,
+02BOAN30,klimatološka,Boan,20.11.2026 09:00,6.66,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,20.11.2026 09:00,7.10,83.0,0.00,1.30,18,,207.9,919.6
+02LKOT20,klimatološka,Luka Kotor,20.11.2026 08:31,12.50,96.0,,1.30,,2.20,,1013.1
+02MATE30,klimatološka,Matesevo,20.11.2026 09:00,8.29,94.8,0.00,,,,,
+02STAB30,klimatološka,Stabna,20.11.2026 09:00,6.12,100.0,,,,,,
