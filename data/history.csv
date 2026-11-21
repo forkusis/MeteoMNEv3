@@ -136301,3 +136301,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,21.11.2026 13:00,8.21,67.8,,,,,,
 02MAMO30,klimatološka,Manastir Morača,21.11.2026 13:00,13.04,81.6,0.07,,,,,
 02VIRP20,klimatološka,Virpazar,21.11.2026 13:00,14.70,68.0,0.00,,,,,
+02PLZN20,klimatološka,Pluzine,21.11.2026 13:00,11.83,74.9,0.00,2.70,16,5.40,447.51,931.37
+02BIST20,klimatološka,Bistrica,21.11.2026 13:00,12.90,50.8,0.00,5.10,16,7.50,438.7,
+02UBLI20,klimatološka,Ubli,21.11.2026 13:00,13.12,,,,,,,
+02VELM20,klimatološka,Velimlje,21.11.2026 13:00,12.10,68.7,0.00,2.30,24,3.40,228.5,
+02BOAN30,klimatološka,Boan,21.11.2026 13:00,8.72,83.7,,,,,,
+02CTNJ10,glavna,Cetinje,21.11.2026 13:20,13.50,60.0,0.00,1.70,20,,237.6,942.0
+02CRKV30,klimatološka,Crkvice,21.11.2026 13:00,9.64,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,21.11.2026 13:10,17.40,68.0,0.00,2.60,16,,120.3,1011.6
+02DDOB30,klimatološka,Donja Dobrilovina,21.11.2026 13:00,8.42,85.3,,,,,,
+02BERA20,glavna,Berane,21.11.2026 13:00,14.36,48.0,0.00,3.70,20,9.60,,935.74
+02BAR010,glavna,Bar,21.11.2026 13:20,17.70,66.0,0.00,1.00,18,,118.7,1016.3
+02KUKO30,klimatološka,Kučka korita,21.11.2026 13:00,7.21,78.3,0.00,,,,,
+02ULCN10,glavna,Ulcinj,21.11.2026 13:20,18.30,59.0,0.00,1.60,16,,383.8,1016.6
+02GOBU30,klimatološka,Gornja Bukovica,21.11.2026 13:00,6.53,86.6,,,,,,
+02PDGR10,glavna,Podgorica,21.11.2026 13:20,16.40,59.0,0.00,0.60,14,,143.8,1010.2
+02IVKO30,klimatološka,Ivanova korita,21.11.2026 13:00,6.37,90.3,0.00,,,,,
+02GRAD30,klimatološka,Gradac,21.11.2026 13:00,14.16,49.8,,,,,,
+02NIKS10,glavna,Nikšić,21.11.2026 13:20,13.10,61.0,0.00,2.40,28,,241.8,941.1
+02BUDV20,klimatološka,Budva,21.11.2026 13:00,19.09,63.2,,,,,542.03,1015.85
+02LKOT20,klimatološka,Luka Kotor,21.11.2026 12:46,15.00,67.0,,2.80,,4.80,,1019.5
+02PLJV10,glavna,Pljevlja,21.11.2026 13:20,12.00,48.0,0.00,1.00,26,,59.5,924.5
+02POSC30,klimatološka,Pošćenje,21.11.2026 13:00,10.43,81.8,,,,,,
+02STIT30,klimatološka,Štitarica,21.11.2026 13:00,10.34,58.8,,,,,,
+02ZBLJ10,glavna,Žabljak,21.11.2026 13:20,7.10,56.0,0.00,1.70,18,,405.7,853.1
+02KOSA30,klimatološka,Kosanica,21.11.2026 13:00,8.85,70.6,,,,,,
+02KOLS10,glavna,Kolašin,21.11.2026 13:20,9.80,68.0,0.00,1.50,22,,142.1,908.2
+02SCPO30,klimatološka,Šćepan Polje,21.11.2026 13:00,15.09,63.1,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,21.11.2026 13:00,15.04,43.9,,,,,306.16,945.48
