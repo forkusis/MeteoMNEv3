@@ -135990,3 +135990,26 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,20.11.2026 23:00,4.30,98.0,0.00,1.90,6,2.40,0.7,923.0
 02NIKS10,glavna,Nikšić,20.11.2026 23:00,8.10,90.0,0.00,2.10,6,,0.3,939.1
 02BERA20,glavna,Berane,20.11.2026 23:00,8.16,85.9,0.00,0.90,,3.00,,934.38
+02PDGR10,glavna,Podgorica,21.11.2026 08:20,11.70,68.0,0.00,1.20,,,0.8,1007.4
+02BAR010,glavna,Bar,21.11.2026 08:20,13.00,76.0,0.00,2.20,10,,196.0,1015.1
+02KOVR30,klimatološka,Kovren,21.11.2026 08:00,3.32,100.0,0.00,,,,,
+02PLJV10,glavna,Pljevlja,21.11.2026 08:20,3.30,98.0,0.00,0.90,,,0.7,923.0
+02CTNJ10,glavna,Cetinje,21.11.2026 08:10,5.80,100.0,0.00,0.40,,,0.4,939.9
+02BPLJ20,klimatološka,Bijelo Polje,21.11.2026 08:00,4.63,100.0,,,,,14.69,944.0
+02KOLS10,glavna,Kolašin,21.11.2026 08:20,3.10,95.0,0.00,0.90,,,32.7,906.0
+02HNOV10,glavna,Herceg Novi,21.11.2026 08:10,11.30,89.0,0.00,0.00,,,0.0,1008.4
+02BOAN30,klimatološka,Boan,21.11.2026 08:00,1.74,100.0,,,,,,
+02BERA20,glavna,Berane,21.11.2026 08:00,4.78,98.4,0.00,1.60,6,3.20,,935.44
+02BIST20,klimatološka,Bistrica,21.11.2026 08:00,3.70,95.2,0.00,1.80,2,2.00,26.1,
+02GRAD30,klimatološka,Gradac,21.11.2026 08:00,3.95,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,21.11.2026 08:00,9.30,,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,21.11.2026 08:00,5.17,92.7,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,21.11.2026 08:01,9.40,90.0,,0.60,,1.10,,1016.3
+02GOBU30,klimatološka,Gornja Bukovica,21.11.2026 08:00,1.86,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,21.11.2026 08:20,10.70,70.0,0.00,1.50,,,0.1,1012.8
+02NIKS10,glavna,Nikšić,21.11.2026 08:20,6.90,90.0,0.00,0.60,,,0.3,939.1
+02PLZN20,klimatološka,Pluzine,21.11.2026 08:00,5.04,100.0,0.00,1.50,,2.70,0.0,928.85
+02DDOB30,klimatološka,Donja Dobrilovina,21.11.2026 08:00,3.06,100.0,,,,,,
+02BUDV20,klimatološka,Budva,21.11.2026 08:00,12.07,100.0,,,,,7.21,1012.39
+02KOSA30,klimatološka,Kosanica,21.11.2026 08:00,2.76,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,21.11.2026 08:00,6.55,100.0,,,,,,
