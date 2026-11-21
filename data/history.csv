@@ -136431,3 +136431,26 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,21.11.2026 15:00,8.47,64.6,,,,,,
 02STIT30,klimatološka,Štitarica,21.11.2026 15:00,6.50,93.6,,,,,,
 02VIRP20,klimatološka,Virpazar,21.11.2026 15:00,16.40,68.0,0.00,,,,,
+02CTNJ10,glavna,Cetinje,21.11.2026 15:20,12.30,70.0,0.00,0.90,32,,83.4,942.3
+02BAR010,glavna,Bar,21.11.2026 15:20,17.70,67.0,0.00,0.50,14,,113.4,1016.4
+02NIKS10,glavna,Nikšić,21.11.2026 15:20,13.20,64.0,0.00,2.60,16,,115.4,941.4
+02ZBLJ10,glavna,Žabljak,21.11.2026 15:20,5.70,64.0,0.00,1.50,14,,26.9,853.2
+02BIST20,klimatološka,Bistrica,21.11.2026 15:00,10.50,56.0,0.00,0.50,26,0.90,27.2,
+02KOLS10,glavna,Kolašin,21.11.2026 15:20,8.50,77.0,0.00,0.30,14,,24.9,908.4
+02UBLI20,klimatološka,Ubli,21.11.2026 15:00,12.68,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,21.11.2026 14:46,12.90,82.0,,0.80,,1.70,,1019.9
+02DDOB30,klimatološka,Donja Dobrilovina,21.11.2026 15:00,9.13,77.2,,,,,,
+02CRKV30,klimatološka,Crkvice,21.11.2026 15:00,7.69,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,21.11.2026 15:00,14.15,48.6,,,,,182.71,945.54
+02BOAN30,klimatološka,Boan,21.11.2026 15:00,9.46,75.5,,,,,,
+02VELM20,klimatološka,Velimlje,21.11.2026 15:00,11.30,68.8,0.00,4.40,20,6.80,40.2,
+02IVKO30,klimatološka,Ivanova korita,21.11.2026 15:00,6.02,94.8,0.00,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,21.11.2026 15:00,6.98,86.3,,,,,,
+02KOSA30,klimatološka,Kosanica,21.11.2026 15:00,8.36,69.8,,,,,,
+02ULCN10,glavna,Ulcinj,21.11.2026 15:20,15.40,75.0,0.00,1.10,24,,43.2,1016.5
+02PLJV10,glavna,Pljevlja,21.11.2026 15:20,12.50,45.0,0.00,0.90,2,,110.1,924.6
+02KUKO30,klimatološka,Kučka korita,21.11.2026 15:00,6.51,79.6,0.00,,,,,
+02GRAD30,klimatološka,Gradac,21.11.2026 15:00,10.10,76.5,,,,,,
+02PDGR10,glavna,Podgorica,21.11.2026 15:20,16.40,61.0,0.00,0.40,14,,68.0,1010.3
+02BERA20,glavna,Berane,21.11.2026 15:00,13.05,49.9,0.00,3.10,20,8.00,,935.88
+02HNOV10,glavna,Herceg Novi,21.11.2026 15:10,16.70,73.0,0.00,0.20,14,,91.4,1011.8
