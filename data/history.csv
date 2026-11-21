@@ -136892,3 +136892,32 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,21.11.2026 22:00,4.10,97.0,0.00,0.60,18,,0.4,911.3
 02PDGR10,glavna,Podgorica,21.11.2026 22:00,10.70,87.0,0.00,0.90,2,,0.0,1013.3
 02CTNJ10,glavna,Cetinje,21.11.2026 22:00,3.20,99.0,0.00,0.40,2,,1.1,945.0
+02DDOB30,klimatološka,Donja Dobrilovina,21.11.2026 22:00,3.10,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,21.11.2026 22:20,3.00,100.0,0.00,0.30,12,,0.2,945.2
+02STIT30,klimatološka,Štitarica,21.11.2026 22:00,1.72,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,21.11.2026 22:00,2.37,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,21.11.2026 22:00,4.80,100.0,0.00,2.60,14,3.60,2.5,
+02PLZN20,klimatološka,Pluzine,21.11.2026 22:00,7.05,100.0,0.00,0.40,32,1.00,0.0,934.53
+02IVKO30,klimatološka,Ivanova korita,21.11.2026 22:00,1.89,100.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,21.11.2026 22:00,2.40,94.1,0.00,0.30,18,0.50,2.2,
+02PDGR10,glavna,Podgorica,21.11.2026 22:20,10.40,89.0,0.00,0.90,22,,0.2,1013.3
+02ULCN10,glavna,Ulcinj,21.11.2026 22:20,9.90,92.0,0.00,1.40,30,,0.4,1019.0
+02GRAD30,klimatološka,Gradac,21.11.2026 22:00,2.41,100.0,,,,,,
+02BOAN30,klimatološka,Boan,21.11.2026 22:00,3.05,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,21.11.2026 22:10,10.10,96.0,0.00,1.30,22,,0.0,1014.4
+02UBLI20,klimatološka,Ubli,21.11.2026 22:00,8.60,,,,,,,
+02PLJV10,glavna,Pljevlja,21.11.2026 22:20,4.80,87.0,0.00,0.90,24,,1.2,929.1
+02KUKO30,klimatološka,Kučka korita,21.11.2026 22:00,2.55,100.0,0.00,,,,,
+02KOLS10,glavna,Kolašin,21.11.2026 22:20,3.80,97.0,0.00,0.70,22,,0.4,911.4
+02BPLJ20,klimatološka,Bijelo Polje,21.11.2026 22:00,4.68,92.2,,,,,0.0,950.33
+02ZBLJ10,glavna,Žabljak,21.11.2026 22:20,-0.30,93.0,0.00,0.30,22,,0.0,856.0
+02LKOT20,klimatološka,Luka Kotor,21.11.2026 21:46,10.10,99.0,,0.50,,1.30,,1022.3
+02POSC30,klimatološka,Pošćenje,21.11.2026 22:00,2.20,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,21.11.2026 22:00,4.06,100.0,,,,,,
+02BERA20,glavna,Berane,21.11.2026 22:00,4.10,89.7,0.00,0.60,12,2.50,,939.84
+02NIKS10,glavna,Nikšić,21.11.2026 22:20,6.00,96.0,0.00,0.60,26,,0.0,944.5
+02BUDV20,klimatološka,Budva,21.11.2026 22:00,12.04,100.0,,,,,0.0,1018.02
+02SCPO30,klimatološka,Šćepan Polje,21.11.2026 22:00,4.57,100.0,,,,,,
+02BAR010,glavna,Bar,21.11.2026 22:20,12.40,86.0,0.00,1.40,10,,0.4,1018.6
+02KOVR30,klimatološka,Kovren,21.11.2026 22:00,3.30,100.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,21.11.2026 22:00,-0.95,100.0,,,,,,
