@@ -138337,3 +138337,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,22.11.2026 20:00,13.70,89.0,0.00,0.60,32,,0.0,1003.2
 02BAR010,glavna,Bar,22.11.2026 20:00,16.60,74.0,0.00,3.80,12,,0.0,1008.4
 02STAB30,klimatološka,Stabna,22.11.2026 20:00,7.87,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,22.11.2026 20:10,16.80,87.0,0.00,2.80,8,,0.2,1003.0
+02STIT30,klimatološka,Štitarica,22.11.2026 20:00,8.56,96.9,,,,,,
+02BUDV20,klimatološka,Budva,22.11.2026 20:00,17.66,81.7,,,,,2.19,1007.91
+02KOVR30,klimatološka,Kovren,22.11.2026 20:00,6.70,100.0,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,22.11.2026 20:00,7.20,100.0,0.00,,,,,
+02VELM20,klimatološka,Velimlje,22.11.2026 20:00,9.30,92.3,0.00,3.20,12,5.60,0.6,
+02BERA20,glavna,Berane,22.11.2026 20:00,12.06,64.5,0.00,2.90,18,10.70,,927.09
+02POSC30,klimatološka,Pošćenje,22.11.2026 20:00,7.49,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,22.11.2026 20:20,11.10,70.0,0.00,3.50,6,,0.0,915.4
+02BPLJ20,klimatološka,Bijelo Polje,22.11.2026 20:00,8.66,89.4,,,,,0.0,937.46
+02GRAD30,klimatološka,Gradac,22.11.2026 20:00,7.60,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,22.11.2026 20:00,10.60,75.1,0.00,4.70,22,8.20,1.4,
+02SCPO30,klimatološka,Šćepan Polje,22.11.2026 20:00,9.52,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,22.11.2026 20:20,5.30,87.0,0.00,5.10,14,,1.0,844.9
+02BAR010,glavna,Bar,22.11.2026 20:20,17.00,73.0,0.00,6.50,12,,1.7,1007.5
+02DDOB30,klimatološka,Donja Dobrilovina,22.11.2026 20:00,7.46,100.0,,,,,,
+02NIKS10,glavna,Nikšić,22.11.2026 20:20,9.10,100.0,0.06,5.30,16,,0.0,933.1
+02LKOT20,klimatološka,Luka Kotor,22.11.2026 19:46,18.20,69.0,,12.20,,21.80,,1008.9
+02UBLI20,klimatološka,Ubli,22.11.2026 20:00,10.96,,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,22.11.2026 20:00,6.34,100.0,,,,,,
+02BOAN30,klimatološka,Boan,22.11.2026 20:00,8.86,100.0,,,,,,
+02PDGR10,glavna,Podgorica,22.11.2026 20:20,13.70,88.0,0.00,1.80,4,,0.9,1002.3
+02KOLS10,glavna,Kolašin,22.11.2026 20:20,7.70,95.0,0.00,2.20,22,,0.5,900.6
+02CTNJ10,glavna,Cetinje,22.11.2026 20:10,10.90,93.0,0.17,5.00,12,7.90,0.3,935.0
+02PLZN20,klimatološka,Pluzine,22.11.2026 20:00,8.99,100.0,0.02,2.90,26,8.50,1.56,922.19
+02KOSA30,klimatološka,Kosanica,22.11.2026 20:00,7.15,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,22.11.2026 20:20,15.80,75.0,0.00,7.00,14,,0.4,1008.5
