@@ -138124,3 +138124,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,22.11.2026 16:50,10.80,62.0,0.00,3.00,14,,0.7,918.6
 02KOLS10,glavna,Kolašin,22.11.2026 16:50,6.90,98.0,0.14,1.30,18,,0.1,903.5
 02HNOV10,glavna,Herceg Novi,22.11.2026 16:40,14.90,90.0,0.06,0.90,8,,1.0,1006.9
+02STAB30,klimatološka,Stabna,22.11.2026 17:00,7.45,100.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,22.11.2026 17:00,4.81,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,22.11.2026 17:00,4.90,85.0,0.19,8.00,20,12.50,1.2,846.7
+02PDGR10,glavna,Podgorica,22.11.2026 17:00,11.40,96.0,0.00,1.00,4,,0.0,1006.1
+02BOAN30,klimatološka,Boan,22.11.2026 17:00,5.69,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,22.11.2026 17:00,10.70,61.0,0.00,3.00,12,,0.0,918.6
+02MATE30,klimatološka,Matesevo,22.11.2026 17:00,7.27,89.8,0.00,,,,,
+02BIST20,klimatološka,Bistrica,22.11.2026 17:00,8.50,81.8,0.00,1.70,14,2.80,0.5,
+02VELK30,klimatološka,Velika,22.11.2026 17:00,7.48,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,22.11.2026 17:00,7.96,88.4,,,,,0.0,939.91
+02ULCN10,glavna,Ulcinj,22.11.2026 17:00,15.70,83.0,0.06,10.40,18,,0.2,1011.6
+02KOLS10,glavna,Kolašin,22.11.2026 17:00,6.90,98.0,0.05,0.60,18,,0.3,903.3
+02CRKV30,klimatološka,Crkvice,22.11.2026 17:00,8.33,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,22.11.2026 17:00,10.38,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,22.11.2026 17:00,7.35,92.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,22.11.2026 17:00,11.10,,0.33,,,,,
+02KOSA30,klimatološka,Kosanica,22.11.2026 17:00,5.84,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,22.11.2026 17:00,8.37,100.0,0.03,1.00,12,2.90,0.75,925.69
+02NIKS10,glavna,Nikšić,22.11.2026 17:00,7.90,100.0,0.00,6.30,14,,0.2,936.5
+02BAR010,glavna,Bar,22.11.2026 17:00,15.00,89.0,0.05,4.00,10,5.70,1.0,1011.4
+02HNOV10,glavna,Herceg Novi,22.11.2026 16:50,14.50,92.0,0.28,0.90,10,,0.3,1006.7
+02VIRP20,klimatološka,Virpazar,22.11.2026 17:00,11.50,100.0,1.10,,,,,
+02VELM20,klimatološka,Velimlje,22.11.2026 17:00,8.30,96.7,0.00,1.30,12,2.10,0.0,
+02GRAD30,klimatološka,Gradac,22.11.2026 17:00,10.08,84.2,,,,,,
+02BERA20,glavna,Berane,22.11.2026 17:00,10.46,72.2,0.00,2.10,16,5.90,,930.18
+02IVKO30,klimatološka,Ivanova korita,22.11.2026 17:00,6.14,100.0,0.07,,,,,
+02LKOT20,klimatološka,Luka Kotor,22.11.2026 16:31,15.20,83.0,,2.90,,7.50,,1013.6
+02GOBU30,klimatološka,Gornja Bukovica,22.11.2026 17:00,4.81,100.0,,,,,,
