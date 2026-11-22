@@ -138077,3 +138077,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,22.11.2026 16:00,11.30,100.0,1.72,,,,,
 02ULCN10,glavna,Ulcinj,22.11.2026 16:00,16.10,82.0,0.06,5.50,18,,2.5,1012.7
 02DANL20,klimatološka,Danilovgrad,22.11.2026 16:00,11.20,,0.68,,,,,
+02POSC30,klimatološka,Pošćenje,22.11.2026 16:00,6.40,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,22.11.2026 16:00,8.20,100.0,0.00,0.40,22,0.60,1.5,
+02GRAD30,klimatološka,Gradac,22.11.2026 16:00,11.82,71.4,,,,,,
+02BAR010,glavna,Bar,22.11.2026 16:20,15.30,80.0,0.00,2.10,14,,0.4,1012.2
+02PLZN20,klimatološka,Pluzine,22.11.2026 16:00,8.90,100.0,0.03,1.90,20,5.60,1.34,926.41
+02BPLJ20,klimatološka,Bijelo Polje,22.11.2026 16:00,7.69,87.0,,,,,4.84,940.85
+02BOAN30,klimatološka,Boan,22.11.2026 16:00,6.84,100.0,,,,,,
+02BUDV20,klimatološka,Budva,22.11.2026 16:00,15.38,96.6,,,,,0.6,1011.49
+02CTNJ10,glavna,Cetinje,22.11.2026 16:10,9.70,89.0,0.24,0.20,16,,1.7,938.0
+02GOBU30,klimatološka,Gornja Bukovica,22.11.2026 16:00,4.86,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,22.11.2026 16:10,15.50,84.0,0.06,4.00,6,,1.8,1007.4
+02KOLS10,glavna,Kolašin,22.11.2026 16:20,7.10,98.0,0.06,0.40,18,,0.0,903.7
+02LKOT20,klimatološka,Luka Kotor,22.11.2026 15:46,15.40,78.0,,4.50,,8.30,,1014.5
+02BIST20,klimatološka,Bistrica,22.11.2026 16:00,8.60,87.5,0.00,0.90,24,2.10,2.5,
+02ULCN10,glavna,Ulcinj,22.11.2026 16:20,15.30,86.0,0.05,6.10,18,,0.8,1012.2
+02UBLI20,klimatološka,Ubli,22.11.2026 16:00,11.00,,,,,,,
+02STIT30,klimatološka,Štitarica,22.11.2026 16:00,7.87,96.8,,,,,,
+02KOSA30,klimatološka,Kosanica,22.11.2026 16:00,6.49,100.0,,,,,,
+02BERA20,glavna,Berane,22.11.2026 16:00,11.49,64.1,0.00,2.70,18,9.00,,930.81
+02IVKO30,klimatološka,Ivanova korita,22.11.2026 16:00,5.55,100.0,0.15,,,,,
+02ZBLJ10,glavna,Žabljak,22.11.2026 16:20,4.60,82.0,0.00,4.70,14,,2.2,847.5
+02SCPO30,klimatološka,Šćepan Polje,22.11.2026 16:00,11.76,84.8,0.00,,,,,
+02PDGR10,glavna,Podgorica,22.11.2026 16:20,11.50,95.0,0.12,1.10,20,,1.2,1006.4
+02NIKS10,glavna,Nikšić,22.11.2026 16:20,7.90,100.0,0.00,3.10,16,,0.3,936.9
+02PLJV10,glavna,Pljevlja,22.11.2026 16:20,11.20,60.0,0.00,5.10,16,12.10,0.8,919.2
+02DDOB30,klimatološka,Donja Dobrilovina,22.11.2026 16:00,8.63,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,22.11.2026 16:00,8.51,100.0,,,,,,
