@@ -137400,3 +137400,21 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,22.11.2026 05:50,9.40,90.0,0.00,0.50,4,,0.0,1012.4
 02KOLS10,glavna,Kolašin,22.11.2026 05:50,1.60,100.0,0.00,0.50,18,,0.2,909.9
 02PLJV10,glavna,Pljevlja,22.11.2026 05:50,-0.70,98.0,0.00,0.90,22,,1.3,927.4
+02MATE30,klimatološka,Matesevo,22.11.2026 06:00,1.09,98.8,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,22.11.2026 06:00,-0.60,91.0,0.00,0.30,6,,0.0,853.9
+02BAR010,glavna,Bar,22.11.2026 06:00,12.50,83.0,0.00,3.50,6,5.20,0.0,1017.4
+02KOLS10,glavna,Kolašin,22.11.2026 06:00,1.30,100.0,0.00,0.60,20,,0.9,910.0
+02DANL20,klimatološka,Danilovgrad,22.11.2026 06:00,7.30,,0.00,,,,,
+02CTNJ10,glavna,Cetinje,22.11.2026 06:00,1.50,,0.00,0.20,26,,,
+02STAB30,klimatološka,Stabna,22.11.2026 06:00,3.19,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,22.11.2026 05:50,9.60,96.0,0.00,0.90,24,,0.1,1013.1
+02MOKR30,klimatološka,Mokro,22.11.2026 06:00,1.65,98.3,,,,,,
+02VIRP20,klimatološka,Virpazar,22.11.2026 06:00,7.10,100.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,22.11.2026 06:00,4.90,98.0,0.00,0.60,16,,0.0,943.2
+02LKOT20,klimatološka,Luka Kotor,22.11.2026 05:31,8.90,100.0,,0.40,,0.90,,1020.7
+02PDGR10,glavna,Podgorica,22.11.2026 06:00,9.30,90.0,0.00,1.20,4,,0.6,1012.4
+02NJGV30,klimatološka,Njegovuđa,22.11.2026 06:00,3.38,94.7,,,,,,
+02PLJV10,glavna,Pljevlja,22.11.2026 06:00,-0.70,98.0,0.00,0.20,32,,0.0,927.4
+02MAMO30,klimatološka,Manastir Morača,22.11.2026 06:00,5.75,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,22.11.2026 06:00,9.60,96.0,0.00,2.50,6,,0.0,1018.1
+02VELK30,klimatološka,Velika,22.11.2026 06:00,0.40,100.0,,,,,,
