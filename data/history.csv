@@ -137534,3 +137534,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02HNOV10,glavna,Herceg Novi,22.11.2026 07:40,10.40,94.0,0.00,0.80,22,,66.5,1012.9
 02ZBLJ10,glavna,Žabljak,22.11.2026 07:50,2.40,84.0,0.00,1.70,28,,70.8,853.4
 02PLJV10,glavna,Pljevlja,22.11.2026 07:50,-0.70,98.0,0.00,0.00,32,,54.7,926.8
+02DANL20,klimatološka,Danilovgrad,22.11.2026 08:00,8.10,,0.00,,,,,
+02HNOV10,glavna,Herceg Novi,22.11.2026 07:50,10.40,93.0,0.00,0.10,28,,28.9,1012.9
+02POSC30,klimatološka,Pošćenje,22.11.2026 08:00,2.28,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,22.11.2026 08:00,3.58,99.0,0.00,,,,,
+02VELK30,klimatološka,Velika,22.11.2026 08:00,1.96,100.0,,,,,,
+02STAB30,klimatološka,Stabna,22.11.2026 08:00,5.31,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,22.11.2026 08:00,3.70,100.0,0.00,0.40,32,,69.5,944.0
+02SCPO30,klimatološka,Šćepan Polje,22.11.2026 08:00,1.65,100.0,,,,,,
+02BAR010,glavna,Bar,22.11.2026 08:00,13.40,75.0,0.00,2.20,6,,79.0,1017.0
+02PDGR10,glavna,Podgorica,22.11.2026 08:00,11.00,81.0,0.00,0.50,2,,126.3,1012.4
+02STIT30,klimatološka,Štitarica,22.11.2026 08:00,3.65,100.0,,,,,,
+02KOLS10,glavna,Kolašin,22.11.2026 08:00,2.50,100.0,0.00,1.20,18,,76.6,909.7
+02NIKS10,glavna,Nikšić,22.11.2026 08:00,6.30,92.0,0.00,0.30,26,,200.2,943.0
+02MOKR30,klimatološka,Mokro,22.11.2026 08:00,2.81,98.3,,,,,,
+02ULCN10,glavna,Ulcinj,22.11.2026 08:00,11.10,96.0,0.00,2.60,6,,117.4,1017.9
+02LKOT20,klimatološka,Luka Kotor,22.11.2026 07:31,9.20,100.0,,0.90,,1.40,,1020.7
+02PLJV10,glavna,Pljevlja,22.11.2026 08:00,-0.60,98.0,0.00,0.20,20,,70.9,926.8
+02VIRP20,klimatološka,Virpazar,22.11.2026 08:00,7.40,100.0,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,22.11.2026 08:00,6.27,100.0,,,,,,
+02NJGV30,klimatološka,Njegovuđa,22.11.2026 08:00,4.44,97.2,,,,,,
+02ZBLJ10,glavna,Žabljak,22.11.2026 08:00,2.50,81.0,0.00,0.40,2,,75.7,853.3
