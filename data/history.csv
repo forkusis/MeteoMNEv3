@@ -138012,3 +138012,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,22.11.2026 14:31,15.90,74.0,,4.90,,8.50,,1015.3
 02VELK30,klimatološka,Velika,22.11.2026 15:00,10.53,72.6,,,,,,
 02DANL20,klimatološka,Danilovgrad,22.11.2026 15:00,11.50,,0.43,,,,,
+02KOLS10,glavna,Kolašin,22.11.2026 15:20,7.50,96.0,0.10,1.10,20,,16.5,903.9
+02BPLJ20,klimatološka,Bijelo Polje,22.11.2026 15:00,7.31,87.7,,,,,56.82,941.5
+02GOBU30,klimatološka,Gornja Bukovica,22.11.2026 15:00,5.29,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,22.11.2026 15:00,6.98,100.0,,,,,,
+02BERA20,glavna,Berane,22.11.2026 15:00,12.98,55.4,0.00,3.30,14,8.60,,931.18
+02ULCN10,glavna,Ulcinj,22.11.2026 15:20,16.10,78.0,0.00,4.00,20,,7.3,1013.1
+02NIKS10,glavna,Nikšić,22.11.2026 15:20,7.90,99.0,0.06,5.30,16,,5.2,937.9
+02BAR010,glavna,Bar,22.11.2026 15:20,16.10,82.0,0.09,3.40,12,,8.6,1013.0
+02SCPO30,klimatološka,Šćepan Polje,22.11.2026 15:00,12.43,83.0,,,,,,
+02BIST20,klimatološka,Bistrica,22.11.2026 15:00,11.70,57.5,0.00,5.20,22,9.20,69.6,
+02BUDV20,klimatološka,Budva,22.11.2026 15:00,15.69,93.7,,,,,1.66,1012.33
+02DDOB30,klimatološka,Donja Dobrilovina,22.11.2026 15:00,11.56,70.6,,,,,,
+02HNOV10,glavna,Herceg Novi,22.11.2026 15:10,15.30,91.0,0.20,1.20,10,,5.5,1007.7
+02GRAD30,klimatološka,Gradac,22.11.2026 15:00,10.86,78.9,,,,,,
+02UBLI20,klimatološka,Ubli,22.11.2026 15:00,11.51,,,,,,,
+02LKOT20,klimatološka,Luka Kotor,22.11.2026 14:46,15.90,77.0,,,,,,1014.8
+02BOAN30,klimatološka,Boan,22.11.2026 15:00,7.52,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,22.11.2026 15:00,8.00,98.5,,,,,,
+02ZBLJ10,glavna,Žabljak,22.11.2026 15:20,4.80,87.0,0.00,1.70,14,,47.7,848.3
+02PDGR10,glavna,Podgorica,22.11.2026 15:20,12.00,93.0,0.34,1.30,2,,5.7,1007.2
+02POSC30,klimatološka,Pošćenje,22.11.2026 15:00,6.98,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,22.11.2026 15:00,8.20,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,22.11.2026 15:00,5.95,99.3,0.16,,,,,
+02PLJV10,glavna,Pljevlja,22.11.2026 15:20,11.50,61.0,0.00,5.00,12,,48.9,919.6
+02CTNJ10,glavna,Cetinje,22.11.2026 15:20,10.20,92.0,0.05,1.60,10,,8.1,938.2
+02PLZN20,klimatološka,Pluzine,22.11.2026 15:00,9.42,100.0,0.03,1.70,18,4.70,2.33,926.81
+02VELM20,klimatološka,Velimlje,22.11.2026 15:00,8.70,97.1,0.06,2.80,12,3.40,7.1,
