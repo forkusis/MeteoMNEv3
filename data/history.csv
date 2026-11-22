@@ -138059,3 +138059,21 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,22.11.2026 15:16,15.00,80.0,,4.20,,9.40,,1014.5
 02HNOV10,glavna,Herceg Novi,22.11.2026 15:40,15.40,85.0,0.06,4.10,8,,5.7,1007.2
 02PLJV10,glavna,Pljevlja,22.11.2026 15:50,11.30,62.0,0.00,3.60,16,,9.9,919.2
+02MOKR30,klimatološka,Mokro,22.11.2026 16:00,6.92,81.8,,,,,,
+02MAMO30,klimatološka,Manastir Morača,22.11.2026 16:00,10.47,100.0,,,,,,
+02KOLS10,glavna,Kolašin,22.11.2026 16:00,7.20,97.0,0.10,1.10,20,,2.7,903.7
+02VELK30,klimatološka,Velika,22.11.2026 16:00,8.65,89.8,,,,,,
+02NJGV30,klimatološka,Njegovuđa,22.11.2026 16:00,5.11,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,22.11.2026 16:00,7.27,87.2,0.03,,,,,
+02CTNJ10,glavna,Cetinje,22.11.2026 16:00,9.80,86.0,0.05,1.10,18,,4.7,938.1
+02STAB30,klimatološka,Stabna,22.11.2026 16:00,8.11,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,22.11.2026 15:31,15.70,73.0,,6.80,,10.20,,1014.8
+02PDGR10,glavna,Podgorica,22.11.2026 16:00,11.70,95.0,0.12,0.40,22,,1.0,1006.6
+02PLJV10,glavna,Pljevlja,22.11.2026 16:00,11.20,61.0,0.00,3.30,14,,4.6,919.1
+02BAR010,glavna,Bar,22.11.2026 16:00,15.60,74.0,0.06,1.00,14,,1.5,1012.5
+02HNOV10,glavna,Herceg Novi,22.11.2026 15:50,15.30,85.0,0.00,3.80,8,,5.4,1007.4
+02NIKS10,glavna,Nikšić,22.11.2026 16:00,7.90,100.0,0.05,3.90,16,,1.1,937.0
+02ZBLJ10,glavna,Žabljak,22.11.2026 16:00,4.60,85.0,0.06,1.80,16,,9.0,847.5
+02VIRP20,klimatološka,Virpazar,22.11.2026 16:00,11.30,100.0,1.72,,,,,
+02ULCN10,glavna,Ulcinj,22.11.2026 16:00,16.10,82.0,0.06,5.50,18,,2.5,1012.7
+02DANL20,klimatološka,Danilovgrad,22.11.2026 16:00,11.20,,0.68,,,,,
