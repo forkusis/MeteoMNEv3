@@ -138700,3 +138700,24 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NIKS10,glavna,Nikšić,23.11.2026 01:50,6.20,95.0,0.00,1.50,6,,0.9,930.1
 02HNOV10,glavna,Herceg Novi,23.11.2026 01:40,13.40,93.0,0.00,3.40,22,,0.3,998.3
 02KOLS10,glavna,Kolašin,23.11.2026 01:50,10.00,89.0,0.46,4.40,20,,0.2,895.0
+02SCPO30,klimatološka,Šćepan Polje,23.11.2026 02:00,8.28,100.0,,,,,,
+02BAR010,glavna,Bar,23.11.2026 02:00,18.70,68.0,0.00,13.30,22,,1.2,1003.9
+02NJGV30,klimatološka,Njegovuđa,23.11.2026 02:00,2.92,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,23.11.2026 02:00,19.30,65.0,0.00,9.10,22,,0.2,1003.8
+02CTNJ10,glavna,Cetinje,23.11.2026 01:50,11.00,84.0,0.43,6.90,24,,1.6,930.1
+02STAB30,klimatološka,Stabna,23.11.2026 02:00,5.23,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,23.11.2026 02:00,12.50,,1.69,,,,,
+02PDGR10,glavna,Podgorica,23.11.2026 02:00,18.40,71.0,0.00,3.80,20,,2.9,996.7
+02VELK30,klimatološka,Velika,23.11.2026 02:00,9.08,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,23.11.2026 01:50,13.20,94.0,0.00,0.50,24,,0.0,998.5
+02MOKR30,klimatološka,Mokro,23.11.2026 02:00,3.03,92.1,,,,,,
+02POSC30,klimatološka,Pošćenje,23.11.2026 02:00,2.80,100.0,,,,,,
+02MAMO30,klimatološka,Manastir Morača,23.11.2026 02:00,10.42,97.9,0.17,,,,,
+02STIT30,klimatološka,Štitarica,23.11.2026 02:00,5.33,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,23.11.2026 02:00,18.30,64.0,0.00,,,,,
+02MATE30,klimatološka,Matesevo,23.11.2026 02:00,7.88,87.7,0.90,,,,,
+02PLJV10,glavna,Pljevlja,23.11.2026 02:00,6.90,91.0,0.15,0.60,2,,0.0,913.4
+02LKOT20,klimatološka,Luka Kotor,23.11.2026 01:31,15.20,77.0,,6.70,,11.90,,1006.7
+02ZBLJ10,glavna,Žabljak,23.11.2026 02:00,2.30,89.0,0.13,3.30,22,,0.1,841.2
+02NIKS10,glavna,Nikšić,23.11.2026 02:00,5.70,96.0,0.00,1.90,4,,0.0,929.8
+02KOLS10,glavna,Kolašin,23.11.2026 02:00,9.40,87.0,0.33,3.30,2,,4.5,896.2
