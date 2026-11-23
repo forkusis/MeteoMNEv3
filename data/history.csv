@@ -139866,3 +139866,21 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,23.11.2026 19:50,-0.40,66.0,0.00,2.80,6,,0.3,909.5
 02HNOV10,glavna,Herceg Novi,23.11.2026 19:40,7.70,79.0,0.00,0.20,28,,0.3,1010.0
 02LKOT20,klimatološka,Luka Kotor,23.11.2026 19:16,10.30,42.0,,5.10,,9.30,,1018.4
+02VELK30,klimatološka,Velika,23.11.2026 20:00,-0.83,81.4,,,,,,
+02ULCN10,glavna,Ulcinj,23.11.2026 20:00,9.30,63.0,0.00,3.50,8,,0.3,1014.4
+02CTNJ10,glavna,Cetinje,23.11.2026 19:50,3.30,58.0,0.00,3.60,26,,1.4,940.8
+02ZBLJ10,glavna,Žabljak,23.11.2026 20:00,-5.50,81.0,0.00,2.60,26,5.80,0.1,853.5
+02PLJV10,glavna,Pljevlja,23.11.2026 20:00,-0.10,72.0,0.00,0.50,32,,0.0,928.9
+02BAR010,glavna,Bar,23.11.2026 20:00,10.40,43.0,0.00,4.60,6,,0.7,1014.3
+02NIKS10,glavna,Nikšić,23.11.2026 20:00,1.90,56.0,0.00,3.30,30,,0.5,941.5
+02STAB30,klimatološka,Stabna,23.11.2026 20:00,0.31,67.2,,,,,,
+02HNOV10,glavna,Herceg Novi,23.11.2026 19:50,7.60,80.0,0.00,0.50,26,,0.5,1010.1
+02MATE30,klimatološka,Matesevo,23.11.2026 20:00,-0.96,63.9,0.00,,,,,
+02PDGR10,glavna,Podgorica,23.11.2026 20:00,8.60,40.0,0.00,5.20,32,,0.9,1010.1
+02LKOT20,klimatološka,Luka Kotor,23.11.2026 19:31,10.20,39.0,,4.60,,9.30,,1018.6
+02MAMO30,klimatološka,Manastir Morača,23.11.2026 20:00,4.72,58.1,,,,,,
+02MOKR30,klimatološka,Mokro,23.11.2026 20:00,-1.77,70.5,,,,,,
+02KOLS10,glavna,Kolašin,23.11.2026 20:00,-0.40,66.0,0.00,1.90,6,,0.0,909.7
+02NJGV30,klimatološka,Njegovuđa,23.11.2026 20:00,-4.54,88.5,,,,,,
+02VIRP20,klimatološka,Virpazar,23.11.2026 20:00,8.00,72.0,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,23.11.2026 20:00,7.80,,0.00,,,,,
