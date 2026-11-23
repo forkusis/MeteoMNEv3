@@ -139426,3 +139426,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,23.11.2026 13:00,16.00,67.0,0.00,5.20,26,,359.4,1007.8
 02MOKR30,klimatološka,Mokro,23.11.2026 13:00,2.78,71.3,,,,,,
 02ZBLJ10,glavna,Žabljak,23.11.2026 13:00,-2.00,86.0,0.00,2.00,26,,96.7,848.4
+02IVKO30,klimatološka,Ivanova korita,23.11.2026 13:00,2.68,100.0,0.00,,,,,
+02KOSA30,klimatološka,Kosanica,23.11.2026 13:00,-1.46,100.0,,,,,,
+02GRAD30,klimatološka,Gradac,23.11.2026 13:00,2.44,83.2,,,,,,
+02PLJV10,glavna,Pljevlja,23.11.2026 13:20,0.90,81.0,0.00,1.30,2,,102.7,923.5
+02STIT30,klimatološka,Štitarica,23.11.2026 13:00,1.78,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,23.11.2026 13:10,8.10,69.0,0.00,2.10,24,,106.6,934.9
+02KOVR30,klimatološka,Kovren,23.11.2026 13:00,-0.27,100.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,23.11.2026 13:20,7.00,62.0,0.00,6.20,30,,138.1,935.3
+02BAR010,glavna,Bar,23.11.2026 13:20,15.70,71.0,0.00,4.20,26,,165.6,1008.1
+02ULCN10,glavna,Ulcinj,23.11.2026 13:20,15.80,64.0,0.00,2.10,26,,227.4,1008.5
+02SCPO30,klimatološka,Šćepan Polje,23.11.2026 13:00,2.93,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,23.11.2026 13:00,-0.76,100.0,,,,,,
+02BOAN30,klimatološka,Boan,23.11.2026 13:00,2.66,90.9,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,23.11.2026 13:00,3.43,87.1,,,,,68.68,944.1
+02UBLI20,klimatološka,Ubli,23.11.2026 13:00,8.02,,,,,,,
+02POSC30,klimatološka,Pošćenje,23.11.2026 13:00,2.67,85.2,,,,,,
+02CRKV30,klimatološka,Crkvice,23.11.2026 13:00,5.36,87.0,,,,,,
+02PLZN20,klimatološka,Pluzine,23.11.2026 13:00,3.17,100.0,0.00,6.30,32,10.50,100.15,927.73
+02VELM20,klimatološka,Velimlje,23.11.2026 13:00,6.10,70.2,0.00,4.40,32,6.60,248.8,
+02DDOB30,klimatološka,Donja Dobrilovina,23.11.2026 13:00,2.72,79.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,23.11.2026 12:46,14.00,53.0,,,,,,1012.0
+02BERA20,glavna,Berane,23.11.2026 13:00,2.97,95.5,0.00,0.90,28,2.60,,933.0
+02KOLS10,glavna,Kolašin,23.11.2026 13:20,3.30,76.0,0.00,3.60,4,,135.6,903.6
+02HNOV10,glavna,Herceg Novi,23.11.2026 13:10,14.70,61.0,0.00,1.20,10,,166.3,1003.8
+02BIST20,klimatološka,Bistrica,23.11.2026 13:00,3.20,65.5,0.00,3.50,6,5.20,71.8,
+02ZBLJ10,glavna,Žabljak,23.11.2026 13:20,-2.20,87.0,0.00,1.40,24,,77.8,848.6
+02PDGR10,glavna,Podgorica,23.11.2026 13:20,11.50,56.0,0.00,6.00,2,,123.3,1002.8
