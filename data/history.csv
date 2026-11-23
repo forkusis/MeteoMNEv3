@@ -139278,3 +139278,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02KOLS10,glavna,Kolašin,23.11.2026 10:50,2.90,91.0,0.00,3.70,4,,63.2,902.4
 02HNOV10,glavna,Herceg Novi,23.11.2026 10:40,14.00,89.0,0.00,0.50,26,,106.4,1002.3
 02CTNJ10,glavna,Cetinje,23.11.2026 10:50,10.60,70.0,0.00,2.30,18,,275.0,933.4
+02BAR010,glavna,Bar,23.11.2026 11:00,14.40,86.0,0.00,2.20,20,,303.5,1007.4
+02NJGV30,klimatološka,Njegovuđa,23.11.2026 11:00,-1.60,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,23.11.2026 10:31,14.90,74.0,,1.10,,3.20,,1010.2
+02ULCN10,glavna,Ulcinj,23.11.2026 11:00,15.70,74.0,0.00,6.50,24,12.50,240.6,1007.4
+02MAMO30,klimatološka,Manastir Morača,23.11.2026 11:00,8.32,80.3,,,,,,
+02GRAD30,klimatološka,Gradac,23.11.2026 11:00,2.58,100.0,,,,,,
+02KOVR30,klimatološka,Kovren,23.11.2026 11:00,-0.12,100.0,0.02,,,,,
+02KOLS10,glavna,Kolašin,23.11.2026 11:00,2.70,90.0,0.00,2.80,6,,64.7,902.5
+02DANL20,klimatološka,Danilovgrad,23.11.2026 11:00,11.30,,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,23.11.2026 11:00,4.36,100.0,0.00,,,,,
+02PDGR10,glavna,Podgorica,23.11.2026 11:00,12.60,84.0,0.00,4.60,28,7.80,145.1,1001.7
+02CRKV30,klimatološka,Crkvice,23.11.2026 11:00,6.29,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,23.11.2026 11:00,14.40,88.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,23.11.2026 11:00,3.20,75.8,0.00,2.10,12,4.30,142.3,
+02VELK30,klimatološka,Velika,23.11.2026 11:00,3.07,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,23.11.2026 11:00,4.80,82.1,0.00,1.60,4,3.60,88.2,
+02BOAN30,klimatološka,Boan,23.11.2026 11:00,1.68,100.0,,,,,,
+02BERA20,glavna,Berane,23.11.2026 11:00,3.75,94.6,0.00,1.50,28,4.30,,931.64
+02STAB30,klimatološka,Stabna,23.11.2026 11:00,3.41,88.5,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,23.11.2026 11:00,-0.86,100.0,,,,,,
+02MOKR30,klimatološka,Mokro,23.11.2026 11:00,2.21,84.4,,,,,,
+02HNOV10,glavna,Herceg Novi,23.11.2026 10:50,13.70,88.0,0.00,0.60,26,,186.3,1002.3
+02PLJV10,glavna,Pljevlja,23.11.2026 11:00,1.60,95.0,0.00,0.00,32,,106.2,922.2
+02BPLJ20,klimatološka,Bijelo Polje,23.11.2026 11:00,4.38,91.8,,,,,134.09,942.86
+02ZBLJ10,glavna,Žabljak,23.11.2026 11:00,-2.10,90.0,0.00,1.50,26,,145.5,847.8
+02MATE30,klimatološka,Matesevo,23.11.2026 11:00,2.39,89.6,0.00,,,,,
+02NIKS10,glavna,Nikšić,23.11.2026 11:00,5.50,79.0,0.00,6.20,30,,230.3,934.2
+02KOSA30,klimatološka,Kosanica,23.11.2026 11:00,-1.14,100.0,0.00,,,,,
