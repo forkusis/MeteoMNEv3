@@ -141040,3 +141040,28 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MOKR30,klimatološka,Mokro,24.11.2026 14:00,3.06,53.6,,,,,,
 02ULCN10,glavna,Ulcinj,24.11.2026 14:00,11.60,45.0,0.00,3.50,8,,347.9,1023.6
 02PDGR10,glavna,Podgorica,24.11.2026 14:00,12.10,27.0,0.00,1.70,22,,299.5,1017.5
+02LKOT20,klimatološka,Luka Kotor,24.11.2026 13:46,12.60,45.0,,0.70,,1.90,,1026.3
+02GRAD30,klimatološka,Gradac,24.11.2026 14:00,3.97,62.8,,,,,,
+02KOSA30,klimatološka,Kosanica,24.11.2026 14:00,1.01,74.4,,,,,,
+02ZBLJ10,glavna,Žabljak,24.11.2026 14:20,0.30,32.0,0.00,2.20,26,,288.9,857.7
+02VELM20,klimatološka,Velimlje,24.11.2026 14:00,7.90,31.8,0.00,1.00,20,2.00,320.3,
+02BUDV20,klimatološka,Budva,24.11.2026 14:00,13.53,45.4,,,,,332.52,1022.38
+02KOLS10,glavna,Kolašin,24.11.2026 14:20,3.70,39.0,0.00,1.20,32,,33.6,913.7
+02STIT30,klimatološka,Štitarica,24.11.2026 14:00,0.37,71.7,,,,,,
+02IVKO30,klimatološka,Ivanova korita,24.11.2026 14:00,1.93,71.9,0.00,,,,,
+02BAR010,glavna,Bar,24.11.2026 14:20,13.80,27.0,0.00,1.00,26,,264.1,1023.1
+02GOBU30,klimatološka,Gornja Bukovica,24.11.2026 14:00,1.64,47.3,,,,,,
+02HNOV10,glavna,Herceg Novi,24.11.2026 14:10,13.50,52.0,0.00,0.40,22,,44.3,1018.7
+02CRKV30,klimatološka,Crkvice,24.11.2026 14:00,2.89,53.6,,,,,,
+02BIST20,klimatološka,Bistrica,24.11.2026 14:00,2.80,56.8,0.00,1.80,20,3.20,281.2,
+02NIKS10,glavna,Nikšić,24.11.2026 14:20,7.90,25.0,0.00,3.00,32,,274.5,946.9
+02POSC30,klimatološka,Pošćenje,24.11.2026 14:00,2.40,59.7,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,24.11.2026 14:00,0.09,84.9,,,,,,
+02BOAN30,klimatološka,Boan,24.11.2026 14:00,2.73,52.7,,,,,,
+02CTNJ10,glavna,Cetinje,24.11.2026 14:20,8.10,42.0,0.00,0.90,16,,238.9,947.7
+02PDGR10,glavna,Podgorica,24.11.2026 14:20,12.10,27.0,0.00,1.70,22,,258.9,1017.5
+02PLJV10,glavna,Pljevlja,24.11.2026 14:20,4.80,36.0,0.00,1.80,18,,255.3,932.6
+02BPLJ20,klimatološka,Bijelo Polje,24.11.2026 14:00,5.23,45.7,,,,,344.68,954.35
+02ULCN10,glavna,Ulcinj,24.11.2026 14:20,11.80,46.0,0.00,3.40,6,,301.9,1023.7
+02SCPO30,klimatološka,Šćepan Polje,24.11.2026 14:00,0.34,93.9,,,,,,
+02BERA20,glavna,Berane,24.11.2026 14:00,5.06,46.4,0.00,1.10,2,2.40,,943.36
