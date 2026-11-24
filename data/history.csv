@@ -140658,3 +140658,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MAMO30,klimatološka,Manastir Morača,24.11.2026 08:00,-1.40,100.0,,,,,,
 02MOKR30,klimatološka,Mokro,24.11.2026 08:00,-5.46,88.0,,,,,,
 02NIKS10,glavna,Nikšić,24.11.2026 08:00,-0.80,65.0,0.00,1.50,2,,154.7,947.4
+02BOAN30,klimatološka,Boan,24.11.2026 08:00,-6.02,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,24.11.2026 08:00,-5.61,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,24.11.2026 08:10,5.60,70.0,0.00,0.70,24,,48.3,1018.7
+02CRKV30,klimatološka,Crkvice,24.11.2026 08:00,-6.41,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,24.11.2026 08:20,7.70,53.0,0.00,5.20,6,,213.1,1023.5
+02BPLJ20,klimatološka,Bijelo Polje,24.11.2026 08:00,-2.65,82.3,,,,,22.49,955.72
+02UBLI20,klimatološka,Ubli,24.11.2026 08:00,-0.61,,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,24.11.2026 08:00,-3.31,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,24.11.2026 08:00,-6.20,100.0,,,,,,
+02PDGR10,glavna,Podgorica,24.11.2026 08:20,6.00,43.0,0.00,2.20,28,,176.2,1018.9
+02KOLS10,glavna,Kolašin,24.11.2026 08:20,-3.90,70.0,0.00,0.70,2,,28.2,914.6
+02BAR010,glavna,Bar,24.11.2026 08:20,8.60,40.0,0.00,2.70,6,,196.2,1022.8
+02KOVR30,klimatološka,Kovren,24.11.2026 08:00,-4.09,100.0,0.00,,,,,
+02IVKO30,klimatološka,Ivanova korita,24.11.2026 08:00,-3.05,94.8,0.00,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,24.11.2026 08:00,-3.84,92.4,,,,,,
+02PLJV10,glavna,Pljevlja,24.11.2026 08:20,-2.60,78.0,0.00,0.70,12,,152.5,933.8
+02PLZN20,klimatološka,Pluzine,24.11.2026 08:00,-3.18,100.0,0.00,0.80,12,1.60,19.95,938.9
+02GOBU30,klimatološka,Gornja Bukovica,24.11.2026 08:00,-7.43,100.0,,,,,,
+02NIKS10,glavna,Nikšić,24.11.2026 08:20,-0.60,64.0,0.00,3.20,2,4.00,210.0,947.6
+02VELM20,klimatološka,Velimlje,24.11.2026 08:00,-4.40,82.1,0.00,0.50,12,0.80,192.1,
+02BERA20,glavna,Berane,24.11.2026 08:00,-1.30,73.0,0.00,0.90,32,1.90,,944.59
+02GRAD30,klimatološka,Gradac,24.11.2026 08:00,-5.47,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,24.11.2026 08:00,-5.25,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,24.11.2026 08:20,-7.10,80.0,0.00,0.40,22,,85.7,857.6
+02LKOT20,klimatološka,Luka Kotor,24.11.2026 07:46,5.50,58.0,,0.70,,1.30,,1026.6
+02BUDV20,klimatološka,Budva,24.11.2026 08:00,7.42,79.9,,,,,155.8,1022.08
+02CTNJ10,glavna,Cetinje,24.11.2026 08:20,-2.10,88.0,0.00,0.00,32,,93.1,948.0
+02BIST20,klimatološka,Bistrica,24.11.2026 08:00,-4.40,80.1,0.00,1.70,18,1.90,24.2,
