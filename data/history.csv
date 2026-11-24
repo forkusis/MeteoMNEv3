@@ -140849,3 +140849,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ZBLJ10,glavna,Žabljak,24.11.2026 11:00,-3.60,73.0,0.00,0.90,2,,295.6,858.1
 02BAR010,glavna,Bar,24.11.2026 11:00,11.50,38.0,0.00,3.10,6,,329.2,1023.5
 02DANL20,klimatološka,Danilovgrad,24.11.2026 11:00,11.10,,0.00,,,,,
+02GRAD30,klimatološka,Gradac,24.11.2026 11:00,2.35,70.2,,,,,,
+02POSC30,klimatološka,Pošćenje,24.11.2026 11:00,0.35,69.7,,,,,,
+02CRKV30,klimatološka,Crkvice,24.11.2026 11:00,1.33,57.4,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,24.11.2026 11:00,3.50,48.6,,,,,526.48,955.78
+02NIKS10,glavna,Nikšić,24.11.2026 11:20,5.50,42.0,0.00,3.60,22,5.10,483.9,947.8
+02ZBLJ10,glavna,Žabljak,24.11.2026 11:20,-2.50,67.0,0.00,1.00,30,,492.3,858.0
+02KOLS10,glavna,Kolašin,24.11.2026 11:20,1.10,55.0,0.00,4.20,2,,441.5,914.8
+02IVKO30,klimatološka,Ivanova korita,24.11.2026 11:00,3.00,67.4,0.00,,,,,
+02SCPO30,klimatološka,Šćepan Polje,24.11.2026 11:00,1.64,75.9,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,24.11.2026 11:00,-2.35,76.3,,,,,,
+02KUKO30,klimatološka,Kučka korita,24.11.2026 11:00,1.08,61.9,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,24.11.2026 10:46,11.40,38.0,,0.70,,1.80,,1027.1
+02CTNJ10,glavna,Cetinje,24.11.2026 11:20,5.80,47.0,0.00,1.20,10,,431.8,948.5
+02STIT30,klimatološka,Štitarica,24.11.2026 11:00,0.10,73.3,,,,,,
+02ULCN10,glavna,Ulcinj,24.11.2026 11:20,10.50,50.0,0.00,4.20,6,,501.3,1024.3
+02BOAN30,klimatološka,Boan,24.11.2026 11:00,0.87,61.2,,,,,,
+02BAR010,glavna,Bar,24.11.2026 11:20,11.80,37.0,0.00,0.70,6,,106.9,1023.6
+02PDGR10,glavna,Podgorica,24.11.2026 11:20,9.70,35.0,0.00,1.40,20,,460.0,1018.8
+02PLJV10,glavna,Pljevlja,24.11.2026 11:20,2.80,45.0,0.00,1.40,14,,461.9,933.6
+02VELM20,klimatološka,Velimlje,24.11.2026 11:00,3.50,53.5,0.00,1.30,18,1.70,488.8,
+02UBLI20,klimatološka,Ubli,24.11.2026 11:00,5.41,,,,,,,
+02HNOV10,glavna,Herceg Novi,24.11.2026 11:10,12.50,41.0,0.00,2.40,10,,150.7,1019.2
+02PLZN20,klimatološka,Pluzine,24.11.2026 11:00,0.93,72.9,0.00,1.00,8,2.30,463.29,939.17
+02KOSA30,klimatološka,Kosanica,24.11.2026 11:00,-0.81,68.7,,,,,,
+02BIST20,klimatološka,Bistrica,24.11.2026 11:00,1.80,51.0,0.00,1.80,22,2.60,514.7,
+02DDOB30,klimatološka,Donja Dobrilovina,24.11.2026 11:00,-2.35,94.8,,,,,,
+02BERA20,glavna,Berane,24.11.2026 11:00,2.38,51.8,0.00,1.30,14,3.20,,944.67
