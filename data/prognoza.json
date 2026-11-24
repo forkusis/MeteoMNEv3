@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-24T12:01:23.316336+00:00",
+  "updated_at": "2026-11-24T12:16:04.445394+00:00",
   "dani": [
     {
-      "naslov": "Utorak, 24.11.2026.",
-      "azurirano": "24.11.2026. 07:34 CET",
-      "tekst": "Sunčano uz malu mjestimičnu oblačnost. Vjetar slab do umjeren, promjenljivog smjera, u prvom dijelu dana najčešće sjeverni. Najviša dnevna temperatura vazduha od -1 do 15 stepeni.",
+      "naslov": "Srijeda, 25.11.2026.",
+      "azurirano": "24.11.2026. 13:13 CET",
+      "tekst": "Pretežno oblačno, uz povremenu kišu u drugom dijelu dana, i snijeg i susnježicu u višim planinskim predjelima na sjeveru. U većem dijelu zemlje se intenzivnije i obilnije padavine očekuju krajem dana i tokom noći. Vjetar pretežno južni, tokom dana u pojačanju na umjeren do jak, tokom noći ponegdje i veoma jak. Jutarnja temperatura vazduha od -7 do 9, najviša dnevna od 3 do 16 stepeni.",
       "podgorica": "Podgorica: Pretežno sunčano, uz slab do umjeren razvoj oblačnosti. Vjetar uglavnom slab do umjeren, promjenljivog smjera. Jutarnja temperatura vazduha oko 20, najviša dnevna oko 33 stepena."
     },
     {
-      "naslov": "Srijeda, 25.11.2026.",
-      "azurirano": "23.11.2026. 12:30 CET",
-      "tekst": "Umjereno do potpuno oblačno, u popodnevnim satima ponegdje kiša, a u višim planinskim predjelima, na sjeveru, susnježica i snijeg. Intenzivnije i obilnije padavine, u većem dijelu zemlje, očekuju se krajem dana i tokom noći, povremeno kiša, pljuskovi i grmljavina. Ponegdje su moguće i kratkotrajne vremenske nepogode. Vjetar južnih smjerova, tokom dana u jačanju, umjeren do jak, krajem dana i tokom noći na udare veoma jak, ponegdje moguće i olujne jačine. Jutarnja temperatura vazduha od -7 do 6, najviša dnevna od 3 do 15 stepeni.",
-      "podgorica": "Podgorica: Pretežno oblačno, u popodnevnim satima moguća kišu. Krajem dana i tokom noći povremeno kiša, pljuskovi i grmljavina. Mogući su intenzivniji i obilniji pljuskovi. Vjetar južnih smjerova, u popodnevnim satima u jačanju, krajem dana i tokom noći pojačan i jak. Jutarnja temperatura vazduha oko 1, najviša dnevna oko 11 stepeni."
+      "naslov": "Četvrtak, 26.11.2026.",
+      "azurirano": "24.11.2026. 13:14 CET",
+      "tekst": "Pretežno oblačno i kišovito sa uslovima za povremene pljuskove, ponegdje i grmljavinu. Mjestimično se očekuju umjerene do obilne količine padavina, naročito u južnim i centralnim oblastima. Ponegdje su moguće kratkotrajne vremenske nepogode. Vjetar pretežno južni, mjestimično umjeren do jak, tokom dana u slabljenju. Jutarnja temperatura vazduha od 2 do 13, najviša dnevna od 5 do 16 stepeni.",
+      "podgorica": "Podgorica: Oblačno sa povremenom kišom, pljuskovima i grmljavinom. Vjetar umjeren do jak, uglavnom južni, tokom dana u slabljenju. Jutarnja temperatura vazduha oko 9, najviša dnevna oko 14 stepeni."
     }
   ],
   "pomorci": {
     "naslov": "Za pomorce",
-    "azurirano": "24.11.2026. 06:52 CET",
-    "tekst": "UPOZORENJE: - SINOPTIČKA SITUACIJA: Jadransko more nalazi se na periferiji anticiklona sa centrom na sjeveru Evrope. Krajem prognostičkog perioda ciklogeneza u Đenovskom zalivu. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar na otvorenom moru N i NE, 6 do 16 čvorova, na jugoistoku akvatorijuma u jutarnjim časovima 10 do 20 čvorova. Tokom noći vjetar će skrenuti na E i SE. More u smirivanju na 2 do 3. Vidljivost oko 20 km. Pretežno vedro. Krajem prognostičkog perioda naoblačenje. Najviša dnevna temperatura vazduha od 13 do 15 stepeni.",
+    "azurirano": "24.11.2026. 13:12 CET",
+    "tekst": "UPOZORENJE: - SINOPTIČKA SITUACIJA: Jadransko more nalazi se na periferiji anticiklona sa centrom na sjeveru Evrope. Krajem prognostičkog perioda ciklogeneza u Đenovskom zalivu. PROGNOZA VREMENA ZA JUŽNI JADRAN ZA NAREDNA 24 ČASA: Vjetar na otvorenom moru N i NE, 6 do 16 čvorova. Tokom noći vjetar će skrenuti na E i SE, 6 do 16 čvorova, sjutra prijepodne SE u pojačanju na 12 do 22 čvora. More 2 do 3. Vidljivost oko 20 km. Pretežno vedro. U drugom dijelu prognostičkog perioda naoblačenje. Jutarnja temperatura vazduha od 7 do 9, najviša dnevna 13 do 16 stepeni.",
     "podgorica": ""
   }
 }
