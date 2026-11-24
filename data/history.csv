@@ -140723,3 +140723,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,24.11.2026 08:50,0.10,74.0,0.00,0.60,10,,99.3,948.3
 02MOKR30,klimatološka,Mokro,24.11.2026 09:00,-1.48,67.3,,,,,,
 02PDGR10,glavna,Podgorica,24.11.2026 09:00,7.30,38.0,0.00,2.70,2,,268.7,1019.2
+02ZBLJ10,glavna,Žabljak,24.11.2026 09:20,-5.90,77.0,0.00,0.70,30,,148.3,857.9
+02GRAD30,klimatološka,Gradac,24.11.2026 09:00,-3.74,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,24.11.2026 09:00,-3.09,88.0,,,,,,
+02KOSA30,klimatološka,Kosanica,24.11.2026 09:00,-2.94,88.9,,,,,,
+02KOLS10,glavna,Kolašin,24.11.2026 09:20,-2.10,64.0,0.00,2.30,6,,36.4,915.0
+02BAR010,glavna,Bar,24.11.2026 09:20,9.60,40.0,0.00,3.60,6,,326.6,1023.6
+02SCPO30,klimatološka,Šćepan Polje,24.11.2026 09:00,-2.27,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,24.11.2026 09:00,-5.04,95.7,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,24.11.2026 09:00,-0.74,74.6,,,,,55.88,956.03
+02LKOT20,klimatološka,Luka Kotor,24.11.2026 08:46,6.40,59.0,,1.00,,2.10,,1027.1
+02ULCN10,glavna,Ulcinj,24.11.2026 09:20,9.50,48.0,0.00,5.90,6,,351.8,1024.3
+02UBLI20,klimatološka,Ubli,24.11.2026 09:00,3.59,,,,,,,
+02DDOB30,klimatološka,Donja Dobrilovina,24.11.2026 09:00,-3.57,93.3,,,,,,
+02BERA20,glavna,Berane,24.11.2026 09:00,0.59,60.4,0.00,0.70,8,2.00,,945.02
+02PDGR10,glavna,Podgorica,24.11.2026 09:20,7.80,37.0,0.00,2.30,32,,327.9,1019.3
+02IVKO30,klimatološka,Ivanova korita,24.11.2026 09:00,-0.50,71.9,0.00,,,,,
+02CTNJ10,glavna,Cetinje,24.11.2026 09:20,1.80,62.0,0.00,0.80,12,,101.8,948.5
+02BOAN30,klimatološka,Boan,24.11.2026 09:00,-4.01,90.8,,,,,,
+02PLJV10,glavna,Pljevlja,24.11.2026 09:20,-0.90,71.0,0.00,0.50,8,,320.4,933.8
+02BIST20,klimatološka,Bistrica,24.11.2026 09:00,-3.80,76.3,0.00,1.30,16,1.80,37.0,
+02POSC30,klimatološka,Pošćenje,24.11.2026 09:00,-2.85,83.6,,,,,,
+02NIKS10,glavna,Nikšić,24.11.2026 09:20,2.40,48.0,0.00,2.70,32,,344.0,948.0
+02PLZN20,klimatološka,Pluzine,24.11.2026 09:00,-2.96,100.0,0.00,0.80,14,1.20,29.83,939.25
+02STIT30,klimatološka,Štitarica,24.11.2026 09:00,-3.37,91.8,,,,,,
+02HNOV10,glavna,Herceg Novi,24.11.2026 09:10,8.40,59.0,0.00,1.60,22,,319.5,1019.2
+02VELM20,klimatološka,Velimlje,24.11.2026 09:00,-2.50,80.0,0.00,0.30,26,0.50,238.3,
