@@ -141307,3 +141307,20 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,24.11.2026 18:00,-1.60,71.0,0.00,0.20,16,,0.0,934.0
 02BIST20,klimatološka,Bistrica,24.11.2026 18:00,-2.60,82.8,0.00,0.50,18,0.70,0.5,
 02MOKR30,klimatološka,Mokro,24.11.2026 18:00,-4.46,86.8,,,,,,
+02ZBLJ10,glavna,Žabljak,24.11.2026 18:20,-6.60,78.0,0.00,1.20,20,,1.1,858.8
+02PDGR10,glavna,Podgorica,24.11.2026 18:20,5.30,65.0,0.00,1.10,6,,1.4,1019.0
+02UBLI20,klimatološka,Ubli,24.11.2026 18:00,2.76,,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,24.11.2026 18:00,-1.06,78.7,,,,,0.0,955.76
+02POSC30,klimatološka,Pošćenje,24.11.2026 18:00,-3.48,86.6,,,,,,
+02LKOT20,klimatološka,Luka Kotor,24.11.2026 17:46,7.80,80.0,,0.30,,1.10,,1028.0
+02ULCN10,glavna,Ulcinj,24.11.2026 18:20,4.20,79.0,0.00,0.60,28,,0.7,1024.7
+02DDOB30,klimatološka,Donja Dobrilovina,24.11.2026 18:00,-2.38,97.9,,,,,,
+02BUDV20,klimatološka,Budva,24.11.2026 18:00,7.67,84.1,,,,,0.0,1023.76
+02KOLS10,glavna,Kolašin,24.11.2026 18:20,-2.00,79.0,0.00,0.20,18,,0.0,915.5
+02BAR010,glavna,Bar,24.11.2026 18:20,7.10,50.0,0.00,1.10,6,,0.2,1024.4
+02HNOV10,glavna,Herceg Novi,24.11.2026 18:10,6.50,82.0,0.00,1.70,24,,0.7,1020.1
+02STIT30,klimatološka,Štitarica,24.11.2026 18:00,-4.13,96.9,,,,,,
+02NIKS10,glavna,Nikšić,24.11.2026 18:20,1.40,58.0,0.00,1.00,2,,0.8,948.4
+02CTNJ10,glavna,Cetinje,24.11.2026 18:20,-1.20,89.0,0.00,0.20,16,,0.4,949.2
+02SCPO30,klimatološka,Šćepan Polje,24.11.2026 18:00,-2.41,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,24.11.2026 18:20,-2.20,78.0,0.00,0.20,16,,0.0,933.9
