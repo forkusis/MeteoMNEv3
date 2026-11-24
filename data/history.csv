@@ -141568,3 +141568,20 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CRKV30,klimatološka,Crkvice,24.11.2026 22:00,-1.84,79.6,,,,,,
 02NIKS10,glavna,Nikšić,24.11.2026 22:00,0.50,63.0,0.00,2.30,2,,0.2,949.3
 02NJGV30,klimatološka,Njegovuđa,24.11.2026 22:00,-8.47,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,24.11.2026 22:10,5.50,80.0,0.00,0.30,26,,0.7,1020.6
+02PLJV10,glavna,Pljevlja,24.11.2026 22:20,-4.80,86.0,0.00,0.60,2,,0.5,934.9
+02STIT30,klimatološka,Štitarica,24.11.2026 22:00,-5.57,100.0,,,,,,
+02PDGR10,glavna,Podgorica,24.11.2026 22:20,2.80,78.0,0.00,0.80,20,,1.4,1019.8
+02BAR010,glavna,Bar,24.11.2026 22:20,6.40,60.0,0.00,0.90,14,,1.1,1025.0
+02NIKS10,glavna,Nikšić,24.11.2026 22:20,0.00,66.0,0.00,2.50,2,3.10,0.3,949.3
+02LKOT20,klimatološka,Luka Kotor,24.11.2026 21:46,5.90,69.0,,0.60,,1.90,,1028.2
+02UBLI20,klimatološka,Ubli,24.11.2026 22:00,1.88,,,,,,,
+02CTNJ10,glavna,Cetinje,24.11.2026 22:20,-3.00,94.0,0.00,0.20,6,,0.2,950.0
+02ZBLJ10,glavna,Žabljak,24.11.2026 22:20,-7.20,84.0,0.00,1.50,22,,0.4,859.2
+02SCPO30,klimatološka,Šćepan Polje,24.11.2026 22:00,-3.31,100.0,,,,,,
+02POSC30,klimatološka,Pošćenje,24.11.2026 22:00,-5.58,97.6,,,,,,
+02KOLS10,glavna,Kolašin,24.11.2026 22:20,-4.50,92.0,0.00,0.30,20,,0.2,916.5
+02DDOB30,klimatološka,Donja Dobrilovina,24.11.2026 22:00,-4.21,100.0,,,,,,
+02BUDV20,klimatološka,Budva,24.11.2026 22:00,6.26,83.2,,,,,0.0,1024.17
+02BPLJ20,klimatološka,Bijelo Polje,24.11.2026 22:00,-3.12,91.0,,,,,0.0,956.97
+02ULCN10,glavna,Ulcinj,24.11.2026 22:20,4.50,72.0,0.00,1.50,2,,0.0,1025.4
