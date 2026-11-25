@@ -141737,3 +141737,13 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02ULCN10,glavna,Ulcinj,25.11.2026 00:50,3.10,79.0,0.00,2.80,4,,0.0,1025.2
 02NIKS10,glavna,Nikšić,25.11.2026 00:50,-1.50,70.0,0.00,3.30,2,,0.9,949.2
 02CTNJ10,glavna,Cetinje,25.11.2026 00:50,-3.70,96.0,0.00,0.30,18,,0.4,949.9
+02STAB30,klimatološka,Stabna,25.11.2026 01:00,-3.67,99.9,,,,,,
+02MATE30,klimatološka,Matesevo,25.11.2026 01:00,-6.46,90.4,0.00,,,,,
+02DANL20,klimatološka,Danilovgrad,25.11.2026 01:00,-0.50,,0.00,,,,,
+02MAMO30,klimatološka,Manastir Morača,25.11.2026 01:00,-2.33,100.0,,,,,,
+02VIRP20,klimatološka,Virpazar,25.11.2026 01:00,0.70,99.0,0.00,,,,,
+02NJGV30,klimatološka,Njegovuđa,25.11.2026 01:00,-9.46,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,25.11.2026 01:00,3.20,81.0,0.00,3.50,4,,0.0,1025.2
+02LKOT20,klimatološka,Luka Kotor,25.11.2026 00:31,5.00,71.0,,0.50,,1.20,,1027.8
+02HNOV10,glavna,Herceg Novi,25.11.2026 00:50,4.80,69.0,0.00,1.20,24,,0.9,1020.3
+02MOKR30,klimatološka,Mokro,25.11.2026 01:00,-7.61,92.6,,,,,,
