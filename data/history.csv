@@ -142335,3 +142335,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02MATE30,klimatološka,Matesevo,25.11.2026 10:00,0.43,74.3,0.00,,,,,
 02VIRP20,klimatološka,Virpazar,25.11.2026 10:00,4.70,94.0,0.00,,,,,
 02NJGV30,klimatološka,Njegovuđa,25.11.2026 10:00,2.46,63.0,,,,,,
+02ULCN10,glavna,Ulcinj,25.11.2026 10:20,8.60,65.0,0.00,5.10,6,,205.5,1023.7
+02BPLJ20,klimatološka,Bijelo Polje,25.11.2026 10:00,-2.56,86.6,,,,,105.96,955.19
+02BOAN30,klimatološka,Boan,25.11.2026 10:00,-0.93,86.2,,,,,,
+02CTNJ10,glavna,Cetinje,25.11.2026 10:20,1.90,75.0,0.00,0.00,20,,110.4,948.8
+02KOSA30,klimatološka,Kosanica,25.11.2026 10:00,2.20,68.8,,,,,,
+02LKOT20,klimatološka,Luka Kotor,25.11.2026 09:46,7.80,70.0,,0.90,,1.90,,1026.2
+02BAR010,glavna,Bar,25.11.2026 10:20,11.10,56.0,0.00,1.40,4,,75.0,1022.8
+02CRKV30,klimatološka,Crkvice,25.11.2026 10:00,5.46,57.3,,,,,,
+02VELM20,klimatološka,Velimlje,25.11.2026 10:00,-0.20,85.1,0.00,0.20,32,0.50,99.7,
+02BUDV20,klimatološka,Budva,25.11.2026 10:00,10.90,68.5,,,,,99.5,1022.18
+02POSC30,klimatološka,Pošćenje,25.11.2026 10:00,-1.93,90.8,,,,,,
+02NIKS10,glavna,Nikšić,25.11.2026 10:20,1.50,72.0,0.00,0.40,4,,70.3,948.4
+02GOBU30,klimatološka,Gornja Bukovica,25.11.2026 10:00,2.81,49.7,,,,,,
+02IVKO30,klimatološka,Ivanova korita,25.11.2026 10:00,2.86,62.4,0.00,,,,,
+02GRAD30,klimatološka,Gradac,25.11.2026 10:00,-3.29,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,25.11.2026 10:20,1.40,69.0,0.00,3.50,8,,125.6,857.4
+02PDGR10,glavna,Podgorica,25.11.2026 10:20,6.20,58.0,0.00,0.90,8,,86.1,1018.9
+02HNOV10,glavna,Herceg Novi,25.11.2026 10:10,8.50,63.0,0.00,0.30,2,,52.8,1018.6
+02BIST20,klimatološka,Bistrica,25.11.2026 10:00,-2.20,83.1,0.00,1.10,2,1.30,92.3,
+02PLZN20,klimatološka,Pluzine,25.11.2026 10:00,0.26,84.6,0.00,0.40,20,1.30,62.76,938.96
+02PLJV10,glavna,Pljevlja,25.11.2026 10:10,-3.10,82.0,0.00,1.10,16,,128.9,932.4
+02KOLS10,glavna,Kolašin,25.11.2026 10:20,0.20,75.0,0.00,0.70,22,,241.2,914.5
+02STIT30,klimatološka,Štitarica,25.11.2026 10:00,5.03,26.4,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,25.11.2026 10:00,-1.46,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,25.11.2026 10:00,5.92,,,,,,,
+02KOVR30,klimatološka,Kovren,25.11.2026 10:00,-1.61,100.0,0.00,,,,,
+02BERA20,glavna,Berane,25.11.2026 10:00,-1.61,84.4,0.00,0.40,32,1.30,,943.72
