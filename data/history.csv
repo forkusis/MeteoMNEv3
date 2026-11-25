@@ -142641,3 +142641,20 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02LKOT20,klimatološka,Luka Kotor,25.11.2026 14:16,8.00,82.0,,0.00,,2.60,,1023.4
 02ULCN10,glavna,Ulcinj,25.11.2026 14:50,9.90,60.0,0.00,4.90,6,,31.3,1020.1
 02ZBLJ10,glavna,Žabljak,25.11.2026 14:50,4.30,75.0,0.00,1.30,4,,75.8,853.9
+02DANL20,klimatološka,Danilovgrad,25.11.2026 15:00,6.60,,0.08,,,,,
+02CTNJ10,glavna,Cetinje,25.11.2026 15:00,3.70,93.0,0.00,0.20,20,,11.1,945.8
+02NJGV30,klimatološka,Njegovuđa,25.11.2026 15:00,3.15,100.0,,,,,,
+02NIKS10,glavna,Nikšić,25.11.2026 15:00,4.90,69.0,0.00,1.50,14,,18.0,945.1
+02KOLS10,glavna,Kolašin,25.11.2026 15:00,3.90,70.0,0.00,0.30,20,,10.3,911.5
+02ZBLJ10,glavna,Žabljak,25.11.2026 15:00,4.70,75.0,0.00,2.70,4,,53.3,854.1
+02MOKR30,klimatološka,Mokro,25.11.2026 15:00,3.59,79.1,,,,,,
+02LKOT20,klimatološka,Luka Kotor,25.11.2026 14:31,8.20,84.0,,1.70,,3.10,,1023.4
+02PDGR10,glavna,Podgorica,25.11.2026 15:00,7.80,60.0,0.00,0.80,30,,31.6,1015.1
+02ULCN10,glavna,Ulcinj,25.11.2026 15:00,9.90,56.0,0.00,4.40,4,,24.0,1020.0
+02MATE30,klimatološka,Matesevo,25.11.2026 15:00,2.18,88.9,0.00,,,,,
+02BAR010,glavna,Bar,25.11.2026 15:00,15.20,51.0,0.00,0.60,10,,25.7,1019.0
+02MAMO30,klimatološka,Manastir Morača,25.11.2026 15:00,4.91,68.8,,,,,,
+02VIRP20,klimatološka,Virpazar,25.11.2026 15:00,8.00,73.0,0.00,,,,,
+02STAB30,klimatološka,Stabna,25.11.2026 15:00,3.70,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,25.11.2026 14:50,9.30,92.0,0.05,0.90,24,,11.6,1015.3
+02VELK30,klimatološka,Velika,25.11.2026 15:00,4.46,83.3,,,,,,
