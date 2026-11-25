@@ -1,5 +1,10 @@
 {
-  "updated_at": "2026-11-25T06:01:19.737212+00:00",
-  "mjerenje_labela": "",
-  "stations": []
+  "updated_at": "2026-11-25T06:16:00.405740+00:00",
+  "mjerenje_labela": "Srijeda, 25.11.2026. 7h",
+  "stations": [
+    {
+      "naziv": "Žabljak Žabljak Žabljak Žabljak Žabljak",
+      "vrijednost": 1.0
+    }
+  ]
 }
