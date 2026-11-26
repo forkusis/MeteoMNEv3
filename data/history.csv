@@ -143472,3 +143472,29 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PDGR10,glavna,Podgorica,26.11.2026 04:00,7.00,98.0,0.06,1.30,4,,1.2,1007.9
 02MATE30,klimatološka,Matesevo,26.11.2026 04:00,8.89,92.2,0.07,,,,,
 02ULCN10,glavna,Ulcinj,26.11.2026 04:00,10.70,94.0,0.00,2.80,4,,0.0,1013.5
+02CTNJ10,glavna,Cetinje,26.11.2026 04:10,6.30,100.0,0.27,0.50,8,,0.4,938.7
+02BERA20,glavna,Berane,26.11.2026 04:00,3.64,100.0,0.00,0.60,18,1.50,,932.47
+02GOBU30,klimatološka,Gornja Bukovica,26.11.2026 04:00,5.84,100.0,,,,,,
+02NIKS10,glavna,Nikšić,26.11.2026 04:20,6.30,100.0,0.11,6.80,16,,0.3,937.1
+02BPLJ20,klimatološka,Bijelo Polje,26.11.2026 04:00,2.37,100.0,,,,,0.0,943.46
+02UBLI20,klimatološka,Ubli,26.11.2026 04:00,10.78,,,,,,,
+02PLZN20,klimatološka,Pluzine,26.11.2026 04:00,7.12,100.0,0.04,2.10,18,7.00,1.51,926.84
+02CRKV30,klimatološka,Crkvice,26.11.2026 04:00,9.01,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,26.11.2026 04:00,7.38,100.0,,,,,,
+02BIST20,klimatološka,Bistrica,26.11.2026 04:00,10.70,77.2,0.00,2.20,6,3.70,0.5,
+02ULCN10,glavna,Ulcinj,26.11.2026 04:20,10.70,95.0,0.00,1.90,6,,0.0,1013.5
+02SCPO30,klimatološka,Šćepan Polje,26.11.2026 04:00,1.55,100.0,,,,,,
+02BOAN30,klimatološka,Boan,26.11.2026 04:00,7.26,100.0,,,,,,
+02KOLS10,glavna,Kolašin,26.11.2026 04:20,7.30,97.0,0.06,1.10,20,,0.0,903.9
+02PLJV10,glavna,Pljevlja,26.11.2026 04:20,6.00,92.0,0.00,1.80,20,,0.9,920.2
+02HNOV10,glavna,Herceg Novi,26.11.2026 04:10,14.20,91.0,0.00,7.50,10,,0.3,1006.7
+02DDOB30,klimatološka,Donja Dobrilovina,26.11.2026 04:00,7.34,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,26.11.2026 04:00,9.53,92.4,,,,,,
+02LKOT20,klimatološka,Luka Kotor,26.11.2026 03:46,15.90,81.0,,14.30,,29.80,,1013.0
+02PDGR10,glavna,Podgorica,26.11.2026 04:20,7.00,98.0,0.05,0.60,32,,0.0,1007.6
+02IVKO30,klimatološka,Ivanova korita,26.11.2026 04:00,6.88,100.0,0.00,,,,,
+02VELM20,klimatološka,Velimlje,26.11.2026 04:00,7.00,96.7,0.00,2.90,10,6.90,0.0,
+02POSC30,klimatološka,Pošćenje,26.11.2026 04:00,7.99,100.0,,,,,,
+02ZBLJ10,glavna,Žabljak,26.11.2026 04:20,6.00,92.0,0.05,5.00,16,,0.3,848.0
+02GRAD30,klimatološka,Gradac,26.11.2026 04:00,1.89,100.0,,,,,,
+02BAR010,glavna,Bar,26.11.2026 04:20,16.80,62.0,0.00,3.70,12,,0.2,1012.3
