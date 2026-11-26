@@ -143277,3 +143277,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02CTNJ10,glavna,Cetinje,26.11.2026 00:50,4.90,100.0,0.10,0.50,26,,0.3,941.8
 02MAMO30,klimatološka,Manastir Morača,26.11.2026 01:00,3.94,100.0,0.00,,,,,
 02STAB30,klimatološka,Stabna,26.11.2026 01:00,4.63,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,26.11.2026 01:00,8.56,100.0,,,,,,
+02BERA20,glavna,Berane,26.11.2026 01:00,3.80,95.2,0.00,0.90,12,2.00,,935.72
+02KOSA30,klimatološka,Kosanica,26.11.2026 01:00,4.96,100.0,,,,,,
+02GOBU30,klimatološka,Gornja Bukovica,26.11.2026 01:00,6.31,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,26.11.2026 01:00,6.10,97.2,0.00,4.10,12,6.80,0.0,
+02GRAD30,klimatološka,Gradac,26.11.2026 01:00,1.47,100.0,,,,,,
+02BAR010,glavna,Bar,26.11.2026 01:20,14.70,72.0,0.00,3.50,12,,0.3,1015.5
+02BIST20,klimatološka,Bistrica,26.11.2026 01:00,6.40,93.1,0.00,2.00,22,2.90,0.5,
+02PLJV10,glavna,Pljevlja,26.11.2026 01:10,4.00,91.0,0.00,0.70,24,,0.0,923.7
+02POSC30,klimatološka,Pošćenje,26.11.2026 01:00,5.90,100.0,,,,,,
+02KOLS10,glavna,Kolašin,26.11.2026 01:20,6.20,98.0,0.00,1.60,12,,0.2,907.6
+02BUDV20,klimatološka,Budva,26.11.2026 01:00,13.61,97.3,,,,,0.0,1014.91
+02BPLJ20,klimatološka,Bijelo Polje,26.11.2026 01:00,2.35,97.1,,,,,0.0,946.55
+02ZBLJ10,glavna,Žabljak,26.11.2026 01:20,5.40,92.0,0.00,2.40,12,,1.0,851.4
+02PDGR10,glavna,Podgorica,26.11.2026 01:20,6.60,97.0,0.00,0.40,24,,0.0,1011.3
+02PLZN20,klimatološka,Pluzine,26.11.2026 01:00,7.20,100.0,0.03,2.90,26,8.10,0.88,929.95
+02CTNJ10,glavna,Cetinje,26.11.2026 01:10,5.10,100.0,0.37,0.20,24,,0.6,941.6
+02LKOT20,klimatološka,Luka Kotor,26.11.2026 00:46,16.60,76.0,,9.60,,18.60,,1015.9
+02DDOB30,klimatološka,Donja Dobrilovina,26.11.2026 01:00,4.14,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,26.11.2026 01:00,1.11,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,26.11.2026 01:00,6.64,,,,,,,
+02BOAN30,klimatološka,Boan,26.11.2026 01:00,5.66,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,26.11.2026 01:00,7.38,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,26.11.2026 01:00,6.25,100.0,0.41,,,,,
+02NIKS10,glavna,Nikšić,26.11.2026 01:20,5.70,99.0,0.06,1.40,2,,0.0,940.6
+02HNOV10,glavna,Herceg Novi,26.11.2026 01:10,13.60,92.0,0.11,7.10,8,,0.4,1009.8
+02ULCN10,glavna,Ulcinj,26.11.2026 01:20,8.60,97.0,0.00,3.90,6,,0.2,1016.7
