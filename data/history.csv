@@ -143536,3 +143536,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02PLJV10,glavna,Pljevlja,26.11.2026 05:00,6.00,94.0,0.00,0.30,28,,0.0,919.8
 02MATE30,klimatološka,Matesevo,26.11.2026 05:00,8.87,93.9,0.09,,,,,
 02ZBLJ10,glavna,Žabljak,26.11.2026 05:00,5.90,92.0,0.00,5.20,18,,0.5,847.9
+02BAR010,glavna,Bar,26.11.2026 05:20,16.20,62.0,0.00,0.80,12,,0.0,1011.8
+02GRAD30,klimatološka,Gradac,26.11.2026 05:00,2.08,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,26.11.2026 05:00,8.23,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,26.11.2026 05:00,6.62,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,26.11.2026 05:00,10.83,,,,,,,
+02POSC30,klimatološka,Pošćenje,26.11.2026 05:00,7.52,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,26.11.2026 05:00,2.54,100.0,,,,,0.16,942.52
+02BIST20,klimatološka,Bistrica,26.11.2026 05:00,12.90,60.6,0.00,7.70,18,13.80,2.4,
+02PLZN20,klimatološka,Pluzine,26.11.2026 05:00,7.43,100.0,0.05,3.60,26,7.80,1.92,926.36
+02HNOV10,glavna,Herceg Novi,26.11.2026 05:10,14.10,94.0,0.16,5.90,8,,0.9,1006.5
+02DDOB30,klimatološka,Donja Dobrilovina,26.11.2026 05:00,11.82,84.4,,,,,,
+02KOLS10,glavna,Kolašin,26.11.2026 05:20,7.70,96.0,0.10,1.20,22,,0.1,903.5
+02ULCN10,glavna,Ulcinj,26.11.2026 05:20,11.20,91.0,0.00,0.70,2,,0.0,1012.7
+02SCPO30,klimatološka,Šćepan Polje,26.11.2026 05:00,1.77,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,26.11.2026 05:10,9.40,99.0,0.36,2.50,14,7.70,0.5,937.8
+02PLJV10,glavna,Pljevlja,26.11.2026 05:20,6.10,95.0,0.00,0.90,4,,0.0,920.0
+02LKOT20,klimatološka,Luka Kotor,26.11.2026 04:46,15.40,80.0,,11.80,,23.10,,1012.0
+02BOAN30,klimatološka,Boan,26.11.2026 05:00,7.40,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,26.11.2026 05:00,9.66,90.8,,,,,,
+02ZBLJ10,glavna,Žabljak,26.11.2026 05:20,5.80,93.0,0.10,4.20,18,,0.1,847.7
+02NIKS10,glavna,Nikšić,26.11.2026 05:20,6.30,100.0,0.15,9.20,16,,0.0,936.3
+02BUDV20,klimatološka,Budva,26.11.2026 05:00,15.00,86.1,,,,,0.41,1011.18
+02PDGR10,glavna,Podgorica,26.11.2026 05:20,7.70,98.0,0.00,0.80,30,,0.2,1006.3
+02IVKO30,klimatološka,Ivanova korita,26.11.2026 05:00,6.23,100.0,0.55,,,,,
+02VELM20,klimatološka,Velimlje,26.11.2026 05:00,7.40,97.4,0.06,2.40,6,7.30,0.0,
+02GOBU30,klimatološka,Gornja Bukovica,26.11.2026 05:00,6.78,100.0,,,,,,
+02BERA20,glavna,Berane,26.11.2026 05:00,3.62,100.0,0.00,0.40,32,1.50,,931.69
