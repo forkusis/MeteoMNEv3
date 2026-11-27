@@ -145843,3 +145843,32 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02BAR010,glavna,Bar,27.11.2026 16:50,14.30,83.0,0.00,3.10,6,4.50,0.1,1012.6
 02PDGR10,glavna,Podgorica,27.11.2026 16:50,12.70,96.0,0.00,1.50,2,1.90,1.6,1007.3
 02PLJV10,glavna,Pljevlja,27.11.2026 16:50,9.70,85.0,0.00,1.30,26,3.00,1.4,923.2
+02KOSA30,klimatološka,Kosanica,27.11.2026 17:00,3.53,100.0,,,,,,
+02NIKS10,glavna,Nikšić,27.11.2026 17:00,9.40,100.0,0.00,2.50,12,,0.0,938.7
+02MOKR30,klimatološka,Mokro,27.11.2026 17:00,6.66,91.6,,,,,,
+02KOVR30,klimatološka,Kovren,27.11.2026 17:00,7.25,100.0,0.00,,,,,
+02ZBLJ10,glavna,Žabljak,27.11.2026 17:00,4.10,94.0,0.00,0.50,26,,0.1,851.3
+02BAR010,glavna,Bar,27.11.2026 17:00,14.40,83.0,0.00,2.70,6,,0.3,1012.5
+02BERA20,glavna,Berane,27.11.2026 17:00,8.93,96.4,0.00,0.40,2,1.10,,934.23
+02GOBU30,klimatološka,Gornja Bukovica,27.11.2026 17:00,5.02,100.0,,,,,,
+02VELM20,klimatološka,Velimlje,27.11.2026 17:00,8.10,99.6,0.00,1.20,6,1.50,0.0,
+02VELK30,klimatološka,Velika,27.11.2026 17:00,7.77,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,27.11.2026 16:31,11.60,97.0,,1.40,,2.70,,1016.2
+02STAB30,klimatološka,Stabna,27.11.2026 17:00,7.59,100.0,,,,,,
+02CTNJ10,glavna,Cetinje,27.11.2026 16:50,9.40,100.0,0.00,0.80,8,,0.0,939.3
+02MAMO30,klimatološka,Manastir Morača,27.11.2026 17:00,11.07,100.0,,,,,,
+02DANL20,klimatološka,Danilovgrad,27.11.2026 17:00,12.60,,0.00,,,,,
+02KOLS10,glavna,Kolašin,27.11.2026 17:00,7.50,99.0,0.00,0.50,16,,0.4,906.1
+02IVKO30,klimatološka,Ivanova korita,27.11.2026 17:00,5.69,97.7,0.00,,,,,
+02PDGR10,glavna,Podgorica,27.11.2026 17:00,12.60,97.0,0.00,0.80,2,,1.0,1007.3
+02GRAD30,klimatološka,Gradac,27.11.2026 17:00,8.20,100.0,,,,,,
+02MATE30,klimatološka,Matesevo,27.11.2026 17:00,6.66,97.8,0.00,,,,,
+02VIRP20,klimatološka,Virpazar,27.11.2026 17:00,12.50,100.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,27.11.2026 17:00,7.90,86.2,0.00,1.30,18,2.10,0.5,
+02ULCN10,glavna,Ulcinj,27.11.2026 17:00,12.60,98.0,0.00,2.20,6,,0.0,1013.0
+02HNOV10,glavna,Herceg Novi,27.11.2026 16:50,14.50,90.0,0.00,0.20,28,,0.3,1007.8
+02BOAN30,klimatološka,Boan,27.11.2026 17:00,6.40,100.0,,,,,,
+02CRKV30,klimatološka,Crkvice,27.11.2026 17:00,6.43,100.0,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,27.11.2026 17:00,9.41,100.0,,,,,0.0,944.55
+02NJGV30,klimatološka,Njegovuđa,27.11.2026 17:00,4.50,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,27.11.2026 17:00,9.50,83.0,0.00,1.60,2,,0.7,923.3
