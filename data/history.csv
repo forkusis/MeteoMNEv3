@@ -145079,3 +145079,30 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,27.11.2026 05:00,12.50,100.0,0.00,,,,,
 02VELK30,klimatološka,Velika,27.11.2026 05:00,5.52,100.0,,,,,,
 02BAR010,glavna,Bar,27.11.2026 05:00,15.20,87.0,0.00,1.00,6,,0.9,1010.7
+02PDGR10,glavna,Podgorica,27.11.2026 05:20,11.60,99.0,0.00,1.50,4,,1.4,1005.5
+02GOBU30,klimatološka,Gornja Bukovica,27.11.2026 05:00,5.51,100.0,,,,,,
+02IVKO30,klimatološka,Ivanova korita,27.11.2026 05:00,5.45,100.0,0.00,,,,,
+02NIKS10,glavna,Nikšić,27.11.2026 05:20,8.80,100.0,0.00,1.70,12,,0.0,936.8
+02KOVR30,klimatološka,Kovren,27.11.2026 05:00,4.75,100.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,27.11.2026 05:00,11.60,55.1,0.00,2.90,18,5.30,1.6,
+02ZBLJ10,glavna,Žabljak,27.11.2026 05:20,5.30,77.0,0.00,3.50,18,,0.1,848.2
+02KOLS10,glavna,Kolašin,27.11.2026 05:20,6.60,100.0,0.00,0.40,20,,0.5,904.3
+02CTNJ10,glavna,Cetinje,27.11.2026 05:10,8.70,100.0,0.00,0.90,16,1.40,0.3,937.9
+02KOSA30,klimatološka,Kosanica,27.11.2026 05:00,6.46,97.4,,,,,,
+02BPLJ20,klimatološka,Bijelo Polje,27.11.2026 05:00,7.27,100.0,,,,,0.0,942.11
+02DDOB30,klimatološka,Donja Dobrilovina,27.11.2026 05:00,4.31,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,27.11.2026 05:00,8.77,100.0,0.00,1.70,14,3.70,2.98,926.63
+02HNOV10,glavna,Herceg Novi,27.11.2026 05:10,13.50,98.0,0.00,0.70,22,,1.0,1006.4
+02LKOT20,klimatološka,Luka Kotor,27.11.2026 04:46,14.00,83.0,,0.80,,2.00,,1013.9
+02GRAD30,klimatološka,Gradac,27.11.2026 05:00,4.32,100.0,,,,,,
+02BOAN30,klimatološka,Boan,27.11.2026 05:00,4.55,100.0,,,,,,
+02UBLI20,klimatološka,Ubli,27.11.2026 05:00,9.47,,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,27.11.2026 05:00,5.74,100.0,,,,,,
+02BERA20,glavna,Berane,27.11.2026 05:00,4.28,100.0,0.00,0.80,8,1.60,,931.8
+02ULCN10,glavna,Ulcinj,27.11.2026 05:20,14.20,93.0,0.00,1.50,30,,0.4,1011.2
+02PLJV10,glavna,Pljevlja,27.11.2026 05:20,7.90,69.0,0.00,1.00,4,,0.0,920.5
+02STIT30,klimatološka,Štitarica,27.11.2026 05:00,8.97,87.6,,,,,,
+02VELM20,klimatološka,Velimlje,27.11.2026 05:00,6.70,100.0,0.00,0.90,16,1.20,0.0,
+02BAR010,glavna,Bar,27.11.2026 05:20,14.90,86.0,0.00,1.70,10,,0.4,1011.0
+02BUDV20,klimatološka,Budva,27.11.2026 05:00,13.17,100.0,,,,,0.0,1010.28
+02POSC30,klimatološka,Pošćenje,27.11.2026 05:00,6.16,100.0,,,,,,
