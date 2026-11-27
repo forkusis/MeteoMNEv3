@@ -145664,3 +145664,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02VIRP20,klimatološka,Virpazar,27.11.2026 14:00,13.60,100.0,0.92,,,,,
 02PDGR10,glavna,Podgorica,27.11.2026 14:00,14.20,88.0,0.00,0.00,22,,73.0,1007.1
 02CTNJ10,glavna,Cetinje,27.11.2026 13:50,10.10,100.0,0.00,0.60,10,,82.2,939.0
+02NIKS10,glavna,Nikšić,27.11.2026 14:20,9.70,100.0,0.05,1.80,14,,70.9,938.3
+02BOAN30,klimatološka,Boan,27.11.2026 14:00,7.48,100.0,,,,,,
+02ULCN10,glavna,Ulcinj,27.11.2026 14:20,15.50,88.0,0.00,2.90,2,,80.9,1012.8
+02KOVR30,klimatološka,Kovren,27.11.2026 14:00,8.42,100.0,0.00,,,,,
+02STIT30,klimatološka,Štitarica,27.11.2026 14:00,8.46,100.0,,,,,,
+02KOSA30,klimatološka,Kosanica,27.11.2026 14:00,8.19,95.6,,,,,,
+02POSC30,klimatološka,Pošćenje,27.11.2026 14:00,8.14,100.0,,,,,,
+02BAR010,glavna,Bar,27.11.2026 14:20,16.10,77.0,0.00,3.30,12,,47.5,1012.5
+02PDGR10,glavna,Podgorica,27.11.2026 14:20,14.30,87.0,0.00,0.20,14,,82.4,1007.2
+02HNOV10,glavna,Herceg Novi,27.11.2026 14:10,16.50,83.0,0.00,2.40,10,,109.9,1007.7
+02ZBLJ10,glavna,Žabljak,27.11.2026 14:20,4.90,91.0,0.00,2.90,10,,73.8,850.6
+02DDOB30,klimatološka,Donja Dobrilovina,27.11.2026 14:00,11.46,88.1,,,,,,
+02CTNJ10,glavna,Cetinje,27.11.2026 14:10,10.00,100.0,0.00,0.80,6,,70.1,939.2
+02BPLJ20,klimatološka,Bijelo Polje,27.11.2026 14:00,10.55,100.0,,,,,89.86,943.68
+02KOLS10,glavna,Kolašin,27.11.2026 14:20,8.90,93.0,0.00,0.60,18,,81.4,905.4
+02GRAD30,klimatološka,Gradac,27.11.2026 14:00,12.47,88.1,,,,,,
+02IVKO30,klimatološka,Ivanova korita,27.11.2026 14:00,6.40,93.4,0.00,,,,,
+02LKOT20,klimatološka,Luka Kotor,27.11.2026 13:46,16.90,63.0,,1.50,,4.50,,1015.5
+02GOBU30,klimatološka,Gornja Bukovica,27.11.2026 14:00,5.57,100.0,,,,,,
+02PLJV10,glavna,Pljevlja,27.11.2026 14:20,11.00,82.0,0.00,0.20,4,,127.5,922.3
+02BERA20,glavna,Berane,27.11.2026 14:00,11.89,74.4,0.00,1.60,26,4.80,,933.3
+02SCPO30,klimatološka,Šćepan Polje,27.11.2026 14:00,9.29,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,27.11.2026 14:00,9.32,100.0,0.03,2.40,18,4.50,41.81,928.22
+02BIST20,klimatološka,Bistrica,27.11.2026 14:00,11.60,70.6,0.00,3.10,6,5.10,94.5,
+02UBLI20,klimatološka,Ubli,27.11.2026 14:00,11.14,,,,,,,
+02CRKV30,klimatološka,Crkvice,27.11.2026 14:00,8.99,100.0,,,,,,
+02BUDV20,klimatološka,Budva,27.11.2026 14:00,17.32,78.2,,,,,91.02,1011.9
+02VELM20,klimatološka,Velimlje,27.11.2026 14:00,10.40,88.1,0.00,2.80,12,4.40,57.6,
