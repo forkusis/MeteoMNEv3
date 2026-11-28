@@ -146975,3 +146975,31 @@ sifra,tip,stanica,datum_vrijeme,T,vlaga,RR,vjetar,smjer_kod,udar,insolacija,prit
 02NJGV30,klimatološka,Njegovuđa,28.11.2026 10:00,-2.97,100.0,,,,,,
 02MOKR30,klimatološka,Mokro,28.11.2026 10:00,0.34,86.6,,,,,,
 02MAMO30,klimatološka,Manastir Morača,28.11.2026 10:00,6.84,73.4,,,,,,
+02IVKO30,klimatološka,Ivanova korita,28.11.2026 10:00,3.50,100.0,0.00,,,,,
+02BIST20,klimatološka,Bistrica,28.11.2026 10:00,0.40,94.3,0.00,1.90,6,2.90,36.3,
+02GRAD30,klimatološka,Gradac,28.11.2026 10:00,0.28,100.0,,,,,,
+02LKOT20,klimatološka,Luka Kotor,28.11.2026 09:46,12.10,63.0,,2.90,,10.30,,1017.6
+02VELM20,klimatološka,Velimlje,28.11.2026 10:00,5.00,92.1,0.00,0.90,2,2.00,109.7,
+02BAR010,glavna,Bar,28.11.2026 10:20,10.90,77.0,0.00,7.40,6,,59.4,1013.2
+02BUDV20,klimatološka,Budva,28.11.2026 10:00,12.34,100.0,,,,,57.5,1012.71
+02CRKV30,klimatološka,Crkvice,28.11.2026 10:00,3.53,100.0,,,,,,
+02KOLS10,glavna,Kolašin,28.11.2026 10:20,0.60,89.0,0.00,1.70,2,,27.7,910.2
+02POSC30,klimatološka,Pošćenje,28.11.2026 10:00,0.66,96.2,,,,,,
+02UBLI20,klimatološka,Ubli,28.11.2026 10:00,6.05,,,,,,,
+02ZBLJ10,glavna,Žabljak,28.11.2026 10:20,-2.60,91.0,0.00,1.60,30,,54.4,855.1
+02BERA20,glavna,Berane,28.11.2026 10:00,1.47,96.6,0.00,2.40,30,7.10,,940.03
+02KOSA30,klimatološka,Kosanica,28.11.2026 10:00,-2.05,100.0,,,,,,
+02PLZN20,klimatološka,Pluzine,28.11.2026 10:00,2.22,100.0,0.00,7.90,2,13.40,88.7,934.35
+02NIKS10,glavna,Nikšić,28.11.2026 10:20,5.50,64.0,0.00,5.50,32,,38.3,941.0
+02KOVR30,klimatološka,Kovren,28.11.2026 10:00,-1.14,100.0,0.02,,,,,
+02CTNJ10,glavna,Cetinje,28.11.2026 10:10,6.00,96.0,0.00,1.00,26,,27.2,940.5
+02GOBU30,klimatološka,Gornja Bukovica,28.11.2026 10:00,-2.01,100.0,,,,,,
+02SCPO30,klimatološka,Šćepan Polje,28.11.2026 10:00,1.44,100.0,,,,,,
+02PDGR10,glavna,Podgorica,28.11.2026 10:20,8.90,72.0,0.00,5.00,2,,39.3,1009.5
+02ULCN10,glavna,Ulcinj,28.11.2026 10:20,10.50,92.0,0.00,5.80,6,,49.0,1013.4
+02BPLJ20,klimatološka,Bijelo Polje,28.11.2026 10:00,2.32,100.0,,,,,49.91,951.52
+02PLJV10,glavna,Pljevlja,28.11.2026 10:20,0.70,94.0,0.00,0.60,24,,49.6,930.4
+02BOAN30,klimatološka,Boan,28.11.2026 10:00,0.89,100.0,,,,,,
+02STIT30,klimatološka,Štitarica,28.11.2026 10:00,-0.55,100.0,,,,,,
+02HNOV10,glavna,Herceg Novi,28.11.2026 10:10,12.70,85.0,0.00,0.70,20,,76.5,1008.8
+02DDOB30,klimatološka,Donja Dobrilovina,28.11.2026 10:00,0.28,100.0,,,,,,
