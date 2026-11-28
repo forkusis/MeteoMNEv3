@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-28T13:01:18.190194+00:00",
-  "mjerenje_labela": "Subota, 28.11.2026. 7h",
+  "updated_at": "2026-11-28T13:16:01.023722+00:00",
+  "mjerenje_labela": "Subota, 28.11.2026. Visina snijega u    7h (cm)",
   "stations": [
     {
-      "naziv": "Žabljak Žabljak Žabljak Žabljak Žabljak",
+      "naziv": "Žabljak",
       "vrijednost": 1.0
     }
   ]
